@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: bc80c56aa03299b45851efd4850a8e99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7584263213754239132
+    second: 041.012_blackknight_champion_0
+  - first:
+      213: -6199077369541223000
+    second: 041.012_blackknight_champion_1
+  - first:
+      213: -8833873963412359071
+    second: 041.012_blackknight_champion_2
+  - first:
+      213: 8411938015112200475
+    second: 041.012_blackknight_champion_3
+  - first:
+      213: 4870831178278197270
+    second: 041.012_blackknight_champion_4
+  - first:
+      213: -8182638119299917293
+    second: 041.012_blackknight_champion_5
+  - first:
+      213: -6078042867452260962
+    second: 041.012_blackknight_champion_6
+  - first:
+      213: 8312835593950146709
+    second: 041.012_blackknight_champion_7
+  - first:
+      213: -2956817027269308925
+    second: 041.012_blackknight_champion_8
+  - first:
+      213: -8530471487564841732
+    second: 041.012_blackknight_champion_9
+  - first:
+      213: 1546955549955995530
+    second: 041.012_blackknight_champion_10
+  - first:
+      213: 4316675016464180365
+    second: 041.012_blackknight_champion_11
+  - first:
+      213: -4625920546282871948
+    second: 041.012_blackknight_champion_12
+  - first:
+      213: 7245421647955200108
+    second: 041.012_blackknight_champion_13
+  - first:
+      213: -8583874570790754509
+    second: 041.012_blackknight_champion_14
+  - first:
+      213: -470513579328101243
+    second: 041.012_blackknight_champion_15
+  - first:
+      213: -2709675983366324137
+    second: 041.012_blackknight_champion_16
+  - first:
+      213: 1296747994748891146
+    second: 041.012_blackknight_champion_17
+  - first:
+      213: 7782889723566027672
+    second: 041.012_blackknight_champion_18
+  - first:
+      213: 2916028157699571854
+    second: 041.012_blackknight_champion_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 202
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467bd1d4ac84fb690800000000000000
+      internalID: -7584263213754239132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 202
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad155df9f378f9a0800000000000000
+      internalID: -6199077369541223000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 202
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168fb342f66c76580800000000000000
+      internalID: -8833873963412359071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 202
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b110e5f6e053db470800000000000000
+      internalID: 8411938015112200475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 154
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6185b2e562ba89340800000000000000
+      internalID: 4870831178278197270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 154
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ade85ebfd617e80800000000000000
+      internalID: -8182638119299917293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 154
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d49e3073476aba0800000000000000
+      internalID: -6078042867452260962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 154
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5903f9dedef1d5370800000000000000
+      internalID: 8312835593950146709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 106
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e49cf549647f6d0800000000000000
+      internalID: -2956817027269308925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 106
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc7911e06dad9980800000000000000
+      internalID: -8530471487564841732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 106
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87327660e3e77510800000000000000
+      internalID: 1546955549955995530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 106
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84a6278e09e7eb30800000000000000
+      internalID: 4316675016464180365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 58
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473e0a7b5cd6dcfb0800000000000000
+      internalID: -4625920546282871948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 58
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c688b46d998ec8460800000000000000
+      internalID: 7245421647955200108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 58
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3372283ae83ffd880800000000000000
+      internalID: -8583874570790754509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 58
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584a62a74666879f0800000000000000
+      internalID: -470513579328101243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7500b03bc0c456ad0800000000000000
+      internalID: -2709675983366324137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 10
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0035364e69fef110800000000000000
+      internalID: 1296747994748891146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 10
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893f033d7f0620c60800000000000000
+      internalID: 7782889723566027672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 041.012_blackknight_champion_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 10
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8048bed820d77820800000000000000
+      internalID: 2916028157699571854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      041.012_blackknight_champion_0: -7584263213754239132
+      041.012_blackknight_champion_1: -6199077369541223000
+      041.012_blackknight_champion_10: 1546955549955995530
+      041.012_blackknight_champion_11: 4316675016464180365
+      041.012_blackknight_champion_12: -4625920546282871948
+      041.012_blackknight_champion_13: 7245421647955200108
+      041.012_blackknight_champion_14: -8583874570790754509
+      041.012_blackknight_champion_15: -470513579328101243
+      041.012_blackknight_champion_16: -2709675983366324137
+      041.012_blackknight_champion_17: 1296747994748891146
+      041.012_blackknight_champion_18: 7782889723566027672
+      041.012_blackknight_champion_19: 2916028157699571854
+      041.012_blackknight_champion_2: -8833873963412359071
+      041.012_blackknight_champion_3: 8411938015112200475
+      041.012_blackknight_champion_4: 4870831178278197270
+      041.012_blackknight_champion_5: -8182638119299917293
+      041.012_blackknight_champion_6: -6078042867452260962
+      041.012_blackknight_champion_7: 8312835593950146709
+      041.012_blackknight_champion_8: -2956817027269308925
+      041.012_blackknight_champion_9: -8530471487564841732
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

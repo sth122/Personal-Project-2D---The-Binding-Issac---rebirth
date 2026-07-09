@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: ca1c3427fdf45bb47a63412cdaed5920
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4494105498023628637
+    second: 843.000_canary_champion_0
+  - first:
+      213: 4216768508242564655
+    second: 843.000_canary_champion_1
+  - first:
+      213: -7042348249840062973
+    second: 843.000_canary_champion_2
+  - first:
+      213: -9156842458284914317
+    second: 843.000_canary_champion_3
+  - first:
+      213: 6372010149421701316
+    second: 843.000_canary_champion_4
+  - first:
+      213: -558863023279640115
+    second: 843.000_canary_champion_5
+  - first:
+      213: -2280154996584790330
+    second: 843.000_canary_champion_6
+  - first:
+      213: -4277416903845787560
+    second: 843.000_canary_champion_7
+  - first:
+      213: 2957719429063617034
+    second: 843.000_canary_champion_8
+  - first:
+      213: -6863141475728947520
+    second: 843.000_canary_champion_9
+  - first:
+      213: 879139403867995231
+    second: 843.000_canary_champion_10
+  - first:
+      213: 7107756244357774664
+    second: 843.000_canary_champion_11
+  - first:
+      213: 5397834350610075244
+    second: 843.000_canary_champion_12
+  - first:
+      213: -3072635075947262139
+    second: 843.000_canary_champion_13
+  - first:
+      213: 4872719966755506674
+    second: 843.000_canary_champion_14
+  - first:
+      213: -8398107568850431546
+    second: 843.000_canary_champion_15
+  - first:
+      213: -5672437701280320707
+    second: 843.000_canary_champion_16
+  - first:
+      213: 2802604450975124516
+    second: 843.000_canary_champion_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 843.000_canary_champion_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 130
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f04d0c3254e5e30800000000000000
+      internalID: 4494105498023628637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 130
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f261ad9ed98f48a30800000000000000
+      internalID: 4216768508242564655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 130
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e60b7249d844e90800000000000000
+      internalID: -7042348249840062973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 129
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37986b99c4c5ce080800000000000000
+      internalID: -9156842458284914317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 98
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8d675787ded6850800000000000000
+      internalID: 6372010149421701316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 98
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1f0539a058e38f0800000000000000
+      internalID: -558863023279640115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 98
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c64bb38c134b50e0800000000000000
+      internalID: -2280154996584790330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 97
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858450a1dff83a4c0800000000000000
+      internalID: -4277416903845787560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 66
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0aab9a662eeb0920800000000000000
+      internalID: 2957719429063617034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 66
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c60de7b03931c0a0800000000000000
+      internalID: -6863141475728947520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_10
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 66
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cb99341a4533c00800000000000000
+      internalID: 879139403867995231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 65
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d720f45a2d3a260800000000000000
+      internalID: 7107756244357774664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 34
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ec3803eb5f8ea40800000000000000
+      internalID: 5397834350610075244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 34
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f02cd8daecb55d0800000000000000
+      internalID: -3072635075947262139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 34
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f94a643ef06f9340800000000000000
+      internalID: 4872719966755506674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 33
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1962549ade37b80800000000000000
+      internalID: -8398107568850431546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 9
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3337ace6f37741b0800000000000000
+      internalID: -5672437701280320707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.000_canary_champion_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 9
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c0d4a36e9d4e620800000000000000
+      internalID: 2802604450975124516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      843.000_canary_champion_0: 4494105498023628637
+      843.000_canary_champion_1: 4216768508242564655
+      843.000_canary_champion_10: 879139403867995231
+      843.000_canary_champion_11: 7107756244357774664
+      843.000_canary_champion_12: 5397834350610075244
+      843.000_canary_champion_13: -3072635075947262139
+      843.000_canary_champion_14: 4872719966755506674
+      843.000_canary_champion_15: -8398107568850431546
+      843.000_canary_champion_16: -5672437701280320707
+      843.000_canary_champion_17: 2802604450975124516
+      843.000_canary_champion_2: -7042348249840062973
+      843.000_canary_champion_3: -9156842458284914317
+      843.000_canary_champion_4: 6372010149421701316
+      843.000_canary_champion_5: -558863023279640115
+      843.000_canary_champion_6: -2280154996584790330
+      843.000_canary_champion_7: -4277416903845787560
+      843.000_canary_champion_8: 2957719429063617034
+      843.000_canary_champion_9: -6863141475728947520
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

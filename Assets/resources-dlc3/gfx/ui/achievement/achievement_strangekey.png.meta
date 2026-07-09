@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: eae4667f487f6694e822b98d4bafeec5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2078103148314996894
+    second: achievement_strangekey_0
+  - first:
+      213: -3685874842334133269
+    second: achievement_strangekey_1
+  - first:
+      213: 8976133059079292039
+    second: achievement_strangekey_2
+  - first:
+      213: -5260653914709291655
+    second: achievement_strangekey_3
+  - first:
+      213: -6695272570115347441
+    second: achievement_strangekey_4
+  - first:
+      213: -7846996217890735970
+    second: achievement_strangekey_5
+  - first:
+      213: 2941561218712326861
+    second: achievement_strangekey_6
+  - first:
+      213: 3141263611743568315
+    second: achievement_strangekey_7
+  - first:
+      213: 7325245657969545573
+    second: achievement_strangekey_8
+  - first:
+      213: 7614693747386989429
+    second: achievement_strangekey_9
+  - first:
+      213: -6885613526495590007
+    second: achievement_strangekey_10
+  - first:
+      213: 968294329145244035
+    second: achievement_strangekey_11
+  - first:
+      213: -7430403474036432959
+    second: achievement_strangekey_12
+  - first:
+      213: 7823198282808124385
+    second: achievement_strangekey_13
+  - first:
+      213: 5883863120143673226
+    second: achievement_strangekey_14
+  - first:
+      213: 3972540624771748132
+    second: achievement_strangekey_15
+  - first:
+      213: -8220953821564127868
+    second: achievement_strangekey_16
+  - first:
+      213: 6641225429435231505
+    second: achievement_strangekey_17
+  - first:
+      213: 851241363795939678
+    second: achievement_strangekey_18
+  - first:
+      213: 8082881851888627378
+    second: achievement_strangekey_19
+  - first:
+      213: 7933343591439198526
+    second: achievement_strangekey_20
+  - first:
+      213: 1267696958099322264
+    second: achievement_strangekey_21
+  - first:
+      213: -7543753464612245462
+    second: achievement_strangekey_22
+  - first:
+      213: -2419457325378973798
+    second: achievement_strangekey_23
+  - first:
+      213: 2881803940324388816
+    second: achievement_strangekey_24
+  - first:
+      213: 2817679857817018257
+    second: achievement_strangekey_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_strangekey_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 141
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f401662381923e0800000000000000
+      internalID: -2078103148314996894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 136
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be300280c5429dcc0800000000000000
+      internalID: -3685874842334133269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 144
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784cf0ba571a19c70800000000000000
+      internalID: 8976133059079292039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 133
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d0c7ff2276ef6b0800000000000000
+      internalID: -5260653914709291655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 142
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cabdf021d9513a0800000000000000
+      internalID: -6695272570115347441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 141
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98f9c6d38ed91390800000000000000
+      internalID: -7846996217890735970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 144
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2d966e75682d820800000000000000
+      internalID: 2941561218712326861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_7
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 136
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb106db9c92089b20800000000000000
+      internalID: 3141263611743568315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 135
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5615fb77d1088a560800000000000000
+      internalID: 7325245657969545573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_9
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bb36e6e93dca960800000000000000
+      internalID: 7614693747386989429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_10
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 132
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9890b9caaf26170a0800000000000000
+      internalID: -6885613526495590007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_11
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3893ab6ef82107d00800000000000000
+      internalID: 968294329145244035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 101
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfda388867e1e890800000000000000
+      internalID: -7430403474036432959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 52
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3693e9365919c60800000000000000
+      internalID: 7823198282808124385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_14
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 101
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a876f2f655ea7a150800000000000000
+      internalID: 5883863120143673226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 63
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421145b96ac412730800000000000000
+      internalID: 3972540624771748132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_16
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 67
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485b7c64e0e49ed80800000000000000
+      internalID: -8220953821564127868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d27c2675f5a2c50800000000000000
+      internalID: 6641225429435231505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e511d23a28730db00800000000000000
+      internalID: 851241363795939678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bee547283a2c2070800000000000000
+      internalID: 8082881851888627378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39ead8b6f5e81e60800000000000000
+      internalID: 7933343591439198526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8957a56baa3c79110800000000000000
+      internalID: 1267696958099322264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a203aa441343f4790800000000000000
+      internalID: -7543753464612245462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fc193a16c5c6ed0800000000000000
+      internalID: -2419457325378973798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df2b5f4a693ef720800000000000000
+      internalID: 2881803940324388816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_strangekey_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fd4f7e6e86a1720800000000000000
+      internalID: 2817679857817018257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_strangekey_0: -2078103148314996894
+      achievement_strangekey_1: -3685874842334133269
+      achievement_strangekey_10: -6885613526495590007
+      achievement_strangekey_11: 968294329145244035
+      achievement_strangekey_12: -7430403474036432959
+      achievement_strangekey_13: 7823198282808124385
+      achievement_strangekey_14: 5883863120143673226
+      achievement_strangekey_15: 3972540624771748132
+      achievement_strangekey_16: -8220953821564127868
+      achievement_strangekey_17: 6641225429435231505
+      achievement_strangekey_18: 851241363795939678
+      achievement_strangekey_19: 8082881851888627378
+      achievement_strangekey_2: 8976133059079292039
+      achievement_strangekey_20: 7933343591439198526
+      achievement_strangekey_21: 1267696958099322264
+      achievement_strangekey_22: -7543753464612245462
+      achievement_strangekey_23: -2419457325378973798
+      achievement_strangekey_24: 2881803940324388816
+      achievement_strangekey_25: 2817679857817018257
+      achievement_strangekey_3: -5260653914709291655
+      achievement_strangekey_4: -6695272570115347441
+      achievement_strangekey_5: -7846996217890735970
+      achievement_strangekey_6: 2941561218712326861
+      achievement_strangekey_7: 3141263611743568315
+      achievement_strangekey_8: 7325245657969545573
+      achievement_strangekey_9: 7614693747386989429
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

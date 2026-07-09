@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 35dac9114b529184685678f96cc94604
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8538332505979406811
+    second: achievement_eucharist_0
+  - first:
+      213: -1262847164009607739
+    second: achievement_eucharist_1
+  - first:
+      213: 1652998440344043215
+    second: achievement_eucharist_2
+  - first:
+      213: 8392852424870078968
+    second: achievement_eucharist_3
+  - first:
+      213: 8361498421689827096
+    second: achievement_eucharist_4
+  - first:
+      213: -2013955025855435659
+    second: achievement_eucharist_5
+  - first:
+      213: 2874275115457761400
+    second: achievement_eucharist_6
+  - first:
+      213: -9211234305515499249
+    second: achievement_eucharist_7
+  - first:
+      213: -6526245724372302738
+    second: achievement_eucharist_8
+  - first:
+      213: 404161640444723057
+    second: achievement_eucharist_9
+  - first:
+      213: 8415885418636234359
+    second: achievement_eucharist_10
+  - first:
+      213: 946593342725247895
+    second: achievement_eucharist_11
+  - first:
+      213: 2590895545931981925
+    second: achievement_eucharist_12
+  - first:
+      213: -998240951662893554
+    second: achievement_eucharist_13
+  - first:
+      213: -7730628116435519988
+    second: achievement_eucharist_14
+  - first:
+      213: 8621357386833688371
+    second: achievement_eucharist_15
+  - first:
+      213: 4629262746932912910
+    second: achievement_eucharist_16
+  - first:
+      213: 8328743942310427054
+    second: achievement_eucharist_17
+  - first:
+      213: 4149352782533035444
+    second: achievement_eucharist_18
+  - first:
+      213: 1759480123398182488
+    second: achievement_eucharist_19
+  - first:
+      213: 7588778076245319050
+    second: achievement_eucharist_20
+  - first:
+      213: -531740944062799448
+    second: achievement_eucharist_21
+  - first:
+      213: 7244785647084439464
+    second: achievement_eucharist_22
+  - first:
+      213: -2772983813276514645
+    second: achievement_eucharist_23
+  - first:
+      213: 1853093049593219851
+    second: achievement_eucharist_24
+  - first:
+      213: 5119158499280359046
+    second: achievement_eucharist_25
+  - first:
+      213: 5675916916670007716
+    second: achievement_eucharist_26
+  - first:
+      213: -6501676685941838354
+    second: achievement_eucharist_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_eucharist_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 137
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9c2191d204e7670800000000000000
+      internalID: 8538332505979406811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 135
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd0997f137797ee0800000000000000
+      internalID: -1262847164009607739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 140
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce3bf2d251a0f610800000000000000
+      internalID: 1652998440344043215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 134
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f928ac20d6697470800000000000000
+      internalID: 8392852424870078968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 132
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fbfce63820a0470800000000000000
+      internalID: 8361498421689827096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 138
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c264a039efc04e0800000000000000
+      internalID: -2013955025855435659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 134
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870da9b2df973e720800000000000000
+      internalID: 2874275115457761400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 142
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f015bdcc33f1b2080800000000000000
+      internalID: -9211234305515499249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 126
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6480e9571e1e65a0800000000000000
+      internalID: -6526245724372302738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 126
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ffb82eededb9500800000000000000
+      internalID: 404161640444723057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 130
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ec330f23b3bc470800000000000000
+      internalID: 8415885418636234359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 128
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79353e341a9f22d00800000000000000
+      internalID: 946593342725247895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 103
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564ea6995c5b4f320800000000000000
+      internalID: 2590895545931981925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 48
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06a2e3b4298522f0800000000000000
+      internalID: -998240951662893554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 101
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06b63dcfaa47b490800000000000000
+      internalID: -7730628116435519988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 82
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33779eb8dd635a770800000000000000
+      internalID: 8621357386833688371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 77
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03a2e201f17e3040800000000000000
+      internalID: 4629262746932912910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 60
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9799aec74a59370800000000000000
+      internalID: 8328743942310427054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 57
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b509aa1f56759930800000000000000
+      internalID: 4149352782533035444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8565280a9ddea6810800000000000000
+      internalID: 1759480123398182488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_20
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ddfd90471c05960800000000000000
+      internalID: 7588778076245319050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a12b9cbd60ee98f0800000000000000
+      internalID: -531740944062799448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a701585926aa8460800000000000000
+      internalID: 7244785647084439464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6ceb9e9e16489d0800000000000000
+      internalID: -2772983813276514645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_24
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bcfbc7f4287b910800000000000000
+      internalID: 1853093049593219851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e078a5887ea0740800000000000000
+      internalID: 5119158499280359046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_26
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a90fb80d58e4ce40800000000000000
+      internalID: 5675916916670007716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eucharist_27
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed6ff1608765c5a0800000000000000
+      internalID: -6501676685941838354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_eucharist_0: 8538332505979406811
+      achievement_eucharist_1: -1262847164009607739
+      achievement_eucharist_10: 8415885418636234359
+      achievement_eucharist_11: 946593342725247895
+      achievement_eucharist_12: 2590895545931981925
+      achievement_eucharist_13: -998240951662893554
+      achievement_eucharist_14: -7730628116435519988
+      achievement_eucharist_15: 8621357386833688371
+      achievement_eucharist_16: 4629262746932912910
+      achievement_eucharist_17: 8328743942310427054
+      achievement_eucharist_18: 4149352782533035444
+      achievement_eucharist_19: 1759480123398182488
+      achievement_eucharist_2: 1652998440344043215
+      achievement_eucharist_20: 7588778076245319050
+      achievement_eucharist_21: -531740944062799448
+      achievement_eucharist_22: 7244785647084439464
+      achievement_eucharist_23: -2772983813276514645
+      achievement_eucharist_24: 1853093049593219851
+      achievement_eucharist_25: 5119158499280359046
+      achievement_eucharist_26: 5675916916670007716
+      achievement_eucharist_27: -6501676685941838354
+      achievement_eucharist_3: 8392852424870078968
+      achievement_eucharist_4: 8361498421689827096
+      achievement_eucharist_5: -2013955025855435659
+      achievement_eucharist_6: 2874275115457761400
+      achievement_eucharist_7: -9211234305515499249
+      achievement_eucharist_8: -6526245724372302738
+      achievement_eucharist_9: 404161640444723057
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

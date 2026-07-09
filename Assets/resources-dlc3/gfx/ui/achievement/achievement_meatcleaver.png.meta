@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3ea3fef2044d2f74f9614d44e070904f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2505049645534085124
+    second: achievement_meatcleaver_0
+  - first:
+      213: -5039424504707269530
+    second: achievement_meatcleaver_1
+  - first:
+      213: 7660782421481436875
+    second: achievement_meatcleaver_2
+  - first:
+      213: 452509538225944213
+    second: achievement_meatcleaver_3
+  - first:
+      213: -7493183597943393824
+    second: achievement_meatcleaver_4
+  - first:
+      213: 4277239287195793124
+    second: achievement_meatcleaver_5
+  - first:
+      213: -2630187472458091788
+    second: achievement_meatcleaver_6
+  - first:
+      213: 8776844657771705086
+    second: achievement_meatcleaver_7
+  - first:
+      213: 5864581149771357261
+    second: achievement_meatcleaver_8
+  - first:
+      213: -401321397091695987
+    second: achievement_meatcleaver_9
+  - first:
+      213: -6774802224657570300
+    second: achievement_meatcleaver_10
+  - first:
+      213: -5575676983017849893
+    second: achievement_meatcleaver_11
+  - first:
+      213: 4225125413672444722
+    second: achievement_meatcleaver_12
+  - first:
+      213: -1541387547224201956
+    second: achievement_meatcleaver_13
+  - first:
+      213: -1355878856725561336
+    second: achievement_meatcleaver_14
+  - first:
+      213: -2678958766214247583
+    second: achievement_meatcleaver_15
+  - first:
+      213: -462742490548183866
+    second: achievement_meatcleaver_16
+  - first:
+      213: -1817360014283084554
+    second: achievement_meatcleaver_17
+  - first:
+      213: -1245933941318747773
+    second: achievement_meatcleaver_18
+  - first:
+      213: -4603347976915900159
+    second: achievement_meatcleaver_19
+  - first:
+      213: -7118846957047992211
+    second: achievement_meatcleaver_20
+  - first:
+      213: 8144761552896504795
+    second: achievement_meatcleaver_21
+  - first:
+      213: -6589820244276865769
+    second: achievement_meatcleaver_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_meatcleaver_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 143
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfff835ae964c3dd0800000000000000
+      internalID: -2505049645534085124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 146
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c368cec1e501ab0800000000000000
+      internalID: -5039424504707269530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 142
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc635f51601905a60800000000000000
+      internalID: 7660782421481436875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 142
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596fe6b0703a74600800000000000000
+      internalID: 452509538225944213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1fccfd73dd20890800000000000000
+      internalID: -7493183597943393824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 132
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e676ac487ecb5b30800000000000000
+      internalID: 4277239287195793124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 134
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2f37bdd62bf7bd0800000000000000
+      internalID: -2630187472458091788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 128
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2744be6bd9dc970800000000000000
+      internalID: 8776844657771705086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 56
+        width: 128
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cd29cdb7d236150800000000000000
+      internalID: 5864581149771357261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 117
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82069dc0583e6af0800000000000000
+      internalID: -401321397091695987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_10
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 112
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40662c765411bf1a0800000000000000
+      internalID: -6774802224657570300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 108
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb36ec33573f92b0800000000000000
+      internalID: -5575676983017849893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 57
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233eb659d29a2aa30800000000000000
+      internalID: 4225125413672444722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 64
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15ad724134eb9ae0800000000000000
+      internalID: -1541387547224201956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_14
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80009621d53fe2de0800000000000000
+      internalID: -1355878856725561336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_15
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b81e3223d62dad0800000000000000
+      internalID: -2678958766214247583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc556418220499f0800000000000000
+      internalID: -462742490548183866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc68af12b077c6e0800000000000000
+      internalID: -1817360014283084554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_18
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389f71e7ead85bee0800000000000000
+      internalID: -1245933941318747773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1092a62976f9d10c0800000000000000
+      internalID: -4603347976915900159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_20
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60b8cae866c43d90800000000000000
+      internalID: -7118846957047992211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3b7a4ca71080170800000000000000
+      internalID: 8144761552896504795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_meatcleaver_22
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7151336f6614c84a0800000000000000
+      internalID: -6589820244276865769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_meatcleaver_0: -2505049645534085124
+      achievement_meatcleaver_1: -5039424504707269530
+      achievement_meatcleaver_10: -6774802224657570300
+      achievement_meatcleaver_11: -5575676983017849893
+      achievement_meatcleaver_12: 4225125413672444722
+      achievement_meatcleaver_13: -1541387547224201956
+      achievement_meatcleaver_14: -1355878856725561336
+      achievement_meatcleaver_15: -2678958766214247583
+      achievement_meatcleaver_16: -462742490548183866
+      achievement_meatcleaver_17: -1817360014283084554
+      achievement_meatcleaver_18: -1245933941318747773
+      achievement_meatcleaver_19: -4603347976915900159
+      achievement_meatcleaver_2: 7660782421481436875
+      achievement_meatcleaver_20: -7118846957047992211
+      achievement_meatcleaver_21: 8144761552896504795
+      achievement_meatcleaver_22: -6589820244276865769
+      achievement_meatcleaver_3: 452509538225944213
+      achievement_meatcleaver_4: -7493183597943393824
+      achievement_meatcleaver_5: 4277239287195793124
+      achievement_meatcleaver_6: -2630187472458091788
+      achievement_meatcleaver_7: 8776844657771705086
+      achievement_meatcleaver_8: 5864581149771357261
+      achievement_meatcleaver_9: -401321397091695987
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

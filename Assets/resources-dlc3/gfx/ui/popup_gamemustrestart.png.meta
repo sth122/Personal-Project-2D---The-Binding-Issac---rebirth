@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: e2e43ab7f92d92341820e8da7373c24e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9036359955051633083
+    second: popup_gamemustrestart_0
+  - first:
+      213: -8630969274089573716
+    second: popup_gamemustrestart_1
+  - first:
+      213: -818790634443398577
+    second: popup_gamemustrestart_2
+  - first:
+      213: 3471011909034709269
+    second: popup_gamemustrestart_3
+  - first:
+      213: -7983647663658442170
+    second: popup_gamemustrestart_4
+  - first:
+      213: -7100522743714165516
+    second: popup_gamemustrestart_5
+  - first:
+      213: -8158875869724562648
+    second: popup_gamemustrestart_6
+  - first:
+      213: -9069184047182504460
+    second: popup_gamemustrestart_7
+  - first:
+      213: -6247652922961682204
+    second: popup_gamemustrestart_8
+  - first:
+      213: 638406689030379197
+    second: popup_gamemustrestart_9
+  - first:
+      213: -8824753490590717534
+    second: popup_gamemustrestart_10
+  - first:
+      213: 5432865408798130947
+    second: popup_gamemustrestart_11
+  - first:
+      213: -550027617126175188
+    second: popup_gamemustrestart_12
+  - first:
+      213: 1018020804932776782
+    second: popup_gamemustrestart_13
+  - first:
+      213: -3272869776730830549
+    second: popup_gamemustrestart_14
+  - first:
+      213: -425839329027729164
+    second: popup_gamemustrestart_15
+  - first:
+      213: 7381698748757258671
+    second: popup_gamemustrestart_16
+  - first:
+      213: 1348066781165765731
+    second: popup_gamemustrestart_17
+  - first:
+      213: 5790642061715298499
+    second: popup_gamemustrestart_18
+  - first:
+      213: 1460475520691370625
+    second: popup_gamemustrestart_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: popup_gamemustrestart_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 65
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54625906f76689280800000000000000
+      internalID: -9036359955051633083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 69
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2749e8c23a83880800000000000000
+      internalID: -8630969274089573716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 68
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42a590914213a4f0800000000000000
+      internalID: -818790634443398577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 64
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5111a29e0f28b2030800000000000000
+      internalID: 3471011909034709269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642e2c3cfb2643190800000000000000
+      internalID: -7983647663658442170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 48
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcc55d4f20e57d90800000000000000
+      internalID: -7100522743714165516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 50
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82baf82cf99d5ce80800000000000000
+      internalID: -8158875869724562648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 52
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd1c01e829c32280800000000000000
+      internalID: -9069184047182504460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 53
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e020fe94c0eb49a0800000000000000
+      internalID: -6247652922961682204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 48
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db693e150831cd800800000000000000
+      internalID: 638406689030379197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 51
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9a3f2b47d288580800000000000000
+      internalID: -8824753490590717534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 55
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3038be30e4a656b40800000000000000
+      internalID: 5432865408798130947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 47
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e2a80ebc8ed58f0800000000000000
+      internalID: -550027617126175188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43b9f3478cb02e00800000000000000
+      internalID: 1018020804932776782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 37
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29c8d9474e6492d0800000000000000
+      internalID: -3272869776730830549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 36
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f859ede26d171af0800000000000000
+      internalID: -425839329027729164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 35
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa13f9ee6ef017660800000000000000
+      internalID: 7381698748757258671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_17
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364c3e8589b45b210800000000000000
+      internalID: 1348066781165765731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 40
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8d9f5664e7c5050800000000000000
+      internalID: 5790642061715298499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popup_gamemustrestart_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a76f58fb6a44410800000000000000
+      internalID: 1460475520691370625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      popup_gamemustrestart_0: -9036359955051633083
+      popup_gamemustrestart_1: -8630969274089573716
+      popup_gamemustrestart_10: -8824753490590717534
+      popup_gamemustrestart_11: 5432865408798130947
+      popup_gamemustrestart_12: -550027617126175188
+      popup_gamemustrestart_13: 1018020804932776782
+      popup_gamemustrestart_14: -3272869776730830549
+      popup_gamemustrestart_15: -425839329027729164
+      popup_gamemustrestart_16: 7381698748757258671
+      popup_gamemustrestart_17: 1348066781165765731
+      popup_gamemustrestart_18: 5790642061715298499
+      popup_gamemustrestart_19: 1460475520691370625
+      popup_gamemustrestart_2: -818790634443398577
+      popup_gamemustrestart_3: 3471011909034709269
+      popup_gamemustrestart_4: -7983647663658442170
+      popup_gamemustrestart_5: -7100522743714165516
+      popup_gamemustrestart_6: -8158875869724562648
+      popup_gamemustrestart_7: -9069184047182504460
+      popup_gamemustrestart_8: -6247652922961682204
+      popup_gamemustrestart_9: 638406689030379197
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

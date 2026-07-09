@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 6f1f8053e413b7d48bdec2abcd5b985d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3143119049536214487
+    second: achievement_motherskiss_0
+  - first:
+      213: 1417073484933408383
+    second: achievement_motherskiss_1
+  - first:
+      213: 6734904363021047803
+    second: achievement_motherskiss_2
+  - first:
+      213: -5373761798466128292
+    second: achievement_motherskiss_3
+  - first:
+      213: 6145292310973458151
+    second: achievement_motherskiss_4
+  - first:
+      213: -2182092446474679413
+    second: achievement_motherskiss_5
+  - first:
+      213: -8190285921440229040
+    second: achievement_motherskiss_6
+  - first:
+      213: 8018614138339923060
+    second: achievement_motherskiss_7
+  - first:
+      213: 3196538345494729403
+    second: achievement_motherskiss_8
+  - first:
+      213: -190874628265315802
+    second: achievement_motherskiss_9
+  - first:
+      213: -6973193019654759401
+    second: achievement_motherskiss_10
+  - first:
+      213: 5399625054724911874
+    second: achievement_motherskiss_11
+  - first:
+      213: -4827084504590593976
+    second: achievement_motherskiss_12
+  - first:
+      213: 5261594403370529208
+    second: achievement_motherskiss_13
+  - first:
+      213: 6502558185602971417
+    second: achievement_motherskiss_14
+  - first:
+      213: -7456249908807045826
+    second: achievement_motherskiss_15
+  - first:
+      213: 5580023753352317423
+    second: achievement_motherskiss_16
+  - first:
+      213: -1648192438597212305
+    second: achievement_motherskiss_17
+  - first:
+      213: -5050552137218468923
+    second: achievement_motherskiss_18
+  - first:
+      213: -4345856911535284083
+    second: achievement_motherskiss_19
+  - first:
+      213: -2338078254825585849
+    second: achievement_motherskiss_20
+  - first:
+      213: 8478924140747821878
+    second: achievement_motherskiss_21
+  - first:
+      213: -3713553628991667990
+    second: achievement_motherskiss_22
+  - first:
+      213: 2005514443966353045
+    second: achievement_motherskiss_23
+  - first:
+      213: -3678911673841696500
+    second: achievement_motherskiss_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_motherskiss_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 146
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a61ad90e56164d0800000000000000
+      internalID: -3143119049536214487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 141
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76a41a93d47aa310800000000000000
+      internalID: 1417073484933408383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 140
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7191ac5df277d50800000000000000
+      internalID: 6734904363021047803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 146
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56bcde9d109c65b0800000000000000
+      internalID: -5373761798466128292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 138
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e623843cc6784550800000000000000
+      internalID: 6145292310973458151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 138
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b40dc2b76a7b1e0800000000000000
+      internalID: -2182092446474679413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 135
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0591ca33952465e80800000000000000
+      internalID: -8190285921440229040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4741daa0317d74f60800000000000000
+      internalID: 8018614138339923060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 137
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2d02270b26c5c20800000000000000
+      internalID: 3196538345494729403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_9
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 101
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6227c917980e95df0800000000000000
+      internalID: -190874628265315802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 78
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c9e39e4ed3a3f90800000000000000
+      internalID: -6973193019654759401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 102
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2037d2bf0625fea40800000000000000
+      internalID: 5399625054724911874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 83
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840d513d730c20db0800000000000000
+      internalID: -4827084504590593976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 66
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b175159b30f40940800000000000000
+      internalID: 5261594403370529208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 69
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9177c20c73abd3a50800000000000000
+      internalID: 6502558185602971417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 64
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d640d7634168890800000000000000
+      internalID: -7456249908807045826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe98ec81a0a307d40800000000000000
+      internalID: 5580023753352317423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_17
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67ade7a5b17029e0800000000000000
+      internalID: -1648192438597212305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3d0851795d8e9b0800000000000000
+      internalID: -5050552137218468923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80634f0a2a60b3c0800000000000000
+      internalID: -4345856911535284083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7434e04073a7d8fd0800000000000000
+      internalID: -2338078254825585849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63312ce25903ba570800000000000000
+      internalID: 8478924140747821878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_22
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0c69156aec67cc0800000000000000
+      internalID: -3713553628991667990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_23
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e8788d2c405db10800000000000000
+      internalID: 2005514443966353045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_motherskiss_24
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01c0a80351e1fcc0800000000000000
+      internalID: -3678911673841696500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_motherskiss_0: -3143119049536214487
+      achievement_motherskiss_1: 1417073484933408383
+      achievement_motherskiss_10: -6973193019654759401
+      achievement_motherskiss_11: 5399625054724911874
+      achievement_motherskiss_12: -4827084504590593976
+      achievement_motherskiss_13: 5261594403370529208
+      achievement_motherskiss_14: 6502558185602971417
+      achievement_motherskiss_15: -7456249908807045826
+      achievement_motherskiss_16: 5580023753352317423
+      achievement_motherskiss_17: -1648192438597212305
+      achievement_motherskiss_18: -5050552137218468923
+      achievement_motherskiss_19: -4345856911535284083
+      achievement_motherskiss_2: 6734904363021047803
+      achievement_motherskiss_20: -2338078254825585849
+      achievement_motherskiss_21: 8478924140747821878
+      achievement_motherskiss_22: -3713553628991667990
+      achievement_motherskiss_23: 2005514443966353045
+      achievement_motherskiss_24: -3678911673841696500
+      achievement_motherskiss_3: -5373761798466128292
+      achievement_motherskiss_4: 6145292310973458151
+      achievement_motherskiss_5: -2182092446474679413
+      achievement_motherskiss_6: -8190285921440229040
+      achievement_motherskiss_7: 8018614138339923060
+      achievement_motherskiss_8: 3196538345494729403
+      achievement_motherskiss_9: -190874628265315802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 572d4648ffc59074aab3a40f29a16d55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 857247628403555369
+    second: 858.000_vessel_champion_0
+  - first:
+      213: -4009666688333286811
+    second: 858.000_vessel_champion_1
+  - first:
+      213: 7074818896471285285
+    second: 858.000_vessel_champion_2
+  - first:
+      213: -6811810253663801172
+    second: 858.000_vessel_champion_3
+  - first:
+      213: 2812528216517089574
+    second: 858.000_vessel_champion_4
+  - first:
+      213: -4709766595877543312
+    second: 858.000_vessel_champion_5
+  - first:
+      213: -1220753240817192008
+    second: 858.000_vessel_champion_6
+  - first:
+      213: -3786098079035144838
+    second: 858.000_vessel_champion_7
+  - first:
+      213: 2203763707394337505
+    second: 858.000_vessel_champion_8
+  - first:
+      213: -4257698028834539953
+    second: 858.000_vessel_champion_9
+  - first:
+      213: -1235744552759188762
+    second: 858.000_vessel_champion_10
+  - first:
+      213: 5036528834240627281
+    second: 858.000_vessel_champion_11
+  - first:
+      213: 6020133530273813228
+    second: 858.000_vessel_champion_12
+  - first:
+      213: -326217111761005007
+    second: 858.000_vessel_champion_13
+  - first:
+      213: -4370233846589867716
+    second: 858.000_vessel_champion_14
+  - first:
+      213: 4103498832542240357
+    second: 858.000_vessel_champion_15
+  - first:
+      213: 7876223909456792461
+    second: 858.000_vessel_champion_16
+  - first:
+      213: 3024929038863557127
+    second: 858.000_vessel_champion_17
+  - first:
+      213: 524204016696521835
+    second: 858.000_vessel_champion_18
+  - first:
+      213: -6106679829091029360
+    second: 858.000_vessel_champion_19
+  - first:
+      213: 2702307181922654551
+    second: 858.000_vessel_champion_20
+  - first:
+      213: -2215066038413591735
+    second: 858.000_vessel_champion_21
+  - first:
+      213: -4754106518127850355
+    second: 858.000_vessel_champion_22
+  - first:
+      213: -2656129571237147924
+    second: 858.000_vessel_champion_23
+  - first:
+      213: 1945472688058010078
+    second: 858.000_vessel_champion_24
+  - first:
+      213: -2250167670655905318
+    second: 858.000_vessel_champion_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 204
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c3a871d2e85eb00800000000000000
+      internalID: 857247628403555369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 204
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5627d2e146dca58c0800000000000000
+      internalID: -4009666688333286811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e54666d4ece2260800000000000000
+      internalID: 7074818896471285285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 152
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca071013aa69771a0800000000000000
+      internalID: -6811810253663801172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 152
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6299342f28b180720800000000000000
+      internalID: 2812528216517089574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 152
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072e7b50c3c83aeb0800000000000000
+      internalID: -4709766595877543312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 152
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b33fa235630f0fe0800000000000000
+      internalID: -1220753240817192008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 152
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7542525bd3157bc0800000000000000
+      internalID: -3786098079035144838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 152
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea23247a67559e10800000000000000
+      internalID: 2203763707394337505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 152
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46bf66733e99e4c0800000000000000
+      internalID: -4257698028834539953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e22aa360e0c9dee0800000000000000
+      internalID: -1235744552759188762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152cce14a4855e540800000000000000
+      internalID: 5036528834240627281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 104
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2936cbc8fcb8350800000000000000
+      internalID: 6020133530273813228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 104
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136d4d5e34b097bf0800000000000000
+      internalID: -326217111761005007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c393f94987fc953c0800000000000000
+      internalID: -4370233846589867716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e09e9627e82f830800000000000000
+      internalID: 4103498832542240357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 56
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b4c966ae7fd4d60800000000000000
+      internalID: 7876223909456792461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 56
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702e9302fe4baf920800000000000000
+      internalID: 3024929038863557127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 56
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64770d96c8564700800000000000000
+      internalID: 524204016696521835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_19
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 56
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e6cfdcc07b04ba0800000000000000
+      internalID: -6106679829091029360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_20
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7599c748016808520800000000000000
+      internalID: 2702307181922654551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b735a8c218241e0800000000000000
+      internalID: -2215066038413591735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cce926f45060eb0800000000000000
+      internalID: -4754106518127850355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceacffc4a38832bd0800000000000000
+      internalID: -2656129571237147924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 8
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed90ceb2a15bffa10800000000000000
+      internalID: 1945472688058010078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_champion_25
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 8
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad19c79ec6cc5c0e0800000000000000
+      internalID: -2250167670655905318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      858.000_vessel_champion_0: 857247628403555369
+      858.000_vessel_champion_1: -4009666688333286811
+      858.000_vessel_champion_10: -1235744552759188762
+      858.000_vessel_champion_11: 5036528834240627281
+      858.000_vessel_champion_12: 6020133530273813228
+      858.000_vessel_champion_13: -326217111761005007
+      858.000_vessel_champion_14: -4370233846589867716
+      858.000_vessel_champion_15: 4103498832542240357
+      858.000_vessel_champion_16: 7876223909456792461
+      858.000_vessel_champion_17: 3024929038863557127
+      858.000_vessel_champion_18: 524204016696521835
+      858.000_vessel_champion_19: -6106679829091029360
+      858.000_vessel_champion_2: 7074818896471285285
+      858.000_vessel_champion_20: 2702307181922654551
+      858.000_vessel_champion_21: -2215066038413591735
+      858.000_vessel_champion_22: -4754106518127850355
+      858.000_vessel_champion_23: -2656129571237147924
+      858.000_vessel_champion_24: 1945472688058010078
+      858.000_vessel_champion_25: -2250167670655905318
+      858.000_vessel_champion_3: -6811810253663801172
+      858.000_vessel_champion_4: 2812528216517089574
+      858.000_vessel_champion_5: -4709766595877543312
+      858.000_vessel_champion_6: -1220753240817192008
+      858.000_vessel_champion_7: -3786098079035144838
+      858.000_vessel_champion_8: 2203763707394337505
+      858.000_vessel_champion_9: -4257698028834539953
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

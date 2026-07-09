@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 06daf3f1929b87a468cee10a85455325
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2016947777211680779
+    second: achievement_rockbottom_0
+  - first:
+      213: 5223857602792598517
+    second: achievement_rockbottom_1
+  - first:
+      213: 8621597184980699133
+    second: achievement_rockbottom_2
+  - first:
+      213: 5115382804584252601
+    second: achievement_rockbottom_3
+  - first:
+      213: -4166886936341461238
+    second: achievement_rockbottom_4
+  - first:
+      213: -8386964440274051195
+    second: achievement_rockbottom_5
+  - first:
+      213: -1376167108695638376
+    second: achievement_rockbottom_6
+  - first:
+      213: 4528472812862683987
+    second: achievement_rockbottom_7
+  - first:
+      213: -3504712679159267904
+    second: achievement_rockbottom_8
+  - first:
+      213: -2996525291174660326
+    second: achievement_rockbottom_9
+  - first:
+      213: -3262378663813061108
+    second: achievement_rockbottom_10
+  - first:
+      213: 2483674916264006523
+    second: achievement_rockbottom_11
+  - first:
+      213: -554824203208895702
+    second: achievement_rockbottom_12
+  - first:
+      213: 6502984114520817679
+    second: achievement_rockbottom_13
+  - first:
+      213: 634954750325095802
+    second: achievement_rockbottom_14
+  - first:
+      213: 221510113709807893
+    second: achievement_rockbottom_15
+  - first:
+      213: 1352461186920691373
+    second: achievement_rockbottom_16
+  - first:
+      213: -2384106370366056938
+    second: achievement_rockbottom_17
+  - first:
+      213: -7256181649273542903
+    second: achievement_rockbottom_18
+  - first:
+      213: 220525731030035421
+    second: achievement_rockbottom_19
+  - first:
+      213: -4203391255290423157
+    second: achievement_rockbottom_20
+  - first:
+      213: 7629726229726244287
+    second: achievement_rockbottom_21
+  - first:
+      213: 6687260202793183652
+    second: achievement_rockbottom_22
+  - first:
+      213: 3162023371806247662
+    second: achievement_rockbottom_23
+  - first:
+      213: -1081072681339274339
+    second: achievement_rockbottom_24
+  - first:
+      213: 3978517633220581860
+    second: achievement_rockbottom_25
+  - first:
+      213: -7520003506702211685
+    second: achievement_rockbottom_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_rockbottom_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 141
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08473f2153adfb10800000000000000
+      internalID: 2016947777211680779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 141
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb2da300dede7840800000000000000
+      internalID: 5223857602792598517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 135
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df74847e5f016a770800000000000000
+      internalID: 8621597184980699133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 150
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4c26dee8d7df640800000000000000
+      internalID: 5115382804584252601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 149
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07c624986e3c26c0800000000000000
+      internalID: -4166886936341461238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 149
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fd1a117448b9b80800000000000000
+      internalID: -8386964440274051195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 143
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ebe9e4e4fd6ece0800000000000000
+      internalID: -1376167108695638376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 141
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bb1b9c70e58de30800000000000000
+      internalID: 4528472812862683987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 147
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd77e61362cc5fc0800000000000000
+      internalID: -3504712679159267904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 135
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a177f0bbf143a66d0800000000000000
+      internalID: -2996525291174660326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 152
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06eb9cd3e3b9b2d0800000000000000
+      internalID: -3262378663813061108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 136
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73d6716d29c77220800000000000000
+      internalID: 2483674916264006523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 109
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23d1f6a35edc48f0800000000000000
+      internalID: -554824203208895702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 48
+        width: 94
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00850e099d3f3a50800000000000000
+      internalID: 6502984114520817679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 103
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7df2953bffcfc800800000000000000
+      internalID: 634954750325095802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 66
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51954d95646f21300800000000000000
+      internalID: 221510113709807893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 74
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da639eaa848e4c210800000000000000
+      internalID: 1352461186920691373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 49
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616d59f33e3f9eed0800000000000000
+      internalID: -2384106370366056938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907a7512c3ddc4b90800000000000000
+      internalID: -7256181649273542903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbe0e5ebf67f0300800000000000000
+      internalID: 220525731030035421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b885e608ced8aa5c0800000000000000
+      internalID: -4203391255290423157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd2058f49b32e960800000000000000
+      internalID: 7629726229726244287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9281c49bbedcc50800000000000000
+      internalID: 6687260202793183652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea8ef7e083c1eb20800000000000000
+      internalID: 3162023371806247662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bb464cf124ff0f0800000000000000
+      internalID: -1081072681339274339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e99db455b8863730800000000000000
+      internalID: 3978517633220581860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rockbottom_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95a25147a493a790800000000000000
+      internalID: -7520003506702211685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_rockbottom_0: 2016947777211680779
+      achievement_rockbottom_1: 5223857602792598517
+      achievement_rockbottom_10: -3262378663813061108
+      achievement_rockbottom_11: 2483674916264006523
+      achievement_rockbottom_12: -554824203208895702
+      achievement_rockbottom_13: 6502984114520817679
+      achievement_rockbottom_14: 634954750325095802
+      achievement_rockbottom_15: 221510113709807893
+      achievement_rockbottom_16: 1352461186920691373
+      achievement_rockbottom_17: -2384106370366056938
+      achievement_rockbottom_18: -7256181649273542903
+      achievement_rockbottom_19: 220525731030035421
+      achievement_rockbottom_2: 8621597184980699133
+      achievement_rockbottom_20: -4203391255290423157
+      achievement_rockbottom_21: 7629726229726244287
+      achievement_rockbottom_22: 6687260202793183652
+      achievement_rockbottom_23: 3162023371806247662
+      achievement_rockbottom_24: -1081072681339274339
+      achievement_rockbottom_25: 3978517633220581860
+      achievement_rockbottom_26: -7520003506702211685
+      achievement_rockbottom_3: 5115382804584252601
+      achievement_rockbottom_4: -4166886936341461238
+      achievement_rockbottom_5: -8386964440274051195
+      achievement_rockbottom_6: -1376167108695638376
+      achievement_rockbottom_7: 4528472812862683987
+      achievement_rockbottom_8: -3504712679159267904
+      achievement_rockbottom_9: -2996525291174660326
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

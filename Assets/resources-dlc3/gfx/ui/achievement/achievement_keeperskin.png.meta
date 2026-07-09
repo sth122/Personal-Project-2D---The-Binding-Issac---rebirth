@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: ce92361f82d39174993379ea8bc7bfcd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -151685406369385490
+    second: achievement_keeperskin_0
+  - first:
+      213: 9005905635526547900
+    second: achievement_keeperskin_1
+  - first:
+      213: 6568782743563205247
+    second: achievement_keeperskin_2
+  - first:
+      213: -4309463847329872666
+    second: achievement_keeperskin_3
+  - first:
+      213: 6077843061474298406
+    second: achievement_keeperskin_4
+  - first:
+      213: 5750126698464462484
+    second: achievement_keeperskin_5
+  - first:
+      213: 3304817376697975800
+    second: achievement_keeperskin_6
+  - first:
+      213: 3615228007967100781
+    second: achievement_keeperskin_7
+  - first:
+      213: 6699528195249657710
+    second: achievement_keeperskin_8
+  - first:
+      213: -3098489155114910161
+    second: achievement_keeperskin_9
+  - first:
+      213: 4166337427816573286
+    second: achievement_keeperskin_10
+  - first:
+      213: -8323191078772324819
+    second: achievement_keeperskin_11
+  - first:
+      213: -5760104740401107522
+    second: achievement_keeperskin_12
+  - first:
+      213: -4460354106787471450
+    second: achievement_keeperskin_13
+  - first:
+      213: -1600583238785302239
+    second: achievement_keeperskin_14
+  - first:
+      213: -4066384659445674843
+    second: achievement_keeperskin_15
+  - first:
+      213: -2475232134913991785
+    second: achievement_keeperskin_16
+  - first:
+      213: 3280355364411856429
+    second: achievement_keeperskin_17
+  - first:
+      213: 9013693658247613410
+    second: achievement_keeperskin_18
+  - first:
+      213: -8093297340707560287
+    second: achievement_keeperskin_19
+  - first:
+      213: -7141219862362033691
+    second: achievement_keeperskin_20
+  - first:
+      213: 7392438815208593715
+    second: achievement_keeperskin_21
+  - first:
+      213: -7023738715922685506
+    second: achievement_keeperskin_22
+  - first:
+      213: -9211466352414892324
+    second: achievement_keeperskin_23
+  - first:
+      213: 1225201843583179823
+    second: achievement_keeperskin_24
+  - first:
+      213: 2592089611363039299
+    second: achievement_keeperskin_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_keeperskin_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 139
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3fdb33dea15edf0800000000000000
+      internalID: -151685406369385490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb99f3ec5776bfc70800000000000000
+      internalID: 9005905635526547900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 138
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7afcc43a11092b50800000000000000
+      internalID: 6568782743563205247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 130
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4c38f9675b134c0800000000000000
+      internalID: -4309463847329872666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 135
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a8fb70016d85450800000000000000
+      internalID: 6077843061474298406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 134
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496c67b44cd8ccf40800000000000000
+      internalID: 5750126698464462484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 135
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f30f99f4e11ddd20800000000000000
+      internalID: 3304817376697975800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 138
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f0cec08bedb2230800000000000000
+      internalID: 3615228007967100781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 138
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67d190e56189fc50800000000000000
+      internalID: 6699528195249657710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 130
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2eb9f8a784fff4d0800000000000000
+      internalID: -3098489155114910161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 140
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669eb6ff0ddc1d930800000000000000
+      internalID: 4166337427816573286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 131
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d264310efc51e7c80800000000000000
+      internalID: -8323191078772324819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 92
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd2957c14fff00b0800000000000000
+      internalID: -5760104740401107522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 56
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af5a746293a912c0800000000000000
+      internalID: -4460354106787471450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 90
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12102ca460699c9e0800000000000000
+      internalID: -1600583238785302239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_15
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 63
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac84a562bc4197c0800000000000000
+      internalID: -4066384659445674843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 60
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bd1d5dc7536add0800000000000000
+      internalID: -2475232134913991785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26d0d8e2d9268d20800000000000000
+      internalID: 3280355364411856429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb4a0620a2171d70800000000000000
+      internalID: 9013693658247613410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a42381e2f4deaf80800000000000000
+      internalID: -8093297340707560287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e172f8fe5a45ec90800000000000000
+      internalID: -7141219862362033691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33951548fe7379660800000000000000
+      internalID: 7392438815208593715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1254ae9daa68e90800000000000000
+      internalID: -7023738715922685506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cded8db282c4a2080800000000000000
+      internalID: -9211466352414892324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cdde8d59ac00110800000000000000
+      internalID: 1225201843583179823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_keeperskin_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348364f94c3f8f320800000000000000
+      internalID: 2592089611363039299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_keeperskin_0: -151685406369385490
+      achievement_keeperskin_1: 9005905635526547900
+      achievement_keeperskin_10: 4166337427816573286
+      achievement_keeperskin_11: -8323191078772324819
+      achievement_keeperskin_12: -5760104740401107522
+      achievement_keeperskin_13: -4460354106787471450
+      achievement_keeperskin_14: -1600583238785302239
+      achievement_keeperskin_15: -4066384659445674843
+      achievement_keeperskin_16: -2475232134913991785
+      achievement_keeperskin_17: 3280355364411856429
+      achievement_keeperskin_18: 9013693658247613410
+      achievement_keeperskin_19: -8093297340707560287
+      achievement_keeperskin_2: 6568782743563205247
+      achievement_keeperskin_20: -7141219862362033691
+      achievement_keeperskin_21: 7392438815208593715
+      achievement_keeperskin_22: -7023738715922685506
+      achievement_keeperskin_23: -9211466352414892324
+      achievement_keeperskin_24: 1225201843583179823
+      achievement_keeperskin_25: 2592089611363039299
+      achievement_keeperskin_3: -4309463847329872666
+      achievement_keeperskin_4: 6077843061474298406
+      achievement_keeperskin_5: 5750126698464462484
+      achievement_keeperskin_6: 3304817376697975800
+      achievement_keeperskin_7: 3615228007967100781
+      achievement_keeperskin_8: 6699528195249657710
+      achievement_keeperskin_9: -3098489155114910161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

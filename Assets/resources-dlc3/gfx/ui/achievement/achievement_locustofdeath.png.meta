@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: cc79d147a34c74f49901dc8528e03c87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 743978744729860097
+    second: achievement_locustofdeath_0
+  - first:
+      213: -1186449763537410481
+    second: achievement_locustofdeath_1
+  - first:
+      213: 772491730834852407
+    second: achievement_locustofdeath_2
+  - first:
+      213: -2147031712210551066
+    second: achievement_locustofdeath_3
+  - first:
+      213: 2828926865359595375
+    second: achievement_locustofdeath_4
+  - first:
+      213: 6155305273275531126
+    second: achievement_locustofdeath_5
+  - first:
+      213: 1166449757799237235
+    second: achievement_locustofdeath_6
+  - first:
+      213: -3160901525116299452
+    second: achievement_locustofdeath_7
+  - first:
+      213: 7132900976035883502
+    second: achievement_locustofdeath_8
+  - first:
+      213: 1242469505505233802
+    second: achievement_locustofdeath_9
+  - first:
+      213: 356206415128152228
+    second: achievement_locustofdeath_10
+  - first:
+      213: -5531593670712766343
+    second: achievement_locustofdeath_11
+  - first:
+      213: -3728281414238709012
+    second: achievement_locustofdeath_12
+  - first:
+      213: 3983257629552328011
+    second: achievement_locustofdeath_13
+  - first:
+      213: 3481471905592193113
+    second: achievement_locustofdeath_14
+  - first:
+      213: 624109336816600430
+    second: achievement_locustofdeath_15
+  - first:
+      213: -6404689918796805143
+    second: achievement_locustofdeath_16
+  - first:
+      213: 2145849540349978460
+    second: achievement_locustofdeath_17
+  - first:
+      213: 1845945287101524788
+    second: achievement_locustofdeath_18
+  - first:
+      213: 4442332826415210179
+    second: achievement_locustofdeath_19
+  - first:
+      213: -5206830631662561248
+    second: achievement_locustofdeath_20
+  - first:
+      213: -1923178913982722475
+    second: achievement_locustofdeath_21
+  - first:
+      213: 8298650962936909568
+    second: achievement_locustofdeath_22
+  - first:
+      213: -9078845821147691236
+    second: achievement_locustofdeath_23
+  - first:
+      213: 6452500156711168209
+    second: achievement_locustofdeath_24
+  - first:
+      213: -2373201451224897371
+    second: achievement_locustofdeath_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_locustofdeath_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 145
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10870100ab4235a00800000000000000
+      internalID: 743978744729860097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 132
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46a184e932e88fe0800000000000000
+      internalID: -1186449763537410481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 141
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a8658e22178ba00800000000000000
+      internalID: 772491730834852407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 146
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eef03088063432e0800000000000000
+      internalID: -2147031712210551066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 143
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f676159eefd524720800000000000000
+      internalID: 2828926865359595375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 135
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f3da9a8890c6550800000000000000
+      internalID: 6155305273275531126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 146
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376c6f5efdf003010800000000000000
+      internalID: 1166449757799237235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 133
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447d3716fc83224d0800000000000000
+      internalID: -3160901525116299452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 113
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9e7ae55a72df260800000000000000
+      internalID: 7132900976035883502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_9
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 106
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b05efae632e3110800000000000000
+      internalID: 1242469505505233802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 114
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8cd68e8df71f400800000000000000
+      internalID: 356206415128152228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 113
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970dd573dd4db33b0800000000000000
+      internalID: -5531593670712766343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 102
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea5c999ecb724cc0800000000000000
+      internalID: -3728281414238709012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 80
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4db45ab5bf574730800000000000000
+      internalID: 3983257629552328011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 86
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9503354a04ca05030800000000000000
+      internalID: 3481471905592193113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 52
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6545f9922849a800800000000000000
+      internalID: 624109336816600430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 62
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb479dc378fd17a0800000000000000
+      internalID: -6404689918796805143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_17
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57eef9a9c697cd10800000000000000
+      internalID: 2145849540349978460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b2e78557d1e9910800000000000000
+      internalID: 1845945287101524788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce198c4b2656ad30800000000000000
+      internalID: 4442332826415210179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0285122a02f9db7b0800000000000000
+      internalID: -5206830631662561248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ec98897fe7f45e0800000000000000
+      internalID: -1923178913982722475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fcec8251bba2370800000000000000
+      internalID: 8298650962936909568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17c3f3d3d5710280800000000000000
+      internalID: -9078845821147691236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8ebe9a4b2eb8950800000000000000
+      internalID: 6452500156711168209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_locustofdeath_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a86c479ad1b01fd0800000000000000
+      internalID: -2373201451224897371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_locustofdeath_0: 743978744729860097
+      achievement_locustofdeath_1: -1186449763537410481
+      achievement_locustofdeath_10: 356206415128152228
+      achievement_locustofdeath_11: -5531593670712766343
+      achievement_locustofdeath_12: -3728281414238709012
+      achievement_locustofdeath_13: 3983257629552328011
+      achievement_locustofdeath_14: 3481471905592193113
+      achievement_locustofdeath_15: 624109336816600430
+      achievement_locustofdeath_16: -6404689918796805143
+      achievement_locustofdeath_17: 2145849540349978460
+      achievement_locustofdeath_18: 1845945287101524788
+      achievement_locustofdeath_19: 4442332826415210179
+      achievement_locustofdeath_2: 772491730834852407
+      achievement_locustofdeath_20: -5206830631662561248
+      achievement_locustofdeath_21: -1923178913982722475
+      achievement_locustofdeath_22: 8298650962936909568
+      achievement_locustofdeath_23: -9078845821147691236
+      achievement_locustofdeath_24: 6452500156711168209
+      achievement_locustofdeath_25: -2373201451224897371
+      achievement_locustofdeath_3: -2147031712210551066
+      achievement_locustofdeath_4: 2828926865359595375
+      achievement_locustofdeath_5: 6155305273275531126
+      achievement_locustofdeath_6: 1166449757799237235
+      achievement_locustofdeath_7: -3160901525116299452
+      achievement_locustofdeath_8: 7132900976035883502
+      achievement_locustofdeath_9: 1242469505505233802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

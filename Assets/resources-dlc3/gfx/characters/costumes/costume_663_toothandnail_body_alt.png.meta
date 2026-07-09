@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 4cc0e4456b12c0545ae450bdcd1e39e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8996259065834407310
+    second: costume_663_toothandnail_body_alt_0
+  - first:
+      213: -7972449774050529685
+    second: costume_663_toothandnail_body_alt_1
+  - first:
+      213: -3201881750067706832
+    second: costume_663_toothandnail_body_alt_2
+  - first:
+      213: 6438634908152198347
+    second: costume_663_toothandnail_body_alt_3
+  - first:
+      213: -6779325158687012165
+    second: costume_663_toothandnail_body_alt_4
+  - first:
+      213: -9220148084333338062
+    second: costume_663_toothandnail_body_alt_5
+  - first:
+      213: -4555211132219030064
+    second: costume_663_toothandnail_body_alt_6
+  - first:
+      213: -3390326628488784228
+    second: costume_663_toothandnail_body_alt_7
+  - first:
+      213: 7955383966206204627
+    second: costume_663_toothandnail_body_alt_8
+  - first:
+      213: -5723408619735895242
+    second: costume_663_toothandnail_body_alt_9
+  - first:
+      213: 6549054565776725903
+    second: costume_663_toothandnail_body_alt_10
+  - first:
+      213: -3972696010925783695
+    second: costume_663_toothandnail_body_alt_11
+  - first:
+      213: 3530775258091305952
+    second: costume_663_toothandnail_body_alt_12
+  - first:
+      213: -7893555221735982384
+    second: costume_663_toothandnail_body_alt_13
+  - first:
+      213: -747836236027569051
+    second: costume_663_toothandnail_body_alt_14
+  - first:
+      213: 988833785038267074
+    second: costume_663_toothandnail_body_alt_15
+  - first:
+      213: -3212231679027251793
+    second: costume_663_toothandnail_body_alt_16
+  - first:
+      213: -8235142848938919439
+    second: costume_663_toothandnail_body_alt_17
+  - first:
+      213: 528518279247358682
+    second: costume_663_toothandnail_body_alt_18
+  - first:
+      213: -4869656733754425568
+    second: costume_663_toothandnail_body_alt_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 102
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e858276c4f129dc70800000000000000
+      internalID: 8996259065834407310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 102
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e231c9b2b2c5190800000000000000
+      internalID: -7972449774050529685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 102
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034886a3381a093d0800000000000000
+      internalID: -3201881750067706832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc477dae550aa5950800000000000000
+      internalID: 6438634908152198347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 102
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba8793cfaffae1a0800000000000000
+      internalID: -6779325158687012165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 102
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23220d0fa247b0080800000000000000
+      internalID: -9220148084333338062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 102
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d50e2b1c93a8c0c0800000000000000
+      internalID: -4555211132219030064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 102
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96d064e4e323f0d0800000000000000
+      internalID: -3390326628488784228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 70
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da1f8d5193376e60800000000000000
+      internalID: 7955383966206204627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633bb3c2f2e5290b0800000000000000
+      internalID: -5723408619735895242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 38
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8795cfdd6ae2ea50800000000000000
+      internalID: 6549054565776725903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175482cb6062ed8c0800000000000000
+      internalID: -3972696010925783695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 38
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb3540f365dff030800000000000000
+      internalID: 3530775258091305952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 36
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da3f710955747290800000000000000
+      internalID: -7893555221735982384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 37
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c5961d7e62f95f0800000000000000
+      internalID: -747836236027569051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 38
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c26c13a61b09bd00800000000000000
+      internalID: 988833785038267074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 38
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5f25b9e4cdb63d0800000000000000
+      internalID: -3212231679027251793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_17
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 38
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9b566e535e6bd80800000000000000
+      internalID: -8235142848938919439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 4
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adae6d3239ca55700800000000000000
+      internalID: 528518279247358682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_663_toothandnail_body_alt_19
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 5
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f7a7e40018b6cb0800000000000000
+      internalID: -4869656733754425568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      costume_663_toothandnail_body_alt_0: 8996259065834407310
+      costume_663_toothandnail_body_alt_1: -7972449774050529685
+      costume_663_toothandnail_body_alt_10: 6549054565776725903
+      costume_663_toothandnail_body_alt_11: -3972696010925783695
+      costume_663_toothandnail_body_alt_12: 3530775258091305952
+      costume_663_toothandnail_body_alt_13: -7893555221735982384
+      costume_663_toothandnail_body_alt_14: -747836236027569051
+      costume_663_toothandnail_body_alt_15: 988833785038267074
+      costume_663_toothandnail_body_alt_16: -3212231679027251793
+      costume_663_toothandnail_body_alt_17: -8235142848938919439
+      costume_663_toothandnail_body_alt_18: 528518279247358682
+      costume_663_toothandnail_body_alt_19: -4869656733754425568
+      costume_663_toothandnail_body_alt_2: -3201881750067706832
+      costume_663_toothandnail_body_alt_3: 6438634908152198347
+      costume_663_toothandnail_body_alt_4: -6779325158687012165
+      costume_663_toothandnail_body_alt_5: -9220148084333338062
+      costume_663_toothandnail_body_alt_6: -4555211132219030064
+      costume_663_toothandnail_body_alt_7: -3390326628488784228
+      costume_663_toothandnail_body_alt_8: 7955383966206204627
+      costume_663_toothandnail_body_alt_9: -5723408619735895242
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: b2ed07b218ca5a347ad1623afab4c85d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3199969847209295828
+    second: door_00_reddoor_0
+  - first:
+      213: 697183860784314662
+    second: door_00_reddoor_1
+  - first:
+      213: -563070260447148566
+    second: door_00_reddoor_2
+  - first:
+      213: 6480481974759503531
+    second: door_00_reddoor_3
+  - first:
+      213: -6559746398392241719
+    second: door_00_reddoor_4
+  - first:
+      213: -2674822513800074922
+    second: door_00_reddoor_5
+  - first:
+      213: -8367364883734274558
+    second: door_00_reddoor_6
+  - first:
+      213: 623096338083725945
+    second: door_00_reddoor_7
+  - first:
+      213: -2826166258787542602
+    second: door_00_reddoor_8
+  - first:
+      213: -1292542111443253677
+    second: door_00_reddoor_9
+  - first:
+      213: 1361600152209493214
+    second: door_00_reddoor_10
+  - first:
+      213: 7948627961261178270
+    second: door_00_reddoor_11
+  - first:
+      213: 4647334596582731801
+    second: door_00_reddoor_12
+  - first:
+      213: -495979599577736093
+    second: door_00_reddoor_13
+  - first:
+      213: 7956807313235031492
+    second: door_00_reddoor_14
+  - first:
+      213: -6205678923309806142
+    second: door_00_reddoor_15
+  - first:
+      213: 4789857757833047282
+    second: door_00_reddoor_16
+  - first:
+      213: -7033676700146309684
+    second: door_00_reddoor_17
+  - first:
+      213: -3972724206734555367
+    second: door_00_reddoor_18
+  - first:
+      213: -7563001311318111372
+    second: door_00_reddoor_19
+  - first:
+      213: -2506662504774667196
+    second: door_00_reddoor_20
+  - first:
+      213: -3393416441583131602
+    second: door_00_reddoor_21
+  - first:
+      213: 3398894415429253301
+    second: door_00_reddoor_22
+  - first:
+      213: 109021860897994217
+    second: door_00_reddoor_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door_00_reddoor_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 197
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20012dc06c6793d0800000000000000
+      internalID: -3199969847209295828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 200
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6293f2d0705eca900800000000000000
+      internalID: 697183860784314662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 152
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae50676d4929f28f0800000000000000
+      internalID: -563070260447148566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 152
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6bcde550c4fe950800000000000000
+      internalID: 6480481974759503531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1be2bd76917f4a0800000000000000
+      internalID: -6559746398392241719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 104
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659aab3781f11ead0800000000000000
+      internalID: -2674822513800074922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 104
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ed0fe68f521eb80800000000000000
+      internalID: -8367364883734274558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 79
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972c35471dea5a800800000000000000
+      internalID: 623096338083725945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 63
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b916c4e2c077c8d0800000000000000
+      internalID: -2826166258787542602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 79
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356013e3cc7ff0ee0800000000000000
+      internalID: -1292542111443253677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 68
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc8096df1065e210800000000000000
+      internalID: 1361600152209493214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 79
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9db5b264033f4e60800000000000000
+      internalID: 7948627961261178270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 72
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91072b56136ae7040800000000000000
+      internalID: 4647334596582731801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 79
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c14579e2ded19f0800000000000000
+      internalID: -495979599577736093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 50
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5ba9b28124c6e60800000000000000
+      internalID: 7956807313235031492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 31
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd8df9f5eff0e9a0800000000000000
+      internalID: -6205678923309806142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 15
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fca944c04ef87240800000000000000
+      internalID: 4789857757833047282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc566d6ae4c536e90800000000000000
+      internalID: -7033676700146309684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_18
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 20
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917cdf2e16c0ed8c0800000000000000
+      internalID: -3972724206734555367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 31
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b021bb062da0790800000000000000
+      internalID: -7563001311318111372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_20
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 24
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4447d179bbb863dd0800000000000000
+      internalID: -2506662504774667196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_21
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 31
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24a778b9b928e0d0800000000000000
+      internalID: -3393416441583131602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_22
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 31
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b838b4767c4b2f20800000000000000
+      internalID: 3398894415429253301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_00_reddoor_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5b39b0ec2538100800000000000000
+      internalID: 109021860897994217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      door_00_reddoor_0: -3199969847209295828
+      door_00_reddoor_1: 697183860784314662
+      door_00_reddoor_10: 1361600152209493214
+      door_00_reddoor_11: 7948627961261178270
+      door_00_reddoor_12: 4647334596582731801
+      door_00_reddoor_13: -495979599577736093
+      door_00_reddoor_14: 7956807313235031492
+      door_00_reddoor_15: -6205678923309806142
+      door_00_reddoor_16: 4789857757833047282
+      door_00_reddoor_17: -7033676700146309684
+      door_00_reddoor_18: -3972724206734555367
+      door_00_reddoor_19: -7563001311318111372
+      door_00_reddoor_2: -563070260447148566
+      door_00_reddoor_20: -2506662504774667196
+      door_00_reddoor_21: -3393416441583131602
+      door_00_reddoor_22: 3398894415429253301
+      door_00_reddoor_23: 109021860897994217
+      door_00_reddoor_3: 6480481974759503531
+      door_00_reddoor_4: -6559746398392241719
+      door_00_reddoor_5: -2674822513800074922
+      door_00_reddoor_6: -8367364883734274558
+      door_00_reddoor_7: 623096338083725945
+      door_00_reddoor_8: -2826166258787542602
+      door_00_reddoor_9: -1292542111443253677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

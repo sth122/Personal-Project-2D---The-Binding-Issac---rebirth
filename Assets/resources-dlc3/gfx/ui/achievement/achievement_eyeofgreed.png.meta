@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 0a6883008bc4b384ea4539018821f898
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9136192094471941887
+    second: achievement_eyeofgreed_0
+  - first:
+      213: 1925822205206757033
+    second: achievement_eyeofgreed_1
+  - first:
+      213: -6215797268499188271
+    second: achievement_eyeofgreed_2
+  - first:
+      213: -8047127702498388784
+    second: achievement_eyeofgreed_3
+  - first:
+      213: 3544027535162855817
+    second: achievement_eyeofgreed_4
+  - first:
+      213: 1858156730477380446
+    second: achievement_eyeofgreed_5
+  - first:
+      213: 7190560372662244905
+    second: achievement_eyeofgreed_6
+  - first:
+      213: -5735767626361103133
+    second: achievement_eyeofgreed_7
+  - first:
+      213: -5942815584269686370
+    second: achievement_eyeofgreed_8
+  - first:
+      213: -8367932044648607284
+    second: achievement_eyeofgreed_9
+  - first:
+      213: 1422683899838363626
+    second: achievement_eyeofgreed_10
+  - first:
+      213: 2329808745599170898
+    second: achievement_eyeofgreed_11
+  - first:
+      213: 276225751967595037
+    second: achievement_eyeofgreed_12
+  - first:
+      213: -6387711593662501381
+    second: achievement_eyeofgreed_13
+  - first:
+      213: -8874303070269698505
+    second: achievement_eyeofgreed_14
+  - first:
+      213: -8039644711874595871
+    second: achievement_eyeofgreed_15
+  - first:
+      213: 1856041228885790601
+    second: achievement_eyeofgreed_16
+  - first:
+      213: 5730252939069088126
+    second: achievement_eyeofgreed_17
+  - first:
+      213: -8477394321966075335
+    second: achievement_eyeofgreed_18
+  - first:
+      213: -5895502048348188158
+    second: achievement_eyeofgreed_19
+  - first:
+      213: 1591206479944001416
+    second: achievement_eyeofgreed_20
+  - first:
+      213: -7502003501858587542
+    second: achievement_eyeofgreed_21
+  - first:
+      213: -642208177860517820
+    second: achievement_eyeofgreed_22
+  - first:
+      213: -293783935545340000
+    second: achievement_eyeofgreed_23
+  - first:
+      213: 5999213736478206838
+    second: achievement_eyeofgreed_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 145
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe6bb6ed464ace70800000000000000
+      internalID: 9136192094471941887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 140
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae78e99715e9ba10800000000000000
+      internalID: 1925822205206757033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 148
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d53347215d0db9a0800000000000000
+      internalID: -6215797268499188271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 145
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4d0667dfbd25090800000000000000
+      internalID: -8047127702498388784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 148
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981d593244aee2130800000000000000
+      internalID: 3544027535162855817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 139
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e530b1193bf79c910800000000000000
+      internalID: 1858156730477380446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 147
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926988ccf800ac360800000000000000
+      internalID: 7190560372662244905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 129
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec9f84bbb57660b0800000000000000
+      internalID: -5735767626361103133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 138
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9923f566b0e68da0800000000000000
+      internalID: -5942815584269686370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 120
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc19c1ef3222fdb80800000000000000
+      internalID: -8367932044648607284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 116
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7788d18736eb310800000000000000
+      internalID: 1422683899838363626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 102
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2597904d5b4255020800000000000000
+      internalID: 2329808745599170898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1af7df9bd955d300800000000000000
+      internalID: 276225751967595037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 80
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd2a1c262a4a57a0800000000000000
+      internalID: -6387711593662501381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 86
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e8a6b206428d480800000000000000
+      internalID: -8874303070269698505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 62
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3fd5cfab17d6090800000000000000
+      internalID: -8039644711874595871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_16
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f8738f9abf1c910800000000000000
+      internalID: 1856041228885790601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71e95a10b2f58f40800000000000000
+      internalID: 5730252939069088126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9327c4287ce3a5a80800000000000000
+      internalID: -8477394321966075335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2025e9b6f18fe2ea0800000000000000
+      internalID: -5895502048348188158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887ac59ecd9151610800000000000000
+      internalID: 1591206479944001416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c7bf7ff8783e790800000000000000
+      internalID: -7502003501858587542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440e5c6901b6617f0800000000000000
+      internalID: -642208177860517820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_23
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af8a1131154cebf0800000000000000
+      internalID: -293783935545340000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_eyeofgreed_24
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b6d6eab1d714350800000000000000
+      internalID: 5999213736478206838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_eyeofgreed_0: 9136192094471941887
+      achievement_eyeofgreed_1: 1925822205206757033
+      achievement_eyeofgreed_10: 1422683899838363626
+      achievement_eyeofgreed_11: 2329808745599170898
+      achievement_eyeofgreed_12: 276225751967595037
+      achievement_eyeofgreed_13: -6387711593662501381
+      achievement_eyeofgreed_14: -8874303070269698505
+      achievement_eyeofgreed_15: -8039644711874595871
+      achievement_eyeofgreed_16: 1856041228885790601
+      achievement_eyeofgreed_17: 5730252939069088126
+      achievement_eyeofgreed_18: -8477394321966075335
+      achievement_eyeofgreed_19: -5895502048348188158
+      achievement_eyeofgreed_2: -6215797268499188271
+      achievement_eyeofgreed_20: 1591206479944001416
+      achievement_eyeofgreed_21: -7502003501858587542
+      achievement_eyeofgreed_22: -642208177860517820
+      achievement_eyeofgreed_23: -293783935545340000
+      achievement_eyeofgreed_24: 5999213736478206838
+      achievement_eyeofgreed_3: -8047127702498388784
+      achievement_eyeofgreed_4: 3544027535162855817
+      achievement_eyeofgreed_5: 1858156730477380446
+      achievement_eyeofgreed_6: 7190560372662244905
+      achievement_eyeofgreed_7: -5735767626361103133
+      achievement_eyeofgreed_8: -5942815584269686370
+      achievement_eyeofgreed_9: -8367932044648607284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

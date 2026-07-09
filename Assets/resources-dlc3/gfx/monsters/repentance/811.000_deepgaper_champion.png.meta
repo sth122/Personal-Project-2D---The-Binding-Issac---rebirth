@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: fd72e97acd78caa41a27630deed8a36e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4658200569941124025
+    second: 811.000_deepgaper_champion_0
+  - first:
+      213: -9129322899151938954
+    second: 811.000_deepgaper_champion_1
+  - first:
+      213: 2801085874441090811
+    second: 811.000_deepgaper_champion_2
+  - first:
+      213: -2394765295740877732
+    second: 811.000_deepgaper_champion_3
+  - first:
+      213: 2287716419772338405
+    second: 811.000_deepgaper_champion_4
+  - first:
+      213: -5487104083209696706
+    second: 811.000_deepgaper_champion_5
+  - first:
+      213: 5212702887662301989
+    second: 811.000_deepgaper_champion_6
+  - first:
+      213: 9157189167603317721
+    second: 811.000_deepgaper_champion_7
+  - first:
+      213: -4442433907749958559
+    second: 811.000_deepgaper_champion_8
+  - first:
+      213: -6259484005859903029
+    second: 811.000_deepgaper_champion_9
+  - first:
+      213: -4258779239162803666
+    second: 811.000_deepgaper_champion_10
+  - first:
+      213: -2683912533610593311
+    second: 811.000_deepgaper_champion_11
+  - first:
+      213: 463803715448845595
+    second: 811.000_deepgaper_champion_12
+  - first:
+      213: 3337357993980838042
+    second: 811.000_deepgaper_champion_13
+  - first:
+      213: 5256570051490175296
+    second: 811.000_deepgaper_champion_14
+  - first:
+      213: 3255151139265470862
+    second: 811.000_deepgaper_champion_15
+  - first:
+      213: 8943190142309704661
+    second: 811.000_deepgaper_champion_16
+  - first:
+      213: 6503865005827124293
+    second: 811.000_deepgaper_champion_17
+  - first:
+      213: -5927963473100634500
+    second: 811.000_deepgaper_champion_18
+  - first:
+      213: -3345771232567947738
+    second: 811.000_deepgaper_champion_19
+  - first:
+      213: 118644307069862420
+    second: 811.000_deepgaper_champion_20
+  - first:
+      213: 8773627031907883118
+    second: 811.000_deepgaper_champion_21
+  - first:
+      213: 9089555829931608206
+    second: 811.000_deepgaper_champion_22
+  - first:
+      213: -9147039381833911179
+    second: 811.000_deepgaper_champion_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 106
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3ecd7fcb045a040800000000000000
+      internalID: 4658200569941124025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 106
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a953441312e4180800000000000000
+      internalID: -9129322899151938954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 104
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6fc6313c47fd620800000000000000
+      internalID: 2801085874441090811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 104
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c548eeac6a514ced0800000000000000
+      internalID: -2394765295740877732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 106
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0db5386f99fbf10800000000000000
+      internalID: 2287716419772338405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 106
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ac0b288e3e9d3b0800000000000000
+      internalID: -5487104083209696706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 106
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523b3c288ad375840800000000000000
+      internalID: 5212702887662301989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 106
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbfc04f70fd41f70800000000000000
+      internalID: 9157189167603317721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 61
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cc96ed5ed4952c0800000000000000
+      internalID: -4442433907749958559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 61
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc93b79f578d129a0800000000000000
+      internalID: -6259484005859903029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 61
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a84e098d6c5e4c0800000000000000
+      internalID: -4258779239162803666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 61
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e30ce945c3d0cad0800000000000000
+      internalID: -2683912533610593311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 61
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15b5d89503cf6600800000000000000
+      internalID: 463803715448845595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 61
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90c987d96da05e20800000000000000
+      internalID: 3337357993980838042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 61
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04957008c9613f840800000000000000
+      internalID: 5256570051490175296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_15
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 58
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e816022f6be9c2d20800000000000000
+      internalID: 3255151139265470862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 26
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d325272d089c1c70800000000000000
+      internalID: 8943190142309704661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_17
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 26
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c6b6b83ce524a50800000000000000
+      internalID: 6503865005827124293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 26
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76885001a4abbda0800000000000000
+      internalID: -5927963473100634500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_19
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 26
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e01176ace6191d0800000000000000
+      internalID: -3345771232567947738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_20
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 26
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41285816e5285a100800000000000000
+      internalID: 118644307069862420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_21
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 26
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6852a40d4f22c970800000000000000
+      internalID: 8773627031907883118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 26
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8887296ed6942e70800000000000000
+      internalID: 9089555829931608206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 811.000_deepgaper_champion_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 10
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574f74335203f0180800000000000000
+      internalID: -9147039381833911179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      811.000_deepgaper_champion_0: 4658200569941124025
+      811.000_deepgaper_champion_1: -9129322899151938954
+      811.000_deepgaper_champion_10: -4258779239162803666
+      811.000_deepgaper_champion_11: -2683912533610593311
+      811.000_deepgaper_champion_12: 463803715448845595
+      811.000_deepgaper_champion_13: 3337357993980838042
+      811.000_deepgaper_champion_14: 5256570051490175296
+      811.000_deepgaper_champion_15: 3255151139265470862
+      811.000_deepgaper_champion_16: 8943190142309704661
+      811.000_deepgaper_champion_17: 6503865005827124293
+      811.000_deepgaper_champion_18: -5927963473100634500
+      811.000_deepgaper_champion_19: -3345771232567947738
+      811.000_deepgaper_champion_2: 2801085874441090811
+      811.000_deepgaper_champion_20: 118644307069862420
+      811.000_deepgaper_champion_21: 8773627031907883118
+      811.000_deepgaper_champion_22: 9089555829931608206
+      811.000_deepgaper_champion_23: -9147039381833911179
+      811.000_deepgaper_champion_3: -2394765295740877732
+      811.000_deepgaper_champion_4: 2287716419772338405
+      811.000_deepgaper_champion_5: -5487104083209696706
+      811.000_deepgaper_champion_6: 5212702887662301989
+      811.000_deepgaper_champion_7: 9157189167603317721
+      811.000_deepgaper_champion_8: -4442433907749958559
+      811.000_deepgaper_champion_9: -6259484005859903029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

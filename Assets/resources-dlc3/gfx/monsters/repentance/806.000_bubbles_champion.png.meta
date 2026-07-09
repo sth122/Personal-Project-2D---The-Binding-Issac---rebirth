@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 6e0723723a8651b488af94e1aab9ce05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6723346030447965577
+    second: 806.000_bubbles_champion_0
+  - first:
+      213: 6418098781536311955
+    second: 806.000_bubbles_champion_1
+  - first:
+      213: -3123413766621944387
+    second: 806.000_bubbles_champion_2
+  - first:
+      213: 2561978553352922996
+    second: 806.000_bubbles_champion_3
+  - first:
+      213: -2002244015947029416
+    second: 806.000_bubbles_champion_4
+  - first:
+      213: 7622641068837702241
+    second: 806.000_bubbles_champion_5
+  - first:
+      213: -7614880249468608720
+    second: 806.000_bubbles_champion_6
+  - first:
+      213: -191260803619371331
+    second: 806.000_bubbles_champion_7
+  - first:
+      213: 5592409036453576259
+    second: 806.000_bubbles_champion_8
+  - first:
+      213: -2916239294666629699
+    second: 806.000_bubbles_champion_9
+  - first:
+      213: 1417074782930665615
+    second: 806.000_bubbles_champion_10
+  - first:
+      213: -1353907465360566675
+    second: 806.000_bubbles_champion_11
+  - first:
+      213: -7326046139565361822
+    second: 806.000_bubbles_champion_12
+  - first:
+      213: 6754349743974777372
+    second: 806.000_bubbles_champion_13
+  - first:
+      213: 4425931981381221765
+    second: 806.000_bubbles_champion_14
+  - first:
+      213: -3464317456739052873
+    second: 806.000_bubbles_champion_15
+  - first:
+      213: 2050561955460806478
+    second: 806.000_bubbles_champion_16
+  - first:
+      213: 5824913292009427270
+    second: 806.000_bubbles_champion_17
+  - first:
+      213: -8447812837202244745
+    second: 806.000_bubbles_champion_18
+  - first:
+      213: -1683200864734684958
+    second: 806.000_bubbles_champion_19
+  - first:
+      213: -5817567336259611970
+    second: 806.000_bubbles_champion_20
+  - first:
+      213: 8030968162386894245
+    second: 806.000_bubbles_champion_21
+  - first:
+      213: 8551047409473963742
+    second: 806.000_bubbles_champion_22
+  - first:
+      213: 9159576837667974284
+    second: 806.000_bubbles_champion_23
+  - first:
+      213: -7134607393734906711
+    second: 806.000_bubbles_champion_24
+  - first:
+      213: 4474863569942426480
+    second: 806.000_bubbles_champion_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 204
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98532e6c79f1e4d50800000000000000
+      internalID: 6723346030447965577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 204
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ad6d656daa11950800000000000000
+      internalID: 6418098781536311955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db52fe15ab767a4d0800000000000000
+      internalID: -3123413766621944387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 152
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47725ca9be9fd8320800000000000000
+      internalID: 2561978553352922996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 152
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85463d30da99634e0800000000000000
+      internalID: -2002244015947029416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 152
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a00666aaf09c960800000000000000
+      internalID: 7622641068837702241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 152
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f194b22c2825690800000000000000
+      internalID: -7614880249468608720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 152
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6cfccff41885df0800000000000000
+      internalID: -191260803619371331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 152
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34eff78836a3c9d40800000000000000
+      internalID: 5592409036453576259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 152
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd1c59ffcf6787d0800000000000000
+      internalID: -2916239294666629699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f800fb0d1067aa310800000000000000
+      internalID: 1417074782930665615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d661f646554f53de0800000000000000
+      internalID: -1353907465360566675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 104
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265b513e9d7a45a90800000000000000
+      internalID: -7326046139565361822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 104
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c120e5a5e454cbd50800000000000000
+      internalID: 6754349743974777372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58db44effa11c6d30800000000000000
+      internalID: 4425931981381221765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b252e9b0a54cefc0800000000000000
+      internalID: -3464317456739052873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 56
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47fb21fb3f057c10800000000000000
+      internalID: 2050561955460806478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 56
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6415ca107cf36d050800000000000000
+      internalID: 5824913292009427270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 56
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b4395abf653ca80800000000000000
+      internalID: -8447812837202244745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_19
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 56
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8dbd34bb114a8e0800000000000000
+      internalID: -1683200864734684958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_20
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb294599459d34fa0800000000000000
+      internalID: -5817567336259611970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adda896efab37f60800000000000000
+      internalID: 8030968162386894245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed64833405c6ba670800000000000000
+      internalID: 8551047409473963742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c6816ba9a5d1f70800000000000000
+      internalID: 9159576837667974284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 8
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac2e8c4068ccfc90800000000000000
+      internalID: -7134607393734906711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 806.000_bubbles_champion_25
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 8
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07331c045b8e91e30800000000000000
+      internalID: 4474863569942426480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      806.000_bubbles_champion_0: 6723346030447965577
+      806.000_bubbles_champion_1: 6418098781536311955
+      806.000_bubbles_champion_10: 1417074782930665615
+      806.000_bubbles_champion_11: -1353907465360566675
+      806.000_bubbles_champion_12: -7326046139565361822
+      806.000_bubbles_champion_13: 6754349743974777372
+      806.000_bubbles_champion_14: 4425931981381221765
+      806.000_bubbles_champion_15: -3464317456739052873
+      806.000_bubbles_champion_16: 2050561955460806478
+      806.000_bubbles_champion_17: 5824913292009427270
+      806.000_bubbles_champion_18: -8447812837202244745
+      806.000_bubbles_champion_19: -1683200864734684958
+      806.000_bubbles_champion_2: -3123413766621944387
+      806.000_bubbles_champion_20: -5817567336259611970
+      806.000_bubbles_champion_21: 8030968162386894245
+      806.000_bubbles_champion_22: 8551047409473963742
+      806.000_bubbles_champion_23: 9159576837667974284
+      806.000_bubbles_champion_24: -7134607393734906711
+      806.000_bubbles_champion_25: 4474863569942426480
+      806.000_bubbles_champion_3: 2561978553352922996
+      806.000_bubbles_champion_4: -2002244015947029416
+      806.000_bubbles_champion_5: 7622641068837702241
+      806.000_bubbles_champion_6: -7614880249468608720
+      806.000_bubbles_champion_7: -191260803619371331
+      806.000_bubbles_champion_8: 5592409036453576259
+      806.000_bubbles_champion_9: -2916239294666629699
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

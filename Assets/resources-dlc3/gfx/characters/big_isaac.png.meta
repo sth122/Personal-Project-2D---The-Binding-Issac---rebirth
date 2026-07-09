@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: e5393875286b32e4aa47edff75b4b91b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8225796718252114360
+    second: big_isaac_0
+  - first:
+      213: 4238951283070478909
+    second: big_isaac_1
+  - first:
+      213: 6088652871080814102
+    second: big_isaac_2
+  - first:
+      213: 5870289599204900842
+    second: big_isaac_3
+  - first:
+      213: 8025940599065683880
+    second: big_isaac_4
+  - first:
+      213: -7876398725840651420
+    second: big_isaac_5
+  - first:
+      213: -8621610412790494691
+    second: big_isaac_6
+  - first:
+      213: 1030039748515571067
+    second: big_isaac_7
+  - first:
+      213: 1187380350080326581
+    second: big_isaac_8
+  - first:
+      213: -7054324192139030655
+    second: big_isaac_9
+  - first:
+      213: 1486899205720122733
+    second: big_isaac_10
+  - first:
+      213: -8081838563904716985
+    second: big_isaac_11
+  - first:
+      213: -7149273136629324979
+    second: big_isaac_12
+  - first:
+      213: -1540213237747525835
+    second: big_isaac_13
+  - first:
+      213: 5480408542537236118
+    second: big_isaac_14
+  - first:
+      213: -3554201450293464013
+    second: big_isaac_15
+  - first:
+      213: 6092352059646809247
+    second: big_isaac_16
+  - first:
+      213: -8632278341134717818
+    second: big_isaac_17
+  - first:
+      213: -81624686826939479
+    second: big_isaac_18
+  - first:
+      213: -7386910462903440338
+    second: big_isaac_19
+  - first:
+      213: -4294204934660638025
+    second: big_isaac_20
+  - first:
+      213: -1456776184252509660
+    second: big_isaac_21
+  - first:
+      213: 7331897916208063375
+    second: big_isaac_22
+  - first:
+      213: -9039901143051284227
+    second: big_isaac_23
+  - first:
+      213: -4121889980851886810
+    second: big_isaac_24
+  - first:
+      213: -7875366715392725259
+    second: big_isaac_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: big_isaac_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 248
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e3206877918dd80800000000000000
+      internalID: -8225796718252114360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 247
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a2a97abb7c3da30800000000000000
+      internalID: 4238951283070478909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 248
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6162f65f68d3f7450800000000000000
+      internalID: 6088652871080814102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 248
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef3741d945777150800000000000000
+      internalID: 5870289599204900842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 248
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a722bb937ed16f60800000000000000
+      internalID: 8025940599065683880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_5
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 248
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bbdecf61961b290800000000000000
+      internalID: -7876398725840651420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 248
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a40d14203e95880800000000000000
+      internalID: -8621610412790494691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_7
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 248
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75adc2a1bf6b4e00800000000000000
+      internalID: 1030039748515571067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 168
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb11db232c6a7010800000000000000
+      internalID: 1187380350080326581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 168
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fcb1dc5810a1e90800000000000000
+      internalID: -7054324192139030655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 168
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6522cd13f682a410800000000000000
+      internalID: 1486899205720122733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 168
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ff76245aa87df80800000000000000
+      internalID: -8081838563904716985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_12
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 168
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4367f0f5fda8cc90800000000000000
+      internalID: -7149273136629324979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_13
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 168
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53754bd783010aae0800000000000000
+      internalID: -1540213237747525835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_14
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 168
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69eb2f178825e0c40800000000000000
+      internalID: 5480408542537236118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_15
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 168
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3347417ac90fcaec0800000000000000
+      internalID: -3554201450293464013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 79
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f941ed96be16c8450800000000000000
+      internalID: 6092352059646809247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 83
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ced52a59cf33880800000000000000
+      internalID: -8632278341134717818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 87
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab17c0a7c20edef0800000000000000
+      internalID: -81624686826939479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 80
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c260f421c6c7990800000000000000
+      internalID: -7386910462903440338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_20
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 85
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bab2d41d5be764c0800000000000000
+      internalID: -4294204934660638025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_21
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 85
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422516c57cd78cbe0800000000000000
+      internalID: -1456776184252509660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_22
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 81
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8322090f4220c560800000000000000
+      internalID: 7331897916208063375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_23
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 78
+        width: 72
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0d7cb4ec1db8280800000000000000
+      internalID: -9039901143051284227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625e410b6ea1cc6c0800000000000000
+      internalID: -4121889980851886810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_isaac_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 8
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fee415a2b315b290800000000000000
+      internalID: -7875366715392725259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      big_isaac_0: -8225796718252114360
+      big_isaac_1: 4238951283070478909
+      big_isaac_10: 1486899205720122733
+      big_isaac_11: -8081838563904716985
+      big_isaac_12: -7149273136629324979
+      big_isaac_13: -1540213237747525835
+      big_isaac_14: 5480408542537236118
+      big_isaac_15: -3554201450293464013
+      big_isaac_16: 6092352059646809247
+      big_isaac_17: -8632278341134717818
+      big_isaac_18: -81624686826939479
+      big_isaac_19: -7386910462903440338
+      big_isaac_2: 6088652871080814102
+      big_isaac_20: -4294204934660638025
+      big_isaac_21: -1456776184252509660
+      big_isaac_22: 7331897916208063375
+      big_isaac_23: -9039901143051284227
+      big_isaac_24: -4121889980851886810
+      big_isaac_25: -7875366715392725259
+      big_isaac_3: 5870289599204900842
+      big_isaac_4: 8025940599065683880
+      big_isaac_5: -7876398725840651420
+      big_isaac_6: -8621610412790494691
+      big_isaac_7: 1030039748515571067
+      big_isaac_8: 1187380350080326581
+      big_isaac_9: -7054324192139030655
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

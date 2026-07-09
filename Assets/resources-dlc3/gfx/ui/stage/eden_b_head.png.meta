@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 17c3acf17791efa4d847a821f1cf0aa3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3614866634664789949
+    second: eden_b_head_0
+  - first:
+      213: 8228260597481395607
+    second: eden_b_head_1
+  - first:
+      213: -7570200694216907626
+    second: eden_b_head_2
+  - first:
+      213: -6188987553930947138
+    second: eden_b_head_3
+  - first:
+      213: 6942942808343563037
+    second: eden_b_head_4
+  - first:
+      213: 1186545302919199898
+    second: eden_b_head_5
+  - first:
+      213: -3292954311357209340
+    second: eden_b_head_6
+  - first:
+      213: 3820368193880940803
+    second: eden_b_head_7
+  - first:
+      213: 3215348880481676787
+    second: eden_b_head_8
+  - first:
+      213: 2926713641600694172
+    second: eden_b_head_9
+  - first:
+      213: -575983404655607425
+    second: eden_b_head_10
+  - first:
+      213: 5450287394212935013
+    second: eden_b_head_11
+  - first:
+      213: -1722087290030492842
+    second: eden_b_head_12
+  - first:
+      213: -3358348456589844963
+    second: eden_b_head_13
+  - first:
+      213: 5555011151579785206
+    second: eden_b_head_14
+  - first:
+      213: -5654747651100151251
+    second: eden_b_head_15
+  - first:
+      213: 2306136094712174500
+    second: eden_b_head_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eden_b_head_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 295
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db74b954d069a2230800000000000000
+      internalID: 3614866634664789949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 294
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795d8301b67a03270800000000000000
+      internalID: 8228260597481395607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 295
+        width: 80
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69429c6c39e31f690800000000000000
+      internalID: -7570200694216907626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 295
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5d1a04c9c4c1aa0800000000000000
+      internalID: -6188987553930947138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 198
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bcb2be2b94a5060800000000000000
+      internalID: 6942942808343563037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 199
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c386a9aa4777010800000000000000
+      internalID: 1186545302919199898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_6
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 199
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40566f920831d42d0800000000000000
+      internalID: -3292954311357209340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 191
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301697391aca40530800000000000000
+      internalID: 3820368193880940803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 136
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd6f0a65c63f9c20800000000000000
+      internalID: 3215348880481676787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 98
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9736e6fc86cd9820800000000000000
+      internalID: 2926713641600694172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 99
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f718bf82522b108f0800000000000000
+      internalID: -575983404655607425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 102
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565f9d7128f43ab40800000000000000
+      internalID: 5450287394212935013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_12
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 101
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6537485dbbae918e0800000000000000
+      internalID: -1722087290030492842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 71
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e1bfc3fdfb461d0800000000000000
+      internalID: -3358348456589844963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 7
+        width: 80
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f72f3de53d571d40800000000000000
+      internalID: 5555011151579785206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2273b1b8fc4681b0800000000000000
+      internalID: -5654747651100151251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eden_b_head_16
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 5
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a796094f8a010020800000000000000
+      internalID: 2306136094712174500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      eden_b_head_0: 3614866634664789949
+      eden_b_head_1: 8228260597481395607
+      eden_b_head_10: -575983404655607425
+      eden_b_head_11: 5450287394212935013
+      eden_b_head_12: -1722087290030492842
+      eden_b_head_13: -3358348456589844963
+      eden_b_head_14: 5555011151579785206
+      eden_b_head_15: -5654747651100151251
+      eden_b_head_16: 2306136094712174500
+      eden_b_head_2: -7570200694216907626
+      eden_b_head_3: -6188987553930947138
+      eden_b_head_4: 6942942808343563037
+      eden_b_head_5: 1186545302919199898
+      eden_b_head_6: -3292954311357209340
+      eden_b_head_7: 3820368193880940803
+      eden_b_head_8: 3215348880481676787
+      eden_b_head_9: 2926713641600694172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

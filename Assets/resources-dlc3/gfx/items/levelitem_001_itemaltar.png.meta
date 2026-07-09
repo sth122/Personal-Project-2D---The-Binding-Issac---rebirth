@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: ea0f9ff77d273c14c9e68bea3a2d7d42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5150984484692561490
+    second: levelitem_001_itemaltar_0
+  - first:
+      213: -2247180494018412978
+    second: levelitem_001_itemaltar_1
+  - first:
+      213: 4297338264068249331
+    second: levelitem_001_itemaltar_2
+  - first:
+      213: -6381120520344047011
+    second: levelitem_001_itemaltar_3
+  - first:
+      213: -2414804961926592385
+    second: levelitem_001_itemaltar_4
+  - first:
+      213: -6958597901188874077
+    second: levelitem_001_itemaltar_5
+  - first:
+      213: 8066687260755769530
+    second: levelitem_001_itemaltar_6
+  - first:
+      213: 7855981838926294221
+    second: levelitem_001_itemaltar_7
+  - first:
+      213: -545546184307427564
+    second: levelitem_001_itemaltar_8
+  - first:
+      213: 6767488702415631944
+    second: levelitem_001_itemaltar_9
+  - first:
+      213: -5033225731777638225
+    second: levelitem_001_itemaltar_10
+  - first:
+      213: 7165633320087594801
+    second: levelitem_001_itemaltar_11
+  - first:
+      213: 5737136238821870938
+    second: levelitem_001_itemaltar_12
+  - first:
+      213: 3962103176414332421
+    second: levelitem_001_itemaltar_13
+  - first:
+      213: 1913452422218884475
+    second: levelitem_001_itemaltar_14
+  - first:
+      213: -6303427444653234520
+    second: levelitem_001_itemaltar_15
+  - first:
+      213: -558506542328316056
+    second: levelitem_001_itemaltar_16
+  - first:
+      213: 2405360637867049386
+    second: levelitem_001_itemaltar_17
+  - first:
+      213: 2311927378289485250
+    second: levelitem_001_itemaltar_18
+  - first:
+      213: -2984298675432743116
+    second: levelitem_001_itemaltar_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 227
+        width: 53
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1f95af6e60488b0800000000000000
+      internalID: -5150984484692561490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 223
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e78db2f3960d0e0800000000000000
+      internalID: -2247180494018412978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 223
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f65b75026633ab30800000000000000
+      internalID: 4297338264068249331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 223
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52ffe302b4b177a0800000000000000
+      internalID: -6381120520344047011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 175
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78c38a6ea3ec7ed0800000000000000
+      internalID: -2414804961926592385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0cbdcb3181e6f90800000000000000
+      internalID: -6958597901188874077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 175
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab834831351a2ff60800000000000000
+      internalID: 8066687260755769530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 173
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc2f171cdd060d60800000000000000
+      internalID: 7855981838926294221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 173
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41739c3c2a4dd68f0800000000000000
+      internalID: -545546184307427564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 127
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846f3f08e13faed50800000000000000
+      internalID: 6767488702415631944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 127
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0d9073dd3662ab0800000000000000
+      internalID: -5033225731777638225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 127
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137268a1a81717360800000000000000
+      internalID: 7165633320087594801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 118
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d8ff633076e9f40800000000000000
+      internalID: 5737136238821870938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 127
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5068f99c8d73cf630800000000000000
+      internalID: 3962103176414332421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 79
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75a7f017d2fd8a10800000000000000
+      internalID: 1913452422218884475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 79
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6eef5d22ab588a0800000000000000
+      internalID: -6303427444653234520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 79
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ff9c34249cf38f0800000000000000
+      internalID: -558506542328316056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_17
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 79
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1c5c881ce816120800000000000000
+      internalID: 2405360637867049386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 19
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5e17193bd951020800000000000000
+      internalID: 2311927378289485250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelitem_001_itemaltar_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 31
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f992b8a24a596d0800000000000000
+      internalID: -2984298675432743116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      levelitem_001_itemaltar_0: -5150984484692561490
+      levelitem_001_itemaltar_1: -2247180494018412978
+      levelitem_001_itemaltar_10: -5033225731777638225
+      levelitem_001_itemaltar_11: 7165633320087594801
+      levelitem_001_itemaltar_12: 5737136238821870938
+      levelitem_001_itemaltar_13: 3962103176414332421
+      levelitem_001_itemaltar_14: 1913452422218884475
+      levelitem_001_itemaltar_15: -6303427444653234520
+      levelitem_001_itemaltar_16: -558506542328316056
+      levelitem_001_itemaltar_17: 2405360637867049386
+      levelitem_001_itemaltar_18: 2311927378289485250
+      levelitem_001_itemaltar_19: -2984298675432743116
+      levelitem_001_itemaltar_2: 4297338264068249331
+      levelitem_001_itemaltar_3: -6381120520344047011
+      levelitem_001_itemaltar_4: -2414804961926592385
+      levelitem_001_itemaltar_5: -6958597901188874077
+      levelitem_001_itemaltar_6: 8066687260755769530
+      levelitem_001_itemaltar_7: 7855981838926294221
+      levelitem_001_itemaltar_8: -545546184307427564
+      levelitem_001_itemaltar_9: 6767488702415631944
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 8f92535964d613540917f056eff9943a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -31627828173050235
+    second: 824.001_grilledgyro_champion_0
+  - first:
+      213: 30449062745362474
+    second: 824.001_grilledgyro_champion_1
+  - first:
+      213: 3872412423988498796
+    second: 824.001_grilledgyro_champion_2
+  - first:
+      213: 221668664480549273
+    second: 824.001_grilledgyro_champion_3
+  - first:
+      213: -6759657975232162548
+    second: 824.001_grilledgyro_champion_4
+  - first:
+      213: -5072832419017310368
+    second: 824.001_grilledgyro_champion_5
+  - first:
+      213: -8353281274255063576
+    second: 824.001_grilledgyro_champion_6
+  - first:
+      213: 3653984878070750562
+    second: 824.001_grilledgyro_champion_7
+  - first:
+      213: 8876356667260059034
+    second: 824.001_grilledgyro_champion_8
+  - first:
+      213: -9206288440284420957
+    second: 824.001_grilledgyro_champion_9
+  - first:
+      213: 1659652937085396678
+    second: 824.001_grilledgyro_champion_10
+  - first:
+      213: 8322461021676672122
+    second: 824.001_grilledgyro_champion_11
+  - first:
+      213: 2930042702410399372
+    second: 824.001_grilledgyro_champion_12
+  - first:
+      213: -9154513367114910385
+    second: 824.001_grilledgyro_champion_13
+  - first:
+      213: -506832525511050161
+    second: 824.001_grilledgyro_champion_14
+  - first:
+      213: 5042949036756905660
+    second: 824.001_grilledgyro_champion_15
+  - first:
+      213: -8141205170877942309
+    second: 824.001_grilledgyro_champion_16
+  - first:
+      213: -5398701421955531886
+    second: 824.001_grilledgyro_champion_17
+  - first:
+      213: -6778572190696518584
+    second: 824.001_grilledgyro_champion_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 104
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e6ab868a2af8ff0800000000000000
+      internalID: -31627828173050235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 104
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a205ea0e24d2c6000800000000000000
+      internalID: 30449062745362474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 104
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61d4ab25929db530800000000000000
+      internalID: 3872412423988498796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 104
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999c234d976831300800000000000000
+      internalID: 221668664480549273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 104
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05962fb2eed032a0800000000000000
+      internalID: -6759657975232162548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 99
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f336bbacda999b0800000000000000
+      internalID: -5072832419017310368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 100
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5ca1b40fe231c80800000000000000
+      internalID: -8353281274255063576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 56
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d5e0013ef85b230800000000000000
+      internalID: 3653984878070750562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 56
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9db4b32c572f2b70800000000000000
+      internalID: 8876356667260059034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 56
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4ef09c071bc3080800000000000000
+      internalID: -9206288440284420957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 55
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6a8659d85480710800000000000000
+      internalID: 1659652937085396678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 55
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74921674325f7370800000000000000
+      internalID: 8322461021676672122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 48
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8eb5e5505a99a820800000000000000
+      internalID: 2930042702410399372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_13
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45fc856892a4f080800000000000000
+      internalID: -9154513367114910385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cbc4cd08e57f8f0800000000000000
+      internalID: -506832525511050161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 7
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe2b442e672cf540800000000000000
+      internalID: 5042949036756905660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd53f32f701a40f80800000000000000
+      internalID: -8141205170877942309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 7
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bb1f709a5f315b0800000000000000
+      internalID: -5398701421955531886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.001_grilledgyro_champion_18
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 7
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c4139c18cade1a0800000000000000
+      internalID: -6778572190696518584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      824.001_grilledgyro_champion_0: -31627828173050235
+      824.001_grilledgyro_champion_1: 30449062745362474
+      824.001_grilledgyro_champion_10: 1659652937085396678
+      824.001_grilledgyro_champion_11: 8322461021676672122
+      824.001_grilledgyro_champion_12: 2930042702410399372
+      824.001_grilledgyro_champion_13: -9154513367114910385
+      824.001_grilledgyro_champion_14: -506832525511050161
+      824.001_grilledgyro_champion_15: 5042949036756905660
+      824.001_grilledgyro_champion_16: -8141205170877942309
+      824.001_grilledgyro_champion_17: -5398701421955531886
+      824.001_grilledgyro_champion_18: -6778572190696518584
+      824.001_grilledgyro_champion_2: 3872412423988498796
+      824.001_grilledgyro_champion_3: 221668664480549273
+      824.001_grilledgyro_champion_4: -6759657975232162548
+      824.001_grilledgyro_champion_5: -5072832419017310368
+      824.001_grilledgyro_champion_6: -8353281274255063576
+      824.001_grilledgyro_champion_7: 3653984878070750562
+      824.001_grilledgyro_champion_8: 8876356667260059034
+      824.001_grilledgyro_champion_9: -9206288440284420957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

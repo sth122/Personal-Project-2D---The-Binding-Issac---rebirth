@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 2b97ae27c4602794dbfc73b578637100
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2737431170615069407
+    second: 841.000_revenant_0
+  - first:
+      213: 3651151143914360263
+    second: 841.000_revenant_1
+  - first:
+      213: -9088166621440402483
+    second: 841.000_revenant_2
+  - first:
+      213: -1194539684503253033
+    second: 841.000_revenant_3
+  - first:
+      213: 1561288461213200510
+    second: 841.000_revenant_4
+  - first:
+      213: 4918297887659732119
+    second: 841.000_revenant_5
+  - first:
+      213: 5981514412718002660
+    second: 841.000_revenant_6
+  - first:
+      213: -5394293077200908175
+    second: 841.000_revenant_7
+  - first:
+      213: -6292266903129009672
+    second: 841.000_revenant_8
+  - first:
+      213: 2499942237038305000
+    second: 841.000_revenant_9
+  - first:
+      213: -4390355301253191416
+    second: 841.000_revenant_10
+  - first:
+      213: 6807252848797638405
+    second: 841.000_revenant_11
+  - first:
+      213: 5092057691171596290
+    second: 841.000_revenant_12
+  - first:
+      213: -1360539735532580963
+    second: 841.000_revenant_13
+  - first:
+      213: -1971234232159829416
+    second: 841.000_revenant_14
+  - first:
+      213: 7696656260887788627
+    second: 841.000_revenant_15
+  - first:
+      213: -7173417727933878263
+    second: 841.000_revenant_16
+  - first:
+      213: -568648229510884362
+    second: 841.000_revenant_17
+  - first:
+      213: -1307751375183303334
+    second: 841.000_revenant_18
+  - first:
+      213: 889020667176877367
+    second: 841.000_revenant_19
+  - first:
+      213: -4321316154518243229
+    second: 841.000_revenant_20
+  - first:
+      213: 1582526045273988657
+    second: 841.000_revenant_21
+  - first:
+      213: 7568538480463183503
+    second: 841.000_revenant_22
+  - first:
+      213: 1524241655019650520
+    second: 841.000_revenant_23
+  - first:
+      213: -2070097020375331678
+    second: 841.000_revenant_24
+  - first:
+      213: 7976626174194939168
+    second: 841.000_revenant_25
+  - first:
+      213: 8819384268933746628
+    second: 841.000_revenant_26
+  - first:
+      213: 5050743267111153616
+    second: 841.000_revenant_27
+  - first:
+      213: 5354753217104762818
+    second: 841.000_revenant_28
+  - first:
+      213: 7264482222347973307
+    second: 841.000_revenant_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 841.000_revenant_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 150
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12538669ad0b20ad0800000000000000
+      internalID: -2737431170615069407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 150
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdc64aee9e7ba230800000000000000
+      internalID: 3651151143914360263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 150
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb9b75eb9850e180800000000000000
+      internalID: -9088166621440402483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 150
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df83136c742c6fe0800000000000000
+      internalID: -1194539684503253033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 150
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70778a559fcaa510800000000000000
+      internalID: 1561288461213200510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 150
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c238ddedd414440800000000000000
+      internalID: 4918297887659732119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_6
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 150
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e19fecbaab920350800000000000000
+      internalID: 5981514412718002660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 151
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1705717c60f9325b0800000000000000
+      internalID: -5394293077200908175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 150
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f15c07e6906da8a0800000000000000
+      internalID: -6292266903129009672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 151
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eed9a5283491b220800000000000000
+      internalID: 2499942237038305000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809ec075d135213c0800000000000000
+      internalID: -4390355301253191416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 102
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f59dc4668387e50800000000000000
+      internalID: 6807252848797638405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 102
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2082412cd7f9aa640800000000000000
+      internalID: 5092057691171596290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 102
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fc6c8a1546e1de0800000000000000
+      internalID: -1360539735532580963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 102
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852060fe8e4c4a4e0800000000000000
+      internalID: -1971234232159829416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_15
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 102
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cb084371400da60800000000000000
+      internalID: 7696656260887788627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 59
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900f2053596e27c90800000000000000
+      internalID: -7173417727933878263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 60
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f359d5b271cb18f0800000000000000
+      internalID: -568648229510884362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 54
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5daba39d0fe9dde0800000000000000
+      internalID: -1307751375183303334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 54
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dfe09269f665c00800000000000000
+      internalID: 889020667176877367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_20
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 54
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36878cf4ad99704c0800000000000000
+      internalID: -4321316154518243229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_21
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 54
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e1c58bd0346f510800000000000000
+      internalID: 1582526045273988657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_22
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 54
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ef1ece5a9d80960800000000000000
+      internalID: 7568538480463183503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_23
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 55
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddbc4f95b1372510800000000000000
+      internalID: 1524241655019650520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_24
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 54
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac0fe15ab98543e0800000000000000
+      internalID: -2070097020375331678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_25
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 55
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025f8f25e3ba2be60800000000000000
+      internalID: 7976626174194939168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 6
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfc677f34fb46a70800000000000000
+      internalID: 8819384268933746628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 6
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df2bdfcd38d71640800000000000000
+      internalID: 5050743267111153616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 6
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7d8652ea7ef4a40800000000000000
+      internalID: 5354753217104762818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 841.000_revenant_29
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 6
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2f034a710a0d460800000000000000
+      internalID: 7264482222347973307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      841.000_revenant_0: -2737431170615069407
+      841.000_revenant_1: 3651151143914360263
+      841.000_revenant_10: -4390355301253191416
+      841.000_revenant_11: 6807252848797638405
+      841.000_revenant_12: 5092057691171596290
+      841.000_revenant_13: -1360539735532580963
+      841.000_revenant_14: -1971234232159829416
+      841.000_revenant_15: 7696656260887788627
+      841.000_revenant_16: -7173417727933878263
+      841.000_revenant_17: -568648229510884362
+      841.000_revenant_18: -1307751375183303334
+      841.000_revenant_19: 889020667176877367
+      841.000_revenant_2: -9088166621440402483
+      841.000_revenant_20: -4321316154518243229
+      841.000_revenant_21: 1582526045273988657
+      841.000_revenant_22: 7568538480463183503
+      841.000_revenant_23: 1524241655019650520
+      841.000_revenant_24: -2070097020375331678
+      841.000_revenant_25: 7976626174194939168
+      841.000_revenant_26: 8819384268933746628
+      841.000_revenant_27: 5050743267111153616
+      841.000_revenant_28: 5354753217104762818
+      841.000_revenant_29: 7264482222347973307
+      841.000_revenant_3: -1194539684503253033
+      841.000_revenant_4: 1561288461213200510
+      841.000_revenant_5: 4918297887659732119
+      841.000_revenant_6: 5981514412718002660
+      841.000_revenant_7: -5394293077200908175
+      841.000_revenant_8: -6292266903129009672
+      841.000_revenant_9: 2499942237038305000
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

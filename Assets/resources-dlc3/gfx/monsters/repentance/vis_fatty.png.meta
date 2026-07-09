@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: ab1a00a53408db04fa36a770c2b291c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2657412304306217012
+    second: vis_fatty_0
+  - first:
+      213: 388231359704245706
+    second: vis_fatty_1
+  - first:
+      213: 7484012476933987457
+    second: vis_fatty_2
+  - first:
+      213: -1360665335165417035
+    second: vis_fatty_3
+  - first:
+      213: -2651162048795357301
+    second: vis_fatty_4
+  - first:
+      213: -1574536414751367283
+    second: vis_fatty_5
+  - first:
+      213: -5794353882241103694
+    second: vis_fatty_6
+  - first:
+      213: -1334071215995097508
+    second: vis_fatty_7
+  - first:
+      213: 3115888948654080215
+    second: vis_fatty_8
+  - first:
+      213: -259181519966386390
+    second: vis_fatty_9
+  - first:
+      213: 5214445088752816199
+    second: vis_fatty_10
+  - first:
+      213: 3683836207114322642
+    second: vis_fatty_11
+  - first:
+      213: 1966656970851904549
+    second: vis_fatty_12
+  - first:
+      213: -6758678394469643952
+    second: vis_fatty_13
+  - first:
+      213: 2572042005495208895
+    second: vis_fatty_14
+  - first:
+      213: -1353952805904448808
+    second: vis_fatty_15
+  - first:
+      213: 7217867608103051796
+    second: vis_fatty_16
+  - first:
+      213: -8265111658738563337
+    second: vis_fatty_17
+  - first:
+      213: -4232793085246609840
+    second: vis_fatty_18
+  - first:
+      213: 8663577022140340493
+    second: vis_fatty_19
+  - first:
+      213: -721908177196828349
+    second: vis_fatty_20
+  - first:
+      213: -9078020344727775674
+    second: vis_fatty_21
+  - first:
+      213: 8140204107659512436
+    second: vis_fatty_22
+  - first:
+      213: -6142637406438531757
+    second: vis_fatty_23
+  - first:
+      213: 6347397611305598181
+    second: vis_fatty_24
+  - first:
+      213: -974793800079157608
+    second: vis_fatty_25
+  - first:
+      213: 2348008792769230396
+    second: vis_fatty_26
+  - first:
+      213: 4670930720423469999
+    second: vis_fatty_27
+  - first:
+      213: 3826405144370340336
+    second: vis_fatty_28
+  - first:
+      213: 2260340673510158884
+    second: vis_fatty_29
+  - first:
+      213: 5886055278840067536
+    second: vis_fatty_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vis_fatty_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 252
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430ace3496601e420800000000000000
+      internalID: 2657412304306217012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 252
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5a6dd5d56436500800000000000000
+      internalID: 388231359704245706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 252
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cdd3e12bd8cd760800000000000000
+      internalID: 7484012476933987457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 250
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b907473612fd1de0800000000000000
+      internalID: -1360665335165417035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 250
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f4e8fb92e253bd0800000000000000
+      internalID: -2651162048795357301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 200
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fd3d8197f162ae0800000000000000
+      internalID: -1574536414751367283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 200
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b80d1a08d1569fa0800000000000000
+      internalID: -5794353882241103694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 200
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ee9891c4d6c7de0800000000000000
+      internalID: -1334071215995097508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_8
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 200
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d087187d7cdd3b20800000000000000
+      internalID: 3115888948654080215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 206
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27ce02e7c3376cf0800000000000000
+      internalID: -259181519966386390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 152
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74054ef4e2e6d5840800000000000000
+      internalID: 5214445088752816199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 152
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d285c7338d9f1330800000000000000
+      internalID: 3683836207114322642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 152
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c6cae5818fa4b10800000000000000
+      internalID: 1966656970851904549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_13
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 152
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059878a2fc95432a0800000000000000
+      internalID: -6758678394469643952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_14
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 170
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbdce4a39ab1b320800000000000000
+      internalID: 2572042005495208895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_15
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 170
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d20c69b81bc53de0800000000000000
+      internalID: -1353952805904448808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_16
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 137
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412e7c009540b2460800000000000000
+      internalID: 7217867608103051796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_17
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 135
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6c2ff9cbc6c4d80800000000000000
+      internalID: -8265111658738563337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 104
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05665228d191245c0800000000000000
+      internalID: -4232793085246609840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 104
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0959e866653b3870800000000000000
+      internalID: 8663577022140340493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349bbb176544bf5f0800000000000000
+      internalID: -721908177196828349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_21
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 104
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6465bb80894640280800000000000000
+      internalID: -9078020344727775674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 100
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a883cd180d7f070800000000000000
+      internalID: 8140204107659512436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_23
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 102
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d543de2d7f0caa0800000000000000
+      internalID: -6142637406438531757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 56
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec780e5f7c761850800000000000000
+      internalID: 6347397611305598181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 56
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89657091436d872f0800000000000000
+      internalID: -974793800079157608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_26
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 56
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36f0868e8dc59020800000000000000
+      internalID: 2348008792769230396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_27
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 56
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3ec491eba72d040800000000000000
+      internalID: 4670930720423469999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1ebe4a43f1a1530800000000000000
+      internalID: 3826405144370340336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_29
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 5
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422b0f3edd75e5f10800000000000000
+      internalID: 2260340673510158884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vis_fatty_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 7
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5339727187fa150800000000000000
+      internalID: 5886055278840067536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vis_fatty_0: 2657412304306217012
+      vis_fatty_1: 388231359704245706
+      vis_fatty_10: 5214445088752816199
+      vis_fatty_11: 3683836207114322642
+      vis_fatty_12: 1966656970851904549
+      vis_fatty_13: -6758678394469643952
+      vis_fatty_14: 2572042005495208895
+      vis_fatty_15: -1353952805904448808
+      vis_fatty_16: 7217867608103051796
+      vis_fatty_17: -8265111658738563337
+      vis_fatty_18: -4232793085246609840
+      vis_fatty_19: 8663577022140340493
+      vis_fatty_2: 7484012476933987457
+      vis_fatty_20: -721908177196828349
+      vis_fatty_21: -9078020344727775674
+      vis_fatty_22: 8140204107659512436
+      vis_fatty_23: -6142637406438531757
+      vis_fatty_24: 6347397611305598181
+      vis_fatty_25: -974793800079157608
+      vis_fatty_26: 2348008792769230396
+      vis_fatty_27: 4670930720423469999
+      vis_fatty_28: 3826405144370340336
+      vis_fatty_29: 2260340673510158884
+      vis_fatty_3: -1360665335165417035
+      vis_fatty_30: 5886055278840067536
+      vis_fatty_4: -2651162048795357301
+      vis_fatty_5: -1574536414751367283
+      vis_fatty_6: -5794353882241103694
+      vis_fatty_7: -1334071215995097508
+      vis_fatty_8: 3115888948654080215
+      vis_fatty_9: -259181519966386390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

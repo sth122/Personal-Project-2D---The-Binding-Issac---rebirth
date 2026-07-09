@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: e01b14f9ae6f4a1458e8373d1463119e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -743037819501887164
+    second: achievement_220_serpentskiss_0
+  - first:
+      213: 4364659134406420367
+    second: achievement_220_serpentskiss_1
+  - first:
+      213: 8747790043455477398
+    second: achievement_220_serpentskiss_2
+  - first:
+      213: 9026044617822137527
+    second: achievement_220_serpentskiss_3
+  - first:
+      213: -2708081811269554426
+    second: achievement_220_serpentskiss_4
+  - first:
+      213: -8421064647807553929
+    second: achievement_220_serpentskiss_5
+  - first:
+      213: 272619069924757121
+    second: achievement_220_serpentskiss_6
+  - first:
+      213: 3745365443479877848
+    second: achievement_220_serpentskiss_7
+  - first:
+      213: -8917302568546762731
+    second: achievement_220_serpentskiss_8
+  - first:
+      213: 896669524963851508
+    second: achievement_220_serpentskiss_9
+  - first:
+      213: 2480038264183448093
+    second: achievement_220_serpentskiss_10
+  - first:
+      213: 2590847961756109642
+    second: achievement_220_serpentskiss_11
+  - first:
+      213: 6750528989906358436
+    second: achievement_220_serpentskiss_12
+  - first:
+      213: -3841541063540868763
+    second: achievement_220_serpentskiss_13
+  - first:
+      213: 5491509233454834189
+    second: achievement_220_serpentskiss_14
+  - first:
+      213: -6225195013315455810
+    second: achievement_220_serpentskiss_15
+  - first:
+      213: 7428442113180416942
+    second: achievement_220_serpentskiss_16
+  - first:
+      213: 35323096302773863
+    second: achievement_220_serpentskiss_17
+  - first:
+      213: -7930807342579602125
+    second: achievement_220_serpentskiss_18
+  - first:
+      213: -8063544445642359790
+    second: achievement_220_serpentskiss_19
+  - first:
+      213: -5357928986310885650
+    second: achievement_220_serpentskiss_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 150
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441c8e93a0330b5f0800000000000000
+      internalID: -743037819501887164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 153
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8765f79b52629c30800000000000000
+      internalID: 4364659134406420367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 140
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696dcdd52b4666970800000000000000
+      internalID: 8747790043455477398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 127
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc6d1402c3f24d70800000000000000
+      internalID: 9026044617822137527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 154
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fe490d0f5fa6ad0800000000000000
+      internalID: -2708081811269554426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 151
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ea4dcc15e522b80800000000000000
+      internalID: -8421064647807553929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 137
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18eccd5899988c300800000000000000
+      internalID: 272619069924757121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 127
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d834ace6063af330800000000000000
+      internalID: 3745365443479877848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 134
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510871f4f806f3480800000000000000
+      internalID: -8917302568546762731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 130
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc7364ae2c917c00800000000000000
+      internalID: 896669524963851508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 102
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12e70659adda6220800000000000000
+      internalID: 2480038264183448093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 88
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b848b8e7a84f320800000000000000
+      internalID: 2590847961756109642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 59
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a05859b952bead50800000000000000
+      internalID: 6750528989906358436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 86
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569f19d81ca10bac0800000000000000
+      internalID: -3841541063540868763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 53
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d026ad47d82c53c40800000000000000
+      internalID: 5491509233454834189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 62
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb49ccd2e1aab99a0800000000000000
+      internalID: -6225195013315455810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 18
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabbbae8eb0271760800000000000000
+      internalID: 7428442113180416942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7666e7f3b2e7d7000800000000000000
+      internalID: 35323096302773863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 13
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dab7bbdbc10f190800000000000000
+      internalID: -7930807342579602125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 23
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cb9e69c09881090800000000000000
+      internalID: -8063544445642359790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_220_serpentskiss_20
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeebb2779ffc4a5b0800000000000000
+      internalID: -5357928986310885650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_220_serpentskiss_0: -743037819501887164
+      achievement_220_serpentskiss_1: 4364659134406420367
+      achievement_220_serpentskiss_10: 2480038264183448093
+      achievement_220_serpentskiss_11: 2590847961756109642
+      achievement_220_serpentskiss_12: 6750528989906358436
+      achievement_220_serpentskiss_13: -3841541063540868763
+      achievement_220_serpentskiss_14: 5491509233454834189
+      achievement_220_serpentskiss_15: -6225195013315455810
+      achievement_220_serpentskiss_16: 7428442113180416942
+      achievement_220_serpentskiss_17: 35323096302773863
+      achievement_220_serpentskiss_18: -7930807342579602125
+      achievement_220_serpentskiss_19: -8063544445642359790
+      achievement_220_serpentskiss_2: 8747790043455477398
+      achievement_220_serpentskiss_20: -5357928986310885650
+      achievement_220_serpentskiss_3: 9026044617822137527
+      achievement_220_serpentskiss_4: -2708081811269554426
+      achievement_220_serpentskiss_5: -8421064647807553929
+      achievement_220_serpentskiss_6: 272619069924757121
+      achievement_220_serpentskiss_7: 3745365443479877848
+      achievement_220_serpentskiss_8: -8917302568546762731
+      achievement_220_serpentskiss_9: 896669524963851508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 3353242898c155d44a3f6c45f091e7d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1812385144905085644
+    second: 842.000_nightwatch_champion_0
+  - first:
+      213: 249545519490415442
+    second: 842.000_nightwatch_champion_1
+  - first:
+      213: 3596951535268546139
+    second: 842.000_nightwatch_champion_2
+  - first:
+      213: 5442286229481491620
+    second: 842.000_nightwatch_champion_3
+  - first:
+      213: 9134171268212737514
+    second: 842.000_nightwatch_champion_4
+  - first:
+      213: -1409835400796447757
+    second: 842.000_nightwatch_champion_5
+  - first:
+      213: -603604254966150941
+    second: 842.000_nightwatch_champion_6
+  - first:
+      213: 1136115987492432168
+    second: 842.000_nightwatch_champion_7
+  - first:
+      213: -4075184094194264055
+    second: 842.000_nightwatch_champion_8
+  - first:
+      213: 3216592343455066463
+    second: 842.000_nightwatch_champion_9
+  - first:
+      213: 6256373546028095963
+    second: 842.000_nightwatch_champion_10
+  - first:
+      213: -1067838965662865809
+    second: 842.000_nightwatch_champion_11
+  - first:
+      213: -8975618011734033758
+    second: 842.000_nightwatch_champion_12
+  - first:
+      213: -2049932322201789862
+    second: 842.000_nightwatch_champion_13
+  - first:
+      213: -1947203024181114345
+    second: 842.000_nightwatch_champion_14
+  - first:
+      213: 2032934447300494153
+    second: 842.000_nightwatch_champion_15
+  - first:
+      213: -341316271169342415
+    second: 842.000_nightwatch_champion_16
+  - first:
+      213: -1443554994829546542
+    second: 842.000_nightwatch_champion_17
+  - first:
+      213: 8527887652398375956
+    second: 842.000_nightwatch_champion_18
+  - first:
+      213: -7103840197678892960
+    second: 842.000_nightwatch_champion_19
+  - first:
+      213: 6665512104508514817
+    second: 842.000_nightwatch_champion_20
+  - first:
+      213: -2029608462710851898
+    second: 842.000_nightwatch_champion_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc23346dfa2e62910800000000000000
+      internalID: 1812385144905085644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b348ce350967300800000000000000
+      internalID: 249545519490415442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b564af52d50fae130800000000000000
+      internalID: 3596951535268546139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac8e32cd72e68b40800000000000000
+      internalID: 5442286229481491620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5466f9f5813ce70800000000000000
+      internalID: 9134171268212737514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbd1cf2c224f6ce0800000000000000
+      internalID: -1409835400796447757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 98
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e804ddc0219f97f0800000000000000
+      internalID: -603604254966150941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 98
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829e022a87b44cf00800000000000000
+      internalID: 1136115987492432168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 98
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9089a3758a90277c0800000000000000
+      internalID: -4075184094194264055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 98
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5961e2b1b1a3ac20800000000000000
+      internalID: 3216592343455066463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 98
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9d729a79a13d650800000000000000
+      internalID: 6256373546028095963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 98
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66285e4e164e21f0800000000000000
+      internalID: -1067838965662865809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aabef229f2307380800000000000000
+      internalID: -8975618011734033758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 50
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a1299f96d2d83e0800000000000000
+      internalID: -2049932322201789862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 50
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a4e1e8a252af4e0800000000000000
+      internalID: -1947203024181114345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943400fdb1f663c10800000000000000
+      internalID: 2032934447300494153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134f3e4e8a6634bf0800000000000000
+      internalID: -341316271169342415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 7
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dba177616677fbe0800000000000000
+      internalID: -1443554994829546542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 7
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41425ad13a4295670800000000000000
+      internalID: 8527887652398375956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 7
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068753c5af61a6d90800000000000000
+      internalID: -7103840197678892960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 7
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102eb4391f7a08c50800000000000000
+      internalID: 6665512104508514817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_champion_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 7
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c63ef24bd165d3e0800000000000000
+      internalID: -2029608462710851898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      842.000_nightwatch_champion_0: 1812385144905085644
+      842.000_nightwatch_champion_1: 249545519490415442
+      842.000_nightwatch_champion_10: 6256373546028095963
+      842.000_nightwatch_champion_11: -1067838965662865809
+      842.000_nightwatch_champion_12: -8975618011734033758
+      842.000_nightwatch_champion_13: -2049932322201789862
+      842.000_nightwatch_champion_14: -1947203024181114345
+      842.000_nightwatch_champion_15: 2032934447300494153
+      842.000_nightwatch_champion_16: -341316271169342415
+      842.000_nightwatch_champion_17: -1443554994829546542
+      842.000_nightwatch_champion_18: 8527887652398375956
+      842.000_nightwatch_champion_19: -7103840197678892960
+      842.000_nightwatch_champion_2: 3596951535268546139
+      842.000_nightwatch_champion_20: 6665512104508514817
+      842.000_nightwatch_champion_21: -2029608462710851898
+      842.000_nightwatch_champion_3: 5442286229481491620
+      842.000_nightwatch_champion_4: 9134171268212737514
+      842.000_nightwatch_champion_5: -1409835400796447757
+      842.000_nightwatch_champion_6: -603604254966150941
+      842.000_nightwatch_champion_7: 1136115987492432168
+      842.000_nightwatch_champion_8: -4075184094194264055
+      842.000_nightwatch_champion_9: 3216592343455066463
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

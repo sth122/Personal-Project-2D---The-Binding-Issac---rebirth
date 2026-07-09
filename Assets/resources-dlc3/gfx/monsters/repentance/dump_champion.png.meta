@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 53c7e5f87ae5af146816f55d94d35d1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4899785560531646489
+    second: dump_champion_0
+  - first:
+      213: 1226317808280244202
+    second: dump_champion_1
+  - first:
+      213: -679522752121807128
+    second: dump_champion_2
+  - first:
+      213: 7469157582068378274
+    second: dump_champion_3
+  - first:
+      213: 8837894083615186800
+    second: dump_champion_4
+  - first:
+      213: -6738391989561357703
+    second: dump_champion_5
+  - first:
+      213: -1369327792566480573
+    second: dump_champion_6
+  - first:
+      213: 7734927243617070961
+    second: dump_champion_7
+  - first:
+      213: -2744708552801663370
+    second: dump_champion_8
+  - first:
+      213: -1899538950101888845
+    second: dump_champion_9
+  - first:
+      213: 48577248898214181
+    second: dump_champion_10
+  - first:
+      213: 7680990224066114605
+    second: dump_champion_11
+  - first:
+      213: -6295366403797058616
+    second: dump_champion_12
+  - first:
+      213: -6538873483613239774
+    second: dump_champion_13
+  - first:
+      213: 3586167407881141494
+    second: dump_champion_14
+  - first:
+      213: -2336203775436114623
+    second: dump_champion_15
+  - first:
+      213: 8317889309729725242
+    second: dump_champion_16
+  - first:
+      213: 5736023592970673139
+    second: dump_champion_17
+  - first:
+      213: -8742264712224883408
+    second: dump_champion_18
+  - first:
+      213: 8649209643583861999
+    second: dump_champion_19
+  - first:
+      213: 3511176699222773805
+    second: dump_champion_20
+  - first:
+      213: -8438934050481549817
+    second: dump_champion_21
+  - first:
+      213: -7786528211854862495
+    second: dump_champion_22
+  - first:
+      213: 1416609903286940362
+    second: dump_champion_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dump_champion_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 154
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918b313d1098ff340800000000000000
+      internalID: 4899785560531646489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 154
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef8740ac81c40110800000000000000
+      internalID: 1226317808280244202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 154
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eedbfe38a9d196f0800000000000000
+      internalID: -679522752121807128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 154
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aae9926f37c7a760800000000000000
+      internalID: 7469157582068378274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 154
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fd86808d186aa70800000000000000
+      internalID: 8837894083615186800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 154
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a8bd0ef2c6c72a0800000000000000
+      internalID: -6738391989561357703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 106
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341510fa0ab2ffce0800000000000000
+      internalID: -1369327792566480573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 106
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f694fb85bf75b60800000000000000
+      internalID: 7734927243617070961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 106
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676c7420d16d8e9d0800000000000000
+      internalID: -2744708552801663370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 106
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0982a936b73a5e0800000000000000
+      internalID: -1899538950101888845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_10
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 106
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5296eb020c49ca000800000000000000
+      internalID: 48577248898214181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_11
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 106
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2475b4c9eb589a60800000000000000
+      internalID: 7680990224066114605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 58
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb7fba2c9d52a8a0800000000000000
+      internalID: -6295366403797058616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 58
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226030a06314145a0800000000000000
+      internalID: -6538873483613239774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 58
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcb6d3d140a4c130800000000000000
+      internalID: 3586167407881141494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 58
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14534324b03249fd0800000000000000
+      internalID: -2336203775436114623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 58
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b9573d1441f6370800000000000000
+      internalID: 8317889309729725242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 58
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbd64a21137a9f40800000000000000
+      internalID: 5736023592970673139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d376f009c3da680800000000000000
+      internalID: -8742264712224883408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 9
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4f2b9685a280870800000000000000
+      internalID: 8649209643583861999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_20
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 9
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d205dccda943ab030800000000000000
+      internalID: 3511176699222773805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e49164132e2ea80800000000000000
+      internalID: -8438934050481549817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_22
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 10
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16755da98d1b0f390800000000000000
+      internalID: -7786528211854862495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dump_champion_23
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2f7b6933fc8a310800000000000000
+      internalID: 1416609903286940362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dump_champion_0: 4899785560531646489
+      dump_champion_1: 1226317808280244202
+      dump_champion_10: 48577248898214181
+      dump_champion_11: 7680990224066114605
+      dump_champion_12: -6295366403797058616
+      dump_champion_13: -6538873483613239774
+      dump_champion_14: 3586167407881141494
+      dump_champion_15: -2336203775436114623
+      dump_champion_16: 8317889309729725242
+      dump_champion_17: 5736023592970673139
+      dump_champion_18: -8742264712224883408
+      dump_champion_19: 8649209643583861999
+      dump_champion_2: -679522752121807128
+      dump_champion_20: 3511176699222773805
+      dump_champion_21: -8438934050481549817
+      dump_champion_22: -7786528211854862495
+      dump_champion_23: 1416609903286940362
+      dump_champion_3: 7469157582068378274
+      dump_champion_4: 8837894083615186800
+      dump_champion_5: -6738391989561357703
+      dump_champion_6: -1369327792566480573
+      dump_champion_7: 7734927243617070961
+      dump_champion_8: -2744708552801663370
+      dump_champion_9: -1899538950101888845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

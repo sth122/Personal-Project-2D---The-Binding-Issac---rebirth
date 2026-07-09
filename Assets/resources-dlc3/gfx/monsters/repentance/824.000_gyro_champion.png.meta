@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 20c66c6b18e982e4ab6ae7e19c12a5a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -292729670469724514
+    second: 824.000_gyro_champion_0
+  - first:
+      213: 7115285428845266312
+    second: 824.000_gyro_champion_1
+  - first:
+      213: -6438833060029668521
+    second: 824.000_gyro_champion_2
+  - first:
+      213: -5790291314471431161
+    second: 824.000_gyro_champion_3
+  - first:
+      213: 7492932985769329663
+    second: 824.000_gyro_champion_4
+  - first:
+      213: 6433836253159429649
+    second: 824.000_gyro_champion_5
+  - first:
+      213: -2497441690360394073
+    second: 824.000_gyro_champion_6
+  - first:
+      213: 6533942076254098667
+    second: 824.000_gyro_champion_7
+  - first:
+      213: -4771632476105841600
+    second: 824.000_gyro_champion_8
+  - first:
+      213: -8243787371213713396
+    second: 824.000_gyro_champion_9
+  - first:
+      213: 6872586817809477293
+    second: 824.000_gyro_champion_10
+  - first:
+      213: -8714545817225172285
+    second: 824.000_gyro_champion_11
+  - first:
+      213: -5345882073924179933
+    second: 824.000_gyro_champion_12
+  - first:
+      213: 5132784252819130785
+    second: 824.000_gyro_champion_13
+  - first:
+      213: 5011780993467324530
+    second: 824.000_gyro_champion_14
+  - first:
+      213: -2515013777160589082
+    second: 824.000_gyro_champion_15
+  - first:
+      213: 8000821669326731366
+    second: 824.000_gyro_champion_16
+  - first:
+      213: -3527784637423479580
+    second: 824.000_gyro_champion_17
+  - first:
+      213: 5329125138326750729
+    second: 824.000_gyro_champion_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 104
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e965f686ae300fbf0800000000000000
+      internalID: -292729670469724514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 104
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885c5dd26629eb260800000000000000
+      internalID: 7115285428845266312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 104
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753e3e0427ba4a6a0800000000000000
+      internalID: -6438833060029668521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 104
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70496ee4ab0c4afa0800000000000000
+      internalID: -5790291314471431161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 104
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3869ee9de3cf760800000000000000
+      internalID: 7492932985769329663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 99
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116199cfbf3994950800000000000000
+      internalID: 6433836253159429649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 100
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae41deb30e475dd0800000000000000
+      internalID: -2497441690360394073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 56
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be49a1633b93daa50800000000000000
+      internalID: 6533942076254098667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 56
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0446efe4b81c7cdb0800000000000000
+      internalID: -4771632476105841600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 56
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0094f6301f289d80800000000000000
+      internalID: -8243787371213713396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 55
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daee09b5c45506f50800000000000000
+      internalID: 6872586817809477293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 55
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca6d6930c6bf0780800000000000000
+      internalID: -8714545817225172285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 48
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328ee94d39c9fc5b0800000000000000
+      internalID: -5345882073924179933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_13
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 48
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9c00255105b3740800000000000000
+      internalID: 5132784252819130785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2789caf824c6d8540800000000000000
+      internalID: 5011780993467324530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 7
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e031277b40e81dd0800000000000000
+      internalID: -2515013777160589082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668b7770be0a80f60800000000000000
+      internalID: 8000821669326731366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 7
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e41b42309aca0fc0800000000000000
+      internalID: -3527784637423479580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 824.000_gyro_champion_18
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 7
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9060291141bd4f940800000000000000
+      internalID: 5329125138326750729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      824.000_gyro_champion_0: -292729670469724514
+      824.000_gyro_champion_1: 7115285428845266312
+      824.000_gyro_champion_10: 6872586817809477293
+      824.000_gyro_champion_11: -8714545817225172285
+      824.000_gyro_champion_12: -5345882073924179933
+      824.000_gyro_champion_13: 5132784252819130785
+      824.000_gyro_champion_14: 5011780993467324530
+      824.000_gyro_champion_15: -2515013777160589082
+      824.000_gyro_champion_16: 8000821669326731366
+      824.000_gyro_champion_17: -3527784637423479580
+      824.000_gyro_champion_18: 5329125138326750729
+      824.000_gyro_champion_2: -6438833060029668521
+      824.000_gyro_champion_3: -5790291314471431161
+      824.000_gyro_champion_4: 7492932985769329663
+      824.000_gyro_champion_5: 6433836253159429649
+      824.000_gyro_champion_6: -2497441690360394073
+      824.000_gyro_champion_7: 6533942076254098667
+      824.000_gyro_champion_8: -4771632476105841600
+      824.000_gyro_champion_9: -8243787371213713396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

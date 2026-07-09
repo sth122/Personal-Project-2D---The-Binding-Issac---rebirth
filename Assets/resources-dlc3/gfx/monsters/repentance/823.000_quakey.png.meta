@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 93fd16a7ca132c44483c277a032579f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2536930218006890406
+    second: 823.000_quakey_0
+  - first:
+      213: 7705112294761269881
+    second: 823.000_quakey_1
+  - first:
+      213: 7786526424138468154
+    second: 823.000_quakey_2
+  - first:
+      213: 2507888692427935696
+    second: 823.000_quakey_3
+  - first:
+      213: 3329898195462779030
+    second: 823.000_quakey_4
+  - first:
+      213: 1384136689555171385
+    second: 823.000_quakey_5
+  - first:
+      213: -313245280285037313
+    second: 823.000_quakey_6
+  - first:
+      213: -2252108968542370555
+    second: 823.000_quakey_7
+  - first:
+      213: 5113218020631434566
+    second: 823.000_quakey_8
+  - first:
+      213: -8792801552197899332
+    second: 823.000_quakey_9
+  - first:
+      213: -3377228257036839466
+    second: 823.000_quakey_10
+  - first:
+      213: 3188176829777248873
+    second: 823.000_quakey_11
+  - first:
+      213: -6875828604074325304
+    second: 823.000_quakey_12
+  - first:
+      213: 2110381106784072731
+    second: 823.000_quakey_13
+  - first:
+      213: 4391467622391627520
+    second: 823.000_quakey_14
+  - first:
+      213: 7954531375395226371
+    second: 823.000_quakey_15
+  - first:
+      213: -3614293165352395472
+    second: 823.000_quakey_16
+  - first:
+      213: 2781103409743571565
+    second: 823.000_quakey_17
+  - first:
+      213: 5621743785249259874
+    second: 823.000_quakey_18
+  - first:
+      213: -5452649889268944091
+    second: 823.000_quakey_19
+  - first:
+      213: -9025895715026095145
+    second: 823.000_quakey_20
+  - first:
+      213: -2612804466792202622
+    second: 823.000_quakey_21
+  - first:
+      213: 3473283078294896247
+    second: 823.000_quakey_22
+  - first:
+      213: 689061912018398995
+    second: 823.000_quakey_23
+  - first:
+      213: 3031988222830185093
+    second: 823.000_quakey_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 823.000_quakey_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a74140979cf43320800000000000000
+      internalID: 2536930218006890406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a8db30fce0eea60800000000000000
+      internalID: 7705112294761269881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b47f8278c4f0c60800000000000000
+      internalID: 7786526424138468154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfc2687a7fcdc220800000000000000
+      internalID: 2507888692427935696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690f5c624cc263e20800000000000000
+      internalID: 3329898195462779030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 201
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93865855cf0753310800000000000000
+      internalID: 1384136689555171385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 152
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcea05c31127abf0800000000000000
+      internalID: -313245280285037313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 152
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5058f8643d6eeb0e0800000000000000
+      internalID: -2252108968542370555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 152
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645dcd2e2bcc5f640800000000000000
+      internalID: 5113218020631434566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 152
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbadb41391b9f580800000000000000
+      internalID: -8792801552197899332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 152
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d558e52bcca121d0800000000000000
+      internalID: -3377228257036839466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 104
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962010c5fedae3c20800000000000000
+      internalID: 3188176829777248873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 104
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca0ea570562490a0800000000000000
+      internalID: -6875828604074325304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 104
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b147f827f64994d10800000000000000
+      internalID: 2110381106784072731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 104
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f384b1980a1fc30800000000000000
+      internalID: 4391467622391627520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 104
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303c129142c246e60800000000000000
+      internalID: 7954531375395226371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_16
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 104
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d5c05f38377ddc0800000000000000
+      internalID: -3614293165352395472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 56
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6aa465f0d6789620800000000000000
+      internalID: 2781103409743571565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 56
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261ca0aff22740e40800000000000000
+      internalID: 5621743785249259874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_19
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 56
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5233d89a0db4454b0800000000000000
+      internalID: -5452649889268944091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_20
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 56
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3362e1ba39db280800000000000000
+      internalID: -9025895715026095145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28efb414e247dbbd0800000000000000
+      internalID: -2612804466792202622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 8
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e7426be84933030800000000000000
+      internalID: 3473283078294896247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 8
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fab1e782a009900800000000000000
+      internalID: 689061912018398995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 823.000_quakey_24
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 8
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a06f87939c31a20800000000000000
+      internalID: 3031988222830185093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      823.000_quakey_0: 2536930218006890406
+      823.000_quakey_1: 7705112294761269881
+      823.000_quakey_10: -3377228257036839466
+      823.000_quakey_11: 3188176829777248873
+      823.000_quakey_12: -6875828604074325304
+      823.000_quakey_13: 2110381106784072731
+      823.000_quakey_14: 4391467622391627520
+      823.000_quakey_15: 7954531375395226371
+      823.000_quakey_16: -3614293165352395472
+      823.000_quakey_17: 2781103409743571565
+      823.000_quakey_18: 5621743785249259874
+      823.000_quakey_19: -5452649889268944091
+      823.000_quakey_2: 7786526424138468154
+      823.000_quakey_20: -9025895715026095145
+      823.000_quakey_21: -2612804466792202622
+      823.000_quakey_22: 3473283078294896247
+      823.000_quakey_23: 689061912018398995
+      823.000_quakey_24: 3031988222830185093
+      823.000_quakey_3: 2507888692427935696
+      823.000_quakey_4: 3329898195462779030
+      823.000_quakey_5: 1384136689555171385
+      823.000_quakey_6: -313245280285037313
+      823.000_quakey_7: -2252108968542370555
+      823.000_quakey_8: 5113218020631434566
+      823.000_quakey_9: -8792801552197899332
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

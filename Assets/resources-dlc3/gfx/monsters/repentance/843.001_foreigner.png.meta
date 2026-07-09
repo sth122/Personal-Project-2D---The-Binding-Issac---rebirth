@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: f33c8f101a0ae7f4088182da42e38133
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 828760395560964830
+    second: 843.001_foreigner_0
+  - first:
+      213: -1361012670380998996
+    second: 843.001_foreigner_1
+  - first:
+      213: 5075640913652362246
+    second: 843.001_foreigner_2
+  - first:
+      213: -597485884820372186
+    second: 843.001_foreigner_3
+  - first:
+      213: 497962700687048989
+    second: 843.001_foreigner_4
+  - first:
+      213: -6709310748101176261
+    second: 843.001_foreigner_5
+  - first:
+      213: -7883659330930787667
+    second: 843.001_foreigner_6
+  - first:
+      213: -7183421912655464662
+    second: 843.001_foreigner_7
+  - first:
+      213: 6302543736624174034
+    second: 843.001_foreigner_8
+  - first:
+      213: 7702549949052757164
+    second: 843.001_foreigner_9
+  - first:
+      213: -8841931398574584087
+    second: 843.001_foreigner_10
+  - first:
+      213: -1431889318436193219
+    second: 843.001_foreigner_11
+  - first:
+      213: 6396100030410729549
+    second: 843.001_foreigner_12
+  - first:
+      213: 3073114009298863292
+    second: 843.001_foreigner_13
+  - first:
+      213: -1144361035134903521
+    second: 843.001_foreigner_14
+  - first:
+      213: -7642163421377207997
+    second: 843.001_foreigner_15
+  - first:
+      213: -108797721940460150
+    second: 843.001_foreigner_16
+  - first:
+      213: -5129815435179168616
+    second: 843.001_foreigner_17
+  - first:
+      213: 7273635719402128849
+    second: 843.001_foreigner_18
+  - first:
+      213: 2491569625223058743
+    second: 843.001_foreigner_19
+  - first:
+      213: 8597319153411479266
+    second: 843.001_foreigner_20
+  - first:
+      213: 446434163891502594
+    second: 843.001_foreigner_21
+  - first:
+      213: 6739380041327097138
+    second: 843.001_foreigner_22
+  - first:
+      213: 4642959511458200087
+    second: 843.001_foreigner_23
+  - first:
+      213: 8707305321131959744
+    second: 843.001_foreigner_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 843.001_foreigner_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 194
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2d2555039508b00800000000000000
+      internalID: 828760395560964830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 194
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae722fef26bc1de0800000000000000
+      internalID: -1361012670380998996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 194
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c20b1e48c407640800000000000000
+      internalID: 5075640913652362246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 194
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625c8fcd0cd45b7f0800000000000000
+      internalID: -597485884820372186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 162
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1188dd107e19e600800000000000000
+      internalID: 497962700687048989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 162
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3418bb0c6db3e2a0800000000000000
+      internalID: -6709310748101176261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 162
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa3da1ab9d979290800000000000000
+      internalID: -7883659330930787667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 162
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27f96074db5f4c90800000000000000
+      internalID: -7183421912655464662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 130
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3d8dad222277750800000000000000
+      internalID: 6302543736624174034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 130
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca42ef96e54f4ea60800000000000000
+      internalID: 7702549949052757164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 130
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eec6935d362b4580800000000000000
+      internalID: -8841931398574584087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 130
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c3fe85048e02ce0800000000000000
+      internalID: -1431889318436193219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 98
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d482f74f61383c850800000000000000
+      internalID: 6396100030410729549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 98
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4098ec8e4e5aa20800000000000000
+      internalID: 3073114009298863292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b5cfd93b96e10f0800000000000000
+      internalID: -1144361035134903521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 98
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341e351bbd491f590800000000000000
+      internalID: -7642163421377207997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 75
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8dfd5f5c097d7ef0800000000000000
+      internalID: -108797721940460150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 76
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c64d66a0c3fc8b0800000000000000
+      internalID: -5129815435179168616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_18
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 76
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d58e80462521f460800000000000000
+      internalID: 7273635719402128849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 40
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735d29c8f55d39220800000000000000
+      internalID: 2491569625223058743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_20
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 39
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6d0cf2830df4770800000000000000
+      internalID: 8597319153411479266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_21
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 39
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ef95ab18d023600800000000000000
+      internalID: 446434163891502594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 9
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235b8a9d076178d50800000000000000
+      internalID: 6739380041327097138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_23
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 9
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71abcf2831b1f6040800000000000000
+      internalID: 4642959511458200087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 843.001_foreigner_24
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c560f86e0096d870800000000000000
+      internalID: 8707305321131959744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      843.001_foreigner_0: 828760395560964830
+      843.001_foreigner_1: -1361012670380998996
+      843.001_foreigner_10: -8841931398574584087
+      843.001_foreigner_11: -1431889318436193219
+      843.001_foreigner_12: 6396100030410729549
+      843.001_foreigner_13: 3073114009298863292
+      843.001_foreigner_14: -1144361035134903521
+      843.001_foreigner_15: -7642163421377207997
+      843.001_foreigner_16: -108797721940460150
+      843.001_foreigner_17: -5129815435179168616
+      843.001_foreigner_18: 7273635719402128849
+      843.001_foreigner_19: 2491569625223058743
+      843.001_foreigner_2: 5075640913652362246
+      843.001_foreigner_20: 8597319153411479266
+      843.001_foreigner_21: 446434163891502594
+      843.001_foreigner_22: 6739380041327097138
+      843.001_foreigner_23: 4642959511458200087
+      843.001_foreigner_24: 8707305321131959744
+      843.001_foreigner_3: -597485884820372186
+      843.001_foreigner_4: 497962700687048989
+      843.001_foreigner_5: -6709310748101176261
+      843.001_foreigner_6: -7883659330930787667
+      843.001_foreigner_7: -7183421912655464662
+      843.001_foreigner_8: 6302543736624174034
+      843.001_foreigner_9: 7702549949052757164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

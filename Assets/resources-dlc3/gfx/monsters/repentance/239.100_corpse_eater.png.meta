@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 697881c30ae33ab46a380fbfebd7227d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1020546771583306706
+    second: 239.100_corpse_eater_0
+  - first:
+      213: -3076905628385548673
+    second: 239.100_corpse_eater_1
+  - first:
+      213: -5906675459699333538
+    second: 239.100_corpse_eater_2
+  - first:
+      213: 8410084214272296520
+    second: 239.100_corpse_eater_3
+  - first:
+      213: 6864136678245116668
+    second: 239.100_corpse_eater_4
+  - first:
+      213: 7398021655108641454
+    second: 239.100_corpse_eater_5
+  - first:
+      213: -8598332983368370582
+    second: 239.100_corpse_eater_6
+  - first:
+      213: -7701335316769631220
+    second: 239.100_corpse_eater_7
+  - first:
+      213: 6933411691396431753
+    second: 239.100_corpse_eater_8
+  - first:
+      213: 2136968534804624310
+    second: 239.100_corpse_eater_9
+  - first:
+      213: -5230253903832688082
+    second: 239.100_corpse_eater_10
+  - first:
+      213: 293601597575456745
+    second: 239.100_corpse_eater_11
+  - first:
+      213: 7269457921722767266
+    second: 239.100_corpse_eater_12
+  - first:
+      213: 8398899583673233666
+    second: 239.100_corpse_eater_13
+  - first:
+      213: -3021706829521965524
+    second: 239.100_corpse_eater_14
+  - first:
+      213: -84672597836291897
+    second: 239.100_corpse_eater_15
+  - first:
+      213: -8684454017672362913
+    second: 239.100_corpse_eater_16
+  - first:
+      213: 5971188971657327397
+    second: 239.100_corpse_eater_17
+  - first:
+      213: -3171553564500949643
+    second: 239.100_corpse_eater_18
+  - first:
+      213: 8222191771283900153
+    second: 239.100_corpse_eater_19
+  - first:
+      213: 7726737866374986476
+    second: 239.100_corpse_eater_20
+  - first:
+      213: -7047423209804034851
+    second: 239.100_corpse_eater_21
+  - first:
+      213: -9210219314284533021
+    second: 239.100_corpse_eater_22
+  - first:
+      213: -5076822187602698610
+    second: 239.100_corpse_eater_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 210
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24fa1b4e1a46d1f0800000000000000
+      internalID: -1020546771583306706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 206
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76eda412a2ac45d0800000000000000
+      internalID: -3076905628385548673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 200
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56aa1dd6f5470ea0800000000000000
+      internalID: -5906675459699333538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 198
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84602dac80f96b470800000000000000
+      internalID: 8410084214272296520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 200
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaa78ce0ff424f50800000000000000
+      internalID: 6864136678245116668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 210
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2e569bf7d0ba660800000000000000
+      internalID: 7398021655108641454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 207
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66bdc125b59ca880800000000000000
+      internalID: -8598332983368370582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 146
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0496c3355c5f1590800000000000000
+      internalID: -7701335316769631220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 142
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f7933d23d683060800000000000000
+      internalID: 6933411691396431753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_9
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 136
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3773d6f8908ad10800000000000000
+      internalID: 2136968534804624310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_10
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 134
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ad3f819c76a67b0800000000000000
+      internalID: -5230253903832688082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 136
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7e8f0f815131400800000000000000
+      internalID: 293601597575456745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 146
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a75fede67d42e460800000000000000
+      internalID: 7269457921722767266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_13
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 143
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201f40d0ca2ee8470800000000000000
+      internalID: 8398899583673233666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 83
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ea8f2f5adb016d0800000000000000
+      internalID: -3021706829521965524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 84
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c022cb88be23def0800000000000000
+      internalID: -84672597836291897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 78
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54cc68451f9a7780800000000000000
+      internalID: -8684454017672362913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 78
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5237d56abbcedd250800000000000000
+      internalID: 5971188971657327397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_18
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 78
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5750cc136d06cf3d0800000000000000
+      internalID: -3171553564500949643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_19
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 14
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6448a5ad71b1270800000000000000
+      internalID: 8222191771283900153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 14
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea37d5c623ea3b60800000000000000
+      internalID: 7726737866374986476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 14
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc89c5fde5823e90800000000000000
+      internalID: -7047423209804034851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_22
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 14
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eae0acd45abe2080800000000000000
+      internalID: -9210219314284533021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 239.100_corpse_eater_23
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 14
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e9e185e118b89b0800000000000000
+      internalID: -5076822187602698610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      239.100_corpse_eater_0: -1020546771583306706
+      239.100_corpse_eater_1: -3076905628385548673
+      239.100_corpse_eater_10: -5230253903832688082
+      239.100_corpse_eater_11: 293601597575456745
+      239.100_corpse_eater_12: 7269457921722767266
+      239.100_corpse_eater_13: 8398899583673233666
+      239.100_corpse_eater_14: -3021706829521965524
+      239.100_corpse_eater_15: -84672597836291897
+      239.100_corpse_eater_16: -8684454017672362913
+      239.100_corpse_eater_17: 5971188971657327397
+      239.100_corpse_eater_18: -3171553564500949643
+      239.100_corpse_eater_19: 8222191771283900153
+      239.100_corpse_eater_2: -5906675459699333538
+      239.100_corpse_eater_20: 7726737866374986476
+      239.100_corpse_eater_21: -7047423209804034851
+      239.100_corpse_eater_22: -9210219314284533021
+      239.100_corpse_eater_23: -5076822187602698610
+      239.100_corpse_eater_3: 8410084214272296520
+      239.100_corpse_eater_4: 6864136678245116668
+      239.100_corpse_eater_5: 7398021655108641454
+      239.100_corpse_eater_6: -8598332983368370582
+      239.100_corpse_eater_7: -7701335316769631220
+      239.100_corpse_eater_8: 6933411691396431753
+      239.100_corpse_eater_9: 2136968534804624310
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

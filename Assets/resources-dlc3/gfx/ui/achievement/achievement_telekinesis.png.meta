@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 67e88a8e53ca7934b83b6d76c28976fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7710794713964763635
+    second: achievement_telekinesis_0
+  - first:
+      213: 4171165858484883044
+    second: achievement_telekinesis_1
+  - first:
+      213: -8525513537534523602
+    second: achievement_telekinesis_2
+  - first:
+      213: 5093305945626620524
+    second: achievement_telekinesis_3
+  - first:
+      213: 3075384719471860732
+    second: achievement_telekinesis_4
+  - first:
+      213: -5764430197099227814
+    second: achievement_telekinesis_5
+  - first:
+      213: -8769736870666354359
+    second: achievement_telekinesis_6
+  - first:
+      213: -7825423243033740950
+    second: achievement_telekinesis_7
+  - first:
+      213: 8114825849011040739
+    second: achievement_telekinesis_8
+  - first:
+      213: -8070816000277409338
+    second: achievement_telekinesis_9
+  - first:
+      213: 8613527421992634117
+    second: achievement_telekinesis_10
+  - first:
+      213: -7932427631489281604
+    second: achievement_telekinesis_11
+  - first:
+      213: 3502860058243989531
+    second: achievement_telekinesis_12
+  - first:
+      213: 2427670651674303464
+    second: achievement_telekinesis_13
+  - first:
+      213: 4961576819169261760
+    second: achievement_telekinesis_14
+  - first:
+      213: 682747391054903535
+    second: achievement_telekinesis_15
+  - first:
+      213: 1659441808187337030
+    second: achievement_telekinesis_16
+  - first:
+      213: 3940088183248072258
+    second: achievement_telekinesis_17
+  - first:
+      213: -6867905764136044175
+    second: achievement_telekinesis_18
+  - first:
+      213: 5556869401018841205
+    second: achievement_telekinesis_19
+  - first:
+      213: -1848692381388955576
+    second: achievement_telekinesis_20
+  - first:
+      213: 8925177919603617334
+    second: achievement_telekinesis_21
+  - first:
+      213: -5555399707537452555
+    second: achievement_telekinesis_22
+  - first:
+      213: 6743113343894099664
+    second: achievement_telekinesis_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_telekinesis_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 148
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f954d550fe320b60800000000000000
+      internalID: 7710794713964763635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 147
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e8a3e9f35f2e930800000000000000
+      internalID: 4171165858484883044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 148
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2788739b9a4fa980800000000000000
+      internalID: -8525513537534523602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 150
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62b575a5ce0fa640800000000000000
+      internalID: 5093305945626620524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 152
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbd8c7bb16fdaa20800000000000000
+      internalID: 3075384719471860732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 120
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a559d59e641a000b0800000000000000
+      internalID: -5764430197099227814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 137
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941494ab7c2ab4680800000000000000
+      internalID: -8769736870666354359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 137
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6973e57503866390800000000000000
+      internalID: -7825423243033740950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 123
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1f5709d17ad9070800000000000000
+      internalID: 8114825849011040739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 28
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c11de7db93beff80800000000000000
+      internalID: -8070816000277409338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 127
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50705facd85698770800000000000000
+      internalID: 8613527421992634117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 91
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb19692d81b5ae190800000000000000
+      internalID: -7932427631489281604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10898df9a8ac9030800000000000000
+      internalID: 3502860058243989531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 85
+        width: 66
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb10b86891d0b120800000000000000
+      internalID: 2427670651674303464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 75
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8756854df0bd440800000000000000
+      internalID: 4961576819169261760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 53
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8f623822b997900800000000000000
+      internalID: 682747391054903535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 49
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649207e4885870710800000000000000
+      internalID: 1659441808187337030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e2732c3510ea630800000000000000
+      internalID: 3940088183248072258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17930d1681c40b0a0800000000000000
+      internalID: -6867905764136044175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 26
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57837f65747fd1d40800000000000000
+      internalID: 5556869401018841205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840275ce2102856e0800000000000000
+      internalID: -1848692381388955576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e222fb70a9cdb70800000000000000
+      internalID: 8925177919603617334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_22
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1dbe6566147e2b0800000000000000
+      internalID: -5555399707537452555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_telekinesis_23
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d611071cd9549d50800000000000000
+      internalID: 6743113343894099664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_telekinesis_0: 7710794713964763635
+      achievement_telekinesis_1: 4171165858484883044
+      achievement_telekinesis_10: 8613527421992634117
+      achievement_telekinesis_11: -7932427631489281604
+      achievement_telekinesis_12: 3502860058243989531
+      achievement_telekinesis_13: 2427670651674303464
+      achievement_telekinesis_14: 4961576819169261760
+      achievement_telekinesis_15: 682747391054903535
+      achievement_telekinesis_16: 1659441808187337030
+      achievement_telekinesis_17: 3940088183248072258
+      achievement_telekinesis_18: -6867905764136044175
+      achievement_telekinesis_19: 5556869401018841205
+      achievement_telekinesis_2: -8525513537534523602
+      achievement_telekinesis_20: -1848692381388955576
+      achievement_telekinesis_21: 8925177919603617334
+      achievement_telekinesis_22: -5555399707537452555
+      achievement_telekinesis_23: 6743113343894099664
+      achievement_telekinesis_3: 5093305945626620524
+      achievement_telekinesis_4: 3075384719471860732
+      achievement_telekinesis_5: -5764430197099227814
+      achievement_telekinesis_6: -8769736870666354359
+      achievement_telekinesis_7: -7825423243033740950
+      achievement_telekinesis_8: 8114825849011040739
+      achievement_telekinesis_9: -8070816000277409338
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

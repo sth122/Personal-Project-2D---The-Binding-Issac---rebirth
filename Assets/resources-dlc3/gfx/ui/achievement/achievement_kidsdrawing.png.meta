@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: ac04dd517cb8ed34da752f47b9fd4dcc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2216969280575217727
+    second: achievement_kidsdrawing_0
+  - first:
+      213: -3274351532166634386
+    second: achievement_kidsdrawing_1
+  - first:
+      213: -8502566792376935655
+    second: achievement_kidsdrawing_2
+  - first:
+      213: -2053950272095634934
+    second: achievement_kidsdrawing_3
+  - first:
+      213: 6813434347553954203
+    second: achievement_kidsdrawing_4
+  - first:
+      213: 200466962243476638
+    second: achievement_kidsdrawing_5
+  - first:
+      213: -6502171786073850758
+    second: achievement_kidsdrawing_6
+  - first:
+      213: -4769058019652655157
+    second: achievement_kidsdrawing_7
+  - first:
+      213: 4293002243135907295
+    second: achievement_kidsdrawing_8
+  - first:
+      213: 4728406382589820467
+    second: achievement_kidsdrawing_9
+  - first:
+      213: 1454245963759713693
+    second: achievement_kidsdrawing_10
+  - first:
+      213: 7841879928023014424
+    second: achievement_kidsdrawing_11
+  - first:
+      213: 3855515760414147997
+    second: achievement_kidsdrawing_12
+  - first:
+      213: -2632907466526604028
+    second: achievement_kidsdrawing_13
+  - first:
+      213: -2753823478505483701
+    second: achievement_kidsdrawing_14
+  - first:
+      213: -6177221653262722732
+    second: achievement_kidsdrawing_15
+  - first:
+      213: -7782486762455177420
+    second: achievement_kidsdrawing_16
+  - first:
+      213: -3705242033629766999
+    second: achievement_kidsdrawing_17
+  - first:
+      213: -8301803682910272177
+    second: achievement_kidsdrawing_18
+  - first:
+      213: -3123119740666467546
+    second: achievement_kidsdrawing_19
+  - first:
+      213: 5593042677335092107
+    second: achievement_kidsdrawing_20
+  - first:
+      213: -2644582295392183069
+    second: achievement_kidsdrawing_21
+  - first:
+      213: 8992194200161555971
+    second: achievement_kidsdrawing_22
+  - first:
+      213: -3683556272600788739
+    second: achievement_kidsdrawing_23
+  - first:
+      213: -2494873553956189993
+    second: achievement_kidsdrawing_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 138
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf5c517f2ebb31e0800000000000000
+      internalID: -2216969280575217727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 134
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64a37731aa2f82d0800000000000000
+      internalID: -3274351532166634386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 140
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b17550d80d00a80800000000000000
+      internalID: -8502566792376935655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 135
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a3c6d1c17ee73e0800000000000000
+      internalID: -2053950272095634934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_4
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 134
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b991662a07e2e8e50800000000000000
+      internalID: 6813434347553954203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 141
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c59b9d3a338c200800000000000000
+      internalID: 200466962243476638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 140
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c3086e535a3c5a0800000000000000
+      internalID: -6502171786073850758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 143
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc72069aff6e0ddb0800000000000000
+      internalID: -4769058019652655157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_8
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5221a7bcec39b30800000000000000
+      internalID: 4293002243135907295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 136
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33eb4f38d8cae9140800000000000000
+      internalID: 4728406382589820467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 133
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d71f5cff48e2410800000000000000
+      internalID: 1454245963759713693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 101
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cd3191f34f3dc60800000000000000
+      internalID: 7841879928023014424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 51
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95c76d182b818530800000000000000
+      internalID: 3855515760414147997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_13
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 101
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4054533eb98067bd0800000000000000
+      internalID: -2632907466526604028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 67
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42dc8df22478c9d0800000000000000
+      internalID: -2753823478505483701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 63
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4599c6a72a9164aa0800000000000000
+      internalID: -6177221653262722732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437edaed58d0ff390800000000000000
+      internalID: -7782486762455177420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_17
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aad6aa6006549cc0800000000000000
+      internalID: -3705242033629766999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f458a1509811acc80800000000000000
+      internalID: -8301803682910272177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ba092942378a4d0800000000000000
+      internalID: -3123119740666467546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b682c8eaa7e9d40800000000000000
+      internalID: 5593042677335092107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec9cd7f96e8c4bd0800000000000000
+      internalID: -2644582295392183069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_22
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30615fb7bf0bacc70800000000000000
+      internalID: 8992194200161555971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_23
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0d77d161161ecc0800000000000000
+      internalID: -3683556272600788739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_kidsdrawing_24
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8cce898bd606dd0800000000000000
+      internalID: -2494873553956189993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_kidsdrawing_0: -2216969280575217727
+      achievement_kidsdrawing_1: -3274351532166634386
+      achievement_kidsdrawing_10: 1454245963759713693
+      achievement_kidsdrawing_11: 7841879928023014424
+      achievement_kidsdrawing_12: 3855515760414147997
+      achievement_kidsdrawing_13: -2632907466526604028
+      achievement_kidsdrawing_14: -2753823478505483701
+      achievement_kidsdrawing_15: -6177221653262722732
+      achievement_kidsdrawing_16: -7782486762455177420
+      achievement_kidsdrawing_17: -3705242033629766999
+      achievement_kidsdrawing_18: -8301803682910272177
+      achievement_kidsdrawing_19: -3123119740666467546
+      achievement_kidsdrawing_2: -8502566792376935655
+      achievement_kidsdrawing_20: 5593042677335092107
+      achievement_kidsdrawing_21: -2644582295392183069
+      achievement_kidsdrawing_22: 8992194200161555971
+      achievement_kidsdrawing_23: -3683556272600788739
+      achievement_kidsdrawing_24: -2494873553956189993
+      achievement_kidsdrawing_3: -2053950272095634934
+      achievement_kidsdrawing_4: 6813434347553954203
+      achievement_kidsdrawing_5: 200466962243476638
+      achievement_kidsdrawing_6: -6502171786073850758
+      achievement_kidsdrawing_7: -4769058019652655157
+      achievement_kidsdrawing_8: 4293002243135907295
+      achievement_kidsdrawing_9: 4728406382589820467
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

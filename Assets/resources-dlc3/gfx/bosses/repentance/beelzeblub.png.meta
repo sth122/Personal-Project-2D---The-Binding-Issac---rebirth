@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 71be8e60868f5904d8b99d77f3b65fa2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7771081662092475121
+    second: beelzeblub_0
+  - first:
+      213: -7019580921181924381
+    second: beelzeblub_1
+  - first:
+      213: -7320285688042903221
+    second: beelzeblub_2
+  - first:
+      213: -5720366578488532202
+    second: beelzeblub_3
+  - first:
+      213: -1980015033783928893
+    second: beelzeblub_4
+  - first:
+      213: -6422102254439928733
+    second: beelzeblub_5
+  - first:
+      213: 3224469193552668415
+    second: beelzeblub_6
+  - first:
+      213: 2606183255931605556
+    second: beelzeblub_7
+  - first:
+      213: -2905431974883888236
+    second: beelzeblub_8
+  - first:
+      213: -3525591528861104019
+    second: beelzeblub_9
+  - first:
+      213: 8928649399152999238
+    second: beelzeblub_10
+  - first:
+      213: 4959843316094084718
+    second: beelzeblub_11
+  - first:
+      213: 8295284152603122401
+    second: beelzeblub_12
+  - first:
+      213: -685751652002263324
+    second: beelzeblub_13
+  - first:
+      213: -2994631098487621697
+    second: beelzeblub_14
+  - first:
+      213: -1412323510383064367
+    second: beelzeblub_15
+  - first:
+      213: -6434165669731632804
+    second: beelzeblub_16
+  - first:
+      213: 5663612081865084858
+    second: beelzeblub_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beelzeblub_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 203
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faf295499d68db60800000000000000
+      internalID: 7771081662092475121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 202
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e397d0f750759e90800000000000000
+      internalID: -7019580921181924381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 200
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49a3d583fe196a90800000000000000
+      internalID: -7320285688042903221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 195
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613ac2897ec2d90b0800000000000000
+      internalID: -5720366578488532202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 223
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7306d31d29584e0800000000000000
+      internalID: -1980015033783928893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_5
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 195
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c6fdc760c10e6a0800000000000000
+      internalID: -6422102254439928733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 191
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6a5e6c5ad9fbc20800000000000000
+      internalID: 3224469193552668415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 108
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432df55fcd50b2420800000000000000
+      internalID: 2606183255931605556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 107
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493fbf13305dda7d0800000000000000
+      internalID: -2905431974883888236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_9
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 104
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d688b131f25921fc0800000000000000
+      internalID: -3525591528861104019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_10
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 99
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bf480925fe8eb70800000000000000
+      internalID: 8928649399152999238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 105
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e662265b737e4d440800000000000000
+      internalID: 4959843316094084718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 16
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea16da8cf4ce1370800000000000000
+      internalID: 8295284152603122401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 16
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee844a7188bb76f0800000000000000
+      internalID: -685751652002263324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 15
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7be45d1eee076d0800000000000000
+      internalID: -2994631098487621697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_15
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 15
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da4fa7004b666ce0800000000000000
+      internalID: -1412323510383064367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59f1adb96045b6a0800000000000000
+      internalID: -6434165669731632804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beelzeblub_17
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfcd2d6e21399e40800000000000000
+      internalID: 5663612081865084858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      beelzeblub_0: 7771081662092475121
+      beelzeblub_1: -7019580921181924381
+      beelzeblub_10: 8928649399152999238
+      beelzeblub_11: 4959843316094084718
+      beelzeblub_12: 8295284152603122401
+      beelzeblub_13: -685751652002263324
+      beelzeblub_14: -2994631098487621697
+      beelzeblub_15: -1412323510383064367
+      beelzeblub_16: -6434165669731632804
+      beelzeblub_17: 5663612081865084858
+      beelzeblub_2: -7320285688042903221
+      beelzeblub_3: -5720366578488532202
+      beelzeblub_4: -1980015033783928893
+      beelzeblub_5: -6422102254439928733
+      beelzeblub_6: 3224469193552668415
+      beelzeblub_7: 2606183255931605556
+      beelzeblub_8: -2905431974883888236
+      beelzeblub_9: -3525591528861104019
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

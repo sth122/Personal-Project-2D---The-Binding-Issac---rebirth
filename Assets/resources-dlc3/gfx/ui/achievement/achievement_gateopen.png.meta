@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 251ca1c295d0fa142ab25f569b474ca2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -360132025777216958
+    second: achievement_gateopen_0
+  - first:
+      213: 8166156338663193564
+    second: achievement_gateopen_1
+  - first:
+      213: -4775527460986126817
+    second: achievement_gateopen_2
+  - first:
+      213: -2732979280790762747
+    second: achievement_gateopen_3
+  - first:
+      213: 591350153187623331
+    second: achievement_gateopen_4
+  - first:
+      213: 6153090154971411100
+    second: achievement_gateopen_5
+  - first:
+      213: 886305026859706699
+    second: achievement_gateopen_6
+  - first:
+      213: 141472536745836323
+    second: achievement_gateopen_7
+  - first:
+      213: -557256587126569056
+    second: achievement_gateopen_8
+  - first:
+      213: 1901897043722216481
+    second: achievement_gateopen_9
+  - first:
+      213: -970037888161799190
+    second: achievement_gateopen_10
+  - first:
+      213: -4672686671506238508
+    second: achievement_gateopen_11
+  - first:
+      213: 3198822233201561565
+    second: achievement_gateopen_12
+  - first:
+      213: 3946456364218683029
+    second: achievement_gateopen_13
+  - first:
+      213: -2546324576541594029
+    second: achievement_gateopen_14
+  - first:
+      213: 5327696774923592477
+    second: achievement_gateopen_15
+  - first:
+      213: 5383400370742991311
+    second: achievement_gateopen_16
+  - first:
+      213: 7130829547666862634
+    second: achievement_gateopen_17
+  - first:
+      213: -5147505280011600859
+    second: achievement_gateopen_18
+  - first:
+      213: -6779395972748988649
+    second: achievement_gateopen_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_gateopen_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 137
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242ae43a4dd800bf0800000000000000
+      internalID: -360132025777216958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 153
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbf2528ce3045170800000000000000
+      internalID: 8166156338663193564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 148
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e7cc8731be9bdb0800000000000000
+      internalID: -4775527460986126817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 144
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bc6f5f2d1821ad0800000000000000
+      internalID: -2732979280790762747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 116
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a10f9ac4d5e43800800000000000000
+      internalID: 591350153187623331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 122
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92360e35ea246550800000000000000
+      internalID: 6153090154971411100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 49
+        width: 95
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49ad90e9b9cc4c00800000000000000
+      internalID: 886305026859706699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 102
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f753ac58c96f100800000000000000
+      internalID: 141472536745836323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 92
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a70393261a3448f0800000000000000
+      internalID: -557256587126569056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 78
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124ad6ad845e46a10800000000000000
+      internalID: 1901897043722216481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 82
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae322712eabb982f0800000000000000
+      internalID: -970037888161799190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 34
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d31b2eaa38472fb0800000000000000
+      internalID: -4672686671506238508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 19
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfc99d7fdf746c20800000000000000
+      internalID: 3198822233201561565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 18
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e85de6721a4c630800000000000000
+      internalID: 3946456364218683029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 29
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e2464e943a9acd0800000000000000
+      internalID: -2546324576541594029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 23
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13a05c4df7cfe940800000000000000
+      internalID: 5327696774923592477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 26
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc997dd5d1ea5ba40800000000000000
+      internalID: 5383400370742991311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 43
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22fa8e51bbc5f260800000000000000
+      internalID: 7130829547666862634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 23
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cf57178336098b0800000000000000
+      internalID: -5147505280011600859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_gateopen_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 16
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f2594184fbae1a0800000000000000
+      internalID: -6779395972748988649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_gateopen_0: -360132025777216958
+      achievement_gateopen_1: 8166156338663193564
+      achievement_gateopen_10: -970037888161799190
+      achievement_gateopen_11: -4672686671506238508
+      achievement_gateopen_12: 3198822233201561565
+      achievement_gateopen_13: 3946456364218683029
+      achievement_gateopen_14: -2546324576541594029
+      achievement_gateopen_15: 5327696774923592477
+      achievement_gateopen_16: 5383400370742991311
+      achievement_gateopen_17: 7130829547666862634
+      achievement_gateopen_18: -5147505280011600859
+      achievement_gateopen_19: -6779395972748988649
+      achievement_gateopen_2: -4775527460986126817
+      achievement_gateopen_3: -2732979280790762747
+      achievement_gateopen_4: 591350153187623331
+      achievement_gateopen_5: 6153090154971411100
+      achievement_gateopen_6: 886305026859706699
+      achievement_gateopen_7: 141472536745836323
+      achievement_gateopen_8: -557256587126569056
+      achievement_gateopen_9: 1901897043722216481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: d8646d9d75f7676438d0a399e7a68134
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2850736762339876693
+    second: tech_sword_0
+  - first:
+      213: 1675498193018412061
+    second: tech_sword_1
+  - first:
+      213: -3283795584072537396
+    second: tech_sword_2
+  - first:
+      213: 6696511976185704398
+    second: tech_sword_3
+  - first:
+      213: 7740216315480759189
+    second: tech_sword_4
+  - first:
+      213: 6045950731965619855
+    second: tech_sword_5
+  - first:
+      213: 55710360713691583
+    second: tech_sword_6
+  - first:
+      213: -981530288414223451
+    second: tech_sword_7
+  - first:
+      213: 7892169383042297775
+    second: tech_sword_8
+  - first:
+      213: 8804199204267570363
+    second: tech_sword_9
+  - first:
+      213: 7054764721548875910
+    second: tech_sword_10
+  - first:
+      213: -2258101330790632109
+    second: tech_sword_11
+  - first:
+      213: -1376667069860386311
+    second: tech_sword_12
+  - first:
+      213: 1574831195402192480
+    second: tech_sword_13
+  - first:
+      213: 2129040607735916569
+    second: tech_sword_14
+  - first:
+      213: 6263035305082721990
+    second: tech_sword_15
+  - first:
+      213: 5446408204726496628
+    second: tech_sword_16
+  - first:
+      213: -4782191638193733493
+    second: tech_sword_17
+  - first:
+      213: 1293959313560116608
+    second: tech_sword_18
+  - first:
+      213: -4421065202226331347
+    second: tech_sword_19
+  - first:
+      213: -8181171094433141591
+    second: tech_sword_20
+  - first:
+      213: -6782750722580063224
+    second: tech_sword_21
+  - first:
+      213: -8506352468541761741
+    second: tech_sword_22
+  - first:
+      213: -7262135831606846197
+    second: tech_sword_23
+  - first:
+      213: -7284632542514390791
+    second: tech_sword_24
+  - first:
+      213: 7719322444276620482
+    second: tech_sword_25
+  - first:
+      213: -7482566145251369749
+    second: tech_sword_26
+  - first:
+      213: -3927264588859627259
+    second: tech_sword_27
+  - first:
+      213: -3857239446958404032
+    second: tech_sword_28
+  - first:
+      213: 4533216552697663353
+    second: tech_sword_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tech_sword_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 171
+        width: 55
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0a59cb4062078d0800000000000000
+      internalID: -2850736762339876693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 171
+        width: 55
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cdba8bab0904710800000000000000
+      internalID: 1675498193018412061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 156
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca2c58805d9d62d0800000000000000
+      internalID: -3283795584072537396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 141
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfa2b6a92aceec50800000000000000
+      internalID: 6696511976185704398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_4
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 116
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bd9e0cab5ca6b60800000000000000
+      internalID: 7740216315480759189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 139
+        width: 55
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ed25c682887e350800000000000000
+      internalID: 6045950731965619855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 139
+        width: 55
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb106a4274ce5c000800000000000000
+      internalID: 55710360713691583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 103
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a398ce2767e062f0800000000000000
+      internalID: -981530288414223451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 109
+        width: 47
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf23774d3e968d60800000000000000
+      internalID: 7892169383042297775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 109
+        width: 47
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb43526978cce2a70800000000000000
+      internalID: 8804199204267570363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 77
+        width: 45
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688d0e1f22f87e160800000000000000
+      internalID: 7054764721548875910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 77
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3553367bdcc99a0e0800000000000000
+      internalID: -2258101330790632109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 77
+        width: 40
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f96ef6089815ece0800000000000000
+      internalID: -1376667069860386311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_13
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066c62fd0acead510800000000000000
+      internalID: 1574831195402192480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 52
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9182b70172fdb8d10800000000000000
+      internalID: 2129040607735916569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 52
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c69f2f4d65cae650800000000000000
+      internalID: 6263035305082721990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dee78e767859b40800000000000000
+      internalID: 5446408204726496628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b808e9dca0e32adb0800000000000000
+      internalID: -4782191638193733493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 42
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d1f86d32115f110800000000000000
+      internalID: 1293959313560116608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_19
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2185745f9835a2c0800000000000000
+      internalID: -4421065202226331347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 39
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac6e9d3c34a67e80800000000000000
+      internalID: -8181171094433141591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c57948724ded1a0800000000000000
+      internalID: -6782750722580063224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 39
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3371d4a9f7d53f980800000000000000
+      internalID: -8506352468541761741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d107600f5b73b90800000000000000
+      internalID: -7262135831606846197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_24
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8dd285c49c7ea90800000000000000
+      internalID: -7284632542514390791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccdec54dda802b60800000000000000
+      internalID: 7719322444276620482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_26
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec9de73cb5982890800000000000000
+      internalID: -7482566145251369749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 9
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5092d0af9ad8f79c0800000000000000
+      internalID: -3927264588859627259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_28
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 8
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e8b66d825587ac0800000000000000
+      internalID: -3857239446958404032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tech_sword_29
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 8
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f0779cf6839ee30800000000000000
+      internalID: 4533216552697663353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tech_sword_0: -2850736762339876693
+      tech_sword_1: 1675498193018412061
+      tech_sword_10: 7054764721548875910
+      tech_sword_11: -2258101330790632109
+      tech_sword_12: -1376667069860386311
+      tech_sword_13: 1574831195402192480
+      tech_sword_14: 2129040607735916569
+      tech_sword_15: 6263035305082721990
+      tech_sword_16: 5446408204726496628
+      tech_sword_17: -4782191638193733493
+      tech_sword_18: 1293959313560116608
+      tech_sword_19: -4421065202226331347
+      tech_sword_2: -3283795584072537396
+      tech_sword_20: -8181171094433141591
+      tech_sword_21: -6782750722580063224
+      tech_sword_22: -8506352468541761741
+      tech_sword_23: -7262135831606846197
+      tech_sword_24: -7284632542514390791
+      tech_sword_25: 7719322444276620482
+      tech_sword_26: -7482566145251369749
+      tech_sword_27: -3927264588859627259
+      tech_sword_28: -3857239446958404032
+      tech_sword_29: 4533216552697663353
+      tech_sword_3: 6696511976185704398
+      tech_sword_4: 7740216315480759189
+      tech_sword_5: 6045950731965619855
+      tech_sword_6: 55710360713691583
+      tech_sword_7: -981530288414223451
+      tech_sword_8: 7892169383042297775
+      tech_sword_9: 8804199204267570363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

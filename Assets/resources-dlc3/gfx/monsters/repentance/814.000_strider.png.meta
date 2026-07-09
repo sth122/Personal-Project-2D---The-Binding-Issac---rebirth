@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: ee191b123c6756c4398e6bb24ba9165c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1722252998134052510
+    second: 814.000_strider_0
+  - first:
+      213: -2035678757895454832
+    second: 814.000_strider_1
+  - first:
+      213: -7877393302173549723
+    second: 814.000_strider_2
+  - first:
+      213: -526084757207699024
+    second: 814.000_strider_3
+  - first:
+      213: 3679555459111537692
+    second: 814.000_strider_4
+  - first:
+      213: 4466188678047818694
+    second: 814.000_strider_5
+  - first:
+      213: 5293929969269448472
+    second: 814.000_strider_6
+  - first:
+      213: 2069963887244245188
+    second: 814.000_strider_7
+  - first:
+      213: -4639224618253437954
+    second: 814.000_strider_8
+  - first:
+      213: -2773201363633432246
+    second: 814.000_strider_9
+  - first:
+      213: -2564781110486606942
+    second: 814.000_strider_10
+  - first:
+      213: 6585389163517479887
+    second: 814.000_strider_11
+  - first:
+      213: 5884071235240367822
+    second: 814.000_strider_12
+  - first:
+      213: -9184718532190295511
+    second: 814.000_strider_13
+  - first:
+      213: 1773485665138368184
+    second: 814.000_strider_14
+  - first:
+      213: 3567267221168015198
+    second: 814.000_strider_15
+  - first:
+      213: -848828131132222596
+    second: 814.000_strider_16
+  - first:
+      213: 2944718765265273344
+    second: 814.000_strider_17
+  - first:
+      213: -1029288204464445038
+    second: 814.000_strider_18
+  - first:
+      213: 6532848562643264626
+    second: 814.000_strider_19
+  - first:
+      213: -6174422449456968518
+    second: 814.000_strider_20
+  - first:
+      213: 1701398639708805134
+    second: 814.000_strider_21
+  - first:
+      213: 6299071162481063624
+    second: 814.000_strider_22
+  - first:
+      213: 7474182581596824780
+    second: 814.000_strider_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 814.000_strider_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 161
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96b1271afba6e710800000000000000
+      internalID: 1722252998134052510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 159
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f35d684f0dfb3e0800000000000000
+      internalID: -2035678757895454832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 159
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b77e32780eda290800000000000000
+      internalID: -7877393302173549723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 163
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b133ec53b8f2b8f0800000000000000
+      internalID: -526084757207699024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 163
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c41b7e138601330800000000000000
+      internalID: 3679555459111537692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 163
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c369e690f61bfd30800000000000000
+      internalID: 4466188678047818694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 163
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f99143241d77940800000000000000
+      internalID: 5293929969269448472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 160
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c87415303df9bc10800000000000000
+      internalID: 2069963887244245188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 112
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3b1c31ac92e9fb0800000000000000
+      internalID: -4639224618253437954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 113
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4910068d0c9389d0800000000000000
+      internalID: -2773201363633432246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 114
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab50d63b21186cd0800000000000000
+      internalID: -2564781110486606942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 112
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb8a27ad80046b50800000000000000
+      internalID: 6585389163517479887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 112
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec698910d9b68a150800000000000000
+      internalID: 5884071235240367822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_13
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 112
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92aa9de5823598080800000000000000
+      internalID: -9184718532190295511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_14
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 112
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bed1dce0dfac9810800000000000000
+      internalID: 1773485665138368184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_15
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 113
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e574d9033aa718130800000000000000
+      internalID: 3567267221168015198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 62
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c735180ef4b5834f0800000000000000
+      internalID: -848828131132222596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 62
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002401f7d1ebdd820800000000000000
+      internalID: 2944718765265273344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 61
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299a569d4db37b1f0800000000000000
+      internalID: -1029288204464445038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 60
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274e5cbb72759aa50800000000000000
+      internalID: 6532848562643264626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_20
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 59
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc8be6ee7b005aa0800000000000000
+      internalID: -6174422449456968518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_21
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 59
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e081d256c059c9710800000000000000
+      internalID: 1701398639708805134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_22
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 60
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6379e29dbca6750800000000000000
+      internalID: 6299071162481063624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 814.000_strider_23
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 64
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4ad724571a9b760800000000000000
+      internalID: 7474182581596824780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      814.000_strider_0: 1722252998134052510
+      814.000_strider_1: -2035678757895454832
+      814.000_strider_10: -2564781110486606942
+      814.000_strider_11: 6585389163517479887
+      814.000_strider_12: 5884071235240367822
+      814.000_strider_13: -9184718532190295511
+      814.000_strider_14: 1773485665138368184
+      814.000_strider_15: 3567267221168015198
+      814.000_strider_16: -848828131132222596
+      814.000_strider_17: 2944718765265273344
+      814.000_strider_18: -1029288204464445038
+      814.000_strider_19: 6532848562643264626
+      814.000_strider_2: -7877393302173549723
+      814.000_strider_20: -6174422449456968518
+      814.000_strider_21: 1701398639708805134
+      814.000_strider_22: 6299071162481063624
+      814.000_strider_23: 7474182581596824780
+      814.000_strider_3: -526084757207699024
+      814.000_strider_4: 3679555459111537692
+      814.000_strider_5: 4466188678047818694
+      814.000_strider_6: 5293929969269448472
+      814.000_strider_7: 2069963887244245188
+      814.000_strider_8: -4639224618253437954
+      814.000_strider_9: -2773201363633432246
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

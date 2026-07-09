@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: eb566c181e94ef248ad5867f86d9bed0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -721530201071323544
+    second: bloaty_champion_0
+  - first:
+      213: -6893846313866862732
+    second: bloaty_champion_1
+  - first:
+      213: 5321729277862870690
+    second: bloaty_champion_2
+  - first:
+      213: -6166837097228469269
+    second: bloaty_champion_3
+  - first:
+      213: -2429371006759938206
+    second: bloaty_champion_4
+  - first:
+      213: 1761956511310034840
+    second: bloaty_champion_5
+  - first:
+      213: 987081197695010049
+    second: bloaty_champion_6
+  - first:
+      213: 2045681365517748003
+    second: bloaty_champion_7
+  - first:
+      213: -7267003712169322391
+    second: bloaty_champion_8
+  - first:
+      213: -988395067755199496
+    second: bloaty_champion_9
+  - first:
+      213: 367485341855851060
+    second: bloaty_champion_10
+  - first:
+      213: -7431971821122491545
+    second: bloaty_champion_11
+  - first:
+      213: 3445398533466115633
+    second: bloaty_champion_12
+  - first:
+      213: -9207812562934172345
+    second: bloaty_champion_13
+  - first:
+      213: 7639327562161616272
+    second: bloaty_champion_14
+  - first:
+      213: 2575244767903041968
+    second: bloaty_champion_15
+  - first:
+      213: -1554962658034540233
+    second: bloaty_champion_16
+  - first:
+      213: 6742752010317688146
+    second: bloaty_champion_17
+  - first:
+      213: -3379801550105988185
+    second: bloaty_champion_18
+  - first:
+      213: -5732785979416563440
+    second: bloaty_champion_19
+  - first:
+      213: -7644129679394309487
+    second: bloaty_champion_20
+  - first:
+      213: -191086958812695391
+    second: bloaty_champion_21
+  - first:
+      213: 4914782914091751298
+    second: bloaty_champion_22
+  - first:
+      213: 9020757993389533763
+    second: bloaty_champion_23
+  - first:
+      213: 2997115956506684525
+    second: bloaty_champion_24
+  - first:
+      213: -1207430073907336149
+    second: bloaty_champion_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloaty_champion_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 203
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8667d6eda1c9cf5f0800000000000000
+      internalID: -721530201071323544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 203
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f54dd7d432450a0800000000000000
+      internalID: -6893846313866862732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 203
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aeffcd15949ad940800000000000000
+      internalID: 5321729277862870690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 202
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebfef7555efa6aa0800000000000000
+      internalID: -6166837097228469269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 203
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267d072d0f3294ed0800000000000000
+      internalID: -2429371006759938206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 203
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897325e9c1ab37810800000000000000
+      internalID: 1761956511310034840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 152
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10504199e11d2bd00800000000000000
+      internalID: 987081197695010049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 152
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327425b0d58b36c10800000000000000
+      internalID: 2045681365517748003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 153
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968d3b240aa662b90800000000000000
+      internalID: -7267003712169322391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 153
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f304b03ce38842f0800000000000000
+      internalID: -988395067755199496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 151
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4322b7da8f1991500800000000000000
+      internalID: 367485341855851060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 104
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76be74541055cd890800000000000000
+      internalID: -7431971821122491545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e46e036b380df20800000000000000
+      internalID: 3445398533466115633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 105
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745fde35247473080800000000000000
+      internalID: -9207812562934172345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 105
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0957e7161f7540a60800000000000000
+      internalID: 7639327562161616272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 103
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b94b80e87b1db320800000000000000
+      internalID: 2575244767903041968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 55
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731aad873b9ab6ae0800000000000000
+      internalID: -1554962658034540233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 55
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d698f8a31139d50800000000000000
+      internalID: 6742752010317688146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 55
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a33e9aa5688811d0800000000000000
+      internalID: -3379801550105988185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 55
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011398b768d0170b0800000000000000
+      internalID: -5732785979416563440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 55
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a7ea29e889ae590800000000000000
+      internalID: -7644129679394309487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a472c26c6f195df0800000000000000
+      internalID: -191086958812695391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 8
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287199e4501d43440800000000000000
+      internalID: 4914782914091751298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 7
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34aafb8d99b203d70800000000000000
+      internalID: 9020757993389533763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_24
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 7
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c6c324515e79920800000000000000
+      internalID: 2997115956506684525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloaty_champion_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 7
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c21a9beb85e3fe0800000000000000
+      internalID: -1207430073907336149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bloaty_champion_0: -721530201071323544
+      bloaty_champion_1: -6893846313866862732
+      bloaty_champion_10: 367485341855851060
+      bloaty_champion_11: -7431971821122491545
+      bloaty_champion_12: 3445398533466115633
+      bloaty_champion_13: -9207812562934172345
+      bloaty_champion_14: 7639327562161616272
+      bloaty_champion_15: 2575244767903041968
+      bloaty_champion_16: -1554962658034540233
+      bloaty_champion_17: 6742752010317688146
+      bloaty_champion_18: -3379801550105988185
+      bloaty_champion_19: -5732785979416563440
+      bloaty_champion_2: 5321729277862870690
+      bloaty_champion_20: -7644129679394309487
+      bloaty_champion_21: -191086958812695391
+      bloaty_champion_22: 4914782914091751298
+      bloaty_champion_23: 9020757993389533763
+      bloaty_champion_24: 2997115956506684525
+      bloaty_champion_25: -1207430073907336149
+      bloaty_champion_3: -6166837097228469269
+      bloaty_champion_4: -2429371006759938206
+      bloaty_champion_5: 1761956511310034840
+      bloaty_champion_6: 987081197695010049
+      bloaty_champion_7: 2045681365517748003
+      bloaty_champion_8: -7267003712169322391
+      bloaty_champion_9: -988395067755199496
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

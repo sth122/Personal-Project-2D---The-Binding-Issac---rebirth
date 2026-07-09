@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 2c4a489c202b3854493b154ba1bf92c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3879257374910248982
+    second: achievement_glitchedcrown_0
+  - first:
+      213: -842020875228557339
+    second: achievement_glitchedcrown_1
+  - first:
+      213: -4935216456745981859
+    second: achievement_glitchedcrown_2
+  - first:
+      213: -2453836428674860229
+    second: achievement_glitchedcrown_3
+  - first:
+      213: -7474835192486289245
+    second: achievement_glitchedcrown_4
+  - first:
+      213: -8819934464174646867
+    second: achievement_glitchedcrown_5
+  - first:
+      213: -3257087903270007689
+    second: achievement_glitchedcrown_6
+  - first:
+      213: 4502666831799609117
+    second: achievement_glitchedcrown_7
+  - first:
+      213: 1107205455566811387
+    second: achievement_glitchedcrown_8
+  - first:
+      213: 4350489280991133390
+    second: achievement_glitchedcrown_9
+  - first:
+      213: 5107055231405842735
+    second: achievement_glitchedcrown_10
+  - first:
+      213: -3329131113099674367
+    second: achievement_glitchedcrown_11
+  - first:
+      213: 4317282415194079054
+    second: achievement_glitchedcrown_12
+  - first:
+      213: 5807844266608862849
+    second: achievement_glitchedcrown_13
+  - first:
+      213: 6432577227485051845
+    second: achievement_glitchedcrown_14
+  - first:
+      213: -4113156050624246678
+    second: achievement_glitchedcrown_15
+  - first:
+      213: -2628585038736455358
+    second: achievement_glitchedcrown_16
+  - first:
+      213: -865347503886174740
+    second: achievement_glitchedcrown_17
+  - first:
+      213: 2747515192295374439
+    second: achievement_glitchedcrown_18
+  - first:
+      213: 9215724825913236923
+    second: achievement_glitchedcrown_19
+  - first:
+      213: -7593109227120131754
+    second: achievement_glitchedcrown_20
+  - first:
+      213: 3567189228166063969
+    second: achievement_glitchedcrown_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 143
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618f6df7704e5d530800000000000000
+      internalID: 3879257374910248982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 148
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efc986a97a8054f0800000000000000
+      internalID: -842020875228557339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 138
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d586efdc7c6928bb0800000000000000
+      internalID: -4935216456745981859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 135
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bfbe3e4c832fdd0800000000000000
+      internalID: -2453836428674860229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 134
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0244deefc044890800000000000000
+      internalID: -7474835192486289245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 138
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da915a8b55c499580800000000000000
+      internalID: -8819934464174646867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 134
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c8e5b0fcf7cc2d0800000000000000
+      internalID: -3257087903270007689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 134
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17695b90afac7e30800000000000000
+      internalID: 4502666831799609117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_8
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 139
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf03f60ee759d5f00800000000000000
+      internalID: 1107205455566811387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecefe9083fa006c30800000000000000
+      internalID: 4350489280991133390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 132
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21ee34bca7efd640800000000000000
+      internalID: 5107055231405842735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 54
+        width: 94
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d3ef024ec8cc1d0800000000000000
+      internalID: -3329131113099674367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_12
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 86
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ffea09b711aeb30800000000000000
+      internalID: 4317282415194079054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186a206d69b999050800000000000000
+      internalID: 5807844266608862849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb738a38ea154950800000000000000
+      internalID: 6432577227485051845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_15
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c0bc84d522be6c0800000000000000
+      internalID: -4113156050624246678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249053885d3658bd0800000000000000
+      internalID: -2628585038736455358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5f79fa70badf3f0800000000000000
+      internalID: -865347503886174740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e31cba282212620800000000000000
+      internalID: 2747515192295374439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_19
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd9e44f6e4d4ef70800000000000000
+      internalID: 9215724825913236923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_20
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65183c0536bdf9690800000000000000
+      internalID: -7593109227120131754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_glitchedcrown_21
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167207704b3318130800000000000000
+      internalID: 3567189228166063969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_glitchedcrown_0: 3879257374910248982
+      achievement_glitchedcrown_1: -842020875228557339
+      achievement_glitchedcrown_10: 5107055231405842735
+      achievement_glitchedcrown_11: -3329131113099674367
+      achievement_glitchedcrown_12: 4317282415194079054
+      achievement_glitchedcrown_13: 5807844266608862849
+      achievement_glitchedcrown_14: 6432577227485051845
+      achievement_glitchedcrown_15: -4113156050624246678
+      achievement_glitchedcrown_16: -2628585038736455358
+      achievement_glitchedcrown_17: -865347503886174740
+      achievement_glitchedcrown_18: 2747515192295374439
+      achievement_glitchedcrown_19: 9215724825913236923
+      achievement_glitchedcrown_2: -4935216456745981859
+      achievement_glitchedcrown_20: -7593109227120131754
+      achievement_glitchedcrown_21: 3567189228166063969
+      achievement_glitchedcrown_3: -2453836428674860229
+      achievement_glitchedcrown_4: -7474835192486289245
+      achievement_glitchedcrown_5: -8819934464174646867
+      achievement_glitchedcrown_6: -3257087903270007689
+      achievement_glitchedcrown_7: 4502666831799609117
+      achievement_glitchedcrown_8: 1107205455566811387
+      achievement_glitchedcrown_9: 4350489280991133390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

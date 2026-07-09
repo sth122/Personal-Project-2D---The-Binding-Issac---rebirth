@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: cc2b6ae3a9c62e74da7dc405d287c190
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1191264725594595626
+    second: achievement_isaacstomb_0
+  - first:
+      213: -732178254779484833
+    second: achievement_isaacstomb_1
+  - first:
+      213: 861733973862400909
+    second: achievement_isaacstomb_2
+  - first:
+      213: -3769554526279496325
+    second: achievement_isaacstomb_3
+  - first:
+      213: -6783464416611133454
+    second: achievement_isaacstomb_4
+  - first:
+      213: -1308496276469242211
+    second: achievement_isaacstomb_5
+  - first:
+      213: -1611280251946001222
+    second: achievement_isaacstomb_6
+  - first:
+      213: 5561817412501040416
+    second: achievement_isaacstomb_7
+  - first:
+      213: 7204506900397322691
+    second: achievement_isaacstomb_8
+  - first:
+      213: 1123885204704000323
+    second: achievement_isaacstomb_9
+  - first:
+      213: 1081448302662848645
+    second: achievement_isaacstomb_10
+  - first:
+      213: -2076376756135601350
+    second: achievement_isaacstomb_11
+  - first:
+      213: -7561774831549242331
+    second: achievement_isaacstomb_12
+  - first:
+      213: 1499334771910326040
+    second: achievement_isaacstomb_13
+  - first:
+      213: -6247002155957247784
+    second: achievement_isaacstomb_14
+  - first:
+      213: 989074989788937505
+    second: achievement_isaacstomb_15
+  - first:
+      213: 4682622018005064505
+    second: achievement_isaacstomb_16
+  - first:
+      213: -2497710665019059540
+    second: achievement_isaacstomb_17
+  - first:
+      213: 5601443823333874441
+    second: achievement_isaacstomb_18
+  - first:
+      213: -8900966854829578029
+    second: achievement_isaacstomb_19
+  - first:
+      213: -2156064329937846698
+    second: achievement_isaacstomb_20
+  - first:
+      213: -3726095376726668308
+    second: achievement_isaacstomb_21
+  - first:
+      213: -8091787882229677756
+    second: achievement_isaacstomb_22
+  - first:
+      213: -1705140631285418620
+    second: achievement_isaacstomb_23
+  - first:
+      213: -5491688599817458412
+    second: achievement_isaacstomb_24
+  - first:
+      213: 7927437896076435942
+    second: achievement_isaacstomb_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_isaacstomb_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 136
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de1b7d2b07c77fe0800000000000000
+      internalID: -1191264725594595626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 131
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f557a9ba1c7c6d5f0800000000000000
+      internalID: -732178254779484833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 138
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8344facb7e75fb00800000000000000
+      internalID: 861733973862400909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 133
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d05ab512adfabc0800000000000000
+      internalID: -3769554526279496325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 138
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7146dad0b4cd1a0800000000000000
+      internalID: -6783464416611133454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 140
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96212bb19947dde0800000000000000
+      internalID: -1308496276469242211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 141
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc1825d52593a9e0800000000000000
+      internalID: -1611280251946001222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 131
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02de4b9087b8f2d40800000000000000
+      internalID: 5561817412501040416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 129
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c17804dadc8bf360800000000000000
+      internalID: 7204506900397322691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 142
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349f2ba93a7d89f00800000000000000
+      internalID: 1123885204704000323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5801b236083120f00800000000000000
+      internalID: 1081448302662848645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 129
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bd8a6675a3f23e0800000000000000
+      internalID: -2076376756135601350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 57
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524a40ecadd2f0790800000000000000
+      internalID: -7561774831549242331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 59
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8173b1ff705bec410800000000000000
+      internalID: 1499334771910326040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_14
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 48
+        width: 92
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0a11f13a03e49a0800000000000000
+      internalID: -6247002155957247784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_15
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 58
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12db79e7676e9bd00800000000000000
+      internalID: 989074989788937505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 60
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b5d907ae30cf040800000000000000
+      internalID: 4682622018005064505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca295d33269565dd0800000000000000
+      internalID: -2497710665019059540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b1f17ca735cbd40800000000000000
+      internalID: 5601443823333874441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d86b5c0ec9697480800000000000000
+      internalID: -8900966854829578029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ef92d4aee1412e0800000000000000
+      internalID: -2156064329937846698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb4bfe1fff3a4cc0800000000000000
+      internalID: -3726095376726668308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441c3e11bc134bf80800000000000000
+      internalID: -8091787882229677756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485b52c41af1658e0800000000000000
+      internalID: -1705140631285418620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d61de805a99c3b0800000000000000
+      internalID: -5491688599817458412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_isaacstomb_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e12b9ed3cae30e60800000000000000
+      internalID: 7927437896076435942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_isaacstomb_0: -1191264725594595626
+      achievement_isaacstomb_1: -732178254779484833
+      achievement_isaacstomb_10: 1081448302662848645
+      achievement_isaacstomb_11: -2076376756135601350
+      achievement_isaacstomb_12: -7561774831549242331
+      achievement_isaacstomb_13: 1499334771910326040
+      achievement_isaacstomb_14: -6247002155957247784
+      achievement_isaacstomb_15: 989074989788937505
+      achievement_isaacstomb_16: 4682622018005064505
+      achievement_isaacstomb_17: -2497710665019059540
+      achievement_isaacstomb_18: 5601443823333874441
+      achievement_isaacstomb_19: -8900966854829578029
+      achievement_isaacstomb_2: 861733973862400909
+      achievement_isaacstomb_20: -2156064329937846698
+      achievement_isaacstomb_21: -3726095376726668308
+      achievement_isaacstomb_22: -8091787882229677756
+      achievement_isaacstomb_23: -1705140631285418620
+      achievement_isaacstomb_24: -5491688599817458412
+      achievement_isaacstomb_25: 7927437896076435942
+      achievement_isaacstomb_3: -3769554526279496325
+      achievement_isaacstomb_4: -6783464416611133454
+      achievement_isaacstomb_5: -1308496276469242211
+      achievement_isaacstomb_6: -1611280251946001222
+      achievement_isaacstomb_7: 5561817412501040416
+      achievement_isaacstomb_8: 7204506900397322691
+      achievement_isaacstomb_9: 1123885204704000323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

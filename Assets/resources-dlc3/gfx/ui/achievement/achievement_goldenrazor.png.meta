@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: bf618de7699dcfa4498eb5e16f5cd402
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8881329512290070625
+    second: achievement_goldenrazor_0
+  - first:
+      213: 4057663302423344830
+    second: achievement_goldenrazor_1
+  - first:
+      213: -3112905048436302895
+    second: achievement_goldenrazor_2
+  - first:
+      213: 8071910934012474556
+    second: achievement_goldenrazor_3
+  - first:
+      213: 5927673316126280334
+    second: achievement_goldenrazor_4
+  - first:
+      213: 2658544124719234792
+    second: achievement_goldenrazor_5
+  - first:
+      213: -2562948800059864915
+    second: achievement_goldenrazor_6
+  - first:
+      213: -4121938917428041395
+    second: achievement_goldenrazor_7
+  - first:
+      213: 2116087895430770785
+    second: achievement_goldenrazor_8
+  - first:
+      213: -3370028350953481180
+    second: achievement_goldenrazor_9
+  - first:
+      213: -545252298145143290
+    second: achievement_goldenrazor_10
+  - first:
+      213: -3447855150020083240
+    second: achievement_goldenrazor_11
+  - first:
+      213: 6361498206373044779
+    second: achievement_goldenrazor_12
+  - first:
+      213: -1852333934043708083
+    second: achievement_goldenrazor_13
+  - first:
+      213: 5685973320895136070
+    second: achievement_goldenrazor_14
+  - first:
+      213: 3445006694273806460
+    second: achievement_goldenrazor_15
+  - first:
+      213: -4421815050913310604
+    second: achievement_goldenrazor_16
+  - first:
+      213: -7975513343167469421
+    second: achievement_goldenrazor_17
+  - first:
+      213: -981929172935546973
+    second: achievement_goldenrazor_18
+  - first:
+      213: 4099917323268132172
+    second: achievement_goldenrazor_19
+  - first:
+      213: -3363978993421552960
+    second: achievement_goldenrazor_20
+  - first:
+      213: -3631823573714172918
+    second: achievement_goldenrazor_21
+  - first:
+      213: 1868298770605584396
+    second: achievement_goldenrazor_22
+  - first:
+      213: -514582295970170261
+    second: achievement_goldenrazor_23
+  - first:
+      213: -5924332552610371015
+    second: achievement_goldenrazor_24
+  - first:
+      213: 7112775841695267868
+    second: achievement_goldenrazor_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_goldenrazor_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 133
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1603e39d222d04b70800000000000000
+      internalID: 8881329512290070625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 151
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6f41f6647bf4830800000000000000
+      internalID: 4057663302423344830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 145
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db1f60f95dbcc4d0800000000000000
+      internalID: -3112905048436302895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 143
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4b7684a30350070800000000000000
+      internalID: 8071910934012474556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 143
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ac4409973534250800000000000000
+      internalID: 5927673316126280334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 139
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee779dbbcb05e420800000000000000
+      internalID: 2658544124719234792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 143
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da80bea35a39e6cd0800000000000000
+      internalID: -2562948800059864915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 141
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49e7d0c46eebc6c0800000000000000
+      internalID: -4121938917428041395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 151
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160b7a8babadd5d10800000000000000
+      internalID: 2116087895430770785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 136
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c1c6ae1114b31d0800000000000000
+      internalID: -3370028350953481180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 138
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606e7187cefde68f0800000000000000
+      internalID: -545252298145143290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 101
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d14d023202c620d0800000000000000
+      internalID: -3447855150020083240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22662ef9e4984850800000000000000
+      internalID: 6361498206373044779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 53
+        width: 113
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d454cefd9103b46e0800000000000000
+      internalID: -1852333934043708083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 110
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6418d4a1c92a8ee40800000000000000
+      internalID: 5685973320895136070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c707805065f1fcf20800000000000000
+      internalID: 3445006694273806460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 64
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47816d393ae82a2c0800000000000000
+      internalID: -4421815050913310604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3986d17ded8415190800000000000000
+      internalID: -7975513343167469421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a76594ae9c7f52f0800000000000000
+      internalID: -981929172935546973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d0edd4515d5e830800000000000000
+      internalID: 4099917323268132172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c27b39bdeeb051d0800000000000000
+      internalID: -3363978993421552960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0480e1b3bb299dc0800000000000000
+      internalID: -3631823573714172918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00be3c45d78de910800000000000000
+      internalID: 1868298770605584396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a3ef0d026dbd8f0800000000000000
+      internalID: -514582295970170261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a206e8eea88cda0800000000000000
+      internalID: -5924332552610371015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenrazor_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cf93361f7a5b260800000000000000
+      internalID: 7112775841695267868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_goldenrazor_0: 8881329512290070625
+      achievement_goldenrazor_1: 4057663302423344830
+      achievement_goldenrazor_10: -545252298145143290
+      achievement_goldenrazor_11: -3447855150020083240
+      achievement_goldenrazor_12: 6361498206373044779
+      achievement_goldenrazor_13: -1852333934043708083
+      achievement_goldenrazor_14: 5685973320895136070
+      achievement_goldenrazor_15: 3445006694273806460
+      achievement_goldenrazor_16: -4421815050913310604
+      achievement_goldenrazor_17: -7975513343167469421
+      achievement_goldenrazor_18: -981929172935546973
+      achievement_goldenrazor_19: 4099917323268132172
+      achievement_goldenrazor_2: -3112905048436302895
+      achievement_goldenrazor_20: -3363978993421552960
+      achievement_goldenrazor_21: -3631823573714172918
+      achievement_goldenrazor_22: 1868298770605584396
+      achievement_goldenrazor_23: -514582295970170261
+      achievement_goldenrazor_24: -5924332552610371015
+      achievement_goldenrazor_25: 7112775841695267868
+      achievement_goldenrazor_3: 8071910934012474556
+      achievement_goldenrazor_4: 5927673316126280334
+      achievement_goldenrazor_5: 2658544124719234792
+      achievement_goldenrazor_6: -2562948800059864915
+      achievement_goldenrazor_7: -4121938917428041395
+      achievement_goldenrazor_8: 2116087895430770785
+      achievement_goldenrazor_9: -3370028350953481180
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

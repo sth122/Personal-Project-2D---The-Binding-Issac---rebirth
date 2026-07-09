@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: c3dab1c712dba9543a526403e31058cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4763377653944541159
+    second: achievement_deadgod_0
+  - first:
+      213: -3318302104556358142
+    second: achievement_deadgod_1
+  - first:
+      213: 4462734687959723427
+    second: achievement_deadgod_2
+  - first:
+      213: 2308735800055156685
+    second: achievement_deadgod_3
+  - first:
+      213: -5950093342204099702
+    second: achievement_deadgod_4
+  - first:
+      213: -1474827783287030934
+    second: achievement_deadgod_5
+  - first:
+      213: -2074192943405089978
+    second: achievement_deadgod_6
+  - first:
+      213: 4679000493847239957
+    second: achievement_deadgod_7
+  - first:
+      213: 3780872690346214469
+    second: achievement_deadgod_8
+  - first:
+      213: 5578703417617774220
+    second: achievement_deadgod_9
+  - first:
+      213: 9150309697237543875
+    second: achievement_deadgod_10
+  - first:
+      213: 5230065873920826571
+    second: achievement_deadgod_11
+  - first:
+      213: 6886075568974901538
+    second: achievement_deadgod_12
+  - first:
+      213: 8694638741685287419
+    second: achievement_deadgod_13
+  - first:
+      213: 7660296376063816886
+    second: achievement_deadgod_14
+  - first:
+      213: 4875414077176312389
+    second: achievement_deadgod_15
+  - first:
+      213: 220426606842877185
+    second: achievement_deadgod_16
+  - first:
+      213: 5006783750919014969
+    second: achievement_deadgod_17
+  - first:
+      213: -5629423247588383982
+    second: achievement_deadgod_18
+  - first:
+      213: 8558491341112225134
+    second: achievement_deadgod_19
+  - first:
+      213: 8756884073472722938
+    second: achievement_deadgod_20
+  - first:
+      213: 8173338952549479098
+    second: achievement_deadgod_21
+  - first:
+      213: -892167081813371943
+    second: achievement_deadgod_22
+  - first:
+      213: -245362414916234325
+    second: achievement_deadgod_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_deadgod_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 140
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9102a9dd24515edb0800000000000000
+      internalID: -4763377653944541159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 57
+        width: 166
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206bc7821d503f1d0800000000000000
+      internalID: -3318302104556358142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 131
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad27aadd81deed30800000000000000
+      internalID: 4462734687959723427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 110
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfc38a5af64a0020800000000000000
+      internalID: 2308735800055156685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 118
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83028551a50d6da0800000000000000
+      internalID: -5950093342204099702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 73
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bbc40f1fb588be0800000000000000
+      internalID: -1474827783287030934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 84
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bb7bce18cf633e0800000000000000
+      internalID: -2074192943405089978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 65
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d54a3a8262fe040800000000000000
+      internalID: 4679000493847239957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 54
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544cf011eab587430800000000000000
+      internalID: 3780872690346214469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c867d5a73398b6d40800000000000000
+      internalID: 5578703417617774220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 35
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbe7a0703e6cfe70800000000000000
+      internalID: 9150309697237543875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 33
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc91f6c33de49840800000000000000
+      internalID: 5230065873920826571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 32
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221be39fe31409f50800000000000000
+      internalID: 6886075568974901538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 41
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf930809edf89a870800000000000000
+      internalID: 8694638741685287419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4fe71d7f6de4a60800000000000000
+      internalID: 7660296376063816886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 21
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542780ba543f8a340800000000000000
+      internalID: 4875414077176312389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 40
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1051aefb4dc1f0300800000000000000
+      internalID: 220426606842877185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_17
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 33
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ac9bc5b4bab7540800000000000000
+      internalID: 5006783750919014969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_18
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 29
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2132b2dd16540e1b0800000000000000
+      internalID: -5629423247588383982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_19
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 27
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d2048a78ed5c670800000000000000
+      internalID: 8558491341112225134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_20
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 18
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af70e9a3ba3b68970800000000000000
+      internalID: 8756884073472722938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 21
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2339f19788d6170800000000000000
+      internalID: 8173338952549479098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_22
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 19
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3973814c26e93f0800000000000000
+      internalID: -892167081813371943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_deadgod_23
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 18
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba39fa10f2c489cf0800000000000000
+      internalID: -245362414916234325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_deadgod_0: -4763377653944541159
+      achievement_deadgod_1: -3318302104556358142
+      achievement_deadgod_10: 9150309697237543875
+      achievement_deadgod_11: 5230065873920826571
+      achievement_deadgod_12: 6886075568974901538
+      achievement_deadgod_13: 8694638741685287419
+      achievement_deadgod_14: 7660296376063816886
+      achievement_deadgod_15: 4875414077176312389
+      achievement_deadgod_16: 220426606842877185
+      achievement_deadgod_17: 5006783750919014969
+      achievement_deadgod_18: -5629423247588383982
+      achievement_deadgod_19: 8558491341112225134
+      achievement_deadgod_2: 4462734687959723427
+      achievement_deadgod_20: 8756884073472722938
+      achievement_deadgod_21: 8173338952549479098
+      achievement_deadgod_22: -892167081813371943
+      achievement_deadgod_23: -245362414916234325
+      achievement_deadgod_3: 2308735800055156685
+      achievement_deadgod_4: -5950093342204099702
+      achievement_deadgod_5: -1474827783287030934
+      achievement_deadgod_6: -2074192943405089978
+      achievement_deadgod_7: 4679000493847239957
+      achievement_deadgod_8: 3780872690346214469
+      achievement_deadgod_9: 5578703417617774220
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

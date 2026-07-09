@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 67cdea5c6988a9f45ab6367605b55a1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6583644490783718988
+    second: lv2_charger_champion_0
+  - first:
+      213: 2904959078536974644
+    second: lv2_charger_champion_1
+  - first:
+      213: 7983218280505941185
+    second: lv2_charger_champion_2
+  - first:
+      213: 2390370350398153300
+    second: lv2_charger_champion_3
+  - first:
+      213: 2889459921659855911
+    second: lv2_charger_champion_4
+  - first:
+      213: 6151071557115158532
+    second: lv2_charger_champion_5
+  - first:
+      213: -1266586779546395481
+    second: lv2_charger_champion_6
+  - first:
+      213: -2977282600510712974
+    second: lv2_charger_champion_7
+  - first:
+      213: -6586506421366728561
+    second: lv2_charger_champion_8
+  - first:
+      213: 8043761281795801667
+    second: lv2_charger_champion_9
+  - first:
+      213: 6026030983609409318
+    second: lv2_charger_champion_10
+  - first:
+      213: 498457650823008782
+    second: lv2_charger_champion_11
+  - first:
+      213: 4407384747013172686
+    second: lv2_charger_champion_12
+  - first:
+      213: -2680318214955673282
+    second: lv2_charger_champion_13
+  - first:
+      213: -7278815830243850806
+    second: lv2_charger_champion_14
+  - first:
+      213: 6841989229396269983
+    second: lv2_charger_champion_15
+  - first:
+      213: 8271509000341965692
+    second: lv2_charger_champion_16
+  - first:
+      213: 260615112114759257
+    second: lv2_charger_champion_17
+  - first:
+      213: 1583105688784995311
+    second: lv2_charger_champion_18
+  - first:
+      213: 5268556063319754853
+    second: lv2_charger_champion_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lv2_charger_champion_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 203
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4efe9068cdcd5b50800000000000000
+      internalID: 6583644490783718988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 203
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4311e3b04ec705820800000000000000
+      internalID: 2904959078536974644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 203
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc16fdaab61ace60800000000000000
+      internalID: 7983218280505941185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 203
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452ab114b2d4c2120800000000000000
+      internalID: 2390370350398153300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 151
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724834f5d7c691820800000000000000
+      internalID: 2889459921659855911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 147
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400abddcdfefc5550800000000000000
+      internalID: 6151071557115158532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 151
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac5eefd80e2c6ee0800000000000000
+      internalID: -1266586779546395481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 147
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2739b98cf319ea6d0800000000000000
+      internalID: -2977282600510712974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 103
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f885b9b7e470894a0800000000000000
+      internalID: -6586506421366728561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 98
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342ca73a44e21af60800000000000000
+      internalID: 8043761281795801667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 103
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f59879043c0a350800000000000000
+      internalID: 6026030983609409318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 98
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0291eca790eae600800000000000000
+      internalID: 498457650823008782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 55
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecde13a731d2a2d30800000000000000
+      internalID: 4407384747013172686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 55
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39de80d8c89dcad0800000000000000
+      internalID: -2680318214955673282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 52
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac543d431937cfa90800000000000000
+      internalID: -7278815830243850806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 52
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b963724f0a3fe50800000000000000
+      internalID: 6841989229396269983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b44d98c9d4ac270800000000000000
+      internalID: 8271509000341965692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 7
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956e2bc4014ed9300800000000000000
+      internalID: 260615112114759257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 4
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe30eed7c3258f510800000000000000
+      internalID: 1583105688784995311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lv2_charger_champion_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 4
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568876953dbad1940800000000000000
+      internalID: 5268556063319754853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lv2_charger_champion_0: 6583644490783718988
+      lv2_charger_champion_1: 2904959078536974644
+      lv2_charger_champion_10: 6026030983609409318
+      lv2_charger_champion_11: 498457650823008782
+      lv2_charger_champion_12: 4407384747013172686
+      lv2_charger_champion_13: -2680318214955673282
+      lv2_charger_champion_14: -7278815830243850806
+      lv2_charger_champion_15: 6841989229396269983
+      lv2_charger_champion_16: 8271509000341965692
+      lv2_charger_champion_17: 260615112114759257
+      lv2_charger_champion_18: 1583105688784995311
+      lv2_charger_champion_19: 5268556063319754853
+      lv2_charger_champion_2: 7983218280505941185
+      lv2_charger_champion_3: 2390370350398153300
+      lv2_charger_champion_4: 2889459921659855911
+      lv2_charger_champion_5: 6151071557115158532
+      lv2_charger_champion_6: -1266586779546395481
+      lv2_charger_champion_7: -2977282600510712974
+      lv2_charger_champion_8: -6586506421366728561
+      lv2_charger_champion_9: 8043761281795801667
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

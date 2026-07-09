@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 5d92c6b2c54f58548890fc49eaa507db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -406762860050501764
+    second: door_01x_ghostexit_0
+  - first:
+      213: 8507762070674482985
+    second: door_01x_ghostexit_1
+  - first:
+      213: -8712090729581217427
+    second: door_01x_ghostexit_2
+  - first:
+      213: 3207883367227841436
+    second: door_01x_ghostexit_3
+  - first:
+      213: -5509676491670830328
+    second: door_01x_ghostexit_4
+  - first:
+      213: 8736835569362265217
+    second: door_01x_ghostexit_5
+  - first:
+      213: 910061525255951432
+    second: door_01x_ghostexit_6
+  - first:
+      213: -2009871485012126379
+    second: door_01x_ghostexit_7
+  - first:
+      213: 5785245127126660661
+    second: door_01x_ghostexit_8
+  - first:
+      213: 6602137912474865536
+    second: door_01x_ghostexit_9
+  - first:
+      213: -6882978327967364842
+    second: door_01x_ghostexit_10
+  - first:
+      213: -7333465647046138119
+    second: door_01x_ghostexit_11
+  - first:
+      213: -7140405055147484826
+    second: door_01x_ghostexit_12
+  - first:
+      213: -8971471037749355554
+    second: door_01x_ghostexit_13
+  - first:
+      213: 8405612662349827728
+    second: door_01x_ghostexit_14
+  - first:
+      213: 8524008730124368152
+    second: door_01x_ghostexit_15
+  - first:
+      213: 6570738143491285510
+    second: door_01x_ghostexit_16
+  - first:
+      213: -2222628504814628272
+    second: door_01x_ghostexit_17
+  - first:
+      213: -4068842622291910850
+    second: door_01x_ghostexit_18
+  - first:
+      213: -2517269588481068104
+    second: door_01x_ghostexit_19
+  - first:
+      213: 7273108095164097011
+    second: door_01x_ghostexit_20
+  - first:
+      213: 8585193636057212023
+    second: door_01x_ghostexit_21
+  - first:
+      213: 4783895516354705629
+    second: door_01x_ghostexit_22
+  - first:
+      213: -2807357997354484573
+    second: door_01x_ghostexit_23
+  - first:
+      213: 1640530520734835430
+    second: door_01x_ghostexit_24
+  - first:
+      213: -4988665047220614536
+    second: door_01x_ghostexit_25
+  - first:
+      213: 8198581716929229615
+    second: door_01x_ghostexit_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door_01x_ghostexit_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 213
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f2eda7553ea5af0800000000000000
+      internalID: -406762860050501764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 216
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9272818f684a11670800000000000000
+      internalID: 8507762070674482985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 168
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69765cd3af681780800000000000000
+      internalID: -8712090729581217427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 168
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bdf782de0b48c20800000000000000
+      internalID: 3207883367227841436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 111
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803c3ae1c62b983b0800000000000000
+      internalID: -5509676491670830328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 120
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184e5dc19a97f3970800000000000000
+      internalID: 8736835569362265217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84491a0b22031ac00800000000000000
+      internalID: 910061525255951432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 79
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5555aab78808b14e0800000000000000
+      internalID: -2009871485012126379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 95
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536b1f4aac1594050800000000000000
+      internalID: 5785245127126660661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 84
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f0437a3718f9b50800000000000000
+      internalID: 6602137912474865536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 95
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6190bc4adafba70a0800000000000000
+      internalID: -6882978327967364842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 88
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6e84f29db4a3a90800000000000000
+      internalID: -7333465647046138119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_12
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 95
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669d78f0f6f28ec90800000000000000
+      internalID: -7140405055147484826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 66
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb9e32cf9eee7380800000000000000
+      internalID: -8971471037749355554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 47
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e03ea7e2cb6a470800000000000000
+      internalID: 8405612662349827728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 31
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819346527cc5b4670800000000000000
+      internalID: 8524008730124368152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 47
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60268ea3783ff2b50800000000000000
+      internalID: 6570738143491285510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 36
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052ddde9623a721e0800000000000000
+      internalID: -2222628504814628272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 47
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f525351319887c0800000000000000
+      internalID: -4068842622291910850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 40
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b331b675acd01dd0800000000000000
+      internalID: -2517269588481068104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_20
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 47
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1264927454fe460800000000000000
+      internalID: 7273108095164097011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 18
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774622d202cb42770800000000000000
+      internalID: 8585193636057212023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8f7ee30afc36240800000000000000
+      internalID: 4783895516354705629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_23
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 9
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac755286c24a09d0800000000000000
+      internalID: -2807357997354484573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 9
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2269311d554c610800000000000000
+      internalID: 1640530520734835430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 9
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a02051293b4cab0800000000000000
+      internalID: -4988665047220614536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_01x_ghostexit_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23349332a637c170800000000000000
+      internalID: 8198581716929229615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      door_01x_ghostexit_0: -406762860050501764
+      door_01x_ghostexit_1: 8507762070674482985
+      door_01x_ghostexit_10: -6882978327967364842
+      door_01x_ghostexit_11: -7333465647046138119
+      door_01x_ghostexit_12: -7140405055147484826
+      door_01x_ghostexit_13: -8971471037749355554
+      door_01x_ghostexit_14: 8405612662349827728
+      door_01x_ghostexit_15: 8524008730124368152
+      door_01x_ghostexit_16: 6570738143491285510
+      door_01x_ghostexit_17: -2222628504814628272
+      door_01x_ghostexit_18: -4068842622291910850
+      door_01x_ghostexit_19: -2517269588481068104
+      door_01x_ghostexit_2: -8712090729581217427
+      door_01x_ghostexit_20: 7273108095164097011
+      door_01x_ghostexit_21: 8585193636057212023
+      door_01x_ghostexit_22: 4783895516354705629
+      door_01x_ghostexit_23: -2807357997354484573
+      door_01x_ghostexit_24: 1640530520734835430
+      door_01x_ghostexit_25: -4988665047220614536
+      door_01x_ghostexit_26: 8198581716929229615
+      door_01x_ghostexit_3: 3207883367227841436
+      door_01x_ghostexit_4: -5509676491670830328
+      door_01x_ghostexit_5: 8736835569362265217
+      door_01x_ghostexit_6: 910061525255951432
+      door_01x_ghostexit_7: -2009871485012126379
+      door_01x_ghostexit_8: 5785245127126660661
+      door_01x_ghostexit_9: 6602137912474865536
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

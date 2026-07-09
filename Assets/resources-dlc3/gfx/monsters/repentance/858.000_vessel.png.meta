@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: e5e9a9dabd1269047a8946b6fe803d63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8818092844251400895
+    second: 858.000_vessel_0
+  - first:
+      213: 3903700490719573869
+    second: 858.000_vessel_1
+  - first:
+      213: 4678343881033162790
+    second: 858.000_vessel_2
+  - first:
+      213: 3667045719558663961
+    second: 858.000_vessel_3
+  - first:
+      213: 5760160947590726805
+    second: 858.000_vessel_4
+  - first:
+      213: -686731259816398798
+    second: 858.000_vessel_5
+  - first:
+      213: 5965568454682492466
+    second: 858.000_vessel_6
+  - first:
+      213: -1022423289262604604
+    second: 858.000_vessel_7
+  - first:
+      213: 5040542962776400935
+    second: 858.000_vessel_8
+  - first:
+      213: -4418025566231462167
+    second: 858.000_vessel_9
+  - first:
+      213: -3708576016009072762
+    second: 858.000_vessel_10
+  - first:
+      213: 8484283972314889120
+    second: 858.000_vessel_11
+  - first:
+      213: 5309498256950085980
+    second: 858.000_vessel_12
+  - first:
+      213: 4040654735335279569
+    second: 858.000_vessel_13
+  - first:
+      213: 1253848103727669542
+    second: 858.000_vessel_14
+  - first:
+      213: -1123515696005834826
+    second: 858.000_vessel_15
+  - first:
+      213: -5076238167017958437
+    second: 858.000_vessel_16
+  - first:
+      213: -4579890814279207791
+    second: 858.000_vessel_17
+  - first:
+      213: 3439943295848727546
+    second: 858.000_vessel_18
+  - first:
+      213: 7159234201061779754
+    second: 858.000_vessel_19
+  - first:
+      213: 5589018734581242214
+    second: 858.000_vessel_20
+  - first:
+      213: 8669088181313948751
+    second: 858.000_vessel_21
+  - first:
+      213: -5934872103859061547
+    second: 858.000_vessel_22
+  - first:
+      213: -6454907663496641856
+    second: 858.000_vessel_23
+  - first:
+      213: 1559676053504112863
+    second: 858.000_vessel_24
+  - first:
+      213: -6784935475747606756
+    second: 858.000_vessel_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 858.000_vessel_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 204
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbac40ab8b8206a70800000000000000
+      internalID: 8818092844251400895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 204
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67bbd2e9eabc2630800000000000000
+      internalID: 3903700490719573869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620aa1e09f0dce040800000000000000
+      internalID: 4678343881033162790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 152
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f296137a6f3e230800000000000000
+      internalID: 3667045719558663961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 152
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594093afcd330ff40800000000000000
+      internalID: 5760160947590726805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 152
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230bc72ce8d3876f0800000000000000
+      internalID: -686731259816398798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 152
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e30a017e4f9c250800000000000000
+      internalID: 5965568454682492466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 152
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce7a697f6f9fc1f0800000000000000
+      internalID: -1022423289262604604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 152
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724e1636e1b93f540800000000000000
+      internalID: 5040542962776400935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 152
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eefd2cb72500b2c0800000000000000
+      internalID: -4418025566231462167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fee3723cd788cc0800000000000000
+      internalID: -3708576016009072762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab7e57325b3eb570800000000000000
+      internalID: 8484283972314889120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 104
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59c015a8802fa940800000000000000
+      internalID: 5309498256950085980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 104
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbc8afc21a431830800000000000000
+      internalID: 4040654735335279569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6212cf80530966110800000000000000
+      internalID: 1253848103727669542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b71ff75d687860f0800000000000000
+      internalID: -1123515696005834826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 56
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd35d9b38449d89b0800000000000000
+      internalID: -5076238167017958437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 56
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19430d8d195f070c0800000000000000
+      internalID: -4579890814279207791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 56
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3cc84b3322dbf20800000000000000
+      internalID: 3439943295848727546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_19
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 56
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a296d1a1395ba5360800000000000000
+      internalID: 7159234201061779754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_20
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669d7bd5dee209d40800000000000000
+      internalID: 5589018734581242214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 56
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c41c525c9ce4870800000000000000
+      internalID: 8669088181313948751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcfa1e044913ada0800000000000000
+      internalID: -5934872103859061547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2065bfdaf8b66a0800000000000000
+      internalID: -6454907663496641856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 8
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8bbcd6b1515a510800000000000000
+      internalID: 1559676053504112863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 858.000_vessel_25
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 8
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f2e18022117d1a0800000000000000
+      internalID: -6784935475747606756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      858.000_vessel_0: 8818092844251400895
+      858.000_vessel_1: 3903700490719573869
+      858.000_vessel_10: -3708576016009072762
+      858.000_vessel_11: 8484283972314889120
+      858.000_vessel_12: 5309498256950085980
+      858.000_vessel_13: 4040654735335279569
+      858.000_vessel_14: 1253848103727669542
+      858.000_vessel_15: -1123515696005834826
+      858.000_vessel_16: -5076238167017958437
+      858.000_vessel_17: -4579890814279207791
+      858.000_vessel_18: 3439943295848727546
+      858.000_vessel_19: 7159234201061779754
+      858.000_vessel_2: 4678343881033162790
+      858.000_vessel_20: 5589018734581242214
+      858.000_vessel_21: 8669088181313948751
+      858.000_vessel_22: -5934872103859061547
+      858.000_vessel_23: -6454907663496641856
+      858.000_vessel_24: 1559676053504112863
+      858.000_vessel_25: -6784935475747606756
+      858.000_vessel_3: 3667045719558663961
+      858.000_vessel_4: 5760160947590726805
+      858.000_vessel_5: -686731259816398798
+      858.000_vessel_6: 5965568454682492466
+      858.000_vessel_7: -1022423289262604604
+      858.000_vessel_8: 5040542962776400935
+      858.000_vessel_9: -4418025566231462167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

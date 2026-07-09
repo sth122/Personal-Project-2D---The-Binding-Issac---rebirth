@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 0838eb287a4304844bac22dcbfa06e4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7395837355577209297
+    second: peeper_fatty_0
+  - first:
+      213: -7159563261289296061
+    second: peeper_fatty_1
+  - first:
+      213: -842942466432266073
+    second: peeper_fatty_2
+  - first:
+      213: -4909032813530025291
+    second: peeper_fatty_3
+  - first:
+      213: 3398271023233967280
+    second: peeper_fatty_4
+  - first:
+      213: -2438690188184357620
+    second: peeper_fatty_5
+  - first:
+      213: 8063881882750182337
+    second: peeper_fatty_6
+  - first:
+      213: -4335801474329748894
+    second: peeper_fatty_7
+  - first:
+      213: 4810821646577664585
+    second: peeper_fatty_8
+  - first:
+      213: -2621535923315756695
+    second: peeper_fatty_9
+  - first:
+      213: 2277806500620169326
+    second: peeper_fatty_10
+  - first:
+      213: 4293923362303399631
+    second: peeper_fatty_11
+  - first:
+      213: 6368947486074654608
+    second: peeper_fatty_12
+  - first:
+      213: -6595317089986786878
+    second: peeper_fatty_13
+  - first:
+      213: -3720580146781695108
+    second: peeper_fatty_14
+  - first:
+      213: -6411179496257844048
+    second: peeper_fatty_15
+  - first:
+      213: 3080885162133014167
+    second: peeper_fatty_16
+  - first:
+      213: 3439630595593887917
+    second: peeper_fatty_17
+  - first:
+      213: 1590027216870921429
+    second: peeper_fatty_18
+  - first:
+      213: 4060916121176639498
+    second: peeper_fatty_19
+  - first:
+      213: -6623000093784794676
+    second: peeper_fatty_20
+  - first:
+      213: -7753731556887436381
+    second: peeper_fatty_21
+  - first:
+      213: 5558033393666056237
+    second: peeper_fatty_22
+  - first:
+      213: -7104659447023272370
+    second: peeper_fatty_23
+  - first:
+      213: -4974581560163442020
+    second: peeper_fatty_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peeper_fatty_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 252
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e81442c15bc5990800000000000000
+      internalID: -7395837355577209297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 252
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f0ae7952f14ac90800000000000000
+      internalID: -7159563261289296061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 253
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0963afa444d44f0800000000000000
+      internalID: -842942466432266073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 252
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b27ece4aac9fdbb0800000000000000
+      internalID: -4909032813530025291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 252
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b42d56ad75192f20800000000000000
+      internalID: 3398271023233967280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 252
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c057a00d138082ed0800000000000000
+      internalID: -2438690188184357620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 204
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3680c19d9a8ef60800000000000000
+      internalID: 8063881882750182337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 204
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ad5f9f78324d3c0800000000000000
+      internalID: -4335801474329748894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 204
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942850a7cc873c240800000000000000
+      internalID: 4810821646577664585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 151
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961b6dc97fe6e9bd0800000000000000
+      internalID: -2621535923315756695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 151
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e607a88a1f46c9f10800000000000000
+      internalID: 2277806500620169326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 151
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc658de3c84179b30800000000000000
+      internalID: 4293923362303399631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_12
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 151
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fc8949efb036850800000000000000
+      internalID: 6368947486074654608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 103
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c94646dc0ab874a0800000000000000
+      internalID: -6595317089986786878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 103
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73d4b8a118dd5cc0800000000000000
+      internalID: -3720580146781695108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 103
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc884e473ae607a0800000000000000
+      internalID: -6411179496257844048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 103
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796c5b25bb081ca20800000000000000
+      internalID: 3080885162133014167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 55
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da060f08dc50cbf20800000000000000
+      internalID: 3439630595593887917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 55
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d45bc45459e01610800000000000000
+      internalID: 1590027216870921429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 55
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08046152b54b5830800000000000000
+      internalID: 4060916121176639498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 55
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9149e31806614a0800000000000000
+      internalID: -6623000093784794676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3ecf3ea36356490800000000000000
+      internalID: -7753731556887436381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 7
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20693f7ce9122d40800000000000000
+      internalID: 5558033393666056237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 7
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4efd0200ed276d90800000000000000
+      internalID: -7104659447023272370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_24
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 7
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92ef307d6cb6fab0800000000000000
+      internalID: -4974581560163442020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      peeper_fatty_0: -7395837355577209297
+      peeper_fatty_1: -7159563261289296061
+      peeper_fatty_10: 2277806500620169326
+      peeper_fatty_11: 4293923362303399631
+      peeper_fatty_12: 6368947486074654608
+      peeper_fatty_13: -6595317089986786878
+      peeper_fatty_14: -3720580146781695108
+      peeper_fatty_15: -6411179496257844048
+      peeper_fatty_16: 3080885162133014167
+      peeper_fatty_17: 3439630595593887917
+      peeper_fatty_18: 1590027216870921429
+      peeper_fatty_19: 4060916121176639498
+      peeper_fatty_2: -842942466432266073
+      peeper_fatty_20: -6623000093784794676
+      peeper_fatty_21: -7753731556887436381
+      peeper_fatty_22: 5558033393666056237
+      peeper_fatty_23: -7104659447023272370
+      peeper_fatty_24: -4974581560163442020
+      peeper_fatty_3: -4909032813530025291
+      peeper_fatty_4: 3398271023233967280
+      peeper_fatty_5: -2438690188184357620
+      peeper_fatty_6: 8063881882750182337
+      peeper_fatty_7: -4335801474329748894
+      peeper_fatty_8: 4810821646577664585
+      peeper_fatty_9: -2621535923315756695
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

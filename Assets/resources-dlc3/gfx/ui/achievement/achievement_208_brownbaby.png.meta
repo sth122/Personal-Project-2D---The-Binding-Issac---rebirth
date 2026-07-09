@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 465d9505f816aff42a5364889415c951
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6394058090899708705
+    second: achievement_208_brownbaby_0
+  - first:
+      213: -1546281751847773521
+    second: achievement_208_brownbaby_1
+  - first:
+      213: -1789606744717880308
+    second: achievement_208_brownbaby_2
+  - first:
+      213: -3988029685323216355
+    second: achievement_208_brownbaby_3
+  - first:
+      213: -4390457025091303751
+    second: achievement_208_brownbaby_4
+  - first:
+      213: 8789729572809693426
+    second: achievement_208_brownbaby_5
+  - first:
+      213: -6113837367789816041
+    second: achievement_208_brownbaby_6
+  - first:
+      213: 2867471089174078380
+    second: achievement_208_brownbaby_7
+  - first:
+      213: -6114222219740413957
+    second: achievement_208_brownbaby_8
+  - first:
+      213: 7959516792184617358
+    second: achievement_208_brownbaby_9
+  - first:
+      213: -1000088160046571190
+    second: achievement_208_brownbaby_10
+  - first:
+      213: 8152100703306364346
+    second: achievement_208_brownbaby_11
+  - first:
+      213: 6505358720165979536
+    second: achievement_208_brownbaby_12
+  - first:
+      213: -3047947558857445891
+    second: achievement_208_brownbaby_13
+  - first:
+      213: 7532325351864811685
+    second: achievement_208_brownbaby_14
+  - first:
+      213: -3504666302627280310
+    second: achievement_208_brownbaby_15
+  - first:
+      213: 1657816405453917026
+    second: achievement_208_brownbaby_16
+  - first:
+      213: -3857971544546473633
+    second: achievement_208_brownbaby_17
+  - first:
+      213: 4732757377289634236
+    second: achievement_208_brownbaby_18
+  - first:
+      213: 4303477518987678072
+    second: achievement_208_brownbaby_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 150
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4e5b22b0eb347a0800000000000000
+      internalID: -6394058090899708705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 142
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faad17270f08a8ae0800000000000000
+      internalID: -1546281751847773521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 141
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04927db52a0a27e0800000000000000
+      internalID: -1789606744717880308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 130
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ac894712ca7a8c0800000000000000
+      internalID: -3988029685323216355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 132
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b680d9e896f113c0800000000000000
+      internalID: -4390457025091303751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 135
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8511bf9746bf970800000000000000
+      internalID: 8789729572809693426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 134
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717f0667e49472ba0800000000000000
+      internalID: -6113837367789816041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 149
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca36ce953cd4bc720800000000000000
+      internalID: 2867471089174078380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 150
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff7292294be52ba0800000000000000
+      internalID: -6114222219740413957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 126
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89bbe5e952e57e60800000000000000
+      internalID: 7959516792184617358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 102
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41a95cfd19fe12f0800000000000000
+      internalID: -1000088160046571190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 55
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5b9c1e564122170800000000000000
+      internalID: 8152100703306364346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 59
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095abf30a4da74a50800000000000000
+      internalID: 6505358720165979536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 86
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd684c08d383b5d0800000000000000
+      internalID: -3047947558857445891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 62
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a04292eff1388860800000000000000
+      internalID: 7532325351864811685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 18
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a8e97f09cec5fc0800000000000000
+      internalID: -3504666302627280310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 16
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b45edbc3fb10710800000000000000
+      internalID: 1657816405453917026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 13
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f590eb5125bb57ac0800000000000000
+      internalID: -3857971544546473633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_18
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 23
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1457962c12ea140800000000000000
+      internalID: 4732757377289634236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_208_brownbaby_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871d322b00609bb30800000000000000
+      internalID: 4303477518987678072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_208_brownbaby_0: -6394058090899708705
+      achievement_208_brownbaby_1: -1546281751847773521
+      achievement_208_brownbaby_10: -1000088160046571190
+      achievement_208_brownbaby_11: 8152100703306364346
+      achievement_208_brownbaby_12: 6505358720165979536
+      achievement_208_brownbaby_13: -3047947558857445891
+      achievement_208_brownbaby_14: 7532325351864811685
+      achievement_208_brownbaby_15: -3504666302627280310
+      achievement_208_brownbaby_16: 1657816405453917026
+      achievement_208_brownbaby_17: -3857971544546473633
+      achievement_208_brownbaby_18: 4732757377289634236
+      achievement_208_brownbaby_19: 4303477518987678072
+      achievement_208_brownbaby_2: -1789606744717880308
+      achievement_208_brownbaby_3: -3988029685323216355
+      achievement_208_brownbaby_4: -4390457025091303751
+      achievement_208_brownbaby_5: 8789729572809693426
+      achievement_208_brownbaby_6: -6113837367789816041
+      achievement_208_brownbaby_7: 2867471089174078380
+      achievement_208_brownbaby_8: -6114222219740413957
+      achievement_208_brownbaby_9: 7959516792184617358
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

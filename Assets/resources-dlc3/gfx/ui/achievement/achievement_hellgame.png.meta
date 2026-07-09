@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 4b88069619299744f9676e992c677379
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4375059180750541884
+    second: achievement_hellgame_0
+  - first:
+      213: 3077852587651554880
+    second: achievement_hellgame_1
+  - first:
+      213: 4211703576610471388
+    second: achievement_hellgame_2
+  - first:
+      213: -7998141293591693988
+    second: achievement_hellgame_3
+  - first:
+      213: -4336347531755713901
+    second: achievement_hellgame_4
+  - first:
+      213: 1204979077873444690
+    second: achievement_hellgame_5
+  - first:
+      213: 8164019113815702719
+    second: achievement_hellgame_6
+  - first:
+      213: 6339052452280542143
+    second: achievement_hellgame_7
+  - first:
+      213: 3487919656124972085
+    second: achievement_hellgame_8
+  - first:
+      213: -1418639823737838245
+    second: achievement_hellgame_9
+  - first:
+      213: 9044184882494428053
+    second: achievement_hellgame_10
+  - first:
+      213: 2608437818473827204
+    second: achievement_hellgame_11
+  - first:
+      213: 7400068409566732980
+    second: achievement_hellgame_12
+  - first:
+      213: -2081062778376130125
+    second: achievement_hellgame_13
+  - first:
+      213: -6500176916375211971
+    second: achievement_hellgame_14
+  - first:
+      213: 611533764350311366
+    second: achievement_hellgame_15
+  - first:
+      213: -3089432429039086236
+    second: achievement_hellgame_16
+  - first:
+      213: -8307127868635852031
+    second: achievement_hellgame_17
+  - first:
+      213: 5565577509172799625
+    second: achievement_hellgame_18
+  - first:
+      213: -5664479752526760102
+    second: achievement_hellgame_19
+  - first:
+      213: 1242058574238779737
+    second: achievement_hellgame_20
+  - first:
+      213: -212803550040623668
+    second: achievement_hellgame_21
+  - first:
+      213: 7123997501436242358
+    second: achievement_hellgame_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_hellgame_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 151
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb6d0ceadaa843c0800000000000000
+      internalID: -4375059180750541884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 138
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04edcfd0f9ab6ba20800000000000000
+      internalID: 3077852587651554880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 134
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddfb1f961af27a30800000000000000
+      internalID: 4211703576610471388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5575149ed4e00190800000000000000
+      internalID: -7998141293591693988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 149
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a0f0315e232d3c0800000000000000
+      internalID: -4336347531755713901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 135
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257ac6a4612f8b010800000000000000
+      internalID: 1204979077873444690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 137
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcfb72112c6c4170800000000000000
+      internalID: 8164019113815702719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_7
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 53
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb320ce9e96d8f750800000000000000
+      internalID: 6339052452280542143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 53
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c7e6c8274976030800000000000000
+      internalID: 3487919656124972085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 56
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5522e9b89aff4ce0800000000000000
+      internalID: -1418639823737838245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 26
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593d9048b36638d70800000000000000
+      internalID: 9044184882494428053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 23
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bc3d43068033420800000000000000
+      internalID: 2608437818473827204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 29
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2a0d1e20352b660800000000000000
+      internalID: 7400068409566732980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 32
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b17a93dd649e13e0800000000000000
+      internalID: -2081062778376130125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 23
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30f242b88bbac5a0800000000000000
+      internalID: -6500176916375211971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 26
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbf148f7ba9c7800800000000000000
+      internalID: 611533764350311366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 24
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4659d8503912025d0800000000000000
+      internalID: -3089432429039086236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 32
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103563e673727bc80800000000000000
+      internalID: -8307127868635852031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_18
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 30
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988e524c147ec3d40800000000000000
+      internalID: 5565577509172799625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_19
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 30
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57ff314da9b361b0800000000000000
+      internalID: -5664479752526760102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_20
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 20
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9590bbb41bdac3110800000000000000
+      internalID: 1242058574238779737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 20
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5f2e87c48fb0df0800000000000000
+      internalID: -212803550040623668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hellgame_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9a0e5abf58dd260800000000000000
+      internalID: 7123997501436242358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_hellgame_0: -4375059180750541884
+      achievement_hellgame_1: 3077852587651554880
+      achievement_hellgame_10: 9044184882494428053
+      achievement_hellgame_11: 2608437818473827204
+      achievement_hellgame_12: 7400068409566732980
+      achievement_hellgame_13: -2081062778376130125
+      achievement_hellgame_14: -6500176916375211971
+      achievement_hellgame_15: 611533764350311366
+      achievement_hellgame_16: -3089432429039086236
+      achievement_hellgame_17: -8307127868635852031
+      achievement_hellgame_18: 5565577509172799625
+      achievement_hellgame_19: -5664479752526760102
+      achievement_hellgame_2: 4211703576610471388
+      achievement_hellgame_20: 1242058574238779737
+      achievement_hellgame_21: -212803550040623668
+      achievement_hellgame_22: 7123997501436242358
+      achievement_hellgame_3: -7998141293591693988
+      achievement_hellgame_4: -4336347531755713901
+      achievement_hellgame_5: 1204979077873444690
+      achievement_hellgame_6: 8164019113815702719
+      achievement_hellgame_7: 6339052452280542143
+      achievement_hellgame_8: 3487919656124972085
+      achievement_hellgame_9: -1418639823737838245
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

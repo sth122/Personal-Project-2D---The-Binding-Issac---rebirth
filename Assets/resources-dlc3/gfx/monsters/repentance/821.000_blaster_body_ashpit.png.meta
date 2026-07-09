@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 51390d758e9620d4f8fadfc3654cebc6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -260686104338237069
+    second: 821.000_blaster_body_ashpit_0
+  - first:
+      213: 2678883199186720053
+    second: 821.000_blaster_body_ashpit_1
+  - first:
+      213: -4230353543776163044
+    second: 821.000_blaster_body_ashpit_2
+  - first:
+      213: 3229923679540482798
+    second: 821.000_blaster_body_ashpit_3
+  - first:
+      213: 8222733700376555635
+    second: 821.000_blaster_body_ashpit_4
+  - first:
+      213: -6042264573185885468
+    second: 821.000_blaster_body_ashpit_5
+  - first:
+      213: -1451094683533088831
+    second: 821.000_blaster_body_ashpit_6
+  - first:
+      213: 4553368707405393756
+    second: 821.000_blaster_body_ashpit_7
+  - first:
+      213: -4251184185715764102
+    second: 821.000_blaster_body_ashpit_8
+  - first:
+      213: 790787530815240636
+    second: 821.000_blaster_body_ashpit_9
+  - first:
+      213: 1912820878623471383
+    second: 821.000_blaster_body_ashpit_10
+  - first:
+      213: -6354538006285147216
+    second: 821.000_blaster_body_ashpit_11
+  - first:
+      213: 6349039538906084179
+    second: 821.000_blaster_body_ashpit_12
+  - first:
+      213: -7561572984669885445
+    second: 821.000_blaster_body_ashpit_13
+  - first:
+      213: -6671234345774759550
+    second: 821.000_blaster_body_ashpit_14
+  - first:
+      213: 8252320091698193589
+    second: 821.000_blaster_body_ashpit_15
+  - first:
+      213: -4241191735642562818
+    second: 821.000_blaster_body_ashpit_16
+  - first:
+      213: 1190875047951557171
+    second: 821.000_blaster_body_ashpit_17
+  - first:
+      213: 1793896775495711985
+    second: 821.000_blaster_body_ashpit_18
+  - first:
+      213: 7175653923940543142
+    second: 821.000_blaster_body_ashpit_19
+  - first:
+      213: 5832173553359176703
+    second: 821.000_blaster_body_ashpit_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 70
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379f9098e5bd16cf0800000000000000
+      internalID: -260686104338237069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 70
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535594a831e4d2520800000000000000
+      internalID: 2678883199186720053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 70
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b28e48dd3ca45c0800000000000000
+      internalID: -4230353543776163044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 70
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee212a2497ef2dc20800000000000000
+      internalID: 3229923679540482798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 70
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370f39d0cb40d1270800000000000000
+      internalID: 8222733700376555635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 70
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eaf35c4260952ca0800000000000000
+      internalID: -6042264573185885468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 70
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c76d84d21dacdbe0800000000000000
+      internalID: -1451094683533088831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 68
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f2740f6b0d03f30800000000000000
+      internalID: 4553368707405393756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 38
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7457afb182c005c0800000000000000
+      internalID: -4251184185715764102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 38
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9fc0bc11179fa00800000000000000
+      internalID: 790787530815240636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 38
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7177d4d5474bb8a10800000000000000
+      internalID: 1912820878623471383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 38
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3a7afd95520d7a0800000000000000
+      internalID: -6354538006285147216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 37
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353386d62d15c1850800000000000000
+      internalID: 6349039538906084179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 38
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbaf81fe65ef0790800000000000000
+      internalID: -7561572984669885445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_14
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 38
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281c5be45b30b63a0800000000000000
+      internalID: -6671234345774759550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_15
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 38
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b46d769661268270800000000000000
+      internalID: 8252320091698193589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efed3b456924425c0800000000000000
+      internalID: -4241191735642562818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 6
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332670deb86d68010800000000000000
+      internalID: 1190875047951557171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcf323ec9335e810800000000000000
+      internalID: 1793896775495711985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 4
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa2d9fb93b059360800000000000000
+      internalID: 7175653923940543142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 821.000_blaster_body_ashpit_20
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 5
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3c66452fa00f050800000000000000
+      internalID: 5832173553359176703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      821.000_blaster_body_ashpit_0: -260686104338237069
+      821.000_blaster_body_ashpit_1: 2678883199186720053
+      821.000_blaster_body_ashpit_10: 1912820878623471383
+      821.000_blaster_body_ashpit_11: -6354538006285147216
+      821.000_blaster_body_ashpit_12: 6349039538906084179
+      821.000_blaster_body_ashpit_13: -7561572984669885445
+      821.000_blaster_body_ashpit_14: -6671234345774759550
+      821.000_blaster_body_ashpit_15: 8252320091698193589
+      821.000_blaster_body_ashpit_16: -4241191735642562818
+      821.000_blaster_body_ashpit_17: 1190875047951557171
+      821.000_blaster_body_ashpit_18: 1793896775495711985
+      821.000_blaster_body_ashpit_19: 7175653923940543142
+      821.000_blaster_body_ashpit_2: -4230353543776163044
+      821.000_blaster_body_ashpit_20: 5832173553359176703
+      821.000_blaster_body_ashpit_3: 3229923679540482798
+      821.000_blaster_body_ashpit_4: 8222733700376555635
+      821.000_blaster_body_ashpit_5: -6042264573185885468
+      821.000_blaster_body_ashpit_6: -1451094683533088831
+      821.000_blaster_body_ashpit_7: 4553368707405393756
+      821.000_blaster_body_ashpit_8: -4251184185715764102
+      821.000_blaster_body_ashpit_9: 790787530815240636
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

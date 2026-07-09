@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 4198735b4e987a946af8c4a34c9c19eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6567429878420546902
+    second: peeper_fatty_champion_0
+  - first:
+      213: 7700928623750503097
+    second: peeper_fatty_champion_1
+  - first:
+      213: -2297846755603386985
+    second: peeper_fatty_champion_2
+  - first:
+      213: 936392392140162170
+    second: peeper_fatty_champion_3
+  - first:
+      213: -7041653485157443190
+    second: peeper_fatty_champion_4
+  - first:
+      213: -2845491428431777793
+    second: peeper_fatty_champion_5
+  - first:
+      213: -6756552606565559472
+    second: peeper_fatty_champion_6
+  - first:
+      213: 2019904155942360931
+    second: peeper_fatty_champion_7
+  - first:
+      213: -7524065272686825090
+    second: peeper_fatty_champion_8
+  - first:
+      213: 6275047956319964381
+    second: peeper_fatty_champion_9
+  - first:
+      213: 4565539231881237281
+    second: peeper_fatty_champion_10
+  - first:
+      213: -8199888486018189885
+    second: peeper_fatty_champion_11
+  - first:
+      213: 4284841157389347679
+    second: peeper_fatty_champion_12
+  - first:
+      213: 3043853051863020890
+    second: peeper_fatty_champion_13
+  - first:
+      213: 8004868613120108124
+    second: peeper_fatty_champion_14
+  - first:
+      213: -2546380658938323097
+    second: peeper_fatty_champion_15
+  - first:
+      213: 911256989892058681
+    second: peeper_fatty_champion_16
+  - first:
+      213: -3789069545698724498
+    second: peeper_fatty_champion_17
+  - first:
+      213: 4376404913956535676
+    second: peeper_fatty_champion_18
+  - first:
+      213: -7568875568873874695
+    second: peeper_fatty_champion_19
+  - first:
+      213: -17146241315522362
+    second: peeper_fatty_champion_20
+  - first:
+      213: 8101271512929651143
+    second: peeper_fatty_champion_21
+  - first:
+      213: 5757935065351629208
+    second: peeper_fatty_champion_22
+  - first:
+      213: 7720984816658168498
+    second: peeper_fatty_champion_23
+  - first:
+      213: 1320359242316627042
+    second: peeper_fatty_champion_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peeper_fatty_champion_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 252
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaad471425dcbd4a0800000000000000
+      internalID: -6567429878420546902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 252
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba594338c13fda60800000000000000
+      internalID: 7700928623750503097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 253
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79de9ffdc886c10e0800000000000000
+      internalID: -2297846755603386985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 252
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7484ef5bebbefc00800000000000000
+      internalID: 936392392140162170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 252
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a899cc9a675074e90800000000000000
+      internalID: -7041653485157443190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 252
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffa7e43f98c288d0800000000000000
+      internalID: -2845491428431777793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 204
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0539b6bb337eb32a0800000000000000
+      internalID: -6756552606565559472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 204
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367974fb024280c10800000000000000
+      internalID: 2019904155942360931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 204
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7136aaaf76259790800000000000000
+      internalID: -7524065272686825090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 151
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc0ef0aed2751750800000000000000
+      internalID: 6275047956319964381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 151
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123146cfdbd0c5f30800000000000000
+      internalID: 4565539231881237281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 151
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5f119edd4243e80800000000000000
+      internalID: -8199888486018189885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_12
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 151
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b6a21a450d67b30800000000000000
+      internalID: 4284841157389347679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 103
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55b8c04930fd3a20800000000000000
+      internalID: 3043853051863020890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 103
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56a2be8791071f60800000000000000
+      internalID: 8004868613120108124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 103
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f5e01384079acd0800000000000000
+      internalID: -2546380658938323097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 103
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e9b9d776f65ac00800000000000000
+      internalID: 911256989892058681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 55
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e657063d2558a6bc0800000000000000
+      internalID: -3789069545698724498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 55
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d37a1051d1cbc30800000000000000
+      internalID: 4376404913956535676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 55
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fad32095c3f5f690800000000000000
+      internalID: -7568875568873874695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 55
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8b729959513cff0800000000000000
+      internalID: -17146241315522362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9c925c48f7d6070800000000000000
+      internalID: 8101271512929651143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 7
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899ac026f6b48ef40800000000000000
+      internalID: 5757935065351629208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 7
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba381188c2762b60800000000000000
+      internalID: 7720984816658168498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peeper_fatty_champion_24
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 7
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cbf2e3cbbd25210800000000000000
+      internalID: 1320359242316627042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      peeper_fatty_champion_0: -6567429878420546902
+      peeper_fatty_champion_1: 7700928623750503097
+      peeper_fatty_champion_10: 4565539231881237281
+      peeper_fatty_champion_11: -8199888486018189885
+      peeper_fatty_champion_12: 4284841157389347679
+      peeper_fatty_champion_13: 3043853051863020890
+      peeper_fatty_champion_14: 8004868613120108124
+      peeper_fatty_champion_15: -2546380658938323097
+      peeper_fatty_champion_16: 911256989892058681
+      peeper_fatty_champion_17: -3789069545698724498
+      peeper_fatty_champion_18: 4376404913956535676
+      peeper_fatty_champion_19: -7568875568873874695
+      peeper_fatty_champion_2: -2297846755603386985
+      peeper_fatty_champion_20: -17146241315522362
+      peeper_fatty_champion_21: 8101271512929651143
+      peeper_fatty_champion_22: 5757935065351629208
+      peeper_fatty_champion_23: 7720984816658168498
+      peeper_fatty_champion_24: 1320359242316627042
+      peeper_fatty_champion_3: 936392392140162170
+      peeper_fatty_champion_4: -7041653485157443190
+      peeper_fatty_champion_5: -2845491428431777793
+      peeper_fatty_champion_6: -6756552606565559472
+      peeper_fatty_champion_7: 2019904155942360931
+      peeper_fatty_champion_8: -7524065272686825090
+      peeper_fatty_champion_9: 6275047956319964381
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

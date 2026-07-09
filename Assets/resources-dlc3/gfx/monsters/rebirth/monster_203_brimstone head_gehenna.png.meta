@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: bbdf1ff29b3230a4a99f57dac7562059
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4622077155004337530
+    second: monster_203_brimstone head_gehenna_0
+  - first:
+      213: 3878897527007969442
+    second: monster_203_brimstone head_gehenna_1
+  - first:
+      213: -7032733246991410167
+    second: monster_203_brimstone head_gehenna_2
+  - first:
+      213: 7709362798502145840
+    second: monster_203_brimstone head_gehenna_3
+  - first:
+      213: 2262070015357318304
+    second: monster_203_brimstone head_gehenna_4
+  - first:
+      213: -4095941304950383670
+    second: monster_203_brimstone head_gehenna_5
+  - first:
+      213: -9203080230988536246
+    second: monster_203_brimstone head_gehenna_6
+  - first:
+      213: 434501038808800056
+    second: monster_203_brimstone head_gehenna_7
+  - first:
+      213: -4711284753168387278
+    second: monster_203_brimstone head_gehenna_8
+  - first:
+      213: 7074068495289634486
+    second: monster_203_brimstone head_gehenna_9
+  - first:
+      213: -4130153499295174161
+    second: monster_203_brimstone head_gehenna_10
+  - first:
+      213: -5194542164159541322
+    second: monster_203_brimstone head_gehenna_11
+  - first:
+      213: -6361980665280140146
+    second: monster_203_brimstone head_gehenna_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 97
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682b48bf0551bdfb0800000000000000
+      internalID: -4622077155004337530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a08371efbc94d530800000000000000
+      internalID: 3878897527007969442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 97
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c5ff47f56b66e90800000000000000
+      internalID: -7032733246991410167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 31
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fe4598e982dfa60800000000000000
+      internalID: 7709362798502145840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 97
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a47f6aa1bc746f10800000000000000
+      internalID: 2262070015357318304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 31
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb1599951b4827c0800000000000000
+      internalID: -4095941304950383670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 97
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4622883a47184080800000000000000
+      internalID: -9203080230988536246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 31
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b9cb88468a70600800000000000000
+      internalID: 434501038808800056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 97
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2333fab7a772e9eb0800000000000000
+      internalID: -4711284753168387278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 31
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be458201d32c2260800000000000000
+      internalID: 7074068495289634486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1bcae564fbea6c0800000000000000
+      internalID: -4130153499295174161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf4b7e6c6749e7b0800000000000000
+      internalID: -5194542164159541322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_203_brimstone head_gehenna_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ce21aca44b5b7a0800000000000000
+      internalID: -6361980665280140146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monster_203_brimstone head_gehenna_0: -4622077155004337530
+      monster_203_brimstone head_gehenna_1: 3878897527007969442
+      monster_203_brimstone head_gehenna_10: -4130153499295174161
+      monster_203_brimstone head_gehenna_11: -5194542164159541322
+      monster_203_brimstone head_gehenna_12: -6361980665280140146
+      monster_203_brimstone head_gehenna_2: -7032733246991410167
+      monster_203_brimstone head_gehenna_3: 7709362798502145840
+      monster_203_brimstone head_gehenna_4: 2262070015357318304
+      monster_203_brimstone head_gehenna_5: -4095941304950383670
+      monster_203_brimstone head_gehenna_6: -9203080230988536246
+      monster_203_brimstone head_gehenna_7: 434501038808800056
+      monster_203_brimstone head_gehenna_8: -4711284753168387278
+      monster_203_brimstone head_gehenna_9: 7074068495289634486
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

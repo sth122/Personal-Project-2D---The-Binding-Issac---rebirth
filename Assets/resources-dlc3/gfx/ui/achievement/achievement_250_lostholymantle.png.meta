@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: ffabfde970f418342a0f3b496bdf2795
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1068392565016803403
+    second: achievement_250_lostholymantle_0
+  - first:
+      213: 7182178325272872973
+    second: achievement_250_lostholymantle_1
+  - first:
+      213: -7092288408048590970
+    second: achievement_250_lostholymantle_2
+  - first:
+      213: 2987211946471242664
+    second: achievement_250_lostholymantle_3
+  - first:
+      213: -6972828420361526007
+    second: achievement_250_lostholymantle_4
+  - first:
+      213: 8562963272269599419
+    second: achievement_250_lostholymantle_5
+  - first:
+      213: -6997125120692402754
+    second: achievement_250_lostholymantle_6
+  - first:
+      213: 6038104736932846496
+    second: achievement_250_lostholymantle_7
+  - first:
+      213: 6215471266325972506
+    second: achievement_250_lostholymantle_8
+  - first:
+      213: -5193540891398687011
+    second: achievement_250_lostholymantle_9
+  - first:
+      213: 4982864449086705416
+    second: achievement_250_lostholymantle_10
+  - first:
+      213: 1219952033919488029
+    second: achievement_250_lostholymantle_11
+  - first:
+      213: -5430369535626574314
+    second: achievement_250_lostholymantle_12
+  - first:
+      213: -81301292172819611
+    second: achievement_250_lostholymantle_13
+  - first:
+      213: 1251119469134514469
+    second: achievement_250_lostholymantle_14
+  - first:
+      213: -1320679889942070401
+    second: achievement_250_lostholymantle_15
+  - first:
+      213: -1353920886388256442
+    second: achievement_250_lostholymantle_16
+  - first:
+      213: -61676975440124423
+    second: achievement_250_lostholymantle_17
+  - first:
+      213: 5831891846465926471
+    second: achievement_250_lostholymantle_18
+  - first:
+      213: 967695568690134616
+    second: achievement_250_lostholymantle_19
+  - first:
+      213: -3079096466959008212
+    second: achievement_250_lostholymantle_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 136
+        width: 80
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48be769061b3de00800000000000000
+      internalID: 1068392565016803403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 143
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08466f42293ca360800000000000000
+      internalID: 7182178325272872973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 143
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f94a9f441239d90800000000000000
+      internalID: -7092288408048590970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 144
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abb83a3075b47920800000000000000
+      internalID: 2987211946471242664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9056a9cce798b3f90800000000000000
+      internalID: -6972828420361526007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 145
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb298544ab1c5d670800000000000000
+      internalID: 8562963272269599419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 146
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5ca2c66c735ee90800000000000000
+      internalID: -6997125120692402754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_7
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 121
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab5c795448abc350800000000000000
+      internalID: 6038104736932846496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 124
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16c10d8f2ac14650800000000000000
+      internalID: 6215471266325972506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 104
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd637b96316dce7b0800000000000000
+      internalID: -5193540891398687011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 107
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f4cbbe0d0b62540800000000000000
+      internalID: 4982864449086705416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 50
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1059c849e32ee010800000000000000
+      internalID: 1219952033919488029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 65
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61600edbda373a4b0800000000000000
+      internalID: -5430369535626574314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 71
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5634240d7e82fdef0800000000000000
+      internalID: -81301292172819611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 43
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5298659478edc5110800000000000000
+      internalID: 1251119469134514469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 24
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b300a23a00cade0800000000000000
+      internalID: -1320679889942070401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64198d09028e53de0800000000000000
+      internalID: -1353920886388256442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 40
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5221c1e11e42ff0800000000000000
+      internalID: -61676975440124423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_18
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 37
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74539155cba0fe050800000000000000
+      internalID: 5831891846465926471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 21
+        width: 79
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ebe7e1ef1fd6d00800000000000000
+      internalID: 967695568690134616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_250_lostholymantle_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 24
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e7fb9b31ad445d0800000000000000
+      internalID: -3079096466959008212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_250_lostholymantle_0: 1068392565016803403
+      achievement_250_lostholymantle_1: 7182178325272872973
+      achievement_250_lostholymantle_10: 4982864449086705416
+      achievement_250_lostholymantle_11: 1219952033919488029
+      achievement_250_lostholymantle_12: -5430369535626574314
+      achievement_250_lostholymantle_13: -81301292172819611
+      achievement_250_lostholymantle_14: 1251119469134514469
+      achievement_250_lostholymantle_15: -1320679889942070401
+      achievement_250_lostholymantle_16: -1353920886388256442
+      achievement_250_lostholymantle_17: -61676975440124423
+      achievement_250_lostholymantle_18: 5831891846465926471
+      achievement_250_lostholymantle_19: 967695568690134616
+      achievement_250_lostholymantle_2: -7092288408048590970
+      achievement_250_lostholymantle_20: -3079096466959008212
+      achievement_250_lostholymantle_3: 2987211946471242664
+      achievement_250_lostholymantle_4: -6972828420361526007
+      achievement_250_lostholymantle_5: 8562963272269599419
+      achievement_250_lostholymantle_6: -6997125120692402754
+      achievement_250_lostholymantle_7: 6038104736932846496
+      achievement_250_lostholymantle_8: 6215471266325972506
+      achievement_250_lostholymantle_9: -5193540891398687011
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

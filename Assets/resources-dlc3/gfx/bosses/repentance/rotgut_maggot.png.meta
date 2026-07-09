@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: b353e374006681243b943d9da3ca6f2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1275024816984590272
+    second: rotgut_maggot_0
+  - first:
+      213: 5202658726253545811
+    second: rotgut_maggot_1
+  - first:
+      213: 2576358246902010789
+    second: rotgut_maggot_2
+  - first:
+      213: -6312709114154248789
+    second: rotgut_maggot_3
+  - first:
+      213: -2854064655998233055
+    second: rotgut_maggot_4
+  - first:
+      213: -7860596224321370345
+    second: rotgut_maggot_5
+  - first:
+      213: 5351251547942577693
+    second: rotgut_maggot_6
+  - first:
+      213: 2697263894677936563
+    second: rotgut_maggot_7
+  - first:
+      213: 8027138613621083860
+    second: rotgut_maggot_8
+  - first:
+      213: -3195780465271779791
+    second: rotgut_maggot_9
+  - first:
+      213: -4507562247364956422
+    second: rotgut_maggot_10
+  - first:
+      213: 9072999640298402225
+    second: rotgut_maggot_11
+  - first:
+      213: -7964630242983893024
+    second: rotgut_maggot_12
+  - first:
+      213: 8382823652694953422
+    second: rotgut_maggot_13
+  - first:
+      213: -47801107679922334
+    second: rotgut_maggot_14
+  - first:
+      213: -3696121484127980208
+    second: rotgut_maggot_15
+  - first:
+      213: -3691354240315592000
+    second: rotgut_maggot_16
+  - first:
+      213: 2071718030732619244
+    second: rotgut_maggot_17
+  - first:
+      213: 6325065308220269555
+    second: rotgut_maggot_18
+  - first:
+      213: 8223084565110518000
+    second: rotgut_maggot_19
+  - first:
+      213: -2966496759881732927
+    second: rotgut_maggot_20
+  - first:
+      213: 5757157855145522226
+    second: rotgut_maggot_21
+  - first:
+      213: 6462552324911851294
+    second: rotgut_maggot_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rotgut_maggot_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 384
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04873df2fa33e4ee0800000000000000
+      internalID: -1275024816984590272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 384
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359cde1fb8e833840800000000000000
+      internalID: 5202658726253545811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 384
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a31eb8ec2011c320800000000000000
+      internalID: 2576358246902010789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 384
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba51770c180c468a0800000000000000
+      internalID: -6312709114154248789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 384
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1265a3d11535468d0800000000000000
+      internalID: -2854064655998233055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 288
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7174c86916d89e290800000000000000
+      internalID: -7860596224321370345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 288
+        width: 76
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1660e24ee6734a40800000000000000
+      internalID: 5351251547942577693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 288
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9d3c3b83b9e6520800000000000000
+      internalID: 2697263894677936563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 288
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dec4bb1a00266f60800000000000000
+      internalID: 8027138613621083860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_9
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 288
+        width: 76
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ec75b499e46a3d0800000000000000
+      internalID: -3195780465271779791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 192
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afea9d2a40ce171c0800000000000000
+      internalID: -4507562247364956422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 192
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1bb3f1a15c9ed70800000000000000
+      internalID: 9072999640298402225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 192
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7ac9f0ef2f77190800000000000000
+      internalID: -7964630242983893024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_13
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 192
+        width: 78
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd00a1b2b5c55470800000000000000
+      internalID: 8382823652694953422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_14
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 192
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2673ed4552d265ff0800000000000000
+      internalID: -47801107679922334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 96
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055bcd3d71db4bcc0800000000000000
+      internalID: -3696121484127980208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 96
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c27bd540eca5ccc0800000000000000
+      internalID: -3691354240315592000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 96
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cede690929830cc10800000000000000
+      internalID: 2071718030732619244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 96
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3ad9dd26527c750800000000000000
+      internalID: 6325065308220269555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0f86d18d34e1270800000000000000
+      internalID: 8223084565110518000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cce6eff9e2e4d6d0800000000000000
+      internalID: -2966496759881732927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2347cc7019885ef40800000000000000
+      internalID: 5757157855145522226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotgut_maggot_22
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 11
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17eeb479199fa950800000000000000
+      internalID: 6462552324911851294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rotgut_maggot_0: -1275024816984590272
+      rotgut_maggot_1: 5202658726253545811
+      rotgut_maggot_10: -4507562247364956422
+      rotgut_maggot_11: 9072999640298402225
+      rotgut_maggot_12: -7964630242983893024
+      rotgut_maggot_13: 8382823652694953422
+      rotgut_maggot_14: -47801107679922334
+      rotgut_maggot_15: -3696121484127980208
+      rotgut_maggot_16: -3691354240315592000
+      rotgut_maggot_17: 2071718030732619244
+      rotgut_maggot_18: 6325065308220269555
+      rotgut_maggot_19: 8223084565110518000
+      rotgut_maggot_2: 2576358246902010789
+      rotgut_maggot_20: -2966496759881732927
+      rotgut_maggot_21: 5757157855145522226
+      rotgut_maggot_22: 6462552324911851294
+      rotgut_maggot_3: -6312709114154248789
+      rotgut_maggot_4: -2854064655998233055
+      rotgut_maggot_5: -7860596224321370345
+      rotgut_maggot_6: 5351251547942577693
+      rotgut_maggot_7: 2697263894677936563
+      rotgut_maggot_8: 8027138613621083860
+      rotgut_maggot_9: -3195780465271779791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

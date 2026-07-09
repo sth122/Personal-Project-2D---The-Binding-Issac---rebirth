@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 9345a3a8f5bce1345b10d2539e970f18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8285165731611403910
+    second: water_explosion_0
+  - first:
+      213: -7121546300291337202
+    second: water_explosion_1
+  - first:
+      213: 6679307403076887752
+    second: water_explosion_2
+  - first:
+      213: 4422341980865921159
+    second: water_explosion_3
+  - first:
+      213: -2409331170201330448
+    second: water_explosion_4
+  - first:
+      213: 664932125979389816
+    second: water_explosion_5
+  - first:
+      213: -2782600125992108610
+    second: water_explosion_6
+  - first:
+      213: -2271672614516311421
+    second: water_explosion_7
+  - first:
+      213: 5956990456875733430
+    second: water_explosion_8
+  - first:
+      213: 2659312246931230573
+    second: water_explosion_9
+  - first:
+      213: 1268429061902133588
+    second: water_explosion_10
+  - first:
+      213: 5787854563814180395
+    second: water_explosion_11
+  - first:
+      213: 6002018926766063985
+    second: water_explosion_12
+  - first:
+      213: 1752562752310458823
+    second: water_explosion_13
+  - first:
+      213: 2730528598687842015
+    second: water_explosion_14
+  - first:
+      213: 1793868265058964845
+    second: water_explosion_15
+  - first:
+      213: 3040636993513632903
+    second: water_explosion_16
+  - first:
+      213: 3041132179457424775
+    second: water_explosion_17
+  - first:
+      213: -1115055504843204611
+    second: water_explosion_18
+  - first:
+      213: -4619887633418929950
+    second: water_explosion_19
+  - first:
+      213: -5356935770593351556
+    second: water_explosion_20
+  - first:
+      213: -8194736473430676182
+    second: water_explosion_21
+  - first:
+      213: 9165988761644235422
+    second: water_explosion_22
+  - first:
+      213: -5113253108799731989
+    second: water_explosion_23
+  - first:
+      213: 5233136992818014375
+    second: water_explosion_24
+  - first:
+      213: 5861534161570756524
+    second: water_explosion_25
+  - first:
+      213: -5206311529858837237
+    second: water_explosion_26
+  - first:
+      213: 1584966540470979710
+    second: water_explosion_27
+  - first:
+      213: -7289301241080249694
+    second: water_explosion_28
+  - first:
+      213: -8096203902127892186
+    second: water_explosion_29
+  - first:
+      213: 1776692948925750319
+    second: water_explosion_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: water_explosion_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 289
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79101ee9ad250d80800000000000000
+      internalID: -8285165731611403910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 320
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0433a71f5f2b2d90800000000000000
+      internalID: -7121546300291337202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 289
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4e802d1baa1bc50800000000000000
+      internalID: 6679307403076887752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 331
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7808fccd9905f5d30800000000000000
+      internalID: 4422341980865921159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 290
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc9fddd016509ed0800000000000000
+      internalID: -2409331170201330448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 339
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f2fb0ee305a3900800000000000000
+      internalID: 664932125979389816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 291
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd7842ade73269d0800000000000000
+      internalID: -2782600125992108610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 343
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ab5cdfac56970e0800000000000000
+      internalID: -2271672614516311421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 308
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b15870524b7ba250800000000000000
+      internalID: 5956990456875733430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_9
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 325
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f8e212666c7e420800000000000000
+      internalID: 2659312246931230573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 310
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4596579e28d5a9110800000000000000
+      internalID: 1268429061902133588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 314
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2684c77f07925050800000000000000
+      internalID: 5787854563814180395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 306
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1710011f9647b4350800000000000000
+      internalID: 6002018926766063985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_13
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 306
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9bb0aa98a525810800000000000000
+      internalID: 1752562752310458823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 98
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde75d52b49c4e520800000000000000
+      internalID: 2730528598687842015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 199
+        width: 81
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d659fa8cea915e810800000000000000
+      internalID: 1793868265058964845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_16
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 201
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784ba415c33823a20800000000000000
+      internalID: 3040636993513632903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 204
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78db197ca95443a20800000000000000
+      internalID: 3041132179457424775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_18
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 199
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df71af81de68680f0800000000000000
+      internalID: -1115055504843204611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 102
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e838d3bcacd2efb0800000000000000
+      internalID: -4619887633418929950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 156
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7823358c4758a5b0800000000000000
+      internalID: -5356935770593351556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 101
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d2a315892764e80800000000000000
+      internalID: -8194736473430676182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 101
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9af6091732243f70800000000000000
+      internalID: 9165988761644235422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_23
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 100
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6845383631a09b0800000000000000
+      internalID: -5113253108799731989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_24
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8afdd5e56df9840800000000000000
+      internalID: 5233136992818014375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7fd33a34a585150800000000000000
+      internalID: 5861534161570756524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b055eb07f377fb7b0800000000000000
+      internalID: -5206311529858837237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c07a9cbaeeef510800000000000000
+      internalID: 1584966540470979710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_28
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a20990442337da90800000000000000
+      internalID: -7289301241080249694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6291980527184af80800000000000000
+      internalID: -8096203902127892186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_explosion_30
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c19afd2d418a810800000000000000
+      internalID: 1776692948925750319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      water_explosion_0: -8285165731611403910
+      water_explosion_1: -7121546300291337202
+      water_explosion_10: 1268429061902133588
+      water_explosion_11: 5787854563814180395
+      water_explosion_12: 6002018926766063985
+      water_explosion_13: 1752562752310458823
+      water_explosion_14: 2730528598687842015
+      water_explosion_15: 1793868265058964845
+      water_explosion_16: 3040636993513632903
+      water_explosion_17: 3041132179457424775
+      water_explosion_18: -1115055504843204611
+      water_explosion_19: -4619887633418929950
+      water_explosion_2: 6679307403076887752
+      water_explosion_20: -5356935770593351556
+      water_explosion_21: -8194736473430676182
+      water_explosion_22: 9165988761644235422
+      water_explosion_23: -5113253108799731989
+      water_explosion_24: 5233136992818014375
+      water_explosion_25: 5861534161570756524
+      water_explosion_26: -5206311529858837237
+      water_explosion_27: 1584966540470979710
+      water_explosion_28: -7289301241080249694
+      water_explosion_29: -8096203902127892186
+      water_explosion_3: 4422341980865921159
+      water_explosion_30: 1776692948925750319
+      water_explosion_4: -2409331170201330448
+      water_explosion_5: 664932125979389816
+      water_explosion_6: -2782600125992108610
+      water_explosion_7: -2271672614516311421
+      water_explosion_8: 5956990456875733430
+      water_explosion_9: 2659312246931230573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

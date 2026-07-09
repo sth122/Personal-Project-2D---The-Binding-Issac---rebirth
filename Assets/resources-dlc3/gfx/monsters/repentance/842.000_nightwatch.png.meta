@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 8f4aea25c9bedc84cb078a5c3377b97f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8583956373414877196
+    second: 842.000_nightwatch_0
+  - first:
+      213: -6252803417795947139
+    second: 842.000_nightwatch_1
+  - first:
+      213: 5131515845631676659
+    second: 842.000_nightwatch_2
+  - first:
+      213: 4073383247128771555
+    second: 842.000_nightwatch_3
+  - first:
+      213: 7698115072923811047
+    second: 842.000_nightwatch_4
+  - first:
+      213: -2783507916715173686
+    second: 842.000_nightwatch_5
+  - first:
+      213: 4513583524510849436
+    second: 842.000_nightwatch_6
+  - first:
+      213: 1854253776062537937
+    second: 842.000_nightwatch_7
+  - first:
+      213: 7543865891397710895
+    second: 842.000_nightwatch_8
+  - first:
+      213: -1214183250059206260
+    second: 842.000_nightwatch_9
+  - first:
+      213: 4451395746929326357
+    second: 842.000_nightwatch_10
+  - first:
+      213: -1344982951396924698
+    second: 842.000_nightwatch_11
+  - first:
+      213: -6957075780720253485
+    second: 842.000_nightwatch_12
+  - first:
+      213: 4834591973058649597
+    second: 842.000_nightwatch_13
+  - first:
+      213: -155244730722985050
+    second: 842.000_nightwatch_14
+  - first:
+      213: -122635531785677999
+    second: 842.000_nightwatch_15
+  - first:
+      213: 7047389079805976893
+    second: 842.000_nightwatch_16
+  - first:
+      213: 1877365642694594773
+    second: 842.000_nightwatch_17
+  - first:
+      213: -1003430177040813845
+    second: 842.000_nightwatch_18
+  - first:
+      213: -1284957634117376321
+    second: 842.000_nightwatch_19
+  - first:
+      213: -7588887752504132538
+    second: 842.000_nightwatch_20
+  - first:
+      213: 6506641157737773205
+    second: 842.000_nightwatch_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 842.000_nightwatch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0818d487d6502770800000000000000
+      internalID: 8583956373414877196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d759ce79b649939a0800000000000000
+      internalID: -6252803417795947139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f01a22497ec63740800000000000000
+      internalID: 5131515845631676659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb33274b70978830800000000000000
+      internalID: 4073383247128771555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec34b95fd235da60800000000000000
+      internalID: 7698115072923811047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 146
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac854b22c4efe59d0800000000000000
+      internalID: -2783507916715173686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 98
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9956823d4873ae30800000000000000
+      internalID: 4513583524510849436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 98
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d062ad2cf1abb910800000000000000
+      internalID: 1854253776062537937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 98
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2432f12f0231b860800000000000000
+      internalID: 7543865891397710895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 98
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81edff54ca562fe0800000000000000
+      internalID: -1214183250059206260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 98
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519386ae8d886cd30800000000000000
+      internalID: 4451395746929326357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 98
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2a709b129a55de0800000000000000
+      internalID: -1344982951396924698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d522b60070837f90800000000000000
+      internalID: -6957075780720253485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 50
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd9d14e8cbe71340800000000000000
+      internalID: 4834591973058649597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 50
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab510c6db578ddf0800000000000000
+      internalID: -155244730722985050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153d21332af4c4ef0800000000000000
+      internalID: -122635531785677999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d316dc7870b5dc160800000000000000
+      internalID: 7047389079805976893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 7
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d09556fa1ebd0a10800000000000000
+      internalID: 1877365642694594773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 7
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0339402991312f0800000000000000
+      internalID: -1003430177040813845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 7
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6e10bf6d9ea2ee0800000000000000
+      internalID: -1284957634117376321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 7
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cbda7fbcadea690800000000000000
+      internalID: -7588887752504132538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 842.000_nightwatch_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 7
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59875e7c8ab3c4a50800000000000000
+      internalID: 6506641157737773205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      842.000_nightwatch_0: 8583956373414877196
+      842.000_nightwatch_1: -6252803417795947139
+      842.000_nightwatch_10: 4451395746929326357
+      842.000_nightwatch_11: -1344982951396924698
+      842.000_nightwatch_12: -6957075780720253485
+      842.000_nightwatch_13: 4834591973058649597
+      842.000_nightwatch_14: -155244730722985050
+      842.000_nightwatch_15: -122635531785677999
+      842.000_nightwatch_16: 7047389079805976893
+      842.000_nightwatch_17: 1877365642694594773
+      842.000_nightwatch_18: -1003430177040813845
+      842.000_nightwatch_19: -1284957634117376321
+      842.000_nightwatch_2: 5131515845631676659
+      842.000_nightwatch_20: -7588887752504132538
+      842.000_nightwatch_21: 6506641157737773205
+      842.000_nightwatch_3: 4073383247128771555
+      842.000_nightwatch_4: 7698115072923811047
+      842.000_nightwatch_5: -2783507916715173686
+      842.000_nightwatch_6: 4513583524510849436
+      842.000_nightwatch_7: 1854253776062537937
+      842.000_nightwatch_8: 7543865891397710895
+      842.000_nightwatch_9: -1214183250059206260
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

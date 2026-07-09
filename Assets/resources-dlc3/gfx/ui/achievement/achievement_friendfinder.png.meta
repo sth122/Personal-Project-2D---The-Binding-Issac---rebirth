@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: e2efc0d02dcb24e419bc34ac2bff0464
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1981316809807912966
+    second: achievement_friendfinder_0
+  - first:
+      213: 4554889225049167253
+    second: achievement_friendfinder_1
+  - first:
+      213: 5033849837495520235
+    second: achievement_friendfinder_2
+  - first:
+      213: 6167857593654418561
+    second: achievement_friendfinder_3
+  - first:
+      213: -692752301447929077
+    second: achievement_friendfinder_4
+  - first:
+      213: 532022789551565271
+    second: achievement_friendfinder_5
+  - first:
+      213: 2946082288438378712
+    second: achievement_friendfinder_6
+  - first:
+      213: 6206651829396870162
+    second: achievement_friendfinder_7
+  - first:
+      213: -7213933796867781935
+    second: achievement_friendfinder_8
+  - first:
+      213: 16316123446986630
+    second: achievement_friendfinder_9
+  - first:
+      213: -6750801333551082124
+    second: achievement_friendfinder_10
+  - first:
+      213: -2985017151198709773
+    second: achievement_friendfinder_11
+  - first:
+      213: -5180028818690544423
+    second: achievement_friendfinder_12
+  - first:
+      213: -2498813951164675805
+    second: achievement_friendfinder_13
+  - first:
+      213: -2598276150915611206
+    second: achievement_friendfinder_14
+  - first:
+      213: -8497969967138499496
+    second: achievement_friendfinder_15
+  - first:
+      213: -6040811636345836019
+    second: achievement_friendfinder_16
+  - first:
+      213: 1619029725357276816
+    second: achievement_friendfinder_17
+  - first:
+      213: -3823420023199654213
+    second: achievement_friendfinder_18
+  - first:
+      213: -2826534731049182448
+    second: achievement_friendfinder_19
+  - first:
+      213: -7989342218495008087
+    second: achievement_friendfinder_20
+  - first:
+      213: 6432436805586810982
+    second: achievement_friendfinder_21
+  - first:
+      213: -8116449711230539310
+    second: achievement_friendfinder_22
+  - first:
+      213: 6655751820265753126
+    second: achievement_friendfinder_23
+  - first:
+      213: 7484538807458319320
+    second: achievement_friendfinder_24
+  - first:
+      213: 1141957696847097253
+    second: achievement_friendfinder_25
+  - first:
+      213: -8371606775158439821
+    second: achievement_friendfinder_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_friendfinder_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 138
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff93e3ebd2f084e0800000000000000
+      internalID: -1981316809807912966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 137
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5955f4a0e97363f30800000000000000
+      internalID: 4554889225049167253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 143
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb0498b1c3dbd540800000000000000
+      internalID: 5033849837495520235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 131
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c97fe7dc1a89550800000000000000
+      internalID: 6167857593654418561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 140
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03acd2c379d266f0800000000000000
+      internalID: -692752301447929077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 141
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d922a788ef126700800000000000000
+      internalID: 532022789551565271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 136
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d080797b3692e820800000000000000
+      internalID: 2946082288438378712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 135
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2149abf54f4722650800000000000000
+      internalID: 6206651829396870162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dac28cce65f2eb90800000000000000
+      internalID: -7213933796867781935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 132
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6874b268d67f93000800000000000000
+      internalID: 16316123446986630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 132
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475547454f55052a0800000000000000
+      internalID: -6750801333551082124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 130
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f73a5e57b61396d0800000000000000
+      internalID: -2985017151198709773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 101
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dce9affb37dc18b0800000000000000
+      internalID: -5180028818690544423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 56
+        width: 123
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3290a0163fd625dd0800000000000000
+      internalID: -2498813951164675805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_14
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 100
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab54e446b9111fbd0800000000000000
+      internalID: -2598276150915611206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 81
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85495ccc655211a80800000000000000
+      internalID: -8497969967138499496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_16
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 65
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e6f8482d9ba2ca0800000000000000
+      internalID: -6040811636345836019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 70
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ef7bc05f2f77610800000000000000
+      internalID: 1619029725357276816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe911a0fbb70fac0800000000000000
+      internalID: -3823420023199654213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b528243a126c8d0800000000000000
+      internalID: -2826534731049182448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2e295e497202190800000000000000
+      internalID: -7989342218495008087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6687625b13b944950800000000000000
+      internalID: 6432436805586810982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d928cc8df39c5f80800000000000000
+      internalID: -8116449711230539310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a8910540bfd5c50800000000000000
+      internalID: 6655751820265753126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbcd2ef36c6ed760800000000000000
+      internalID: 7484538807458319320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad2815997c09df00800000000000000
+      internalID: 1141957696847097253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_friendfinder_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3708d6f1ef312db80800000000000000
+      internalID: -8371606775158439821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_friendfinder_0: -1981316809807912966
+      achievement_friendfinder_1: 4554889225049167253
+      achievement_friendfinder_10: -6750801333551082124
+      achievement_friendfinder_11: -2985017151198709773
+      achievement_friendfinder_12: -5180028818690544423
+      achievement_friendfinder_13: -2498813951164675805
+      achievement_friendfinder_14: -2598276150915611206
+      achievement_friendfinder_15: -8497969967138499496
+      achievement_friendfinder_16: -6040811636345836019
+      achievement_friendfinder_17: 1619029725357276816
+      achievement_friendfinder_18: -3823420023199654213
+      achievement_friendfinder_19: -2826534731049182448
+      achievement_friendfinder_2: 5033849837495520235
+      achievement_friendfinder_20: -7989342218495008087
+      achievement_friendfinder_21: 6432436805586810982
+      achievement_friendfinder_22: -8116449711230539310
+      achievement_friendfinder_23: 6655751820265753126
+      achievement_friendfinder_24: 7484538807458319320
+      achievement_friendfinder_25: 1141957696847097253
+      achievement_friendfinder_26: -8371606775158439821
+      achievement_friendfinder_3: 6167857593654418561
+      achievement_friendfinder_4: -692752301447929077
+      achievement_friendfinder_5: 532022789551565271
+      achievement_friendfinder_6: 2946082288438378712
+      achievement_friendfinder_7: 6206651829396870162
+      achievement_friendfinder_8: -7213933796867781935
+      achievement_friendfinder_9: 16316123446986630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

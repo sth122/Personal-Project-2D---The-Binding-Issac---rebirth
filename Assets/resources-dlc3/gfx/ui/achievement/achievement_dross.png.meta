@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 100259fe6fc12e446bcc8dae27c61cca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8170814268576982723
+    second: achievement_dross_0
+  - first:
+      213: -6571609844783614953
+    second: achievement_dross_1
+  - first:
+      213: -7157213012075623368
+    second: achievement_dross_2
+  - first:
+      213: 3002841444464303293
+    second: achievement_dross_3
+  - first:
+      213: -1336280095559983225
+    second: achievement_dross_4
+  - first:
+      213: -1637856850526446677
+    second: achievement_dross_5
+  - first:
+      213: 1150867108800851691
+    second: achievement_dross_6
+  - first:
+      213: -5693335735148381392
+    second: achievement_dross_7
+  - first:
+      213: -7446424117074930141
+    second: achievement_dross_8
+  - first:
+      213: 487864391203681507
+    second: achievement_dross_9
+  - first:
+      213: 8104363519899019679
+    second: achievement_dross_10
+  - first:
+      213: 8169561630148176960
+    second: achievement_dross_11
+  - first:
+      213: -5854429670206238649
+    second: achievement_dross_12
+  - first:
+      213: -8554106993886615968
+    second: achievement_dross_13
+  - first:
+      213: 3804161913214216574
+    second: achievement_dross_14
+  - first:
+      213: -3750445802295351067
+    second: achievement_dross_15
+  - first:
+      213: 1950303416880000716
+    second: achievement_dross_16
+  - first:
+      213: 8419132230705618452
+    second: achievement_dross_17
+  - first:
+      213: 2452140758193255986
+    second: achievement_dross_18
+  - first:
+      213: -2496209214638535240
+    second: achievement_dross_19
+  - first:
+      213: -3236006300562054331
+    second: achievement_dross_20
+  - first:
+      213: 2411566121150399249
+    second: achievement_dross_21
+  - first:
+      213: 4692549878709974452
+    second: achievement_dross_22
+  - first:
+      213: -1836882529226591849
+    second: achievement_dross_23
+  - first:
+      213: -980632622347158206
+    second: achievement_dross_24
+  - first:
+      213: 7387767777411181857
+    second: achievement_dross_25
+  - first:
+      213: -5661927946104149763
+    second: achievement_dross_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_dross_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 153
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c669345940946170800000000000000
+      internalID: 8170814268576982723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 140
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714763ff9a3fcc4a0800000000000000
+      internalID: -6571609844783614953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 136
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ccd61afa87cac90800000000000000
+      internalID: -7157213012075623368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 146
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc9d1e426c3ca920800000000000000
+      internalID: 3002841444464303293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 151
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fd8bf3554947de0800000000000000
+      internalID: -1336280095559983225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 137
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab5e674fd92549e0800000000000000
+      internalID: -1637856850526446677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 139
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee61c3b983b8ff00800000000000000
+      internalID: 1150867108800851691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 46
+        width: 145
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b717f30553df0b0800000000000000
+      internalID: -5693335735148381392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 110
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326d8d6e7bcf8a890800000000000000
+      internalID: -7446424117074930141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 108
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4f148341e35c600800000000000000
+      internalID: 487864391203681507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 105
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99273ebeab787070800000000000000
+      internalID: 8104363519899019679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 97
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ca4a7b40d106170800000000000000
+      internalID: 8169561630148176960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74099d8ab33e0cea0800000000000000
+      internalID: -5854429670206238649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 66
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06624bab205b94980800000000000000
+      internalID: -8554106993886615968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_14
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 58
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e792431da191bc430800000000000000
+      internalID: 3804161913214216574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 83
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8a4dcd96db3fbc0800000000000000
+      internalID: -3750445802295351067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_16
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 60
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cceec5fdf9ed01b10800000000000000
+      internalID: 1950303416880000716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_17
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 60
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e10484824c6d470800000000000000
+      internalID: 8419132230705618452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 44
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236bd5f0701c70220800000000000000
+      internalID: 2452140758193255986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 43
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdc96cd1feab5dd0800000000000000
+      internalID: -2496209214638535240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 31
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543a21c2a656713d0800000000000000
+      internalID: -3236006300562054331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 24
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11349833c9a977120800000000000000
+      internalID: 2411566121150399249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 23
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b57f43a0494f1140800000000000000
+      internalID: 4692549878709974452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 23
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791f35762151286e0800000000000000
+      internalID: -1836882529226591849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_24
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 26
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d76d953d71462f0800000000000000
+      internalID: -980632622347158206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_25
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 22
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12daba7c6af968660800000000000000
+      internalID: 7387767777411181857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_dross_26
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 21
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8ea9cf78acc61b0800000000000000
+      internalID: -5661927946104149763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_dross_0: 8170814268576982723
+      achievement_dross_1: -6571609844783614953
+      achievement_dross_10: 8104363519899019679
+      achievement_dross_11: 8169561630148176960
+      achievement_dross_12: -5854429670206238649
+      achievement_dross_13: -8554106993886615968
+      achievement_dross_14: 3804161913214216574
+      achievement_dross_15: -3750445802295351067
+      achievement_dross_16: 1950303416880000716
+      achievement_dross_17: 8419132230705618452
+      achievement_dross_18: 2452140758193255986
+      achievement_dross_19: -2496209214638535240
+      achievement_dross_2: -7157213012075623368
+      achievement_dross_20: -3236006300562054331
+      achievement_dross_21: 2411566121150399249
+      achievement_dross_22: 4692549878709974452
+      achievement_dross_23: -1836882529226591849
+      achievement_dross_24: -980632622347158206
+      achievement_dross_25: 7387767777411181857
+      achievement_dross_26: -5661927946104149763
+      achievement_dross_3: 3002841444464303293
+      achievement_dross_4: -1336280095559983225
+      achievement_dross_5: -1637856850526446677
+      achievement_dross_6: 1150867108800851691
+      achievement_dross_7: -5693335735148381392
+      achievement_dross_8: -7446424117074930141
+      achievement_dross_9: 487864391203681507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

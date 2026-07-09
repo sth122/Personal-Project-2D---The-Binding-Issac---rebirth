@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 4f3ec6e570e02c64cb4d3c6bccb08299
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2574054065738834151
+    second: boss_054_mom_mausoleum_0
+  - first:
+      213: -6336034747298912890
+    second: boss_054_mom_mausoleum_1
+  - first:
+      213: 6334156698339731804
+    second: boss_054_mom_mausoleum_2
+  - first:
+      213: -1758529729639311899
+    second: boss_054_mom_mausoleum_3
+  - first:
+      213: -2949778454893181390
+    second: boss_054_mom_mausoleum_4
+  - first:
+      213: 6035174355645625849
+    second: boss_054_mom_mausoleum_5
+  - first:
+      213: -2980261918251719724
+    second: boss_054_mom_mausoleum_6
+  - first:
+      213: -1083383250180218797
+    second: boss_054_mom_mausoleum_7
+  - first:
+      213: -2746742275339161979
+    second: boss_054_mom_mausoleum_8
+  - first:
+      213: 5794793024198119087
+    second: boss_054_mom_mausoleum_9
+  - first:
+      213: -5451365028680312399
+    second: boss_054_mom_mausoleum_10
+  - first:
+      213: -6252164722335080504
+    second: boss_054_mom_mausoleum_11
+  - first:
+      213: 5077155622216603616
+    second: boss_054_mom_mausoleum_12
+  - first:
+      213: -4429343972091321121
+    second: boss_054_mom_mausoleum_13
+  - first:
+      213: 8886002050818649552
+    second: boss_054_mom_mausoleum_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 337
+        width: 124
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f9cf2177f174cd0800000000000000
+      internalID: -2574054065738834151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 471
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68567b297f1e118a0800000000000000
+      internalID: -6336034747298912890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 474
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59633415f177e750800000000000000
+      internalID: 6334156698339731804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 422
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e592e927827897e0800000000000000
+      internalID: -1758529729639311899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 368
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236cdf5bf184017d0800000000000000
+      internalID: -2949778454893181390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5fdc9c91f31c350800000000000000
+      internalID: 6035174355645625849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 286
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d36bf0539bf3a6d0800000000000000
+      internalID: -2980261918251719724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 281
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35066698cac07f0f0800000000000000
+      internalID: -1083383250180218797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 279
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e6cd4147c91e9d0800000000000000
+      internalID: -2746742275339161979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 245
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae8d3aad8d3b6050800000000000000
+      internalID: 5794793024198119087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 245
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9d584936cd854b0800000000000000
+      internalID: -5451365028680312399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 217
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf1df77f49db39a0800000000000000
+      internalID: -6252164722335080504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 183
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e71993732ea57640800000000000000
+      internalID: 5077155622216603616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 132
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4aa73002fc782c0800000000000000
+      internalID: -4429343972091321121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_054_mom_mausoleum_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 84
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd207009cb615b70800000000000000
+      internalID: 8886002050818649552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_054_mom_mausoleum_0: -2574054065738834151
+      boss_054_mom_mausoleum_1: -6336034747298912890
+      boss_054_mom_mausoleum_10: -5451365028680312399
+      boss_054_mom_mausoleum_11: -6252164722335080504
+      boss_054_mom_mausoleum_12: 5077155622216603616
+      boss_054_mom_mausoleum_13: -4429343972091321121
+      boss_054_mom_mausoleum_14: 8886002050818649552
+      boss_054_mom_mausoleum_2: 6334156698339731804
+      boss_054_mom_mausoleum_3: -1758529729639311899
+      boss_054_mom_mausoleum_4: -2949778454893181390
+      boss_054_mom_mausoleum_5: 6035174355645625849
+      boss_054_mom_mausoleum_6: -2980261918251719724
+      boss_054_mom_mausoleum_7: -1083383250180218797
+      boss_054_mom_mausoleum_8: -2746742275339161979
+      boss_054_mom_mausoleum_9: 5794793024198119087
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

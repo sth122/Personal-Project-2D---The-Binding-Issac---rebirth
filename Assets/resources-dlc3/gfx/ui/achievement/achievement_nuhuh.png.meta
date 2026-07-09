@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: dccf37f89fd63a3479983bc40ab2d0d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7927565824474973994
+    second: achievement_nuhuh_0
+  - first:
+      213: 8931077803646908953
+    second: achievement_nuhuh_1
+  - first:
+      213: 2940062105288125961
+    second: achievement_nuhuh_2
+  - first:
+      213: -944342116124923948
+    second: achievement_nuhuh_3
+  - first:
+      213: -2510227500027203288
+    second: achievement_nuhuh_4
+  - first:
+      213: -2302442183223540797
+    second: achievement_nuhuh_5
+  - first:
+      213: 1197072184270735524
+    second: achievement_nuhuh_6
+  - first:
+      213: -5464273165041041749
+    second: achievement_nuhuh_7
+  - first:
+      213: 6966465066482503406
+    second: achievement_nuhuh_8
+  - first:
+      213: -3838851564348468006
+    second: achievement_nuhuh_9
+  - first:
+      213: -2563056063577541936
+    second: achievement_nuhuh_10
+  - first:
+      213: -3391389634843184428
+    second: achievement_nuhuh_11
+  - first:
+      213: -7568242446233946502
+    second: achievement_nuhuh_12
+  - first:
+      213: 3840434670996628883
+    second: achievement_nuhuh_13
+  - first:
+      213: 1913569099307873240
+    second: achievement_nuhuh_14
+  - first:
+      213: 4777888288262672869
+    second: achievement_nuhuh_15
+  - first:
+      213: -7682780378272229387
+    second: achievement_nuhuh_16
+  - first:
+      213: -5197201172163803536
+    second: achievement_nuhuh_17
+  - first:
+      213: 8099767322006987789
+    second: achievement_nuhuh_18
+  - first:
+      213: 3956462939183061706
+    second: achievement_nuhuh_19
+  - first:
+      213: 2386810055452084931
+    second: achievement_nuhuh_20
+  - first:
+      213: 7040985775381172910
+    second: achievement_nuhuh_21
+  - first:
+      213: 228179662218281534
+    second: achievement_nuhuh_22
+  - first:
+      213: 7854844239566063974
+    second: achievement_nuhuh_23
+  - first:
+      213: 4845855248050084378
+    second: achievement_nuhuh_24
+  - first:
+      213: -1520143947781884194
+    second: achievement_nuhuh_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_nuhuh_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 134
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d874aa72e0abf190800000000000000
+      internalID: -7927565824474973994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 130
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91affbb81ff81fb70800000000000000
+      internalID: 8931077803646908953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 132
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e294b58e23dc820800000000000000
+      internalID: 2940062105288125961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 134
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7eee549d505e2f0800000000000000
+      internalID: -944342116124923948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 134
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82136737361e92dd0800000000000000
+      internalID: -2510227500027203288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 142
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3061188051c00e0800000000000000
+      internalID: -2302442183223540797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 139
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a845f92fcadc9010800000000000000
+      internalID: 1197072184270735524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae7702e1800b24b0800000000000000
+      internalID: -5464273165041041749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 135
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee8bdb611bdda060800000000000000
+      internalID: 6966465066482503406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 135
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad49e8167d8a9bac0800000000000000
+      internalID: -3838851564348468006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_10
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 128
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2bc0ff6123e6cd0800000000000000
+      internalID: -2563056063577541936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2fa30781d5fe0d0800000000000000
+      internalID: -3391389634843184428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 102
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76313ae79338f690800000000000000
+      internalID: -7568242446233946502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 65
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39529db5cf6fb4530800000000000000
+      internalID: 3840434670996628883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_14
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 106
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3f86115fc5e8a10800000000000000
+      internalID: 1913569099307873240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 75
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1556675187e4240800000000000000
+      internalID: 4777888288262672869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 69
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f71eb973f7416590800000000000000
+      internalID: -7682780378272229387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076cee2e115dfd7b0800000000000000
+      internalID: -5197201172163803536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d042b870777286070800000000000000
+      internalID: 8099767322006987789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca1109b41e28e630800000000000000
+      internalID: 3956462939183061706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca4d8d7917af1120800000000000000
+      internalID: 2386810055452084931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea25c2a024b96b160800000000000000
+      internalID: 7040985775381172910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e324d7f9138aa2300800000000000000
+      internalID: 228179662218281534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669cb591833020d60800000000000000
+      internalID: 7854844239566063974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1adcf47cafef3340800000000000000
+      internalID: 4845855248050084378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_nuhuh_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed63001322d57eae0800000000000000
+      internalID: -1520143947781884194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_nuhuh_0: -7927565824474973994
+      achievement_nuhuh_1: 8931077803646908953
+      achievement_nuhuh_10: -2563056063577541936
+      achievement_nuhuh_11: -3391389634843184428
+      achievement_nuhuh_12: -7568242446233946502
+      achievement_nuhuh_13: 3840434670996628883
+      achievement_nuhuh_14: 1913569099307873240
+      achievement_nuhuh_15: 4777888288262672869
+      achievement_nuhuh_16: -7682780378272229387
+      achievement_nuhuh_17: -5197201172163803536
+      achievement_nuhuh_18: 8099767322006987789
+      achievement_nuhuh_19: 3956462939183061706
+      achievement_nuhuh_2: 2940062105288125961
+      achievement_nuhuh_20: 2386810055452084931
+      achievement_nuhuh_21: 7040985775381172910
+      achievement_nuhuh_22: 228179662218281534
+      achievement_nuhuh_23: 7854844239566063974
+      achievement_nuhuh_24: 4845855248050084378
+      achievement_nuhuh_25: -1520143947781884194
+      achievement_nuhuh_3: -944342116124923948
+      achievement_nuhuh_4: -2510227500027203288
+      achievement_nuhuh_5: -2302442183223540797
+      achievement_nuhuh_6: 1197072184270735524
+      achievement_nuhuh_7: -5464273165041041749
+      achievement_nuhuh_8: 6966465066482503406
+      achievement_nuhuh_9: -3838851564348468006
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

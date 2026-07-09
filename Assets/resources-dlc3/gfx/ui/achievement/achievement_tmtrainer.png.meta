@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 027fdb599202789429d5c12d107475e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5386091164366571656
+    second: achievement_tmtrainer_0
+  - first:
+      213: -3934041305806143143
+    second: achievement_tmtrainer_1
+  - first:
+      213: -1216088932725493978
+    second: achievement_tmtrainer_2
+  - first:
+      213: 1194216169319260423
+    second: achievement_tmtrainer_3
+  - first:
+      213: 5537461332983757751
+    second: achievement_tmtrainer_4
+  - first:
+      213: -784167479133783936
+    second: achievement_tmtrainer_5
+  - first:
+      213: 6102890075310375584
+    second: achievement_tmtrainer_6
+  - first:
+      213: -749187814398797769
+    second: achievement_tmtrainer_7
+  - first:
+      213: 4054649335472931420
+    second: achievement_tmtrainer_8
+  - first:
+      213: -7881464107415834702
+    second: achievement_tmtrainer_9
+  - first:
+      213: -8930946353208829249
+    second: achievement_tmtrainer_10
+  - first:
+      213: 3459420965641494766
+    second: achievement_tmtrainer_11
+  - first:
+      213: 5775463783455147305
+    second: achievement_tmtrainer_12
+  - first:
+      213: 8578387459185331182
+    second: achievement_tmtrainer_13
+  - first:
+      213: -4472290850139556796
+    second: achievement_tmtrainer_14
+  - first:
+      213: -2263171197294072065
+    second: achievement_tmtrainer_15
+  - first:
+      213: 8822080730556375721
+    second: achievement_tmtrainer_16
+  - first:
+      213: -2542603474238186915
+    second: achievement_tmtrainer_17
+  - first:
+      213: 8011295954961547881
+    second: achievement_tmtrainer_18
+  - first:
+      213: 3782151992907685594
+    second: achievement_tmtrainer_19
+  - first:
+      213: 7050586252580578952
+    second: achievement_tmtrainer_20
+  - first:
+      213: 4700482514280387193
+    second: achievement_tmtrainer_21
+  - first:
+      213: 5309594466827642597
+    second: achievement_tmtrainer_22
+  - first:
+      213: 2967306868422227181
+    second: achievement_tmtrainer_23
+  - first:
+      213: 2208124928814637322
+    second: achievement_tmtrainer_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_tmtrainer_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 125
+        width: 89
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8777f0c6f92c045b0800000000000000
+      internalID: -5386091164366571656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 138
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95106bb964a7769c0800000000000000
+      internalID: -3934041305806143143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 134
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fec9d0f859f1fe0800000000000000
+      internalID: -1216088932725493978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 147
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7016d4d5745b29010800000000000000
+      internalID: 1194216169319260423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 62
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb35fd5eb309dc40800000000000000
+      internalID: 5537461332983757751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 120
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08831d915d31e15f0800000000000000
+      internalID: -784167479133783936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 102
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2c1226032d1b450800000000000000
+      internalID: 6102890075310375584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73855b4f6a95a95f0800000000000000
+      internalID: -749187814398797769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 80
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5243a19612054830800000000000000
+      internalID: 4054649335472931420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 102
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfec7fe62a6f9290800000000000000
+      internalID: -7881464107415834702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 86
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbadae42c97ee0480800000000000000
+      internalID: -8930946353208829249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 56
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0a9991a05520030800000000000000
+      internalID: 3459420965641494766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 29
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9254af916b1962050800000000000000
+      internalID: 5775463783455147305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 43
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb4862a1fd8c0770800000000000000
+      internalID: 8578387459185331182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444b331ca2b3fe1c0800000000000000
+      internalID: -4472290850139556796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe246f69c99790e0800000000000000
+      internalID: -2263171197294072065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 28
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2a1acdea35e6a70800000000000000
+      internalID: 8822080730556375721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5adb598c9bd6bcd0800000000000000
+      internalID: -2542603474238186915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_18
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962c102b937dd2f60800000000000000
+      internalID: 8011295954961547881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade5cc7e237ec7430800000000000000
+      internalID: 3782151992907685594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886615357d6b8d160800000000000000
+      internalID: 7050586252580578952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_21
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9721e9841f77b3140800000000000000
+      internalID: 4700482514280387193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e624a049087fa940800000000000000
+      internalID: 5309594466827642597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_23
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de432e710edfd2920800000000000000
+      internalID: 2967306868422227181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_tmtrainer_24
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a016ea17ce5d4ae10800000000000000
+      internalID: 2208124928814637322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_tmtrainer_0: -5386091164366571656
+      achievement_tmtrainer_1: -3934041305806143143
+      achievement_tmtrainer_10: -8930946353208829249
+      achievement_tmtrainer_11: 3459420965641494766
+      achievement_tmtrainer_12: 5775463783455147305
+      achievement_tmtrainer_13: 8578387459185331182
+      achievement_tmtrainer_14: -4472290850139556796
+      achievement_tmtrainer_15: -2263171197294072065
+      achievement_tmtrainer_16: 8822080730556375721
+      achievement_tmtrainer_17: -2542603474238186915
+      achievement_tmtrainer_18: 8011295954961547881
+      achievement_tmtrainer_19: 3782151992907685594
+      achievement_tmtrainer_2: -1216088932725493978
+      achievement_tmtrainer_20: 7050586252580578952
+      achievement_tmtrainer_21: 4700482514280387193
+      achievement_tmtrainer_22: 5309594466827642597
+      achievement_tmtrainer_23: 2967306868422227181
+      achievement_tmtrainer_24: 2208124928814637322
+      achievement_tmtrainer_3: 1194216169319260423
+      achievement_tmtrainer_4: 5537461332983757751
+      achievement_tmtrainer_5: -784167479133783936
+      achievement_tmtrainer_6: 6102890075310375584
+      achievement_tmtrainer_7: -749187814398797769
+      achievement_tmtrainer_8: 4054649335472931420
+      achievement_tmtrainer_9: -7881464107415834702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

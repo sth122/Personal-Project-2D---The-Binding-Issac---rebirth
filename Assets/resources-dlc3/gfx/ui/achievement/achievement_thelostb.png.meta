@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 6a14f23bdbe7df040b7b91ac3c613034
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2861670305137727551
+    second: achievement_thelostb_0
+  - first:
+      213: 1906788813258792616
+    second: achievement_thelostb_1
+  - first:
+      213: -6378894357395949532
+    second: achievement_thelostb_2
+  - first:
+      213: 4706142434244925637
+    second: achievement_thelostb_3
+  - first:
+      213: -6372506193796831626
+    second: achievement_thelostb_4
+  - first:
+      213: -2335540781214757976
+    second: achievement_thelostb_5
+  - first:
+      213: 6856189595852106836
+    second: achievement_thelostb_6
+  - first:
+      213: 5271157373946719741
+    second: achievement_thelostb_7
+  - first:
+      213: 3390025731122886005
+    second: achievement_thelostb_8
+  - first:
+      213: -7324684581891448233
+    second: achievement_thelostb_9
+  - first:
+      213: -4251938171776015193
+    second: achievement_thelostb_10
+  - first:
+      213: -45314984580664731
+    second: achievement_thelostb_11
+  - first:
+      213: 8631943047774755677
+    second: achievement_thelostb_12
+  - first:
+      213: -8044926825705466444
+    second: achievement_thelostb_13
+  - first:
+      213: 6037256566204702615
+    second: achievement_thelostb_14
+  - first:
+      213: 1043983047597317777
+    second: achievement_thelostb_15
+  - first:
+      213: 2194110578511559238
+    second: achievement_thelostb_16
+  - first:
+      213: -4941583237676017129
+    second: achievement_thelostb_17
+  - first:
+      213: -2772448609264906476
+    second: achievement_thelostb_18
+  - first:
+      213: -417539818211314454
+    second: achievement_thelostb_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_thelostb_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 151
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c76bfde40e4948d0800000000000000
+      internalID: -2861670305137727551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 138
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae9af3b256467a10800000000000000
+      internalID: 1906788813258792616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 134
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428bba7f06d9977a0800000000000000
+      internalID: -6378894357395949532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c89f871c939f4140800000000000000
+      internalID: 4706142434244925637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 149
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67663c5316f4097a0800000000000000
+      internalID: -6372506193796831626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 135
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab8141a80e769fd0800000000000000
+      internalID: -2335540781214757976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 137
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c6e7d9c14162f50800000000000000
+      internalID: 6856189595852106836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 112
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd664d24b9e62940800000000000000
+      internalID: 5271157373946719741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 109
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575730bf07acb0f20800000000000000
+      internalID: 3390025731122886005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 106
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752649c3e2e795a90800000000000000
+      internalID: -7324684581891448233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 114
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4ed50b2c41ef4c0800000000000000
+      internalID: -4251938171776015193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 109
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5623119f2420f5ff0800000000000000
+      internalID: -45314984580664731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 113
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b540cc772dac770800000000000000
+      internalID: 8631943047774755677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 31
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b590d50dadaa5090800000000000000
+      internalID: -8044926825705466444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 114
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f96863cd4a8c350800000000000000
+      internalID: 6037256566204702615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 106
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e519fec09fc7e00800000000000000
+      internalID: 1043983047597317777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 39
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64abb1e32fb037e10800000000000000
+      internalID: 2194110578511559238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 98
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71adb4a1a38fb6bb0800000000000000
+      internalID: -4941583237676017129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 105
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f4dbecda84689d0800000000000000
+      internalID: -2772448609264906476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_thelostb_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 36
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4feef5fb9943af0800000000000000
+      internalID: -417539818211314454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_thelostb_0: -2861670305137727551
+      achievement_thelostb_1: 1906788813258792616
+      achievement_thelostb_10: -4251938171776015193
+      achievement_thelostb_11: -45314984580664731
+      achievement_thelostb_12: 8631943047774755677
+      achievement_thelostb_13: -8044926825705466444
+      achievement_thelostb_14: 6037256566204702615
+      achievement_thelostb_15: 1043983047597317777
+      achievement_thelostb_16: 2194110578511559238
+      achievement_thelostb_17: -4941583237676017129
+      achievement_thelostb_18: -2772448609264906476
+      achievement_thelostb_19: -417539818211314454
+      achievement_thelostb_2: -6378894357395949532
+      achievement_thelostb_3: 4706142434244925637
+      achievement_thelostb_4: -6372506193796831626
+      achievement_thelostb_5: -2335540781214757976
+      achievement_thelostb_6: 6856189595852106836
+      achievement_thelostb_7: 5271157373946719741
+      achievement_thelostb_8: 3390025731122886005
+      achievement_thelostb_9: -7324684581891448233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

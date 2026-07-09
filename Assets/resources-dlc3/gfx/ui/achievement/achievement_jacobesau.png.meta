@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 2a361856aee0ff44db411b5d4965129f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8214604397336295107
+    second: achievement_jacobesau_0
+  - first:
+      213: -4808361815252643030
+    second: achievement_jacobesau_1
+  - first:
+      213: -6978082475879233376
+    second: achievement_jacobesau_2
+  - first:
+      213: -5055756102684025257
+    second: achievement_jacobesau_3
+  - first:
+      213: -6683714251729251706
+    second: achievement_jacobesau_4
+  - first:
+      213: 2484755838657151274
+    second: achievement_jacobesau_5
+  - first:
+      213: -5996728682475121874
+    second: achievement_jacobesau_6
+  - first:
+      213: -5635544449962837473
+    second: achievement_jacobesau_7
+  - first:
+      213: 9172139151766643037
+    second: achievement_jacobesau_8
+  - first:
+      213: 824554327868290900
+    second: achievement_jacobesau_9
+  - first:
+      213: 1586638619276700773
+    second: achievement_jacobesau_10
+  - first:
+      213: -6038893378026974897
+    second: achievement_jacobesau_11
+  - first:
+      213: -2867145384378136578
+    second: achievement_jacobesau_12
+  - first:
+      213: -6548380789269829240
+    second: achievement_jacobesau_13
+  - first:
+      213: 1900778825634645992
+    second: achievement_jacobesau_14
+  - first:
+      213: -3124908478928582611
+    second: achievement_jacobesau_15
+  - first:
+      213: 4170143541006151035
+    second: achievement_jacobesau_16
+  - first:
+      213: -1559948825555774452
+    second: achievement_jacobesau_17
+  - first:
+      213: -1467222943227996780
+    second: achievement_jacobesau_18
+  - first:
+      213: -4832404906839956598
+    second: achievement_jacobesau_19
+  - first:
+      213: 3381147255359287056
+    second: achievement_jacobesau_20
+  - first:
+      213: -5107391228855775251
+    second: achievement_jacobesau_21
+  - first:
+      213: 5909059270537869215
+    second: achievement_jacobesau_22
+  - first:
+      213: -1169029756013458201
+    second: achievement_jacobesau_23
+  - first:
+      213: 1764516342132389548
+    second: achievement_jacobesau_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_jacobesau_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 151
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c677913d23200270800000000000000
+      internalID: 8214604397336295107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 138
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a235052a764454db0800000000000000
+      internalID: -4808361815252643030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 134
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a807dba5fed82f90800000000000000
+      internalID: -6978082475879233376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e51847c9856d9b0800000000000000
+      internalID: -5055756102684025257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 149
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6825675cc4dae33a0800000000000000
+      internalID: -6683714251729251706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 135
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21ccbc3540ab7220800000000000000
+      internalID: 2484755838657151274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 137
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e239caa090757cca0800000000000000
+      internalID: -5996728682475121874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 115
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a7a006e268ac1b0800000000000000
+      internalID: -5635544449962837473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 112
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51e08366fbf94f70800000000000000
+      internalID: 9172139151766643037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 118
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457b992eac7617b00800000000000000
+      internalID: 824554327868290900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_10
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 108
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c67e8fa6fd40610800000000000000
+      internalID: 1586638619276700773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 110
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f415e36d77a813ca0800000000000000
+      internalID: -6038893378026974897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 114
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef78db4b67ad538d0800000000000000
+      internalID: -2867145384378136578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 116
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8896491fd5a7f15a0800000000000000
+      internalID: -6548380789269829240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 114
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7898a654ce06a10800000000000000
+      internalID: 1900778825634645992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 112
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d280bdd7b4812a4d0800000000000000
+      internalID: -3124908478928582611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 119
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7daf08c4735fd930800000000000000
+      internalID: 4170143541006151035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 115
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04d5f0eec2f95ae0800000000000000
+      internalID: -1559948825555774452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 25
+        width: 111
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495979eb18063abe0800000000000000
+      internalID: -1467222943227996780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 91
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8323f42759dfecb0800000000000000
+      internalID: -4832404906839956598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 67
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f2af0c38f3cee20800000000000000
+      internalID: 3381147255359287056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 55
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def0b1bccb6ee19b0800000000000000
+      internalID: -5107391228855775251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 68
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9773295912310250800000000000000
+      internalID: 5909059270537869215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_23
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 46
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecc4f471a5c6cfe0800000000000000
+      internalID: -1169029756013458201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_jacobesau_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 31
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca63c2da342dc7810800000000000000
+      internalID: 1764516342132389548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_jacobesau_0: 8214604397336295107
+      achievement_jacobesau_1: -4808361815252643030
+      achievement_jacobesau_10: 1586638619276700773
+      achievement_jacobesau_11: -6038893378026974897
+      achievement_jacobesau_12: -2867145384378136578
+      achievement_jacobesau_13: -6548380789269829240
+      achievement_jacobesau_14: 1900778825634645992
+      achievement_jacobesau_15: -3124908478928582611
+      achievement_jacobesau_16: 4170143541006151035
+      achievement_jacobesau_17: -1559948825555774452
+      achievement_jacobesau_18: -1467222943227996780
+      achievement_jacobesau_19: -4832404906839956598
+      achievement_jacobesau_2: -6978082475879233376
+      achievement_jacobesau_20: 3381147255359287056
+      achievement_jacobesau_21: -5107391228855775251
+      achievement_jacobesau_22: 5909059270537869215
+      achievement_jacobesau_23: -1169029756013458201
+      achievement_jacobesau_24: 1764516342132389548
+      achievement_jacobesau_3: -5055756102684025257
+      achievement_jacobesau_4: -6683714251729251706
+      achievement_jacobesau_5: 2484755838657151274
+      achievement_jacobesau_6: -5996728682475121874
+      achievement_jacobesau_7: -5635544449962837473
+      achievement_jacobesau_8: 9172139151766643037
+      achievement_jacobesau_9: 824554327868290900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

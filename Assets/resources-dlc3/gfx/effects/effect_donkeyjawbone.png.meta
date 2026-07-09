@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 040eab8b3b308ff4786126f333324c4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5261028655460156321
+    second: effect_donkeyjawbone_0
+  - first:
+      213: -2290534606672062644
+    second: effect_donkeyjawbone_1
+  - first:
+      213: -501694040253759989
+    second: effect_donkeyjawbone_2
+  - first:
+      213: 4867246344142879809
+    second: effect_donkeyjawbone_3
+  - first:
+      213: -879148929128625796
+    second: effect_donkeyjawbone_4
+  - first:
+      213: 5863295589678256802
+    second: effect_donkeyjawbone_5
+  - first:
+      213: 2073241713469304296
+    second: effect_donkeyjawbone_6
+  - first:
+      213: 7849011927565976527
+    second: effect_donkeyjawbone_7
+  - first:
+      213: -3386690182494170414
+    second: effect_donkeyjawbone_8
+  - first:
+      213: 7503412040534007409
+    second: effect_donkeyjawbone_9
+  - first:
+      213: -6741130498598546964
+    second: effect_donkeyjawbone_10
+  - first:
+      213: -5981714826196333561
+    second: effect_donkeyjawbone_11
+  - first:
+      213: 7276733185277463402
+    second: effect_donkeyjawbone_12
+  - first:
+      213: 427434089768141300
+    second: effect_donkeyjawbone_13
+  - first:
+      213: -7839417846982940369
+    second: effect_donkeyjawbone_14
+  - first:
+      213: 6162944722713525901
+    second: effect_donkeyjawbone_15
+  - first:
+      213: 2263878129507341618
+    second: effect_donkeyjawbone_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 228
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a38ad120bde20940800000000000000
+      internalID: 5261028655460156321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 236
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47929739e26630e0800000000000000
+      internalID: -2290534606672062644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 235
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e7eb0bdef9909f0800000000000000
+      internalID: -501694040253759989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c74f023ceeb8340800000000000000
+      internalID: 4867246344142879809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 197
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c798f96f4b2acc3f0800000000000000
+      internalID: -879148929128625796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 197
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a213e3164c9e5150800000000000000
+      internalID: 5863295589678256802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 160
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed2cd89a52a5cc10800000000000000
+      internalID: 2073241713469304296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 163
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3cf5423ca4dec60800000000000000
+      internalID: 7849011927565976527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 162
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2d124f83f0001d0800000000000000
+      internalID: -3386690182494170414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e1b6ffe79712860800000000000000
+      internalID: 7503412040534007409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 132
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce15b7e0781b272a0800000000000000
+      internalID: -6741130498598546964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 124
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c41ecde0eacfca0800000000000000
+      internalID: -5981714826196333561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 98
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b82c937462cf460800000000000000
+      internalID: 7276733185277463402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 98
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1c58d3a0d8ee500800000000000000
+      internalID: 427434089768141300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_14
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 76
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2969b0d00bc43390800000000000000
+      internalID: -7839417846982940369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e35b7929d278550800000000000000
+      internalID: 6162944722713525901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_donkeyjawbone_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2359f0c0a29ea6f10800000000000000
+      internalID: 2263878129507341618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      effect_donkeyjawbone_0: 5261028655460156321
+      effect_donkeyjawbone_1: -2290534606672062644
+      effect_donkeyjawbone_10: -6741130498598546964
+      effect_donkeyjawbone_11: -5981714826196333561
+      effect_donkeyjawbone_12: 7276733185277463402
+      effect_donkeyjawbone_13: 427434089768141300
+      effect_donkeyjawbone_14: -7839417846982940369
+      effect_donkeyjawbone_15: 6162944722713525901
+      effect_donkeyjawbone_16: 2263878129507341618
+      effect_donkeyjawbone_2: -501694040253759989
+      effect_donkeyjawbone_3: 4867246344142879809
+      effect_donkeyjawbone_4: -879148929128625796
+      effect_donkeyjawbone_5: 5863295589678256802
+      effect_donkeyjawbone_6: 2073241713469304296
+      effect_donkeyjawbone_7: 7849011927565976527
+      effect_donkeyjawbone_8: -3386690182494170414
+      effect_donkeyjawbone_9: 7503412040534007409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

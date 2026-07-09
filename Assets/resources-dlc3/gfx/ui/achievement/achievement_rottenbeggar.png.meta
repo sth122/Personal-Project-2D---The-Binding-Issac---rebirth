@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 608b29ea359e3994fbb5e43a1306cd6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6842575143460242905
+    second: achievement_rottenbeggar_0
+  - first:
+      213: -8382670083746181134
+    second: achievement_rottenbeggar_1
+  - first:
+      213: -162104048811810406
+    second: achievement_rottenbeggar_2
+  - first:
+      213: -128415069403251491
+    second: achievement_rottenbeggar_3
+  - first:
+      213: -8109592558340516592
+    second: achievement_rottenbeggar_4
+  - first:
+      213: 601987240883402689
+    second: achievement_rottenbeggar_5
+  - first:
+      213: -4500658719559266922
+    second: achievement_rottenbeggar_6
+  - first:
+      213: -8205621843477633463
+    second: achievement_rottenbeggar_7
+  - first:
+      213: -6722495256560517195
+    second: achievement_rottenbeggar_8
+  - first:
+      213: -7250581818573701709
+    second: achievement_rottenbeggar_9
+  - first:
+      213: 2729929072713649965
+    second: achievement_rottenbeggar_10
+  - first:
+      213: 6041064671639260653
+    second: achievement_rottenbeggar_11
+  - first:
+      213: 7667499426094601791
+    second: achievement_rottenbeggar_12
+  - first:
+      213: -22559231056085505
+    second: achievement_rottenbeggar_13
+  - first:
+      213: 9018373756633633965
+    second: achievement_rottenbeggar_14
+  - first:
+      213: -8028725541358727390
+    second: achievement_rottenbeggar_15
+  - first:
+      213: -6639353265134718175
+    second: achievement_rottenbeggar_16
+  - first:
+      213: 411137246672717187
+    second: achievement_rottenbeggar_17
+  - first:
+      213: 1699202606448279749
+    second: achievement_rottenbeggar_18
+  - first:
+      213: -8481343955533948553
+    second: achievement_rottenbeggar_19
+  - first:
+      213: 4784919854111738498
+    second: achievement_rottenbeggar_20
+  - first:
+      213: -4564661072673910164
+    second: achievement_rottenbeggar_21
+  - first:
+      213: 423459822624694932
+    second: achievement_rottenbeggar_22
+  - first:
+      213: -5119504768522829572
+    second: achievement_rottenbeggar_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 131
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a7229192a4a01a0800000000000000
+      internalID: -6842575143460242905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 136
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffc30dd8f5caab80800000000000000
+      internalID: -8382670083746181134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 136
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a916be9f93710cdf0800000000000000
+      internalID: -162104048811810406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 132
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc796cbc27c73ef0800000000000000
+      internalID: -128415069403251491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 137
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01556fed880f47f80800000000000000
+      internalID: -8109592558340516592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 138
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c73c24c430ba5800800000000000000
+      internalID: 601987240883402689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 137
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dc7657db27a81c0800000000000000
+      internalID: -4500658719559266922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 140
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946645a9866cf1e80800000000000000
+      internalID: -8205621843477633463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 95
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf36747e26e4b2a0800000000000000
+      internalID: -6722495256560517195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 106
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd32015042c06b90800000000000000
+      internalID: -7250581818573701709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 59
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fcb112708a2e520800000000000000
+      internalID: 2729929072713649965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 82
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded483adf4c26d350800000000000000
+      internalID: 6041064671639260653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 93
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3651e79a1e686a60800000000000000
+      internalID: 7667499426094601791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdfe76bf7adfaff0800000000000000
+      internalID: -22559231056085505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 63
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da45ad77623b72d70800000000000000
+      internalID: 9018373756633633965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_15
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f053c78ac349090800000000000000
+      internalID: -8028725541358727390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123b055d1674cd3a0800000000000000
+      internalID: -6639353265134718175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3850cd5c527a4b500800000000000000
+      internalID: 411137246672717187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_18
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c084ce84c7c49710800000000000000
+      internalID: 1699202606448279749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7791e78cb963c4a80800000000000000
+      internalID: -8481343955533948553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a4b077143776240800000000000000
+      internalID: 4784919854111738498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62d73360f017a0c0800000000000000
+      internalID: -4564661072673910164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_22
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492e130177e60e500800000000000000
+      internalID: 423459822624694932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenbeggar_23
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0474e898dd3f8b0800000000000000
+      internalID: -5119504768522829572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_rottenbeggar_0: -6842575143460242905
+      achievement_rottenbeggar_1: -8382670083746181134
+      achievement_rottenbeggar_10: 2729929072713649965
+      achievement_rottenbeggar_11: 6041064671639260653
+      achievement_rottenbeggar_12: 7667499426094601791
+      achievement_rottenbeggar_13: -22559231056085505
+      achievement_rottenbeggar_14: 9018373756633633965
+      achievement_rottenbeggar_15: -8028725541358727390
+      achievement_rottenbeggar_16: -6639353265134718175
+      achievement_rottenbeggar_17: 411137246672717187
+      achievement_rottenbeggar_18: 1699202606448279749
+      achievement_rottenbeggar_19: -8481343955533948553
+      achievement_rottenbeggar_2: -162104048811810406
+      achievement_rottenbeggar_20: 4784919854111738498
+      achievement_rottenbeggar_21: -4564661072673910164
+      achievement_rottenbeggar_22: 423459822624694932
+      achievement_rottenbeggar_23: -5119504768522829572
+      achievement_rottenbeggar_3: -128415069403251491
+      achievement_rottenbeggar_4: -8109592558340516592
+      achievement_rottenbeggar_5: 601987240883402689
+      achievement_rottenbeggar_6: -4500658719559266922
+      achievement_rottenbeggar_7: -8205621843477633463
+      achievement_rottenbeggar_8: -6722495256560517195
+      achievement_rottenbeggar_9: -7250581818573701709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

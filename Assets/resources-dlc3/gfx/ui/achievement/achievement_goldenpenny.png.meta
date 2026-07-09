@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 83060816b2e453342a2c99f10961085a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 638262832067203050
+    second: achievement_goldenpenny_0
+  - first:
+      213: 4882436646928502110
+    second: achievement_goldenpenny_1
+  - first:
+      213: 8898169329385226399
+    second: achievement_goldenpenny_2
+  - first:
+      213: -6655177458202363379
+    second: achievement_goldenpenny_3
+  - first:
+      213: 5347235135445095002
+    second: achievement_goldenpenny_4
+  - first:
+      213: -6387966086004160998
+    second: achievement_goldenpenny_5
+  - first:
+      213: 8895773211628822187
+    second: achievement_goldenpenny_6
+  - first:
+      213: -264883888117251910
+    second: achievement_goldenpenny_7
+  - first:
+      213: 3647005210885812653
+    second: achievement_goldenpenny_8
+  - first:
+      213: -3423716436965430063
+    second: achievement_goldenpenny_9
+  - first:
+      213: -9201691307655709384
+    second: achievement_goldenpenny_10
+  - first:
+      213: -3144833736883113748
+    second: achievement_goldenpenny_11
+  - first:
+      213: -7976896796417869258
+    second: achievement_goldenpenny_12
+  - first:
+      213: -7388680684155442152
+    second: achievement_goldenpenny_13
+  - first:
+      213: -2582756424081473881
+    second: achievement_goldenpenny_14
+  - first:
+      213: 5472582348192074270
+    second: achievement_goldenpenny_15
+  - first:
+      213: -3009880662097711158
+    second: achievement_goldenpenny_16
+  - first:
+      213: 8750319525231734818
+    second: achievement_goldenpenny_17
+  - first:
+      213: -5510672266257466374
+    second: achievement_goldenpenny_18
+  - first:
+      213: -7818072018107904137
+    second: achievement_goldenpenny_19
+  - first:
+      213: -4670571908322810229
+    second: achievement_goldenpenny_20
+  - first:
+      213: 6430288458832991002
+    second: achievement_goldenpenny_21
+  - first:
+      213: 3012099500131789798
+    second: achievement_goldenpenny_22
+  - first:
+      213: -7144561434470442143
+    second: achievement_goldenpenny_23
+  - first:
+      213: 6050320541513977111
+    second: achievement_goldenpenny_24
+  - first:
+      213: 4840021062797898393
+    second: achievement_goldenpenny_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_goldenpenny_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 139
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef43b20aa09bd800800000000000000
+      internalID: 638262832067203050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 129
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dc58a1346e1c340800000000000000
+      internalID: 4882436646928502110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 131
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90484d4cd5ac7b70800000000000000
+      internalID: 8898169329385226399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 132
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a39a6cc5f04a3a0800000000000000
+      internalID: -6655177458202363379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 140
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5251ba5602353a40800000000000000
+      internalID: 5347235135445095002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 112
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16ca7e80b26957a0800000000000000
+      internalID: -6387966086004160998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 105
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae5299aa92247b70800000000000000
+      internalID: 8895773211628822187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 58
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab00c06d181f25cf0800000000000000
+      internalID: -264883888117251910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 115
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1f8d8aae3cc9230800000000000000
+      internalID: 3647005210885812653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 99
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc620b4a048c70d0800000000000000
+      internalID: -3423716436965430063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 61
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83db16222860d4080800000000000000
+      internalID: -9201691307655709384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 82
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0fa6bd06e4b54d0800000000000000
+      internalID: -3144833736883113748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 59
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63abf8780ae5c4190800000000000000
+      internalID: -7976896796417869258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 56
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cef1e8012267990800000000000000
+      internalID: -7388680684155442152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 44
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aef34167b4382cd0800000000000000
+      internalID: -2582756424081473881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 47
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1acf0496a482fb40800000000000000
+      internalID: 5472582348192074270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_16
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 49
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf295f1c71ca36d0800000000000000
+      internalID: -3009880662097711158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2203a9c3f316f6970800000000000000
+      internalID: 8750319525231734818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb702845c82683b0800000000000000
+      internalID: -5510672266257466374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fc144ebe0a08390800000000000000
+      internalID: -7818072018107904137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86208a589bce2fb0800000000000000
+      internalID: -4670571908322810229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13d800c849fc3950800000000000000
+      internalID: 6430288458832991002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebac7d59802dc920800000000000000
+      internalID: 3012099500131789798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b1f669a3b69dc90800000000000000
+      internalID: -7144561434470442143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d803ef97e07f350800000000000000
+      internalID: 6050320541513977111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_goldenpenny_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9923a7953853b2340800000000000000
+      internalID: 4840021062797898393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_goldenpenny_0: 638262832067203050
+      achievement_goldenpenny_1: 4882436646928502110
+      achievement_goldenpenny_10: -9201691307655709384
+      achievement_goldenpenny_11: -3144833736883113748
+      achievement_goldenpenny_12: -7976896796417869258
+      achievement_goldenpenny_13: -7388680684155442152
+      achievement_goldenpenny_14: -2582756424081473881
+      achievement_goldenpenny_15: 5472582348192074270
+      achievement_goldenpenny_16: -3009880662097711158
+      achievement_goldenpenny_17: 8750319525231734818
+      achievement_goldenpenny_18: -5510672266257466374
+      achievement_goldenpenny_19: -7818072018107904137
+      achievement_goldenpenny_2: 8898169329385226399
+      achievement_goldenpenny_20: -4670571908322810229
+      achievement_goldenpenny_21: 6430288458832991002
+      achievement_goldenpenny_22: 3012099500131789798
+      achievement_goldenpenny_23: -7144561434470442143
+      achievement_goldenpenny_24: 6050320541513977111
+      achievement_goldenpenny_25: 4840021062797898393
+      achievement_goldenpenny_3: -6655177458202363379
+      achievement_goldenpenny_4: 5347235135445095002
+      achievement_goldenpenny_5: -6387966086004160998
+      achievement_goldenpenny_6: 8895773211628822187
+      achievement_goldenpenny_7: -264883888117251910
+      achievement_goldenpenny_8: 3647005210885812653
+      achievement_goldenpenny_9: -3423716436965430063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

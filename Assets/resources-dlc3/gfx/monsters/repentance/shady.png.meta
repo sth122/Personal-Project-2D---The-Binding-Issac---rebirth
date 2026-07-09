@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 6850a4cc9f68176409195c403074e470
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8288211212929707036
+    second: shady_0
+  - first:
+      213: 5604822924704029759
+    second: shady_1
+  - first:
+      213: 4731560190716401301
+    second: shady_2
+  - first:
+      213: 7063114544801000578
+    second: shady_3
+  - first:
+      213: -45057789832747112
+    second: shady_4
+  - first:
+      213: -7473751398477204731
+    second: shady_5
+  - first:
+      213: -533209933662369305
+    second: shady_6
+  - first:
+      213: -6348442194629488940
+    second: shady_7
+  - first:
+      213: -917086179318543818
+    second: shady_8
+  - first:
+      213: -2798304660425838238
+    second: shady_9
+  - first:
+      213: -6036976055737725725
+    second: shady_10
+  - first:
+      213: 7319358782116819572
+    second: shady_11
+  - first:
+      213: 3992802799154118304
+    second: shady_12
+  - first:
+      213: -4870425924036290701
+    second: shady_13
+  - first:
+      213: -2419571660376718501
+    second: shady_14
+  - first:
+      213: 3884234659361514342
+    second: shady_15
+  - first:
+      213: -6614671018770653936
+    second: shady_16
+  - first:
+      213: -3336995764189489316
+    second: shady_17
+  - first:
+      213: -6178579835414479253
+    second: shady_18
+  - first:
+      213: 1206537430919108066
+    second: shady_19
+  - first:
+      213: 2866041938745604847
+    second: shady_20
+  - first:
+      213: 6053461379310861861
+    second: shady_21
+  - first:
+      213: -781380889534294528
+    second: shady_22
+  - first:
+      213: -4983115681698894575
+    second: shady_23
+  - first:
+      213: 978489321911206934
+    second: shady_24
+  - first:
+      213: -9153583335281949786
+    second: shady_25
+  - first:
+      213: 3475885324824019147
+    second: shady_26
+  - first:
+      213: -8920195833208513257
+    second: shady_27
+  - first:
+      213: 927700487367106540
+    second: shady_28
+  - first:
+      213: -7715600743435540795
+    second: shady_29
+  - first:
+      213: -7967909693329285142
+    second: shady_30
+  - first:
+      213: 7234015911273860516
+    second: shady_31
+  - first:
+      213: -3982635455534974563
+    second: shady_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shady_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 193
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e35aed80db5afc80800000000000000
+      internalID: -8288211212929707036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 260
+        width: 98
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c13ff11c458cd40800000000000000
+      internalID: 5604822924704029759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 268
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596d701bce0e9a140800000000000000
+      internalID: 4731560190716401301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 268
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c22caa149350260800000000000000
+      internalID: 7063114544801000578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 261
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897a7aacd2cef5ff0800000000000000
+      internalID: -45057789832747112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 207
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503ff2263b6e74890800000000000000
+      internalID: -7473751398477204731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 207
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e94851f368a998f0800000000000000
+      internalID: -533209933662369305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 207
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de0200a57dc5e7a0800000000000000
+      internalID: -6348442194629488940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_8
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 207
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a4c459afad543f0800000000000000
+      internalID: -917086179318543818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 207
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2617ff5ccbc6a29d0800000000000000
+      internalID: -2798304660425838238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_10
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 207
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecc638334a583ca0800000000000000
+      internalID: -6036976055737725725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 207
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47275bf5806939560800000000000000
+      internalID: 7319358782116819572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_12
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 207
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae34c5bdf8496730800000000000000
+      internalID: 3992802799154118304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 143
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37796fc3d65c86cb0800000000000000
+      internalID: -4870425924036290701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 143
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53c4a2f464fb6ed0800000000000000
+      internalID: -2419571660376718501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_15
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 143
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663e087d7d297e530800000000000000
+      internalID: 3884234659361514342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 143
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d9a1421c7f334a0800000000000000
+      internalID: -6614671018770653936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 79
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57908a580c90b1d0800000000000000
+      internalID: -3336995764189489316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 79
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e7abd0066414aa0800000000000000
+      internalID: -6178579835414479253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 79
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e55522a66b7eb010800000000000000
+      internalID: 1206537430919108066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 79
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feabd4655f936c720800000000000000
+      internalID: 2866041938745604847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 79
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ebe574d07320450800000000000000
+      internalID: 6053461379310861861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_22
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 79
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006970d883af725f0800000000000000
+      internalID: -781380889534294528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_23
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 79
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11da8ad60ba68dab0800000000000000
+      internalID: -4983115681698894575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_24
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 79
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614c701aada449d00800000000000000
+      internalID: 978489321911206934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 15
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3859e4470f7f080800000000000000
+      internalID: -9153583335281949786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 15
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc001227943dc3030800000000000000
+      internalID: 3475885324824019147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 15
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ddfa2a629153480800000000000000
+      internalID: -8920195833208513257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 15
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef19779daadfdc00800000000000000
+      internalID: 927700487367106540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_29
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 15
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6e8cab00eace490800000000000000
+      internalID: -7715600743435540795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_30
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 15
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef57b6895c4c6190800000000000000
+      internalID: -7967909693329285142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_31
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 13
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad8003d423646460800000000000000
+      internalID: 7234015911273860516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shady_32
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 15
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9936f27726dab8c0800000000000000
+      internalID: -3982635455534974563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shady_0: -8288211212929707036
+      shady_1: 5604822924704029759
+      shady_10: -6036976055737725725
+      shady_11: 7319358782116819572
+      shady_12: 3992802799154118304
+      shady_13: -4870425924036290701
+      shady_14: -2419571660376718501
+      shady_15: 3884234659361514342
+      shady_16: -6614671018770653936
+      shady_17: -3336995764189489316
+      shady_18: -6178579835414479253
+      shady_19: 1206537430919108066
+      shady_2: 4731560190716401301
+      shady_20: 2866041938745604847
+      shady_21: 6053461379310861861
+      shady_22: -781380889534294528
+      shady_23: -4983115681698894575
+      shady_24: 978489321911206934
+      shady_25: -9153583335281949786
+      shady_26: 3475885324824019147
+      shady_27: -8920195833208513257
+      shady_28: 927700487367106540
+      shady_29: -7715600743435540795
+      shady_3: 7063114544801000578
+      shady_30: -7967909693329285142
+      shady_31: 7234015911273860516
+      shady_32: -3982635455534974563
+      shady_4: -45057789832747112
+      shady_5: -7473751398477204731
+      shady_6: -533209933662369305
+      shady_7: -6348442194629488940
+      shady_8: -917086179318543818
+      shady_9: -2798304660425838238
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

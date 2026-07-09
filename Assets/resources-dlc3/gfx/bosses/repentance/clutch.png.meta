@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 1d0f633accbf24c4f83ed649626b5997
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2202115970514994485
+    second: clutch_0
+  - first:
+      213: 4559366622152919312
+    second: clutch_1
+  - first:
+      213: -8443888692443548530
+    second: clutch_2
+  - first:
+      213: 8763136056812091165
+    second: clutch_3
+  - first:
+      213: -8230593759566172782
+    second: clutch_4
+  - first:
+      213: -4660639243992482450
+    second: clutch_5
+  - first:
+      213: 7022956514017456388
+    second: clutch_6
+  - first:
+      213: -4636478661955903671
+    second: clutch_7
+  - first:
+      213: -2633547651681225094
+    second: clutch_8
+  - first:
+      213: 155812035998264515
+    second: clutch_9
+  - first:
+      213: 8619417421418719104
+    second: clutch_10
+  - first:
+      213: 8109109106190514549
+    second: clutch_11
+  - first:
+      213: 6032779571245976984
+    second: clutch_12
+  - first:
+      213: -86452104793669239
+    second: clutch_13
+  - first:
+      213: 8002350455120863413
+    second: clutch_14
+  - first:
+      213: 3890977438440301076
+    second: clutch_15
+  - first:
+      213: 8130586643490042906
+    second: clutch_16
+  - first:
+      213: 3834046164388745386
+    second: clutch_17
+  - first:
+      213: -7084209253896767484
+    second: clutch_18
+  - first:
+      213: -4855727326233553486
+    second: clutch_19
+  - first:
+      213: 2627841795623162328
+    second: clutch_20
+  - first:
+      213: -8911695403108868792
+    second: clutch_21
+  - first:
+      213: 1471017283893746289
+    second: clutch_22
+  - first:
+      213: -184914458654215102
+    second: clutch_23
+  - first:
+      213: 5277039493848441321
+    second: clutch_24
+  - first:
+      213: 3518388466989483372
+    second: clutch_25
+  - first:
+      213: -3226262476565148539
+    second: clutch_26
+  - first:
+      213: -306876081843942065
+    second: clutch_27
+  - first:
+      213: -5879588917310048241
+    second: clutch_28
+  - first:
+      213: 8482481053779557613
+    second: clutch_29
+  - first:
+      213: 1086160277879391084
+    second: clutch_30
+  - first:
+      213: -8108668111263669956
+    second: clutch_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clutch_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 178
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535c2c0decc7f8e10800000000000000
+      internalID: 2202115970514994485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 178
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019823a49cf164f30800000000000000
+      internalID: 4559366622152919312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 178
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84f6fbc8f741da80800000000000000
+      internalID: -8443888692443548530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 178
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17b3b880d9ec9970800000000000000
+      internalID: 8763136056812091165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 178
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29de28e459e07cd80800000000000000
+      internalID: -8230593759566172782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 179
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d359bfc45125fb0800000000000000
+      internalID: -4660639243992482450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 179
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401b6038dbd867160800000000000000
+      internalID: 7022956514017456388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 178
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f9079d83be7afb0800000000000000
+      internalID: -4636478661955903671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 122
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76f97a2d52c37bd0800000000000000
+      internalID: -2633547651681225094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_9
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 122
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc2861a83e892200800000000000000
+      internalID: 155812035998264515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 122
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087e9762a725e9770800000000000000
+      internalID: 8619417421418719104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_11
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 122
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579fe57a4c7598070800000000000000
+      internalID: 8109109106190514549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_12
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 122
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d89589e0db8b350800000000000000
+      internalID: 6032779571245976984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 122
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98140bbc44cdccef0800000000000000
+      internalID: -86452104793669239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_14
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 122
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b02aa5375f0e0f60800000000000000
+      internalID: 8002350455120863413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_15
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 121
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4122b4f6d578ff530800000000000000
+      internalID: 3890977438440301076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 66
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1472cc7975a5d070800000000000000
+      internalID: 8130586643490042906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_17
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 66
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa017d04ca4453530800000000000000
+      internalID: 3834046164388745386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_18
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 66
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408b2f2a735dfad90800000000000000
+      internalID: -7084209253896767484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 66
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b511b939bdfc9cb0800000000000000
+      internalID: -4855727326233553486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_20
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 65
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d11b02b038f77420800000000000000
+      internalID: 2627841795623162328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_21
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 66
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84dd63f3f3c435480800000000000000
+      internalID: -8911695403108868792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_22
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 66
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a52f80d6a1a6410800000000000000
+      internalID: 1471017283893746289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_23
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 66
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244f412974d0f6df0800000000000000
+      internalID: -184914458654215102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e12b80f57fcb3940800000000000000
+      internalID: 5277039493848441321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 10
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c654db46ba3d3d030800000000000000
+      internalID: 3518388466989483372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_26
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 10
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c892cfe530a33d0800000000000000
+      internalID: -3226262476565148539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_27
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 10
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dc0a754d1cdbbf0800000000000000
+      internalID: -306876081843942065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_28
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 10
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f083966f701876ea0800000000000000
+      internalID: -5879588917310048241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_29
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 10
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decf2888393d7b570800000000000000
+      internalID: 8482481053779557613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_30
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 11
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63042c9401d21f00800000000000000
+      internalID: 1086160277879391084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutch_31
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 11
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31679a7059387f80800000000000000
+      internalID: -8108668111263669956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clutch_0: 2202115970514994485
+      clutch_1: 4559366622152919312
+      clutch_10: 8619417421418719104
+      clutch_11: 8109109106190514549
+      clutch_12: 6032779571245976984
+      clutch_13: -86452104793669239
+      clutch_14: 8002350455120863413
+      clutch_15: 3890977438440301076
+      clutch_16: 8130586643490042906
+      clutch_17: 3834046164388745386
+      clutch_18: -7084209253896767484
+      clutch_19: -4855727326233553486
+      clutch_2: -8443888692443548530
+      clutch_20: 2627841795623162328
+      clutch_21: -8911695403108868792
+      clutch_22: 1471017283893746289
+      clutch_23: -184914458654215102
+      clutch_24: 5277039493848441321
+      clutch_25: 3518388466989483372
+      clutch_26: -3226262476565148539
+      clutch_27: -306876081843942065
+      clutch_28: -5879588917310048241
+      clutch_29: 8482481053779557613
+      clutch_3: 8763136056812091165
+      clutch_30: 1086160277879391084
+      clutch_31: -8108668111263669956
+      clutch_4: -8230593759566172782
+      clutch_5: -4660639243992482450
+      clutch_6: 7022956514017456388
+      clutch_7: -4636478661955903671
+      clutch_8: -2633547651681225094
+      clutch_9: 155812035998264515
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: a5ac0d59e10929b4ea5f30db4784ed26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4087159759318736400
+    second: grid_rails_mineshaft_0
+  - first:
+      213: 570966590817531847
+    second: grid_rails_mineshaft_1
+  - first:
+      213: 4672404990570133747
+    second: grid_rails_mineshaft_2
+  - first:
+      213: 5770050209155113238
+    second: grid_rails_mineshaft_3
+  - first:
+      213: 1912484720241113100
+    second: grid_rails_mineshaft_4
+  - first:
+      213: -7861217170337427849
+    second: grid_rails_mineshaft_5
+  - first:
+      213: 6814001945784730840
+    second: grid_rails_mineshaft_6
+  - first:
+      213: 4159795147351114050
+    second: grid_rails_mineshaft_7
+  - first:
+      213: 7912937428550998669
+    second: grid_rails_mineshaft_8
+  - first:
+      213: -6604503406772380948
+    second: grid_rails_mineshaft_9
+  - first:
+      213: -3226910471225559635
+    second: grid_rails_mineshaft_10
+  - first:
+      213: -6206773096249272062
+    second: grid_rails_mineshaft_11
+  - first:
+      213: -839404121523442751
+    second: grid_rails_mineshaft_12
+  - first:
+      213: -1008575232577730691
+    second: grid_rails_mineshaft_13
+  - first:
+      213: -3823523848034214060
+    second: grid_rails_mineshaft_14
+  - first:
+      213: -2131454884356049740
+    second: grid_rails_mineshaft_15
+  - first:
+      213: 5632443107567290126
+    second: grid_rails_mineshaft_16
+  - first:
+      213: 8807005686455174479
+    second: grid_rails_mineshaft_17
+  - first:
+      213: -2689824430706353746
+    second: grid_rails_mineshaft_18
+  - first:
+      213: 6021358241995694357
+    second: grid_rails_mineshaft_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f129858add7747c0800000000000000
+      internalID: -4087159759318736400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 181
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c77b48d61b7ce700800000000000000
+      internalID: 570966590817531847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 182
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8f1bd5597b7d040800000000000000
+      internalID: 4672404990570133747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 182
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611ebdc1816531050800000000000000
+      internalID: 5770050209155113238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 184
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08755468b28a8a10800000000000000
+      internalID: 1912484720241113100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 182
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e06d352a857e290800000000000000
+      internalID: -7861217170337427849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 184
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4c155eaa2309e50800000000000000
+      internalID: 6814001945784730840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 132
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241c140a5af8ab930800000000000000
+      internalID: 4159795147351114050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 129
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8adcaeaaa660dd60800000000000000
+      internalID: 7912937428550998669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 156
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea9979c4271854a0800000000000000
+      internalID: -6604503406772380948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 155
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5bc98f506b733d0800000000000000
+      internalID: -3226910471225559635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 157
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2095c9cf0cc1dd9a0800000000000000
+      internalID: -6206773096249272062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 134
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cba8991666d954f0800000000000000
+      internalID: -839404121523442751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 156
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7782fc6b22d002f0800000000000000
+      internalID: -1008575232577730691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f9faf615d10fac0800000000000000
+      internalID: -3823523848034214060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_15
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 133
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4bf2b531d8b62e0800000000000000
+      internalID: -2131454884356049740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0745241a257a2e40800000000000000
+      internalID: 5632443107567290126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 77
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f458104a205c83a70800000000000000
+      internalID: 8807005686455174479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 25
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9949b7ee2dbaad0800000000000000
+      internalID: -2689824430706353746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grid_rails_mineshaft_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 25
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51126872b69209350800000000000000
+      internalID: 6021358241995694357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      grid_rails_mineshaft_0: -4087159759318736400
+      grid_rails_mineshaft_1: 570966590817531847
+      grid_rails_mineshaft_10: -3226910471225559635
+      grid_rails_mineshaft_11: -6206773096249272062
+      grid_rails_mineshaft_12: -839404121523442751
+      grid_rails_mineshaft_13: -1008575232577730691
+      grid_rails_mineshaft_14: -3823523848034214060
+      grid_rails_mineshaft_15: -2131454884356049740
+      grid_rails_mineshaft_16: 5632443107567290126
+      grid_rails_mineshaft_17: 8807005686455174479
+      grid_rails_mineshaft_18: -2689824430706353746
+      grid_rails_mineshaft_19: 6021358241995694357
+      grid_rails_mineshaft_2: 4672404990570133747
+      grid_rails_mineshaft_3: 5770050209155113238
+      grid_rails_mineshaft_4: 1912484720241113100
+      grid_rails_mineshaft_5: -7861217170337427849
+      grid_rails_mineshaft_6: 6814001945784730840
+      grid_rails_mineshaft_7: 4159795147351114050
+      grid_rails_mineshaft_8: 7912937428550998669
+      grid_rails_mineshaft_9: -6604503406772380948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

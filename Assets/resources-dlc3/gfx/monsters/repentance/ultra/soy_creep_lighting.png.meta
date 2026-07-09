@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: f4ddbf3992e72d5458a9f3d20abd3c04
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6512928633757673579
+    second: soy_creep_lighting_0
+  - first:
+      213: -6322978775985273897
+    second: soy_creep_lighting_1
+  - first:
+      213: 6442522289085403106
+    second: soy_creep_lighting_2
+  - first:
+      213: -3113878212663561074
+    second: soy_creep_lighting_3
+  - first:
+      213: -4164325123575865105
+    second: soy_creep_lighting_4
+  - first:
+      213: 3743264787337039324
+    second: soy_creep_lighting_5
+  - first:
+      213: 8259895909677226454
+    second: soy_creep_lighting_6
+  - first:
+      213: -1342759488753727959
+    second: soy_creep_lighting_7
+  - first:
+      213: -2393498325667755472
+    second: soy_creep_lighting_8
+  - first:
+      213: -5147054265877571762
+    second: soy_creep_lighting_9
+  - first:
+      213: 5418891959727656384
+    second: soy_creep_lighting_10
+  - first:
+      213: -6799491746510755653
+    second: soy_creep_lighting_11
+  - first:
+      213: -1470553353794217980
+    second: soy_creep_lighting_12
+  - first:
+      213: 1357921148002774048
+    second: soy_creep_lighting_13
+  - first:
+      213: 1213112439239363780
+    second: soy_creep_lighting_14
+  - first:
+      213: 5115645462839038073
+    second: soy_creep_lighting_15
+  - first:
+      213: -7902716786489107646
+    second: soy_creep_lighting_16
+  - first:
+      213: 3078038302692087484
+    second: soy_creep_lighting_17
+  - first:
+      213: -8308810703494920943
+    second: soy_creep_lighting_18
+  - first:
+      213: 4308395359799376019
+    second: soy_creep_lighting_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soy_creep_lighting_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 119
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68a89ed512926a50800000000000000
+      internalID: 6512928633757673579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 119
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d34017cd444048a0800000000000000
+      internalID: -6322978775985273897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 121
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efc87253ef686950800000000000000
+      internalID: 6442522289085403106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 121
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e843c5c734849c4d0800000000000000
+      internalID: -3113878212663561074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 121
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0a6081d585536c0800000000000000
+      internalID: -4164325123575865105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 121
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddc37dcd7fb2f330800000000000000
+      internalID: 3743264787337039324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_6
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 120
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9530a219b01a270800000000000000
+      internalID: 8259895909677226454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 120
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9268c06fb5f8d5de0800000000000000
+      internalID: -1342759488753727959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 72
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ac41044f598ced0800000000000000
+      internalID: -2393498325667755472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4755ba5a6df198b0800000000000000
+      internalID: -5147054265877571762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 75
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd89cfd685c33b40800000000000000
+      internalID: 5418891959727656384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 79
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8a604284a53a1a0800000000000000
+      internalID: -6799491746510755653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_12
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 67
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40816db148b879be0800000000000000
+      internalID: -1470553353794217980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 67
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c22bbe61e48d210800000000000000
+      internalID: 1357921148002774048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 18
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc487d0657d5d010800000000000000
+      internalID: 1213112439239363780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9701c51d17c6ef640800000000000000
+      internalID: 5115645462839038073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 18
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bdcccf3f8e35290800000000000000
+      internalID: -7902716786489107646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 18
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb61205378367ba20800000000000000
+      internalID: 3078038302692087484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_18
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 18
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115c838efac21bc80800000000000000
+      internalID: -8308810703494920943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soy_creep_lighting_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 18
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39878ccb0ce7acb30800000000000000
+      internalID: 4308395359799376019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      soy_creep_lighting_0: 6512928633757673579
+      soy_creep_lighting_1: -6322978775985273897
+      soy_creep_lighting_10: 5418891959727656384
+      soy_creep_lighting_11: -6799491746510755653
+      soy_creep_lighting_12: -1470553353794217980
+      soy_creep_lighting_13: 1357921148002774048
+      soy_creep_lighting_14: 1213112439239363780
+      soy_creep_lighting_15: 5115645462839038073
+      soy_creep_lighting_16: -7902716786489107646
+      soy_creep_lighting_17: 3078038302692087484
+      soy_creep_lighting_18: -8308810703494920943
+      soy_creep_lighting_19: 4308395359799376019
+      soy_creep_lighting_2: 6442522289085403106
+      soy_creep_lighting_3: -3113878212663561074
+      soy_creep_lighting_4: -4164325123575865105
+      soy_creep_lighting_5: 3743264787337039324
+      soy_creep_lighting_6: 8259895909677226454
+      soy_creep_lighting_7: -1342759488753727959
+      soy_creep_lighting_8: -2393498325667755472
+      soy_creep_lighting_9: -5147054265877571762
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

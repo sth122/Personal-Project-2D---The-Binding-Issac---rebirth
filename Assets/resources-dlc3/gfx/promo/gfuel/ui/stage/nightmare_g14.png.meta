@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 1904f197c9edfa847b4fda48489a2659
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -231402975234267389
+    second: nightmare_g14_0
+  - first:
+      213: 5919105943730570874
+    second: nightmare_g14_1
+  - first:
+      213: -7584729183477064842
+    second: nightmare_g14_2
+  - first:
+      213: -3515964072515114294
+    second: nightmare_g14_3
+  - first:
+      213: -349351063356851738
+    second: nightmare_g14_4
+  - first:
+      213: 7391912886227315232
+    second: nightmare_g14_5
+  - first:
+      213: 5027926547281752110
+    second: nightmare_g14_6
+  - first:
+      213: 2529141567947214562
+    second: nightmare_g14_7
+  - first:
+      213: -8471101536803170650
+    second: nightmare_g14_8
+  - first:
+      213: 5546101000650634615
+    second: nightmare_g14_9
+  - first:
+      213: -2297183157547855669
+    second: nightmare_g14_10
+  - first:
+      213: -3409542615785378536
+    second: nightmare_g14_11
+  - first:
+      213: -7650775774008623738
+    second: nightmare_g14_12
+  - first:
+      213: 925472948474169384
+    second: nightmare_g14_13
+  - first:
+      213: 396668762523828347
+    second: nightmare_g14_14
+  - first:
+      213: 8806090711767968100
+    second: nightmare_g14_15
+  - first:
+      213: -1911423733030652917
+    second: nightmare_g14_16
+  - first:
+      213: 4940615374802592585
+    second: nightmare_g14_17
+  - first:
+      213: 8167520446847077307
+    second: nightmare_g14_18
+  - first:
+      213: 6169929762860471571
+    second: nightmare_g14_19
+  - first:
+      213: -8898366808567808152
+    second: nightmare_g14_20
+  - first:
+      213: 7775670567057384808
+    second: nightmare_g14_21
+  - first:
+      213: 5652711203947665902
+    second: nightmare_g14_22
+  - first:
+      213: 1537939270789766876
+    second: nightmare_g14_23
+  - first:
+      213: 5752588838226293434
+    second: nightmare_g14_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nightmare_g14_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 184
+        width: 135
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30761355834e9ccf0800000000000000
+      internalID: -231402975234267389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 226
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76c6fbbe73e42250800000000000000
+      internalID: 5919105943730570874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 227
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b9f454ef0adb690800000000000000
+      internalID: -7584729183477064842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 226
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca63beed49c43fc0800000000000000
+      internalID: -3515964072515114294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_4
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 209
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9b5be0f0bd62bf0800000000000000
+      internalID: -349351063356851738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 179
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a26322b99559660800000000000000
+      internalID: 7391912886227315232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 168
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e203c7f3e88c6c540800000000000000
+      internalID: 5027926547281752110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 171
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee0b282bd0591320800000000000000
+      internalID: 2529141567947214562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 162
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6d49ab80a907a80800000000000000
+      internalID: -8471101536803170650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 160
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7753830c975b7fc40800000000000000
+      internalID: 5546101000650634615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_10
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 162
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc09956d614ce10e0800000000000000
+      internalID: -2297183157547855669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_11
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 157
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d6e833e0fdea0d0800000000000000
+      internalID: -3409542615785378536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 159
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d3d0618fbf2d590800000000000000
+      internalID: -7650775774008623738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82849074eb0f7dc00800000000000000
+      internalID: 925472948474169384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b700abb4320418500800000000000000
+      internalID: 396668762523828347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_15
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469ebce78d4853a70800000000000000
+      internalID: 8806090711767968100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04f471fd324975e0800000000000000
+      internalID: -1911423733030652917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94321f2c187909440800000000000000
+      internalID: 4940615374802592585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb4f02b29cd85170800000000000000
+      internalID: 8167520446847077307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8
+        width: 16
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315986cfd6eff9550800000000000000
+      internalID: 6169929762860471571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 12
+        width: 56
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f703e7886a28480800000000000000
+      internalID: -8898366808567808152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 21
+        width: 48
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8656ae7fe2bb8eb60800000000000000
+      internalID: 7775670567057384808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_22
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 25
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9db2104e6727e40800000000000000
+      internalID: 5652711203947665902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_23
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 29
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde1c815e9bd75510800000000000000
+      internalID: 1537939270789766876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nightmare_g14_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 6
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2fa51e11d45df40800000000000000
+      internalID: 5752588838226293434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nightmare_g14_0: -231402975234267389
+      nightmare_g14_1: 5919105943730570874
+      nightmare_g14_10: -2297183157547855669
+      nightmare_g14_11: -3409542615785378536
+      nightmare_g14_12: -7650775774008623738
+      nightmare_g14_13: 925472948474169384
+      nightmare_g14_14: 396668762523828347
+      nightmare_g14_15: 8806090711767968100
+      nightmare_g14_16: -1911423733030652917
+      nightmare_g14_17: 4940615374802592585
+      nightmare_g14_18: 8167520446847077307
+      nightmare_g14_19: 6169929762860471571
+      nightmare_g14_2: -7584729183477064842
+      nightmare_g14_20: -8898366808567808152
+      nightmare_g14_21: 7775670567057384808
+      nightmare_g14_22: 5652711203947665902
+      nightmare_g14_23: 1537939270789766876
+      nightmare_g14_24: 5752588838226293434
+      nightmare_g14_3: -3515964072515114294
+      nightmare_g14_4: -349351063356851738
+      nightmare_g14_5: 7391912886227315232
+      nightmare_g14_6: 5027926547281752110
+      nightmare_g14_7: 2529141567947214562
+      nightmare_g14_8: -8471101536803170650
+      nightmare_g14_9: 5546101000650634615
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

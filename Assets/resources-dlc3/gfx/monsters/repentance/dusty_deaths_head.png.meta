@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 7f3f8b800791e3e438e11bb359c6ede0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1869999172893820134
+    second: dusty_deaths_head_0
+  - first:
+      213: -2342642121778512391
+    second: dusty_deaths_head_1
+  - first:
+      213: -4773614768244562090
+    second: dusty_deaths_head_2
+  - first:
+      213: 7866740469110776176
+    second: dusty_deaths_head_3
+  - first:
+      213: -8852799696782714379
+    second: dusty_deaths_head_4
+  - first:
+      213: 2952042058586957657
+    second: dusty_deaths_head_5
+  - first:
+      213: 262823425243833400
+    second: dusty_deaths_head_6
+  - first:
+      213: -947723322434688297
+    second: dusty_deaths_head_7
+  - first:
+      213: 4637670501009468388
+    second: dusty_deaths_head_8
+  - first:
+      213: 2658664425234089482
+    second: dusty_deaths_head_9
+  - first:
+      213: 2195195686982537912
+    second: dusty_deaths_head_10
+  - first:
+      213: -5654521226071850092
+    second: dusty_deaths_head_11
+  - first:
+      213: -2708015733402111464
+    second: dusty_deaths_head_12
+  - first:
+      213: -6569969523830858462
+    second: dusty_deaths_head_13
+  - first:
+      213: 4754278868354561563
+    second: dusty_deaths_head_14
+  - first:
+      213: -5653642664157319171
+    second: dusty_deaths_head_15
+  - first:
+      213: 1566215641136014981
+    second: dusty_deaths_head_16
+  - first:
+      213: 2754967880155818734
+    second: dusty_deaths_head_17
+  - first:
+      213: -7925477445867182618
+    second: dusty_deaths_head_18
+  - first:
+      213: -4537758176205269666
+    second: dusty_deaths_head_19
+  - first:
+      213: 1812274528565346736
+    second: dusty_deaths_head_20
+  - first:
+      213: -8416946212734336073
+    second: dusty_deaths_head_21
+  - first:
+      213: -938591010680996331
+    second: dusty_deaths_head_22
+  - first:
+      213: -1276393322388522070
+    second: dusty_deaths_head_23
+  - first:
+      213: 3376208490945051299
+    second: dusty_deaths_head_24
+  - first:
+      213: -4425782751654939954
+    second: dusty_deaths_head_25
+  - first:
+      213: -9049483761467243363
+    second: dusty_deaths_head_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dusty_deaths_head_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 53
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e44c9e075293f910800000000000000
+      internalID: 1869999172893820134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 53
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd368fe6634d7fd0800000000000000
+      internalID: -2342642121778512391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 53
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6576934f8a6b0cdb0800000000000000
+      internalID: -4773614768244562090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 54
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071a981e6c64c2d60800000000000000
+      internalID: 7866740469110776176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 54
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f994957499842580800000000000000
+      internalID: -8852799696782714379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 54
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957a6189c92c7f820800000000000000
+      internalID: 2952042058586957657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 53
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8346f44438cb5a300800000000000000
+      internalID: 262823425243833400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 53
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da6de4d8a209d2f0800000000000000
+      internalID: -947723322434688297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_8
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb2afdcfb05c5040800000000000000
+      internalID: 4637670501009468388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 6
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06cb03653975e420800000000000000
+      internalID: 2658664425234089482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 52
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2501fb8d6e67e10800000000000000
+      internalID: 2195195686982537912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_11
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 52
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493c41167ea1781b0800000000000000
+      internalID: -5654521226071850092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_12
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 52
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812f564c9023b6ad0800000000000000
+      internalID: -2708015733402111464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d5beaf687c2d4a0800000000000000
+      internalID: -6569969523830858462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b167b6701779af140800000000000000
+      internalID: 4754278868354561563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffe8e383f93a81b0800000000000000
+      internalID: -5653642664157319171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586a293d3d05cb510800000000000000
+      internalID: 1566215641136014981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 10
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea6c48c0bc9b3620800000000000000
+      internalID: 2754967880155818734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_18
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 11
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e567b3014c030290800000000000000
+      internalID: -7925477445867182618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_19
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 6
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5519a61bf4a601c0800000000000000
+      internalID: -4537758176205269666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 32
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b140a6f41e762910800000000000000
+      internalID: 1812274528565346736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_21
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 4
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b38660b300013b80800000000000000
+      internalID: -8416946212734336073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_22
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 32
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51efbfad27479f2f0800000000000000
+      internalID: -938591010680996331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_23
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 25
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabf9513907594ee0800000000000000
+      internalID: -1276393322388522070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aaff6e0cb3bade20800000000000000
+      internalID: 3376208490945051299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_25
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 3
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec27e8249067492c0800000000000000
+      internalID: -4425782751654939954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dusty_deaths_head_26
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 3
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9444151776c96280800000000000000
+      internalID: -9049483761467243363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dusty_deaths_head_0: 1869999172893820134
+      dusty_deaths_head_1: -2342642121778512391
+      dusty_deaths_head_10: 2195195686982537912
+      dusty_deaths_head_11: -5654521226071850092
+      dusty_deaths_head_12: -2708015733402111464
+      dusty_deaths_head_13: -6569969523830858462
+      dusty_deaths_head_14: 4754278868354561563
+      dusty_deaths_head_15: -5653642664157319171
+      dusty_deaths_head_16: 1566215641136014981
+      dusty_deaths_head_17: 2754967880155818734
+      dusty_deaths_head_18: -7925477445867182618
+      dusty_deaths_head_19: -4537758176205269666
+      dusty_deaths_head_2: -4773614768244562090
+      dusty_deaths_head_20: 1812274528565346736
+      dusty_deaths_head_21: -8416946212734336073
+      dusty_deaths_head_22: -938591010680996331
+      dusty_deaths_head_23: -1276393322388522070
+      dusty_deaths_head_24: 3376208490945051299
+      dusty_deaths_head_25: -4425782751654939954
+      dusty_deaths_head_26: -9049483761467243363
+      dusty_deaths_head_3: 7866740469110776176
+      dusty_deaths_head_4: -8852799696782714379
+      dusty_deaths_head_5: 2952042058586957657
+      dusty_deaths_head_6: 262823425243833400
+      dusty_deaths_head_7: -947723322434688297
+      dusty_deaths_head_8: 4637670501009468388
+      dusty_deaths_head_9: 2658664425234089482
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

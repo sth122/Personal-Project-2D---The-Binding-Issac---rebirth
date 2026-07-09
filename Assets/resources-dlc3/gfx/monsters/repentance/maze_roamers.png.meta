@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 3fcba850d4e546642b7d416ab6ac860b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5247926624106893219
+    second: maze_roamers_0
+  - first:
+      213: 3399242793236532727
+    second: maze_roamers_1
+  - first:
+      213: -255789790370092536
+    second: maze_roamers_2
+  - first:
+      213: 1261885081996362797
+    second: maze_roamers_3
+  - first:
+      213: -8498778508187393783
+    second: maze_roamers_4
+  - first:
+      213: -6535164281222402666
+    second: maze_roamers_5
+  - first:
+      213: 6555120873394612185
+    second: maze_roamers_6
+  - first:
+      213: 3279542832345563774
+    second: maze_roamers_7
+  - first:
+      213: -7792336005708395681
+    second: maze_roamers_8
+  - first:
+      213: 4919174246103994991
+    second: maze_roamers_9
+  - first:
+      213: 4479962065903378143
+    second: maze_roamers_10
+  - first:
+      213: -1462295206737037193
+    second: maze_roamers_11
+  - first:
+      213: 7696605914384736816
+    second: maze_roamers_12
+  - first:
+      213: -4592444044914229197
+    second: maze_roamers_13
+  - first:
+      213: -4418636227018939993
+    second: maze_roamers_14
+  - first:
+      213: -3720966604083924912
+    second: maze_roamers_15
+  - first:
+      213: 4651634848451692534
+    second: maze_roamers_16
+  - first:
+      213: -3005228377636715508
+    second: maze_roamers_17
+  - first:
+      213: 4427979170580512158
+    second: maze_roamers_18
+  - first:
+      213: -6392320305079005773
+    second: maze_roamers_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: maze_roamers_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 202
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afc43db57164d840800000000000000
+      internalID: 5247926624106893219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 202
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd8b2c7f498c2f20800000000000000
+      internalID: 3399242793236532727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 202
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80aa1d77a80437cf0800000000000000
+      internalID: -255789790370092536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 202
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2402cbdbcd138110800000000000000
+      internalID: 1261885081996362797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 154
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90124caa9f54e0a80800000000000000
+      internalID: -8498778508187393783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 154
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69deae406be6e45a0800000000000000
+      internalID: -6535164281222402666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 154
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d72f6e24b778fa50800000000000000
+      internalID: 6555120873394612185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 154
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72c2ab84d6438d20800000000000000
+      internalID: 3279542832345563774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 106
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bc34930bf0cd390800000000000000
+      internalID: -7792336005708395681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 106
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f625747f9ea644440800000000000000
+      internalID: 4919174246103994991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 106
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde556953c50c2e30800000000000000
+      internalID: 4479962065903378143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 106
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778beadc142e4bbe0800000000000000
+      internalID: -1462295206737037193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 58
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032a21ffc46dfca60800000000000000
+      internalID: 7696605914384736816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 58
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3308704197c5440c0800000000000000
+      internalID: -4592444044914229197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 58
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a12dd033c9dda2c0800000000000000
+      internalID: -4418636227018939993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 58
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0507c7e86987c5cc0800000000000000
+      internalID: -3720966604083924912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f78acecf3ded8040800000000000000
+      internalID: 4651634848451692534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 10
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c044a0286b84b46d0800000000000000
+      internalID: -3005228377636715508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 10
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9db74f5897537d30800000000000000
+      internalID: 4427979170580512158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maze_roamers_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 10
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdcf3dec8ae947a0800000000000000
+      internalID: -6392320305079005773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      maze_roamers_0: 5247926624106893219
+      maze_roamers_1: 3399242793236532727
+      maze_roamers_10: 4479962065903378143
+      maze_roamers_11: -1462295206737037193
+      maze_roamers_12: 7696605914384736816
+      maze_roamers_13: -4592444044914229197
+      maze_roamers_14: -4418636227018939993
+      maze_roamers_15: -3720966604083924912
+      maze_roamers_16: 4651634848451692534
+      maze_roamers_17: -3005228377636715508
+      maze_roamers_18: 4427979170580512158
+      maze_roamers_19: -6392320305079005773
+      maze_roamers_2: -255789790370092536
+      maze_roamers_3: 1261885081996362797
+      maze_roamers_4: -8498778508187393783
+      maze_roamers_5: -6535164281222402666
+      maze_roamers_6: 6555120873394612185
+      maze_roamers_7: 3279542832345563774
+      maze_roamers_8: -7792336005708395681
+      maze_roamers_9: 4919174246103994991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

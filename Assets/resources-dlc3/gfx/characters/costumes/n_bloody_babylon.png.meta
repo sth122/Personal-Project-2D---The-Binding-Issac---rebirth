@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: d3418d15af385cf4b86127d9aabcc324
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8258064772333409666
+    second: n_bloody_babylon_0
+  - first:
+      213: -7544440853277256044
+    second: n_bloody_babylon_1
+  - first:
+      213: 3586549513277793479
+    second: n_bloody_babylon_2
+  - first:
+      213: -5422420765025183645
+    second: n_bloody_babylon_3
+  - first:
+      213: -7541827998354548961
+    second: n_bloody_babylon_4
+  - first:
+      213: 7723514798687462268
+    second: n_bloody_babylon_5
+  - first:
+      213: -8078738076505610231
+    second: n_bloody_babylon_6
+  - first:
+      213: -2669263875171513589
+    second: n_bloody_babylon_7
+  - first:
+      213: -3227812625757981506
+    second: n_bloody_babylon_8
+  - first:
+      213: 1820730399187806581
+    second: n_bloody_babylon_9
+  - first:
+      213: 8337267075131799090
+    second: n_bloody_babylon_10
+  - first:
+      213: -1879196494705362621
+    second: n_bloody_babylon_11
+  - first:
+      213: -8616152159120995591
+    second: n_bloody_babylon_12
+  - first:
+      213: 1268622465142264320
+    second: n_bloody_babylon_13
+  - first:
+      213: -2558185144823474894
+    second: n_bloody_babylon_14
+  - first:
+      213: 1987945332367545082
+    second: n_bloody_babylon_15
+  - first:
+      213: -1395685553577142434
+    second: n_bloody_babylon_16
+  - first:
+      213: 6720712336196701191
+    second: n_bloody_babylon_17
+  - first:
+      213: 8917803828910763398
+    second: n_bloody_babylon_18
+  - first:
+      213: 4745976114998978432
+    second: n_bloody_babylon_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: n_bloody_babylon_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 84
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a66e8b7d5756d80800000000000000
+      internalID: -8258064772333409666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 83
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496d67f1403cc4790800000000000000
+      internalID: -7544440853277256044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 84
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4e54ca7cbf5c130800000000000000
+      internalID: 3586549513277793479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 83
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368d8fd1b01bfb4b0800000000000000
+      internalID: -5422420765025183645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 84
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f175bf0d46b065790800000000000000
+      internalID: -7541827998354548961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 83
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c732d39d9cf6f2b60800000000000000
+      internalID: 7723514798687462268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 84
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908e57cb58e82ef80800000000000000
+      internalID: -8078738076505610231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 83
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b8e9cd5aed4fad0800000000000000
+      internalID: -2669263875171513589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 35
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4bc20c4818433d0800000000000000
+      internalID: -3227812625757981506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5792853c6a8844910800000000000000
+      internalID: 1820730399187806581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 33
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2367aca6b3ce3b370800000000000000
+      internalID: 8337267075131799090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 33
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3497de59eb0cbe5e0800000000000000
+      internalID: -1879196494705362621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 34
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fac0e8f2474d6880800000000000000
+      internalID: -8616152159120995591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 32
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00292ec196d0b9110800000000000000
+      internalID: 1268622465142264320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_14
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 35
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2359d152a208f7cd0800000000000000
+      internalID: -2558185144823474894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_15
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 35
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2d9a84fb9969b10800000000000000
+      internalID: 1987945332367545082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_16
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 33
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57d3e8326781ace0800000000000000
+      internalID: -1395685553577142434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_17
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 33
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c079c0344c44d50800000000000000
+      internalID: 6720712336196701191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_18
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 34
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d28d6755762cb70800000000000000
+      internalID: 8917803828910763398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n_bloody_babylon_19
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 32
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087a00f91281dd140800000000000000
+      internalID: 4745976114998978432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      n_bloody_babylon_0: -8258064772333409666
+      n_bloody_babylon_1: -7544440853277256044
+      n_bloody_babylon_10: 8337267075131799090
+      n_bloody_babylon_11: -1879196494705362621
+      n_bloody_babylon_12: -8616152159120995591
+      n_bloody_babylon_13: 1268622465142264320
+      n_bloody_babylon_14: -2558185144823474894
+      n_bloody_babylon_15: 1987945332367545082
+      n_bloody_babylon_16: -1395685553577142434
+      n_bloody_babylon_17: 6720712336196701191
+      n_bloody_babylon_18: 8917803828910763398
+      n_bloody_babylon_19: 4745976114998978432
+      n_bloody_babylon_2: 3586549513277793479
+      n_bloody_babylon_3: -5422420765025183645
+      n_bloody_babylon_4: -7541827998354548961
+      n_bloody_babylon_5: 7723514798687462268
+      n_bloody_babylon_6: -8078738076505610231
+      n_bloody_babylon_7: -2669263875171513589
+      n_bloody_babylon_8: -3227812625757981506
+      n_bloody_babylon_9: 1820730399187806581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

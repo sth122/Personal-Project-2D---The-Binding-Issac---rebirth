@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: c81275ecd8cda7f4fb9c3acd92caea15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2316752371644479055
+    second: achievement_hugegrowth_0
+  - first:
+      213: 8634663636905804244
+    second: achievement_hugegrowth_1
+  - first:
+      213: -4640296982694847698
+    second: achievement_hugegrowth_2
+  - first:
+      213: -5815451812680884041
+    second: achievement_hugegrowth_3
+  - first:
+      213: -2517594727436591717
+    second: achievement_hugegrowth_4
+  - first:
+      213: -7814465143611980730
+    second: achievement_hugegrowth_5
+  - first:
+      213: -8356170979247892925
+    second: achievement_hugegrowth_6
+  - first:
+      213: -8276909987895351739
+    second: achievement_hugegrowth_7
+  - first:
+      213: 3572458770125926613
+    second: achievement_hugegrowth_8
+  - first:
+      213: 2391211168648952136
+    second: achievement_hugegrowth_9
+  - first:
+      213: 7204200903597014914
+    second: achievement_hugegrowth_10
+  - first:
+      213: 6668156235027775010
+    second: achievement_hugegrowth_11
+  - first:
+      213: -7097446155511784122
+    second: achievement_hugegrowth_12
+  - first:
+      213: -1414353489183225353
+    second: achievement_hugegrowth_13
+  - first:
+      213: -5408427134513993530
+    second: achievement_hugegrowth_14
+  - first:
+      213: -8219042394444854071
+    second: achievement_hugegrowth_15
+  - first:
+      213: 1360865341935423535
+    second: achievement_hugegrowth_16
+  - first:
+      213: 584191742598226027
+    second: achievement_hugegrowth_17
+  - first:
+      213: -7795432361271508453
+    second: achievement_hugegrowth_18
+  - first:
+      213: -1205884733518488114
+    second: achievement_hugegrowth_19
+  - first:
+      213: -1473013880317054143
+    second: achievement_hugegrowth_20
+  - first:
+      213: -8761752322111533520
+    second: achievement_hugegrowth_21
+  - first:
+      213: 5078457849157963484
+    second: achievement_hugegrowth_22
+  - first:
+      213: -4282307734680963997
+    second: achievement_hugegrowth_23
+  - first:
+      213: -4669887019989997557
+    second: achievement_hugegrowth_24
+  - first:
+      213: 6025040495008559399
+    second: achievement_hugegrowth_25
+  - first:
+      213: 3975814098487860739
+    second: achievement_hugegrowth_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_hugegrowth_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 137
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9469f1efd39dfd0800000000000000
+      internalID: -2316752371644479055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 141
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1c0c054dc74d770800000000000000
+      internalID: 8634663636905804244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 138
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b1826ca7a5a9fb0800000000000000
+      internalID: -4640296982694847698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 135
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b021c0536d5b4fa0800000000000000
+      internalID: -5815451812680884041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 133
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ddeb62fe4bf0dd0800000000000000
+      internalID: -2517594727436591717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 143
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644065dca517d8390800000000000000
+      internalID: -7814465143611980730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 136
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346508b64cae80c80800000000000000
+      internalID: -8356170979247892925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 134
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5466d9d0832822d80800000000000000
+      internalID: -8276909987895351739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_8
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0b510e25ce39130800000000000000
+      internalID: 3572458770125926613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 147
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849744283e94f2120800000000000000
+      internalID: 2391211168648952136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 136
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fb2756d867af360800000000000000
+      internalID: 7204200903597014914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 110
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ef2af24cc0a8c50800000000000000
+      internalID: 6668156235027775010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 53
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d1240535ec08d90800000000000000
+      internalID: -7097446155511784122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 109
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f94662cef43f5ce0800000000000000
+      internalID: -1414353489183225353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 100
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8a5bd1d2861f4b0800000000000000
+      internalID: -5408427134513993530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 66
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc0d351d7810fd80800000000000000
+      internalID: -8219042394444854071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 62
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20933d71d3c2e210800000000000000
+      internalID: 1360865341935423535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 48
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60a8427b477b1800800000000000000
+      internalID: 584191742598226027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12c3d3c19f01d390800000000000000
+      internalID: -7795432361271508453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd50925936d34fe0800000000000000
+      internalID: -1205884733518488114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_20
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1437b722eadce8be0800000000000000
+      internalID: -1473013880317054143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e869e4fa0086680800000000000000
+      internalID: -8761752322111533520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdecad9c18e4a7640800000000000000
+      internalID: 5078457849157963484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364fe6fcdcf2294c0800000000000000
+      internalID: -4282307734680963997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_24
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08e9485f7a313fb0800000000000000
+      internalID: -4669887019989997557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721345e786e3d9350800000000000000
+      internalID: 6025040495008559399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_hugegrowth_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30edb599bddec2730800000000000000
+      internalID: 3975814098487860739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_hugegrowth_0: -2316752371644479055
+      achievement_hugegrowth_1: 8634663636905804244
+      achievement_hugegrowth_10: 7204200903597014914
+      achievement_hugegrowth_11: 6668156235027775010
+      achievement_hugegrowth_12: -7097446155511784122
+      achievement_hugegrowth_13: -1414353489183225353
+      achievement_hugegrowth_14: -5408427134513993530
+      achievement_hugegrowth_15: -8219042394444854071
+      achievement_hugegrowth_16: 1360865341935423535
+      achievement_hugegrowth_17: 584191742598226027
+      achievement_hugegrowth_18: -7795432361271508453
+      achievement_hugegrowth_19: -1205884733518488114
+      achievement_hugegrowth_2: -4640296982694847698
+      achievement_hugegrowth_20: -1473013880317054143
+      achievement_hugegrowth_21: -8761752322111533520
+      achievement_hugegrowth_22: 5078457849157963484
+      achievement_hugegrowth_23: -4282307734680963997
+      achievement_hugegrowth_24: -4669887019989997557
+      achievement_hugegrowth_25: 6025040495008559399
+      achievement_hugegrowth_26: 3975814098487860739
+      achievement_hugegrowth_3: -5815451812680884041
+      achievement_hugegrowth_4: -2517594727436591717
+      achievement_hugegrowth_5: -7814465143611980730
+      achievement_hugegrowth_6: -8356170979247892925
+      achievement_hugegrowth_7: -8276909987895351739
+      achievement_hugegrowth_8: 3572458770125926613
+      achievement_hugegrowth_9: 2391211168648952136
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

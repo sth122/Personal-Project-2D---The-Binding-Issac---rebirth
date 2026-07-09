@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 2a8f9ff4b11f9af40be1e0e12e0d0657
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8229944396691571321
+    second: achievement_somethingwicked_0
+  - first:
+      213: -4294520930713612231
+    second: achievement_somethingwicked_1
+  - first:
+      213: 8512435396284050187
+    second: achievement_somethingwicked_2
+  - first:
+      213: 2721214245739956023
+    second: achievement_somethingwicked_3
+  - first:
+      213: 8668393323561582185
+    second: achievement_somethingwicked_4
+  - first:
+      213: 5339801170839586432
+    second: achievement_somethingwicked_5
+  - first:
+      213: 8364365357994905959
+    second: achievement_somethingwicked_6
+  - first:
+      213: -4340539402002888823
+    second: achievement_somethingwicked_7
+  - first:
+      213: 785102839938648690
+    second: achievement_somethingwicked_8
+  - first:
+      213: 4666814673101160383
+    second: achievement_somethingwicked_9
+  - first:
+      213: 6312717862569542352
+    second: achievement_somethingwicked_10
+  - first:
+      213: -4354793417998791726
+    second: achievement_somethingwicked_11
+  - first:
+      213: 5022109573649546487
+    second: achievement_somethingwicked_12
+  - first:
+      213: -7360422721442487400
+    second: achievement_somethingwicked_13
+  - first:
+      213: -6991452922609463116
+    second: achievement_somethingwicked_14
+  - first:
+      213: -6562344031734005403
+    second: achievement_somethingwicked_15
+  - first:
+      213: 2371787284236111998
+    second: achievement_somethingwicked_16
+  - first:
+      213: -108146977580317612
+    second: achievement_somethingwicked_17
+  - first:
+      213: 5011112143406908487
+    second: achievement_somethingwicked_18
+  - first:
+      213: -4890761163674888339
+    second: achievement_somethingwicked_19
+  - first:
+      213: 277004418190272325
+    second: achievement_somethingwicked_20
+  - first:
+      213: -3932408906085504858
+    second: achievement_somethingwicked_21
+  - first:
+      213: 8522747468578721309
+    second: achievement_somethingwicked_22
+  - first:
+      213: 1657771181279595321
+    second: achievement_somethingwicked_23
+  - first:
+      213: 836318401378560381
+    second: achievement_somethingwicked_24
+  - first:
+      213: 3061876077736320953
+    second: achievement_somethingwicked_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_somethingwicked_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 136
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972840e13d2a63270800000000000000
+      internalID: 8229944396691571321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 147
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930d55487fbc664c0800000000000000
+      internalID: -4294520930713612231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 135
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0be8f064ee322670800000000000000
+      internalID: 8512435396284050187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 142
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737001b50f1b3c520800000000000000
+      internalID: 2721214245739956023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 138
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e7148fcc15c4870800000000000000
+      internalID: 8668393323561582185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 122
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086cb179fd8ca1a40800000000000000
+      internalID: 5339801170839586432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 46
+        width: 154
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7619ede0af1341470800000000000000
+      internalID: 8364365357994905959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 125
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987080a396e43c3c0800000000000000
+      internalID: -4340539402002888823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 86
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a81be8fde35ea00800000000000000
+      internalID: 785102839938648690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 91
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf76c6283bd3c040800000000000000
+      internalID: 4666814673101160383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 54
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d288b523774b9750800000000000000
+      internalID: 6312717862569542352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 55
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db09f1857aa093c0800000000000000
+      internalID: -4354793417998791726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 23
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc38788c0e12b540800000000000000
+      internalID: 5022109573649546487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 35
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893e4b338868ad990800000000000000
+      internalID: -7360422721442487400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 24
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b01ff3fb9e59fe90800000000000000
+      internalID: -6991452922609463116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 33
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56107963fdedde4a0800000000000000
+      internalID: -6562344031734005403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 21
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e709eaff7f74ae020800000000000000
+      internalID: 2371787284236111998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 23
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4540bc995e8cf7ef0800000000000000
+      internalID: -108146977580317612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 22
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7444a65c1fb0b8540800000000000000
+      internalID: 5011112143406908487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_19
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 25
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67d1ed42a6802cb0800000000000000
+      internalID: -4890761163674888339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_20
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 25
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547e17bfc0e18d300800000000000000
+      internalID: 277004418190272325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 27
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8e0394fe64d69c0800000000000000
+      internalID: -3932408906085504858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_22
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 31
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e8efecaa1e64670800000000000000
+      internalID: 8522747468578721309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_23
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 28
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bcc0b2b16910710800000000000000
+      internalID: 1657771181279595321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79aa41b7233b9b00800000000000000
+      internalID: 836318401378560381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_somethingwicked_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf5db7f118fd7a20800000000000000
+      internalID: 3061876077736320953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_somethingwicked_0: 8229944396691571321
+      achievement_somethingwicked_1: -4294520930713612231
+      achievement_somethingwicked_10: 6312717862569542352
+      achievement_somethingwicked_11: -4354793417998791726
+      achievement_somethingwicked_12: 5022109573649546487
+      achievement_somethingwicked_13: -7360422721442487400
+      achievement_somethingwicked_14: -6991452922609463116
+      achievement_somethingwicked_15: -6562344031734005403
+      achievement_somethingwicked_16: 2371787284236111998
+      achievement_somethingwicked_17: -108146977580317612
+      achievement_somethingwicked_18: 5011112143406908487
+      achievement_somethingwicked_19: -4890761163674888339
+      achievement_somethingwicked_2: 8512435396284050187
+      achievement_somethingwicked_20: 277004418190272325
+      achievement_somethingwicked_21: -3932408906085504858
+      achievement_somethingwicked_22: 8522747468578721309
+      achievement_somethingwicked_23: 1657771181279595321
+      achievement_somethingwicked_24: 836318401378560381
+      achievement_somethingwicked_25: 3061876077736320953
+      achievement_somethingwicked_3: 2721214245739956023
+      achievement_somethingwicked_4: 8668393323561582185
+      achievement_somethingwicked_5: 5339801170839586432
+      achievement_somethingwicked_6: 8364365357994905959
+      achievement_somethingwicked_7: -4340539402002888823
+      achievement_somethingwicked_8: 785102839938648690
+      achievement_somethingwicked_9: 4666814673101160383
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

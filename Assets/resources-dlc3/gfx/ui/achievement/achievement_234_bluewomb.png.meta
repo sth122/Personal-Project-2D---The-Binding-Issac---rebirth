@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: fecca250364c12945abac5c88057deb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4523213468539411661
+    second: achievement_234_bluewomb_0
+  - first:
+      213: 7198007486932639382
+    second: achievement_234_bluewomb_1
+  - first:
+      213: 4497425020199329777
+    second: achievement_234_bluewomb_2
+  - first:
+      213: -8590116825359789253
+    second: achievement_234_bluewomb_3
+  - first:
+      213: 5035736857058175509
+    second: achievement_234_bluewomb_4
+  - first:
+      213: -3915062816665274722
+    second: achievement_234_bluewomb_5
+  - first:
+      213: -3612233247751570682
+    second: achievement_234_bluewomb_6
+  - first:
+      213: 3436893987175972175
+    second: achievement_234_bluewomb_7
+  - first:
+      213: 4977401533140844995
+    second: achievement_234_bluewomb_8
+  - first:
+      213: 142505537112761653
+    second: achievement_234_bluewomb_9
+  - first:
+      213: -6958103516415080513
+    second: achievement_234_bluewomb_10
+  - first:
+      213: -4879546441023441512
+    second: achievement_234_bluewomb_11
+  - first:
+      213: 208759973525840202
+    second: achievement_234_bluewomb_12
+  - first:
+      213: -8903840411358346627
+    second: achievement_234_bluewomb_13
+  - first:
+      213: -2945213237058230429
+    second: achievement_234_bluewomb_14
+  - first:
+      213: 3619222098709052239
+    second: achievement_234_bluewomb_15
+  - first:
+      213: -5421196555986772850
+    second: achievement_234_bluewomb_16
+  - first:
+      213: -1193291463698549033
+    second: achievement_234_bluewomb_17
+  - first:
+      213: -3643431813460086995
+    second: achievement_234_bluewomb_18
+  - first:
+      213: 8998285972666185072
+    second: achievement_234_bluewomb_19
+  - first:
+      213: -587642454104723554
+    second: achievement_234_bluewomb_20
+  - first:
+      213: -6924032221330335200
+    second: achievement_234_bluewomb_21
+  - first:
+      213: -2116879607342185029
+    second: achievement_234_bluewomb_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 137
+        width: 90
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccdd834faea5ce30800000000000000
+      internalID: 4523213468539411661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 146
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ed8353ca574e360800000000000000
+      internalID: 7198007486932639382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 138
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff5fec3a301a6e30800000000000000
+      internalID: 4497425020199329777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 99
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33d25d7246c9c880800000000000000
+      internalID: -8590116825359789253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 102
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a6b43bdf782e540800000000000000
+      internalID: 5035736857058175509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 112
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9673537c17eaa9c0800000000000000
+      internalID: -3915062816665274722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 110
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b79e5eff4ceddc0800000000000000
+      internalID: -3612233247751570682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 106
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dbc443fdc42bf20800000000000000
+      internalID: 3436893987175972175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 98
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1485fa258431540800000000000000
+      internalID: 4977401533140844995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 86
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535e12ee7084af100800000000000000
+      internalID: 142505537112761653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 79
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7cea9a7b9df6f90800000000000000
+      internalID: -6958103516415080513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 78
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895b6c56d5e584cb0800000000000000
+      internalID: -4879546441023441512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_12
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 72
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41e351071aa5e200800000000000000
+      internalID: 208759973525840202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 62
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72c73802543f6480800000000000000
+      internalID: -8903840411358346627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 59
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367ad515a208027d0800000000000000
+      internalID: -2945213237058230429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 59
+        width: 56
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bfbc4c25f0a3230800000000000000
+      internalID: 3619222098709052239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 53
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c56de747a04c4b0800000000000000
+      internalID: -5421196555986772850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_17
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 69
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6fdb07cb3907fe0800000000000000
+      internalID: -1193291463698549033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_18
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 55
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2faa53c11eef6dc0800000000000000
+      internalID: -3643431813460086995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_19
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 48
+        width: 51
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075f52cca6550ec70800000000000000
+      internalID: 8998285972666185072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_20
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 22
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f262c2d4648d7f0800000000000000
+      internalID: -587642454104723554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 25
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a1f3a3165e8ef90800000000000000
+      internalID: -6924032221330335200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_234_bluewomb_22
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 20
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5c91c76355f92e0800000000000000
+      internalID: -2116879607342185029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_234_bluewomb_0: 4523213468539411661
+      achievement_234_bluewomb_1: 7198007486932639382
+      achievement_234_bluewomb_10: -6958103516415080513
+      achievement_234_bluewomb_11: -4879546441023441512
+      achievement_234_bluewomb_12: 208759973525840202
+      achievement_234_bluewomb_13: -8903840411358346627
+      achievement_234_bluewomb_14: -2945213237058230429
+      achievement_234_bluewomb_15: 3619222098709052239
+      achievement_234_bluewomb_16: -5421196555986772850
+      achievement_234_bluewomb_17: -1193291463698549033
+      achievement_234_bluewomb_18: -3643431813460086995
+      achievement_234_bluewomb_19: 8998285972666185072
+      achievement_234_bluewomb_2: 4497425020199329777
+      achievement_234_bluewomb_20: -587642454104723554
+      achievement_234_bluewomb_21: -6924032221330335200
+      achievement_234_bluewomb_22: -2116879607342185029
+      achievement_234_bluewomb_3: -8590116825359789253
+      achievement_234_bluewomb_4: 5035736857058175509
+      achievement_234_bluewomb_5: -3915062816665274722
+      achievement_234_bluewomb_6: -3612233247751570682
+      achievement_234_bluewomb_7: 3436893987175972175
+      achievement_234_bluewomb_8: 4977401533140844995
+      achievement_234_bluewomb_9: 142505537112761653
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

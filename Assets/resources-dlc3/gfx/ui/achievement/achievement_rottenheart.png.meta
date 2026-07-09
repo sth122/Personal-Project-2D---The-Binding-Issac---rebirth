@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 4f67b03441b13b44381e36c7c373bf31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4849862639782358818
+    second: achievement_rottenheart_0
+  - first:
+      213: -3333143045668535506
+    second: achievement_rottenheart_1
+  - first:
+      213: 4791626082056661348
+    second: achievement_rottenheart_2
+  - first:
+      213: -4733750065393706060
+    second: achievement_rottenheart_3
+  - first:
+      213: 669374995639933742
+    second: achievement_rottenheart_4
+  - first:
+      213: -7641052957548307724
+    second: achievement_rottenheart_5
+  - first:
+      213: -6836649987120130072
+    second: achievement_rottenheart_6
+  - first:
+      213: 6812316125725836410
+    second: achievement_rottenheart_7
+  - first:
+      213: 2296309223226795801
+    second: achievement_rottenheart_8
+  - first:
+      213: 8889700004796830157
+    second: achievement_rottenheart_9
+  - first:
+      213: -3318855145988271076
+    second: achievement_rottenheart_10
+  - first:
+      213: 3988296158525708719
+    second: achievement_rottenheart_11
+  - first:
+      213: 3499774873691613335
+    second: achievement_rottenheart_12
+  - first:
+      213: 3359815189102381310
+    second: achievement_rottenheart_13
+  - first:
+      213: -3876104186968738031
+    second: achievement_rottenheart_14
+  - first:
+      213: 6837293165735658935
+    second: achievement_rottenheart_15
+  - first:
+      213: 3713615396103487581
+    second: achievement_rottenheart_16
+  - first:
+      213: -4876235806794193910
+    second: achievement_rottenheart_17
+  - first:
+      213: -2488237619893036481
+    second: achievement_rottenheart_18
+  - first:
+      213: -4753414033063323888
+    second: achievement_rottenheart_19
+  - first:
+      213: -907154505373695154
+    second: achievement_rottenheart_20
+  - first:
+      213: 1711894091089796856
+    second: achievement_rottenheart_21
+  - first:
+      213: -5122133559411516547
+    second: achievement_rottenheart_22
+  - first:
+      213: 5897978498802039490
+    second: achievement_rottenheart_23
+  - first:
+      213: -5036279365022237653
+    second: achievement_rottenheart_24
+  - first:
+      213: 6800771957191567049
+    second: achievement_rottenheart_25
+  - first:
+      213: -8999235792599223735
+    second: achievement_rottenheart_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_rottenheart_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 135
+        width: 63
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f6aad006c2e4340800000000000000
+      internalID: 4849862639782358818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 137
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e230d594f0c4eb1d0800000000000000
+      internalID: -3333143045668535506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 142
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469eb75d8864f7240800000000000000
+      internalID: 4791626082056661348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 141
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbd9b065675e4eb0800000000000000
+      internalID: -4733750065393706060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 143
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b95a413091a4900800000000000000
+      internalID: 669374995639933742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 145
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa9263b1d685f590800000000000000
+      internalID: -7641052957548307724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 132
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e796001f075f11a0800000000000000
+      internalID: -6836649987120130072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74cd835c653a8e50800000000000000
+      internalID: 6812316125725836410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_8
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 134
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917e2e872112edf10800000000000000
+      internalID: 2296309223226795801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 134
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc114b10e0f8e5b70800000000000000
+      internalID: 8889700004796830157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 111
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14546a24de01f1d0800000000000000
+      internalID: -3318855145988271076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 67
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9dafba936495730800000000000000
+      internalID: 3988296158525708719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_12
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 109
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798e93c74b2b19030800000000000000
+      internalID: 3499774873691613335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 108
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8c8690d1670ae20800000000000000
+      internalID: 3359815189102381310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 88
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117f25747cf453ac0800000000000000
+      internalID: -3876104186968738031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 92
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b541e0a8e1f2ee50800000000000000
+      internalID: 6837293165735658935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 55
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d508b25f689698330800000000000000
+      internalID: 3713615396103487581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_17
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 64
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04edfe7e51245cb0800000000000000
+      internalID: -4876235806794193910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a13856111087dd0800000000000000
+      internalID: -2488237619893036481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01757e02f1b780eb0800000000000000
+      internalID: -4753414033063323888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e434ece98c32963f0800000000000000
+      internalID: -907154505373695154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe5f781b9ed1c710800000000000000
+      internalID: 1711894091089796856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b5b2b7aa68ae8b0800000000000000
+      internalID: -5122133559411516547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cabcf12234d9d150800000000000000
+      internalID: 5897978498802039490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_24
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c3832d99a8b1ab0800000000000000
+      internalID: -5036279365022237653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c667d22012316e50800000000000000
+      internalID: 6800771957191567049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_rottenheart_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94274240aba4c1380800000000000000
+      internalID: -8999235792599223735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_rottenheart_0: 4849862639782358818
+      achievement_rottenheart_1: -3333143045668535506
+      achievement_rottenheart_10: -3318855145988271076
+      achievement_rottenheart_11: 3988296158525708719
+      achievement_rottenheart_12: 3499774873691613335
+      achievement_rottenheart_13: 3359815189102381310
+      achievement_rottenheart_14: -3876104186968738031
+      achievement_rottenheart_15: 6837293165735658935
+      achievement_rottenheart_16: 3713615396103487581
+      achievement_rottenheart_17: -4876235806794193910
+      achievement_rottenheart_18: -2488237619893036481
+      achievement_rottenheart_19: -4753414033063323888
+      achievement_rottenheart_2: 4791626082056661348
+      achievement_rottenheart_20: -907154505373695154
+      achievement_rottenheart_21: 1711894091089796856
+      achievement_rottenheart_22: -5122133559411516547
+      achievement_rottenheart_23: 5897978498802039490
+      achievement_rottenheart_24: -5036279365022237653
+      achievement_rottenheart_25: 6800771957191567049
+      achievement_rottenheart_26: -8999235792599223735
+      achievement_rottenheart_3: -4733750065393706060
+      achievement_rottenheart_4: 669374995639933742
+      achievement_rottenheart_5: -7641052957548307724
+      achievement_rottenheart_6: -6836649987120130072
+      achievement_rottenheart_7: 6812316125725836410
+      achievement_rottenheart_8: 2296309223226795801
+      achievement_rottenheart_9: 8889700004796830157
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

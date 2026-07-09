@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 5569d5e285475a542b5b8043a3f777bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9131108255542079226
+    second: achievement_237_keeperstorekey_0
+  - first:
+      213: 4670277494094566496
+    second: achievement_237_keeperstorekey_1
+  - first:
+      213: 5970864575478067941
+    second: achievement_237_keeperstorekey_2
+  - first:
+      213: 8974075805245583041
+    second: achievement_237_keeperstorekey_3
+  - first:
+      213: -8188802501404622350
+    second: achievement_237_keeperstorekey_4
+  - first:
+      213: -4527542159016074138
+    second: achievement_237_keeperstorekey_5
+  - first:
+      213: 6414738897932601181
+    second: achievement_237_keeperstorekey_6
+  - first:
+      213: -1369399316163350877
+    second: achievement_237_keeperstorekey_7
+  - first:
+      213: 1556590788286512515
+    second: achievement_237_keeperstorekey_8
+  - first:
+      213: -4756571792588620840
+    second: achievement_237_keeperstorekey_9
+  - first:
+      213: -6996242982516194105
+    second: achievement_237_keeperstorekey_10
+  - first:
+      213: -484261037968389154
+    second: achievement_237_keeperstorekey_11
+  - first:
+      213: -7005348084591550184
+    second: achievement_237_keeperstorekey_12
+  - first:
+      213: 9549807227572637
+    second: achievement_237_keeperstorekey_13
+  - first:
+      213: -1444457406467356207
+    second: achievement_237_keeperstorekey_14
+  - first:
+      213: 4096644159686238112
+    second: achievement_237_keeperstorekey_15
+  - first:
+      213: 6195090863971500370
+    second: achievement_237_keeperstorekey_16
+  - first:
+      213: 1520015182619792696
+    second: achievement_237_keeperstorekey_17
+  - first:
+      213: -2533907741563347261
+    second: achievement_237_keeperstorekey_18
+  - first:
+      213: -5955491362988840337
+    second: achievement_237_keeperstorekey_19
+  - first:
+      213: 3684317823770754133
+    second: achievement_237_keeperstorekey_20
+  - first:
+      213: 7404333822328233146
+    second: achievement_237_keeperstorekey_21
+  - first:
+      213: 2984395229885061430
+    second: achievement_237_keeperstorekey_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 135
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afee839649638be70800000000000000
+      internalID: 9131108255542079226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 140
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064120ef2a820d040800000000000000
+      internalID: 4670277494094566496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 138
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2755742b5ccd250800000000000000
+      internalID: 5970864575478067941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 140
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce271fe5625a8c70800000000000000
+      internalID: 8974075805245583041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 141
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f182f7d2878b5e80800000000000000
+      internalID: -8188802501404622350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 139
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664ed32f460fa21c0800000000000000
+      internalID: -4527542159016074138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 140
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57472a7a0bb50950800000000000000
+      internalID: 6414738897932601181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 141
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aeab6cc39aeefce0800000000000000
+      internalID: -1369399316163350877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 121
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d7674231f1a9510800000000000000
+      internalID: 1556590788286512515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 124
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbbc12f7234dfdb0800000000000000
+      internalID: -4756571792588620840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_10
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 104
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c48dc8331a58ee90800000000000000
+      internalID: -6996242982516194105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 107
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb0555d62f8749f0800000000000000
+      internalID: -484261037968389154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 54
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81125f1780108ce90800000000000000
+      internalID: -7005348084591550184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 65
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d911973cf7de12000800000000000000
+      internalID: 9549807227572637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 71
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9c45254a144fbe0800000000000000
+      internalID: -1444457406467356207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 41
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afd64588243ad830800000000000000
+      internalID: 4096644159686238112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 43
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2510a4a515269f550800000000000000
+      internalID: 6195090863971500370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 22
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835d04551cd281510800000000000000
+      internalID: 1520015182619792696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 23
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce11829550c5dcd0800000000000000
+      internalID: -2533907741563347261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 38
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6aa42ea828d95da0800000000000000
+      internalID: -5955491362988840337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 37
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cfe755a83512330800000000000000
+      internalID: 3684317823770754133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 23
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcd84ea16a71c660800000000000000
+      internalID: 7404333822328233146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_237_keeperstorekey_22
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 21
+        width: 73
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6395baa46a3ba6920800000000000000
+      internalID: 2984395229885061430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_237_keeperstorekey_0: 9131108255542079226
+      achievement_237_keeperstorekey_1: 4670277494094566496
+      achievement_237_keeperstorekey_10: -6996242982516194105
+      achievement_237_keeperstorekey_11: -484261037968389154
+      achievement_237_keeperstorekey_12: -7005348084591550184
+      achievement_237_keeperstorekey_13: 9549807227572637
+      achievement_237_keeperstorekey_14: -1444457406467356207
+      achievement_237_keeperstorekey_15: 4096644159686238112
+      achievement_237_keeperstorekey_16: 6195090863971500370
+      achievement_237_keeperstorekey_17: 1520015182619792696
+      achievement_237_keeperstorekey_18: -2533907741563347261
+      achievement_237_keeperstorekey_19: -5955491362988840337
+      achievement_237_keeperstorekey_2: 5970864575478067941
+      achievement_237_keeperstorekey_20: 3684317823770754133
+      achievement_237_keeperstorekey_21: 7404333822328233146
+      achievement_237_keeperstorekey_22: 2984395229885061430
+      achievement_237_keeperstorekey_3: 8974075805245583041
+      achievement_237_keeperstorekey_4: -8188802501404622350
+      achievement_237_keeperstorekey_5: -4527542159016074138
+      achievement_237_keeperstorekey_6: 6414738897932601181
+      achievement_237_keeperstorekey_7: -1369399316163350877
+      achievement_237_keeperstorekey_8: 1556590788286512515
+      achievement_237_keeperstorekey_9: -4756571792588620840
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

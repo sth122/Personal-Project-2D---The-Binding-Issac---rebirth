@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 6fe74183d723b7e458877d6743685492
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5412237165746689933
+    second: door_mines_mineshaft_dark_0
+  - first:
+      213: -8932036191996067027
+    second: door_mines_mineshaft_dark_1
+  - first:
+      213: 7320164618251110404
+    second: door_mines_mineshaft_dark_2
+  - first:
+      213: 6395311515779258695
+    second: door_mines_mineshaft_dark_3
+  - first:
+      213: -4081385985321980649
+    second: door_mines_mineshaft_dark_4
+  - first:
+      213: 1764055553236993858
+    second: door_mines_mineshaft_dark_5
+  - first:
+      213: -7882562432587934097
+    second: door_mines_mineshaft_dark_6
+  - first:
+      213: -8427403685330731630
+    second: door_mines_mineshaft_dark_7
+  - first:
+      213: -2806129719056333653
+    second: door_mines_mineshaft_dark_8
+  - first:
+      213: -3721561426831237408
+    second: door_mines_mineshaft_dark_9
+  - first:
+      213: 2635557325737037506
+    second: door_mines_mineshaft_dark_10
+  - first:
+      213: 5544408891830421263
+    second: door_mines_mineshaft_dark_11
+  - first:
+      213: 685745728419061416
+    second: door_mines_mineshaft_dark_12
+  - first:
+      213: 6657514264608460254
+    second: door_mines_mineshaft_dark_13
+  - first:
+      213: -5413432685168543342
+    second: door_mines_mineshaft_dark_14
+  - first:
+      213: -7548182055463504735
+    second: door_mines_mineshaft_dark_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 53
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d879f78e6012c1b40800000000000000
+      internalID: 5412237165746689933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23442748680b0480800000000000000
+      internalID: -8932036191996067027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 53
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4088d38bfe2769560800000000000000
+      internalID: 7320164618251110404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 53
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749dcf590f5b0c850800000000000000
+      internalID: 6395311515779258695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 53
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d20a902110c57c0800000000000000
+      internalID: -4081385985321980649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 53
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2470fb6ed2f2b7810800000000000000
+      internalID: 1764055553236993858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 50
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66d1cd2b338b9290800000000000000
+      internalID: -7882562432587934097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 50
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d3b0d9ff8db0b80800000000000000
+      internalID: -8427403685330731630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 8
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba40bf553ef9e09d0800000000000000
+      internalID: -2806129719056333653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 8
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee9de7999b5a5cc0800000000000000
+      internalID: -3721561426831237408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce0cb98c61639420800000000000000
+      internalID: 2635557325737037506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07c117f282b1fc40800000000000000
+      internalID: 5544408891830421263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aed8a45b12448900800000000000000
+      internalID: 685745728419061416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd451d53fd346c50800000000000000
+      internalID: 6657514264608460254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_14
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 3
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2993a0987af9fd4b0800000000000000
+      internalID: -5413432685168543342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_mines_mineshaft_dark_15
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 3
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4be1c99687f3790800000000000000
+      internalID: -7548182055463504735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      door_mines_mineshaft_dark_0: 5412237165746689933
+      door_mines_mineshaft_dark_1: -8932036191996067027
+      door_mines_mineshaft_dark_10: 2635557325737037506
+      door_mines_mineshaft_dark_11: 5544408891830421263
+      door_mines_mineshaft_dark_12: 685745728419061416
+      door_mines_mineshaft_dark_13: 6657514264608460254
+      door_mines_mineshaft_dark_14: -5413432685168543342
+      door_mines_mineshaft_dark_15: -7548182055463504735
+      door_mines_mineshaft_dark_2: 7320164618251110404
+      door_mines_mineshaft_dark_3: 6395311515779258695
+      door_mines_mineshaft_dark_4: -4081385985321980649
+      door_mines_mineshaft_dark_5: 1764055553236993858
+      door_mines_mineshaft_dark_6: -7882562432587934097
+      door_mines_mineshaft_dark_7: -8427403685330731630
+      door_mines_mineshaft_dark_8: -2806129719056333653
+      door_mines_mineshaft_dark_9: -3721561426831237408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

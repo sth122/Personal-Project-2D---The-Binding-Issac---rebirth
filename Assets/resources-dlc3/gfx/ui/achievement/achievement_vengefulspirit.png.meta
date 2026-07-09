@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: ad9534227b449694cae29ec2d5fee770
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7482391156388792121
+    second: achievement_vengefulspirit_0
+  - first:
+      213: 4477332722184162741
+    second: achievement_vengefulspirit_1
+  - first:
+      213: -7394036701630776580
+    second: achievement_vengefulspirit_2
+  - first:
+      213: -3140721614757706633
+    second: achievement_vengefulspirit_3
+  - first:
+      213: -3184366901393080450
+    second: achievement_vengefulspirit_4
+  - first:
+      213: 2767657751613803156
+    second: achievement_vengefulspirit_5
+  - first:
+      213: -5343212153945712277
+    second: achievement_vengefulspirit_6
+  - first:
+      213: -6362131653324693130
+    second: achievement_vengefulspirit_7
+  - first:
+      213: 4404999999011439273
+    second: achievement_vengefulspirit_8
+  - first:
+      213: 5406581122973359266
+    second: achievement_vengefulspirit_9
+  - first:
+      213: 8695241659523502878
+    second: achievement_vengefulspirit_10
+  - first:
+      213: -7548518148642042924
+    second: achievement_vengefulspirit_11
+  - first:
+      213: 7579957543271248257
+    second: achievement_vengefulspirit_12
+  - first:
+      213: 2571437212763082062
+    second: achievement_vengefulspirit_13
+  - first:
+      213: -2398579560890478197
+    second: achievement_vengefulspirit_14
+  - first:
+      213: 2523246120917462744
+    second: achievement_vengefulspirit_15
+  - first:
+      213: -4768107217452908792
+    second: achievement_vengefulspirit_16
+  - first:
+      213: -1741444910094960261
+    second: achievement_vengefulspirit_17
+  - first:
+      213: 4443591162644889154
+    second: achievement_vengefulspirit_18
+  - first:
+      213: -5179811031870457316
+    second: achievement_vengefulspirit_19
+  - first:
+      213: -5813121769386437494
+    second: achievement_vengefulspirit_20
+  - first:
+      213: -5934187473967906580
+    second: achievement_vengefulspirit_21
+  - first:
+      213: 5848861880353972457
+    second: achievement_vengefulspirit_22
+  - first:
+      213: -3448377328074885036
+    second: achievement_vengefulspirit_23
+  - first:
+      213: -1955097817697174007
+    second: achievement_vengefulspirit_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 138
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93704130d1bc6d760800000000000000
+      internalID: 7482391156388792121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 143
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd050f836ea22e30800000000000000
+      internalID: 4477332722184162741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 142
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfab81f8bca136990800000000000000
+      internalID: -7394036701630776580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 133
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774c9f5e45ae964d0800000000000000
+      internalID: -3140721614757706633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 133
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f34f7bc2bdec3d0800000000000000
+      internalID: -3184366901393080450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 137
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a0cc8bf02b86620800000000000000
+      internalID: 2767657751613803156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 148
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6914840bd819d5b0800000000000000
+      internalID: -5343212153945712277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 128
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671205528fa25b7a0800000000000000
+      internalID: -6362131653324693130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 131
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a24ca01924b12d30800000000000000
+      internalID: 4404999999011439273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 130
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acd824d2e8080b40800000000000000
+      internalID: 5406581122973359266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 99
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1393105834bba870800000000000000
+      internalID: 8695241659523502878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 53
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db0a91dcb64e3790800000000000000
+      internalID: -7548518148642042924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 95
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181b93ba93b613960800000000000000
+      internalID: 7579957543271248257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 73
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dc6fc55849fa320800000000000000
+      internalID: 2571437212763082062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 60
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b815c9bf89886bed0800000000000000
+      internalID: -2398579560890478197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_15
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 49
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8deea2e6afe540320800000000000000
+      internalID: 2523246120917462744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f3ebc8fb744ddb0800000000000000
+      internalID: -4768107217452908792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_17
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79b0e1b41525d7e0800000000000000
+      internalID: -1741444910094960261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e73888e9ecaad30800000000000000
+      internalID: 4443591162644889154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a36b17f4d9d18b0800000000000000
+      internalID: -5179811031870457316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8491abcc84a35fa0800000000000000
+      internalID: -5813121769386437494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0029fdee785ada0800000000000000
+      internalID: -5934187473967906580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_22
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e062de34e45b2150800000000000000
+      internalID: 5848861880353972457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_23
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458f5942717e420d0800000000000000
+      internalID: -3448377328074885036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_vengefulspirit_24
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eb403b4e81ed4e0800000000000000
+      internalID: -1955097817697174007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_vengefulspirit_0: 7482391156388792121
+      achievement_vengefulspirit_1: 4477332722184162741
+      achievement_vengefulspirit_10: 8695241659523502878
+      achievement_vengefulspirit_11: -7548518148642042924
+      achievement_vengefulspirit_12: 7579957543271248257
+      achievement_vengefulspirit_13: 2571437212763082062
+      achievement_vengefulspirit_14: -2398579560890478197
+      achievement_vengefulspirit_15: 2523246120917462744
+      achievement_vengefulspirit_16: -4768107217452908792
+      achievement_vengefulspirit_17: -1741444910094960261
+      achievement_vengefulspirit_18: 4443591162644889154
+      achievement_vengefulspirit_19: -5179811031870457316
+      achievement_vengefulspirit_2: -7394036701630776580
+      achievement_vengefulspirit_20: -5813121769386437494
+      achievement_vengefulspirit_21: -5934187473967906580
+      achievement_vengefulspirit_22: 5848861880353972457
+      achievement_vengefulspirit_23: -3448377328074885036
+      achievement_vengefulspirit_24: -1955097817697174007
+      achievement_vengefulspirit_3: -3140721614757706633
+      achievement_vengefulspirit_4: -3184366901393080450
+      achievement_vengefulspirit_5: 2767657751613803156
+      achievement_vengefulspirit_6: -5343212153945712277
+      achievement_vengefulspirit_7: -6362131653324693130
+      achievement_vengefulspirit_8: 4404999999011439273
+      achievement_vengefulspirit_9: 5406581122973359266
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

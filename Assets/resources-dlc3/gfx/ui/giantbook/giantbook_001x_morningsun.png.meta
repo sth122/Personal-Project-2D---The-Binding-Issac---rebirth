@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: c7c1be953ead9124fae7b9b10f336ddb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8485171230739997326
+    second: giantbook_001x_morningsun_0
+  - first:
+      213: 8391815812427602442
+    second: giantbook_001x_morningsun_1
+  - first:
+      213: 7611783535661150442
+    second: giantbook_001x_morningsun_2
+  - first:
+      213: -8334379841662449334
+    second: giantbook_001x_morningsun_3
+  - first:
+      213: 5074636875988769030
+    second: giantbook_001x_morningsun_4
+  - first:
+      213: -8017621413284625297
+    second: giantbook_001x_morningsun_5
+  - first:
+      213: 8509646313940562457
+    second: giantbook_001x_morningsun_6
+  - first:
+      213: 8129614927542588210
+    second: giantbook_001x_morningsun_7
+  - first:
+      213: 3461490440249917847
+    second: giantbook_001x_morningsun_8
+  - first:
+      213: 3258400145312411051
+    second: giantbook_001x_morningsun_9
+  - first:
+      213: -6717632758305459603
+    second: giantbook_001x_morningsun_10
+  - first:
+      213: -1273724984996830076
+    second: giantbook_001x_morningsun_11
+  - first:
+      213: 7582200563757748764
+    second: giantbook_001x_morningsun_12
+  - first:
+      213: -1319807343103836042
+    second: giantbook_001x_morningsun_13
+  - first:
+      213: -1431702815096113833
+    second: giantbook_001x_morningsun_14
+  - first:
+      213: -2189852247482915061
+    second: giantbook_001x_morningsun_15
+  - first:
+      213: -8514901499938069761
+    second: giantbook_001x_morningsun_16
+  - first:
+      213: 4631854471627382035
+    second: giantbook_001x_morningsun_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 133
+        width: 189
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e822f9a274261c570800000000000000
+      internalID: 8485171230739997326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 94
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ad0480508b57470800000000000000
+      internalID: 8391815812427602442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 91
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0ff36fbcc72a960800000000000000
+      internalID: 7611783535661150442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 91
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49888201b5565c80800000000000000
+      internalID: -8334379841662449334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 67
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60998652a5bbc6640800000000000000
+      internalID: 5074636875988769030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 69
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64ca95cdcfabb090800000000000000
+      internalID: -8017621413284625297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 68
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912b3aa8c36581670800000000000000
+      internalID: 8509646313940562457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 67
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23393ec34b132d070800000000000000
+      internalID: 8129614927542588210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 69
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791c184373fa90030800000000000000
+      internalID: 3461490440249917847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 67
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad6d6d1ba9283d20800000000000000
+      internalID: 3258400145312411051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 43
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62fcad099c26c2a0800000000000000
+      internalID: -6717632758305459603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 44
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48469b7efd1d25ee0800000000000000
+      internalID: -1273724984996830076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 51
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c121c829d33693960800000000000000
+      internalID: 7582200563757748764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 43
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670085ec63a1fade0800000000000000
+      internalID: -1319807343103836042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 19
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755f44a00e1912ce0800000000000000
+      internalID: -1431702815096113833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 22
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07a036bbf41c91e0800000000000000
+      internalID: -2189852247482915061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 19
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff220ce133ef4d980800000000000000
+      internalID: -8514901499938069761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: giantbook_001x_morningsun_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d97a0f917a74040800000000000000
+      internalID: 4631854471627382035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      giantbook_001x_morningsun_0: 8485171230739997326
+      giantbook_001x_morningsun_1: 8391815812427602442
+      giantbook_001x_morningsun_10: -6717632758305459603
+      giantbook_001x_morningsun_11: -1273724984996830076
+      giantbook_001x_morningsun_12: 7582200563757748764
+      giantbook_001x_morningsun_13: -1319807343103836042
+      giantbook_001x_morningsun_14: -1431702815096113833
+      giantbook_001x_morningsun_15: -2189852247482915061
+      giantbook_001x_morningsun_16: -8514901499938069761
+      giantbook_001x_morningsun_17: 4631854471627382035
+      giantbook_001x_morningsun_2: 7611783535661150442
+      giantbook_001x_morningsun_3: -8334379841662449334
+      giantbook_001x_morningsun_4: 5074636875988769030
+      giantbook_001x_morningsun_5: -8017621413284625297
+      giantbook_001x_morningsun_6: 8509646313940562457
+      giantbook_001x_morningsun_7: 8129614927542588210
+      giantbook_001x_morningsun_8: 3461490440249917847
+      giantbook_001x_morningsun_9: 3258400145312411051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

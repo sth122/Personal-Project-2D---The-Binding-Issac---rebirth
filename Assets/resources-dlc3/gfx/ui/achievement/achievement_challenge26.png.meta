@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: bc92805bdaa1cad4b995a189c1ef5818
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8823512912065052340
+    second: achievement_challenge26_0
+  - first:
+      213: 1160815393564956395
+    second: achievement_challenge26_1
+  - first:
+      213: -6127521078407900973
+    second: achievement_challenge26_2
+  - first:
+      213: 2411792366019751123
+    second: achievement_challenge26_3
+  - first:
+      213: -6461884567623084693
+    second: achievement_challenge26_4
+  - first:
+      213: -5600371337680201842
+    second: achievement_challenge26_5
+  - first:
+      213: 2233289006091184581
+    second: achievement_challenge26_6
+  - first:
+      213: 1084820032018764707
+    second: achievement_challenge26_7
+  - first:
+      213: 5224545049700438529
+    second: achievement_challenge26_8
+  - first:
+      213: 8415369499531100909
+    second: achievement_challenge26_9
+  - first:
+      213: 5365620523970216058
+    second: achievement_challenge26_10
+  - first:
+      213: 780247722410322156
+    second: achievement_challenge26_11
+  - first:
+      213: -5491495224364438356
+    second: achievement_challenge26_12
+  - first:
+      213: -1389499975751690153
+    second: achievement_challenge26_13
+  - first:
+      213: 3247786497950418021
+    second: achievement_challenge26_14
+  - first:
+      213: 2946052290376787773
+    second: achievement_challenge26_15
+  - first:
+      213: -904866566225290552
+    second: achievement_challenge26_16
+  - first:
+      213: -6520725739947456011
+    second: achievement_challenge26_17
+  - first:
+      213: 6625267090519507477
+    second: achievement_challenge26_18
+  - first:
+      213: 4358411613048919557
+    second: achievement_challenge26_19
+  - first:
+      213: 5074483332009390306
+    second: achievement_challenge26_20
+  - first:
+      213: -7161906399862008296
+    second: achievement_challenge26_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_challenge26_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 134
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c414a4561c59c8580800000000000000
+      internalID: -8823512912065052340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 132
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be69e3f337b0c1010800000000000000
+      internalID: 1160815393564956395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 133
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d057cf4b0ca6faa0800000000000000
+      internalID: -6127521078407900973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 135
+        width: 55
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc2b90f068687120800000000000000
+      internalID: 2411792366019751123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 103
+        width: 90
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b655f37e836c256a0800000000000000
+      internalID: -6461884567623084693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 112
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87da4fb0fb7742b0800000000000000
+      internalID: -5600371337680201842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 45
+        width: 116
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9a9d0c48c3efe10800000000000000
+      internalID: 2233289006091184581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_7
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3d4bd421e0e0f00800000000000000
+      internalID: 1084820032018764707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 74
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1029b68ba00518840800000000000000
+      internalID: 5224545049700438529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 82
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2453929f569c470800000000000000
+      internalID: 8415369499531100909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 51
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a704ac23073867a40800000000000000
+      internalID: 5365620523970216058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 24
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8231b6b2ff3da00800000000000000
+      internalID: 780247722410322156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 25
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cace00a403a4ac3b0800000000000000
+      internalID: -5491495224364438356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 29
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75818e9422187bce0800000000000000
+      internalID: -1389499975751690153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 21
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56405a4cc94721d20800000000000000
+      internalID: 3247786497950418021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3762a103fa72e820800000000000000
+      internalID: 2946052290376787773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 29
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca9307f6a44173f0800000000000000
+      internalID: -904866566225290552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_17
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 25
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f98fa0ec7ab185a0800000000000000
+      internalID: -6520725739947456011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_18
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 28
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5124080115da1fb50800000000000000
+      internalID: 6625267090519507477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506d7bc25403c7c30800000000000000
+      internalID: 4358411613048919557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 15
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e07f0764bf2c6640800000000000000
+      internalID: 5074483332009390306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_challenge26_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 20
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816d0a1231ccb9c90800000000000000
+      internalID: -7161906399862008296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      achievement_challenge26_0: -8823512912065052340
+      achievement_challenge26_1: 1160815393564956395
+      achievement_challenge26_10: 5365620523970216058
+      achievement_challenge26_11: 780247722410322156
+      achievement_challenge26_12: -5491495224364438356
+      achievement_challenge26_13: -1389499975751690153
+      achievement_challenge26_14: 3247786497950418021
+      achievement_challenge26_15: 2946052290376787773
+      achievement_challenge26_16: -904866566225290552
+      achievement_challenge26_17: -6520725739947456011
+      achievement_challenge26_18: 6625267090519507477
+      achievement_challenge26_19: 4358411613048919557
+      achievement_challenge26_2: -6127521078407900973
+      achievement_challenge26_20: 5074483332009390306
+      achievement_challenge26_21: -7161906399862008296
+      achievement_challenge26_3: 2411792366019751123
+      achievement_challenge26_4: -6461884567623084693
+      achievement_challenge26_5: -5600371337680201842
+      achievement_challenge26_6: 2233289006091184581
+      achievement_challenge26_7: 1084820032018764707
+      achievement_challenge26_8: 5224545049700438529
+      achievement_challenge26_9: 8415369499531100909
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

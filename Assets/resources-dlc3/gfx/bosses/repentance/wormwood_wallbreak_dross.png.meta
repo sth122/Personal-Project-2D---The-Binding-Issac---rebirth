@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 42b24fac073f0c3418715b2bcb64be58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6617247305269656214
+    second: wormwood_wallbreak_dross_0
+  - first:
+      213: 2689152669701079954
+    second: wormwood_wallbreak_dross_1
+  - first:
+      213: -5443936653913214858
+    second: wormwood_wallbreak_dross_2
+  - first:
+      213: -8577657769008206059
+    second: wormwood_wallbreak_dross_3
+  - first:
+      213: 4506344118040429348
+    second: wormwood_wallbreak_dross_4
+  - first:
+      213: 4272244887620637698
+    second: wormwood_wallbreak_dross_5
+  - first:
+      213: 4211735746740050771
+    second: wormwood_wallbreak_dross_6
+  - first:
+      213: 3973223543700415923
+    second: wormwood_wallbreak_dross_7
+  - first:
+      213: -6926979606581851749
+    second: wormwood_wallbreak_dross_8
+  - first:
+      213: -2839511904786136083
+    second: wormwood_wallbreak_dross_9
+  - first:
+      213: -3996122365532927439
+    second: wormwood_wallbreak_dross_10
+  - first:
+      213: -8339952109277561143
+    second: wormwood_wallbreak_dross_11
+  - first:
+      213: 3882247577977698724
+    second: wormwood_wallbreak_dross_12
+  - first:
+      213: 7836649156974567612
+    second: wormwood_wallbreak_dross_13
+  - first:
+      213: -2415771334661716696
+    second: wormwood_wallbreak_dross_14
+  - first:
+      213: -6042380866905164106
+    second: wormwood_wallbreak_dross_15
+  - first:
+      213: 8013172404676042143
+    second: wormwood_wallbreak_dross_16
+  - first:
+      213: 5518152727852641387
+    second: wormwood_wallbreak_dross_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 486
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65cd72b2a0da24a0800000000000000
+      internalID: -6617247305269656214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 423
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2938358fa1ac15520800000000000000
+      internalID: 2689152669701079954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 423
+        width: 70
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67036cbd4704374b0800000000000000
+      internalID: -5443936653913214858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 359
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f656994b906f880800000000000000
+      internalID: -8577657769008206059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 360
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42388778910c98e30800000000000000
+      internalID: 4506344118040429348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 296
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2045b1807101a4b30800000000000000
+      internalID: 4272244887620637698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 296
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b5140d857137a30800000000000000
+      internalID: 4211735746740050771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 233
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b56b7f03c9b32730800000000000000
+      internalID: 3973223543700415923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 170
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99405f9fbc6edf90800000000000000
+      internalID: -6926979606581851749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 171
+        width: 24
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3cabb87f60898d0800000000000000
+      internalID: -2839511904786136083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 10
+        width: 56
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a8a6381ebea88c0800000000000000
+      internalID: -3996122365532927439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 56
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cebdba5eb9824c80800000000000000
+      internalID: -8339952109277561143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_12
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 9
+        width: 58
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a93b776a9380e530800000000000000
+      internalID: 3882247577977698724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 9
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb065de43ee51cc60800000000000000
+      internalID: 7836649156974567612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 16
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825caea35c4797ed0800000000000000
+      internalID: -2415771334661716696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 22
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6308e8d96252ca0800000000000000
+      internalID: -6042380866905164106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 16
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d9da0b8d1843f60800000000000000
+      internalID: 8013172404676042143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wormwood_wallbreak_dross_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 11
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c62086baa649c40800000000000000
+      internalID: 5518152727852641387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wormwood_wallbreak_dross_0: -6617247305269656214
+      wormwood_wallbreak_dross_1: 2689152669701079954
+      wormwood_wallbreak_dross_10: -3996122365532927439
+      wormwood_wallbreak_dross_11: -8339952109277561143
+      wormwood_wallbreak_dross_12: 3882247577977698724
+      wormwood_wallbreak_dross_13: 7836649156974567612
+      wormwood_wallbreak_dross_14: -2415771334661716696
+      wormwood_wallbreak_dross_15: -6042380866905164106
+      wormwood_wallbreak_dross_16: 8013172404676042143
+      wormwood_wallbreak_dross_17: 5518152727852641387
+      wormwood_wallbreak_dross_2: -5443936653913214858
+      wormwood_wallbreak_dross_3: -8577657769008206059
+      wormwood_wallbreak_dross_4: 4506344118040429348
+      wormwood_wallbreak_dross_5: 4272244887620637698
+      wormwood_wallbreak_dross_6: 4211735746740050771
+      wormwood_wallbreak_dross_7: 3973223543700415923
+      wormwood_wallbreak_dross_8: -6926979606581851749
+      wormwood_wallbreak_dross_9: -2839511904786136083
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 09b86368156a94946a9b9b5cbe3f40cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1280271026458138560
+    second: character_014b_lilith_0
+  - first:
+      213: 3104780022132906850
+    second: character_014b_lilith_1
+  - first:
+      213: -5791836367427255168
+    second: character_014b_lilith_2
+  - first:
+      213: 1024524030359057303
+    second: character_014b_lilith_3
+  - first:
+      213: 4573163486682544661
+    second: character_014b_lilith_4
+  - first:
+      213: -4891530538461179978
+    second: character_014b_lilith_5
+  - first:
+      213: 4966243515291644068
+    second: character_014b_lilith_6
+  - first:
+      213: 5816671167769732245
+    second: character_014b_lilith_7
+  - first:
+      213: -8085223642830417130
+    second: character_014b_lilith_8
+  - first:
+      213: 4836822710564628749
+    second: character_014b_lilith_9
+  - first:
+      213: 7766723638564231986
+    second: character_014b_lilith_10
+  - first:
+      213: 9201640119240314904
+    second: character_014b_lilith_11
+  - first:
+      213: 5041517640269904512
+    second: character_014b_lilith_12
+  - first:
+      213: -4407451517381330280
+    second: character_014b_lilith_13
+  - first:
+      213: -216463039046947740
+    second: character_014b_lilith_14
+  - first:
+      213: -1682096331006673202
+    second: character_014b_lilith_15
+  - first:
+      213: 1608020069665123689
+    second: character_014b_lilith_16
+  - first:
+      213: 5506159166577475463
+    second: character_014b_lilith_17
+  - first:
+      213: -2393524579586611746
+    second: character_014b_lilith_18
+  - first:
+      213: -7182780186071038532
+    second: character_014b_lilith_19
+  - first:
+      213: 2275185129508078162
+    second: character_014b_lilith_20
+  - first:
+      213: -4065954679533535963
+    second: character_014b_lilith_21
+  - first:
+      213: -980036981629600511
+    second: character_014b_lilith_22
+  - first:
+      213: 5285965102185424065
+    second: character_014b_lilith_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character_014b_lilith_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 484
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7134427bf64c110800000000000000
+      internalID: 1280271026458138560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 483
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b16f4faf4661b20800000000000000
+      internalID: 3104780022132906850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 484
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0844f42a2834f9fa0800000000000000
+      internalID: -5791836367427255168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 483
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793376d6d27d73e00800000000000000
+      internalID: 1024524030359057303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 484
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aff7326f3277f30800000000000000
+      internalID: 4573163486682544661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 483
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bfcb0744eacd1cb0800000000000000
+      internalID: -4891530538461179978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 484
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0bb053a24abe440800000000000000
+      internalID: 4966243515291644068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 326
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594eb2aeb97f8b050800000000000000
+      internalID: 5816671167769732245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 326
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613d0872fe38bcf80800000000000000
+      internalID: -8085223642830417130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 326
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d092fb0f0a8df1340800000000000000
+      internalID: 4836822710564628749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 319
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b1049dff1f8cb60800000000000000
+      internalID: 7766723638564231986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_11
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 340
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8105d42afeac2bf70800000000000000
+      internalID: 9201640119240314904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 262
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a372d259117f540800000000000000
+      internalID: 5041517640269904512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 262
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89abab5523695d2c0800000000000000
+      internalID: -4407451517381330280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 262
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cea9a4308fefcf0800000000000000
+      internalID: -216463039046947740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_15
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 260
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecefb509c4ef7a8e0800000000000000
+      internalID: -1682096331006673202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 198
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96da614dbb5d05610800000000000000
+      internalID: 1608020069665123689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 202
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f7c90d69ec96c40800000000000000
+      internalID: 5506159166577475463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_18
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 199
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5e298831e78ced0800000000000000
+      internalID: -2393524579586611746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_19
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 200
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5858d0a73a15c90800000000000000
+      internalID: -7182780186071038532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 145
+        width: 98
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252849222d4139f10800000000000000
+      internalID: 2275185129508078162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 79
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52df095e2c3d297c0800000000000000
+      internalID: -4065954679533535963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 74
+        width: 16
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10db833ce853662f0800000000000000
+      internalID: -980036981629600511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_014b_lilith_23
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 64
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4afd211458b5940800000000000000
+      internalID: 5285965102185424065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      character_014b_lilith_0: 1280271026458138560
+      character_014b_lilith_1: 3104780022132906850
+      character_014b_lilith_10: 7766723638564231986
+      character_014b_lilith_11: 9201640119240314904
+      character_014b_lilith_12: 5041517640269904512
+      character_014b_lilith_13: -4407451517381330280
+      character_014b_lilith_14: -216463039046947740
+      character_014b_lilith_15: -1682096331006673202
+      character_014b_lilith_16: 1608020069665123689
+      character_014b_lilith_17: 5506159166577475463
+      character_014b_lilith_18: -2393524579586611746
+      character_014b_lilith_19: -7182780186071038532
+      character_014b_lilith_2: -5791836367427255168
+      character_014b_lilith_20: 2275185129508078162
+      character_014b_lilith_21: -4065954679533535963
+      character_014b_lilith_22: -980036981629600511
+      character_014b_lilith_23: 5285965102185424065
+      character_014b_lilith_3: 1024524030359057303
+      character_014b_lilith_4: 4573163486682544661
+      character_014b_lilith_5: -4891530538461179978
+      character_014b_lilith_6: 4966243515291644068
+      character_014b_lilith_7: 5816671167769732245
+      character_014b_lilith_8: -8085223642830417130
+      character_014b_lilith_9: 4836822710564628749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
