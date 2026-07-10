@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class AttackState<T> : IState<T>
+public class BaseState<T> : IState<T>
 {
     public virtual void Enter(T obj) { }
 
