@@ -39,12 +39,12 @@ public abstract class Singleton<T> : MonoBehaviour where T : Singleton<T>
         {
             if(dontDestroy)
             {
-                Instance.Init();
+                Instance.Initialize();
             }
             else
             {
                 instance = GetComponent<T>();
-                Init();
+                Initialize();
             }
         }
         else
@@ -53,5 +53,5 @@ public abstract class Singleton<T> : MonoBehaviour where T : Singleton<T>
         }
     }
 
-    protected abstract void Init();
+    protected virtual void Initialize() { }
 }
