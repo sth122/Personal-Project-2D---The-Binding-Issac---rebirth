@@ -1,16 +1,14 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class IsaacAttackState : MonoBehaviour
+public class IsaacAttackState<T> : IState<T>
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Enter(T obj)
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public void Exit(T obj) { }
+    public void Update(T obj) { }
+
+    public void FixedUpdate(T obj) { }
 }

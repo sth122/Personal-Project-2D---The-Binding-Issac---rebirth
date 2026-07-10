@@ -162,6 +162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 254432803}
   - component: {fileID: 254432804}
+  - component: {fileID: 254432805}
   m_Layer: 0
   m_Name: Isaac
   m_TagString: Untagged
@@ -198,8 +199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-  m_Actions: {fileID: -944628639613478452, guid: d7cad107dc72cbe49bc84fcb8a385ca4, type: 3}
-  m_NotificationBehavior: 0
+  m_Actions: {fileID: -944628639613478452, guid: badd1c98632a4714abbed904271c4644, type: 3}
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -210,12 +211,28 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: da02f1bc-e089-45a8-9ba1-9fd55db2b53d
+    m_ActionName: 'Isaac/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Isaac
   m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1010980332}
+--- !u!114 &254432805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254432802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c100165dae595384b82c891d267ee496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IsaacController
 --- !u!1 &383326752
 GameObject:
   m_ObjectHideFlags: 0
