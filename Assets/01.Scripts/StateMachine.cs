@@ -8,6 +8,13 @@ public interface IState<T>
     public void FixedUpdate(T obj);
 }
 
+public interface IAnimationable<T> : IState<T>
+{
+    public void StartAnimation(T obj, int animationHash);
+
+    public void StopAnimation(T obj, int animationHash);
+}
+
 /// <summary>
 /// StateMachine
 /// </summary>

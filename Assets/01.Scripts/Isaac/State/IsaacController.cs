@@ -12,6 +12,8 @@ public class IsaacController : MonoBehaviour
     public IsaacIdleState iIdleState;
     public IsaacMoveState iMoveState;
     public Rigidbody2D rb;
+    public Animator HeadAnimator { get; private set; }
+    public Animator BodyAnimator { get; private set; }
     public IsaacInput Input { get; private set; }
     public Vector2 isaacDirection { get; set; }
     private float moveSpeed;
@@ -25,6 +27,8 @@ public class IsaacController : MonoBehaviour
         stateMachine = new StateMachine<IsaacController>(this);
         iIdleState = new IsaacIdleState();
         iMoveState = new IsaacMoveState();
+        HeadAnimator = head.GetComponent<Animator>();
+        BodyAnimator = body.GetComponent<Animator>();
         Input = GetComponent<IsaacInput>();
         rb = GetComponent<Rigidbody2D>();
     }

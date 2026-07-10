@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 
-public class IsaacMoveState : BaseState<IsaacController>
+public class IsaacMoveState : IState<IsaacController>
 {
 
-    public override void Enter(IsaacController isaac)
+    public void Enter(IsaacController isaac)
     {
         // 움직이는 애니메이션 세팅
     }
-    public override void Exit(IsaacController isaac) { }
-    public override void Update(IsaacController isaac)
+    public void Exit(IsaacController isaac) { }
+    public void Update(IsaacController isaac)
     {
         isaac.isaacDirection = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
         if(isaac.isaacDirection == Vector2.zero)
@@ -17,8 +17,11 @@ public class IsaacMoveState : BaseState<IsaacController>
         }
     }
 
-    public override void FixedUpdate(IsaacController isaac) 
+    public void FixedUpdate(IsaacController isaac) 
     {
         isaac.rb.linearVelocity = isaac.isaacDirection.normalized * isaac.MoveSpeed;
     }
+
+    private void StartAnimation() { }
+    private void StopAnimation() { }
 }
