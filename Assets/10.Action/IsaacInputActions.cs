@@ -100,6 +100,15 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Attack"",
+                    ""type"": ""Value"",
+                    ""id"": ""77dea21e-dc1b-4366-9428-3f91138e2741"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -157,6 +166,61 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""8ffbf2c7-8840-4c48-8603-05860f43478b"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""967c94d8-c674-4a97-a99b-de20bf747005"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""59804592-6872-4ded-bbc8-b7e4f71d53c6"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""610eb816-0421-4dd2-9ff1-7ab766d5d1f6"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""5ed27ac2-4e00-4165-a5f7-da5a32ddac6f"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -166,6 +230,7 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
         // Isaac
         m_Isaac = asset.FindActionMap("Isaac", throwIfNotFound: true);
         m_Isaac_Move = m_Isaac.FindAction("Move", throwIfNotFound: true);
+        m_Isaac_Attack = m_Isaac.FindAction("Attack", throwIfNotFound: true);
     }
 
     ~@IsaacInputActions()
@@ -247,6 +312,7 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Isaac;
     private List<IIsaacActions> m_IsaacActionsCallbackInterfaces = new List<IIsaacActions>();
     private readonly InputAction m_Isaac_Move;
+    private readonly InputAction m_Isaac_Attack;
     /// <summary>
     /// Provides access to input actions defined in input action map "Isaac".
     /// </summary>
@@ -262,6 +328,10 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Isaac/Move".
         /// </summary>
         public InputAction @Move => m_Wrapper.m_Isaac_Move;
+        /// <summary>
+        /// Provides access to the underlying input action "Isaac/Attack".
+        /// </summary>
+        public InputAction @Attack => m_Wrapper.m_Isaac_Attack;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -291,6 +361,9 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
             @Move.started += instance.OnMove;
             @Move.performed += instance.OnMove;
             @Move.canceled += instance.OnMove;
+            @Attack.started += instance.OnAttack;
+            @Attack.performed += instance.OnAttack;
+            @Attack.canceled += instance.OnAttack;
         }
 
         /// <summary>
@@ -305,6 +378,9 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
             @Move.started -= instance.OnMove;
             @Move.performed -= instance.OnMove;
             @Move.canceled -= instance.OnMove;
+            @Attack.started -= instance.OnAttack;
+            @Attack.performed -= instance.OnAttack;
+            @Attack.canceled -= instance.OnAttack;
         }
 
         /// <summary>
@@ -352,5 +428,12 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnMove(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Attack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnAttack(InputAction.CallbackContext context);
     }
 }

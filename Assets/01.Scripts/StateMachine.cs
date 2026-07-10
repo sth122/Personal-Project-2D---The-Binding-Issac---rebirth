@@ -8,6 +8,10 @@ public interface IState<T>
     public void FixedUpdate(T obj);
 }
 
+/// <summary>
+/// StateMachine
+/// </summary>
+/// <typeparam name="T"></typeparam>
 public class StateMachine<T>
 {
     protected IState<T> currentState;

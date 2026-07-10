@@ -2,6 +2,7 @@
 
 public class IsaacController : MonoBehaviour
 {
+    #region MyRegion
     public StateMachine<IsaacController> stateMachine;
     public IsaacIdleState iIdleState;
     public IsaacMoveState iMoveState;
@@ -11,20 +12,20 @@ public class IsaacController : MonoBehaviour
     public Vector2 isaacDirection { get; set; }
     private float moveSpeed;
     public float MoveSpeed { get => moveSpeed; private set => moveSpeed = value; }
+    #endregion
 
     private void Awake()
     {
         stateMachine = new StateMachine<IsaacController>(this);
         iIdleState = new IsaacIdleState();
         iMoveState = new IsaacMoveState();
-        iAttackState = new IsaacAttackState();
         Input = GetComponent<IsaacInput>();
         rb = GetComponent<Rigidbody2D>();
     }
 
     void Start()
     {
-        MoveSpeed = 10f;
+        MoveSpeed = 3f;
         stateMachine?.ChangeState(iIdleState);
     }
 

@@ -21,6 +21,4 @@ public class IsaacMoveState : IState<IsaacController>
     {
         isaac.rb.linearVelocity = isaac.isaacDirection.normalized * isaac.MoveSpeed;
     }
-
-
 }
