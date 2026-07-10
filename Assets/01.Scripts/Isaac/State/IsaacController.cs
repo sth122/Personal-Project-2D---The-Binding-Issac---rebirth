@@ -6,8 +6,8 @@ public class IsaacController : MonoBehaviour
     [field: Header("Animations")]
     [field: SerializeField] public IsaacAinmData AnimData { get; private set; }
 
-    [SerializeField] GameObject head;
-    [SerializeField] GameObject body;
+    [SerializeField] public GameObject head;
+    [SerializeField] public GameObject body;
     public StateMachine<IsaacController> stateMachine;
     public IsaacIdleState iIdleState;
     public IsaacMoveState iMoveState;

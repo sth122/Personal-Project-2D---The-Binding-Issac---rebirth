@@ -4,9 +4,9 @@ using UnityEngine;
 [Serializable]
 public class IsaacAinmData
 {
-    [SerializeField] private string moveParameterName = "Move";
-    [SerializeField] private string upDownParameterName = "UpDown";
-    [SerializeField] private string attackParameterName = "Attack";
+    [SerializeField] private string moveParameterName = "isMove";
+    [SerializeField] private string upDownParameterName = "isUpDown";
+    [SerializeField] private string attackParameterName = "isAttack";
 
     public int MoveParameterHash { get; private set; }
     public int UpDownParameterHash { get; private set; }
