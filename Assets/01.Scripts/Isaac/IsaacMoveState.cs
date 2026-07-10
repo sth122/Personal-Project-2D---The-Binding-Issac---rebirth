@@ -1,19 +1,13 @@
 ﻿using UnityEngine;
 
-public class IsaacMoveState : IsaacBaseState
+public class IsaacMoveState<T> : IState<T>
 {
-    public override void Enter()
+    public void Enter(T obj)
     {
-        // Move 상태로 진입할 때 행해지는 로직
-    }
 
-    public override void Exit()
-    {
-        // Move 상태를 해제할 때 행해지는 로직
     }
+    public void Exit(T obj) { }
+    public void Update(T obj) { }
 
-    public override void Update()
-    {
-        // Idle 상태에서 행해지는 로직
-    }
+    public void FixedUpdate(T obj) { }
 }
