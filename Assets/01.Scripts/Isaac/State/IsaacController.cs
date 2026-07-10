@@ -3,9 +3,6 @@
 public class IsaacController : MonoBehaviour
 {
     #region MyRegion
-    [field: Header("Animations")]
-    [field: SerializeField] public IsaacAinmData AnimData { get; private set; }
-
     [SerializeField] public GameObject head;
     [SerializeField] public GameObject body;
     public StateMachine<IsaacController> stateMachine;
@@ -20,9 +17,18 @@ public class IsaacController : MonoBehaviour
     public float MoveSpeed { get => moveSpeed; private set => moveSpeed = value; }
     #endregion
 
+    //#region animation variable
+    //private string isBodyMove = "isBodyMove";
+    //private string isBodyUpDown = "isBodyUpDown";
+    ////private string attackParameterName = "isAttack";
+
+    public int IsBodyMove { get; private set; }
+    public int IsBodyUpDown { get; private set; }
+    //#endregion
+
     private void Awake()
     {
-        AnimData.Initialize();
+        AnimationInitialize();
 
         stateMachine = new StateMachine<IsaacController>(this);
         iIdleState = new IsaacIdleState();
@@ -48,5 +54,11 @@ public class IsaacController : MonoBehaviour
     private void FixedUpdate()
     {
         stateMachine.FixedUpdate(this);
+    }
+
+    private void AnimationInitialize()
+    {
+        IsBodyMove = Animator.StringToHash("isBodyMove");
+        IsBodyUpDown = Animator.StringToHash("isBodyUpDown");
     }
 }

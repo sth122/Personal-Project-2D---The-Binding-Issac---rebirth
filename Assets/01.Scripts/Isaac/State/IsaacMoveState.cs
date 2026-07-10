@@ -4,16 +4,14 @@ public class IsaacMoveState : IState<IsaacController>
 {
     SpriteRenderer sr;
     Vector2 dir;
-    int moveHash;
-    int upDownHash;
-    bool isMovingX;
-    bool isMovingY;
+    //int moveHash;
+    //int upDownHash;
 
     public void Enter(IsaacController isaac)
     {
 
-        moveHash = isaac.AnimData.MoveParameterHash;
-        upDownHash = isaac.AnimData.UpDownParameterHash;
+        //moveHash = isaac.IsBodyMove;
+        //upDownHash = isaac.IsBodyUpDown;
 
         sr = isaac.body.GetComponent<SpriteRenderer>();
         // 움직이는 애니메이션 세팅
@@ -21,35 +19,43 @@ public class IsaacMoveState : IState<IsaacController>
     }
     public void Exit(IsaacController isaac) 
     {
-        isaac.BodyAnimator.SetBool(moveHash, false);
+
     }
     public void Update(IsaacController isaac)
     {
         //isaac.isaacDirection = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
         dir = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
-        if(dir == Vector2.zero)
+
+        AnimationUpdate(isaac);
+
+        if (dir == Vector2.zero)
         {
             isaac.stateMachine.ChangeState(isaac.iIdleState);
+            return;
         }
     }
 
     public void FixedUpdate(IsaacController isaac) 
     {
-        AnimationUpdate(isaac);
-
         isaac.rb.linearVelocity = dir.normalized * isaac.MoveSpeed;
     }
 
     private void AnimationUpdate(IsaacController isaac)
     {
-        isMovingX = dir.x != 0;
-        isMovingY = dir.x == 0 && dir.y != 0;
-
-        isaac.BodyAnimator.SetBool(moveHash, isMovingX);
-        isaac.BodyAnimator.SetBool(upDownHash, isMovingY);
-
-        if (isMovingX)
+        if(dir.y != 0)
         {
+            isaac.BodyAnimator.SetBool(isaac.IsBodyUpDown, true);
+            isaac.BodyAnimator.SetBool(isaac.IsBodyMove, false);
+            return;
+        }
+        else
+        {
+            isaac.BodyAnimator.SetBool(isaac.IsBodyUpDown, false);
+        }
+        
+        if (dir.x != 0)
+        {
+            isaac.BodyAnimator.SetBool(isaac.IsBodyMove, true);
             if (dir.x > 0)
             {
                 sr.flipX = false;
@@ -58,6 +64,10 @@ public class IsaacMoveState : IState<IsaacController>
             {
                 sr.flipX = true;
             }
+        }
+        else
+        {
+            isaac.BodyAnimator.SetBool(isaac.IsBodyMove, false);
         }
     }
 }
