@@ -3,6 +3,9 @@
 public class IsaacController : MonoBehaviour
 {
     #region MyRegion
+    [field: Header("Animations")]
+    [field: SerializeField] public IsaacAinmData AnimData { get; private set; }
+
     [SerializeField] GameObject head;
     [SerializeField] GameObject body;
     public StateMachine<IsaacController> stateMachine;
@@ -17,6 +20,8 @@ public class IsaacController : MonoBehaviour
 
     private void Awake()
     {
+        AnimData.Initialize();
+
         stateMachine = new StateMachine<IsaacController>(this);
         iIdleState = new IsaacIdleState();
         iMoveState = new IsaacMoveState();
