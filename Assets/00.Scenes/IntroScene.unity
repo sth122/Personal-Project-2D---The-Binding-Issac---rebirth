@@ -236,6 +236,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c100165dae595384b82c891d267ee496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IsaacController
+  head: {fileID: 383326752}
+  body: {fileID: 1490260652}
+  rb: {fileID: 0}
 --- !u!114 &254432806
 MonoBehaviour:
   m_ObjectHideFlags: 0
