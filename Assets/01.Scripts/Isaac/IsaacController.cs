@@ -8,6 +8,9 @@ public class IsaacController : MonoBehaviour
     public IsaacAttackState<IsaacController> iAttackState;
     public IsaacInput Input { get; private set; }
     public Rigidbody2D Rb { get; private set; }
+    public Vector2 isaacDirection { get; set; }
+    private float moveSpeed;
+    public float MoveSpeed { get => moveSpeed; private set => moveSpeed = value; }
 
     private void Awake()
     {
@@ -21,6 +24,7 @@ public class IsaacController : MonoBehaviour
 
     void Start()
     {
+        MoveSpeed = 1f;
         stateMachine.ChangeState(iIdleState);
     }
 

@@ -1,43 +1,31 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class IsaacMoveState<T> : IState<T>
+public class IsaacMoveState<T> : IState<T> where T : IsaacController
 {
-    [Header("Movement")]
-    [SerializeField] private float moveSpeed;
-    private Vector2 curMovementInput;
-    Rigidbody2D rb;
 
-    private void Awake()
+    public void Enter(T isaac)
     {
-
+        // 움직이는 애니메이션 세팅
+    }
+    public void Exit(T isaac) { }
+    public void Update(T isaac)
+    {
+        isaac.isaacDirection = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
+        if(isaac.isaacDirection == Vector2.zero)
+        {
+            isaac.stateMachine.ChangeState(isaac.iIdleState);
+        }
     }
 
-    public void Enter(T obj)
+    public void FixedUpdate(T isaac) 
     {
-        
-    }
-    public void Exit(T obj) { }
-    public void Update(T obj)
-    {
-        
-    }
-
-    public void FixedUpdate(T obj) 
-    {
-        Move();
+        isaac.Rb.linearVelocity = isaac.isaacDirection.normalized * isaac.MoveSpeed;
     }
 
     private void OnMove(InputAction.CallbackContext context)
     {
-        if(context.phase == InputActionPhase.Performed)
-        {
-            curMovementInput = context.ReadValue<Vector2>();
-        }
-        else if(context.phase == InputActionPhase.Performed)
-        {
-            curMovementInput = Vector2.zero;
-        }
+
     }
 
     private void Move()
