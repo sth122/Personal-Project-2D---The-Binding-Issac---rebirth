@@ -1,27 +1,28 @@
 ﻿using UnityEngine;
 
-public class IsaacIdleState<T> : IState<T>
+public class IsaacIdleState<T> : IState<T> where T : IsaacController
 {
-    public void Enter(T obj)
+    public void Enter(T isaac)
     {
-        //idle 상태로 들어올 때 행해지는 행동
-        // 1. 애니메이션 재생
-        // 2. 가만히 있음
-
+        isaac.Rb.linearVelocity = Vector2.zero;
     }
 
-    public void Exit(T obj)
+    public void Exit(T isaac)
     {
 
     }
 
-    public void Update(T obj) 
+    public void Update(T isaac) 
     {
         // 1. 조작키를 눌렀는지? -> 누른 조작키에 따른 행동 조정
-
+        isaac.Rb.linearVelocity = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
+        if(isaac.Rb.linearVelocity != Vector2.zero )
+        {
+            isaac.stateMachine.ChangeState(isaac.iMoveState);
+        }
 
     }
 
-    public void FixedUpdate(T obj) { }
+    public void FixedUpdate(T isaac) { }
 
 }

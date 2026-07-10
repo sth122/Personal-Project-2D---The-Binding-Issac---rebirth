@@ -6,20 +6,32 @@ public class IsaacController : MonoBehaviour
     public IsaacIdleState<IsaacController> iIdleState;
     public IsaacMoveState<IsaacController> iMoveState;
     public IsaacAttackState<IsaacController> iAttackState;
-    
-    void Start()
+    public IsaacInput Input { get; private set; }
+    public Rigidbody2D Rb { get; private set; }
+
+    private void Awake()
     {
         stateMachine = new StateMachine<IsaacController>();
         iIdleState = new IsaacIdleState<IsaacController>();
         iMoveState = new IsaacMoveState<IsaacController>();
         iAttackState = new IsaacAttackState<IsaacController>();
+        Input = GetComponent<IsaacInput>();
+        Rb = GetComponent<Rigidbody2D>();
+    }
 
+    void Start()
+    {
         stateMachine.ChangeState(iIdleState);
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        //stateMachine.Update();
+        stateMachine.Update(this);
+    }
+
+    private void FixedUpdate()
+    {
+        stateMachine.Update(this);
     }
 }
