@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class IsaacIdleState : BaseState<IsaacController>
+public class IsaacIdleState : CharacterState<IsaacController>
 {
     public override void Enter(IsaacController isaac)
     {
