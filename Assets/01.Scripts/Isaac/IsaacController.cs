@@ -3,29 +3,29 @@
 public class IsaacController : MonoBehaviour
 {
     public StateMachine<IsaacController> stateMachine;
-    public IsaacIdleState<IsaacController> iIdleState;
-    public IsaacMoveState<IsaacController> iMoveState;
-    public IsaacAttackState<IsaacController> iAttackState;
+    public IsaacIdleState iIdleState;
+    public IsaacMoveState iMoveState;
+    public IsaacAttackState iAttackState;
     public IsaacInput Input { get; private set; }
-    public Rigidbody2D Rb { get; private set; }
+    public Rigidbody2D rb;
     public Vector2 isaacDirection { get; set; }
     private float moveSpeed;
     public float MoveSpeed { get => moveSpeed; private set => moveSpeed = value; }
 
     private void Awake()
     {
-        stateMachine = new StateMachine<IsaacController>();
-        iIdleState = new IsaacIdleState<IsaacController>();
-        iMoveState = new IsaacMoveState<IsaacController>();
-        iAttackState = new IsaacAttackState<IsaacController>();
+        stateMachine = new StateMachine<IsaacController>(this);
+        iIdleState = new IsaacIdleState();
+        iMoveState = new IsaacMoveState();
+        iAttackState = new IsaacAttackState();
         Input = GetComponent<IsaacInput>();
-        Rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Start()
     {
-        MoveSpeed = 1f;
-        stateMachine.ChangeState(iIdleState);
+        MoveSpeed = 10f;
+        stateMachine?.ChangeState(iIdleState);
     }
 
     // Update is called once per frame
@@ -36,6 +36,6 @@ public class IsaacController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        stateMachine.Update(this);
+        stateMachine.FixedUpdate(this);
     }
 }

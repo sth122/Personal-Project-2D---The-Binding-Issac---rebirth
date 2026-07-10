@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
-using UnityEngine.InputSystem;
 
-public class IsaacMoveState<T> : IState<T> where T : IsaacController
+public class IsaacMoveState : IState<IsaacController>
 {
 
-    public void Enter(T isaac)
+    public void Enter(IsaacController isaac)
     {
         // 움직이는 애니메이션 세팅
     }
-    public void Exit(T isaac) { }
-    public void Update(T isaac)
+    public void Exit(IsaacController isaac) { }
+    public void Update(IsaacController isaac)
     {
         isaac.isaacDirection = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
         if(isaac.isaacDirection == Vector2.zero)
@@ -18,18 +17,10 @@ public class IsaacMoveState<T> : IState<T> where T : IsaacController
         }
     }
 
-    public void FixedUpdate(T isaac) 
+    public void FixedUpdate(IsaacController isaac) 
     {
-        isaac.Rb.linearVelocity = isaac.isaacDirection.normalized * isaac.MoveSpeed;
+        isaac.rb.linearVelocity = isaac.isaacDirection.normalized * isaac.MoveSpeed;
     }
 
-    private void OnMove(InputAction.CallbackContext context)
-    {
 
-    }
-
-    private void Move()
-    {
-
-    }
 }

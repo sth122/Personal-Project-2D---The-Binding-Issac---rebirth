@@ -1,29 +1,35 @@
 ﻿using UnityEngine;
 
-public class IsaacIdleState<T> : IState<T> where T : IsaacController
+public class IsaacIdleState : IState<IsaacController>
 {
-    public void Enter(T isaac)
+    //IsaacController? isaac = null;
+
+    public void Enter(IsaacController obj)
     {
-        isaac.Rb.linearVelocity = Vector2.zero;
+        //if (obj != null)
+        //{
+        //isaac = obj as IsaacController;
+        obj.rb.linearVelocity = Vector2.zero;
+        //}
+        //else { Debug.Log("Null error"); }
     }
 
-    public void Exit(T isaac)
+    public void Exit(IsaacController obj)
     {
 
     }
 
-    public void Update(T isaac) 
+    public void Update(IsaacController obj) 
     {
         // 1. 조작키를 눌렀는지? -> 누른 조작키에 따른 행동 조정
-        isaac.isaacDirection = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
-        if(isaac.Rb.linearVelocity != Vector2.zero )
+        obj.isaacDirection = obj.Input.IsaacActions.Move.ReadValue<Vector2>();
+        if(obj.isaacDirection != Vector2.zero )
         {
-            isaac.stateMachine.ChangeState(isaac.iMoveState);
+            obj.stateMachine.ChangeState(obj.iMoveState);
         }
-
     }
 
-    public void FixedUpdate(T isaac) 
+    public void FixedUpdate(IsaacController obj) 
     {
 
     }

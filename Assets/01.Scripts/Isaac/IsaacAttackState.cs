@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 
-public class IsaacAttackState<T> : IState<T>
+public class IsaacAttackState : IState<IsaacController>
 {
-    public void Enter(T obj)
+    public void Enter(IsaacController isaac)
     {
 
     }
 
-    public void Exit(T obj) { }
-    public void Update(T obj) { }
+    public void Exit(IsaacController isaac) { }
+    public void Update(IsaacController isaac) { }
 
-    public void FixedUpdate(T obj) { }
+    public void FixedUpdate(IsaacController isaac) { }
 }

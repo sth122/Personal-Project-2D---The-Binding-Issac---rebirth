@@ -13,6 +13,11 @@ public class StateMachine<T>
     protected IState<T> currentState;
     public T obj;
 
+    public StateMachine(T owner)
+    {
+        this.obj = owner;
+    }
+
     public void ChangeState(IState<T> newState)
     {
         currentState?.Exit(obj);
