@@ -4,16 +4,14 @@ public class IsaacMoveState : IState<IsaacController>
 {
     SpriteRenderer sr;
     Vector2 dir;
-    //int moveHash;
-    //int upDownHash;
+    int moveHash;
+    int upDownHash;
 
     public void Enter(IsaacController isaac)
     {
-
-        //moveHash = isaac.IsBodyMove;
-        //upDownHash = isaac.IsBodyUpDown;
-
         sr = isaac.body.GetComponent<SpriteRenderer>();
+        moveHash = isaac.IsBodyMove;
+        upDownHash = isaac.IsBodyUpDown;
         // 움직이는 애니메이션 세팅
         
     }
@@ -23,7 +21,6 @@ public class IsaacMoveState : IState<IsaacController>
     }
     public void Update(IsaacController isaac)
     {
-        //isaac.isaacDirection = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
         dir = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
 
         AnimationUpdate(isaac);
@@ -45,18 +42,18 @@ public class IsaacMoveState : IState<IsaacController>
     {
         if(dir.y != 0)
         {
-            isaac.BodyAnimator.SetBool(isaac.IsBodyUpDown, true);
-            isaac.BodyAnimator.SetBool(isaac.IsBodyMove, false);
+            isaac.BodyAnimator.SetBool(upDownHash, true);
+            isaac.BodyAnimator.SetBool(moveHash, false);
             return;
         }
         else
         {
-            isaac.BodyAnimator.SetBool(isaac.IsBodyUpDown, false);
+            isaac.BodyAnimator.SetBool(upDownHash, false);
         }
         
         if (dir.x != 0)
         {
-            isaac.BodyAnimator.SetBool(isaac.IsBodyMove, true);
+            isaac.BodyAnimator.SetBool(moveHash, true);
             if (dir.x > 0)
             {
                 sr.flipX = false;
@@ -68,7 +65,7 @@ public class IsaacMoveState : IState<IsaacController>
         }
         else
         {
-            isaac.BodyAnimator.SetBool(isaac.IsBodyMove, false);
+            isaac.BodyAnimator.SetBool(moveHash, false);
         }
     }
 }

@@ -2,29 +2,23 @@
 
 public class IsaacController : MonoBehaviour
 {
-    #region MyRegion
-    [SerializeField] public GameObject head;
+    #region variable
     [SerializeField] public GameObject body;
+
     public StateMachine<IsaacController> stateMachine;
     public IsaacIdleState iIdleState;
     public IsaacMoveState iMoveState;
     public Rigidbody2D rb;
-    public Animator HeadAnimator { get; private set; }
     public Animator BodyAnimator { get; private set; }
     public IsaacInput Input { get; private set; }
-    public Vector2 isaacDirection { get; set; }
     private float moveSpeed;
     public float MoveSpeed { get => moveSpeed; private set => moveSpeed = value; }
     #endregion
 
-    //#region animation variable
-    //private string isBodyMove = "isBodyMove";
-    //private string isBodyUpDown = "isBodyUpDown";
-    ////private string attackParameterName = "isAttack";
-
+    #region body animation variable
     public int IsBodyMove { get; private set; }
     public int IsBodyUpDown { get; private set; }
-    //#endregion
+    #endregion
 
     private void Awake()
     {
@@ -33,7 +27,6 @@ public class IsaacController : MonoBehaviour
         stateMachine = new StateMachine<IsaacController>(this);
         iIdleState = new IsaacIdleState();
         iMoveState = new IsaacMoveState();
-        HeadAnimator = head.GetComponent<Animator>();
         BodyAnimator = body.GetComponent<Animator>();
         Input = GetComponent<IsaacInput>();
         rb = GetComponent<Rigidbody2D>();
