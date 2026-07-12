@@ -119,39 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &111653513
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 111653514}
-  m_Layer: 0
-  m_Name: Eyes
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &111653514
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111653513}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1384323892}
-  - {fileID: 1900901840}
-  m_Father: {fileID: 383326753}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &254432802
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,8 +129,8 @@ GameObject:
   m_Component:
   - component: {fileID: 254432803}
   - component: {fileID: 254432804}
-  - component: {fileID: 254432805}
   - component: {fileID: 254432806}
+  - component: {fileID: 254432805}
   - component: {fileID: 254432808}
   - component: {fileID: 254432807}
   m_Layer: 0
@@ -236,11 +203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c100165dae595384b82c891d267ee496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IsaacController
-  <AnimData>k__BackingField:
-    moveParameterName: Move
-    upDownParameterName: UpDown
-    attackParameterName: Attack
-  head: {fileID: 383326752}
   body: {fileID: 1490260652}
   rb: {fileID: 0}
 --- !u!114 &254432806
@@ -330,6 +292,7 @@ GameObject:
   - component: {fileID: 383326753}
   - component: {fileID: 383326754}
   - component: {fileID: 383326755}
+  - component: {fileID: 383326756}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -350,7 +313,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 111653514}
+  - {fileID: 1384323892}
+  - {fileID: 1900901840}
   m_Father: {fileID: 254432803}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &383326754
@@ -434,6 +398,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &383326756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383326752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc5893ea5269c040adee9f1f515c3e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Eyes
+  damage: 0
+  isaac: {fileID: 254432802}
+  firePosition:
+  - {fileID: 1384323892}
+  - {fileID: 1900901840}
+  tearBullet: {fileID: 3336249713886614393, guid: 66bc48a57878c504e8c09d5601864d29, type: 3}
 --- !u!1 &1010980330
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,12 +578,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384323891}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.35000002, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 111653514}
+  m_Father: {fileID: 383326753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1384323893
 SpriteRenderer:
@@ -801,12 +783,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900901839}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 111653514}
+  m_Father: {fileID: 383326753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1900901841
 SpriteRenderer:

@@ -27,7 +27,7 @@ public class IsaacMoveState : IState<IsaacController>
 
         if (dir == Vector2.zero)
         {
-            isaac.rb.linearVelocity = Vector2.zero;
+            //isaac.rb.linearVelocity = Vector2.zero;
             isaac.stateMachine.ChangeState(isaac.iIdleState);
             return;
         }

@@ -17,6 +17,9 @@ abstract public class IsaacWeapon : MonoBehaviour
     public IsaacInput Input { get; private set; }
     private WaitForSeconds wait;
     private SpriteRenderer sr;
+    private Vector2 headDirection;
+    private Vector2 attackDirection;
+    private bool isAttack;
     #endregion
 
     #region head animation variable
@@ -47,6 +50,18 @@ abstract public class IsaacWeapon : MonoBehaviour
 
     public void LookHead()
     {
+        attackDirection = Input.IsaacActions.Attack.ReadValue<Vector2>();
+        isAttack = attackDirection != Vector2.zero;
+
+        if (isAttack)
+        {
+            //AnimationUpdate(attackDirection);
+        }
+        else
+        {
+            headDirection = Input.IsaacActions.Move.ReadValue<Vector2>();
+            //AnimationUpdate(headDirection);
+        }
 
     }
 
@@ -67,4 +82,34 @@ abstract public class IsaacWeapon : MonoBehaviour
         IsHeadLeftRightAttack = Animator.StringToHash("isHeadLeftRightAttack");
         IsHeadUpDownAttack = Animator.StringToHash("isHeadUpDownAttack");
     }
+    //private void AnimationUpdate(Vector2 dir)
+    //{
+    //    if (dir.y != 0)
+    //    {
+    //        headAnimator.SetBool(upDownHash, true);
+    //        headAnimator.SetBool(moveHash, false);
+    //        return;
+    //    }
+    //    else
+    //    {
+    //        headAnimator.SetBool(upDownHash, false);
+    //    }
+
+    //    if (dir.x != 0)
+    //    {
+    //        headAnimator.SetBool(moveHash, true);
+    //        if (dir.x > 0)
+    //        {
+    //            sr.flipX = false;
+    //        }
+    //        else
+    //        {
+    //            sr.flipX = true;
+    //        }
+    //    }
+    //    else
+    //    {
+    //        headAnimator.SetBool(moveHash, false);
+    //    }
+    //}
 }
