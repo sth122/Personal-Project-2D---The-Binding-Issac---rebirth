@@ -1,23 +1,41 @@
 ﻿using UnityEngine;
 
-public interface IState
+public interface IState<T>
 {
-    public void Enter();
-    public void Exit();
-    public void Update();
-    public void FixedUpdate();
+    public void Enter(T obj);
+    public void Exit(T obj);
+    public void Update(T obj);
+    public void FixedUpdate(T obj);
 }
 
-public abstract class StateMachine
+public interface IAnimationable<T> : IState<T>
 {
-    protected IState currentState;
-    public void ChangeState(IState state)
+    public void StartAnimation(T obj, int animationHash);
+
+    public void StopAnimation(T obj, int animationHash);
+}
+
+/// <summary>
+/// StateMachine
+/// </summary>
+/// <typeparam name="T"></typeparam>
+public class StateMachine<T>
+{
+    protected IState<T> currentState;
+    public T obj;
+
+    public StateMachine(T owner)
     {
-        currentState.Exit();
-        currentState = state;
-        currentState.Enter();
+        this.obj = owner;
     }
 
-    public void Update() => currentState?.Update();
+    public void ChangeState(IState<T> newState)
+    {
+        currentState?.Exit(obj);
+        currentState = newState;
+        currentState?.Enter(obj);
+    }
 
+    public void Update(T obj) => currentState?.Update(obj);
+    public void FixedUpdate(T obj) => currentState?.FixedUpdate(obj);
 }
