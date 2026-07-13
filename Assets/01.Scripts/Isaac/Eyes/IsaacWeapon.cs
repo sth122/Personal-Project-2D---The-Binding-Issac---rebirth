@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 /// <summary>
 /// Player 무기 추상 클래스 스크립트 = Player's weapon abstract class script
 /// </summary>
@@ -18,8 +19,9 @@ abstract public class IsaacWeapon : MonoBehaviour
     private WaitForSeconds wait;
     private SpriteRenderer sr;
     private Rigidbody2D rb;
-    private Vector2 headDirection;
-    private Vector2 attackDirection;
+    private Vector2 moveDirection;
+    protected Vector2 attackDirection;
+    protected HeadDirection headDirection;
     private bool isAttack;
     #endregion
 
@@ -53,17 +55,17 @@ abstract public class IsaacWeapon : MonoBehaviour
 
     protected void LookHead()
     {
-        attackDirection = Input.IsaacActions.Attack.ReadValue<Vector2>();
+        attackDirection = Input.AttackDirection;
         isAttack = attackDirection != Vector2.zero;
 
         if (isAttack)
         {
-            AnimationAttack(attackDirection);
+            AnimationAttack(Input.CurrentHeadDirection);
         }
         else
         {
-            headDirection = rb.linearVelocity;
-            AnimationMove(headDirection);
+            moveDirection = rb.linearVelocity;
+            AnimationMove(moveDirection);
         }
 
     }
@@ -86,43 +88,62 @@ abstract public class IsaacWeapon : MonoBehaviour
         IsHeadUpAttack = Animator.StringToHash("isHeadUpAttack");
         IsHeadDownAttack = Animator.StringToHash("isHeadDownAttack");
     }
-    private void AnimationAttack(Vector2 dir)
+    private void AnimationAttack(HeadDirection dir)
     {
-        if (dir.y > 0)
+        AnimationAttackInit();
+        switch (dir)
         {
-            headAnimator.SetBool(IsHeadUpAttack, true);
-            headAnimator.SetBool(IsHeadDownAttack, false);
-            headAnimator.SetBool(IsHeadLeftRightAttack, false);
-            return;
-        }
-        else if (dir.y < 0)
-        {
-            headAnimator.SetBool(IsHeadUpAttack, false);
-            headAnimator.SetBool(IsHeadDownAttack, true);
-            headAnimator.SetBool(IsHeadLeftRightAttack, false);
-            return;
-        }
-        else
-        {
-            headAnimator.SetBool(IsHeadUpAttack, false);
-            headAnimator.SetBool(IsHeadDownAttack, false);
-        }
-        if (dir.x != 0)
-        {
-            headAnimator.SetBool(IsHeadLeftRightAttack, true);
-            if (dir.x > 0)
-            {
-                sr.flipX = false;
-            }
-            else
-            {
+            case HeadDirection.Left:
+                headAnimator.SetBool(IsHeadLeftRightAttack, true);
                 sr.flipX = true;
-            }
+                break;
+            case HeadDirection.Right:
+                headAnimator.SetBool(IsHeadLeftRightAttack, true);
+                sr.flipX = false;
+                break;
+            case HeadDirection.Up:
+                headAnimator.SetBool(IsHeadUpAttack, true);
+                break;
+            case HeadDirection.Down:
+                headAnimator.SetBool(IsHeadDownAttack, true);
+                break;
         }
-        else
-        {
-            headAnimator.SetBool(IsHeadLeftRightAttack, false);
-        }
+
+        //if (dir.y > 0)
+        //{
+        //    headAnimator.SetBool(IsHeadUpAttack, true);
+        //    headAnimator.SetBool(IsHeadDownAttack, false);
+        //    headAnimator.SetBool(IsHeadLeftRightAttack, false);
+        //    return;
+        //}
+        //else if (dir.y < 0)
+        //{
+        //    headAnimator.SetBool(IsHeadUpAttack, false);
+        //    headAnimator.SetBool(IsHeadDownAttack, true);
+        //    headAnimator.SetBool(IsHeadLeftRightAttack, false);
+        //    return;
+        //}
+        //else
+        //{
+        //    headAnimator.SetBool(IsHeadUpAttack, false);
+        //    headAnimator.SetBool(IsHeadDownAttack, false);
+        //}
+        //if (dir.x != 0)
+        //{
+        //    headAnimator.SetBool(IsHeadLeftRightAttack, true);
+        //    if (dir.x >= 0)
+        //    {
+        //        sr.flipX = false;
+        //    }
+        //    else
+        //    {
+        //        sr.flipX = true;
+        //    }
+        //}
+        //else
+        //{
+        //    headAnimator.SetBool(IsHeadLeftRightAttack, false);
+        //}
     }
 
 
