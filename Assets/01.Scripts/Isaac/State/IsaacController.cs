@@ -8,7 +8,8 @@ public class IsaacController : MonoBehaviour
     public StateMachine<IsaacController> stateMachine;
     public IsaacIdleState iIdleState;
     public IsaacMoveState iMoveState;
-    public Rigidbody2D rb;
+    private Rigidbody2D rb;
+    public Rigidbody2D RB {  get { return rb; } }
     public Animator BodyAnimator { get; private set; }
     public IsaacInput Input { get; private set; }
     private float moveSpeed;

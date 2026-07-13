@@ -25,9 +25,8 @@ public class IsaacMoveState : IState<IsaacController>
 
         AnimationUpdate(isaac);
 
-        if (dir == Vector2.zero)
+        if (isaac.RB.linearVelocity == Vector2.zero)
         {
-            //isaac.rb.linearVelocity = Vector2.zero;
             isaac.stateMachine.ChangeState(isaac.iIdleState);
             return;
         }
@@ -35,7 +34,7 @@ public class IsaacMoveState : IState<IsaacController>
 
     public void FixedUpdate(IsaacController isaac) 
     {
-        isaac.rb.linearVelocity = dir.normalized * isaac.MoveSpeed;
+        isaac.RB.linearVelocity = dir.normalized * isaac.MoveSpeed;
     }
 
     private void AnimationUpdate(IsaacController isaac)

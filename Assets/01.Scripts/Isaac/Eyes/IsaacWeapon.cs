@@ -17,6 +17,7 @@ abstract public class IsaacWeapon : MonoBehaviour
     public IsaacInput Input { get; private set; }
     private WaitForSeconds wait;
     private SpriteRenderer sr;
+    private Rigidbody2D rb;
     private Vector2 headDirection;
     private Vector2 attackDirection;
     private bool isAttack;
@@ -24,9 +25,10 @@ abstract public class IsaacWeapon : MonoBehaviour
 
     #region head animation variable
     public int IsHeadMove { get; private set; }
-    public int IsHeadUpDown { get; private set; }
+    public int IsHeadUp { get; private set; }
     public int IsHeadLeftRightAttack { get; private set; }
-    public int IsHeadUpDownAttack { get; private set; }
+    public int IsHeadUpAttack { get; private set; }
+    public int IsHeadDownAttack { get; private set; }
     #endregion
 
     private void Awake()
@@ -34,6 +36,7 @@ abstract public class IsaacWeapon : MonoBehaviour
         headAnimator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         Input = isaac.GetComponent<IsaacInput>();
+        rb = isaac.GetComponent<Rigidbody2D>();
     }
 
     protected virtual void Start()
@@ -48,19 +51,19 @@ abstract public class IsaacWeapon : MonoBehaviour
 
     protected abstract void Attack();
 
-    public void LookHead()
+    protected void LookHead()
     {
         attackDirection = Input.IsaacActions.Attack.ReadValue<Vector2>();
         isAttack = attackDirection != Vector2.zero;
 
         if (isAttack)
         {
-            //AnimationUpdate(attackDirection);
+            AnimationAttack(attackDirection);
         }
         else
         {
-            headDirection = Input.IsaacActions.Move.ReadValue<Vector2>();
-            //AnimationUpdate(headDirection);
+            headDirection = rb.linearVelocity;
+            AnimationMove(headDirection);
         }
 
     }
@@ -78,38 +81,87 @@ abstract public class IsaacWeapon : MonoBehaviour
     private void AnimationInitialize()
     {
         IsHeadMove = Animator.StringToHash("isHeadMove");
-        IsHeadUpDown = Animator.StringToHash("isHeadUpDown");
+        IsHeadUp = Animator.StringToHash("isHeadUp");
         IsHeadLeftRightAttack = Animator.StringToHash("isHeadLeftRightAttack");
-        IsHeadUpDownAttack = Animator.StringToHash("isHeadUpDownAttack");
+        IsHeadUpAttack = Animator.StringToHash("isHeadUpAttack");
+        IsHeadDownAttack = Animator.StringToHash("isHeadDownAttack");
     }
-    //private void AnimationUpdate(Vector2 dir)
-    //{
-    //    if (dir.y != 0)
-    //    {
-    //        headAnimator.SetBool(upDownHash, true);
-    //        headAnimator.SetBool(moveHash, false);
-    //        return;
-    //    }
-    //    else
-    //    {
-    //        headAnimator.SetBool(upDownHash, false);
-    //    }
+    private void AnimationAttack(Vector2 dir)
+    {
+        if (dir.y > 0)
+        {
+            headAnimator.SetBool(IsHeadUpAttack, true);
+            headAnimator.SetBool(IsHeadDownAttack, false);
+            headAnimator.SetBool(IsHeadLeftRightAttack, false);
+            return;
+        }
+        else if (dir.y < 0)
+        {
+            headAnimator.SetBool(IsHeadUpAttack, false);
+            headAnimator.SetBool(IsHeadDownAttack, true);
+            headAnimator.SetBool(IsHeadLeftRightAttack, false);
+            return;
+        }
+        else
+        {
+            headAnimator.SetBool(IsHeadUpAttack, false);
+            headAnimator.SetBool(IsHeadDownAttack, false);
+        }
+        if (dir.x != 0)
+        {
+            headAnimator.SetBool(IsHeadLeftRightAttack, true);
+            if (dir.x > 0)
+            {
+                sr.flipX = false;
+            }
+            else
+            {
+                sr.flipX = true;
+            }
+        }
+        else
+        {
+            headAnimator.SetBool(IsHeadLeftRightAttack, false);
+        }
+    }
 
-    //    if (dir.x != 0)
-    //    {
-    //        headAnimator.SetBool(moveHash, true);
-    //        if (dir.x > 0)
-    //        {
-    //            sr.flipX = false;
-    //        }
-    //        else
-    //        {
-    //            sr.flipX = true;
-    //        }
-    //    }
-    //    else
-    //    {
-    //        headAnimator.SetBool(moveHash, false);
-    //    }
-    //}
+
+    private void AnimationMove(Vector2 dir)
+    {
+        AnimationAttackInit();
+        if (dir.y > 0)
+        {
+            headAnimator.SetBool(IsHeadUp, true);
+            headAnimator.SetBool(IsHeadMove, false);
+            return;
+        }
+        else
+        {
+            headAnimator.SetBool(IsHeadUp, false);
+        }
+
+        if (dir.x != 0 && dir.y == 0)
+        {
+            headAnimator.SetBool(IsHeadMove, true);
+            if (dir.x > 0)
+            {
+                sr.flipX = false;
+            }
+            else
+            {
+                sr.flipX = true;
+            }
+        }
+        else
+        {
+            headAnimator.SetBool(IsHeadMove, false);
+        }
+    }
+
+    private void AnimationAttackInit()
+    {
+        headAnimator.SetBool(IsHeadUpAttack, false);
+        headAnimator.SetBool(IsHeadDownAttack, false);
+        headAnimator.SetBool(IsHeadLeftRightAttack, false);
+    }
 }

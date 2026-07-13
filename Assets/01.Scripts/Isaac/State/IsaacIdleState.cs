@@ -5,7 +5,7 @@ public class IsaacIdleState : IState<IsaacController>
     Vector2 dir;
     public void Enter(IsaacController isaac)
     {
-        isaac.rb.linearVelocity = Vector2.zero;
+        isaac.RB.linearVelocity = Vector2.zero;
     }
 
     public void Exit(IsaacController isaac)

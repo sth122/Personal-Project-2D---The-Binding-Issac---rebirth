@@ -5,13 +5,14 @@ public class Eyes : IsaacWeapon
     [SerializeField] Transform[] firePosition;
     [SerializeField] GameObject tearBullet;
 
-    protected void Start()
+    protected override void Start()
     {
         base.Start();
     }
 
     protected void Update()
     {
+        LookHead();
         Attack();
     }
 
