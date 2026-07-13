@@ -23,6 +23,42 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "UpAttack",
+                    "type": "Button",
+                    "id": "665d9cc4-cbd8-46a8-83a6-63f23f435da8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DownAttack",
+                    "type": "Button",
+                    "id": "135c623c-4845-4840-8986-7648e6c75d60",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftAttack",
+                    "type": "Button",
+                    "id": "e3056acc-a023-4e87-88c7-d2ee214eff9f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RigthAttack",
+                    "type": "Button",
+                    "id": "01dd18fe-a8c3-4301-9c1c-a75a1beb04cc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -135,6 +171,50 @@
                     "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "8354930b-5651-457b-804b-35a569403198",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d165b359-e58b-4246-b51f-7cdfcc65e638",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RigthAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c32fe767-93dc-4ea8-ae0b-7adf871682a1",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "71952fb1-164c-4fb0-8c7b-e7e74b1b4395",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
