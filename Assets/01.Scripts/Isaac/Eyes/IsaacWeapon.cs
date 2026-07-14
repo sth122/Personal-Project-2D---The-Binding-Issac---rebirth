@@ -149,7 +149,6 @@ abstract public class IsaacWeapon : MonoBehaviour
         //}
     }
 
-
     private void AnimationMove(Vector2 dir)
     {
         AnimationAttackInit();

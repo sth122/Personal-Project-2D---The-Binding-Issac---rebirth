@@ -1,16 +1,31 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BasicTears : MonoBehaviour
+public class BasicTears : IsaacBullet
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected override void Awake()
     {
-        
+        base.Awake();
+    }
+    protected override void OnEnable()
+    {
+        base.OnEnable();
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void Start()
     {
-        
+        base.Start();
+    }
+
+    protected override void OnCollisionEnter2D(Collision2D collision)
+    {
+        base.OnCollisionEnter2D(collision);
+    }
+
+    public override void ReturnPool()
+    {
+     
+        // 눈물 사운드 이팩트 추가
+            // 눈물 충돌 이펙트(anim) 추가
+            ObjectPoolManager.Instance.ReturnObject("BasicTears", this.gameObject);
     }
 }

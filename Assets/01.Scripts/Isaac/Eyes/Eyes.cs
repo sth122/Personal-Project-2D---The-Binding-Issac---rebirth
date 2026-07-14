@@ -5,11 +5,12 @@ public class Eyes : IsaacWeapon
     [SerializeField] GameObject tearBullet;
     [SerializeField] Transform fire;
     [SerializeField] Vector3 originFirePos;
+    private string bulletName;
 
     protected override void Start()
     {
         base.Start();
-
+        bulletName = tearBullet.name;
         originFirePos = fire.localPosition;
     }
 
@@ -25,13 +26,18 @@ public class Eyes : IsaacWeapon
         {
             CheckDirection();
             
-            GameObject tearBullet = ObjectPoolManager.Instance.GetObject("IsaacBullet");
+            GameObject tearBullet = ObjectPoolManager.Instance.GetObject(bulletName);
             tearBullet.GetComponent<IsaacBullet>().SetDirection(attackDirection);
             tearBullet.transform.position = fire.position;
             tearBullet.transform.rotation = fire.rotation;
             canAttack = false;
         }
     }
+
+    /// <summary>
+    /// 나중에 눈물 변경 로직 추가 ( BloodTear / 혈사(구현할진 모름) )
+    /// </summary>
+    private void SetTears() { }
 
     /// <summary>
     /// Updates the fire object's local position based on the current head direction input.

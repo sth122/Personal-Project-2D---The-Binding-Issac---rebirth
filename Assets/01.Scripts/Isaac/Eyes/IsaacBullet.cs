@@ -1,40 +1,52 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class IsaacBullet : MonoBehaviour, IReturnPoolable
 {
     #region variable
-    private Rigidbody2D rb;
-    private Vector2 dir;
-    private float lifeTime;
-    private float speed;
-    [SerializeField]private float timer;
-    private float damage;
+    protected Rigidbody2D rb;
+    protected WaitForSeconds wait;
+    protected Vector2 dir;
+    protected float lifeTime;
+    protected float speed;
+    protected float gravityDelay;
+    [SerializeField] protected float timer;
+    protected float damage;
 
     #endregion
 
-    private void Awake()
+    protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void OnEnable()
+    protected virtual void OnEnable()
     {
+        rb.gravityScale = 0f;
         timer = 0f;
+        StartCoroutine(GravityDelay());
     }
 
-    private void Start()
+
+    /// <summary>
+    /// 연사 속도 / 딜레이 / 중력 딜레이 계산 필요
+    /// 나중에 SetLifeTime / SetShootSpeed / SetGravityDelay 등등 만들어야 함
+    /// </summary>
+    protected virtual void Start()
     {
         lifeTime = 2f;
         speed = 5f;
+        gravityDelay = lifeTime - 0.5f;
+        wait = new WaitForSeconds(gravityDelay);
     }
 
-    private void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         timer += Time.fixedDeltaTime;
         rb.linearVelocity = dir * speed;
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (timer > lifeTime)
         {
@@ -42,7 +54,7 @@ public class IsaacBullet : MonoBehaviour, IReturnPoolable
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.layer == LayerMask.NameToLayer("Monster"))
         {
@@ -65,10 +77,17 @@ public class IsaacBullet : MonoBehaviour, IReturnPoolable
     {
         this.dir = dir;
     }
-   public void ReturnPool()
+    public virtual void ReturnPool()
     {
+        // 각 눈물마다
         // 눈물 사운드 이팩트 추가
         // 눈물 충돌 이펙트(anim) 추가
         ObjectPoolManager.Instance.ReturnObject("IsaacBullet", this.gameObject);
+    }
+
+    IEnumerator GravityDelay()
+    {
+        yield return wait;
+        rb.gravityScale = 10f;
     }
 }
