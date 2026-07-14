@@ -2,16 +2,20 @@
 
 public class Eyes : IsaacWeapon
 {
-    [SerializeField] Transform[] firePosition;
     [SerializeField] GameObject tearBullet;
+    [SerializeField] Transform fire;
+    Transform currentFirePos;
+    Transform originFirePos;
     Transform leftOriginPos;
     Transform rightOriginPos;
 
     protected override void Start()
     {
         base.Start();
-        leftOriginPos = firePosition[0].transform;
-        rightOriginPos = firePosition[1].transform;
+
+        originFirePos = fire;
+        //leftOriginPos = firePosition[0].transform;
+        //rightOriginPos = firePosition[1].transform;
     }
 
     protected void Update()
@@ -23,17 +27,25 @@ public class Eyes : IsaacWeapon
 
     protected override void Attack()
     {
+        if (attackDirection == Vector2.zero)
+            return;
+
+
+        GameObject tearBullet = ObjectPoolManager.Instance.GetObject("IsaacBullet");
+        tearBullet.transform.position = fire.position;
+        tearBullet.transform.rotation = fire.rotation;
+        canAttack = false;
 
     }
 
-    //private HeadDirection CheckDirection()
-    //{
-    //    if (attackDirection == Vector2.zero)
-    //        return HeadDirection.Down;
+    private void CheckDirection()
+    {
+        if (attackDirection == Vector2.zero)
+            transform.position = originFirePos.position;
 
-    //    switch
+        //switch
 
-    //}
+    }
 
     private void TransPosEyes()
     {

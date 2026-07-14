@@ -11,6 +11,7 @@ abstract public class IsaacWeapon : MonoBehaviour
     #region protected Variable
     [SerializeField] protected int damage;
     [SerializeField] GameObject isaac;
+    [SerializeField] protected Transform[] firePosition;
 
     protected float delay;
     protected bool canAttack;
@@ -22,6 +23,7 @@ abstract public class IsaacWeapon : MonoBehaviour
     private Vector2 moveDirection;
     protected Vector2 attackDirection;
     protected HeadDirection headDirection;
+    protected int posDir;
     private bool isAttack;
     #endregion
 
@@ -46,8 +48,9 @@ abstract public class IsaacWeapon : MonoBehaviour
         AnimationInitialize();
 
         canAttack = true;
-        delay = 1f;
+        delay = 0.5f;
         wait = new WaitForSeconds(delay);
+        posDir = 1;
         StartCoroutine(AttackDelay());
     }
 
@@ -76,6 +79,7 @@ abstract public class IsaacWeapon : MonoBehaviour
         {
             yield return new WaitWhile(() => canAttack);
             yield return wait;
+            posDir *= -1;
             canAttack = true;
         }
     }
