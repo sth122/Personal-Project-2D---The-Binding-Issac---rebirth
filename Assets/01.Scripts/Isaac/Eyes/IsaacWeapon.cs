@@ -11,7 +11,6 @@ abstract public class IsaacWeapon : MonoBehaviour
     #region protected Variable
     [SerializeField] protected int damage;
     [SerializeField] GameObject isaac;
-    [SerializeField] protected Transform[] firePosition;
 
     protected float delay;
     protected bool canAttack;

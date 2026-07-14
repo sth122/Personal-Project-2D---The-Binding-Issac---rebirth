@@ -4,13 +4,13 @@ public class Eyes : IsaacWeapon
 {
     [SerializeField] GameObject tearBullet;
     [SerializeField] Transform fire;
-    [SerializeField]Vector3 originFirePos;
+    [SerializeField] Vector3 originFirePos;
 
     protected override void Start()
     {
         base.Start();
 
-        originFirePos = fire.position;
+        originFirePos = fire.localPosition;
     }
 
     protected void Update()
@@ -40,16 +40,16 @@ public class Eyes : IsaacWeapon
         switch (Input.CurrentHeadDirection)
         {
             case HeadDirection.Left:
-                fire.localPosition = new Vector3(-0.25f, -0.25f * posDir, 0f);
+                fire.localPosition = new Vector3(-originFirePos.x, -originFirePos.y * posDir, 0f);
                 break;
             case HeadDirection.Right:
-                fire.localPosition = new Vector3(0.25f, -0.25f * posDir, 0f);
+                fire.localPosition = new Vector3(originFirePos.x, -originFirePos.y * posDir, 0f);
                 break;
             case HeadDirection.Up:
-                fire.localPosition = new Vector3(0.25f * posDir, 0.25f, 0f);
+                fire.localPosition = new Vector3(originFirePos.x * posDir, originFirePos.x, 0f);
                 break;
             case HeadDirection.Down:
-                fire.localPosition = new Vector3(0.25f * posDir, -0.25f, 0f);
+                fire.localPosition = new Vector3(originFirePos.x * posDir, -originFirePos.x, 0f);
                 break;
         }
 
