@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class MonsterController : MonoBehaviour
+abstract public class MonsterController : MonoBehaviour
 {
 	#region variable
 	public StateMachine<MonsterController> stateMachine;
