@@ -24,19 +24,20 @@ public class Eyes : IsaacWeapon
         if (attackDirection != Vector2.zero && canAttack)
         {
             CheckDirection();
-
+            
             GameObject tearBullet = ObjectPoolManager.Instance.GetObject("IsaacBullet");
+            tearBullet.GetComponent<IsaacBullet>().SetDirection(attackDirection);
             tearBullet.transform.position = fire.position;
             tearBullet.transform.rotation = fire.rotation;
             canAttack = false;
         }
     }
 
+    /// <summary>
+    /// Updates the fire object's local position based on the current head direction input.
+    /// </summary>
     private void CheckDirection()
     {
-        //if (attackDirection == Vector2.zero)
-        //    fire.position = originFirePos.position;
-
         switch (Input.CurrentHeadDirection)
         {
             case HeadDirection.Left:
@@ -52,12 +53,16 @@ public class Eyes : IsaacWeapon
                 fire.localPosition = new Vector3(originFirePos.x * posDir, -originFirePos.x, 0f);
                 break;
         }
-
-    }
-
-    private void TransPosEyes()
-    {
-        // 정면일 경우 그대로
-        // 좌우일 경우 눈동자 x위치는 동일, y좌표 조정
     }
 }
+
+/*
+ 
+                5                           if T > T_max
+
+                16 - 6 x sqrt(T x 1.3 + 1)  if T ≥ 0 and  T ≤ T_max
+Tear Delay = 
+                16 - 6 x sqrt(T x 1.3 + 1) - 6 x T  if T < 0 and  T > -0.77
+
+                16 - 6 x T                  if T ≤ -0.77
+ */

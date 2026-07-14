@@ -12,7 +12,7 @@ abstract public class IsaacWeapon : MonoBehaviour
     [SerializeField] protected int damage;
     [SerializeField] GameObject isaac;
 
-    protected float delay;
+    protected float tearDelay;
     protected bool canAttack;
     private Animator headAnimator;
     public IsaacInput Input { get; private set; }
@@ -47,8 +47,8 @@ abstract public class IsaacWeapon : MonoBehaviour
         AnimationInitialize();
 
         canAttack = true;
-        delay = 0.5f;
-        wait = new WaitForSeconds(delay);
+        tearDelay = 0.5f;
+        wait = new WaitForSeconds(tearDelay);
         posDir = 1;
         StartCoroutine(AttackDelay());
     }
