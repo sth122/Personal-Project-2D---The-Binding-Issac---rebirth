@@ -18,26 +18,29 @@ public class IsaacBullet : MonoBehaviour, IReturnPoolable
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        lifeTime = 2f;
+        speed = 5f;
     }
+
+    /// <summary>
+    /// 캐릭터 스탯에 있는 데이터를 받아와 연사 속도 / 딜레이 / 중력 딜레이 계산 필요
+    /// 나중에 SetLifeTime / SetShootSpeed / SetGravityDelay 등등 만들어야 함
+    /// </summary>
 
     protected virtual void OnEnable()
     {
+        gravityDelay = lifeTime - 0.5f;
+        wait = new WaitForSeconds(gravityDelay);
+        rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
         timer = 0f;
         StartCoroutine(GravityDelay());
     }
 
 
-    /// <summary>
-    /// 연사 속도 / 딜레이 / 중력 딜레이 계산 필요
-    /// 나중에 SetLifeTime / SetShootSpeed / SetGravityDelay 등등 만들어야 함
-    /// </summary>
     protected virtual void Start()
     {
-        lifeTime = 2f;
-        speed = 5f;
-        gravityDelay = lifeTime - 0.5f;
-        wait = new WaitForSeconds(gravityDelay);
+
     }
 
     protected virtual void FixedUpdate()

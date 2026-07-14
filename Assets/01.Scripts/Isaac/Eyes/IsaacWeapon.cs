@@ -69,7 +69,6 @@ abstract public class IsaacWeapon : MonoBehaviour
             moveDirection = rb.linearVelocity;
             AnimationMove(moveDirection);
         }
-
     }
 
     IEnumerator AttackDelay()
