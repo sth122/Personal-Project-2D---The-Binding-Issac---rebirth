@@ -59,6 +59,7 @@ public class IsaacInput : MonoBehaviour
         preesedDirections.Remove(dir);
         preesedDirections.Add(dir);
 
+        // 마지막 인덱스 = 가장 최근에 입력된 방향
         CurrentHeadDirection = preesedDirections[^1];
     }
     private void Release(HeadDirection dir)

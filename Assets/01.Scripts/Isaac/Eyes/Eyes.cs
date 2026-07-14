@@ -4,46 +4,54 @@ public class Eyes : IsaacWeapon
 {
     [SerializeField] GameObject tearBullet;
     [SerializeField] Transform fire;
-    Transform currentFirePos;
-    Transform originFirePos;
-    Transform leftOriginPos;
-    Transform rightOriginPos;
+    [SerializeField]Vector3 originFirePos;
 
     protected override void Start()
     {
         base.Start();
 
-        originFirePos = fire;
-        //leftOriginPos = firePosition[0].transform;
-        //rightOriginPos = firePosition[1].transform;
+        originFirePos = fire.position;
     }
 
     protected void Update()
     {
         LookHead();
-        //CheckDirection();
         Attack();
     }
 
     protected override void Attack()
     {
-        if (attackDirection == Vector2.zero)
-            return;
+        if (attackDirection != Vector2.zero && canAttack)
+        {
+            CheckDirection();
 
-
-        GameObject tearBullet = ObjectPoolManager.Instance.GetObject("IsaacBullet");
-        tearBullet.transform.position = fire.position;
-        tearBullet.transform.rotation = fire.rotation;
-        canAttack = false;
-
+            GameObject tearBullet = ObjectPoolManager.Instance.GetObject("IsaacBullet");
+            tearBullet.transform.position = fire.position;
+            tearBullet.transform.rotation = fire.rotation;
+            canAttack = false;
+        }
     }
 
     private void CheckDirection()
     {
-        if (attackDirection == Vector2.zero)
-            transform.position = originFirePos.position;
+        //if (attackDirection == Vector2.zero)
+        //    fire.position = originFirePos.position;
 
-        //switch
+        switch (Input.CurrentHeadDirection)
+        {
+            case HeadDirection.Left:
+                fire.localPosition = new Vector3(-0.25f, -0.25f * posDir, 0f);
+                break;
+            case HeadDirection.Right:
+                fire.localPosition = new Vector3(0.25f, -0.25f * posDir, 0f);
+                break;
+            case HeadDirection.Up:
+                fire.localPosition = new Vector3(0.25f * posDir, 0.25f, 0f);
+                break;
+            case HeadDirection.Down:
+                fire.localPosition = new Vector3(0.25f * posDir, -0.25f, 0f);
+                break;
+        }
 
     }
 
