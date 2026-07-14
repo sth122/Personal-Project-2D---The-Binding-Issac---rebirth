@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 public class BasicTears : IsaacBullet
 {
     protected override void Awake()
@@ -21,11 +22,14 @@ public class BasicTears : IsaacBullet
         base.OnCollisionEnter2D(collision);
     }
 
+
     public override void ReturnPool()
     {
+        var poolObject = GetComponent<PooledObject<IsaacBullet>>();
+
 
         // 눈물 사운드 이팩트 추가
         // 눈물 충돌 이펙트(anim) 추가
-        ObjectPoolManager.Instance.ReturnObject("BasicTears", this.gameObject);
+        BulletPoolManager.Instance.Return("BasicTears", poolObject);
     }
 }

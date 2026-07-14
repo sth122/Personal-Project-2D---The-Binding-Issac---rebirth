@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class IsaacBullet : MonoBehaviour, IReturnPoolable
+abstract public class IsaacBullet : MonoBehaviour
 {
     #region variable
     protected Rigidbody2D rb;
@@ -85,7 +85,7 @@ public class IsaacBullet : MonoBehaviour, IReturnPoolable
         // 각 눈물마다
         // 눈물 사운드 이팩트 추가
         // 눈물 충돌 이펙트(anim) 추가
-        ObjectPoolManager.Instance.ReturnObject("IsaacBullet", this.gameObject);
+        //ObjectPoolManager.Instance.ReturnObject("IsaacBullet", this.gameObject);
     }
 
     IEnumerator GravityDelay()

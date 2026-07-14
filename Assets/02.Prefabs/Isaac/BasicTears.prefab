@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 1173679180199430549}
   - component: {fileID: 4921414712148224101}
   - component: {fileID: -6475492318019817115}
-  - component: {fileID: 5706985896092992278}
+  - component: {fileID: 3405883369955714599}
+  - component: {fileID: -1545249638699175580}
   m_Layer: 7
   m_Name: BasicTears
   m_TagString: Untagged
@@ -157,7 +158,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.39
---- !u!114 &5706985896092992278
+--- !u!114 &3405883369955714599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,3 +171,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicTears
   timer: 0
+--- !u!114 &-1545249638699175580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336249713886614393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 903dc9c2cec9b5b45a1a7632c557c671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PooledIsaacBullet

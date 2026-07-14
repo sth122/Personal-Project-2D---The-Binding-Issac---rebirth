@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MonsterController : MonoBehaviour
 {
@@ -13,4 +13,5 @@ public class MonsterController : MonoBehaviour
     {
         
     }
+
 }

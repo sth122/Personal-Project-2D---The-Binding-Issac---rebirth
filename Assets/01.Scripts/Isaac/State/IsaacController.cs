@@ -3,6 +3,8 @@
 public class IsaacController : MonoBehaviour
 {
     #region variable
+    [SerializeField] public GameObject head;
+
     [SerializeField] public GameObject body;
 
     public StateMachine<IsaacController> stateMachine;

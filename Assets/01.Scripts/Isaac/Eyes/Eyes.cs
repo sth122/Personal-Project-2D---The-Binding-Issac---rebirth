@@ -25,12 +25,17 @@ public class Eyes : IsaacWeapon
         if (attackDirection != Vector2.zero && canAttack)
         {
             CheckDirection();
-            
-            GameObject tearBullet = ObjectPoolManager.Instance.GetObject(bulletName);
-            tearBullet.GetComponent<IsaacBullet>().SetDirection(attackDirection);
-            tearBullet.transform.position = fire.position;
-            tearBullet.transform.rotation = fire.rotation;
-            canAttack = false;
+
+            var tearBullet = BulletPoolManager.Instance.Get(bulletName);
+            if (tearBullet != null)
+            {
+                IsaacBullet bullet = tearBullet.Component;
+
+                bullet.SetDirection(attackDirection);
+                bullet.transform.position = fire.position;
+                bullet.transform.rotation = fire.rotation;
+                canAttack = false;
+            }
         }
     }
 

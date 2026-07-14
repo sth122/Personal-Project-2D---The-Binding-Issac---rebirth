@@ -110,42 +110,6 @@ abstract public class IsaacWeapon : MonoBehaviour
                 headAnimator.SetBool(IsHeadDownAttack, true);
                 break;
         }
-
-        //if (dir.y > 0)
-        //{
-        //    headAnimator.SetBool(IsHeadUpAttack, true);
-        //    headAnimator.SetBool(IsHeadDownAttack, false);
-        //    headAnimator.SetBool(IsHeadLeftRightAttack, false);
-        //    return;
-        //}
-        //else if (dir.y < 0)
-        //{
-        //    headAnimator.SetBool(IsHeadUpAttack, false);
-        //    headAnimator.SetBool(IsHeadDownAttack, true);
-        //    headAnimator.SetBool(IsHeadLeftRightAttack, false);
-        //    return;
-        //}
-        //else
-        //{
-        //    headAnimator.SetBool(IsHeadUpAttack, false);
-        //    headAnimator.SetBool(IsHeadDownAttack, false);
-        //}
-        //if (dir.x != 0)
-        //{
-        //    headAnimator.SetBool(IsHeadLeftRightAttack, true);
-        //    if (dir.x >= 0)
-        //    {
-        //        sr.flipX = false;
-        //    }
-        //    else
-        //    {
-        //        sr.flipX = true;
-        //    }
-        //}
-        //else
-        //{
-        //    headAnimator.SetBool(IsHeadLeftRightAttack, false);
-        //}
     }
 
     private void AnimationMove(Vector2 dir)
