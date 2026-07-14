@@ -19,7 +19,7 @@ public class Monster
     public float speed;
     public MoveType moveType;
 
-    private float totalHp;
+    //private float totalHp;
     public Monster(int monsterID, string name, float baseHp, float damage, float contactDamage, float stageHp, float speed, MoveType moveType)
     {
         this.monsterID = monsterID;
@@ -30,16 +30,16 @@ public class Monster
         this.stageHp = stageHp;
         this.speed = speed;
         this.moveType = moveType;
-        TotalHp();
+        //TotalHp();
     }
 
     public Monster Clone() { return new Monster(monsterID, name, baseHp, damage, contactDamage, stageHp, speed, moveType); }
 
     // 나중에 monster cs에서 다시 계산하는걸로 변경
-    public void TotalHp()
-    {
-        totalHp = baseHp + (stageHp * (Mathf.Min(4, StageManager.Instance.stageCnt) + 0.8f * Mathf.Max(0.0f, StageManager.Instance.stageCnt - 5.5f)));
-    }
+    //public void TotalHp()
+    //{
+    //    totalHp = baseHp + (stageHp * (Mathf.Min(4, StageManager.Instance.stageCnt) + 0.8f * Mathf.Max(0.0f, StageManager.Instance.stageCnt - 5.5f)));
+    //}
 }
 
 [CreateAssetMenu(fileName = "MonsterStatData", menuName = "Data/Monster")]
