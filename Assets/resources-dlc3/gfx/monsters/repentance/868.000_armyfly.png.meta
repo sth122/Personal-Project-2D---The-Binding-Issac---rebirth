@@ -257,7 +257,7 @@ TextureImporter:
         width: 21
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -279,7 +279,7 @@ TextureImporter:
         width: 15
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,7 +301,7 @@ TextureImporter:
         width: 21
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -323,7 +323,7 @@ TextureImporter:
         width: 15
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -345,7 +345,7 @@ TextureImporter:
         width: 21
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -367,7 +367,7 @@ TextureImporter:
         width: 15
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -389,7 +389,7 @@ TextureImporter:
         width: 21
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -411,7 +411,7 @@ TextureImporter:
         width: 15
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -433,7 +433,7 @@ TextureImporter:
         width: 34
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -450,10 +450,10 @@ TextureImporter:
       name: 868.000_armyfly_9
       rect:
         serializedVersion: 2
-        x: 143
-        y: 148
-        width: 37
-        height: 30
+        x: 132
+        y: 135
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,10 +472,10 @@ TextureImporter:
       name: 868.000_armyfly_10
       rect:
         serializedVersion: 2
-        x: 200
-        y: 174
-        width: 8
-        height: 7
+        x: 191
+        y: 130
+        width: 60
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,10 +494,10 @@ TextureImporter:
       name: 868.000_armyfly_11
       rect:
         serializedVersion: 2
-        x: 209
-        y: 147
-        width: 41
-        height: 31
+        x: 1
+        y: 64
+        width: 61
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,7 +521,7 @@ TextureImporter:
         width: 19
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -538,10 +538,10 @@ TextureImporter:
       name: 868.000_armyfly_13
       rect:
         serializedVersion: 2
-        x: 134
-        y: 143
-        width: 14
-        height: 7
+        x: 66
+        y: 62
+        width: 61
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,10 +560,10 @@ TextureImporter:
       name: 868.000_armyfly_14
       rect:
         serializedVersion: 2
-        x: 163
-        y: 143
-        width: 16
-        height: 9
+        x: 130
+        y: 65
+        width: 61
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: 868.000_armyfly_15
       rect:
         serializedVersion: 2
-        x: 195
-        y: 140
-        width: 13
-        height: 11
+        x: 192
+        y: 64
+        width: 60
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +604,10 @@ TextureImporter:
       name: 868.000_armyfly_16
       rect:
         serializedVersion: 2
-        x: 235
-        y: 135
-        width: 11
-        height: 13
+        x: 3
+        y: 3
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,10 +626,10 @@ TextureImporter:
       name: 868.000_armyfly_17
       rect:
         serializedVersion: 2
-        x: 7
-        y: 96
-        width: 21
-        height: 21
+        x: 65
+        y: 3
+        width: 62
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,10 +648,10 @@ TextureImporter:
       name: 868.000_armyfly_18
       rect:
         serializedVersion: 2
-        x: 26
-        y: 105
-        width: 6
-        height: 9
+        x: 130
+        y: 4
+        width: 60
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,517 +666,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_19
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 95
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 734c0198bdec87ef0800000000000000
-      internalID: -110110748577840073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_20
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 96
-        width: 24
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9b6964925dd2e4b0800000000000000
-      internalID: -5412520455398921314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_21
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 88
-        width: 31
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d32e286ddab9dd250800000000000000
-      internalID: 5971099851893695037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_22
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 106
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 816a7259a2915c1a0800000000000000
-      internalID: -6789993192509430248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_23
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 86
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 29d60aa344b2fa5a0800000000000000
-      internalID: -6507935364485714542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_24
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 95
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e2d7f9708a118fcb0800000000000000
-      internalID: -4830091186974786258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_25
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 98
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad6620b2a1bcbfba0800000000000000
-      internalID: -6054021960818333990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_26
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 80
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78fe7d6d8e881aad0800000000000000
-      internalID: -2692720568572579961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_27
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 88
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b586d0f3952609e0800000000000000
-      internalID: -1655594495681067594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_28
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 70
-        width: 26
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dbb08082c2686ea10800000000000000
-      internalID: 1938384213837876157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_29
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 90
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c256a55ac4eaf4a0800000000000000
-      internalID: -6558678349640215863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_30
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 93
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8397e99d337cd4c0800000000000000
-      internalID: -4261404438987041906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_31
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 92
-        width: 11
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 819da9037cd777530800000000000000
-      internalID: 3852686300706167064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_32
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 92
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2aeb236f4de5e510800000000000000
-      internalID: 1577928169685248554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_33
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 73
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef021beb3ae1127c0800000000000000
-      internalID: -4097960497302658818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_34
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 67
-        width: 46
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28fa49a1cbad8f8d0800000000000000
-      internalID: -2812257465858216062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_35
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 65
-        width: 46
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fe2895e4f3ac8090800000000000000
-      internalID: -8030863763289133327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_36
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 67
-        width: 34
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3c485e9a3da87d50800000000000000
-      internalID: 6735323710008871997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_37
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 14
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c435b28afd0821550800000000000000
-      internalID: 6130103740892140364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_38
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 35
-        width: 32
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66772434bb9216d30800000000000000
-      internalID: 4422862193318590310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_39
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 15
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 076eccfa13f4f58d0800000000000000
-      internalID: -2855476563908172176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_40
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 38
-        width: 34
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0fe1d1a74e602a540800000000000000
-      internalID: 5017580513215192816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 868.000_armyfly_41
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 15
-        width: 32
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ba987788afef52d0800000000000000
-      internalID: -3287645695850800458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 425af7aa3259f7b4e9508e8441b3d8e6
     internalID: 0
     vertices: []
     indices: 
@@ -1223,6 +717,7 @@ TextureImporter:
       868.000_armyfly_4: -2850520943293216093
       868.000_armyfly_40: 5017580513215192816
       868.000_armyfly_41: -3287645695850800458
+      868.000_armyfly_42: -934883299
       868.000_armyfly_5: -2207820157911889108
       868.000_armyfly_6: 3178331917986024833
       868.000_armyfly_7: 1934719949578120600
