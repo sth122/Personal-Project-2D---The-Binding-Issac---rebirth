@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 
 public class Fly : MonsterController, ITraceable
 {
@@ -44,6 +45,7 @@ public class Fly : MonsterController, ITraceable
     {
         sr.flipX = CheckFlip();
         Vector3 dir = GetDirection();
+        Move();
     }
 
     private bool CheckFlip()
@@ -51,8 +53,12 @@ public class Fly : MonsterController, ITraceable
         return transform.position.x > target.position.x;
     }
 
-    private Vector3 GetDirection()
+    private Vector2 GetDirection()
     {
         return (transform.position - target.position).normalized;
+    }
+    private void Move()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, target.position, mStat.speed * Time.deltaTime);
     }
 }

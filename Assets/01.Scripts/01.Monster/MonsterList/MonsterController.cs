@@ -6,6 +6,10 @@ public interface ITraceable
 {
     public void Trace();
 }
+public interface IAttackable
+{
+    public void Attack();
+}
 
 abstract public class MonsterController : MonoBehaviour
 {

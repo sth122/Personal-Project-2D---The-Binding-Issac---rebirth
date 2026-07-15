@@ -14,7 +14,7 @@ public interface IState
 /// <typeparam name="T"></typeparam>
 public class StateMachine<T>
 {
-    protected IState<T> currentState;
+    protected IState currentState;
     public T obj;
 
     public StateMachine(T owner)
@@ -22,13 +22,13 @@ public class StateMachine<T>
         this.obj = owner;
     }
 
-    public void ChangeState(IState<T> newState)
+    public void ChangeState(IState newState)
     {
-        currentState?.Exit(obj);
+        currentState?.Exit();
         currentState = newState;
-        currentState?.Enter(obj);
+        currentState?.Enter();
     }
 
-    public void Update(T obj) => currentState?.Update(obj);
-    public void FixedUpdate(T obj) => currentState?.FixedUpdate(obj);
+    public void Update(T obj) => currentState?.Update();
+    public void FixedUpdate(T obj) => currentState?.FixedUpdate();
 }
