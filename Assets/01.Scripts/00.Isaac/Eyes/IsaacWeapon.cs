@@ -93,6 +93,10 @@ abstract public class IsaacWeapon : MonoBehaviour
     private void AnimationAttack(HeadDirection dir)
     {
         AnimationAttackInit();
+        // IsaacWeapon에 위치하면 안됨
+        // 참고로 위 아래 공격 우선
+        // 위,아래 공격이 먼저 입력되면 좌우 입력 무시
+        // 수정 필요함
         switch (dir)
         {
             case HeadDirection.Left:
