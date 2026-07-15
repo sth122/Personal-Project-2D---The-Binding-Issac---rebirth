@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Buffers.Text;
+using UnityEditor.SceneManagement;
+using UnityEngine;
 
 public interface ITraceable{}
 
@@ -9,8 +11,8 @@ abstract public class MonsterController : MonoBehaviour
 	public MonsterIdleState mIdleState;
 	public MonsterMoveState mMoveState;
     public MonsterTraceState mTraceState;
+    public Transform target;
     protected Monster mStat;
-
     #endregion
 
     protected virtual void Awake()
@@ -36,8 +38,10 @@ abstract public class MonsterController : MonoBehaviour
     public void InitData(Monster data)
     {
         mStat = data.Clone();
+        mStat.SetTotalHp();
         OnDataLodead();
     }
 
     protected virtual void OnDataLodead() { }
+
 }
