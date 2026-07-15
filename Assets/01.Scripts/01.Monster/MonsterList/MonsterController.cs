@@ -33,6 +33,7 @@ abstract public class MonsterController : MonoBehaviour
         stateMachine = new StateMachine<MonsterController>(this);
         mIdleState = new MonsterIdleState(this);
         mMoveState = new MonsterMoveState(this);
+        mTraceState = new MonsterTraceState(this);
         animController = new MonsterAnim();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -40,7 +41,7 @@ abstract public class MonsterController : MonoBehaviour
 
     protected virtual void Start()
     {
-
+        stateMachine.ChangeState(mIdleState);
     }
 
     protected virtual void Update()

@@ -16,6 +16,8 @@ public class PooledObject<T> : MonoBehaviour where T : Component
             Debug.LogError($"{gameObject.name}에 {typeof(T).Name} 없음");
         }
 
+        Debug.Log($"{gameObject.name}에 {typeof(T).Name} 가져옴");
+
         poolManager = manager;
         poolName = name;
     }

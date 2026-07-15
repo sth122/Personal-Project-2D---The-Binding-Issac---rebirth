@@ -7,7 +7,6 @@ public class Fly : MonsterController, ITraceable
     protected override void Awake()
     {
         base.Awake();
-        mStat = mStat.Clone();
     }
 
     protected override void Start()
