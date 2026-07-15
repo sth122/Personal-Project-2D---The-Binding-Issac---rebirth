@@ -1,20 +1,22 @@
-﻿using UnityEngine;
+﻿//using UnityEngine;
 
-public class MonsterPoolManager : ObjectPoolManager<PooledObject<MonsterController>>
-{
-    protected override void Initialize()
-    {
-        base.Initialize();
-        InitPool();
-    }
+//public class MonsterPoolManager : ObjectPoolManager<MonsterController>
+//{
+//    public T 
 
-    protected override PooledObject<MonsterController> CreatePooledObject(PooledObject<MonsterController> prefab, string poolName)
-    {
-        PooledObject<MonsterController> obj = Instantiate(prefab);
-        obj.transform.SetParent(transform, false);
-        obj.gameObject.SetActive(false);
-        obj.Initialize(this, poolName);
+//    protected override void Initialize()
+//    {
+//        base.Initialize();
+//        InitPool();
+//    }
 
-        return obj;
-    }
-}
+//    protected override PooledObject<MonsterController> CreatePooledObject(PooledObject<MonsterController> prefab, string poolName)
+//    {
+//        PooledObject<MonsterController> obj = Instantiate(prefab);
+//        obj.transform.SetParent(transform, false);
+//        obj.gameObject.SetActive(false);
+//        obj.Initialize(this, poolName);
+
+//        return obj;
+//    }
+//}

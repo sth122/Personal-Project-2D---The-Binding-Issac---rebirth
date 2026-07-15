@@ -1,5 +1,5 @@
-﻿using UnityEngine;
+﻿//using UnityEngine;
 
-public class PooledMonster : PooledObject<MonsterController>
-{
-}
+//public class PooledMonster : PooledObject<MonsterController>
+//{
+//}

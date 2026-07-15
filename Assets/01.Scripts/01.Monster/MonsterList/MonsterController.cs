@@ -22,7 +22,7 @@ abstract public class MonsterController : MonoBehaviour
     [SerializeField] protected Transform target;
 
     private Rigidbody2D rb;
-    public Rigidbody2D RB { get { return rb; } }
+    public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
     [SerializeField]protected Monster mStat;
     protected MonsterAnim animController;
     protected SpriteRenderer sr;
@@ -46,19 +46,20 @@ abstract public class MonsterController : MonoBehaviour
 
     protected virtual void Update()
     {
-        stateMachine.Update(this);
+        stateMachine.Update();
     }
 
     protected virtual void FixedUpdate()
     {
-        stateMachine.FixedUpdate(this);
+        stateMachine.FixedUpdate();
     }
 
-    public void InitData(Monster data)
+    public void InitData(Monster data, Transform target)
     {
         mStat = data.Clone();
         mStat.SetTotalHp();
         OnDataLodead();
+        this.target = target;
     }
 
     protected virtual void OnDataLodead() { }

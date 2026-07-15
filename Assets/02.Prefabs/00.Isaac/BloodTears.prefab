@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4921414712148224101}
   - component: {fileID: -6475492318019817115}
   - component: {fileID: -7854560116497826625}
-  - component: {fileID: -1545249638699175580}
   m_Layer: 7
   m_Name: BloodTears
   m_TagString: Untagged
@@ -170,15 +169,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aa308845703eeb40aa4db15e820c061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BloodTears
---- !u!114 &-1545249638699175580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3336249713886614393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 903dc9c2cec9b5b45a1a7632c557c671, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PooledIsaacBullet
+  timer: 0

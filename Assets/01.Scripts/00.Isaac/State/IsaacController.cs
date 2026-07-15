@@ -44,12 +44,12 @@ public class IsaacController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        stateMachine.Update(this);
+        stateMachine.Update();
     }
 
     private void FixedUpdate()
     {
-        stateMachine.FixedUpdate(this);
+        stateMachine.FixedUpdate();
     }
 
     private void AnimationInitialize()

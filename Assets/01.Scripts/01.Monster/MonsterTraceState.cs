@@ -3,11 +3,11 @@
 public class MonsterTraceState : IState
 {
     MonsterController controller;
-
     public MonsterTraceState(MonsterController controller)
     {
         this.controller = controller;
     }
+
 
     public void Enter()
     {
@@ -21,6 +21,7 @@ public class MonsterTraceState : IState
 
     public void Update()
     {
+        Debug.Log(".");
         if (controller is ITraceable traceMonster)
         {
             traceMonster.Trace(); 

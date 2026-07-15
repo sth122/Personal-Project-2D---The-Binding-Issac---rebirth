@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 
 public class Eyes : IsaacWeapon
 {
@@ -26,10 +27,10 @@ public class Eyes : IsaacWeapon
         {
             CheckDirection();
 
-            var tearBullet = BulletPoolManager.Instance.Get(bulletName);
+            var tearBullet = ObjectPoolManager.Instance.Get(bulletName);
             if (tearBullet != null)
             {
-                IsaacBullet bullet = tearBullet.Component;
+                IsaacBullet bullet = tearBullet.GetComponent<IsaacBullet>();
 
                 bullet.SetDirection(attackDirection);
                 bullet.transform.position = fire.position;

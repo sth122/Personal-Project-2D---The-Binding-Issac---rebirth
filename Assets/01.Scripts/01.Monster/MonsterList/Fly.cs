@@ -1,5 +1,4 @@
-﻿using Unity.VisualScripting;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Fly : MonsterController, ITraceable
 {
@@ -29,22 +28,19 @@ public class Fly : MonsterController, ITraceable
         Debug.Log($"Fly 세팅 {mStat}");
     }
 
-    public void CheckDistance()
+    private bool CheckDistance()
     {
         // Isaac과의 거리 계산
         float distance = Vector3.Distance(transform.position, target.position);
 
-        bool isRangeIn = distance < mStat.traceRange;
-        if (isRangeIn)
-        {
-            Trace();
-        }
+        return distance < mStat.traceRange;
     }
 
     public void Trace()
     {
+        Debug.Log("트레이스 진입");
+
         sr.flipX = CheckFlip();
-        Vector3 dir = GetDirection();
         Move();
     }
 
@@ -55,10 +51,10 @@ public class Fly : MonsterController, ITraceable
 
     private Vector2 GetDirection()
     {
-        return (transform.position - target.position).normalized;
+        return (target.position - transform.position).normalized;
     }
     private void Move()
     {
-        transform.position = Vector3.MoveTowards(transform.position, target.position, mStat.speed * Time.deltaTime);
+        RB.linearVelocity = GetDirection() * mStat.speed;
     }
 }

@@ -29,6 +29,6 @@ public class StateMachine<T>
         currentState?.Enter();
     }
 
-    public void Update(T obj) => currentState?.Update();
-    public void FixedUpdate(T obj) => currentState?.FixedUpdate();
+    public void Update() => currentState?.Update();
+    public void FixedUpdate() => currentState?.FixedUpdate();
 }
