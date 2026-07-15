@@ -1,4 +1,5 @@
-﻿using System.Buffers.Text;
+﻿using System;
+using System.Buffers.Text;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
@@ -22,7 +23,7 @@ abstract public class MonsterController : MonoBehaviour
 
     private Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } }
-    protected Monster mStat;
+    [SerializeField]protected Monster mStat;
     protected MonsterAnim animController;
     protected SpriteRenderer sr;
     #endregion

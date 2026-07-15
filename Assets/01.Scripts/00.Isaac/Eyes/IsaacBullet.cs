@@ -12,7 +12,6 @@ abstract public class IsaacBullet : MonoBehaviour
     protected float gravityDelay;
     [SerializeField] protected float timer;
     protected float damage;
-
     #endregion
 
     protected virtual void Awake()
