@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Buffers.Text;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public interface ITraceable
@@ -19,12 +17,14 @@ abstract public class MonsterController : MonoBehaviour
 	public MonsterIdleState mIdleState;
 	public MonsterMoveState mMoveState;
     public MonsterTraceState mTraceState;
+    public MonsterAppearState mAppearState;
     [SerializeField] protected Transform target;
 
     private Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
     [SerializeField]protected Monster mStat;
     protected MonsterAnim animController;
+    public MonsterAnim AnimController { get { return animController; } }
     protected SpriteRenderer sr;
     #endregion
 
@@ -34,14 +34,15 @@ abstract public class MonsterController : MonoBehaviour
         mIdleState = new MonsterIdleState(this);
         mMoveState = new MonsterMoveState(this);
         mTraceState = new MonsterTraceState(this);
-        animController = new MonsterAnim();
+        mAppearState = new MonsterAppearState(this);
+        animController = GetComponent<MonsterAnim>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
     }
 
     protected virtual void Start()
     {
-        stateMachine.ChangeState(mIdleState);
+        stateMachine.ChangeState(mAppearState);
     }
 
     protected virtual void Update()

@@ -57,4 +57,6 @@ public class Fly : MonsterController, ITraceable
     {
         RB.linearVelocity = GetDirection() * mStat.speed;
     }
+
+
 }

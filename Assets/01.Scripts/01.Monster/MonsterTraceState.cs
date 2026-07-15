@@ -12,16 +12,17 @@ public class MonsterTraceState : IState
     public void Enter()
     {
         Debug.Log("TraceState에 진입");
+        controller.AnimController.TriggerMove(true);
     }
 
     public void Exit()
     {
         Debug.Log("TraceState에 퇴장");
+        controller.AnimController.TriggerMove(false);
     }
 
     public void Update()
     {
-        Debug.Log(".");
         if (controller is ITraceable traceMonster)
         {
             traceMonster.Trace(); 
