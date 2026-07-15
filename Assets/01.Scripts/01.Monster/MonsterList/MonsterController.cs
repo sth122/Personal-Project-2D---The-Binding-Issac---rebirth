@@ -11,8 +11,12 @@ abstract public class MonsterController : MonoBehaviour
 	public MonsterIdleState mIdleState;
 	public MonsterMoveState mMoveState;
     public MonsterTraceState mTraceState;
-    public Transform target;
+    protected Transform target;
+
+    private Rigidbody2D rb;
+    public Rigidbody2D RB { get { return rb; } }
     protected Monster mStat;
+    protected MonsterAnimController animController;
     #endregion
 
     protected virtual void Awake()
