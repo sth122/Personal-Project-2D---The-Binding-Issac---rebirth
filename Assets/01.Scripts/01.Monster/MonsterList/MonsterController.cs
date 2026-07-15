@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 
+public interface ITraceable{}
+
 abstract public class MonsterController : MonoBehaviour
 {
 	#region variable
 	public StateMachine<MonsterController> stateMachine;
 	public MonsterIdleState mIdleState;
 	public MonsterMoveState mMoveState;
-	public MonsterTraceState mTraceState;
+    public MonsterTraceState mTraceState;
     protected Monster mStat;
 
     #endregion

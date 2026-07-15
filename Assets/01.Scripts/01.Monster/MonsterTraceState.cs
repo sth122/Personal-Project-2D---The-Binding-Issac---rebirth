@@ -1,16 +1,23 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class MonsterTraceState : MonoBehaviour
+public class MonsterTraceState : IState<MonsterController>
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Enter(MonsterController monster)
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Exit(MonsterController monster)
     {
-        
+
+    }
+
+    public void Update(MonsterController monster)
+    {
+
+    }
+
+    public void FixedUpdate(MonsterController monster)
+    {
+
     }
 }

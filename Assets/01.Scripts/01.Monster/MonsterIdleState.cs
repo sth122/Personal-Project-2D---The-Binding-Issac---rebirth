@@ -1,16 +1,31 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class MonsterIdleState : MonoBehaviour
+public class MonsterIdleState : IState<MonsterController>
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Enter(MonsterController monster)
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Exit(MonsterController monster)
     {
-        
+
+    }
+
+    public void Update(MonsterController monster)
+    {
+        if(monster is ITraceable traceMonster)
+        {
+            monster.stateMachine.ChangeState(monster.mTraceState);
+        }
+        else
+        {
+            monster.stateMachine.ChangeState(monster.mMoveState);
+        }
+
+    }
+
+    public void FixedUpdate(MonsterController monster)
+    {
+
     }
 }

@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 
-public class Fly : MonsterController
+public class Fly : MonsterController, ITraceable
 {
+
     protected override void Awake()
     {
         base.Awake();
