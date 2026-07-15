@@ -18,7 +18,7 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
     protected Dictionary<string, Queue<GameObject>> activatedPool = new();
     //public List<GameObject> listGameObj = new List<GameObject>();
     
-    protected void InitPool()
+    public void InitPool()
     {
         foreach (var o in prefabDic)
         {
@@ -31,36 +31,40 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
                 for (int i = 0; i < o.Value.InitSpawnCount; i++)
                 {
                     GameObject go = Instantiate(o.Value.Prefab, parentPool.transform);
-
+                    activatedPool[o.Key].Enqueue(go);
                     //CreatePooledObject(o.Value.Prefab, o.Key);
-                    CreatePooledObject(o.Key);
+                    //CreatePooledObject(o.Key);
                 }
-
+                // activatedPool[o.Key] = new Queue<GameObject>(); 로 선언해도 되는거 아닌가?
                 activatedPool[o.Key] = objectPool;
             }
         }
     }
 
     //public void CreatePooledObject(GameObject prefab, string poolName)
-    public void CreatePooledObject(string poolName)
-    {
-        GameObject go;
+    //public void CreatePooledObject(string poolName)
+    //{
+    //    GameObject go;
 
-        go = prefabDic[poolName].Prefab;
-        if(go != null)
-        {
-            activatedPool[poolName].Enqueue(go);
-        }
+    //    go = prefabDic[poolName].Prefab;
+    //    if(go != null)
+    //    {
+    //        activatedPool[poolName].Enqueue(go);
+    //    }
+    //    else
+    //    {
+    //        Debug.Log("Pool null error");
+    //    }
 
-        //foreach (GameObject obj in listGameObj)
-        //{
-        //    if (obj.name == poolName)
-        //    {
-        //        go = obj.GetComponent<GameObject>();
-        //        activatedPool[poolName].Enqueue(go);
-        //    }
-        //}
-    }
+    //    //foreach (GameObject obj in listGameObj)
+    //    //{
+    //    //    if (obj.name == poolName)
+    //    //    {
+    //    //        go = obj.GetComponent<GameObject>();
+    //    //        activatedPool[poolName].Enqueue(go);
+    //    //    }
+    //    //}
+    //}
 
     public GameObject Get(string poolObjectName)
     {
