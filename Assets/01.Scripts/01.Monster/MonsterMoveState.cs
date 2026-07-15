@@ -1,22 +1,28 @@
 ﻿using UnityEngine;
 
-public class MonsterMoveState : IState<MonsterController>
+public class MonsterMoveState : IState
 {
-    public void Enter(MonsterController monster)
+    MonsterController controller;
+
+    public MonsterMoveState(MonsterController controller)
+    {
+        this.controller = controller;
+    }
+    public void Enter()
     {
     }
 
-    public void Exit(MonsterController monster)
+    public void Exit()
     {
 
     }
 
-    public void Update(MonsterController monster)
+    public void Update()
     {
 
     }
 
-    public void FixedUpdate(MonsterController monster)
+    public void FixedUpdate()
     {
 
     }

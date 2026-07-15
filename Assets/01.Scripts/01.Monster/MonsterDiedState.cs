@@ -1,23 +1,29 @@
 ﻿using UnityEngine;
 
-public class MonsterDiedState : IState<MonsterController>
+public class MonsterDiedState : IState
 {
-    public void Enter(MonsterController monster)
+    MonsterController monsterController;
+    public MonsterDiedState(MonsterController monsterController)
+    {
+        this.monsterController = monsterController;
+    }
+
+    public void Enter()
     {
         // 파티클 오브젝트 풀 만들어서 사망 시 파티클 실행하도록
     }
 
-    public void Exit(MonsterController monster)
+    public void Exit()
     {
 
     }
 
-    public void Update(MonsterController monster)
+    public void Update()
     {
 
     }
 
-    public void FixedUpdate(MonsterController monster)
+    public void FixedUpdate()
     {
 
     }

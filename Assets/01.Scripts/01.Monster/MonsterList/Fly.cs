@@ -27,4 +27,32 @@ public class Fly : MonsterController, ITraceable
     {
         Debug.Log($"Fly 세팅 {mStat}");
     }
+
+    public void CheckDistance()
+    {
+        // Isaac과의 거리 계산
+        float distance = Vector3.Distance(transform.position, target.position);
+
+        bool isRangeIn = distance < mStat.traceRange;
+        if (isRangeIn)
+        {
+            Trace();
+        }
+    }
+
+    public void Trace()
+    {
+        sr.flipX = CheckFlip();
+        Vector3 dir = GetDirection();
+    }
+
+    private bool CheckFlip()
+    {
+        return transform.position.x > target.position.x;
+    }
+
+    private Vector3 GetDirection()
+    {
+        return (transform.position - target.position).normalized;
+    }
 }

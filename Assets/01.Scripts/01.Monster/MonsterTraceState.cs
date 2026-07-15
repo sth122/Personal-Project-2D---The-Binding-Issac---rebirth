@@ -1,22 +1,31 @@
 ﻿using UnityEngine;
 
-public class MonsterTraceState : IState<MonsterController>
+public class MonsterTraceState : IState
 {
-    public void Enter(MonsterController monster)
+    MonsterController controller;
+
+    public MonsterTraceState(MonsterController controller)
     {
+        this.controller = controller;
     }
 
-    public void Exit(MonsterController monster)
-    {
-
-    }
-
-    public void Update(MonsterController monster)
+    public void Enter()
     {
 
     }
 
-    public void FixedUpdate(MonsterController monster)
+    public void Exit()
+    {
+
+    }
+
+    public void Update()
+    {
+        if (controller is ITraceable traceMonster)
+            traceMonster.Trace();
+    }
+
+    public void FixedUpdate()
     {
 
     }

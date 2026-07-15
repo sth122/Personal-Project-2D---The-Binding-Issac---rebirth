@@ -18,6 +18,8 @@ public class Monster
     public float contactDamage;
     public float stageHp;
     public float speed;
+    public float traceRange;
+    public float attackRange;
     public MoveType moveType;
 
     //private float totalHp;

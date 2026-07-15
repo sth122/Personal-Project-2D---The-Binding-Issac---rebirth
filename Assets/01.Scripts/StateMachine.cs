@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
-public interface IState<T>
+public interface IState
 {
-    public void Enter(T obj);
-    public void Exit(T obj);
-    public void Update(T obj);
-    public void FixedUpdate(T obj);
+    public void Enter();
+    public void Exit();
+    public void Update();
+    public void FixedUpdate();
 }
 
 /// <summary>

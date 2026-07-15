@@ -28,8 +28,8 @@ public class IsaacController : MonoBehaviour
         AnimationInitialize();
 
         stateMachine = new StateMachine<IsaacController>(this);
-        iIdleState = new IsaacIdleState();
-        iMoveState = new IsaacMoveState();
+        iIdleState = new IsaacIdleState(this);
+        iMoveState = new IsaacMoveState(this);
         BodyAnimator = body.GetComponent<Animator>();
         Input = GetComponent<IsaacInput>();
         rb = GetComponent<Rigidbody2D>();

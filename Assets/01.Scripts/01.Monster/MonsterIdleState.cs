@@ -1,30 +1,36 @@
 ﻿using UnityEngine;
 
-public class MonsterIdleState : IState<MonsterController>
+public class MonsterIdleState : IState
 {
-    public void Enter(MonsterController monster)
+    MonsterController controller;
+
+    public MonsterIdleState(MonsterController controller)
+    {
+        this.controller = controller;
+    }
+
+    public void Enter()
     {
     }
 
-    public void Exit(MonsterController monster)
+    public void Exit()
     {
 
     }
 
-    public void Update(MonsterController monster)
+    public void Update()
     {
-        if(monster is ITraceable traceMonster)
+        if(controller is ITraceable traceMonster)
         {
-            monster.stateMachine.ChangeState(monster.mTraceState);
+            controller.stateMachine.ChangeState(controller.mTraceState);
         }
         else
         {
-            monster.stateMachine.ChangeState(monster.mMoveState);
+            controller.stateMachine.ChangeState(controller.mMoveState);
         }
-
     }
 
-    public void FixedUpdate(MonsterController monster)
+    public void FixedUpdate()
     {
 
     }

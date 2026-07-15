@@ -1,58 +1,65 @@
 ﻿using UnityEngine;
 
-public class IsaacMoveState : IState<IsaacController>
+public class IsaacMoveState : IState
 {
+    IsaacController controller;
     SpriteRenderer sr;
     Vector2 dir;
     int moveHash;
     int upDownHash;
 
-    public void Enter(IsaacController isaac)
+    public IsaacMoveState(IsaacController controller)
     {
-        sr = isaac.body.GetComponent<SpriteRenderer>();
-        moveHash = isaac.IsBodyMove;
-        upDownHash = isaac.IsBodyUpDown;
+        this.controller = controller;
+    }
+
+
+    public void Enter()
+    {
+        sr = controller.body.GetComponent<SpriteRenderer>();
+        moveHash = controller.IsBodyMove;
+        upDownHash = controller.IsBodyUpDown;
         // 움직이는 애니메이션 세팅
         
     }
-    public void Exit(IsaacController isaac) 
+    public void Exit() 
     {
 
     }
-    public void Update(IsaacController isaac)
+    public void Update()
     {
-        dir = isaac.Input.IsaacActions.Move.ReadValue<Vector2>();
+        dir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
 
-        AnimationUpdate(isaac);
+        AnimationUpdate();
 
-        if (isaac.RB.linearVelocity == Vector2.zero)
+        if (controller.RB.linearVelocity == Vector2.zero)
         {
-            isaac.stateMachine.ChangeState(isaac.iIdleState);
+            controller.stateMachine.ChangeState(controller.iIdleState);
             return;
         }
     }
 
-    public void FixedUpdate(IsaacController isaac) 
+    public void FixedUpdate() 
     {
-        isaac.RB.linearVelocity = dir.normalized * isaac.MoveSpeed;
+        controller.RB.linearVelocity = dir.normalized * controller.MoveSpeed;
     }
 
-    private void AnimationUpdate(IsaacController isaac)
+    private void AnimationUpdate()
     {
         if(dir.y != 0)
         {
-            isaac.BodyAnimator.SetBool(upDownHash, true);
-            isaac.BodyAnimator.SetBool(moveHash, false);
+            controller.BodyAnimator.SetBool(upDownHash, true);
+            controller.BodyAnimator.SetBool(moveHash, false);
             return;
         }
         else
         {
-            isaac.BodyAnimator.SetBool(upDownHash, false);
+            controller.BodyAnimator.SetBool(upDownHash, false);
         }
         
         if (dir.x != 0)
         {
-            isaac.BodyAnimator.SetBool(moveHash, true);
+            controller.BodyAnimator.SetBool(moveHash, true);
             if (dir.x > 0)
             {
                 sr.flipX = false;
@@ -64,7 +71,7 @@ public class IsaacMoveState : IState<IsaacController>
         }
         else
         {
-            isaac.BodyAnimator.SetBool(moveHash, false);
+            controller.BodyAnimator.SetBool(moveHash, false);
         }
     }
 }
