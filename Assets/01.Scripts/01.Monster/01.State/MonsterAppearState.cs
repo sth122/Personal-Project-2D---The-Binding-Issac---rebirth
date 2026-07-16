@@ -10,7 +10,6 @@ public class MonsterAppearState : MonsterState
         this.mData = mData;
     }
 
-
     public override void Enter()
     {
         Debug.Log("MonsterAppearState 입장");

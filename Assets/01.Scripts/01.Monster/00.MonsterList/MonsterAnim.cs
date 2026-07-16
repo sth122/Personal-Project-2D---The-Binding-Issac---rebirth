@@ -60,9 +60,4 @@ public class MonsterAnim : MonoBehaviour
         TriggerMove(false);
         animator.SetBool(IsDie, true);
     }
-    IEnumerator AnimTime()
-    {
-        // mStat에서 appear, die 프레임 타임 저장해서 
-        yield return null;
-    }
 }

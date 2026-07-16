@@ -53,7 +53,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     protected virtual void OnEnable()
     {
-        stateMachine.ChangeState(mAppearState);
+
     }
 
     protected virtual void OnDisable()
@@ -75,12 +75,13 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         stateMachine.FixedUpdate();
     }
 
-    public void InitData(MonsterData data, Transform target)
+    public void InitData(MonsterData data, Transform target, Action OnAppear)
     {
         mData = data.Clone();
         mData.SetTotalHp();
         OnDataLodead();
         this.target = target;
+        OnAppear?.Invoke();
     }
 
     protected virtual void OnDataLodead() { }
@@ -91,6 +92,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
     public abstract void ReturnPool();
     public void StartAnimTime(float time, Action OnComplete)
     {
+        Debug.Log("StartAnimTime에 진입");
         StartCoroutine(AnimTime(time, OnComplete));
     }
     IEnumerator AnimTime(float time, Action OnComplete)
