@@ -15,7 +15,7 @@ public class SpawnManager : Singleton<SpawnManager>
         foreach(var spawnInfo in roomLayoutData.spawnList)
         {
             Monster mStat = monsterStatData.monsterList.Find(x => x.monsterID == spawnInfo.monsterID);
-            var monster = ObjectPoolManager.Instance.Get(mStat.Clone().name);
+            var monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
 
             if(monster != null)
             {

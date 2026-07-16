@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Fly : MonsterController, ITraceable
+public class Fly : MonsterController, ITraceable, ITakeDamage
 {
 
     protected override void Awake()
@@ -28,6 +28,7 @@ public class Fly : MonsterController, ITraceable
         Debug.Log($"Fly 세팅 {mStat}");
     }
 
+    #region Trace
     private bool CheckDistance()
     {
         // Isaac과의 거리 계산
@@ -57,6 +58,39 @@ public class Fly : MonsterController, ITraceable
     {
         RB.linearVelocity = GetDirection() * mStat.speed;
     }
+    #endregion
 
+    protected override void Dead()
+    {
+        mStat.speed = 0;
+        AnimController.DeadAnim();
+        if (AnimController.IsAnimationFinished())
+        {
+            ReturnPool();
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        mStat.totalHp -= damage;
+        if (mStat.totalHp <= 0)
+        {
+            mStat.totalHp = 0;
+            Dead();
+        }
+    }
+
+    public override void ReturnPool()
+    {
+        ObjectPoolManager.Instance.ReturnObject(mStat.name, this.gameObject);
+    }
+    
+    protected void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac Bullet"))
+        {
+            TakeDamage(1);
+        }
+    }
 
 }

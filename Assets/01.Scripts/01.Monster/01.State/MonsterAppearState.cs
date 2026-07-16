@@ -2,26 +2,25 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class MonsterAppearState : IState
+public class MonsterAppearState : MonsterState
 {
-    MonsterController controller;
-    public MonsterAppearState(MonsterController controller)
+    public MonsterAppearState(MonsterController controller) : base(controller)
     {
         this.controller = controller;
     }
 
 
-    public void Enter()
+    public override void Enter()
     {
         Debug.Log("MonsterAppearState 입장");
     }
 
-    public void Exit()
+    public  override void Exit()
     {
         Debug.Log("MonsterAppearState 퇴장");
     }
 
-    public void Update()
+    public override void Update()
     {
         if (controller.AnimController.IsAnimationFinished())
         {
@@ -29,6 +28,6 @@ public class MonsterAppearState : IState
         }
     }
 
-    public void FixedUpdate()
+    public override void FixedUpdate()
     { }
 }

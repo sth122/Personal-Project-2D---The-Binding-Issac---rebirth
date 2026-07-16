@@ -1,27 +1,26 @@
 ﻿using UnityEngine;
 
-public class MonsterIdleState : IState
+public class MonsterIdleState : MonsterState
 {
-    MonsterController controller;
 
-    public MonsterIdleState(MonsterController controller)
+    public MonsterIdleState(MonsterController controller) : base(controller)
     {
         this.controller = controller;
     }
 
-    public void Enter()
+    public override void Enter()
     {
         Debug.Log("IdleState에 진입");
         // Appear Anim 실행
         // Anim 끝날 때 까지 대기 후 실행
     }
 
-    public void Exit()
+    public override void Exit()
     {
         Debug.Log("IdleState에 퇴장");
     }
 
-    public void Update()
+    public override void Update()
     {
         if(controller is ITraceable)
         {
@@ -33,7 +32,7 @@ public class MonsterIdleState : IState
         }
     }
 
-    public void FixedUpdate()
+    public override void FixedUpdate()
     {
 
     }

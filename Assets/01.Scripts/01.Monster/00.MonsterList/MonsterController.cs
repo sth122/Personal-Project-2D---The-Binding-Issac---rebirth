@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public interface ITraceable
@@ -9,8 +10,17 @@ public interface IAttackable
 {
     public void Attack();
 }
+public interface ITakeDamage
+{
+    public void TakeDamage(int damage);
+}
 
-abstract public class MonsterController : MonoBehaviour
+public interface IReturnPool
+{
+    public void ReturnPool();
+}
+
+abstract public class MonsterController : MonoBehaviour, IReturnPool
 {
 	#region variable
 	public StateMachine<MonsterController> stateMachine;
@@ -65,4 +75,6 @@ abstract public class MonsterController : MonoBehaviour
 
     protected virtual void OnDataLodead() { }
 
+    protected abstract void Dead();
+    public abstract void ReturnPool();
 }

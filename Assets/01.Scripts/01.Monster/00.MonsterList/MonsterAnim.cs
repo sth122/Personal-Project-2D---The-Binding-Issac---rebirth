@@ -14,6 +14,7 @@ public class MonsterAnim : MonoBehaviour
     #region head animation variable
     public int IsAppear {  get; private set; }
     public int IsMove { get; private set; }
+    public int IsDie { get; private set; }
     #endregion
 
     public event Action<bool> OnMoveAnim;
@@ -37,23 +38,16 @@ public class MonsterAnim : MonoBehaviour
     private void OnEnable()
     {
         OnMoveAnim += MoveAnim;
-        //OnAppearAnim += AppearAnim;
     }
     private void OnDisable()
     {
         OnMoveAnim -= MoveAnim;
-        //OnAppearAnim -= AppearAnim;
     }
 
 
     private void MoveAnim(bool isBoolean)
     {
         animator.SetBool(IsMove, isBoolean);
-    }
-
-    private void AppearAnim()
-    {
-        animator.SetBool(IsAppear, true);
     }
 
     public bool IsAnimationFinished()
@@ -69,5 +63,11 @@ public class MonsterAnim : MonoBehaviour
     {
         IsAppear = Animator.StringToHash("isAppear");
         IsMove = Animator.StringToHash("isMove");
+        IsDie = Animator.StringToHash("isDie");
+    }
+
+    public void DeadAnim()
+    {
+        animator.SetBool(IsDie, true);
     }
 }

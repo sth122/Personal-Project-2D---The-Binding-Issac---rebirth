@@ -27,7 +27,7 @@ public class Eyes : IsaacWeapon
         {
             CheckDirection();
 
-            var tearBullet = ObjectPoolManager.Instance.Get(bulletName);
+            var tearBullet = ObjectPoolManager.Instance.GetObject(bulletName);
             if (tearBullet != null)
             {
                 IsaacBullet bullet = tearBullet.GetComponent<IsaacBullet>();

@@ -75,7 +75,7 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
         //}
     }
 
-    public GameObject Get(string poolObjectName)
+    public GameObject GetObject(string poolObjectName)
     {
         GameObject effect = null;
 
@@ -100,9 +100,15 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
         return effect;
     }
 
-    public void Return(string effectPoolName, GameObject objectToReturn)
+    public void ReturnObject(string effectPoolName, GameObject objectToReturn)
     {
         //objectToReturn.gameObject.SetActive(false);
+        if (!activatedPool.ContainsKey(effectPoolName))
+        {
+            Destroy(objectToReturn); 
+            return;
+        }
+
         objectToReturn.SetActive(false);
         activatedPool[effectPoolName].Enqueue(objectToReturn);
     }
