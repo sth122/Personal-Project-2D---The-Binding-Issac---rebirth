@@ -3,9 +3,10 @@
 public class MonsterIdleState : MonsterState
 {
 
-    public MonsterIdleState(MonsterController controller) : base(controller)
+    public MonsterIdleState(MonsterController controller, MonsterData mData) : base(controller, mData)
     {
         this.controller = controller;
+        this.mData = mData;
     }
 
     public override void Enter()

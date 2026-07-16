@@ -60,11 +60,11 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
     }
     #endregion
 
-    protected override void Dead()
+    public override void Dead()
     {
         mStat.speed = 0;
         AnimController.DeadAnim();
-        if (AnimController.IsAnimationFinished())
+        if(AnimController.IsAnimationFinished())
         {
             ReturnPool();
         }

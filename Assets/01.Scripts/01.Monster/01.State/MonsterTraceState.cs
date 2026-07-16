@@ -1,36 +1,31 @@
 ﻿using UnityEngine;
 
-public class MonsterTraceState : IState
+public class MonsterTraceState : MonsterState
 {
-    MonsterController controller;
-    public MonsterTraceState(MonsterController controller)
+    public MonsterTraceState(MonsterController controller, MonsterData mData) : base(controller, mData)
     {
         this.controller = controller;
+        this.mData = mData;
     }
 
 
-    public void Enter()
+    public override void Enter()
     {
         Debug.Log("TraceState에 진입");
         controller.AnimController.TriggerMove(true);
     }
 
-    public void Exit()
+    public override void Exit()
     {
         Debug.Log("TraceState에 퇴장");
         controller.AnimController.TriggerMove(false);
     }
 
-    public void Update()
+    public override void Update()
     {
         if (controller is ITraceable traceMonster)
         {
             traceMonster.Trace(); 
         }
-    }
-
-    public void FixedUpdate()
-    {
-
     }
 }

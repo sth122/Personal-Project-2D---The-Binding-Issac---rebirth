@@ -4,9 +4,10 @@ using UnityEngine;
 public class MonsterMoveState : MonsterState
 {
     
-    public MonsterMoveState(MonsterController controller) : base(controller)
+    public MonsterMoveState(MonsterController controller, MonsterData mData) : base(controller, mData)
     {
         this.controller = controller;
+        this.mData = mData;
     }
     public override void Enter()
     {

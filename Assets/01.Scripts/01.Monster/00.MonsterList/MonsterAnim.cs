@@ -6,27 +6,26 @@ using UnityEngine;
 // Idle : 멈춘 상태 Anim
 // Move : 움직이는 상태 Anim
 
+public enum MonsterAnimState
+{
+    Appear, Die
+}
+
 public class MonsterAnim : MonoBehaviour
 {
     private Animator animator;
     public Animator Animator { get { return animator; } private set { animator = value; } }
 
     #region head animation variable
-    public int IsAppear {  get; private set; }
+    public int IsAppear { get; private set; }
     public int IsMove { get; private set; }
     public int IsDie { get; private set; }
     #endregion
 
     public event Action<bool> OnMoveAnim;
-    //public event Action OnAppearAnim;
     public void TriggerMove(bool isBoolean)
     {
         OnMoveAnim?.Invoke(isBoolean);
-    }
-
-    public void TriggerAppear()
-    {
-        //OnAppearAnim?.Invoke();
     }
 
     private void Awake()
@@ -50,24 +49,36 @@ public class MonsterAnim : MonoBehaviour
         animator.SetBool(IsMove, isBoolean);
     }
 
-    public bool IsAnimationFinished()
+    public void IsAnimationFinished(MonsterAnimState mAnimState, float time)
     {
         Debug.Log("IsAnimationFinished 진입");
-        //animator.Play("Appear");
+        float time;
+        switch(mAnimState)
+        {
+            case MonsterAnimState.Appear:
+                
+                break;
+            case MonsterAnimState.Die:
+                break;
+        }
 
-        Debug.Log("Appear 애님 시작");
-        return animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f;
+
     }
 
     private void AnimationInitialize()
     {
-        IsAppear = Animator.StringToHash("isAppear");
         IsMove = Animator.StringToHash("isMove");
         IsDie = Animator.StringToHash("isDie");
     }
 
     public void DeadAnim()
     {
+        TriggerMove(false);
         animator.SetBool(IsDie, true);
+    }
+    IEnumerator AnimTime()
+    {
+        // mStat에서 appear, die 프레임 타임 저장해서 
+        yield return null;
     }
 }

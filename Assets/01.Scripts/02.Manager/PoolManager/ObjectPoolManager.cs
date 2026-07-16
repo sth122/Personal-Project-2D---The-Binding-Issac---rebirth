@@ -5,10 +5,11 @@ using UnityEngine;
 
 
 [Serializable]
-public struct PoolData
+public class PoolData
 {
     public GameObject Prefab;
     public int InitSpawnCount;
+    public Transform parentTrans;
 }
 
 public class ObjectPoolManager : Singleton<ObjectPoolManager>
@@ -16,7 +17,6 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
     [SerializedDictionary("Pool Name", "Pool Data")]
     public SerializedDictionary<string, PoolData> prefabDic = new SerializedDictionary<string, PoolData>();
     protected Dictionary<string, Queue<GameObject>> activatedPool = new();
-    //public List<GameObject> listGameObj = new List<GameObject>();
 
     private void Awake()
     {
@@ -30,51 +30,24 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
         {
             if (!activatedPool.ContainsKey(o.Key))
             {
-                //Queue<GameObject> objectPool = new Queue<GameObject>();
                 activatedPool[o.Key] = new Queue<GameObject>();
                 GameObject parentPool = new GameObject($"{o.Key}");
                 parentPool.transform.SetParent(this.transform);
+                prefabDic[o.Key].parentTrans = parentPool.transform;
+                
+                
 
                 for (int i = 0; i < o.Value.InitSpawnCount; i++)
                 {
-                    GameObject go = Instantiate(o.Value.Prefab, parentPool.transform);
+                    GameObject go = Instantiate(o.Value.Prefab, o.Value.parentTrans);
                     go.SetActive(false);
                     activatedPool[o.Key].Enqueue(go);
-                    //activatedPool[o.Key].Enqueue(go);
-                    //CreatePooledObject(o.Value.Prefab, o.Key);
-                    //CreatePooledObject(go.name);
                 }
-                // activatedPool[o.Key] = new Queue<GameObject>(); 로 선언해도 되는거 아닌가?
-                //activatedPool[o.Key] = objectPool;
             }
         }
     }
 
-    //public void CreatePooledObject(GameObject prefab, string poolName)
-    public void CreatePooledObject(string poolName)
-    {
-        GameObject go;
-
-        go = prefabDic[poolName].Prefab;
-        if (go != null)
-        {
-            activatedPool[poolName].Enqueue(go);
-        }
-        else
-        {
-            Debug.Log("Pool null error");
-        }
-
-        //foreach (GameObject obj in listGameObj)
-        //{
-        //    if (obj.name == poolName)
-        //    {
-        //        go = obj.GetComponent<GameObject>();
-        //        activatedPool[poolName].Enqueue(go);
-        //    }
-        //}
-    }
-
+    // 풀에 넣은 프리팹이 없을 때 호출하게 되는 경우 prefDic에 새로운 풀을 넣는 예외처리 추가해야함
     public GameObject GetObject(string poolObjectName)
     {
         GameObject effect = null;
@@ -83,18 +56,17 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
         {
             if (objectPool.Count == 0)
             {
-                //CreatePooledObject(prefabDic[poolObjectName].Prefab, poolObjectName);
-                //CreatePooledObject(poolObjectName);
-                effect = Instantiate(prefabDic[poolObjectName].Prefab, transform.Find(poolObjectName));
-                //activatedPool[poolObjectName].Enqueue(effect);
+                effect = Instantiate(prefabDic[poolObjectName].Prefab, prefabDic[poolObjectName].parentTrans);
             }
             else
             {
                 effect = objectPool.Dequeue();
             }
-
-            //effect.gameObject.SetActive(true);
-            
+        }
+        else
+        {
+            // 예외 처리 넣어야함
+            // 풀을 만들든 에러 문구 뜨든
         }
         effect.SetActive(true);
         return effect;
@@ -102,7 +74,6 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
 
     public void ReturnObject(string effectPoolName, GameObject objectToReturn)
     {
-        //objectToReturn.gameObject.SetActive(false);
         if (!activatedPool.ContainsKey(effectPoolName))
         {
             Destroy(objectToReturn); 

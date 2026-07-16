@@ -3,10 +3,12 @@
 abstract public class MonsterState : IState
 {
     protected MonsterController controller;
+    protected MonsterData mData;
 
-    public MonsterState(MonsterController controller)
+    public MonsterState(MonsterController controller, MonsterData mData)
     {
         this.controller = controller;
+        this.mData = mData;
     }
 
     public virtual void Enter()
@@ -28,4 +30,5 @@ abstract public class MonsterState : IState
     {
 
     }
+
 }

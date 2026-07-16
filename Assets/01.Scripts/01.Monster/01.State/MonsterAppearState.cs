@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class MonsterAppearState : MonsterState
 {
-    public MonsterAppearState(MonsterController controller) : base(controller)
+    public MonsterAppearState(MonsterController controller, MonsterData mData) : base(controller, mData)
     {
         this.controller = controller;
+        this.mData = mData;
     }
 
 
     public override void Enter()
     {
         Debug.Log("MonsterAppearState 입장");
+        //controller.StartAnimTime(mData.baseHp);
     }
 
     public  override void Exit()
@@ -22,10 +24,7 @@ public class MonsterAppearState : MonsterState
 
     public override void Update()
     {
-        if (controller.AnimController.IsAnimationFinished())
-        {
-            controller.stateMachine.ChangeState(controller.mIdleState);
-        }
+        
     }
 
     public override void FixedUpdate()

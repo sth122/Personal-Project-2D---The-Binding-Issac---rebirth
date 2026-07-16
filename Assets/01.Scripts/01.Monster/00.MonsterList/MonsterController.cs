@@ -32,10 +32,11 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     private Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
-    [SerializeField]protected Monster mStat;
+    [SerializeField]protected MonsterData mStat;
     protected MonsterAnim animController;
     public MonsterAnim AnimController { get { return animController; } }
     protected SpriteRenderer sr;
+    private WaitForSeconds wait;
     #endregion
 
     protected virtual void Awake()
@@ -50,9 +51,18 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         sr = GetComponent<SpriteRenderer>();
     }
 
-    protected virtual void Start()
+    protected virtual void OnEnable()
     {
         stateMachine.ChangeState(mAppearState);
+    }
+
+    protected virtual void OnDisable()
+    {
+        rb.linearVelocity = Vector2.zero;
+    }
+    protected virtual void Start()
+    {
+
     }
 
     protected virtual void Update()
@@ -65,7 +75,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         stateMachine.FixedUpdate();
     }
 
-    public void InitData(Monster data, Transform target)
+    public void InitData(MonsterData data, Transform target)
     {
         mStat = data.Clone();
         mStat.SetTotalHp();
@@ -75,6 +85,15 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     protected virtual void OnDataLodead() { }
 
-    protected abstract void Dead();
+    public abstract void Dead();
     public abstract void ReturnPool();
+    public void StartAnimTime(MonsterAnimState mAnimState, float time)
+    {
+        StartCoroutine(AnimTime(mAnimState, time));
+    }
+    IEnumerator AnimTime(MonsterAnimState mAnimState, float time)
+    {
+        wait = new WaitForSeconds(time);
+        yield return wait;
+    }
 }
