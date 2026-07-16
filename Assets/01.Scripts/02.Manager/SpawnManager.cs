@@ -20,7 +20,8 @@ public class SpawnManager : Singleton<SpawnManager>
             if(monster != null)
             {
                 MonsterController mController = monster.GetComponent<MonsterController>();
-                mController.InitData(mStat, Player.transform, mController.Appear);
+                mController.InitData(mStat, Player.transform);
+                mController.Appear();
             }
         }
     }

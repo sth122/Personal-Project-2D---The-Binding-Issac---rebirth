@@ -4,10 +4,11 @@ using UnityEngine;
 public class MonsterMoveState : MonsterState
 {
     
-    public MonsterMoveState(MonsterController controller, MonsterData mData) : base(controller, mData)
+    public MonsterMoveState(MonsterController controller, MonsterData mData, MonsterCurrentState nowState) : base(controller, mData, nowState)
     {
         this.controller = controller;
         this.mData = mData;
+        this.nowState = nowState;
     }
     public override void Enter()
     {

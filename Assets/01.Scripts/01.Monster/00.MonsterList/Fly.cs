@@ -88,13 +88,13 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
         mData.speed = 0;
         AnimController.DeadAnim();
         StartAnimTime(mData.dieAnimTime, () => ReturnPool());
-}
+    }
 
-public override void ReturnPool()
+    public override void ReturnPool()
     {
         ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
     }
-    
+
     protected void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac Bullet"))

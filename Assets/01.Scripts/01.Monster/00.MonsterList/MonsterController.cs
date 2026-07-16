@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public interface ITraceable
 {
@@ -20,6 +21,11 @@ public interface IReturnPool
     public void ReturnPool();
 }
 
+public enum MonsterCurrentState
+{
+    Idle, Move, Trace, Attack
+}
+
 abstract public class MonsterController : MonoBehaviour, IReturnPool
 {
 	#region variable
@@ -27,7 +33,6 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 	public MonsterIdleState mIdleState;
 	public MonsterMoveState mMoveState;
     public MonsterTraceState mTraceState;
-    public MonsterAppearState mAppearState;
     [SerializeField] protected Transform target;
 
     private Rigidbody2D rb;
@@ -37,15 +42,16 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
     public MonsterAnim AnimController { get { return animController; } }
     protected SpriteRenderer sr;
     private WaitForSeconds wait;
+
+    protected MonsterCurrentState mCurrentState;
     #endregion
 
     protected virtual void Awake()
     {
         stateMachine = new StateMachine<MonsterController>(this);
-        mIdleState = new MonsterIdleState(this, mData);
-        mMoveState = new MonsterMoveState(this, mData);
-        mTraceState = new MonsterTraceState(this, mData);
-        mAppearState = new MonsterAppearState(this, mData);
+        mIdleState = new MonsterIdleState(this, mData, mCurrentState);
+        mMoveState = new MonsterMoveState(this, mData, mCurrentState);
+        mTraceState = new MonsterTraceState(this, mData, mCurrentState);
         animController = GetComponent<MonsterAnim>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -75,13 +81,12 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         stateMachine.FixedUpdate();
     }
 
-    public void InitData(MonsterData data, Transform target, Action OnAppear)
+    public void InitData(MonsterData data, Transform target)
     {
         mData = data.Clone();
         mData.SetTotalHp();
         OnDataLodead();
         this.target = target;
-        OnAppear?.Invoke();
     }
 
     protected virtual void OnDataLodead() { }
