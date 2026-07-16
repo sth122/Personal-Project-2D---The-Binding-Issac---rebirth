@@ -43,32 +43,32 @@ public class IsaacInput : MonoBehaviour
         InputActions.Enable();
 
         IsaacActions.LeftAttack.performed += _ => Press(AttackInputDirection.Left);
-        IsaacActions.LeftAttack.canceled += _ => Release(AttackInputDirection.Left); ;
+        IsaacActions.LeftAttack.canceled += _ => Release(AttackInputDirection.Left);
 
-        IsaacActions.RigthAttack.performed += OnRightPressed;
-        IsaacActions.RigthAttack.canceled += OnRightReleased;
+        IsaacActions.RigthAttack.performed += _ => Press(AttackInputDirection.Right);
+        IsaacActions.RigthAttack.canceled += _ => Release(AttackInputDirection.Right);
 
-        IsaacActions.UpAttack.performed += OnUpPressed;
-        IsaacActions.UpAttack.canceled += OnUpReleased;
+        IsaacActions.UpAttack.performed += _ => Press(AttackInputDirection.Up);
+        IsaacActions.UpAttack.canceled += _ => Release(AttackInputDirection.Up);
 
-        IsaacActions.DownAttack.performed += OnDownPressed;
-        IsaacActions.DownAttack.canceled += OnDownReleased;
+        IsaacActions.DownAttack.performed += _ => Press(AttackInputDirection.Down);
+        IsaacActions.DownAttack.canceled += _ => Release(AttackInputDirection.Down);
     }
     private void OnDisable()
     {
         InputActions.Disable();
 
-        IsaacActions.LeftAttack.performed -= OnLeftPressed;
-        IsaacActions.LeftAttack.canceled -= OnLeftReleased;
+        IsaacActions.LeftAttack.performed -= _ => Press(AttackInputDirection.Left);
+        IsaacActions.LeftAttack.canceled -= _ => Release(AttackInputDirection.Left);
 
-        IsaacActions.RigthAttack.performed -= OnRightPressed;
-        IsaacActions.RigthAttack.canceled -= OnRightReleased;
+        IsaacActions.RigthAttack.performed -= _ => Press(AttackInputDirection.Right);
+        IsaacActions.RigthAttack.canceled -= _ => Release(AttackInputDirection.Right);
 
-        IsaacActions.UpAttack.performed -= OnUpPressed;
-        IsaacActions.UpAttack.canceled -= OnUpReleased;
+        IsaacActions.UpAttack.performed -= _ => Press(AttackInputDirection.Up);
+        IsaacActions.UpAttack.canceled -= _ => Release(AttackInputDirection.Up);
 
-        IsaacActions.DownAttack.performed -= OnDownPressed;
-        IsaacActions.DownAttack.canceled -= OnDownReleased;
+        IsaacActions.DownAttack.performed -= _ => Press(AttackInputDirection.Down);
+        IsaacActions.DownAttack.canceled -= _ => Release(AttackInputDirection.Down);
     }
 
     private void Press(AttackInputDirection dir)
@@ -80,43 +80,6 @@ public class IsaacInput : MonoBehaviour
     {
         preesedDirections.Remove(dir);
     }
-
-    #region Event
-    private void OnLeftPressed(InputAction.CallbackContext context)
-    {
-        Press(AttackInputDirection.Left);
-    }
-    private void OnRightPressed(InputAction.CallbackContext context)
-    {
-        Press(AttackInputDirection.Right);
-    }
-    private void OnUpPressed(InputAction.CallbackContext context)
-    {
-        Press(AttackInputDirection.Up);
-    }
-    private void OnDownPressed(InputAction.CallbackContext context)
-    {
-        Press(AttackInputDirection.Down);
-    }
-
-
-    private void OnLeftReleased(InputAction.CallbackContext context)
-    {
-        Release(AttackInputDirection.Left);
-    }
-    private void OnRightReleased(InputAction.CallbackContext context)
-    {
-        Release(AttackInputDirection.Right);
-    }
-    private void OnUpReleased(InputAction.CallbackContext context)
-    {
-        Release(AttackInputDirection.Up);
-    }
-    private void OnDownReleased(InputAction.CallbackContext context)
-    {
-        Release(AttackInputDirection.Down);
-    }
-    #endregion
 
     public Vector2 AttackDirection
     {

@@ -15,9 +15,9 @@ public class IsaacAnimController : MonoBehaviour
     // Extra, Body, Head를 키 값으로 하는 animDic을 또 만들고 싶은데
     private IsaacAnimData isaacAnimData = new IsaacAnimData();
     public Dictionary<IsaacObject, Dictionary<IsaacAnimState, int>> animDic;
-    public Dictionary<IsaacObject, Animator> animatorDic;
-    public Dictionary<IsaacObject, SpriteRenderer> spriteDic;
-    public Dictionary<IsaacObject, GameObject> childDic;
+    public Dictionary<IsaacObject, Animator> animatorDic = new();
+    public Dictionary<IsaacObject, SpriteRenderer> spriteDic = new();
+    public Dictionary<IsaacObject, GameObject> childDic = new();
     private IsaacObject isaacObj;
 
     private void Awake()
@@ -41,10 +41,7 @@ public class IsaacAnimController : MonoBehaviour
                 {
                     spriteDic[obj] = spriteRenderer;
                 }
-                if(child.TryGetComponent<GameObject>(out var gameObject))
-                {
-                    childDic[obj] = gameObject;
-                }
+                childDic[obj] = child.gameObject;
             }
         }
     }
@@ -58,8 +55,8 @@ public class IsaacAnimController : MonoBehaviour
     {
         animatorDic[obj].SetBool(animDic[obj][nowAnim], false);
     }
-    
-    public void SetActiveHead(IsaacObject obj,bool isBool)
+
+    public void SetActiveHead(IsaacObject obj, bool isBool)
     {
         childDic[obj].SetActive(isBool);
     }
@@ -74,36 +71,6 @@ public class IsaacAnimController : MonoBehaviour
     {
         isaacObj = IsaacObject.Head;
         OnExcuteAnim(dir, isaacObj);
-        /* 혹시 모를 북구
-         isaacObj = isAttack ? IsaacObject.AttackHead : IsaacObject.Head;
-        if (dir.y > 0)
-        {
-            AnimationStart(isaacObj, IsaacAnimState.Up);
-            AnimationStop(isaacObj, IsaacAnimState.Down);
-            return;
-        }
-        else if (dir.y < 0)
-        {
-            AnimationStart(isaacObj, IsaacAnimState.Down);
-            AnimationStop(isaacObj, IsaacAnimState.Up);
-        }
-        else
-        {
-            AnimationStop(isaacObj, IsaacAnimState.Up);
-            AnimationStop(isaacObj, IsaacAnimState.Down);
-        }
-
-        if (dir.x != 0)
-        {
-            AnimationStart(isaacObj, IsaacAnimState.LeftRight);
-            spriteDic[isaacObj].flipX = dir.x > 0;
-        }
-        else
-        {
-            AnimationStop(isaacObj, IsaacAnimState.LeftRight);
-        }
-         */
-
     }
 
     /// <summary>
@@ -115,29 +82,6 @@ public class IsaacAnimController : MonoBehaviour
     {
         isaacObj = IsaacObject.Body;
         OnExcuteAnim(dir, isaacObj);
-        /* 혹시 모를 북구
-
-        if (dir.y != 0)
-        {
-            AnimationStart(isaacObj, IsaacAnimState.Up);
-            return;
-        }
-        else
-        {
-            AnimationStop(isaacObj, IsaacAnimState.Up);
-        }
-
-        if (dir.x != 0)
-        {
-            AnimationStart(isaacObj, IsaacAnimState.LeftRight);
-            spriteDic[isaacObj].flipX = dir.x > 0;
-        }
-        else
-        {
-            AnimationStop(isaacObj, IsaacAnimState.LeftRight);
-        }
-         */
-
     }
 
     public void AttacHeadAnim(Vector2 dir)
@@ -150,7 +94,7 @@ public class IsaacAnimController : MonoBehaviour
 
     private void OnExcuteAnim(Vector2 dir, IsaacObject obj)
     {
-        if(dir.y > 0)
+        if (dir.y > 0)
         {
             AnimationStart(obj, IsaacAnimState.Up);
             AnimationStop(obj, IsaacAnimState.Down);
@@ -162,6 +106,7 @@ public class IsaacAnimController : MonoBehaviour
             AnimationStart(obj, IsaacAnimState.Down);
             AnimationStop(obj, IsaacAnimState.Up);
             AnimationStop(obj, IsaacAnimState.LeftRight);
+            return;
         }
         else
         {
@@ -169,16 +114,20 @@ public class IsaacAnimController : MonoBehaviour
             AnimationStop(obj, IsaacAnimState.Down);
         }
 
-        if(dir.x != 0)
+        if (dir.x != 0)
         {
-            AnimationStart(obj, IsaacAnimState.LeftRight);
-            if(spriteDic.TryGetValue(isaacObj, out var sprite))
+            if (spriteDic.TryGetValue(isaacObj, out var sprite))
             {
-                sprite.flipX = dir.x > 0;
+                sprite.flipX = dir.x < 0;
             }
+            AnimationStart(obj, IsaacAnimState.LeftRight);
         }
         else
         {
+            if (spriteDic.TryGetValue(isaacObj, out var sprite))
+            {
+                sprite.flipX = false;
+            }
             AnimationStop(obj, IsaacAnimState.LeftRight);
         }
     }

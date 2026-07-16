@@ -35,7 +35,7 @@ public class IsaacController : MonoBehaviour
         isaacInfo = IsaacManager.Instance.GameStart(
             () =>
             {
-                StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+                StartAnimTime(0f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
             });
 
         stateMachine = new StateMachine<IsaacController>(this);
