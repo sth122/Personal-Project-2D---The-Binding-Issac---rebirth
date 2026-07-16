@@ -4,19 +4,21 @@ using UnityEngine;
 public class MonsterMoveState : MonsterState
 {
     
-    public MonsterMoveState(MonsterController controller, MonsterData mData, MonsterCurrentState nowState) : base(controller, mData, nowState)
+    public MonsterMoveState(MonsterController controller, MonsterData mData) : base(controller, mData)
     {
         this.controller = controller;
         this.mData = mData;
-        this.nowState = nowState;
     }
     public override void Enter()
     {
+        Debug.Log("Move에 진입");
+        nowState = MonsterCurrentState.Move;
         controller.AnimController.TriggerMove(true);
     }
 
     public override void Exit()
     {
+        Debug.Log("Move에서 퇴장");
         controller.AnimController.TriggerMove(false);
     }
 

@@ -2,23 +2,23 @@
 
 public class MonsterTraceState : MonsterState
 {
-    public MonsterTraceState(MonsterController controller, MonsterData mData, MonsterCurrentState nowState) : base(controller, mData, nowState)
+    public MonsterTraceState(MonsterController controller, MonsterData mData) : base(controller, mData)
     {
         this.controller = controller;
         this.mData = mData;
-        this.nowState = nowState;
     }
 
 
     public override void Enter()
     {
         Debug.Log("TraceState에 진입");
+        nowState = MonsterCurrentState.Trace;
         controller.AnimController.TriggerMove(true);
     }
 
     public override void Exit()
     {
-        Debug.Log("TraceState에 퇴장");
+        Debug.Log("TraceState에서 퇴장");
         controller.AnimController.TriggerMove(false);
     }
 

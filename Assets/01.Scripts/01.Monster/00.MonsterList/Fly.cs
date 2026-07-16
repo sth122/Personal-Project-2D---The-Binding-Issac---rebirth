@@ -2,10 +2,10 @@
 
 public class Fly : MonsterController, ITraceable, ITakeDamage
 {
-
     protected override void Awake()
     {
         base.Awake();
+        mStateDic[MonsterCurrentState.Trace] = new MonsterTraceState(this, mData);
     }
 
     protected override void OnEnable()
@@ -16,12 +16,6 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
     {
         base.OnDisable();
     }
-
-    protected override void Start()
-    {
-        base.Start();
-    }
-
     protected override void Update()
     {
         base.Update();

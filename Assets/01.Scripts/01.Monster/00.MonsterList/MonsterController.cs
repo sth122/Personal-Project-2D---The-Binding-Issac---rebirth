@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public interface ITraceable
 {
@@ -43,15 +43,19 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
     protected SpriteRenderer sr;
     private WaitForSeconds wait;
 
-    protected MonsterCurrentState mCurrentState;
+    protected Dictionary<MonsterCurrentState, MonsterState> mStateDic = new Dictionary<MonsterCurrentState, MonsterState>();
     #endregion
 
     protected virtual void Awake()
     {
         stateMachine = new StateMachine<MonsterController>(this);
-        mIdleState = new MonsterIdleState(this, mData, mCurrentState);
-        mMoveState = new MonsterMoveState(this, mData, mCurrentState);
-        mTraceState = new MonsterTraceState(this, mData, mCurrentState);
+        //mIdleState = new MonsterIdleState(this, mData, mCurrentState);
+        //mMoveState = new MonsterMoveState(this, mData, mCurrentState);
+        //mTraceState = new MonsterTraceState(this, mData, mCurrentState);
+
+        mStateDic[MonsterCurrentState.Idle] = new MonsterIdleState(this, mData);
+        mStateDic[MonsterCurrentState.Move] = new MonsterMoveState(this,mData);
+
         animController = GetComponent<MonsterAnim>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -65,10 +69,6 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
     protected virtual void OnDisable()
     {
         rb.linearVelocity = Vector2.zero;
-    }
-    protected virtual void Start()
-    {
-
     }
 
     protected virtual void Update()
