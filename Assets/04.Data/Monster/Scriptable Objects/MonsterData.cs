@@ -8,7 +8,7 @@ public enum MoveType
 }
 
 [Serializable]
-public class MonsterData
+public class MonsterInfo
 {
     public int monsterID;
     public string name;
@@ -25,7 +25,7 @@ public class MonsterData
     public MoveType moveType;
 
     //private float totalHp;
-    public MonsterData(int monsterID, string name, float baseHp, float damage, float contactDamage, float stageHp, float speed, float appearAnimTime, float dieAnimTime,MoveType moveType)
+    public MonsterInfo(int monsterID, string name, float baseHp, float damage, float contactDamage, float stageHp, float speed, float appearAnimTime, float dieAnimTime,MoveType moveType)
     {
         this.monsterID = monsterID;
         this.name = name;
@@ -39,7 +39,7 @@ public class MonsterData
         this.dieAnimTime = dieAnimTime;
     }
 
-    public MonsterData Clone() { return new MonsterData(monsterID, name, baseHp, damage, contactDamage, stageHp, speed, appearAnimTime,dieAnimTime,moveType); }
+    public MonsterInfo Clone() { return new MonsterInfo(monsterID, name, baseHp, damage, contactDamage, stageHp, speed, appearAnimTime,dieAnimTime,moveType); }
 
     public void SetTotalHp()
     {
@@ -47,8 +47,8 @@ public class MonsterData
     }
 }
 
-[CreateAssetMenu(fileName = "MonsterStatData", menuName = "Data/Monster")]
-public class MonsterStatData : ScriptableObject
+[CreateAssetMenu(fileName = "MonsterData", menuName = "Data/MonsterData")]
+public class MonsterData : ScriptableObject
 {
-    public List<MonsterData> monsterList = new List<MonsterData>();
+    public List<MonsterInfo> monsterList = new List<MonsterInfo>();
 }

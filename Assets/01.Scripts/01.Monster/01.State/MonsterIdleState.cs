@@ -3,7 +3,7 @@
 public class MonsterIdleState : MonsterState
 {
 
-    public MonsterIdleState(MonsterController controller, MonsterData mData) 
+    public MonsterIdleState(MonsterController controller, MonsterInfo mData) 
         : base(controller, mData)
     {
         this.controller = controller;

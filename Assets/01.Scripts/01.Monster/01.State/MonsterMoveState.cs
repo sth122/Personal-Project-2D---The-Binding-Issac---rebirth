@@ -4,7 +4,7 @@ using UnityEngine;
 public class MonsterMoveState : MonsterState
 {
     
-    public MonsterMoveState(MonsterController controller, MonsterData mData) : base(controller, mData)
+    public MonsterMoveState(MonsterController controller, MonsterInfo mData) : base(controller, mData)
     {
         this.controller = controller;
         this.mData = mData;

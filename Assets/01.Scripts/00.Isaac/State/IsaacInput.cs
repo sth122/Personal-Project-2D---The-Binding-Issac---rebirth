@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public enum HeadDirection
+public enum AttackInputDirection
 {
     None, Left, Right, Up, Down
 }
@@ -12,8 +12,25 @@ public class IsaacInput : MonoBehaviour
     public IsaacInputActions InputActions { get; private set; }
     public IsaacInputActions.IsaacActions IsaacActions { get; private set; }
 
-    private readonly List<HeadDirection> preesedDirections = new();
-    public HeadDirection CurrentHeadDirection { get; private set; }
+    // 현재 누르고 있는 모든 키들의 목록
+    private readonly List<AttackInputDirection> preesedDirections = new();
+    public AttackInputDirection CurrentHeadDirection
+    {
+        get
+        {
+            if (preesedDirections.Count == 0) return AttackInputDirection.None;
+
+
+            var verticalDir = preesedDirections.FindLast(dir => dir == AttackInputDirection.Up || dir == AttackInputDirection.Down);
+
+            if (verticalDir != AttackInputDirection.None)
+            {
+                return verticalDir; 
+            }
+
+            return preesedDirections[^1];
+        }
+    }
 
     private void Awake()
     {
@@ -25,8 +42,8 @@ public class IsaacInput : MonoBehaviour
     {
         InputActions.Enable();
 
-        IsaacActions.LeftAttack.performed += OnLeftPressed;
-        IsaacActions.LeftAttack.canceled += OnLeftReleased;
+        IsaacActions.LeftAttack.performed += _ => Press(AttackInputDirection.Left);
+        IsaacActions.LeftAttack.canceled += _ => Release(AttackInputDirection.Left); ;
 
         IsaacActions.RigthAttack.performed += OnRightPressed;
         IsaacActions.RigthAttack.canceled += OnRightReleased;
@@ -54,62 +71,50 @@ public class IsaacInput : MonoBehaviour
         IsaacActions.DownAttack.canceled -= OnDownReleased;
     }
 
-    private void Press(HeadDirection dir)
+    private void Press(AttackInputDirection dir)
     {
         preesedDirections.Remove(dir);
         preesedDirections.Add(dir);
-
-        // 마지막 인덱스 = 가장 최근에 입력된 방향
-        CurrentHeadDirection = preesedDirections[^1];
     }
-    private void Release(HeadDirection dir)
+    private void Release(AttackInputDirection dir)
     {
         preesedDirections.Remove(dir);
-
-        if (preesedDirections.Count > 0)
-        {
-            CurrentHeadDirection = preesedDirections[^1];
-        }
-        else
-        {
-            CurrentHeadDirection = HeadDirection.None;
-        }
     }
 
     #region Event
     private void OnLeftPressed(InputAction.CallbackContext context)
     {
-        Press(HeadDirection.Left);
+        Press(AttackInputDirection.Left);
     }
     private void OnRightPressed(InputAction.CallbackContext context)
     {
-        Press(HeadDirection.Right);
+        Press(AttackInputDirection.Right);
     }
     private void OnUpPressed(InputAction.CallbackContext context)
     {
-        Press(HeadDirection.Up);
+        Press(AttackInputDirection.Up);
     }
     private void OnDownPressed(InputAction.CallbackContext context)
     {
-        Press(HeadDirection.Down);
+        Press(AttackInputDirection.Down);
     }
 
 
     private void OnLeftReleased(InputAction.CallbackContext context)
     {
-        Release(HeadDirection.Left);
+        Release(AttackInputDirection.Left);
     }
     private void OnRightReleased(InputAction.CallbackContext context)
     {
-        Release(HeadDirection.Right);
+        Release(AttackInputDirection.Right);
     }
     private void OnUpReleased(InputAction.CallbackContext context)
     {
-        Release(HeadDirection.Up);
+        Release(AttackInputDirection.Up);
     }
     private void OnDownReleased(InputAction.CallbackContext context)
     {
-        Release(HeadDirection.Down);
+        Release(AttackInputDirection.Down);
     }
     #endregion
 
@@ -119,10 +124,10 @@ public class IsaacInput : MonoBehaviour
         {
             return CurrentHeadDirection switch
             {
-                HeadDirection.Left => Vector2.left,
-                HeadDirection.Right => Vector2.right,
-                HeadDirection.Up => Vector2.up,
-                HeadDirection.Down => Vector2.down,
+                AttackInputDirection.Left => Vector2.left,
+                AttackInputDirection.Right => Vector2.right,
+                AttackInputDirection.Up => Vector2.up,
+                AttackInputDirection.Down => Vector2.down,
                 _ => Vector2.zero
             };
         }

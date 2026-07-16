@@ -3,10 +3,11 @@ using UnityEngine;
 using System.Collections.Generic;
 
 [Serializable]
-public class Isaac
+public class IsaacInfo
 {
     public int isaacID;
     public string isaacName;
+    public float hp;
     public float damage;
     public float tearsDelay; // 공격 딜레이
     public float range; // 사거리
@@ -16,10 +17,11 @@ public class Isaac
     public float deamonProbability;
     public float angelProbability;
 
-    public Isaac(int isaacID, string isaacName, float damage, float tearsDelay, float range, float shootSpeed, float speed, float luck, float deamonProbability, float angelProbability)
+    public IsaacInfo(int isaacID, string isaacName, float hp, float damage, float tearsDelay, float range, float shootSpeed, float speed, float luck, float deamonProbability, float angelProbability)
     {
         this.isaacID = isaacID;
         this.isaacName = isaacName;
+        this.hp = hp;
         this.damage = damage;
         this.tearsDelay = tearsDelay;
         this.range = range;
@@ -30,12 +32,12 @@ public class Isaac
         this.angelProbability = angelProbability;
     }
 
-    public Isaac Clone()
-    { return new Isaac(isaacID, isaacName, damage, tearsDelay, range, shootSpeed, speed, luck, deamonProbability, angelProbability); }
+    public IsaacInfo Clone()
+    { return new IsaacInfo(isaacID, isaacName, hp, damage, tearsDelay, range, shootSpeed, speed, luck, deamonProbability, angelProbability); }
 }
 
 [CreateAssetMenu(fileName = "IsaacStatData", menuName = "Data/Isaac")]
-public class IsaacStatData : ScriptableObject
+public class IsaacData : ScriptableObject
 {
-    public List<Isaac> isaacList = new List<Isaac>();
+    public List<IsaacInfo> isaacList = new List<IsaacInfo>();
 }

@@ -1,47 +1,55 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using Unity.IO.LowLevel.Unsafe;
+using UnityEngine;
+
+public enum IsaacCurrentState
+{
+    Idle, Move, Attack,
+}
 
 public class IsaacController : MonoBehaviour
 {
     #region variable
     [SerializeField] public GameObject head;
-
     [SerializeField] public GameObject body;
 
     public StateMachine<IsaacController> stateMachine;
-    public IsaacIdleState iIdleState;
-    public IsaacMoveState iMoveState;
     private Rigidbody2D rb;
-    public Rigidbody2D RB {  get { return rb; } }
-    public Animator BodyAnimator { get; private set; }
+    private IsaacAnimController animController;
+    //public Animator BodyAnimator { get; private set; }
     public IsaacInput Input { get; private set; }
-    private float moveSpeed;
-    public float MoveSpeed { get => moveSpeed; private set => moveSpeed = value; }
-    #endregion
-
-    #region body animation variable
-    public int IsBodyMove { get; private set; }
-    public int IsBodyUpDown { get; private set; }
+    public Dictionary<IsaacCurrentState, IsaacState> iStateDic = new Dictionary<IsaacCurrentState, IsaacState>();
+    private WaitForSeconds wait;
+    private IsaacInfo isaacInfo;
     #endregion
 
     private void Awake()
     {
-        AnimationInitialize();
-
+        iStateDic.Clear();
+        animController = GetComponent<IsaacAnimController>();
         stateMachine = new StateMachine<IsaacController>(this);
-        iIdleState = new IsaacIdleState(this);
-        iMoveState = new IsaacMoveState(this);
-        BodyAnimator = body.GetComponent<Animator>();
+        iStateDic[IsaacCurrentState.Idle] = new IsaacIdleState(this, animController, rb, isaacInfo);
+        iStateDic[IsaacCurrentState.Move] = new IsaacMoveState(this, animController, rb, isaacInfo);
+        iStateDic[IsaacCurrentState.Attack] = new IsaacAttackState(this, animController, rb, isaacInfo);
         Input = GetComponent<IsaacInput>();
         rb = GetComponent<Rigidbody2D>();
     }
 
     void Start()
     {
-        MoveSpeed = 3f;
-        stateMachine?.ChangeState(iIdleState);
+        // 게임 제일 처음 시작 시 2초간 움직일 수 없음
+        // IsaacData를 받아 온 후에 StarAnimTime 실행해야함 => 안그러면 초기화 값 안들어감
+        // 현재는 IsaacManager에서 하지만 추후 GameManager 또는 StageManager에서 할 예정
+        //IsaacManager.Instance.GameStart(() => 
+        //{
+        //    StartAnimTime(2f, ()  => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+        //});
+        StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
     }
 
-    // Update is called once per frame
+
     private void Update()
     {
         stateMachine.Update();
@@ -52,9 +60,28 @@ public class IsaacController : MonoBehaviour
         stateMachine.FixedUpdate();
     }
 
-    private void AnimationInitialize()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        IsBodyMove = Animator.StringToHash("isBodyMove");
-        IsBodyUpDown = Animator.StringToHash("isBodyUpDown");
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Monster")
+            )
+        {
+            if (collision is IAttackable iAttackalbe)
+            {
+                //IsaacManager.Instance.TakeDamage(iAttackalbe.ContactAttack(), );
+
+            }
+        }
+    }
+
+    public void StartAnimTime(float time, Action OnComplete)
+    {
+        StartCoroutine(AnimTime(time, OnComplete));
+    }
+
+    IEnumerator AnimTime(float time, Action OnComplete)
+    {
+        wait = new WaitForSeconds(time);
+        yield return wait;
+        OnComplete?.Invoke();
     }
 }

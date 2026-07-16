@@ -3,9 +3,9 @@
 abstract public class MonsterState : IState
 {
     protected MonsterController controller;
-    protected MonsterData mData;
+    protected MonsterInfo mData;
     protected MonsterCurrentState nowState;
-    public MonsterState(MonsterController controller, MonsterData mData)
+    public MonsterState(MonsterController controller, MonsterInfo mData)
     {
         this.controller = controller;
         this.mData = mData;

@@ -9,6 +9,7 @@ public interface ITraceable
 }
 public interface IAttackable
 {
+    public float ContactAttack();
     public void Attack();
 }
 public interface ITakeDamage
@@ -30,16 +31,13 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 {
 	#region variable
 	public StateMachine<MonsterController> stateMachine;
-	//public MonsterIdleState mIdleState;
-	//public MonsterMoveState mMoveState;
- //   public MonsterTraceState mTraceState;
     [SerializeField] protected Transform target;
 
     private Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
-    [SerializeField]protected MonsterData mData;
-    protected MonsterAnim animController;
-    public MonsterAnim AnimController { get { return animController; } }
+    [SerializeField]protected MonsterInfo mData;
+    protected MonsterAnimController animController;
+    public MonsterAnimController AnimController { get { return animController; } }
     protected SpriteRenderer sr;
     private WaitForSeconds wait;
 
@@ -49,14 +47,11 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
     protected virtual void Awake()
     {
         stateMachine = new StateMachine<MonsterController>(this);
-        //mIdleState = new MonsterIdleState(this, mData, mCurrentState);
-        //mMoveState = new MonsterMoveState(this, mData, mCurrentState);
-        //mTraceState = new MonsterTraceState(this, mData, mCurrentState);
 
         mStateDic[MonsterCurrentState.Idle] = new MonsterIdleState(this, mData);
-        mStateDic[MonsterCurrentState.Move] = new MonsterMoveState(this,mData);
+        mStateDic[MonsterCurrentState.Move] = new MonsterMoveState(this, mData);
 
-        animController = GetComponent<MonsterAnim>();
+        animController = GetComponent<MonsterAnimController>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
     }
@@ -81,7 +76,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         stateMachine.FixedUpdate();
     }
 
-    public void InitData(MonsterData data, Transform target)
+    public void InitData(MonsterInfo data, Transform target)
     {
         mData = data.Clone();
         mData.SetTotalHp();
@@ -113,6 +108,5 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         wait = new WaitForSeconds(time);
         yield return wait;
         OnComplete?.Invoke();
-        Debug.Log($"{mData.name} 사망");
     }
 }

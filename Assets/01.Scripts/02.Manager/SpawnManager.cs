@@ -6,7 +6,7 @@ using UnityEngine.Pool;
 public class SpawnManager : Singleton<SpawnManager>
 {
     [SerializeField] GameObject Player;
-    public MonsterStatData monsterStatData;
+    public MonsterData monsterStatData;
 
     public RoomLayoutData roomLayoutData;
 
@@ -14,7 +14,7 @@ public class SpawnManager : Singleton<SpawnManager>
     {
         foreach(var spawnInfo in roomLayoutData.spawnList)
         {
-            MonsterData mStat = monsterStatData.monsterList.Find(x => x.monsterID == spawnInfo.monsterID);
+            MonsterInfo mStat = monsterStatData.monsterList.Find(x => x.monsterID == spawnInfo.monsterID);
             var monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
 
             if(monster != null)

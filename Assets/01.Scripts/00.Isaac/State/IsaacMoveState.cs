@@ -1,77 +1,45 @@
 ﻿using UnityEngine;
 
-public class IsaacMoveState : IState
-{
-    IsaacController controller;
-    SpriteRenderer sr;
-    Vector2 dir;
-    int moveHash;
-    int upDownHash;
-
-    public IsaacMoveState(IsaacController controller)
+public class IsaacMoveState : IsaacState
+{ 
+    public IsaacMoveState(IsaacController controller, IsaacAnimController animController, Rigidbody2D rb, IsaacInfo isaacInfo) : base(controller, animController, rb, isaacInfo)
     {
         this.controller = controller;
+        this.animController = animController;
+        this.rb = rb;
+        this.isaacInfo = isaacInfo;
     }
 
-
-    public void Enter()
+    public override void Enter()
     {
-        sr = controller.body.GetComponent<SpriteRenderer>();
-        moveHash = controller.IsBodyMove;
-        upDownHash = controller.IsBodyUpDown;
-        // 움직이는 애니메이션 세팅
-        
+        Debug.Log("IsaacMoveState 진입");
     }
-    public void Exit() 
+    public override void Exit() 
     {
-
+        Debug.Log("IsaacMoveState 퇴장");
     }
-    public void Update()
+    public override void Update()
     {
+        attackDir = controller.Input.AttackDirection;
         dir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
 
-        AnimationUpdate();
-
-        if (controller.RB.linearVelocity == Vector2.zero)
+        if (rb.linearVelocity == Vector2.zero)
         {
-            controller.stateMachine.ChangeState(controller.iIdleState);
+            controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Idle]);
             return;
         }
+
+        if(attackDir != Vector2.zero)
+        {
+            controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Attack]);
+        }
+
+        animController.HeadMoveAnim(dir);
+        animController.BodyMoveAnim(dir);
     }
 
-    public void FixedUpdate() 
+    public override void FixedUpdate() 
     {
-        controller.RB.linearVelocity = dir.normalized * controller.MoveSpeed;
-    }
-
-    private void AnimationUpdate()
-    {
-        if(dir.y != 0)
-        {
-            controller.BodyAnimator.SetBool(upDownHash, true);
-            controller.BodyAnimator.SetBool(moveHash, false);
-            return;
-        }
-        else
-        {
-            controller.BodyAnimator.SetBool(upDownHash, false);
-        }
-        
-        if (dir.x != 0)
-        {
-            controller.BodyAnimator.SetBool(moveHash, true);
-            if (dir.x > 0)
-            {
-                sr.flipX = false;
-            }
-            else
-            {
-                sr.flipX = true;
-            }
-        }
-        else
-        {
-            controller.BodyAnimator.SetBool(moveHash, false);
-        }
+        rb.linearVelocity = dir.normalized * isaacInfo.speed;
     }
 }

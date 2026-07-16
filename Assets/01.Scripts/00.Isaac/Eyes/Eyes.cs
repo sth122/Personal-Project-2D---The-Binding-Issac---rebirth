@@ -17,7 +17,6 @@ public class Eyes : IsaacWeapon
 
     protected void Update()
     {
-        LookHead();
         Attack();
     }
 
@@ -52,16 +51,16 @@ public class Eyes : IsaacWeapon
     {
         switch (Input.CurrentHeadDirection)
         {
-            case HeadDirection.Left:
+            case AttackInputDirection.Left:
                 fire.localPosition = new Vector3(-originFirePos.x, -originFirePos.y * posDir, 0f);
                 break;
-            case HeadDirection.Right:
+            case AttackInputDirection.Right:
                 fire.localPosition = new Vector3(originFirePos.x, -originFirePos.y * posDir, 0f);
                 break;
-            case HeadDirection.Up:
+            case AttackInputDirection.Up:
                 fire.localPosition = new Vector3(originFirePos.x * posDir, originFirePos.x, 0f);
                 break;
-            case HeadDirection.Down:
+            case AttackInputDirection.Down:
                 fire.localPosition = new Vector3(originFirePos.x * posDir, -originFirePos.x, 0f);
                 break;
         }

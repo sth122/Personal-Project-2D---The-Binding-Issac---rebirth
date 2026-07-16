@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class AttackFly : Fly
+public class AttackFly : Fly , IAttackable
 {
     protected override void Awake()
     {
@@ -20,5 +20,13 @@ public class AttackFly : Fly
     protected override void OnDataLodead()
     {
         Debug.Log($"Attack Fly 세팅 {mData}");
+    }
+    public float ContactAttack()
+    {
+        return 0;
+    }
+    public void Attack()
+    {
+
     }
 }

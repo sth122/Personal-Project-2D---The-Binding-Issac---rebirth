@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d8666b8c8d28c44b77be8bd40c9fb5, type: 3}
+  m_Name: IsaacStatData
+  m_EditorClassIdentifier: Assembly-CSharp::IsaacStatData
+  isaacList:
+  - isaacID: 0
+    isaacName: Isaac
+    hp: 6
+    damage: 3.5
+    tearsDelay: 2.73
+    range: 6.5
+    shootSpeed: 1
+    speed: 1
+    luck: 0
+    deamonProbability: 0
+    angelProbability: 0
