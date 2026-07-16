@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 82faaab4bf2ee974e891ea6719f84342
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -326087296291594254
+    second: monster_044_hopperleaper_champion_0
+  - first:
+      213: -422952120379336276
+    second: monster_044_hopperleaper_champion_1
+  - first:
+      213: 2672289735586359439
+    second: monster_044_hopperleaper_champion_2
+  - first:
+      213: 8900402465383832467
+    second: monster_044_hopperleaper_champion_3
+  - first:
+      213: 8776797520734920981
+    second: monster_044_hopperleaper_champion_4
+  - first:
+      213: -7033432963026435017
+    second: monster_044_hopperleaper_champion_5
+  - first:
+      213: -6006105247035021545
+    second: monster_044_hopperleaper_champion_6
+  - first:
+      213: -7911920925183495839
+    second: monster_044_hopperleaper_champion_7
+  - first:
+      213: -6538865990894201409
+    second: monster_044_hopperleaper_champion_8
+  - first:
+      213: -7858224856307473179
+    second: monster_044_hopperleaper_champion_9
+  - first:
+      213: 4484800721671951243
+    second: monster_044_hopperleaper_champion_10
+  - first:
+      213: 3663930675975993399
+    second: monster_044_hopperleaper_champion_11
+  - first:
+      213: 1472177687173489701
+    second: monster_044_hopperleaper_champion_12
+  - first:
+      213: 2678414193657776215
+    second: monster_044_hopperleaper_champion_13
+  - first:
+      213: 2760511686626492969
+    second: monster_044_hopperleaper_champion_14
+  - first:
+      213: -6509562553213922231
+    second: monster_044_hopperleaper_champion_15
+  - first:
+      213: -798259969783590652
+    second: monster_044_hopperleaper_champion_16
+  - first:
+      213: -5290009390157450949
+    second: monster_044_hopperleaper_champion_17
+  - first:
+      213: -6398153757084946294
+    second: monster_044_hopperleaper_champion_18
+  - first:
+      213: -1782351939644812278
+    second: monster_044_hopperleaper_champion_19
+  - first:
+      213: 681725128044696234
+    second: monster_044_hopperleaper_champion_20
+  - first:
+      213: 7744018143888674778
+    second: monster_044_hopperleaper_champion_21
+  - first:
+      213: -7242629205749117279
+    second: monster_044_hopperleaper_champion_22
+  - first:
+      213: 1199519799050114099
+    second: monster_044_hopperleaper_champion_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 97
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff95cae451897bf0800000000000000
+      internalID: -326087296291594254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 97
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca99ac3994f512af0800000000000000
+      internalID: -422952120379336276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 97
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f882c8a2b51e51520800000000000000
+      internalID: 2672289735586359439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 97
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bd63bc2e4948b70800000000000000
+      internalID: 8900402465383832467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 97
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5112fe8f7d27dc970800000000000000
+      internalID: 8776797520734920981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 105
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734494f1cf9346e90800000000000000
+      internalID: -7033432963026435017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 78
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7172eda791706aca0800000000000000
+      internalID: -6006105247035021545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 79
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161357376d5333290800000000000000
+      internalID: -7911920925183495839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 80
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb55ed296084145a0800000000000000
+      internalID: -6538865990894201409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 78
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4e5aab02af1f290800000000000000
+      internalID: -7858224856307473179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 66
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b831cafae763d3e30800000000000000
+      internalID: 4484800721671951243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 65
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738b4379985e8d230800000000000000
+      internalID: 3663930675975993399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 33
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5246b3a7ec93e6410800000000000000
+      internalID: 1472177687173489701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758065ea483ab2520800000000000000
+      internalID: 2678414193657776215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 33
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922cfafc0ce4f4620800000000000000
+      internalID: 2760511686626492969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 33
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944df74d85369a5a0800000000000000
+      internalID: -6509562553213922231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_16
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 33
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40192ae69c20ce4f0800000000000000
+      internalID: -798259969783590652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 41
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b313f21cc7c1696b0800000000000000
+      internalID: -5290009390157450949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 14
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80fe9a8e013537a0800000000000000
+      internalID: -6398153757084946294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 15
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a041ebcaa50d347e0800000000000000
+      internalID: -1782351939644812278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 16
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2df8b5469f57900800000000000000
+      internalID: 681725128044696234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 14
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf0aa8e877487b60800000000000000
+      internalID: 7744018143888674778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae44774c130d7b90800000000000000
+      internalID: -7242629205749117279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_044_hopperleaper_champion_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3341e63e6ec85a010800000000000000
+      internalID: 1199519799050114099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monster_044_hopperleaper_champion_0: -326087296291594254
+      monster_044_hopperleaper_champion_1: -422952120379336276
+      monster_044_hopperleaper_champion_10: 4484800721671951243
+      monster_044_hopperleaper_champion_11: 3663930675975993399
+      monster_044_hopperleaper_champion_12: 1472177687173489701
+      monster_044_hopperleaper_champion_13: 2678414193657776215
+      monster_044_hopperleaper_champion_14: 2760511686626492969
+      monster_044_hopperleaper_champion_15: -6509562553213922231
+      monster_044_hopperleaper_champion_16: -798259969783590652
+      monster_044_hopperleaper_champion_17: -5290009390157450949
+      monster_044_hopperleaper_champion_18: -6398153757084946294
+      monster_044_hopperleaper_champion_19: -1782351939644812278
+      monster_044_hopperleaper_champion_2: 2672289735586359439
+      monster_044_hopperleaper_champion_20: 681725128044696234
+      monster_044_hopperleaper_champion_21: 7744018143888674778
+      monster_044_hopperleaper_champion_22: -7242629205749117279
+      monster_044_hopperleaper_champion_23: 1199519799050114099
+      monster_044_hopperleaper_champion_3: 8900402465383832467
+      monster_044_hopperleaper_champion_4: 8776797520734920981
+      monster_044_hopperleaper_champion_5: -7033432963026435017
+      monster_044_hopperleaper_champion_6: -6006105247035021545
+      monster_044_hopperleaper_champion_7: -7911920925183495839
+      monster_044_hopperleaper_champion_8: -6538865990894201409
+      monster_044_hopperleaper_champion_9: -7858224856307473179
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

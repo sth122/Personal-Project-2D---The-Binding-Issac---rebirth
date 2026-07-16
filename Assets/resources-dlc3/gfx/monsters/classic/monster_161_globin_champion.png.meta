@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 83363b615b003b745b1b92eba3a2f1b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5467425681783418352
+    second: monster_161_globin_champion_0
+  - first:
+      213: 1842984558858141273
+    second: monster_161_globin_champion_1
+  - first:
+      213: 6915277168678268390
+    second: monster_161_globin_champion_2
+  - first:
+      213: -5195747687015804561
+    second: monster_161_globin_champion_3
+  - first:
+      213: -5038688835506195093
+    second: monster_161_globin_champion_4
+  - first:
+      213: 1442051120690651781
+    second: monster_161_globin_champion_5
+  - first:
+      213: 1589062640363058335
+    second: monster_161_globin_champion_6
+  - first:
+      213: 8955714520184282603
+    second: monster_161_globin_champion_7
+  - first:
+      213: -8078121137365272503
+    second: monster_161_globin_champion_8
+  - first:
+      213: 9148743945191331503
+    second: monster_161_globin_champion_9
+  - first:
+      213: 7192581612581968919
+    second: monster_161_globin_champion_10
+  - first:
+      213: 1160114064786260748
+    second: monster_161_globin_champion_11
+  - first:
+      213: 2214726244883923177
+    second: monster_161_globin_champion_12
+  - first:
+      213: 3147123836116046053
+    second: monster_161_globin_champion_13
+  - first:
+      213: -1282563421535671438
+    second: monster_161_globin_champion_14
+  - first:
+      213: 795588153521332816
+    second: monster_161_globin_champion_15
+  - first:
+      213: -3518346439400868528
+    second: monster_161_globin_champion_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_161_globin_champion_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 198
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01293716f4dcf14b0800000000000000
+      internalID: -5467425681783418352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 198
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ef44511b8939910800000000000000
+      internalID: 1842984558858141273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 197
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edef6a32fff7ff50800000000000000
+      internalID: 6915277168678268390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 197
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f619dd4c10ff4e7b0800000000000000
+      internalID: -5195747687015804561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 162
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b653de1433bf21ab0800000000000000
+      internalID: -5038688835506195093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 162
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58268bc9ad1330410800000000000000
+      internalID: 1442051120690651781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 133
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f943fac5d0c7d0610800000000000000
+      internalID: 1589062640363058335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 133
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed546d18e6194c70800000000000000
+      internalID: 8955714520184282603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 133
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948b4c210afb4ef80800000000000000
+      internalID: -8078121137365272503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 69
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa69222652ed6fe70800000000000000
+      internalID: 9148743945191331503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 69
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c54f36ede21d360800000000000000
+      internalID: 7192581612581968919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 69
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03058a689d891010800000000000000
+      internalID: 1160114064786260748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 69
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e08a0d19c94cbe10800000000000000
+      internalID: 2214726244883923177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 5
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e09cdb6474dcab20800000000000000
+      internalID: 3147123836116046053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 5
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27be4790d5b633ee0800000000000000
+      internalID: -1282563421535671438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 5
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052e52ed53f7a0b00800000000000000
+      internalID: 795588153521332816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_161_globin_champion_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 5
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05530caed825c2fc0800000000000000
+      internalID: -3518346439400868528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monster_161_globin_champion_0: -5467425681783418352
+      monster_161_globin_champion_1: 1842984558858141273
+      monster_161_globin_champion_10: 7192581612581968919
+      monster_161_globin_champion_11: 1160114064786260748
+      monster_161_globin_champion_12: 2214726244883923177
+      monster_161_globin_champion_13: 3147123836116046053
+      monster_161_globin_champion_14: -1282563421535671438
+      monster_161_globin_champion_15: 795588153521332816
+      monster_161_globin_champion_16: -3518346439400868528
+      monster_161_globin_champion_2: 6915277168678268390
+      monster_161_globin_champion_3: -5195747687015804561
+      monster_161_globin_champion_4: -5038688835506195093
+      monster_161_globin_champion_5: 1442051120690651781
+      monster_161_globin_champion_6: 1589062640363058335
+      monster_161_globin_champion_7: 8955714520184282603
+      monster_161_globin_champion_8: -8078121137365272503
+      monster_161_globin_champion_9: 9148743945191331503
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
