@@ -25,11 +25,11 @@ public class MonsterIdleState : MonsterState
     {
         if(controller is ITraceable)
         {
-            controller.stateMachine.ChangeState(controller.mTraceState);
+            controller.stateMachine.ChangeState(controller.mStateDic[MonsterCurrentState.Trace]);
         }
         else
         {
-            controller.stateMachine.ChangeState(controller.mMoveState);
+            controller.stateMachine.ChangeState(controller.mStateDic[MonsterCurrentState.Move]);
         }
     }
 

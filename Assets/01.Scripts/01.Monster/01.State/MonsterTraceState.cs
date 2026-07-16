@@ -12,14 +12,14 @@ public class MonsterTraceState : MonsterState
     public override void Enter()
     {
         Debug.Log("TraceState에 진입");
-        nowState = MonsterCurrentState.Trace;
-        controller.AnimController.TriggerMove(true);
+        nowState = MonsterCurrentState.Move;
+        controller.AnimController.AnimationStart(nowState);
     }
 
     public override void Exit()
     {
         Debug.Log("TraceState에서 퇴장");
-        controller.AnimController.TriggerMove(false);
+        controller.AnimController.AnimationStop(nowState);
     }
 
     public override void Update()

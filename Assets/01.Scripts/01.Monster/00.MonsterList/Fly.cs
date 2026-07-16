@@ -73,17 +73,6 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
         }
     }
 
-    public override void Appear()
-    {
-        StartAnimTime(mData.appearAnimTime, () => { stateMachine.ChangeState(mIdleState); });
-    }
-    public override void Dead()
-    {
-        mData.speed = 0;
-        AnimController.DeadAnim();
-        StartAnimTime(mData.dieAnimTime, () => ReturnPool());
-    }
-
     public override void ReturnPool()
     {
         ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);

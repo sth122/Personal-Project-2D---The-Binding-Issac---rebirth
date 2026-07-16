@@ -23,16 +23,16 @@ public interface IReturnPool
 
 public enum MonsterCurrentState
 {
-    Idle, Move, Trace, Attack
+    Idle, Move, Trace, Attack, Die
 }
 
 abstract public class MonsterController : MonoBehaviour, IReturnPool
 {
 	#region variable
 	public StateMachine<MonsterController> stateMachine;
-	public MonsterIdleState mIdleState;
-	public MonsterMoveState mMoveState;
-    public MonsterTraceState mTraceState;
+	//public MonsterIdleState mIdleState;
+	//public MonsterMoveState mMoveState;
+ //   public MonsterTraceState mTraceState;
     [SerializeField] protected Transform target;
 
     private Rigidbody2D rb;
@@ -43,7 +43,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
     protected SpriteRenderer sr;
     private WaitForSeconds wait;
 
-    protected Dictionary<MonsterCurrentState, MonsterState> mStateDic = new Dictionary<MonsterCurrentState, MonsterState>();
+    public Dictionary<MonsterCurrentState, MonsterState> mStateDic = new Dictionary<MonsterCurrentState, MonsterState>();
     #endregion
 
     protected virtual void Awake()
@@ -91,8 +91,16 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     protected virtual void OnDataLodead() { }
 
-    public abstract void Appear();
-    public abstract void Dead();
+    public virtual void Appear()
+    {
+        StartAnimTime(mData.appearAnimTime, () => { stateMachine.ChangeState(mStateDic[MonsterCurrentState.Idle]); });
+    }
+    public virtual void Dead()
+    {
+        mData.speed = 0;
+        AnimController.AnimationStart(MonsterCurrentState.Die);
+        StartAnimTime(mData.dieAnimTime, () => ReturnPool());
+    }
 
     public abstract void ReturnPool();
     public void StartAnimTime(float time, Action OnComplete)
@@ -105,5 +113,6 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         wait = new WaitForSeconds(time);
         yield return wait;
         OnComplete?.Invoke();
+        Debug.Log($"{mData.name} 사망");
     }
 }

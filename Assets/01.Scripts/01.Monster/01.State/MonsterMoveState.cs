@@ -13,13 +13,13 @@ public class MonsterMoveState : MonsterState
     {
         Debug.Log("Move에 진입");
         nowState = MonsterCurrentState.Move;
-        controller.AnimController.TriggerMove(true);
+        controller.AnimController.AnimationStart(nowState);
     }
 
     public override void Exit()
     {
         Debug.Log("Move에서 퇴장");
-        controller.AnimController.TriggerMove(false);
+        controller.AnimController.AnimationStop(nowState);
     }
 
     public override void Update()
