@@ -14,7 +14,7 @@ public class MonsterAppearState : MonsterState
     public override void Enter()
     {
         Debug.Log("MonsterAppearState 입장");
-        //controller.StartAnimTime(mData.baseHp);
+        controller.Appear();
     }
 
     public  override void Exit()

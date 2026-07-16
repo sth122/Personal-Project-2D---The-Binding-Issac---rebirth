@@ -24,6 +24,6 @@ public class Pooter : Fly
 
     protected override void OnDataLodead()
     {
-        Debug.Log($"Pooter 세팅 {mStat}");
+        Debug.Log($"Pooter 세팅 {mData}");
     }
 }

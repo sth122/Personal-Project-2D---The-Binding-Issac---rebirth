@@ -23,6 +23,8 @@ MonoBehaviour:
     speed: 1
     traceRange: 5
     attackRange: 0
+    appearAnimTime: 0.25
+    dieAnimTime: 0.22
     moveType: 1
   - monsterID: 1
     name: Attack Fly
@@ -34,6 +36,8 @@ MonoBehaviour:
     speed: 0
     traceRange: 0
     attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
     moveType: 1
   - monsterID: 2
     name: Moter
@@ -45,6 +49,8 @@ MonoBehaviour:
     speed: 0
     traceRange: 0
     attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
     moveType: 1
   - monsterID: 3
     name: Pooter
@@ -56,6 +62,8 @@ MonoBehaviour:
     speed: 0
     traceRange: 0
     attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
     moveType: 1
   - monsterID: 4
     name: Boom Fly
@@ -67,6 +75,8 @@ MonoBehaviour:
     speed: 0
     traceRange: 0
     attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
     moveType: 1
   - monsterID: 5
     name: Red Boom Fly
@@ -78,6 +88,8 @@ MonoBehaviour:
     speed: 0
     traceRange: 0
     attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
     moveType: 1
   - monsterID: 6
     name: Sucker
@@ -89,4 +101,6 @@ MonoBehaviour:
     speed: 0
     traceRange: 0
     attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
     moveType: 1

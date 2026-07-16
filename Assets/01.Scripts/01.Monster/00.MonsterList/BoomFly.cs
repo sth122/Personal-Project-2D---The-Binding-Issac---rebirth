@@ -24,6 +24,6 @@ public class BoomFly : Fly
 
     protected override void OnDataLodead()
     {
-        Debug.Log($"Boom Fly 세팅 {mStat}");
+        Debug.Log($"Boom Fly 세팅 {mData}");
     }
 }

@@ -24,6 +24,6 @@ public class Moter : Fly
 
     protected override void OnDataLodead()
     {
-        Debug.Log($"Moter 세팅 {mStat}");
+        Debug.Log($"Moter 세팅 {mData}");
     }
 }

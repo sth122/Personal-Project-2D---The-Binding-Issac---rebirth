@@ -24,6 +24,6 @@ public class AttackFly : Fly
 
     protected override void OnDataLodead()
     {
-        Debug.Log($"Attack Fly 세팅 {mStat}");
+        Debug.Log($"Attack Fly 세팅 {mData}");
     }
 }

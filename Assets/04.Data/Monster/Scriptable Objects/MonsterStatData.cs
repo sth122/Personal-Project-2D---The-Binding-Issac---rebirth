@@ -20,10 +20,12 @@ public class MonsterData
     public float speed;
     public float traceRange;
     public float attackRange;
+    public float appearAnimTime;
+    public float dieAnimTime;
     public MoveType moveType;
 
     //private float totalHp;
-    public MonsterData(int monsterID, string name, float baseHp, float damage, float contactDamage, float stageHp, float speed, MoveType moveType)
+    public MonsterData(int monsterID, string name, float baseHp, float damage, float contactDamage, float stageHp, float speed, float appearAnimTime, float dieAnimTime,MoveType moveType)
     {
         this.monsterID = monsterID;
         this.name = name;
@@ -33,9 +35,11 @@ public class MonsterData
         this.stageHp = stageHp;
         this.speed = speed;
         this.moveType = moveType;
+        this.appearAnimTime = appearAnimTime;
+        this.dieAnimTime = dieAnimTime;
     }
 
-    public MonsterData Clone() { return new MonsterData(monsterID, name, baseHp, damage, contactDamage, stageHp, speed, moveType); }
+    public MonsterData Clone() { return new MonsterData(monsterID, name, baseHp, damage, contactDamage, stageHp, speed, appearAnimTime,dieAnimTime,moveType); }
 
     public void SetTotalHp()
     {

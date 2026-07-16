@@ -49,22 +49,6 @@ public class MonsterAnim : MonoBehaviour
         animator.SetBool(IsMove, isBoolean);
     }
 
-    public void IsAnimationFinished(MonsterAnimState mAnimState, float time)
-    {
-        Debug.Log("IsAnimationFinished 진입");
-        float time;
-        switch(mAnimState)
-        {
-            case MonsterAnimState.Appear:
-                
-                break;
-            case MonsterAnimState.Die:
-                break;
-        }
-
-
-    }
-
     private void AnimationInitialize()
     {
         IsMove = Animator.StringToHash("isMove");

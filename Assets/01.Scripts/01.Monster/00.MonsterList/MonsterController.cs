@@ -32,7 +32,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     private Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
-    [SerializeField]protected MonsterData mStat;
+    [SerializeField]protected MonsterData mData;
     protected MonsterAnim animController;
     public MonsterAnim AnimController { get { return animController; } }
     protected SpriteRenderer sr;
@@ -42,10 +42,10 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
     protected virtual void Awake()
     {
         stateMachine = new StateMachine<MonsterController>(this);
-        mIdleState = new MonsterIdleState(this);
-        mMoveState = new MonsterMoveState(this);
-        mTraceState = new MonsterTraceState(this);
-        mAppearState = new MonsterAppearState(this);
+        mIdleState = new MonsterIdleState(this, mData);
+        mMoveState = new MonsterMoveState(this, mData);
+        mTraceState = new MonsterTraceState(this, mData);
+        mAppearState = new MonsterAppearState(this, mData);
         animController = GetComponent<MonsterAnim>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -77,23 +77,26 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     public void InitData(MonsterData data, Transform target)
     {
-        mStat = data.Clone();
-        mStat.SetTotalHp();
+        mData = data.Clone();
+        mData.SetTotalHp();
         OnDataLodead();
         this.target = target;
     }
 
     protected virtual void OnDataLodead() { }
 
+    public abstract void Appear();
     public abstract void Dead();
+
     public abstract void ReturnPool();
-    public void StartAnimTime(MonsterAnimState mAnimState, float time)
+    public void StartAnimTime(float time, Action OnComplete)
     {
-        StartCoroutine(AnimTime(mAnimState, time));
+        StartCoroutine(AnimTime(time, OnComplete));
     }
-    IEnumerator AnimTime(MonsterAnimState mAnimState, float time)
+    IEnumerator AnimTime(float time, Action OnComplete)
     {
         wait = new WaitForSeconds(time);
         yield return wait;
+        OnComplete?.Invoke();
     }
 }

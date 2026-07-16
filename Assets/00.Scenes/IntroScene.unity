@@ -246,14 +246,17 @@ MonoBehaviour:
       Value:
         Prefab: {fileID: 3336249713886614393, guid: 66bc48a57878c504e8c09d5601864d29, type: 3}
         InitSpawnCount: 1
+        parentTrans: {fileID: 0}
     - Key: BloodTears
       Value:
         Prefab: {fileID: 3336249713886614393, guid: cc0d61596098412499ccac942d6431a1, type: 3}
         InitSpawnCount: 1
+        parentTrans: {fileID: 0}
     - Key: Fly
       Value:
         Prefab: {fileID: 1173310952266024841, guid: 8f6acecc504f40541820073f5f88dd83, type: 3}
         InitSpawnCount: 1
+        parentTrans: {fileID: 0}
 --- !u!4 &995296175
 Transform:
   m_ObjectHideFlags: 0

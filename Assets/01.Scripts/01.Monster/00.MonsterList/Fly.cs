@@ -8,6 +8,15 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
         base.Awake();
     }
 
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+    }
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+    }
+
     protected override void Start()
     {
         base.Start();
@@ -25,7 +34,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
 
     protected override void OnDataLodead()
     {
-        Debug.Log($"Fly 세팅 {mStat}");
+        Debug.Log($"Fly 세팅 {mData}");
     }
 
     #region Trace
@@ -34,7 +43,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
         // Isaac과의 거리 계산
         float distance = Vector3.Distance(transform.position, target.position);
 
-        return distance < mStat.traceRange;
+        return distance < mData.traceRange;
     }
 
     public void Trace()
@@ -56,33 +65,34 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
     }
     private void Move()
     {
-        RB.linearVelocity = GetDirection() * mStat.speed;
+        RB.linearVelocity = GetDirection() * mData.speed;
     }
     #endregion
 
-    public override void Dead()
-    {
-        mStat.speed = 0;
-        AnimController.DeadAnim();
-        if(AnimController.IsAnimationFinished())
-        {
-            ReturnPool();
-        }
-    }
-
     public void TakeDamage(int damage)
     {
-        mStat.totalHp -= damage;
-        if (mStat.totalHp <= 0)
+        mData.totalHp -= damage;
+        if (mData.totalHp <= 0)
         {
-            mStat.totalHp = 0;
+            mData.totalHp = 0;
             Dead();
         }
     }
 
-    public override void ReturnPool()
+    public override void Appear()
     {
-        ObjectPoolManager.Instance.ReturnObject(mStat.name, this.gameObject);
+        StartAnimTime(mData.appearAnimTime, () => { stateMachine.ChangeState(mIdleState); });
+    }
+    public override void Dead()
+    {
+        mData.speed = 0;
+        AnimController.DeadAnim();
+        StartAnimTime(mData.dieAnimTime, () => ReturnPool());
+}
+
+public override void ReturnPool()
+    {
+        ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
     }
     
     protected void OnCollisionEnter2D(Collision2D collision)
