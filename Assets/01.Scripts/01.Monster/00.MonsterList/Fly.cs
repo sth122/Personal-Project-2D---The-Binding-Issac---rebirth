@@ -40,7 +40,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
         return distance < mData.traceRange;
     }
 
-    public void Trace()
+    public virtual void Trace()
     {
         Debug.Log("트레이스 진입");
 
@@ -63,7 +63,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
     }
     #endregion
 
-    public void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage)
     {
         mData.totalHp -= damage;
         if (mData.totalHp <= 0)
@@ -78,7 +78,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
         ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
     }
 
-    protected void OnCollisionEnter2D(Collision2D collision)
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac Bullet"))
         {

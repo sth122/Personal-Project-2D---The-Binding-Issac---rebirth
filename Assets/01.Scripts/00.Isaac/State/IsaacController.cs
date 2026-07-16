@@ -29,24 +29,33 @@ public class IsaacController : MonoBehaviour
     {
         iStateDic.Clear();
         animController = GetComponent<IsaacAnimController>();
-        stateMachine = new StateMachine<IsaacController>(this);
-        iStateDic[IsaacCurrentState.Idle] = new IsaacIdleState(this, animController, rb, isaacInfo);
-        iStateDic[IsaacCurrentState.Move] = new IsaacMoveState(this, animController, rb, isaacInfo);
-        iStateDic[IsaacCurrentState.Attack] = new IsaacAttackState(this, animController, rb, isaacInfo);
-        Input = GetComponent<IsaacInput>();
         rb = GetComponent<Rigidbody2D>();
+        Input = GetComponent<IsaacInput>();
+
+        isaacInfo = IsaacManager.Instance.GameStart(
+            () =>
+            {
+                StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+            });
+
+        stateMachine = new StateMachine<IsaacController>(this);
     }
 
     void Start()
     {
+        iStateDic[IsaacCurrentState.Idle] = new IsaacIdleState(this, animController, rb, isaacInfo);
+        iStateDic[IsaacCurrentState.Move] = new IsaacMoveState(this, animController, rb, isaacInfo);
+        iStateDic[IsaacCurrentState.Attack] = new IsaacAttackState(this, animController, rb, isaacInfo);
+
         // 게임 제일 처음 시작 시 2초간 움직일 수 없음
         // IsaacData를 받아 온 후에 StarAnimTime 실행해야함 => 안그러면 초기화 값 안들어감
         // 현재는 IsaacManager에서 하지만 추후 GameManager 또는 StageManager에서 할 예정
         //IsaacManager.Instance.GameStart(() => 
         //{
-        //    StartAnimTime(2f, ()  => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+        //    StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
         //});
-        StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+        //StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+        
     }
 
 

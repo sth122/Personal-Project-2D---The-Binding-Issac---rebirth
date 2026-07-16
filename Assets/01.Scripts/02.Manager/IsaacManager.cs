@@ -17,9 +17,10 @@ public class IsaacManager : Singleton<IsaacManager>
         isaacInfo = isaacData.isaacList[0].Clone();
     }
 
-    public void GameStart(Action OnAction)
+    public IsaacInfo GameStart(Action OnAction)
     {
         OnAction?.Invoke();
+        return isaacInfo;
     }
 
 

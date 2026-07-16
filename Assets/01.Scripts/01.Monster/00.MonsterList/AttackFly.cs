@@ -29,4 +29,22 @@ public class AttackFly : Fly , IAttackable
     {
 
     }
+
+    public override void Trace()
+    {
+        base.Trace();
+    }
+
+    public override void TakeDamage(int damage)
+    {
+        base.TakeDamage(damage);
+    }
+    public override void ReturnPool()
+    {
+        base.ReturnPool();
+    }
+    protected override void OnCollisionEnter2D(Collision2D collision)
+    {
+        base.OnCollisionEnter2D(collision);
+    }
 }
