@@ -1,7 +1,4 @@
-﻿using Mono.Cecil;
-using Unity.VisualScripting;
-using UnityEngine;
-using UnityEngine.Pool;
+﻿using UnityEngine;
 
 public class SpawnManager : Singleton<SpawnManager>
 {
@@ -16,6 +13,7 @@ public class SpawnManager : Singleton<SpawnManager>
         {
             MonsterInfo mStat = monsterStatData.monsterList.Find(x => x.monsterID == spawnInfo.monsterID);
             var monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
+            monster.transform.position = spawnInfo.position;
 
             if(monster != null)
             {

@@ -1,5 +1,4 @@
-﻿using Unity.VisualScripting;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Eyes : IsaacWeapon
 {
@@ -15,14 +14,14 @@ public class Eyes : IsaacWeapon
         originFirePos = fire.localPosition;
     }
 
-    protected void Update()
+    protected override void Update()
     {
         Attack();
     }
 
     protected override void Attack()
     {
-        if (attackDirection != Vector2.zero && canAttack)
+        if (Input.AttackDirection != Vector2.zero && canAttack)
         {
             CheckDirection();
 
@@ -31,7 +30,7 @@ public class Eyes : IsaacWeapon
             {
                 IsaacBullet bullet = tearBullet.GetComponent<IsaacBullet>();
 
-                bullet.SetDirection(attackDirection);
+                bullet.SetDirection(Input.AttackDirection);
                 bullet.transform.position = fire.position;
                 bullet.transform.rotation = fire.rotation;
                 canAttack = false;

@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 
 /// <summary>
@@ -28,12 +27,16 @@ abstract public class IsaacWeapon : MonoBehaviour
 
     protected virtual void Start()
     {
-
         canAttack = true;
         tearDelay = 0.5f;
         wait = new WaitForSeconds(tearDelay);
         posDir = 1;
         StartCoroutine(AttackDelay());
+    }
+
+    protected virtual void Update()
+    {
+
     }
 
     protected abstract void Attack();

@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-
 public class BasicTears : IsaacBullet
 {
     protected override void Awake()
