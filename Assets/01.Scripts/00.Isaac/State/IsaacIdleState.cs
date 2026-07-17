@@ -13,17 +13,26 @@ public class IsaacIdleState : IsaacState
     public override void Enter()
     {
         nowState = IsaacCurrentState.Idle;
-        rb.linearVelocity = Vector2.zero;
     }
 
     public override void Update()
     {
         // 1. 조작키를 눌렀는지?
         // 조작키를 눌렀을 시 state -> MoveState
-        dir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
-        if (dir != Vector2.zero)
+        // 공격키를 눌렀을 시 state -> AttackState
+        attackDir = controller.Input.AttackDirection;
+        moveDir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
+
+        if (attackDir != Vector2.zero)
+        {
+            controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Attack]);
+            return;
+        }
+
+        if (moveDir != Vector2.zero)
         {
             controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Move]);
+            return;
         }
     }
 

@@ -13,29 +13,45 @@ public class IsaacAttackState : IsaacState
     public override void Enter()
     {
         Debug.Log("IsaacAttackState 진입");
-        animController.SetActiveHead(IsaacObject.Head, false);
-        animController.SetActiveHead(IsaacObject.AttackHead, true);
+        animController.SetAnimTrigger(true);
     }
 
     public override void Exit()
     {
         Debug.Log("IsaacAttackState 퇴장");
-        animController.SetActiveHead(IsaacObject.AttackHead, false);
-        animController.SetActiveHead(IsaacObject.Head, true);
+        animController.SetAttackAnim();
+        animController.SetAnimTrigger(false);
     }
 
     public override void Update()
     {
         attackDir = controller.Input.AttackDirection;
-        dir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
+        //attackDir = controller.Input.IsaacActions.Attack.ReadValue<Vector2>();
+        moveDir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
 
+        animController.BaseMoveAnim(moveDir);
+        animController.HeadMoveAnim(attackDir);
+
+        // 1. 공격키를 눌렀는지
+        // 2. 공격키를 누르지 않았을 경우
+        // 2-1 이동키를 눌렀을 경우 AttackState -> MoveState
+        // 2-1 이동키를 누르지 않을 경우 AttackState -> IdleState
         if (attackDir == Vector2.zero)
         {
-            controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Move]);
+            if(moveDir !=  Vector2.zero)
+            {
+                controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Move]);
+            }
+            else
+            {
+                controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Idle]);
+            }
             return;
         }
+    }
 
-        animController.AttacHeadAnim(attackDir);
-        animController.BodyMoveAnim(dir);
+    public override void FixedUpdate()
+    {
+        rb.linearVelocity = moveDir.normalized * isaacInfo.speed;
     }
 }

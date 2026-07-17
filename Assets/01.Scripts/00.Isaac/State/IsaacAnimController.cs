@@ -4,62 +4,37 @@ using UnityEngine;
 
 public enum IsaacAnimState
 {
-    Up, Down, LeftRight, Die
+    Up, Down, LeftRight, AttackUp, AttackDown, AttackLeftRight, Die
 }
 public enum IsaacObject
 {
-    Extra, Body, Head, AttackHead
+    Extra, Base, Head
 }
 public class IsaacAnimController : MonoBehaviour
 {
     // Extra, Body, Head를 키 값으로 하는 animDic을 또 만들고 싶은데
-    private IsaacAnimData isaacAnimData = new IsaacAnimData();
-    public Dictionary<IsaacObject, Dictionary<IsaacAnimState, int>> animDic;
-    public Dictionary<IsaacObject, Animator> animatorDic = new();
+    [Header("SpriteRenderers")]
+    public SpriteRenderer headSprite;
+    public SpriteRenderer bodySprite;
+
+    private IsaacAnimHashData isaacAnimData = new IsaacAnimHashData();
+    private Animator animator;
+
+    private int isAttackHash;
+
+    public Dictionary<IsaacAnimState, int> animDic;
     public Dictionary<IsaacObject, SpriteRenderer> spriteDic = new();
-    public Dictionary<IsaacObject, GameObject> childDic = new();
     private IsaacObject isaacObj;
 
     private void Awake()
     {
+        animator = GetComponent<Animator>();
         isaacAnimData.Initialize();
-        animDic = isaacAnimData.isaacAnimDic;
-        Init();
+        isAttackHash = Animator.StringToHash("isAttack");
+
+        animDic = isaacAnimData.isaacAnimHashData;
     }
 
-    private void Init()
-    {
-        foreach (Transform child in transform)
-        {
-            if (Enum.TryParse<IsaacObject>(child.name, true, out IsaacObject obj))
-            {
-                if (child.TryGetComponent<Animator>(out var animator))
-                {
-                    animatorDic[obj] = animator;
-                }
-                if (child.TryGetComponent<SpriteRenderer>(out var spriteRenderer))
-                {
-                    spriteDic[obj] = spriteRenderer;
-                }
-                childDic[obj] = child.gameObject;
-            }
-        }
-    }
-
-
-    public void AnimationStart(IsaacObject obj, IsaacAnimState nowAnim)
-    {
-        animatorDic[obj].SetBool(animDic[obj][nowAnim], true);
-    }
-    public void AnimationStop(IsaacObject obj, IsaacAnimState nowAnim)
-    {
-        animatorDic[obj].SetBool(animDic[obj][nowAnim], false);
-    }
-
-    public void SetActiveHead(IsaacObject obj, bool isBool)
-    {
-        childDic[obj].SetActive(isBool);
-    }
 
     /// <summary>
     /// 1. 상하 입력을 우선 -> 상하 입력 후 좌우 입력 시 -> 좌우 입력 x
@@ -67,10 +42,21 @@ public class IsaacAnimController : MonoBehaviour
     /// </summary>
     /// <param name="dir"></param>
     /// <param name="isAttack"></param>
-    public void HeadMoveAnim(Vector2 dir)
+    public void BaseMoveAnim(Vector2 dir)
     {
-        isaacObj = IsaacObject.Head;
-        OnExcuteAnim(dir, isaacObj);
+        bool isUp = dir.y > 0;
+        bool isDown = dir.y < 0;
+        bool isLeftRight = dir.x != 0;
+
+        animator.SetBool(animDic[IsaacAnimState.Up], isUp);
+        animator.SetBool(animDic[IsaacAnimState.Down], isDown);
+        animator.SetBool(animDic[IsaacAnimState.LeftRight], isLeftRight);
+
+        if (isLeftRight && bodySprite != null)
+        {
+            headSprite.flipX = dir.x < 0;
+            bodySprite.flipX = dir.x < 0;
+        }
     }
 
     /// <summary>
@@ -78,58 +64,42 @@ public class IsaacAnimController : MonoBehaviour
     /// 2. 좌우 입력을 차선 -> 좌우 입력 후 상하 입력 시 -> 상하 입력 우선
     /// </summary>
     /// <param name="dir"></param>
-    public void BodyMoveAnim(Vector2 dir)
+    public void HeadMoveAnim(Vector2 dir)
     {
-        isaacObj = IsaacObject.Body;
-        OnExcuteAnim(dir, isaacObj);
-    }
+        if (dir == Vector2.zero) { return; }
 
-    public void AttacHeadAnim(Vector2 dir)
-    {
+        bool isUp = dir.y > 0;
+        bool isDown = dir.y < 0;
+        bool isLeftRight = dir.x != 0;
 
-
-        isaacObj = IsaacObject.AttackHead;
-        OnExcuteAnim(dir, isaacObj);
-    }
-
-    private void OnExcuteAnim(Vector2 dir, IsaacObject obj)
-    {
-        if (dir.y > 0)
+        animator.SetBool(animDic[IsaacAnimState.AttackUp], isUp);
+        animator.SetBool(animDic[IsaacAnimState.AttackDown], isDown);
+        animator.SetBool(animDic[IsaacAnimState.AttackLeftRight], isLeftRight);
+        
+        if (isLeftRight && headSprite != null)
         {
-            AnimationStart(obj, IsaacAnimState.Up);
-            AnimationStop(obj, IsaacAnimState.Down);
-            AnimationStop(obj, IsaacAnimState.LeftRight);
-            return;
+            headSprite.flipX = dir.x < 0;
         }
-        else if (dir.y < 0)
+
+        animator.SetTrigger(isAttackHash);
+    }
+
+    public void SetAnimTrigger(bool isBoolean)
+    {
+        if (isBoolean)
         {
-            AnimationStart(obj, IsaacAnimState.Down);
-            AnimationStop(obj, IsaacAnimState.Up);
-            AnimationStop(obj, IsaacAnimState.LeftRight);
-            return;
+            animator.SetTrigger(isAttackHash);
         }
         else
         {
-            AnimationStop(obj, IsaacAnimState.Up);
-            AnimationStop(obj, IsaacAnimState.Down);
-        }
-
-        if (dir.x != 0)
-        {
-            if (spriteDic.TryGetValue(isaacObj, out var sprite))
-            {
-                sprite.flipX = dir.x < 0;
-            }
-            AnimationStart(obj, IsaacAnimState.LeftRight);
-        }
-        else
-        {
-            if (spriteDic.TryGetValue(isaacObj, out var sprite))
-            {
-                sprite.flipX = false;
-            }
-            AnimationStop(obj, IsaacAnimState.LeftRight);
+            animator.ResetTrigger(isAttackHash);
         }
     }
 
+    public void SetAttackAnim()
+    {
+        animator.SetBool(animDic[IsaacAnimState.AttackUp], false);
+        animator.SetBool(animDic[IsaacAnimState.AttackDown], false);
+        animator.SetBool(animDic[IsaacAnimState.AttackLeftRight], false);
+    }
 }

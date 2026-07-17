@@ -21,7 +21,8 @@ public class IsaacMoveState : IsaacState
     public override void Update()
     {
         attackDir = controller.Input.AttackDirection;
-        dir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
+        moveDir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
+        animController.BaseMoveAnim(moveDir);
 
         if (rb.linearVelocity == Vector2.zero)
         {
@@ -32,14 +33,12 @@ public class IsaacMoveState : IsaacState
         if(attackDir != Vector2.zero)
         {
             controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Attack]);
+            return;
         }
-
-        animController.HeadMoveAnim(dir);
-        animController.BodyMoveAnim(dir);
     }
 
     public override void FixedUpdate() 
     {
-        rb.linearVelocity = dir.normalized * isaacInfo.speed;
+        rb.linearVelocity = moveDir.normalized * isaacInfo.speed;
     }
 }

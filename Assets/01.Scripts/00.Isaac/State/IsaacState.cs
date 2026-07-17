@@ -8,7 +8,7 @@ public class IsaacState : IState
     protected IsaacInfo isaacInfo;
     protected IsaacCurrentState nowState;
     protected Vector2 attackDir;
-    protected Vector2 dir;
+    protected Vector2 moveDir;
     public IsaacState(IsaacController controller, IsaacAnimController animController, Rigidbody2D rb, IsaacInfo isaacInfo)
     {
         this.controller = controller;
