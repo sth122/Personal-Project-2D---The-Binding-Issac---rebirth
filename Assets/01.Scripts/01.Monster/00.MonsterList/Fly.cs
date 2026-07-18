@@ -86,7 +86,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
             Dead();
             return;
         }
-        StartCoroutine(HitFlash(() => Knockback(damageDir)));
+        Knockback(damageDir);
     }
 
     public override void ReturnPool()
@@ -100,12 +100,12 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
         isKnockback = true;
         rb.linearVelocity = Vector2.zero;
         rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
+        StartCoroutine(HitFlash());
     }
 
-    public virtual IEnumerator HitFlash(Action OnKnockback)
+    public virtual IEnumerator HitFlash()
     {
         sr.color = hitRed;
-        OnKnockback?.Invoke();
         yield return takeDamageEffectWait;
         isKnockback = false;
         sr.color = Color.white;

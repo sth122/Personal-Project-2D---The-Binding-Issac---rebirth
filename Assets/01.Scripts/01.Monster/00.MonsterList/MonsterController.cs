@@ -16,7 +16,7 @@ public interface ITakeDamageable
 {
     public void TakeDamage(float damage, Vector2 dir);
     public void Knockback(Vector2 damageDir);
-    public IEnumerator HitFlash(Action OnKnockback);
+    public IEnumerator HitFlash();
 }
 
 public interface IReturnPool

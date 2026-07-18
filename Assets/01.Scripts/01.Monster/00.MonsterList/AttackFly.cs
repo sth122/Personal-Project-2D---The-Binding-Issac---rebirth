@@ -52,8 +52,8 @@ public class AttackFly : Fly
         base.ReturnPool();
     }
 
-    public override IEnumerator HitFlash(Action OnKnockback)
+    public override IEnumerator HitFlash()
     {
-        return base.HitFlash(OnKnockback);
+        return base.HitFlash();
     }
 }
