@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 // Idle : 멈춘 상태 Anim
@@ -12,9 +13,9 @@ public class MonsterAnimController : MonoBehaviour
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
-        animDic.Clear();
         AnimationInitialize();
+
+        animator = GetComponent<Animator>();
     }
 
     private void AnimationInitialize()

@@ -1,11 +1,22 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
-public class Fly : MonsterController, ITraceable, ITakeDamage
+public class Fly : MonsterController, ITraceable, ITakeDamageable
 {
+    protected float traceRange;
+    private WaitForSeconds takeDamageEffectWait;
+    private Color originalColor;
+    protected float knockbackForce;
+    //protected bool isKnockback;
+
     protected override void Awake()
     {
         base.Awake();
         mStateDic[MonsterCurrentState.Trace] = new MonsterTraceState(this, mData);
+
+        //isKnockback = false;
+        takeDamageEffectWait = new WaitForSeconds(0.2f);
+        knockbackForce = 2f;
     }
 
     protected override void OnEnable()
@@ -37,12 +48,14 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
         // Isaac과의 거리 계산
         float distance = Vector3.Distance(transform.position, target.position);
 
-        return distance < mData.traceRange;
+        return distance < traceRange;
     }
 
     public virtual void Trace()
     {
         Debug.Log("트레이스 진입");
+        //if (isKnockback) 
+        //    return;
 
         sr.flipX = CheckFlip();
         Move();
@@ -63,7 +76,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
     }
     #endregion
 
-    public virtual void TakeDamage(int damage)
+    public virtual void TakeDamage(float damage, Vector2 damageDir)
     {
         mData.totalHp -= damage;
         if (mData.totalHp <= 0)
@@ -71,6 +84,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
             mData.totalHp = 0;
             Dead();
         }
+        Knockback(damageDir);
     }
 
     public override void ReturnPool()
@@ -78,12 +92,19 @@ public class Fly : MonsterController, ITraceable, ITakeDamage
         ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
     }
 
-    protected virtual void OnCollisionEnter2D(Collision2D collision)
+    public virtual void Knockback(Vector2 damageDir)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac Bullet"))
-        {
-            TakeDamage(1);
-        }
+        Debug.Log("넉백 발생");
+        rb.linearVelocity = Vector2.zero;
+        rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
+        StartCoroutine(HitFlash());
     }
 
+    public virtual IEnumerator HitFlash()
+    {
+        sr.color = Color.red;
+        yield return takeDamageEffectWait;
+        sr.color = originalColor;
+        rb.linearVelocity = Vector2.zero;
+    }
 }

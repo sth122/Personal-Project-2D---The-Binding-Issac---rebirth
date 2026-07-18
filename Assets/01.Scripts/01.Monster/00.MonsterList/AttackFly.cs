@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
-
-public class AttackFly : Fly , IAttackable
+using System.Collections;
+public class AttackFly : Fly
 {
+    protected float attackRange;
+
     protected override void Awake()
     {
         base.Awake();
@@ -35,16 +37,22 @@ public class AttackFly : Fly , IAttackable
         base.Trace();
     }
 
-    public override void TakeDamage(int damage)
+    public override void TakeDamage(float damage, Vector2 damageDir)
     {
-        base.TakeDamage(damage);
+        base.TakeDamage(damage, damageDir);
+    }
+
+    public override void Knockback(Vector2 damageDir)
+    {
+        base.Knockback(damageDir);
     }
     public override void ReturnPool()
     {
         base.ReturnPool();
     }
-    protected override void OnCollisionEnter2D(Collision2D collision)
+
+    public override IEnumerator HitFlash()
     {
-        base.OnCollisionEnter2D(collision);
+        return base.HitFlash();
     }
 }

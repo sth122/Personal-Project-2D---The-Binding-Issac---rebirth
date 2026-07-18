@@ -12,9 +12,11 @@ public interface IAttackable
     public float ContactAttack();
     public void Attack();
 }
-public interface ITakeDamage
+public interface ITakeDamageable
 {
-    public void TakeDamage(int damage);
+    public void TakeDamage(float damage, Vector2 dir);
+    public void Knockback(Vector2 damageDir);
+    public IEnumerator HitFlash();
 }
 
 public interface IReturnPool
@@ -33,7 +35,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 	public StateMachine<MonsterController> stateMachine;
     [SerializeField] protected Transform target;
 
-    private Rigidbody2D rb;
+    protected Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
     [SerializeField]protected MonsterInfo mData;
     protected MonsterAnimController animController;
@@ -95,6 +97,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         mData.speed = 0;
         AnimController.AnimationStart(MonsterCurrentState.Die);
         StartAnimTime(mData.dieAnimTime, () => ReturnPool());
+        // ReturnPool에서 사망 이펙트 추가
     }
 
     public abstract void ReturnPool();

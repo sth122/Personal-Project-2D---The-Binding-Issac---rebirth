@@ -18,8 +18,6 @@ public class MonsterInfo
     public float contactDamage;
     public float stageHp;
     public float speed;
-    public float traceRange;
-    public float attackRange;
     public float appearAnimTime;
     public float dieAnimTime;
     public MoveType moveType;

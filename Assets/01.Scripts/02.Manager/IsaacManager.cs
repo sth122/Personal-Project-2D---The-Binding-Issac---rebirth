@@ -35,6 +35,16 @@ public class IsaacManager : Singleton<IsaacManager>
         }
     }
 
+    public float ApplyDamage()
+    {
+        return isaacInfo.damage;
+    }
+
+    private void SetDamage()
+    {
+        // 아이템 계산 적용
+    }
+
     private void Die(Action OnDie)
     {
         OnDie?.Invoke();

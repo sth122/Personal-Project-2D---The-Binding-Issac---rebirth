@@ -28,6 +28,8 @@ abstract public class IsaacBullet : MonoBehaviour, IReturnPool
 
     protected virtual void OnEnable()
     {
+        damage = IsaacManager.Instance.ApplyDamage();
+
         gravityDelay = lifeTime - 0.5f;
         wait = new WaitForSeconds(gravityDelay);
         rb.linearVelocity = Vector2.zero;
@@ -56,13 +58,15 @@ abstract public class IsaacBullet : MonoBehaviour, IReturnPool
         }
     }
 
-    protected virtual void OnCollisionEnter2D(Collision2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Monster"))
+        // 부딪힐 시 ReturnPool
+        // 눈물 터지는 파티클
+        if(collision.TryGetComponent<ITakeDamageable>(out ITakeDamageable takeDamage))
         {
-            //collision.gameObject.GetCompnent<MonsterController>().TakeDamage(damage);
-            ReturnPool();
+            takeDamage.TakeDamage(damage, this.dir);
         }
+        ReturnPool();
     }
 
     /// <summary>
@@ -70,6 +74,7 @@ abstract public class IsaacBullet : MonoBehaviour, IReturnPool
     /// </summary>
     /// <param name="damage"></param>
     public void SetDamage(float damage) { this.damage = damage; }
+    public float GetDamage() { return this.damage; }
 
     /// <summary>
     /// 캐릭터 공격 방향 벡터 설정
