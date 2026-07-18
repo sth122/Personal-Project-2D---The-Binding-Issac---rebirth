@@ -9,7 +9,6 @@ public interface ITraceable
 }
 public interface IAttackable
 {
-    public float ContactAttack();
     public void Attack();
 }
 public interface ITakeDamageable
