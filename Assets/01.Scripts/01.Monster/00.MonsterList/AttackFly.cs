@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 public class AttackFly : Fly
 {
@@ -51,8 +52,8 @@ public class AttackFly : Fly
         base.ReturnPool();
     }
 
-    public override IEnumerator HitFlash()
+    public override IEnumerator HitFlash(Action OnKnockback)
     {
-        return base.HitFlash();
+        return base.HitFlash(OnKnockback);
     }
 }

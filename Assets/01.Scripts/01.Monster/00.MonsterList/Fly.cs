@@ -1,13 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class Fly : MonsterController, ITraceable, ITakeDamageable
 {
     protected float traceRange;
     private WaitForSeconds takeDamageEffectWait;
-    private Color originalColor;
     protected float knockbackForce;
-    //protected bool isKnockback;
+    private readonly Color hitRed = new Color(5f, 0, 0, 1f);
+    protected bool isKnockback;
 
     protected override void Awake()
     {
@@ -15,7 +16,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
         mStateDic[MonsterCurrentState.Trace] = new MonsterTraceState(this, mData);
 
         //isKnockback = false;
-        takeDamageEffectWait = new WaitForSeconds(0.2f);
+        takeDamageEffectWait = new WaitForSeconds(0.12f);
         knockbackForce = 2f;
     }
 
@@ -54,8 +55,8 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
     public virtual void Trace()
     {
         Debug.Log("트레이스 진입");
-        //if (isKnockback) 
-        //    return;
+        if (isKnockback)
+            return;
 
         sr.flipX = CheckFlip();
         Move();
@@ -83,8 +84,9 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
         {
             mData.totalHp = 0;
             Dead();
+            return;
         }
-        Knockback(damageDir);
+        StartCoroutine(HitFlash(() => Knockback(damageDir)));
     }
 
     public override void ReturnPool()
@@ -95,16 +97,18 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
     public virtual void Knockback(Vector2 damageDir)
     {
         Debug.Log("넉백 발생");
+        isKnockback = true;
         rb.linearVelocity = Vector2.zero;
         rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
-        StartCoroutine(HitFlash());
     }
 
-    public virtual IEnumerator HitFlash()
+    public virtual IEnumerator HitFlash(Action OnKnockback)
     {
-        sr.color = Color.red;
+        sr.color = hitRed;
+        OnKnockback?.Invoke();
         yield return takeDamageEffectWait;
-        sr.color = originalColor;
+        isKnockback = false;
+        sr.color = Color.white;
         rb.linearVelocity = Vector2.zero;
     }
 }
