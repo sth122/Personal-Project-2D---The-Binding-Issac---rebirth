@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 4fd01c5ceb12601449a81270ee83cc12
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2232347926739509986
+    second: monster_048_flaminghopper_champion_0
+  - first:
+      213: 1600191090838159476
+    second: monster_048_flaminghopper_champion_1
+  - first:
+      213: 6622549894683781437
+    second: monster_048_flaminghopper_champion_2
+  - first:
+      213: 5865919771076951283
+    second: monster_048_flaminghopper_champion_3
+  - first:
+      213: -6293534611442465667
+    second: monster_048_flaminghopper_champion_4
+  - first:
+      213: -2400599000937377049
+    second: monster_048_flaminghopper_champion_5
+  - first:
+      213: 8877393304295087167
+    second: monster_048_flaminghopper_champion_6
+  - first:
+      213: 850155555230443202
+    second: monster_048_flaminghopper_champion_7
+  - first:
+      213: -5679582863806927334
+    second: monster_048_flaminghopper_champion_8
+  - first:
+      213: -2522141226560937771
+    second: monster_048_flaminghopper_champion_9
+  - first:
+      213: -7412249308932682978
+    second: monster_048_flaminghopper_champion_10
+  - first:
+      213: -2567946949221957213
+    second: monster_048_flaminghopper_champion_11
+  - first:
+      213: 141629767096409566
+    second: monster_048_flaminghopper_champion_12
+  - first:
+      213: -6858618739616705772
+    second: monster_048_flaminghopper_champion_13
+  - first:
+      213: 2263556340587571476
+    second: monster_048_flaminghopper_champion_14
+  - first:
+      213: -5161688158275347351
+    second: monster_048_flaminghopper_champion_15
+  - first:
+      213: 4344019581766516115
+    second: monster_048_flaminghopper_champion_16
+  - first:
+      213: 8468355458275380328
+    second: monster_048_flaminghopper_champion_17
+  - first:
+      213: 4280993108855328968
+    second: monster_048_flaminghopper_champion_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 97
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e26364ac94eafe10800000000000000
+      internalID: 2232347926739509986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 97
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4704726a155053610800000000000000
+      internalID: 1600191090838159476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 97
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d396deb9a0608eb50800000000000000
+      internalID: 6622549894683781437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 105
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc7bfbe3fee76150800000000000000
+      internalID: 5865919771076951283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 110
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74885f8d9fd8a8a0800000000000000
+      internalID: -6293534611442465667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 111
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e258f47deb5faed0800000000000000
+      internalID: -2400599000937377049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 80
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c90f10d26d23b70800000000000000
+      internalID: 8877393304295087167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 80
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6e55129fb5ccb00800000000000000
+      internalID: 850155555230443202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 97
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e64622a711e21b0800000000000000
+      internalID: -5679582863806927334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 80
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0a775daed8ffcd0800000000000000
+      internalID: -2522141226560937771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 97
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bce6a7686622990800000000000000
+      internalID: -7412249308932682978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 80
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1c391fad1dc5cd0800000000000000
+      internalID: -2567946949221957213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 80
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd1765d58b27f100800000000000000
+      internalID: 141629767096409566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 80
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4131f47489a41d0a0800000000000000
+      internalID: -6858618739616705772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 80
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4192ec9bf74c96f10800000000000000
+      internalID: 2263556340587571476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_15
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 78
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c58a4c7fffd58b0800000000000000
+      internalID: -5161688158275347351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 34
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39db8844bce094c30800000000000000
+      internalID: 4344019581766516115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 33
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c8e3a0c64a58570800000000000000
+      internalID: 8468355458275380328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_048_flaminghopper_champion_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 33
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c097330d84296b30800000000000000
+      internalID: 4280993108855328968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monster_048_flaminghopper_champion_0: 2232347926739509986
+      monster_048_flaminghopper_champion_1: 1600191090838159476
+      monster_048_flaminghopper_champion_10: -7412249308932682978
+      monster_048_flaminghopper_champion_11: -2567946949221957213
+      monster_048_flaminghopper_champion_12: 141629767096409566
+      monster_048_flaminghopper_champion_13: -6858618739616705772
+      monster_048_flaminghopper_champion_14: 2263556340587571476
+      monster_048_flaminghopper_champion_15: -5161688158275347351
+      monster_048_flaminghopper_champion_16: 4344019581766516115
+      monster_048_flaminghopper_champion_17: 8468355458275380328
+      monster_048_flaminghopper_champion_18: 4280993108855328968
+      monster_048_flaminghopper_champion_2: 6622549894683781437
+      monster_048_flaminghopper_champion_3: 5865919771076951283
+      monster_048_flaminghopper_champion_4: -6293534611442465667
+      monster_048_flaminghopper_champion_5: -2400599000937377049
+      monster_048_flaminghopper_champion_6: 8877393304295087167
+      monster_048_flaminghopper_champion_7: 850155555230443202
+      monster_048_flaminghopper_champion_8: -5679582863806927334
+      monster_048_flaminghopper_champion_9: -2522141226560937771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

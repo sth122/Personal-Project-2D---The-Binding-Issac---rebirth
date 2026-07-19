@@ -104,11 +104,47 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Attack"",
                     ""type"": ""Value"",
-                    ""id"": ""77dea21e-dc1b-4366-9428-3f91138e2741"",
+                    ""id"": ""c34fd3e2-dc63-4513-be7d-d41e386328a3"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""UpAttack"",
+                    ""type"": ""Button"",
+                    ""id"": ""665d9cc4-cbd8-46a8-83a6-63f23f435da8"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""DownAttack"",
+                    ""type"": ""Button"",
+                    ""id"": ""135c623c-4845-4840-8986-7648e6c75d60"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""LeftAttack"",
+                    ""type"": ""Button"",
+                    ""id"": ""e3056acc-a023-4e87-88c7-d2ee214eff9f"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""RigthAttack"",
+                    ""type"": ""Button"",
+                    ""id"": ""01dd18fe-a8c3-4301-9c1c-a75a1beb04cc"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -169,7 +205,7 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""2D Vector"",
-                    ""id"": ""8ffbf2c7-8840-4c48-8603-05860f43478b"",
+                    ""id"": ""21ae049b-2e44-4238-ae55-8a578aa162ab"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -180,7 +216,7 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""up"",
-                    ""id"": ""967c94d8-c674-4a97-a99b-de20bf747005"",
+                    ""id"": ""042a1d15-4c45-479d-b663-d00118ddc8c8"",
                     ""path"": ""<Keyboard>/upArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -191,8 +227,8 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""down"",
-                    ""id"": ""59804592-6872-4ded-bbc8-b7e4f71d53c6"",
-                    ""path"": ""<Keyboard>/upArrow"",
+                    ""id"": ""26e058f2-9851-48e2-828a-31bdc5d13a43"",
+                    ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -202,7 +238,7 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""left"",
-                    ""id"": ""610eb816-0421-4dd2-9ff1-7ab766d5d1f6"",
+                    ""id"": ""4f79d83e-535d-4c40-b6d2-c2faa49411fe"",
                     ""path"": ""<Keyboard>/leftArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -213,7 +249,7 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""right"",
-                    ""id"": ""5ed27ac2-4e00-4165-a5f7-da5a32ddac6f"",
+                    ""id"": ""d81c4ea8-5c8d-4867-ade1-6bc4f81dd45e"",
                     ""path"": ""<Keyboard>/rightArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -221,6 +257,50 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""Attack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8354930b-5651-457b-804b-35a569403198"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LeftAttack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d165b359-e58b-4246-b51f-7cdfcc65e638"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RigthAttack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c32fe767-93dc-4ea8-ae0b-7adf871682a1"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UpAttack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""71952fb1-164c-4fb0-8c7b-e7e74b1b4395"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DownAttack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -231,6 +311,10 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
         m_Isaac = asset.FindActionMap("Isaac", throwIfNotFound: true);
         m_Isaac_Move = m_Isaac.FindAction("Move", throwIfNotFound: true);
         m_Isaac_Attack = m_Isaac.FindAction("Attack", throwIfNotFound: true);
+        m_Isaac_UpAttack = m_Isaac.FindAction("UpAttack", throwIfNotFound: true);
+        m_Isaac_DownAttack = m_Isaac.FindAction("DownAttack", throwIfNotFound: true);
+        m_Isaac_LeftAttack = m_Isaac.FindAction("LeftAttack", throwIfNotFound: true);
+        m_Isaac_RigthAttack = m_Isaac.FindAction("RigthAttack", throwIfNotFound: true);
     }
 
     ~@IsaacInputActions()
@@ -313,6 +397,10 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
     private List<IIsaacActions> m_IsaacActionsCallbackInterfaces = new List<IIsaacActions>();
     private readonly InputAction m_Isaac_Move;
     private readonly InputAction m_Isaac_Attack;
+    private readonly InputAction m_Isaac_UpAttack;
+    private readonly InputAction m_Isaac_DownAttack;
+    private readonly InputAction m_Isaac_LeftAttack;
+    private readonly InputAction m_Isaac_RigthAttack;
     /// <summary>
     /// Provides access to input actions defined in input action map "Isaac".
     /// </summary>
@@ -332,6 +420,22 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Isaac/Attack".
         /// </summary>
         public InputAction @Attack => m_Wrapper.m_Isaac_Attack;
+        /// <summary>
+        /// Provides access to the underlying input action "Isaac/UpAttack".
+        /// </summary>
+        public InputAction @UpAttack => m_Wrapper.m_Isaac_UpAttack;
+        /// <summary>
+        /// Provides access to the underlying input action "Isaac/DownAttack".
+        /// </summary>
+        public InputAction @DownAttack => m_Wrapper.m_Isaac_DownAttack;
+        /// <summary>
+        /// Provides access to the underlying input action "Isaac/LeftAttack".
+        /// </summary>
+        public InputAction @LeftAttack => m_Wrapper.m_Isaac_LeftAttack;
+        /// <summary>
+        /// Provides access to the underlying input action "Isaac/RigthAttack".
+        /// </summary>
+        public InputAction @RigthAttack => m_Wrapper.m_Isaac_RigthAttack;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -364,6 +468,18 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
             @Attack.started += instance.OnAttack;
             @Attack.performed += instance.OnAttack;
             @Attack.canceled += instance.OnAttack;
+            @UpAttack.started += instance.OnUpAttack;
+            @UpAttack.performed += instance.OnUpAttack;
+            @UpAttack.canceled += instance.OnUpAttack;
+            @DownAttack.started += instance.OnDownAttack;
+            @DownAttack.performed += instance.OnDownAttack;
+            @DownAttack.canceled += instance.OnDownAttack;
+            @LeftAttack.started += instance.OnLeftAttack;
+            @LeftAttack.performed += instance.OnLeftAttack;
+            @LeftAttack.canceled += instance.OnLeftAttack;
+            @RigthAttack.started += instance.OnRigthAttack;
+            @RigthAttack.performed += instance.OnRigthAttack;
+            @RigthAttack.canceled += instance.OnRigthAttack;
         }
 
         /// <summary>
@@ -381,6 +497,18 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
             @Attack.started -= instance.OnAttack;
             @Attack.performed -= instance.OnAttack;
             @Attack.canceled -= instance.OnAttack;
+            @UpAttack.started -= instance.OnUpAttack;
+            @UpAttack.performed -= instance.OnUpAttack;
+            @UpAttack.canceled -= instance.OnUpAttack;
+            @DownAttack.started -= instance.OnDownAttack;
+            @DownAttack.performed -= instance.OnDownAttack;
+            @DownAttack.canceled -= instance.OnDownAttack;
+            @LeftAttack.started -= instance.OnLeftAttack;
+            @LeftAttack.performed -= instance.OnLeftAttack;
+            @LeftAttack.canceled -= instance.OnLeftAttack;
+            @RigthAttack.started -= instance.OnRigthAttack;
+            @RigthAttack.performed -= instance.OnRigthAttack;
+            @RigthAttack.canceled -= instance.OnRigthAttack;
         }
 
         /// <summary>
@@ -435,5 +563,33 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnAttack(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "UpAttack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnUpAttack(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "DownAttack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnDownAttack(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "LeftAttack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnLeftAttack(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "RigthAttack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnRigthAttack(InputAction.CallbackContext context);
     }
 }

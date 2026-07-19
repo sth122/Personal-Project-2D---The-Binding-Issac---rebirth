@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: aaf4c07e99c84f144a7e259572d74c11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8928178633879675056
+    second: monster_194_eye_champion_0
+  - first:
+      213: 2099887307796667003
+    second: monster_194_eye_champion_1
+  - first:
+      213: 2084848418221334470
+    second: monster_194_eye_champion_2
+  - first:
+      213: 328216645976739327
+    second: monster_194_eye_champion_3
+  - first:
+      213: 4222880048261493306
+    second: monster_194_eye_champion_4
+  - first:
+      213: 2548525155757531479
+    second: monster_194_eye_champion_5
+  - first:
+      213: 7226317715070074875
+    second: monster_194_eye_champion_6
+  - first:
+      213: 1893228792485491635
+    second: monster_194_eye_champion_7
+  - first:
+      213: 155664674382083256
+    second: monster_194_eye_champion_8
+  - first:
+      213: -6066048298776573755
+    second: monster_194_eye_champion_9
+  - first:
+      213: 6768054376010189825
+    second: monster_194_eye_champion_10
+  - first:
+      213: -274583280435068108
+    second: monster_194_eye_champion_11
+  - first:
+      213: -1219804940065049237
+    second: monster_194_eye_champion_12
+  - first:
+      213: -5255033481906031883
+    second: monster_194_eye_champion_13
+  - first:
+      213: 5317357520276439157
+    second: monster_194_eye_champion_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_194_eye_champion_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 152
+        width: 43
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b061abf92347eb70800000000000000
+      internalID: 8928178633879675056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 151
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a5299716c442d10800000000000000
+      internalID: 2099887307796667003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 148
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf1e92279edeec10800000000000000
+      internalID: 2084848418221334470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 158
+        width: 85
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd40d0fc4f0e8400800000000000000
+      internalID: 328216645976739327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 83
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32f5b5b70faa9a30800000000000000
+      internalID: 4222880048261493306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_5
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 80
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7512312602e2e5320800000000000000
+      internalID: 2548525155757531479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 79
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff3dd8dca9094460800000000000000
+      internalID: 7226317715070074875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 92
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3b3a65e89164a10800000000000000
+      internalID: 1893228792485491635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 89
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4fe945238092200800000000000000
+      internalID: 155664674382083256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 86
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c84f09263111dba0800000000000000
+      internalID: -6066048298776573755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 13
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c8d96a895fced50800000000000000
+      internalID: 6768054376010189825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 26
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433086416fb703cf0800000000000000
+      internalID: -274583280435068108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_12
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 26
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65f72caed1621fe0800000000000000
+      internalID: -1219804940065049237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2f43cf3ee5217b0800000000000000
+      internalID: -5255033481906031883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_194_eye_champion_14
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 25
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57044dbfd7c0bc940800000000000000
+      internalID: 5317357520276439157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monster_194_eye_champion_0: 8928178633879675056
+      monster_194_eye_champion_1: 2099887307796667003
+      monster_194_eye_champion_10: 6768054376010189825
+      monster_194_eye_champion_11: -274583280435068108
+      monster_194_eye_champion_12: -1219804940065049237
+      monster_194_eye_champion_13: -5255033481906031883
+      monster_194_eye_champion_14: 5317357520276439157
+      monster_194_eye_champion_2: 2084848418221334470
+      monster_194_eye_champion_3: 328216645976739327
+      monster_194_eye_champion_4: 4222880048261493306
+      monster_194_eye_champion_5: 2548525155757531479
+      monster_194_eye_champion_6: 7226317715070074875
+      monster_194_eye_champion_7: 1893228792485491635
+      monster_194_eye_champion_8: 155664674382083256
+      monster_194_eye_champion_9: -6066048298776573755
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 65702cf5e131b9d4cb71e4dbc5b28c7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1555596673163792446
+    second: monster_115_spitty_champion_0
+  - first:
+      213: -1802732192403660632
+    second: monster_115_spitty_champion_1
+  - first:
+      213: 6635414105339141783
+    second: monster_115_spitty_champion_2
+  - first:
+      213: 1560918803811562413
+    second: monster_115_spitty_champion_3
+  - first:
+      213: 6724744418673909894
+    second: monster_115_spitty_champion_4
+  - first:
+      213: 1952607681813319346
+    second: monster_115_spitty_champion_5
+  - first:
+      213: -8098687879471262404
+    second: monster_115_spitty_champion_6
+  - first:
+      213: 4738596210505196618
+    second: monster_115_spitty_champion_7
+  - first:
+      213: -5710902034320023633
+    second: monster_115_spitty_champion_8
+  - first:
+      213: -65157200819221977
+    second: monster_115_spitty_champion_9
+  - first:
+      213: -8233545914252392933
+    second: monster_115_spitty_champion_10
+  - first:
+      213: 2495826863175077231
+    second: monster_115_spitty_champion_11
+  - first:
+      213: -3489056183543443811
+    second: monster_115_spitty_champion_12
+  - first:
+      213: 1904486925204401512
+    second: monster_115_spitty_champion_13
+  - first:
+      213: 3247003402099889465
+    second: monster_115_spitty_champion_14
+  - first:
+      213: 9114549318491528697
+    second: monster_115_spitty_champion_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 216
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfea425119696ae0800000000000000
+      internalID: -1555596673163792446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 216
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a06e9e4f986bf6e0800000000000000
+      internalID: -1802732192403660632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 216
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e1b5e09f9b51c50800000000000000
+      internalID: 6635414105339141783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 216
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da37a68c16f79a510800000000000000
+      internalID: 1560918803811562413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 151
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68069586b67135d50800000000000000
+      internalID: 6724744418673909894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 145
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be8e2c575e091b10800000000000000
+      internalID: 1952607681813319346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 148
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c359a55484eab9f80800000000000000
+      internalID: -8098687879471262404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 149
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44ac25b520e2c140800000000000000
+      internalID: 4738596210505196618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 85
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf9c418bdcceb0b0800000000000000
+      internalID: -5710902034320023633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 79
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a8c9efed3881ff0800000000000000
+      internalID: -65157200819221977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 83
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b160e1b3d919cbd80800000000000000
+      internalID: -8233545914252392933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 82
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d8d600f45f2a220800000000000000
+      internalID: 2495826863175077231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 24
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e438a03e1649fc0800000000000000
+      internalID: -3489056183543443811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 24
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d2f20a4c81e6a10800000000000000
+      internalID: 1904486925204401512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 18
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93516ae046caf0d20800000000000000
+      internalID: 3247003402099889465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_115_spitty_champion_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 15
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd577070526d7e70800000000000000
+      internalID: 9114549318491528697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monster_115_spitty_champion_0: -1555596673163792446
+      monster_115_spitty_champion_1: -1802732192403660632
+      monster_115_spitty_champion_10: -8233545914252392933
+      monster_115_spitty_champion_11: 2495826863175077231
+      monster_115_spitty_champion_12: -3489056183543443811
+      monster_115_spitty_champion_13: 1904486925204401512
+      monster_115_spitty_champion_14: 3247003402099889465
+      monster_115_spitty_champion_15: 9114549318491528697
+      monster_115_spitty_champion_2: 6635414105339141783
+      monster_115_spitty_champion_3: 1560918803811562413
+      monster_115_spitty_champion_4: 6724744418673909894
+      monster_115_spitty_champion_5: 1952607681813319346
+      monster_115_spitty_champion_6: -8098687879471262404
+      monster_115_spitty_champion_7: 4738596210505196618
+      monster_115_spitty_champion_8: -5710902034320023633
+      monster_115_spitty_champion_9: -65157200819221977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

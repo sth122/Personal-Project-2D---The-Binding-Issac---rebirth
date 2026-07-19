@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 330ffcaacf700224a8516352a4f5cc16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4103073562647193539
+    second: monster_154_embryo_champion_0
+  - first:
+      213: -3007129417974422048
+    second: monster_154_embryo_champion_1
+  - first:
+      213: 2785685122087065679
+    second: monster_154_embryo_champion_2
+  - first:
+      213: 4112571189731819657
+    second: monster_154_embryo_champion_3
+  - first:
+      213: -2793457468492344336
+    second: monster_154_embryo_champion_4
+  - first:
+      213: -5490230741978288537
+    second: monster_154_embryo_champion_5
+  - first:
+      213: -6719704826487247472
+    second: monster_154_embryo_champion_6
+  - first:
+      213: 8504023547218437647
+    second: monster_154_embryo_champion_7
+  - first:
+      213: 9120551737658668497
+    second: monster_154_embryo_champion_8
+  - first:
+      213: 8585259444336811962
+    second: monster_154_embryo_champion_9
+  - first:
+      213: 2057454447304881275
+    second: monster_154_embryo_champion_10
+  - first:
+      213: -5817162164830739235
+    second: monster_154_embryo_champion_11
+  - first:
+      213: 1662935908693003309
+    second: monster_154_embryo_champion_12
+  - first:
+      213: -6437345996237566053
+    second: monster_154_embryo_champion_13
+  - first:
+      213: -8596534615563339547
+    second: monster_154_embryo_champion_14
+  - first:
+      213: -5077089748693597712
+    second: monster_154_embryo_champion_15
+  - first:
+      213: 6203494958659480592
+    second: monster_154_embryo_champion_16
+  - first:
+      213: -3113261968563278554
+    second: monster_154_embryo_champion_17
+  - first:
+      213: -1243174801372784808
+    second: monster_154_embryo_champion_18
+  - first:
+      213: 5816927406324270258
+    second: monster_154_embryo_champion_19
+  - first:
+      213: -7805068031096581081
+    second: monster_154_embryo_champion_20
+  - first:
+      213: 4045753486783346301
+    second: monster_154_embryo_champion_21
+  - first:
+      213: 3145597102001309683
+    second: monster_154_embryo_champion_22
+  - first:
+      213: -5710124791397056021
+    second: monster_154_embryo_champion_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 195
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d381e137554fe07c0800000000000000
+      internalID: -4103073562647193539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 195
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5e1001ab78446d0800000000000000
+      internalID: -3007129417974422048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 195
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48171efbddb8a620800000000000000
+      internalID: 2785685122087065679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 195
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980887d25b9c21930800000000000000
+      internalID: 4112571189731819657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 162
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f31a579b35ab39d0800000000000000
+      internalID: -2793457468492344336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 162
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e64798a38cec3b0800000000000000
+      internalID: -5490230741978288537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 162
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09defb51010deb2a0800000000000000
+      internalID: -6719704826487247472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 162
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0623852c5c540670800000000000000
+      internalID: 8504023547218437647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 129
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d577be8b75b29e70800000000000000
+      internalID: 9120551737658668497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 129
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf534c5af7f42770800000000000000
+      internalID: 8585259444336811962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 129
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74b7214beb8d8c10800000000000000
+      internalID: 2057454447304881275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 129
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4eb6ce4d9454fa0800000000000000
+      internalID: -5817162164830739235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c43e9f56fe31710800000000000000
+      internalID: 1662935908693003309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f0af54ce3f9a6a0800000000000000
+      internalID: -6437345996237566053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 99
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e87ff34059f2b880800000000000000
+      internalID: -8596534615563339547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 99
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1475ce5cd8a89b0800000000000000
+      internalID: -5077089748693597712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 67
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c23d02ccd371650800000000000000
+      internalID: 6203494958659480592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 67
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d6d0ffbb87bc4d0800000000000000
+      internalID: -3113261968563278554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 67
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8575572da1b5fbee0800000000000000
+      internalID: -1243174801372784808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 67
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4413a18a0e9b050800000000000000
+      internalID: 5816927406324270258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 35
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7241bbe8af3dea390800000000000000
+      internalID: -7805068031096581081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 35
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76f4846c57652830800000000000000
+      internalID: 4045753486783346301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 35
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7494fe5e767ab20800000000000000
+      internalID: 3145597102001309683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_154_embryo_champion_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 35
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be180a971cf81c0b0800000000000000
+      internalID: -5710124791397056021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monster_154_embryo_champion_0: -4103073562647193539
+      monster_154_embryo_champion_1: -3007129417974422048
+      monster_154_embryo_champion_10: 2057454447304881275
+      monster_154_embryo_champion_11: -5817162164830739235
+      monster_154_embryo_champion_12: 1662935908693003309
+      monster_154_embryo_champion_13: -6437345996237566053
+      monster_154_embryo_champion_14: -8596534615563339547
+      monster_154_embryo_champion_15: -5077089748693597712
+      monster_154_embryo_champion_16: 6203494958659480592
+      monster_154_embryo_champion_17: -3113261968563278554
+      monster_154_embryo_champion_18: -1243174801372784808
+      monster_154_embryo_champion_19: 5816927406324270258
+      monster_154_embryo_champion_2: 2785685122087065679
+      monster_154_embryo_champion_20: -7805068031096581081
+      monster_154_embryo_champion_21: 4045753486783346301
+      monster_154_embryo_champion_22: 3145597102001309683
+      monster_154_embryo_champion_23: -5710124791397056021
+      monster_154_embryo_champion_3: 4112571189731819657
+      monster_154_embryo_champion_4: -2793457468492344336
+      monster_154_embryo_champion_5: -5490230741978288537
+      monster_154_embryo_champion_6: -6719704826487247472
+      monster_154_embryo_champion_7: 8504023547218437647
+      monster_154_embryo_champion_8: 9120551737658668497
+      monster_154_embryo_champion_9: 8585259444336811962
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
