@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum IsaacAnimState
 {
-    Up, Down, LeftRight, AttackUp, AttackDown, AttackLeftRight, Die
+    Up, Down, LeftRight, Attack, AttackUp, AttackDown, AttackLeftRight, Die, Hit, PickUp, FallDown, Appear
 }
 public enum IsaacObject
 {
@@ -30,7 +30,6 @@ public class IsaacAnimController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         isaacAnimData.Initialize();
-        isAttackHash = Animator.StringToHash("isAttack");
 
         animDic = isaacAnimData.isaacAnimHashData;
     }
@@ -84,22 +83,28 @@ public class IsaacAnimController : MonoBehaviour
         animator.SetTrigger(isAttackHash);
     }
 
-    public void SetAnimTrigger(bool isBoolean)
+    public void SetAnimTrigger(IsaacAnimState state ,bool isBoolean)
     {
         if (isBoolean)
         {
-            animator.SetTrigger(isAttackHash);
+            animator.SetTrigger(animDic[state]);
         }
         else
         {
-            animator.ResetTrigger(isAttackHash);
+            animator.ResetTrigger(animDic[state]);
         }
     }
 
-    public void SetAttackAnim()
+    public void SetFalseAttackAnim()
     {
         animator.SetBool(animDic[IsaacAnimState.AttackUp], false);
         animator.SetBool(animDic[IsaacAnimState.AttackDown], false);
         animator.SetBool(animDic[IsaacAnimState.AttackLeftRight], false);
+    }
+
+    public void FallDownAnim()
+    {
+        SetAnimTrigger(IsaacAnimState.FallDown, true);
+        SetAnimTrigger(IsaacAnimState.Appear, true);
     }
 }

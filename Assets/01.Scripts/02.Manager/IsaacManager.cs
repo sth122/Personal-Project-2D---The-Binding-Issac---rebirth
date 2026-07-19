@@ -24,14 +24,13 @@ public class IsaacManager : Singleton<IsaacManager>
     }
 
 
-    public void TakeDamage(float damage, Action OnTakeDamage)
+    public void TakeDamage(float damage, Action OnDie)
     {
         isaacInfo.hp -= damage;
-        OnTakeDamage?.Invoke();
         if (isaacInfo.hp <= 0)
         {
             isaacInfo.hp = 0;
-            //Die();
+            OnDie?.Invoke();
         }
     }
 
@@ -43,10 +42,5 @@ public class IsaacManager : Singleton<IsaacManager>
     private void SetDamage()
     {
         // 아이템 계산 적용
-    }
-
-    private void Die(Action OnDie)
-    {
-        OnDie?.Invoke();
     }
 }

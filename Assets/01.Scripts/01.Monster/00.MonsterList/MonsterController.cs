@@ -111,4 +111,13 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         yield return wait;
         OnComplete?.Invoke();
     }
+
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject == target.gameObject
+            && collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
+        {
+            isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
+        }
+    }
 }

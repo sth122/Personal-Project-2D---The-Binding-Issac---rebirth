@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public enum IsaacCurrentState
@@ -9,7 +10,7 @@ public enum IsaacCurrentState
     Idle, Move, Attack,
 }
 
-public class IsaacController : MonoBehaviour
+public class IsaacController : MonoBehaviour, ITakeDamageable
 {
     #region variable
     [SerializeField] public GameObject head;
@@ -23,6 +24,10 @@ public class IsaacController : MonoBehaviour
     public Dictionary<IsaacCurrentState, IsaacState> iStateDic = new Dictionary<IsaacCurrentState, IsaacState>();
     private WaitForSeconds wait;
     private IsaacInfo isaacInfo;
+    private bool isKnockback;
+    private float knockbackForce;
+    private float knockbackTime;
+    private readonly Color hitRed = new Color(5f, 0, 0, 1f);
     #endregion
 
     private void Awake()
@@ -35,10 +40,13 @@ public class IsaacController : MonoBehaviour
         isaacInfo = IsaacManager.Instance.GameStart(
             () =>
             {
-                StartAnimTime(0f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+                StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
             });
 
         stateMachine = new StateMachine<IsaacController>(this);
+        isKnockback = false;
+        knockbackTime = 0.5f;
+        knockbackForce = 2f; // 임시방편
     }
 
     void Start()
@@ -69,19 +77,6 @@ public class IsaacController : MonoBehaviour
         stateMachine.FixedUpdate();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Monster")
-            )
-        {
-            if (collision is IAttackable iAttackalbe)
-            {
-                //IsaacManager.Instance.TakeDamage(iAttackalbe.ContactAttack(), );
-
-            }
-        }
-    }
-
     public void StartAnimTime(float time, Action OnComplete)
     {
         StartCoroutine(AnimTime(time, OnComplete));
@@ -92,5 +87,51 @@ public class IsaacController : MonoBehaviour
         wait = new WaitForSeconds(time);
         yield return wait;
         OnComplete?.Invoke();
+    }
+
+    public void TakeDamage(float damage, Vector2 damageDir) 
+    {
+        if (damage == 0 || isKnockback)
+            return;
+
+        IsaacManager.Instance.TakeDamage(damage, () => Dead());
+        Knockback(damageDir);
+    }
+
+    private void Dead()
+    {
+        animController.SetAnimTrigger(IsaacAnimState.Die, true);
+    }
+
+    public void Knockback(Vector2 damageDir) 
+    {
+        Debug.Log("아이작 넉백 발생");
+        isKnockback = true;
+        rb.linearVelocity = Vector2.zero;
+        rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
+    }
+    public IEnumerator HitFlash() 
+    {
+        wait = new WaitForSeconds(knockbackTime);
+        yield return wait;
+        isKnockback = false;
+        rb.linearVelocity = Vector2.zero;
+    }
+
+    private void GoToNextStage()
+    {
+        // 스테이지 클리어 순서
+        // 지하로 내려가는 오브젝트 충돌 시 -> FallDown 애님 시작
+        // 종료 후 StageManager에 클리어 소식 전달 후 내려간 UI 출력
+        // timesacle = 0
+        // UI 종료 후 Appear 애님 시작
+        // 종료 후 timesale = 1 / Idle 상태에서 시작
+        StageManager.Instance.StageClear( 
+            () => 
+            { 
+                animController.SetAnimTrigger(IsaacAnimState.FallDown, true);
+                animController.SetAnimTrigger(IsaacAnimState.Appear, true);
+            });
+        animController.FallDownAnim();
     }
 }

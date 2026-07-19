@@ -13,14 +13,14 @@ public class IsaacAttackState : IsaacState
     public override void Enter()
     {
         Debug.Log("IsaacAttackState 진입");
-        animController.SetAnimTrigger(true);
+        animController.SetAnimTrigger(IsaacAnimState.Attack ,true);
     }
 
     public override void Exit()
     {
         Debug.Log("IsaacAttackState 퇴장");
-        animController.SetAttackAnim();
-        animController.SetAnimTrigger(false);
+        animController.SetFalseAttackAnim();
+        animController.SetAnimTrigger(IsaacAnimState.Attack, false);
     }
 
     public override void Update()
