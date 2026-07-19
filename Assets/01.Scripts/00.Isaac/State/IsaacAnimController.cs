@@ -23,8 +23,6 @@ public class IsaacAnimController : MonoBehaviour
     private int isAttackHash;
 
     public Dictionary<IsaacAnimState, int> animDic;
-    public Dictionary<IsaacObject, SpriteRenderer> spriteDic = new();
-    private IsaacObject isaacObj;
 
     private void Awake()
     {
@@ -79,8 +77,7 @@ public class IsaacAnimController : MonoBehaviour
         {
             headSprite.flipX = dir.x < 0;
         }
-
-        animator.SetTrigger(isAttackHash);
+        //animator.SetTrigger(isAttackHash);
     }
 
     public void SetAnimTrigger(IsaacAnimState state ,bool isBoolean)

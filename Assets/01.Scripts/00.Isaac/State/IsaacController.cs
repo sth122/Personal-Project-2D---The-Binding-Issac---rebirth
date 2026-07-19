@@ -7,7 +7,7 @@ using UnityEngine;
 
 public enum IsaacCurrentState
 {
-    Idle, Move, Attack,
+    Idle, Move, Attack, Die
 }
 
 public class IsaacController : MonoBehaviour, ITakeDamageable
@@ -23,6 +23,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     public IsaacInput Input { get; private set; }
     public Dictionary<IsaacCurrentState, IsaacState> iStateDic = new Dictionary<IsaacCurrentState, IsaacState>();
     private WaitForSeconds wait;
+    private WaitForSeconds knockbakcWait;
     private IsaacInfo isaacInfo;
     private bool isKnockback;
     private float knockbackForce;
@@ -46,6 +47,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         stateMachine = new StateMachine<IsaacController>(this);
         isKnockback = false;
         knockbackTime = 0.5f;
+        knockbakcWait = new WaitForSeconds(knockbackTime);
         knockbackForce = 2f; // 임시방편
     }
 
@@ -54,7 +56,9 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         iStateDic[IsaacCurrentState.Idle] = new IsaacIdleState(this, animController, rb, isaacInfo);
         iStateDic[IsaacCurrentState.Move] = new IsaacMoveState(this, animController, rb, isaacInfo);
         iStateDic[IsaacCurrentState.Attack] = new IsaacAttackState(this, animController, rb, isaacInfo);
+        iStateDic[IsaacCurrentState.Die] = new IsaacDieState(this, animController, rb, isaacInfo);
 
+        // 게임 시작할 때 Extra SpriteRenderer.Color.a = 0;
         // 게임 제일 처음 시작 시 2초간 움직일 수 없음
         // IsaacData를 받아 온 후에 StarAnimTime 실행해야함 => 안그러면 초기화 값 안들어감
         // 현재는 IsaacManager에서 하지만 추후 GameManager 또는 StageManager에서 할 예정
@@ -94,13 +98,17 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         if (damage == 0 || isKnockback)
             return;
 
-        IsaacManager.Instance.TakeDamage(damage, () => Dead());
+        IsaacManager.Instance.TakeDamage(damage, () =>
+        {
+            Dead();
+            return;
+        });
         Knockback(damageDir);
     }
 
     private void Dead()
     {
-        animController.SetAnimTrigger(IsaacAnimState.Die, true);
+        stateMachine.ChangeState(iStateDic[IsaacCurrentState.Die]);
     }
 
     public void Knockback(Vector2 damageDir) 
@@ -109,15 +117,18 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         isKnockback = true;
         rb.linearVelocity = Vector2.zero;
         rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
+        StartCoroutine(HitFlash());
     }
     public IEnumerator HitFlash() 
     {
-        wait = new WaitForSeconds(knockbackTime);
-        yield return wait;
+        animController.SetAnimTrigger(IsaacAnimState.Hit, true);
+        yield return knockbakcWait;
+        animController.SetAnimTrigger(IsaacAnimState.Hit, false);
         isKnockback = false;
         rb.linearVelocity = Vector2.zero;
     }
 
+    // 미완성 상태
     private void GoToNextStage()
     {
         // 스테이지 클리어 순서

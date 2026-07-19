@@ -11,6 +11,7 @@ public class IsaacManager : Singleton<IsaacManager>
 {
     public IsaacData isaacData;
     [SerializeField] IsaacInfo isaacInfo;
+    private bool isDie;
 
     private void Awake()
     {
@@ -20,16 +21,20 @@ public class IsaacManager : Singleton<IsaacManager>
     public IsaacInfo GameStart(Action OnAction)
     {
         OnAction?.Invoke();
+        isDie = false;
         return isaacInfo;
     }
 
 
     public void TakeDamage(float damage, Action OnDie)
     {
+        if (isDie) return;
+
         isaacInfo.hp -= damage;
         if (isaacInfo.hp <= 0)
         {
             isaacInfo.hp = 0;
+            isDie = true;
             OnDie?.Invoke();
         }
     }
@@ -39,6 +44,10 @@ public class IsaacManager : Singleton<IsaacManager>
         return isaacInfo.damage;
     }
 
+    public void IsaacDie()
+    {
+        // UIManager에서 연결
+    }
     private void SetDamage()
     {
         // 아이템 계산 적용
