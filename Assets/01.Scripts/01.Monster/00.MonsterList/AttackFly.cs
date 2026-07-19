@@ -24,14 +24,6 @@ public class AttackFly : Fly
     {
         Debug.Log($"Attack Fly 세팅 {mData}");
     }
-    public float ContactAttack()
-    {
-        return 0;
-    }
-    public void Attack()
-    {
-
-    }
 
     public override void Trace()
     {

@@ -26,7 +26,6 @@ public class IsaacAttackState : IsaacState
     public override void Update()
     {
         attackDir = controller.Input.AttackDirection;
-        //attackDir = controller.Input.IsaacActions.Attack.ReadValue<Vector2>();
         moveDir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
 
         animController.BaseMoveAnim(moveDir);

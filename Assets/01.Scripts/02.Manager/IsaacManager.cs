@@ -18,6 +18,12 @@ public class IsaacManager : Singleton<IsaacManager>
         isaacInfo = isaacData.isaacList[0].Clone();
     }
 
+    protected override void Initialize()
+    {
+        // DDOL 할거면 여기에 초기화
+    }
+
+
     public IsaacInfo GameStart(Action OnAction)
     {
         OnAction?.Invoke();

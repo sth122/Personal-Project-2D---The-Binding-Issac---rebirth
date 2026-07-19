@@ -35,9 +35,4 @@ public class IsaacIdleState : IsaacState
             return;
         }
     }
-
-    public override void FixedUpdate()
-    {
-
-    }
 }

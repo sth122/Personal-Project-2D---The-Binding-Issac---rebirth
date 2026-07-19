@@ -24,9 +24,13 @@ public class MonsterTraceState : MonsterState
 
     public override void Update()
     {
+
+    }
+    public override void FixedUpdate()
+    {
         if (controller is ITraceable traceMonster)
         {
-            traceMonster.Trace(); 
+            traceMonster.Trace();
         }
     }
 }

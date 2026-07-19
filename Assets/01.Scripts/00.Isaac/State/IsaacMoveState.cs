@@ -22,7 +22,14 @@ public class IsaacMoveState : IsaacState
     {
         attackDir = controller.Input.AttackDirection;
         moveDir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
+
         animController.BaseMoveAnim(moveDir);
+
+
+        // 1. 조작키를 눌렀는지?
+        // 조작키를 눌렀을 시 MoveState Update
+        // Isaac의 움직임(물리력)이 없을 시 MoveState -> IdleState
+        // 공격키를 눌렀을 시 MoveState -> AttackState
 
         if (rb.linearVelocity == Vector2.zero)
         {

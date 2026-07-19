@@ -6,10 +6,6 @@ public enum IsaacAnimState
 {
     Up, Down, LeftRight, Attack, AttackUp, AttackDown, AttackLeftRight, Die, Hit, PickUp, FallDown, Appear
 }
-public enum IsaacObject
-{
-    Extra, Base, Head
-}
 public class IsaacAnimController : MonoBehaviour
 {
     // Extra, Body, Head를 키 값으로 하는 animDic을 또 만들고 싶은데
@@ -19,8 +15,6 @@ public class IsaacAnimController : MonoBehaviour
 
     private IsaacAnimHashData isaacAnimData = new IsaacAnimHashData();
     private Animator animator;
-
-    private int isAttackHash;
 
     public Dictionary<IsaacAnimState, int> animDic;
 

@@ -2,8 +2,6 @@
 
 public class UIManager : Singleton<UIManager>
 {
-    
-
     void Start()
     {
         
@@ -16,6 +14,6 @@ public class UIManager : Singleton<UIManager>
     }
     protected override void Initialize()
     {
-        
+        DontDestroyOnLoad(gameObject);
     }
 }

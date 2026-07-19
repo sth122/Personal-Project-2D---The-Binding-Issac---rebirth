@@ -58,6 +58,10 @@ abstract public class IsaacBullet : MonoBehaviour, IReturnPool
         }
     }
 
+    /// <summary>
+    /// 데미지를 입을 수 있는 물체면 TakeDamage 호출
+    /// </summary>
+    /// <param name="collision"></param>
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         // 부딪힐 시 ReturnPool
