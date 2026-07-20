@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: cf9830064c2941544a2ff50d0e6f1ecf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4621827527650488953
+    second: monster_198_lump_champion_0
+  - first:
+      213: -761024976913058960
+    second: monster_198_lump_champion_1
+  - first:
+      213: -4923194595217061666
+    second: monster_198_lump_champion_2
+  - first:
+      213: -3801153175720377853
+    second: monster_198_lump_champion_3
+  - first:
+      213: -4614620710339841371
+    second: monster_198_lump_champion_4
+  - first:
+      213: 5986129339575222929
+    second: monster_198_lump_champion_5
+  - first:
+      213: 3523070461201770789
+    second: monster_198_lump_champion_6
+  - first:
+      213: -1341870377198614686
+    second: monster_198_lump_champion_7
+  - first:
+      213: -6819810603158819202
+    second: monster_198_lump_champion_8
+  - first:
+      213: -7235329156471712440
+    second: monster_198_lump_champion_9
+  - first:
+      213: 374611946916395107
+    second: monster_198_lump_champion_10
+  - first:
+      213: -4730557175995996490
+    second: monster_198_lump_champion_11
+  - first:
+      213: 5117368289930882434
+    second: monster_198_lump_champion_12
+  - first:
+      213: 3461828825196686039
+    second: monster_198_lump_champion_13
+  - first:
+      213: -7746114368856320926
+    second: monster_198_lump_champion_14
+  - first:
+      213: -5268829718319418080
+    second: monster_198_lump_champion_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_198_lump_champion_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 339
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d4541e958fbdfb0800000000000000
+      internalID: -4621827527650488953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 273
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073b5e9c0db4075f0800000000000000
+      internalID: -761024976913058960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 275
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8c6ff899c4dabb0800000000000000
+      internalID: -4923194595217061666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 275
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302c65873579f3bc0800000000000000
+      internalID: -3801153175720377853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 211
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2780bc9e295ffb0800000000000000
+      internalID: -4614620710339841371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 211
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192cce02be0031350800000000000000
+      internalID: 5986129339575222929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 211
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5296a9e1be574e030800000000000000
+      internalID: 3523070461201770789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 141
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26705706008b06de0800000000000000
+      internalID: -1341870377198614686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 137
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ea64ba36a2b51a0800000000000000
+      internalID: -6819810603158819202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_9
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 141
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8451a737772f69b90800000000000000
+      internalID: -7235329156471712440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 76
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368b198b493e23500800000000000000
+      internalID: 374611946916395107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 77
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6651fdf4fa95eb0800000000000000
+      internalID: -4730557175995996490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 77
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dad22c85b840740800000000000000
+      internalID: 5117368289930882434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 13
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da6e0799f2ea0030800000000000000
+      internalID: 3461828825196686039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 13
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26415cea506408490800000000000000
+      internalID: -7746114368856320926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_198_lump_champion_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 13
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025bc81694b51e6b0800000000000000
+      internalID: -5268829718319418080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monster_198_lump_champion_0: -4621827527650488953
+      monster_198_lump_champion_1: -761024976913058960
+      monster_198_lump_champion_10: 374611946916395107
+      monster_198_lump_champion_11: -4730557175995996490
+      monster_198_lump_champion_12: 5117368289930882434
+      monster_198_lump_champion_13: 3461828825196686039
+      monster_198_lump_champion_14: -7746114368856320926
+      monster_198_lump_champion_15: -5268829718319418080
+      monster_198_lump_champion_2: -4923194595217061666
+      monster_198_lump_champion_3: -3801153175720377853
+      monster_198_lump_champion_4: -4614620710339841371
+      monster_198_lump_champion_5: 5986129339575222929
+      monster_198_lump_champion_6: 3523070461201770789
+      monster_198_lump_champion_7: -1341870377198614686
+      monster_198_lump_champion_8: -6819810603158819202
+      monster_198_lump_champion_9: -7235329156471712440
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
