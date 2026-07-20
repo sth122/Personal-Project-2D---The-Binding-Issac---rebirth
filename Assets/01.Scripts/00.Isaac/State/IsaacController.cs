@@ -15,7 +15,6 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     #region variable
     [SerializeField] public GameObject head;
     [SerializeField] public GameObject body;
-    [SerializeField] Camera camera;
 
     public StateMachine<IsaacController> stateMachine;
     private Rigidbody2D rb;
@@ -29,7 +28,6 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     private bool isKnockback;
     private float knockbackForce;
     private float knockbackTime;
-    private readonly Color hitRed = new Color(5f, 0, 0, 1f);
     #endregion
 
     private void Awake()
@@ -41,7 +39,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
 
         stateMachine = new StateMachine<IsaacController>(this);
         isKnockback = false;
-        knockbackTime = 0.5f;
+        knockbackTime = 1f;
         knockbakcWait = new WaitForSeconds(knockbackTime);
         knockbackForce = 2f; // 임시방편
     }
