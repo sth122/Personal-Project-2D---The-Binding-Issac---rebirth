@@ -15,6 +15,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     #region variable
     [SerializeField] public GameObject head;
     [SerializeField] public GameObject body;
+    [SerializeField] Camera camera;
 
     public StateMachine<IsaacController> stateMachine;
     private Rigidbody2D rb;
