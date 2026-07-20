@@ -54,13 +54,14 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
 
         if (activatedPool.TryGetValue(poolObjectName, out var objectPool))
         {
-            Debug.Log($"{objectPool} TryGetValue");
             if (objectPool.Count == 0)
             {
                 effect = Instantiate(prefabDic[poolObjectName].Prefab, prefabDic[poolObjectName].parentTrans);
+                Debug.Log($"{prefabDic[poolObjectName].Prefab.name} Count ) TryGetValue");
             }
             else
             {
+                Debug.Log($"{objectPool.Peek().name} TryGetValue");
                 effect = objectPool.Dequeue();
             }
         }

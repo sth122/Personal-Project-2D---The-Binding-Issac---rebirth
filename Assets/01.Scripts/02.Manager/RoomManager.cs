@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 
-public class SpawnManager : Singleton<SpawnManager>
+public class RoomManager : Singleton<RoomManager>
 {
     [SerializeField] GameObject Player;
     public MonsterData monsterStatData;
+    //public EntityData entityData;
 
     public RoomLayoutData roomLayoutData;
 

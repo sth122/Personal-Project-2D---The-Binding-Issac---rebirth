@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using UnityEngine;
 
 public class StageManager : Singleton<StageManager>
@@ -10,6 +9,7 @@ public class StageManager : Singleton<StageManager>
     {
         stageCnt = 1;
     }
+
     public void StageClear(Action OnGoToNextStage)
     {
         // FallDown 애니메이션 실행
@@ -23,7 +23,7 @@ public class StageManager : Singleton<StageManager>
         // Appear 애니메이션 실행
 
         // tirgger 둘 다 false
-        
+
         stageCnt++;
     }
 

@@ -1,34 +1,27 @@
 ﻿using UnityEngine;
-using System.Collections;
 public class CameraRoomRock : Singleton<CameraRoomRock>
 {
-    
+
     #region Variable
     [SerializeField] Transform target;
+    Vector3 transRoomPos;
     Camera camera;
-    Coroutine cameraShake;
-    Vector3 targetPos;
-    Vector3 velocity;
-    Vector3 originPos;
     #endregion
 
-    private void Start()
+    private void Awake()
     {
         camera = Camera.main;
-        velocity = Vector3.zero;
+    }
+
+    protected override void Initialize()
+    {
+        DontDestroyOnLoad(gameObject);
     }
 
     private void LateUpdate()
     {
-        targetPos = new Vector3(target.position.x, target.position.y, transform.position.z);
-    }
+        transRoomPos = new Vector3(target.position.x + 8, target.position.y - 5.5f, transform.position.z);
 
-    public void CameraStop()
-    {
-        if (cameraShake != null)
-        {
-            StopCoroutine(cameraShake);
-        }
-        transform.position = originPos;
+        transform.position = Vector3.Lerp(transform.position, transRoomPos, 2f * Time.deltaTime);
     }
 }
