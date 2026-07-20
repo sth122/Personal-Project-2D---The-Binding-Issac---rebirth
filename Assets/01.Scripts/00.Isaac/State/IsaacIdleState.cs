@@ -13,6 +13,8 @@ public class IsaacIdleState : IsaacState
     public override void Enter()
     {
         nowState = IsaacCurrentState.Idle;
+
+        rb.linearVelocity = Vector2.zero;
     }
 
     public override void Update()
