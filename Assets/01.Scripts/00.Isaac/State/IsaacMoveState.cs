@@ -32,7 +32,7 @@ public class IsaacMoveState : IsaacState
         // Isaac의 움직임(물리력)이 없을 시 MoveState -> IdleState
         // 공격키를 눌렀을 시 MoveState -> AttackState
 
-        if (rb.linearVelocity == Vector2.zero)
+        if (moveDir == Vector2.zero)
         {
             controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Idle]);
             return;
