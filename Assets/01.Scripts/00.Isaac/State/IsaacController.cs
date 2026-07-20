@@ -7,7 +7,7 @@ using UnityEngine;
 
 public enum IsaacCurrentState
 {
-    Idle, Move, Attack, Die
+    Idle, Move, Attack, Die, Extra
 }
 
 public class IsaacController : MonoBehaviour, ITakeDamageable
@@ -46,19 +46,19 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
 
     void Start()
     {
-        iStateDic[IsaacCurrentState.Idle] = new IsaacIdleState(this, animController, rb, isaacInfo);
-        iStateDic[IsaacCurrentState.Move] = new IsaacMoveState(this, animController, rb, isaacInfo);
-        iStateDic[IsaacCurrentState.Attack] = new IsaacAttackState(this, animController, rb, isaacInfo);
-        iStateDic[IsaacCurrentState.Die] = new IsaacDieState(this, animController, rb, isaacInfo);
-
         // 게임 시작할 때 Extra SpriteRenderer.Color.a = 0;
         // 게임 제일 처음 시작 시 2초간 움직일 수 없음
         // IsaacData를 받아 온 후에 StarAnimTime 실행해야함 => 안그러면 초기화 값 안들어감
         // 현재는 IsaacManager에서 하지만 추후 GameManager 또는 StageManager에서 할 예정
-        isaacInfo = IsaacManager.Instance.GameStart( () => 
-            {
-                StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
-            });
+        isaacInfo = IsaacManager.Instance.GameStart();
+
+
+        StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+
+        iStateDic[IsaacCurrentState.Idle] = new IsaacIdleState(this, animController, rb, isaacInfo);
+        iStateDic[IsaacCurrentState.Move] = new IsaacMoveState(this, animController, rb, isaacInfo);
+        iStateDic[IsaacCurrentState.Attack] = new IsaacAttackState(this, animController, rb, isaacInfo);
+        iStateDic[IsaacCurrentState.Die] = new IsaacDieState(this, animController, rb, isaacInfo);
     }
 
 

@@ -17,6 +17,7 @@ public class IsaacMoveState : IsaacState
     public override void Exit() 
     {
         Debug.Log("IsaacMoveState 퇴장");
+        animController.SetBoolAllAnim(IsaacCurrentState.Move);
     }
     public override void Update()
     {

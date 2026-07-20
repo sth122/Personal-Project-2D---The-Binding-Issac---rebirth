@@ -15,18 +15,17 @@ public class IsaacManager : Singleton<IsaacManager>
 
     private void Awake()
     {
+        Init();
+    }
+
+    private void Init()
+    {
         isaacInfo = isaacData.isaacList[0].Clone();
     }
 
-    protected override void Initialize()
-    {
-        // DDOL 할거면 여기에 초기화
-    }
 
-
-    public IsaacInfo GameStart(Action OnAction)
+    public IsaacInfo GameStart()
     {
-        OnAction?.Invoke();
         isDie = false;
         return isaacInfo;
     }
