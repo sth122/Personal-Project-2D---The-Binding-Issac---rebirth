@@ -12,12 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: RoomLayout
   m_EditorClassIdentifier: Assembly-CSharp::RoomLayoutData
-  spawnList:
-  - monsterID: 0
-    position: {x: 5, y: 5, z: 0}
-  - monsterID: 1
-    position: {x: -5, y: -5, z: 0}
-  - monsterID: 1
-    position: {x: -5, y: -4, z: 0}
-  - monsterID: 1
-    position: {x: -5, y: -3, z: 0}
+  roomEntityData:
+    spawnInfos:
+    - entityType: 0
+      ID: 0
+      position: {x: 5, y: 5, z: 0}
+    - entityType: 0
+      ID: 0
+      position: {x: 5, y: 0, z: 0}
+    - entityType: 0
+      ID: 0
+      position: {x: 5, y: -5, z: 0}
+    - entityType: 0
+      ID: 1
+      position: {x: -5, y: 0, z: 0}
+    - entityType: 0
+      ID: 0
+      position: {x: 0, y: 0, z: 0}
+    - entityType: 0
+      ID: 1
+      position: {x: -5, y: 5, z: 0}
+    - entityType: 0
+      ID: 1
+      position: {x: -5, y: -5, z: 0}

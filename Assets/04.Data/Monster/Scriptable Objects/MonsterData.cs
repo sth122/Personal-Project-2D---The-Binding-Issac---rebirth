@@ -20,6 +20,7 @@ public class MonsterInfo
     public float speed;
     public float appearAnimTime;
     public float dieAnimTime;
+    public EntityType type = EntityType.Monster;
     public MoveType moveType;
 
     //private float totalHp;
@@ -38,7 +39,7 @@ public class MonsterInfo
     }
 
     public MonsterInfo Clone() { return new MonsterInfo(monsterID, name, baseHp, damage, contactDamage, stageHp, speed, appearAnimTime,dieAnimTime,moveType); }
-
+    
     public void SetTotalHp()
     {
         totalHp = baseHp + (stageHp * (Mathf.Min(4, StageManager.Instance.stageCnt) + 0.8f * Mathf.Max(0.0f, StageManager.Instance.stageCnt - 5.5f)));
