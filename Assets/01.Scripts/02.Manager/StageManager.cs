@@ -10,6 +10,11 @@ public class StageManager : Singleton<StageManager>
         stageCnt = 1;
     }
 
+    private void Start()
+    {
+        
+    }
+
     public void StageClear(Action OnGoToNextStage)
     {
         // FallDown 애니메이션 실행

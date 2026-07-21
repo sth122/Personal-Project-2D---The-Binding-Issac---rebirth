@@ -11,7 +11,7 @@ public enum RoomType
 
 public class RoomManager : Singleton<RoomManager>
 {
-    [SerializeField] GameObject Player;
+    [SerializeField] public GameObject Player;
     public RoomLayoutData roomLayoutData;
     [SerializeField] GameObject room;
 
@@ -35,6 +35,7 @@ public class RoomManager : Singleton<RoomManager>
             currentRoom.transform.position = Vector3.zero;
         }
         CameraRoomRock.Instance.SetCameraPosition(centerRoom.transform);
+        SetRoomType();
     }
 
     public void GetRoomType(RoomType type)
