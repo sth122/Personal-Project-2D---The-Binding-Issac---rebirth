@@ -69,7 +69,7 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
         {
             // 예외 처리 넣어야함
             // 풀을 만들든 에러 문구 뜨든
-            Debug.LogError("pool 실패");
+            Debug.LogError($"{poolObjectName} pool 실패");
         }
         effect.SetActive(true);
         return effect;

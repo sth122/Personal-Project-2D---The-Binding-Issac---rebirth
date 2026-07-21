@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
+/// <summary>
+/// 방에 소환되는 Entity 정보
+/// 타입 / ID / 위치
+/// </summary>
 [Serializable]
 public class SpawnInfo
 {
@@ -36,18 +40,18 @@ public class RoomLayoutData : ScriptableObject
         ....
      */
 
-    public List<RoomData> roomDatas = new();
+    public List<RoomEntityData> normalRoom = new();
+    public Dictionary<RoomType, List<RoomEntityData>> RoomDic = new();
+
+    public void Init()
+    {
+        RoomDic[RoomType.Normal] = normalRoom;
+    }
+
 }
 
 [Serializable]
 public class RoomEntityData
 {
     public List<SpawnInfo> spawnInfos;
-}
-
-[Serializable]
-public class RoomData
-{
-    public RoomType roomType;
-    public List<RoomEntityData> entities = new List<RoomEntityData>();
 }

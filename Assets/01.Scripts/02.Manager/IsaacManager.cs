@@ -9,6 +9,7 @@ using UnityEngine;
 /// </summary>
 public class IsaacManager : Singleton<IsaacManager>
 {
+    [SerializeField] public GameObject Player;
     public IsaacData isaacData;
     [SerializeField] IsaacInfo isaacInfo;
     private bool isDie;
