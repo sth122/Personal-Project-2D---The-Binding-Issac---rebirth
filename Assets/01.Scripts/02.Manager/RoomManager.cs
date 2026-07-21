@@ -1,4 +1,11 @@
-﻿using UnityEngine;
+﻿using AYellowpaper.SerializedCollections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public enum RoomType
+{
+    Normal, Boss, Treasure, Shop, Secret, Devil, Angel
+}
 
 public class RoomManager : Singleton<RoomManager>
 {
@@ -7,16 +14,25 @@ public class RoomManager : Singleton<RoomManager>
     //public EntityData entityData;
 
     public RoomLayoutData roomLayoutData;
+    private RoomType currentRoomType;
 
-    private void Start()
+    public void GetRoomType(RoomType type)
     {
-        foreach(var spawnInfo in roomLayoutData.spawnList)
+        this.currentRoomType = type;
+    }
+
+    // Room Script에서 소환하거나 StageManager에서 
+    // 나중에 entityInfo 추상클래스로 만들어서 통합
+    
+    private void OnSpawnMonster() 
+    {
+        foreach (var spawnInfo in roomLayoutData.RoomList[currentRoomType])
         {
-            MonsterInfo mStat = monsterStatData.monsterList.Find(x => x.monsterID == spawnInfo.monsterID);
+            MonsterInfo mStat = monsterStatData.monsterList.Find(x => x.monsterID == spawnInfo.ID);
             var monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
             monster.transform.position = spawnInfo.position;
 
-            if(monster != null)
+            if (monster != null)
             {
                 MonsterController mController = monster.GetComponent<MonsterController>();
                 mController.InitData(mStat, Player.transform);
@@ -24,4 +40,6 @@ public class RoomManager : Singleton<RoomManager>
             }
         }
     }
+    private void OnSpawnItem() { }
+    
 }
