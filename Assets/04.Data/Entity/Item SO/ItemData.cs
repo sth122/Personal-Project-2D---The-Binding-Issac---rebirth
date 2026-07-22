@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public enum ItemType
@@ -6,6 +7,7 @@ public enum ItemType
     PickUp, Passive, Active, Accessories
 }
 
+[Serializable]
 public struct ItemInfo
 {
     public int id;
