@@ -25,7 +25,6 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     private WaitForSeconds wait;
     private WaitForSeconds knockbakcWait;
     private IsaacInfo isaacInfo;
-    public Collider2D[] colls;
     private bool isKnockback;
     private float knockbackForce;
     private float knockbackTime;
@@ -37,7 +36,6 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         animController = GetComponent<IsaacAnimController>();
         rb = GetComponent<Rigidbody2D>();
         Input = GetComponent<IsaacInput>();
-        colls = GetComponentsInChildren<Collider2D>();
 
         stateMachine = new StateMachine<IsaacController>(this);
         isKnockback = false;
@@ -98,6 +96,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
 
         IsaacManager.Instance.TakeDamage(damage, () =>
         {
+            // 안죽는 이유 찾아봐
             Dead();
             return;
         });

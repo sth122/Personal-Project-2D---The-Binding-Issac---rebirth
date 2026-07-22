@@ -1,6 +1,6 @@
 ﻿
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "RoomLayout", menuName = "Data/RoomLayOut")]
@@ -35,19 +35,35 @@ public class RoomLayoutData : ScriptableObject
     {
         RoomDic[RoomType.Normal] = normalRoom;
     }
-
 }
 
 [Serializable]
 public class RoomEntityData
 {
     public List<SpawnInfo> spawnInfos;
-
-    public void SetRoom(Vector3 currentRoomPos)
+    public RoomEntityData Clone()
     {
-        foreach(SpawnInfo info in spawnInfos)
+        List<SpawnInfo> cloneInfos = new();
+        foreach (var info in spawnInfos)
         {
-            info.SetSpawnPostion(currentRoomPos);
+            cloneInfos.Add(info.Clone());
+        }
+         return new RoomEntityData(cloneInfos);
+    }
+    public RoomEntityData(List<SpawnInfo> spawnInfos)
+    {
+        this.spawnInfos = spawnInfos;
+    }
+
+
+    public void SetLocalToWroldRoomPostionn(Vector3 roomPos)
+    {
+        if (roomPos == null)
+            Debug.LogError("currentRoomPos null");
+
+        foreach(var spawnInfo in spawnInfos)
+        {
+            spawnInfo.SetSpawnPostion(roomPos);
         }
     }
 }

@@ -120,14 +120,19 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Isaac Head")
-            || collision.gameObject.CompareTag("Isaac Body"))
+        //if (collision.gameObject.CompareTag("Isaac Head")
+        //    || collision.gameObject.CompareTag("Isaac Body"))
+        //{
+        //    var Isaac = collision.gameObject.GetComponentInParent<IsaacController>();
+        //    if (Isaac.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
+        //    {
+        //        isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
+        //    }
+        //}
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac") && 
+            collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
         {
-            var Isaac = collision.gameObject.GetComponentInParent<IsaacController>();
-            if(Isaac.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
-            {
-                isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
-            }
+            isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
         }
     }
 }

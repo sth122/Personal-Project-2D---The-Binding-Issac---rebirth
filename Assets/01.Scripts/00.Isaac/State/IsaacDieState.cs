@@ -12,12 +12,11 @@ public class IsaacDieState : IsaacState
 
     public override void Enter()
     {
+        rb.linearVelocity = Vector3.zero;
         animController.SetAnimTrigger(IsaacAnimState.Die, true);
         // 게임 시작할 때 다시 true 변경 필요
-        foreach(var col in controller.colls)
-        {
-            col.enabled = false;
-        }
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        controller.GetComponent<CompositeCollider2D>().enabled = false;
         // Die 애니메이션 종료 후 UI 출력
         IsaacManager.Instance.IsaacDie();
     }

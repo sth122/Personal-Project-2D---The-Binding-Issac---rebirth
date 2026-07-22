@@ -1,5 +1,4 @@
 ﻿using System;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public enum RoomType
@@ -23,13 +22,10 @@ public class RoomManager : Singleton<RoomManager>
     protected override void Awake()
     {
         base.Awake();
-    }
-
-    protected override void Initialize()
-    {
         roomLayoutData.Init();
     }
 
+    
     private void Start()
     {
         // 초기 테스트  타입
@@ -47,7 +43,7 @@ public class RoomManager : Singleton<RoomManager>
     /// </summary>
     private void SetFirstRoom()
     {
-        var centerRoom = ObjectPoolManager.Instance.GetObject("Room");
+        GameObject centerRoom = ObjectPoolManager.Instance.GetObject("Room");
         if (centerRoom != null)
         {
             Debug.Log("Room 생성");
@@ -88,9 +84,9 @@ public class RoomManager : Singleton<RoomManager>
         {
             int idx = UnityEngine.Random.Range(0, roomCount);
             // 참조 복사 해결해야함
-            var roomData= roomLayoutData.RoomDic[currentRoomType][idx];
-            roomData.SetRoom(currentRoom.transform.position);
-            EntitySpawnManager.Instance.Spawn(roomData);
+            RoomEntityData roomData = roomLayoutData.RoomDic[currentRoomType][idx].Clone();
+            roomData.SetLocalToWroldRoomPostionn(currentRoom.transform.position);
+            EntitySpawnManager.Instance.SpawnAll(roomData);
         }
     }
 }

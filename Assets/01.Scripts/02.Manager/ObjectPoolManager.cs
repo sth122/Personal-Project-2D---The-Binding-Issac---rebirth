@@ -35,8 +35,6 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
                 parentPool.transform.SetParent(this.transform);
                 prefabDic[o.Key].parentTrans = parentPool.transform;
                 
-                
-
                 for (int i = 0; i < o.Value.InitSpawnCount; i++)
                 {
                     GameObject go = Instantiate(o.Value.Prefab, o.Value.parentTrans);

@@ -19,8 +19,8 @@ public class MonsterFactory : EntityFactory
     public override void OnSpawnEntity(SpawnInfo info)
     {
         MonsterInfo mStat = monsterData.monsterList[info.id];
-        var monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
-        monster.transform.position = info.spawnPos;
+        GameObject monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
+        monster.transform.position = info.position;
 
         if (monster != null)
         {

@@ -16,9 +16,8 @@ public class EntitySpawnManager : Singleton<EntitySpawnManager>
         };
     }
 
-    public void Spawn(RoomEntityData data)
+    public void SpawnAll(RoomEntityData data)
     {
-
         foreach(var k in data.spawnInfos)
         {
             cloneInfo = k.Clone();
