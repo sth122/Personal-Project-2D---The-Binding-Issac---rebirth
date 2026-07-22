@@ -1,16 +1,18 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Key : MonoBehaviour
+public class Key : MonoBehaviour, IReturnPool
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void ReturnPool()
     {
-        
+        ObjectPoolManager.Instance.ReturnObject("Key", this.gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))
+        {
+            IsaacManager.Instance.GetItem();
+            ReturnPool();
+        }
     }
 }

@@ -12,7 +12,11 @@ public class IsaacManager : Singleton<IsaacManager>
     [SerializeField] public GameObject Player;
     public IsaacData isaacData;
     [SerializeField] IsaacInfo isaacInfo;
+    //[SerializeField] 
     private bool isDie;
+    private int keyCount;
+    private int bombCount;
+
 
     protected override void Awake()
     {
@@ -25,6 +29,10 @@ public class IsaacManager : Singleton<IsaacManager>
     }
 
 
+    private void Start()
+    {
+        Init(); 
+    }
     public void Init()
     {
         isaacInfo = DataManager.Instance.IsaacData.isaacList[0].Clone();
@@ -64,4 +72,11 @@ public class IsaacManager : Singleton<IsaacManager>
     {
         // 아이템 계산 적용
     }
+
+    #region Item Method
+    public void GetItem()
+    {
+
+    }
+    #endregion
 }
