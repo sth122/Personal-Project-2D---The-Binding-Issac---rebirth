@@ -1,6 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+public enum ItemType
+{
+    PickUp, Passive, Active, Accessories
+}
+
 public struct ItemInfo
 {
     public int id;
