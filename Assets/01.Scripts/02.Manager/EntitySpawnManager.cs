@@ -1,30 +1,31 @@
 ﻿using System.Collections.Generic;
-using UnityEngine;
-
 public enum EntityType
 {
     Monster, Item
 }
 public class EntitySpawnManager : Singleton<EntitySpawnManager>
 {
-    private Dictionary<EntityType, EntityFactory> factories;
+    private Dictionary<EntityType, EntityFactory> factoryMap;
+    private SpawnInfo cloneInfo;
 
-    private void Awake()
+    protected override void Initialize()
     {
-        factories = new Dictionary<EntityType, EntityFactory>()
+        factoryMap = new Dictionary<EntityType, EntityFactory>()
         {
             { EntityType.Monster, new MonsterFactory() }
         };
     }
+
     public void Spawn(RoomEntityData data)
     {
-        foreach (var a in data.spawnInfos)
+
+        foreach(var k in data.spawnInfos)
         {
-            if (factories.TryGetValue(a.entityType, out var factory))
+            cloneInfo = k.Clone();
+            if(factoryMap.ContainsKey(k.entityType))
             {
-                factory.OnSpawnEntity(a);
+                factoryMap[k.entityType].OnSpawnEntity(cloneInfo);
             }
         }
     }
 }
-

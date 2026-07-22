@@ -14,14 +14,20 @@ public class IsaacManager : Singleton<IsaacManager>
     [SerializeField] IsaacInfo isaacInfo;
     private bool isDie;
 
-    private void Awake()
+    protected override void Awake()
     {
-        Init();
+        base.Awake();
     }
 
-    private void Init()
+    protected override void Initialize()
     {
-        isaacInfo = isaacData.isaacList[0].Clone();
+        //Init();
+    }
+
+
+    public void Init()
+    {
+        isaacInfo = DataManager.Instance.IsaacData.isaacList[0].Clone();
     }
 
 

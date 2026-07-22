@@ -550,7 +550,7 @@ Transform:
   m_GameObject: {fileID: 1010980330}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8, y: -5.5, z: -10}
+  m_LocalPosition: {x: 8.5, y: 5.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -612,6 +612,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58b7e8e9b58c4214dbc82be8a09c499d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraRoomRock
+--- !u!1 &1491700939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1491700941}
+  - component: {fileID: 1491700940}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1491700940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491700939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f216bfd0d28628d41a7eb49a48274046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DataManager
+  <MonsterData>k__BackingField: {fileID: 11400000, guid: 88444366d0d91d14a911781d00b12809, type: 2}
+  <IsaacData>k__BackingField: {fileID: 11400000, guid: c1d9aae8bc36c084c94ebf87272cc4f8, type: 2}
+--- !u!4 &1491700941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491700939}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.81992, y: -3.96615, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917220603
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,6 +898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IsaacController
   head: {fileID: 8666223880700724238}
   body: {fileID: 4725365399579696305}
+  colls: []
 --- !u!212 &4699865228213777729
 SpriteRenderer:
   serializedVersion: 2
@@ -924,7 +971,7 @@ GameObject:
   - component: {fileID: 8734197830971226432}
   m_Layer: 7
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Isaac Body
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -976,7 +1023,7 @@ Transform:
   m_GameObject: {fileID: 5902640056624608455}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.49, y: -5.79, z: 0}
+  m_LocalPosition: {x: 8.5, y: 5.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1062,7 +1109,7 @@ GameObject:
   - component: {fileID: 8666223880700724240}
   m_Layer: 6
   m_Name: Head
-  m_TagString: Untagged
+  m_TagString: Isaac Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1243,3 +1290,4 @@ SceneRoots:
   - {fileID: 1917220605}
   - {fileID: 672733412}
   - {fileID: 525932129}
+  - {fileID: 1491700941}

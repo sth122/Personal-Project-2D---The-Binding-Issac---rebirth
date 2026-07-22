@@ -32,13 +32,13 @@ public enum MonsterCurrentState
 // IsaacController / MonsterController 추상화는 제일 마지막 리펙토링에 시도
 abstract public class MonsterController : MonoBehaviour, IReturnPool
 {
-	#region variable
-	public StateMachine<MonsterController> stateMachine;
+    #region variable
+    public StateMachine<MonsterController> stateMachine;
     [SerializeField] protected Transform target;
 
     protected Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
-    [SerializeField]protected MonsterInfo mData;
+    [SerializeField] protected MonsterInfo mData;
     protected MonsterAnimController animController;
     public MonsterAnimController AnimController { get { return animController; } }
     protected SpriteRenderer sr;
@@ -117,12 +117,17 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         OnComplete?.Invoke();
     }
 
+
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject == target.gameObject
-            && collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
+        if (collision.gameObject.CompareTag("Isaac Head")
+            || collision.gameObject.CompareTag("Isaac Body"))
         {
-            isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
+            var Isaac = collision.gameObject.GetComponentInParent<IsaacController>();
+            if(Isaac.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
+            {
+                isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
+            }
         }
     }
 }

@@ -2,54 +2,37 @@
 
 public abstract class Singleton<T> : MonoBehaviour where T : Singleton<T>
 {
-    private bool dontDestroy = true;
-    private static T instance = null;
+    private static T _instance;
+
     public static T Instance
     {
         get
         {
-            if(instance == null)
+            if (_instance == null)
             {
-                instance = InitManager<T>();
+                _instance = FindAnyObjectByType<T>();
+                if (_instance == null)
+                {
+                    GameObject obj = new GameObject(typeof(T).Name);
+                    _instance = obj.AddComponent<T>();
+                    DontDestroyOnLoad(obj);
+                }
             }
-            return instance;
+            return _instance;
         }
     }
 
-    protected static U InitManager<U>() where U : MonoBehaviour
+    protected virtual void Awake()
     {
-        GameObject go = null;
-        U obj = FindAnyObjectByType<U>();
-        if(obj == null)
+        if (_instance == null)
         {
-            go = new GameObject(typeof(U).Name);
-            go.AddComponent<U>();
-        }
-        else
-        {
-            go = obj.gameObject;
-        }
-
-        return obj.GetComponent<U>();
-    }
-
-    private void Awake()
-    {
-        if(instance == null)
-        {
-            if(dontDestroy)
-            {
-                Instance.Initialize();
-            }
-            else
-            {
-                instance = GetComponent<T>();
-                Initialize();
-            }
-        }
-        else
-        {
+            _instance = this as T;
             DontDestroyOnLoad(gameObject);
+            Initialize();
+        }
+        else if (_instance != this)
+        {
+            Destroy(gameObject);
         }
     }
 

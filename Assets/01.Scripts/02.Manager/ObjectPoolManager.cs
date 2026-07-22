@@ -18,13 +18,13 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
     public SerializedDictionary<string, PoolData> prefabDic = new SerializedDictionary<string, PoolData>();
     protected Dictionary<string, Queue<GameObject>> activatedPool = new();
 
-    private void Awake()
+    protected override void Awake()
     {
-        InitPool();
+        base.Awake();
     }
 
 
-    public void InitPool()
+    protected override void Initialize()
     {
         foreach (var o in prefabDic)
         {

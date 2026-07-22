@@ -143,6 +143,7 @@ MonoBehaviour:
     speed: 0
     appearAnimTime: 0
     dieAnimTime: 0
+    type: 0
     moveType: 0
 --- !u!50 &7666955577726595100
 Rigidbody2D:
@@ -319,7 +320,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4300628607994967047}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}

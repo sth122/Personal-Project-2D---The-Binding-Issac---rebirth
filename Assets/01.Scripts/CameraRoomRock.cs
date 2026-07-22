@@ -9,22 +9,22 @@ public class CameraRoomRock : Singleton<CameraRoomRock>
     private float halfHeight;
     #endregion
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         mainCamera = Camera.main;
 
         mainCamera.aspect = 17f / 11f;
-
-        halfHeight = 8f;
-        halfWidth = 5.5f;
-        
-        transform.position = new Vector3(halfHeight, -halfWidth, -10f);
     }
-
     protected override void Initialize()
     {
-        DontDestroyOnLoad(gameObject);
+        halfHeight = 8.5f;
+        halfWidth = 5.5f;
+
+        transform.position = new Vector3(halfHeight, halfWidth, -10f);
     }
+
 
     private void LateUpdate()
     {
@@ -33,7 +33,7 @@ public class CameraRoomRock : Singleton<CameraRoomRock>
 
     public void SetCameraPosition(Transform target)
     {
-        transRoomPos = new Vector3(target.position.x + halfHeight, target.position.y - halfWidth, transform.position.z);
+        transRoomPos = new Vector3(target.position.x + halfHeight, target.position.y + halfWidth, transform.position.z);
 
     }
 }

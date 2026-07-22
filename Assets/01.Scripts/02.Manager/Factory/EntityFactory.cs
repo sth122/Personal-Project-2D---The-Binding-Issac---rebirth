@@ -5,11 +5,11 @@ abstract public class EntityFactory
     public abstract void OnSpawnEntity(SpawnInfo info);
 }
 
+
 public class MonsterFactory : EntityFactory
 {
     private MonsterData monsterData;
     private GameObject player;
-
     public MonsterFactory()
     {
         monsterData = DataManager.Instance.MonsterData;
@@ -18,9 +18,9 @@ public class MonsterFactory : EntityFactory
 
     public override void OnSpawnEntity(SpawnInfo info)
     {
-        MonsterInfo mStat = monsterData.monsterList[info.ID];
+        MonsterInfo mStat = monsterData.monsterList[info.id];
         var monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
-        monster.transform.position = info.position;
+        monster.transform.position = info.spawnPos;
 
         if (monster != null)
         {

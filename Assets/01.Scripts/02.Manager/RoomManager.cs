@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public enum RoomType
 {
-    Normal, Boss, Treasure, Shop, Secret, Devil, Angel
+    Start, Normal, Boss, Treasure, Shop, Secret, Devil, Angel
 }
 
 
@@ -20,22 +20,50 @@ public class RoomManager : Singleton<RoomManager>
     private Room currentRoom = new Room();
     private Room[,] roomArray = new Room[5, 5];    // 방 배열을 저장
 
-    private void Awake()
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+
+    protected override void Initialize()
     {
         roomLayoutData.Init();
     }
 
     private void Start()
     {
+        // 초기 테스트  타입
+        // 방 생성할 시 타입 정하게 해야함
+        currentRoomType = RoomType.Normal;
+        Init(() =>
+        {
+            SetFirstRoom();
+            SetRoomType();
+        });
+    }
+
+    /// <summary>
+    /// 제일 처음 생성되는 정중앙 Room 
+    /// </summary>
+    private void SetFirstRoom()
+    {
         var centerRoom = ObjectPoolManager.Instance.GetObject("Room");
-        if (currentRoom != null)
+        if (centerRoom != null)
         {
             Debug.Log("Room 생성");
             currentRoom = centerRoom.GetComponent<Room>();
             currentRoom.transform.position = Vector3.zero;
         }
+        else
+        {
+            Debug.LogError("centerRoom null");
+        }
         CameraRoomRock.Instance.SetCameraPosition(centerRoom.transform);
-        SetRoomType();
+    }
+
+    public void Init(Action OnAction)
+    {
+        OnAction?.Invoke();
     }
 
     public void GetRoomType(RoomType type)
@@ -58,60 +86,11 @@ public class RoomManager : Singleton<RoomManager>
 
         if (roomCount > 0)
         {
-            int idx = Random.Range(0, roomCount);
-            var a= roomLayoutData.RoomDic[currentRoomType][idx];
-            EntitySpawnManager.Instance.Spawn(a);
+            int idx = UnityEngine.Random.Range(0, roomCount);
+            // 참조 복사 해결해야함
+            var roomData= roomLayoutData.RoomDic[currentRoomType][idx];
+            roomData.SetRoom(currentRoom.transform.position);
+            EntitySpawnManager.Instance.Spawn(roomData);
         }
     }
-
-
-    public void OnSaveEntityInRoom()
-    {
-        //roomLayoutData.roomDatas
-
-        //var room = roomLayoutData.RoomDic[currentRoomType][randomRoomIndex];
-
-        //foreach(var entity in room.Values)
-        //{
-
-        //}
-
-
-        //foreach (var entity in room.Values)
-        //{
-        //    if (entity == null)
-        //    {
-        //        Debug.LogError("RoomDic error");
-
-        //    }
-        //    MonsterInfo mStat = monsterData.monsterList.Find(x => x.monsterID == entity);
-        //    var monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
-        //    monster.transform.position = spawnInfo.position;
-
-        //    if (monster != null)
-        //    {
-        //        MonsterController mController = monster.GetComponent<MonsterController>();
-        //        mController.InitData(mStat, Player.transform);
-        //        mController.Appear();
-        //    }
-        //}
-    }
-
-    private void OnSpawnMonster()
-    {
-        //foreach (var spawnInfo in roomLayoutData.RoomList[currentRoomType])
-        //{
-        //    MonsterInfo mStat = monsterStatData.monsterList.Find(x => x.monsterID == spawnInfo.ID);
-        //    var monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
-        //    monster.transform.position = spawnInfo.position;
-
-        //    if (monster != null)
-        //    {
-        //        MonsterController mController = monster.GetComponent<MonsterController>();
-        //        mController.InitData(mStat, Player.transform);
-        //        mController.Appear();
-        //    }
-        //}
-    }
-
 }

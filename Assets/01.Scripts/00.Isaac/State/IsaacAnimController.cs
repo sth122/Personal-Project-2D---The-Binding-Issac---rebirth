@@ -21,7 +21,6 @@ public class IsaacAnimController : MonoBehaviour
 
     private void Init()
     {
-
         stateDic[IsaacCurrentState.Idle] = new List<IsaacAnimState>()
         {
             IsaacAnimState.Idle

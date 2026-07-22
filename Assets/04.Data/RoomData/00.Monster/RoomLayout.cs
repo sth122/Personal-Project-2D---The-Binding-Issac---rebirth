@@ -3,18 +3,6 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-/// <summary>
-/// 방에 소환되는 Entity 정보
-/// 타입 / ID / 위치
-/// </summary>
-[Serializable]
-public class SpawnInfo
-{
-    public EntityType entityType;
-    public int ID;
-    public Vector3 position;
-}
-
 [CreateAssetMenu(fileName = "RoomLayout", menuName = "Data/RoomLayOut")]
 public class RoomLayoutData : ScriptableObject
 {
@@ -54,4 +42,12 @@ public class RoomLayoutData : ScriptableObject
 public class RoomEntityData
 {
     public List<SpawnInfo> spawnInfos;
+
+    public void SetRoom(Vector3 currentRoomPos)
+    {
+        foreach(SpawnInfo info in spawnInfos)
+        {
+            info.SetSpawnPostion(currentRoomPos);
+        }
+    }
 }

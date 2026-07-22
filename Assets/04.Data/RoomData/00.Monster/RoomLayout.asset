@@ -15,34 +15,44 @@ MonoBehaviour:
   normalRoom:
   - spawnInfos:
     - entityType: 0
-      ID: 0
-      position: {x: 5, y: 5, z: 0}
+      id: 0
+      position: {x: 0, y: 2, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}
     - entityType: 0
-      ID: 0
-      position: {x: 5, y: 0, z: 0}
+      id: 0
+      position: {x: 0, y: 3, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}
     - entityType: 0
-      ID: 1
-      position: {x: -5, y: -5, z: 0}
+      id: 1
+      position: {x: 5, y: 2, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}
     - entityType: 0
-      ID: 1
-      position: {x: -5, y: 0, z: 0}
+      id: 1
+      position: {x: 5, y: 3, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}
   - spawnInfos:
     - entityType: 0
-      ID: 0
-      position: {x: 3, y: 3, z: 0}
+      id: 0
+      position: {x: 2, y: 3, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}
     - entityType: 0
-      ID: 0
-      position: {x: 3, y: 0, z: 0}
+      id: 0
+      position: {x: 2, y: 5, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}
     - entityType: 0
-      ID: 0
-      position: {x: 3, y: -3, z: 0}
+      id: 0
+      position: {x: 2, y: 6, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}
   - spawnInfos:
     - entityType: 0
-      ID: 0
-      position: {x: 7, y: 3, z: 0}
+      id: 0
+      position: {x: 10, y: 0, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}
     - entityType: 0
-      ID: 0
-      position: {x: 7, y: 0, z: 0}
+      id: 0
+      position: {x: 10, y: 3, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}
     - entityType: 0
-      ID: 0
-      position: {x: 7, y: -3, z: 0}
+      id: 0
+      position: {x: 10, y: 6, z: 0}
+      spawnPos: {x: 0, y: 0, z: 0}

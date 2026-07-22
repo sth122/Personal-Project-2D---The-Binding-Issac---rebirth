@@ -25,6 +25,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     private WaitForSeconds wait;
     private WaitForSeconds knockbakcWait;
     private IsaacInfo isaacInfo;
+    public Collider2D[] colls;
     private bool isKnockback;
     private float knockbackForce;
     private float knockbackTime;
@@ -36,6 +37,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         animController = GetComponent<IsaacAnimController>();
         rb = GetComponent<Rigidbody2D>();
         Input = GetComponent<IsaacInput>();
+        colls = GetComponentsInChildren<Collider2D>();
 
         stateMachine = new StateMachine<IsaacController>(this);
         isKnockback = false;
@@ -50,7 +52,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         // 게임 제일 처음 시작 시 2초간 움직일 수 없음
         // IsaacData를 받아 온 후에 StarAnimTime 실행해야함 => 안그러면 초기화 값 안들어감
         // 현재는 IsaacManager에서 하지만 추후 GameManager 또는 StageManager에서 할 예정
-        isaacInfo = IsaacManager.Instance.GameStart();
+        SetIsaacInfo(() => IsaacManager.Instance.Init());
 
 
         StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
@@ -61,6 +63,11 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         iStateDic[IsaacCurrentState.Die] = new IsaacDieState(this, animController, rb, isaacInfo);
     }
 
+    private void SetIsaacInfo(Action OnInfoInit)
+    {
+        OnInfoInit?.Invoke();
+        isaacInfo = IsaacManager.Instance.GameStart();
+    }
 
     private void Update()
     {

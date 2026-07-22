@@ -14,7 +14,10 @@ public class IsaacDieState : IsaacState
     {
         animController.SetAnimTrigger(IsaacAnimState.Die, true);
         // 게임 시작할 때 다시 true 변경 필요
-        controller.GetComponent<CapsuleCollider2D>().enabled = false;
+        foreach(var col in controller.colls)
+        {
+            col.enabled = false;
+        }
         // Die 애니메이션 종료 후 UI 출력
         IsaacManager.Instance.IsaacDie();
     }
