@@ -6,6 +6,10 @@ public enum ItemType
 {
     PickUp, Passive, Active, Accessories
 }
+public enum PickUpType
+{
+    Coin, Bomb, Key, Pill, Card
+}
 
 [Serializable]
 public struct ItemInfo

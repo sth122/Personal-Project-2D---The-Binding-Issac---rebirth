@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -10,39 +11,39 @@ using UnityEngine;
 public class IsaacManager : Singleton<IsaacManager>
 {
     [SerializeField] public GameObject Player;
+    [SerializeField] IsaacInfo currentIsaacInfo;
     public IsaacData isaacData;
-    [SerializeField] IsaacInfo isaacInfo;
-    //[SerializeField] 
     private bool isDie;
-    private int keyCount;
-    private int bombCount;
-
+    private Dictionary<PickUpType, int> pickUpItems = new();
+    private float maxHP;
 
     protected override void Awake()
     {
         base.Awake();
     }
 
-    protected override void Initialize()
-    {
-        //Init();
-    }
-
-
     private void Start()
     {
-        Init(); 
+        Init();
     }
     public void Init()
     {
-        isaacInfo = DataManager.Instance.IsaacData.isaacList[0].Clone();
-    }
+        // 메인 메뉴에서 캐릭터 선택 시 초기화 하는 방향으로 추후 수정
+        currentIsaacInfo = DataManager.Instance.IsaacData.isaacList[0].Clone();
+        maxHP = currentIsaacInfo.hp;
 
+        // 초기 픽업 아이템 초기화
+        foreach (PickUpType type in Enum.GetValues(typeof(PickUpType)))
+        {
+            Debug.Log($"{pickUpItems[type]} {type.ToString()} = 0");
+            pickUpItems[type] = 0;
+        }
+    }
 
     public IsaacInfo GameStart()
     {
         isDie = false;
-        return isaacInfo;
+        return currentIsaacInfo;
     }
 
 
@@ -50,18 +51,22 @@ public class IsaacManager : Singleton<IsaacManager>
     {
         if (isDie) return;
 
-        isaacInfo.hp -= damage;
-        if (isaacInfo.hp <= 0)
+        currentIsaacInfo.hp -= damage;
+        if (currentIsaacInfo.hp <= 0)
         {
-            isaacInfo.hp = 0;
+            currentIsaacInfo.hp = 0;
             isDie = true;
             OnDie?.Invoke();
         }
     }
 
+    /// <summary>
+    /// 아이작의 데미지를 눈물에 적용 시키는 메서드
+    /// </summary>
+    /// <returns></returns>
     public float ApplyDamage()
     {
-        return isaacInfo.damage;
+        return currentIsaacInfo.damage;
     }
 
     public void IsaacDie()
@@ -74,9 +79,16 @@ public class IsaacManager : Singleton<IsaacManager>
     }
 
     #region Item Method
-    public void GetItem()
-    {
-
-    }
+    public void GetItem() { }
     #endregion
+
+    public void HPRecovery(float effect)
+    {
+        currentIsaacInfo.hp += effect;
+        if(currentIsaacInfo.hp > maxHP)
+        {
+            currentIsaacInfo.hp = maxHP;
+        }
+        // UI 관련 호출
+    }
 }

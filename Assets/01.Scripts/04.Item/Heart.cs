@@ -1,16 +1,26 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Heart : MonoBehaviour
+public class Heart : Item, IChangeStat, IReturnPool
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected float recoveryHpEffect;
+
+    protected void Start()
+    {
+        recoveryHpEffect = 2;
+    }
+
+    protected override void ItemEffect()
+    {
+        IsaacManager.Instance.HPRecovery(recoveryHpEffect);
+    }
+
+    public void ChangeStat()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ReturnPool()
     {
-        
+        ObjectPoolManager.Instance.ReturnObject("Heart", this.gameObject);
     }
 }
