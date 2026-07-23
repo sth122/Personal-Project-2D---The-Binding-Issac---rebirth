@@ -55,7 +55,6 @@ public class RoomEntityData
         this.spawnInfos = spawnInfos;
     }
 
-
     public void SetLocalToWroldRoomPostionn(Vector3 roomPos)
     {
         if (roomPos == null)

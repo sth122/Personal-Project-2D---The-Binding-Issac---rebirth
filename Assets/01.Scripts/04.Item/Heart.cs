@@ -6,7 +6,7 @@ public class Heart : Item, IChangeStat, IReturnPool
 
     protected void Start()
     {
-         
+        itemName = "Heart";
         recoveryHpEffect = 2;
     }
 

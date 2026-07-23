@@ -12,21 +12,29 @@ public enum PickUpType
 }
 
 [Serializable]
-public struct ItemInfo
+public class ItemInfo
 {
     public int id;
     public string name;
-    public EntityType type;
+    public PickUpType type;
 }
 
 [CreateAssetMenu(fileName = "ItemData", menuName = "Data/Item")]
 public class ItemData : ScriptableObject
 {
-    public List<ItemInfo> heartItemList = new List<ItemInfo>();
-    public List<ItemInfo> coinItemList = new List<ItemInfo>();
-    public List<ItemInfo> bombItemList = new List<ItemInfo>();
-    public List<ItemInfo> keyItemList = new List<ItemInfo>();
-    public List<ItemInfo> pillItemList = new List<ItemInfo>();
-    public List<ItemInfo> cardItemList = new List<ItemInfo>();
+    public List<ItemInfo> pickUpItemList = new List<ItemInfo>();
+    public List<ItemInfo> passiveItemList = new List<ItemInfo>();
+    public List<ItemInfo> activeItemList = new List<ItemInfo>();
+    public List<ItemInfo> accessoriesItemList = new List<ItemInfo>();
 
+    public Dictionary<ItemType, List<ItemInfo>> itemListDic = new Dictionary<ItemType, List<ItemInfo>>();
+
+    public void ItemDataInit()
+    {
+        itemListDic[ItemType.PickUp] = pickUpItemList;
+        itemListDic[ItemType.Passive] = passiveItemList;
+        itemListDic[ItemType.Active] = activeItemList;
+        itemListDic[ItemType.Accessories] = accessoriesItemList;
+
+    }
 }

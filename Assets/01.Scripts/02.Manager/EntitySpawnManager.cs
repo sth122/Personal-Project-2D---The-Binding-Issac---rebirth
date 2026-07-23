@@ -12,16 +12,17 @@ public class EntitySpawnManager : Singleton<EntitySpawnManager>
     {
         factoryMap = new Dictionary<EntityType, EntityFactory>()
         {
-            { EntityType.Monster, new MonsterFactory() }
+            { EntityType.Monster, new MonsterFactory() },
+            { EntityType.Item, new ItemFactory() }
         };
     }
 
     public void SpawnAll(RoomEntityData data)
     {
-        foreach(var k in data.spawnInfos)
+        foreach (var k in data.spawnInfos)
         {
             cloneInfo = k.Clone();
-            if(factoryMap.ContainsKey(k.entityType))
+            if (factoryMap.ContainsKey(k.entityType))
             {
                 factoryMap[k.entityType].OnSpawnEntity(cloneInfo);
             }

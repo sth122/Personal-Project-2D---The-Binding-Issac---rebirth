@@ -30,3 +30,17 @@ public class MonsterFactory : EntityFactory
         }
     }
 }
+
+public class ItemFactory : EntityFactory
+{
+    private ItemData itemData;
+    public ItemFactory()
+    {
+        //itemData = DataManager.Instance.ItemData;
+    }
+
+    public override void OnSpawnEntity(SpawnInfo info)
+    {
+        throw new System.NotImplementedException();
+    }
+}
