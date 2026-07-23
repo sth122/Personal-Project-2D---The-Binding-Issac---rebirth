@@ -422,6 +422,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPoolManager
   prefabDic:
     _serializedList:
+    - Key: Heart
+      Value:
+        Prefab: {fileID: 5728541478262792179, guid: 18e4aa7427772bc42bfde858ba7e9566, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
+    - Key: Key
+      Value:
+        Prefab: {fileID: 2984623090806368624, guid: d57e64ef5006b20488c2c3206f1d8754, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
     - Key: Room
       Value:
         Prefab: {fileID: 6099687769297397422, guid: 1bad061b47d17cc4daa71786ab439592, type: 3}
@@ -688,8 +698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IsaacManager
   Player: {fileID: 5902640056624608455}
-  isaacData: {fileID: 11400000, guid: c1d9aae8bc36c084c94ebf87272cc4f8, type: 2}
-  isaacInfo:
+  currentIsaacInfo:
     isaacID: 0
     isaacName: 
     hp: 0
@@ -699,8 +708,7 @@ MonoBehaviour:
     shootSpeed: 0
     speed: 0
     luck: 0
-    deamonProbability: 0
-    angelProbability: 0
+  isaacData: {fileID: 11400000, guid: c1d9aae8bc36c084c94ebf87272cc4f8, type: 2}
 --- !u!4 &1917220605
 Transform:
   m_ObjectHideFlags: 0
