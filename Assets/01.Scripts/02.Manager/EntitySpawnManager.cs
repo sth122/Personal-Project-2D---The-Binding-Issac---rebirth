@@ -16,7 +16,7 @@ public class EntitySpawnManager : Singleton<EntitySpawnManager>
         {
             { EntityType.Monster, new MonsterFactory() },
             { EntityType.Item, new ItemFactory() },
-            {EntityType.Obstacle, new ObstacleFactory() }
+            { EntityType.Obstacle, new ObstacleFactory() }
         };
     }
 

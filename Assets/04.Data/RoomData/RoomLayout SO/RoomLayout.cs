@@ -50,6 +50,7 @@ public class RoomEntityData
         }
          return new RoomEntityData(cloneInfos);
     }
+
     public RoomEntityData(List<SpawnInfo> spawnInfos)
     {
         this.spawnInfos = spawnInfos;

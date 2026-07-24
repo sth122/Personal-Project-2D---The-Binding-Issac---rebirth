@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public class ObstacleInfo
 {
     public int id;
@@ -19,8 +21,7 @@ public class ObstacleInfo
 }
 
 [CreateAssetMenu(fileName = "ObstacleData", menuName = "Data/ObstacleData")]
-public class ObstacleData
-    : ScriptableObject
+public class ObstacleData : ScriptableObject
 {
     public List<ObstacleInfo> obstacleList =  new List<ObstacleInfo>();
 }

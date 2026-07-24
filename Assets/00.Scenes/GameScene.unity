@@ -659,6 +659,7 @@ MonoBehaviour:
   <MonsterData>k__BackingField: {fileID: 11400000, guid: 88444366d0d91d14a911781d00b12809, type: 2}
   <IsaacData>k__BackingField: {fileID: 11400000, guid: c1d9aae8bc36c084c94ebf87272cc4f8, type: 2}
   <ItemData>k__BackingField: {fileID: 11400000, guid: 71e5c689abb29fd4c8853dea8e6cc8c1, type: 2}
+  <ObstacleData>k__BackingField: {fileID: 11400000, guid: 4b0bfe3175bbece429f205cf8bb65491, type: 2}
 --- !u!4 &1491700941
 Transform:
   m_ObjectHideFlags: 0
@@ -1011,63 +1012,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1001 &7276690999866409526
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 170697422089699945, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2383874216528299028, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
-      propertyPath: m_Name
-      value: Stone
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0326b47a38c6f2a47b6e8b232aafbc91, type: 3}
 --- !u!4 &7732415091797316294
 Transform:
   m_ObjectHideFlags: 0
@@ -1361,4 +1305,3 @@ SceneRoots:
   - {fileID: 672733412}
   - {fileID: 525932129}
   - {fileID: 1491700941}
-  - {fileID: 7276690999866409526}

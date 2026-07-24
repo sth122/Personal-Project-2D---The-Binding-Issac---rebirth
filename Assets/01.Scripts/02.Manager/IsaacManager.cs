@@ -94,16 +94,14 @@ public class IsaacManager : Singleton<IsaacManager>
         if (currentIsaacInfo.hp >= maxHP)
         {
             currentIsaacInfo.hp = maxHP;
-            OnRecovery?.Invoke();
         }
-
+        OnRecovery?.Invoke();
         Debug.Log($"{currentIsaacInfo.hp}");
         // UI 관련 호출
     }
 
     public void HPCheck(Action OnRecovery)
     {
-        Debug.Log($"{currentIsaacInfo.hp}");
         if (currentIsaacInfo.hp < maxHP)
         {
             OnRecovery?.Invoke();
