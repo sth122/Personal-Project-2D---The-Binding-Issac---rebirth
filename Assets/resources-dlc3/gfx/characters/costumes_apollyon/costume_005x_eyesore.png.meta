@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: b8145f553abbfc744926f545f6d23cb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -199317541182709715
+    second: costume_005x_eyesore_0
+  - first:
+      213: 8583410341148755362
+    second: costume_005x_eyesore_1
+  - first:
+      213: -3417455364666207587
+    second: costume_005x_eyesore_2
+  - first:
+      213: -5900059002770077133
+    second: costume_005x_eyesore_3
+  - first:
+      213: 2533706692055417221
+    second: costume_005x_eyesore_4
+  - first:
+      213: 223831170342337969
+    second: costume_005x_eyesore_5
+  - first:
+      213: -7100679188431965709
+    second: costume_005x_eyesore_6
+  - first:
+      213: 6036171808652423397
+    second: costume_005x_eyesore_7
+  - first:
+      213: 6112834258083971456
+    second: costume_005x_eyesore_8
+  - first:
+      213: 6960107455534441597
+    second: costume_005x_eyesore_9
+  - first:
+      213: -8302681496054375122
+    second: costume_005x_eyesore_10
+  - first:
+      213: -723109242160809498
+    second: costume_005x_eyesore_11
+  - first:
+      213: 1084599049843398645
+    second: costume_005x_eyesore_12
+  - first:
+      213: 2360623713034771671
+    second: costume_005x_eyesore_13
+  - first:
+      213: 2243003623318235717
+    second: costume_005x_eyesore_14
+  - first:
+      213: -8390176913931725638
+    second: costume_005x_eyesore_15
+  - first:
+      213: 2440085422481650089
+    second: costume_005x_eyesore_16
+  - first:
+      213: 6901162128314983430
+    second: costume_005x_eyesore_17
+  - first:
+      213: 1294422153156448827
+    second: costume_005x_eyesore_18
+  - first:
+      213: -4463357694128209942
+    second: costume_005x_eyesore_19
+  - first:
+      213: -3418820031870079749
+    second: costume_005x_eyesore_20
+  - first:
+      213: -3238689623142902323
+    second: costume_005x_eyesore_21
+  - first:
+      213: -748224370575269031
+    second: costume_005x_eyesore_22
+  - first:
+      213: -5965464101251138047
+    second: costume_005x_eyesore_23
+  - first:
+      213: -8395429317334665475
+    second: costume_005x_eyesore_24
+  - first:
+      213: -186780718521228898
+    second: costume_005x_eyesore_25
+  - first:
+      213: -2396286513307555635
+    second: costume_005x_eyesore_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: costume_005x_eyesore_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 14
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20ec4890c1eb3df0800000000000000
+      internalID: -199317541182709715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 19
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a506997a366e1770800000000000000
+      internalID: 8583410341148755362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 12
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d925159c372c290d0800000000000000
+      internalID: -3417455364666207587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 17
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a4b0ac897ce1ea0800000000000000
+      internalID: -5900059002770077133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5814ef0ffc8892320800000000000000
+      internalID: 2533706692055417221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd3ae573453b1300800000000000000
+      internalID: 223831170342337969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1f08d26e1557d90800000000000000
+      internalID: -7100679188431965709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 13
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e074f9674ac4c350800000000000000
+      internalID: 6036171808652423397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 6
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0810febde5625d450800000000000000
+      internalID: 6112834258083971456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 5
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74ada5cad4479060800000000000000
+      internalID: 6960107455534441597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 20
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d58783b23f6cc80800000000000000
+      internalID: -8302681496054375122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 13
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9f337b9fff6f5f0800000000000000
+      internalID: -723109242160809498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 18
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f754a1e6154d0f00800000000000000
+      internalID: 1084599049843398645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_13
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc1dc782ce92c020800000000000000
+      internalID: 2360623713034771671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a2cc559efb02f10800000000000000
+      internalID: 2243003623318235717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab49a62cc8a109b80800000000000000
+      internalID: -8390176913931725638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 3
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1b0ac73ccecd120800000000000000
+      internalID: 2440085422481650089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604e79b446ad5cf50800000000000000
+      internalID: 6901162128314983430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3259441716b6f110800000000000000
+      internalID: 1294422153156448827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef3bf733d7fe02c0800000000000000
+      internalID: -4463357694128209942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfce4617b49ed80d0800000000000000
+      internalID: -3418820031870079749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 4
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5d2d272fcdd03d0800000000000000
+      internalID: -3238689623142902323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_22
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953229336e5cd95f0800000000000000
+      internalID: -748224370575269031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_23
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 3
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10eb49c910a663da0800000000000000
+      internalID: -5965464101251138047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_24
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 4
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6fd5b44817d7b80800000000000000
+      internalID: -8395429317334665475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9166a51deb686df0800000000000000
+      internalID: -186780718521228898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: costume_005x_eyesore_26
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 3
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc86e3abc1eaebed0800000000000000
+      internalID: -2396286513307555635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      costume_005x_eyesore_0: -199317541182709715
+      costume_005x_eyesore_1: 8583410341148755362
+      costume_005x_eyesore_10: -8302681496054375122
+      costume_005x_eyesore_11: -723109242160809498
+      costume_005x_eyesore_12: 1084599049843398645
+      costume_005x_eyesore_13: 2360623713034771671
+      costume_005x_eyesore_14: 2243003623318235717
+      costume_005x_eyesore_15: -8390176913931725638
+      costume_005x_eyesore_16: 2440085422481650089
+      costume_005x_eyesore_17: 6901162128314983430
+      costume_005x_eyesore_18: 1294422153156448827
+      costume_005x_eyesore_19: -4463357694128209942
+      costume_005x_eyesore_2: -3417455364666207587
+      costume_005x_eyesore_20: -3418820031870079749
+      costume_005x_eyesore_21: -3238689623142902323
+      costume_005x_eyesore_22: -748224370575269031
+      costume_005x_eyesore_23: -5965464101251138047
+      costume_005x_eyesore_24: -8395429317334665475
+      costume_005x_eyesore_25: -186780718521228898
+      costume_005x_eyesore_26: -2396286513307555635
+      costume_005x_eyesore_3: -5900059002770077133
+      costume_005x_eyesore_4: 2533706692055417221
+      costume_005x_eyesore_5: 223831170342337969
+      costume_005x_eyesore_6: -7100679188431965709
+      costume_005x_eyesore_7: 6036171808652423397
+      costume_005x_eyesore_8: 6112834258083971456
+      costume_005x_eyesore_9: 6960107455534441597
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

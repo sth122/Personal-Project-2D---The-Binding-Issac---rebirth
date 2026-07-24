@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.IO.LowLevel.Unsafe;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public enum IsaacCurrentState
 {
-    Idle, Move, Attack, Die, Extra
+    Idle, Move, Attack, Die
 }
 
 public class IsaacController : MonoBehaviour, ITakeDamageable
@@ -26,6 +28,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     private bool isKnockback;
     private float knockbackForce;
     private float knockbackTime;
+    private readonly Color hitRed = new Color(5f, 0, 0, 1f);
     #endregion
 
     private void Awake()
@@ -35,29 +38,38 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         rb = GetComponent<Rigidbody2D>();
         Input = GetComponent<IsaacInput>();
 
+        isaacInfo = IsaacManager.Instance.GameStart(
+            () =>
+            {
+                StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+            });
+
         stateMachine = new StateMachine<IsaacController>(this);
         isKnockback = false;
-        knockbackTime = 1f;
+        knockbackTime = 0.5f;
         knockbakcWait = new WaitForSeconds(knockbackTime);
         knockbackForce = 2f; // 임시방편
     }
 
     void Start()
     {
-        // 게임 시작할 때 Extra SpriteRenderer.Color.a = 0;
-        // 게임 제일 처음 시작 시 2초간 움직일 수 없음
-        // IsaacData를 받아 온 후에 StarAnimTime 실행해야함 => 안그러면 초기화 값 안들어감
-        // 현재는 IsaacManager에서 하지만 추후 GameManager 또는 StageManager에서 할 예정
-        isaacInfo = IsaacManager.Instance.GameStart();
-
-
-        StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
-
         iStateDic[IsaacCurrentState.Idle] = new IsaacIdleState(this, animController, rb, isaacInfo);
         iStateDic[IsaacCurrentState.Move] = new IsaacMoveState(this, animController, rb, isaacInfo);
         iStateDic[IsaacCurrentState.Attack] = new IsaacAttackState(this, animController, rb, isaacInfo);
         iStateDic[IsaacCurrentState.Die] = new IsaacDieState(this, animController, rb, isaacInfo);
+
+        // 게임 시작할 때 Extra SpriteRenderer.Color.a = 0;
+        // 게임 제일 처음 시작 시 2초간 움직일 수 없음
+        // IsaacData를 받아 온 후에 StarAnimTime 실행해야함 => 안그러면 초기화 값 안들어감
+        // 현재는 IsaacManager에서 하지만 추후 GameManager 또는 StageManager에서 할 예정
+        //IsaacManager.Instance.GameStart(() => 
+        //{
+        //    StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+        //});
+        //StartAnimTime(2f, () => { stateMachine.ChangeState(iStateDic[IsaacCurrentState.Idle]); });
+        
     }
+
 
     private void Update()
     {
@@ -83,13 +95,11 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
 
     public void TakeDamage(float damage, Vector2 damageDir) 
     {
-        Debug.Log("데미지");
         if (damage == 0 || isKnockback)
             return;
 
-        IsaacManager.Instance.DecreaseHP(damage, () =>
+        IsaacManager.Instance.TakeDamage(damage, () =>
         {
-            Debug.Log("데미지");
             Dead();
             return;
         });
@@ -101,10 +111,6 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         stateMachine.ChangeState(iStateDic[IsaacCurrentState.Die]);
     }
 
-    /// <summary>
-    /// 넉백 메서드
-    /// </summary>
-    /// <param name="damageDir"></param>
     public void Knockback(Vector2 damageDir) 
     {
         Debug.Log("아이작 넉백 발생");
@@ -113,10 +119,6 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
         StartCoroutine(HitFlash());
     }
-    /// <summary>
-    /// 피격 시 이펙트 + 넉백 시간 계산
-    /// </summary>
-    /// <returns></returns>
     public IEnumerator HitFlash() 
     {
         animController.SetAnimTrigger(IsaacAnimState.Hit, true);

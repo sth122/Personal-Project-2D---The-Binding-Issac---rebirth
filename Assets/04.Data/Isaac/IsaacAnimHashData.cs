@@ -12,12 +12,10 @@ public class IsaacAnimHashData
         isaacAnimHashData[IsaacAnimState.Up] = Animator.StringToHash("isUp");
         isaacAnimHashData[IsaacAnimState.Down] = Animator.StringToHash("isDown");
         isaacAnimHashData[IsaacAnimState.LeftRight] = Animator.StringToHash("isLeftRight");
-
         isaacAnimHashData[IsaacAnimState.Attack] = Animator.StringToHash("isAttack");
         isaacAnimHashData[IsaacAnimState.AttackUp] = Animator.StringToHash("isAttackUp");
         isaacAnimHashData[IsaacAnimState.AttackDown] = Animator.StringToHash("isAttackDown");
         isaacAnimHashData[IsaacAnimState.AttackLeftRight] = Animator.StringToHash("isAttackLeftRight");
-        
         isaacAnimHashData[IsaacAnimState.Die] = Animator.StringToHash("isDie");
         isaacAnimHashData[IsaacAnimState.Hit] = Animator.StringToHash("isHit");
         isaacAnimHashData[IsaacAnimState.PickUp] = Animator.StringToHash("isPickUp");
