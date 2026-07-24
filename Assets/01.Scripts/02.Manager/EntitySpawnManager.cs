@@ -2,7 +2,7 @@
 
 public enum EntityType
 {
-    Monster, Item, Object
+    Monster, Item, Obstacle
 }
 
 public class EntitySpawnManager : Singleton<EntitySpawnManager>
@@ -15,7 +15,8 @@ public class EntitySpawnManager : Singleton<EntitySpawnManager>
         factoryMap = new Dictionary<EntityType, EntityFactory>()
         {
             { EntityType.Monster, new MonsterFactory() },
-            { EntityType.Item, new ItemFactory() }
+            { EntityType.Item, new ItemFactory() },
+            {EntityType.Obstacle, new ObstacleFactory() }
         };
     }
 

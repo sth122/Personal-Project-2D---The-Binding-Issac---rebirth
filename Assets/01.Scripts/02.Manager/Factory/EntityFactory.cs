@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NUnit.Framework.Interfaces;
+using UnityEngine;
 
 abstract public class EntityFactory
 {
@@ -45,6 +46,26 @@ public class ItemFactory : EntityFactory
         GameObject item = ObjectPoolManager.Instance.GetObject(itemInfo.Clone().name);
         item.transform.position = info.position;
         if(item == null)
+        {
+            Debug.Log($"{info.id} not found");
+        }
+    }
+}
+
+public class ObstacleFactory : EntityFactory
+{
+    private ObstacleData obstacleData;
+    public ObstacleFactory()
+    {
+        obstacleData = DataManager.Instance.ObstacleData;
+    }
+
+    public override void OnSpawnEntity(SpawnInfo info)
+    {
+        ObstacleInfo obstacleInfo = obstacleData.obstacleList[info.id];
+        GameObject obstacle = ObjectPoolManager.Instance.GetObject(obstacleInfo.Clone().name);
+        obstacle.transform.position = info.position;
+        if (obstacleInfo == null)
         {
             Debug.Log($"{info.id} not found");
         }
