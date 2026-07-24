@@ -21,4 +21,5 @@ abstract public class Item : MonoBehaviour
     protected string itemName;
     // 각각의 아이템 효과 추상 메서드
     protected abstract void ItemEffect();
+    protected virtual void OnCollisionEnter2D(Collision2D collision) { }
 }

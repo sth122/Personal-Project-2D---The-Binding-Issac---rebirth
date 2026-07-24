@@ -17,11 +17,24 @@ public class Heart : Item, IChangeStat, IReturnPool
 
     public void ChangeStat()
     {
-        
+
     }
 
     public void ReturnPool()
     {
         ObjectPoolManager.Instance.ReturnObject("Heart", this.gameObject);
+    }
+
+    protected override void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))
+        {
+            IsaacManager.Instance.HPCheck(
+                () =>
+                {
+                    ItemEffect();
+                    ReturnPool();
+                });
+        }
     }
 }

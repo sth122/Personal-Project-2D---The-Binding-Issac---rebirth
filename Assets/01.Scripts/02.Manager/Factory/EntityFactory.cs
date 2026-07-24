@@ -36,11 +36,17 @@ public class ItemFactory : EntityFactory
     private ItemData itemData;
     public ItemFactory()
     {
-        //itemData = DataManager.Instance.ItemData;
+        itemData = DataManager.Instance.ItemData;
     }
 
     public override void OnSpawnEntity(SpawnInfo info)
     {
-        throw new System.NotImplementedException();
+        ItemInfo itemInfo = itemData.itemListDic[info.id];
+        GameObject item = ObjectPoolManager.Instance.GetObject(itemInfo.Clone().name);
+        item.transform.position = info.position;
+        if(item == null)
+        {
+            Debug.Log($"{info.id} not found");
+        }
     }
 }

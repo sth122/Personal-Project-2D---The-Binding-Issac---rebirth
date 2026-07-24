@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdf7736580c5f5e4fbe36890073674e4, type: 3}
   m_Name: ItemData
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  heartItemList:
-  - id: 0
+  pickUpItemList:
+  - id: 1001
     name: Heart
-    type: 1
-  coinItemList: []
-  bombItemList: []
-  keyItemList: []
-  pillItemList: []
-  cardItemList: []
+    type: 0
+  - id: 1101
+    name: Key
+    type: 3
+  passiveItemList: []
+  activeItemList: []
+  accessoriesItemList: []

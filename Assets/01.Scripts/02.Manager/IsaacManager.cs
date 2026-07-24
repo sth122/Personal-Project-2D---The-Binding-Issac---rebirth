@@ -14,7 +14,6 @@ public class IsaacManager : Singleton<IsaacManager>
     [SerializeField] IsaacInfo currentIsaacInfo;
     public IsaacData isaacData;
     private bool isDie;
-    private Dictionary<PickUpType, int> pickUpItems = new();
     private float maxHP;
 
     protected override void Awake()
@@ -31,13 +30,6 @@ public class IsaacManager : Singleton<IsaacManager>
         // 메인 메뉴에서 캐릭터 선택 시 초기화 하는 방향으로 추후 수정
         currentIsaacInfo = DataManager.Instance.IsaacData.isaacList[0].Clone();
         maxHP = currentIsaacInfo.hp;
-
-        // 초기 픽업 아이템 초기화
-        foreach (PickUpType type in Enum.GetValues(typeof(PickUpType)))
-        {
-            Debug.Log($"{pickUpItems[type]} {type.ToString()} = 0");
-            pickUpItems[type] = 0;
-        }
     }
 
     public IsaacInfo GameStart()
@@ -84,11 +76,22 @@ public class IsaacManager : Singleton<IsaacManager>
 
     public void HPRecovery(float effect)
     {
+        Debug.Log($"HP {effect} 회복");
+
         currentIsaacInfo.hp += effect;
-        if(currentIsaacInfo.hp > maxHP)
+        if(currentIsaacInfo.hp >= maxHP)
         {
             currentIsaacInfo.hp = maxHP;
         }
         // UI 관련 호출
+    }
+
+    public void HPCheck(Action OnRecovery)
+    {
+        if (currentIsaacInfo.hp == maxHP)
+        {
+            OnRecovery?.Invoke();
+        }
+        else return;
     }
 }
