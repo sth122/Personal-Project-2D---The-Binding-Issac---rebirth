@@ -15,21 +15,24 @@ MonoBehaviour:
   normalRoom:
   - spawnInfos:
     - entityType: 0
-      id: 0
+      id: 1
       position: {x: 2, y: 2, z: 0}
     - entityType: 0
+      id: 1
+      position: {x: 2, y: 4, z: 0}
+    - entityType: 1
+      id: 0
+      position: {x: 6, y: 2, z: 0}
+  - spawnInfos:
+    - entityType: 0
+      id: 1
+      position: {x: 2, y: 2, z: 0}
+    - entityType: 1
       id: 0
       position: {x: 2, y: 4, z: 0}
     - entityType: 1
-      id: 1001
+      id: 1
       position: {x: 6, y: 2, z: 0}
-  - spawnInfos:
     - entityType: 1
-      id: 1001
-      position: {x: 2, y: 2, z: 0}
-    - entityType: 1
-      id: 1001
-      position: {x: 2, y: 4, z: 0}
-    - entityType: 1
-      id: 1001
+      id: 1
       position: {x: 6, y: 2, z: 0}

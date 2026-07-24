@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -71,7 +70,10 @@ public class IsaacManager : Singleton<IsaacManager>
     }
 
     #region Item Method
-    public void GetItem() { }
+    public void GetItem(Action OnGetItem) 
+    {
+        OnGetItem?.Invoke();
+    }
     #endregion
 
     public void HPRecovery(float effect)
@@ -83,15 +85,21 @@ public class IsaacManager : Singleton<IsaacManager>
         {
             currentIsaacInfo.hp = maxHP;
         }
+
+        Debug.Log($"{currentIsaacInfo.hp}");
         // UI 관련 호출
     }
 
     public void HPCheck(Action OnRecovery)
     {
-        if (currentIsaacInfo.hp == maxHP)
+        Debug.Log($"{currentIsaacInfo.hp}");
+        if (currentIsaacInfo.hp < maxHP)
         {
             OnRecovery?.Invoke();
         }
-        else return;
+        else
+        {
+            Debug.Log("체력 만땅");
+        }
     }
 }

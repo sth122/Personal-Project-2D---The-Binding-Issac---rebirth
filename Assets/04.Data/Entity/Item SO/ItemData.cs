@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public enum ItemType
 {
     PickUp, Passive, Active, Accessories
 }
+
 [Serializable]
 public class ItemInfo
 {
@@ -27,5 +29,4 @@ public class ItemInfo
 public class ItemData : ScriptableObject
 {
     public List<ItemInfo> itemListDic = new List<ItemInfo>();
-
 }

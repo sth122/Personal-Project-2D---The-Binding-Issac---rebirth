@@ -7,10 +7,4 @@ public class DataManager : Singleton<DataManager>
     [field : SerializeField] public IsaacData IsaacData { get; private set; }
 
     [field : SerializeField] public ItemData ItemData { get; private set; }
-
-    protected override void Awake()
-    {
-        base.Awake();
-        ItemData.ItemDataInit();
-    }
 }
