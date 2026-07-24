@@ -113,6 +113,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
         StartCoroutine(HitFlash());
     }
+
     /// <summary>
     /// 피격 시 이펙트 + 넉백 시간 계산
     /// </summary>

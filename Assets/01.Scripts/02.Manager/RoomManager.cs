@@ -7,7 +7,6 @@ public enum RoomType
 }
 
 
-
 public class RoomManager : Singleton<RoomManager>
 {
     [SerializeField] public GameObject Player;

@@ -391,6 +391,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &995196723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995196725}
+  - component: {fileID: 995196724}
+  m_Layer: 0
+  m_Name: IsaacManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &995196724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995196723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f73ff8d0622425f4fa276e9f2f4668d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IsaacManager
+  Player: {fileID: 5902640056624608455}
+  currentIsaacInfo:
+    isaacID: 0
+    isaacName: 
+    hp: 0
+    damage: 0
+    tearsDelay: 0
+    range: 0
+    shootSpeed: 0
+    speed: 0
+    luck: 0
+  isaacData: {fileID: 11400000, guid: c1d9aae8bc36c084c94ebf87272cc4f8, type: 2}
+--- !u!4 &995196725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995196723}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.59886, y: 5.22165, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &995296173
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,40 +854,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7759688698943978925}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1867705004286793954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5902640056624608455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-  m_Actions: {fileID: -944628639613478452, guid: badd1c98632a4714abbed904271c4644, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: da02f1bc-e089-45a8-9ba1-9fd55db2b53d
-    m_ActionName: 'Isaac/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Isaac
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 1010980332}
 --- !u!1 &2449643614593150343
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,13 +970,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7759688698943978925}
-  - component: {fileID: 1867705004286793954}
   - component: {fileID: 1632573497109070533}
   - component: {fileID: 2965333427274746142}
   - component: {fileID: 7836052229199469847}
   - component: {fileID: 7836052229199469846}
   - component: {fileID: 7836052229199469848}
-  - component: {fileID: 7836052229199469849}
+  - component: {fileID: 7836052229199469850}
   m_Layer: 6
   m_Name: Isaac
   m_TagString: Isaac
@@ -1059,7 +1080,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7836052229199469849
+--- !u!114 &7836052229199469850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1068,21 +1089,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 5902640056624608455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f73ff8d0622425f4fa276e9f2f4668d0, type: 3}
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::IsaacManager
-  Player: {fileID: 5902640056624608455}
-  currentIsaacInfo:
-    isaacID: 0
-    isaacName: 
-    hp: 0
-    damage: 0
-    tearsDelay: 0
-    range: 0
-    shootSpeed: 0
-    speed: 0
-    luck: 0
-  isaacData: {fileID: 0}
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: badd1c98632a4714abbed904271c4644, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Isaac
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 1010980332}
 --- !u!1 &8666223880700724238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,4 +1303,5 @@ SceneRoots:
   - {fileID: 331657108}
   - {fileID: 672733412}
   - {fileID: 525932129}
+  - {fileID: 995196725}
   - {fileID: 1491700941}

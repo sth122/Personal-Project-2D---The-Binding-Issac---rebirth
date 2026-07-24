@@ -5,8 +5,9 @@ public class Eyes : IsaacWeapon
     [SerializeField] Transform fire;
     [SerializeField] Vector3 originFirePos;
     private string bulletName;
-    private int tearScale;
+    private float tearScale;
     private TearType type;
+
 
     protected override void Start()
     {
@@ -47,7 +48,7 @@ public class Eyes : IsaacWeapon
     /// <summary>
     /// 나중에 눈물 변경 로직 추가 ( BloodTear / 혈사(구현할진 모름) )
     /// </summary>
-    private void SetTears(TearType type, int tearScale)
+    private void SetTears(TearType type, float tearScale)
     {
         this.type = type;
         this.tearScale = tearScale;
@@ -76,3 +77,14 @@ public class Eyes : IsaacWeapon
         }
     }
 }
+
+/*
+ 
+                5                           if T > T_max
+
+                16 - 6 x sqrt(T x 1.3 + 1)  if T ≥ 0 and  T ≤ T_max
+Tear Delay = 
+                16 - 6 x sqrt(T x 1.3 + 1) - 6 x T  if T < 0 and  T > -0.77
+
+                16 - 6 x T                  if T ≤ -0.77
+ */
