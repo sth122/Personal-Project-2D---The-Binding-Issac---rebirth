@@ -2,6 +2,8 @@
 
 public class UIManager : Singleton<UIManager>
 {
+    
+
     void Start()
     {
         
@@ -9,6 +11,10 @@ public class UIManager : Singleton<UIManager>
 
     // Update is called once per frame
     void Update()
+    {
+        
+    }
+    protected override void Initialize()
     {
         
     }

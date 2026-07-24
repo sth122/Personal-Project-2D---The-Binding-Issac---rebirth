@@ -2,10 +2,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-/// <summary>
-/// ID / 체력 / 데미지 / 눈물 딜레이 / 사거리 / 눈물(투사체) 속도 / 이속 / 행운
-/// 기본 픽업 소지 아이템이 각각 다르나 편의를 위해 전부 0 0 0 으로 고정
-/// </summary>
 [Serializable]
 public class IsaacInfo
 {
@@ -18,8 +14,10 @@ public class IsaacInfo
     public float shootSpeed;    // 투사체 속도
     public float speed; // 이동 속도
     public float luck;
+    public float deamonProbability;
+    public float angelProbability;
 
-    public IsaacInfo(int isaacID, string isaacName, float hp, float damage, float tearsDelay, float range, float shootSpeed, float speed, float luck)
+    public IsaacInfo(int isaacID, string isaacName, float hp, float damage, float tearsDelay, float range, float shootSpeed, float speed, float luck, float deamonProbability, float angelProbability)
     {
         this.isaacID = isaacID;
         this.isaacName = isaacName;
@@ -30,10 +28,12 @@ public class IsaacInfo
         this.shootSpeed = shootSpeed;
         this.speed = speed;
         this.luck = luck;
+        this.deamonProbability = deamonProbability;
+        this.angelProbability = angelProbability;
     }
 
     public IsaacInfo Clone()
-    { return new IsaacInfo(isaacID, isaacName, hp, damage, tearsDelay, range, shootSpeed, speed, luck); }
+    { return new IsaacInfo(isaacID, isaacName, hp, damage, tearsDelay, range, shootSpeed, speed, luck, deamonProbability, angelProbability); }
 }
 
 [CreateAssetMenu(fileName = "IsaacStatData", menuName = "Data/Isaac")]
