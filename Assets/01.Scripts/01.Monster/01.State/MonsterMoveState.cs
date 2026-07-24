@@ -22,7 +22,6 @@ public class MonsterMoveState : MonsterState
         controller.AnimController.AnimationStop(nowState);
     }
 
-    // Move만 따로 하는 애들 있을 경우 구현
     public override void Update()
     {
 

@@ -23,22 +23,20 @@ public interface IReturnPool
     public void ReturnPool();
 }
 
-// 나중에 IsaacCurrentState랑 통합 예정
 public enum MonsterCurrentState
 {
     Idle, Move, Trace, Attack, Die
 }
 
-// IsaacController / MonsterController 추상화는 제일 마지막 리펙토링에 시도
 abstract public class MonsterController : MonoBehaviour, IReturnPool
 {
-    #region variable
-    public StateMachine<MonsterController> stateMachine;
+	#region variable
+	public StateMachine<MonsterController> stateMachine;
     [SerializeField] protected Transform target;
 
     protected Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
-    [SerializeField] protected MonsterInfo mData;
+    [SerializeField]protected MonsterInfo mData;
     protected MonsterAnimController animController;
     public MonsterAnimController AnimController { get { return animController; } }
     protected SpriteRenderer sr;
@@ -89,9 +87,6 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     protected virtual void OnDataLodead() { }
 
-    /// <summary>
-    /// 몬스터 생성 시 소환 anim + 움직임 딜레이
-    /// </summary>
     public virtual void Appear()
     {
         StartAnimTime(mData.appearAnimTime, () => { stateMachine.ChangeState(mStateDic[MonsterCurrentState.Idle]); });
@@ -104,11 +99,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         // ReturnPool에서 사망 이펙트 추가
     }
 
-    public void ReturnPool()
-    {
-        ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
-    }
-
+    public abstract void ReturnPool();
     public void StartAnimTime(float time, Action OnComplete)
     {
         Debug.Log("StartAnimTime에 진입");
@@ -121,11 +112,10 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         OnComplete?.Invoke();
     }
 
-
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac") &&
-            collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
+        if(collision.gameObject == target.gameObject
+            && collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
         {
             isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
         }

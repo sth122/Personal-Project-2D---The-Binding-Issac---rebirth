@@ -18,13 +18,13 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
     public SerializedDictionary<string, PoolData> prefabDic = new SerializedDictionary<string, PoolData>();
     protected Dictionary<string, Queue<GameObject>> activatedPool = new();
 
-    protected override void Awake()
+    private void Awake()
     {
-        base.Awake();
+        InitPool();
     }
 
 
-    protected override void Initialize()
+    public void InitPool()
     {
         foreach (var o in prefabDic)
         {
@@ -35,6 +35,8 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
                 parentPool.transform.SetParent(this.transform);
                 prefabDic[o.Key].parentTrans = parentPool.transform;
                 
+                
+
                 for (int i = 0; i < o.Value.InitSpawnCount; i++)
                 {
                     GameObject go = Instantiate(o.Value.Prefab, o.Value.parentTrans);
@@ -52,14 +54,13 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
 
         if (activatedPool.TryGetValue(poolObjectName, out var objectPool))
         {
+            Debug.Log($"{objectPool} TryGetValue");
             if (objectPool.Count == 0)
             {
                 effect = Instantiate(prefabDic[poolObjectName].Prefab, prefabDic[poolObjectName].parentTrans);
-                Debug.Log($"{prefabDic[poolObjectName].Prefab.name} Count ) TryGetValue");
             }
             else
             {
-                Debug.Log($"{objectPool.Peek().name} TryGetValue");
                 effect = objectPool.Dequeue();
             }
         }
@@ -67,7 +68,7 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
         {
             // 예외 처리 넣어야함
             // 풀을 만들든 에러 문구 뜨든
-            Debug.LogError($"{poolObjectName} pool 실패");
+            Debug.LogError("pool 실패");
         }
         effect.SetActive(true);
         return effect;

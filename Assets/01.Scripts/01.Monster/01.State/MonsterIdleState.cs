@@ -32,4 +32,9 @@ public class MonsterIdleState : MonsterState
             controller.stateMachine.ChangeState(controller.mStateDic[MonsterCurrentState.Move]);
         }
     }
+
+    public override void FixedUpdate()
+    {
+
+    }
 }

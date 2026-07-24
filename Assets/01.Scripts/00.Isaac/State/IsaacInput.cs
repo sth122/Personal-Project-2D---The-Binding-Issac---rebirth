@@ -119,9 +119,6 @@ public class IsaacInput : MonoBehaviour
         preesedDirections.Remove(dir);
     }
 
-    /// <summary>
-    /// 현재 공격 입력 방향 반환
-    /// </summary>
     public Vector2 AttackDirection
     {
         get

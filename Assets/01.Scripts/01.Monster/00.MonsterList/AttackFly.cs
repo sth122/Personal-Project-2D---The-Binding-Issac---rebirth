@@ -24,6 +24,14 @@ public class AttackFly : Fly
     {
         Debug.Log($"Attack Fly 세팅 {mData}");
     }
+    public float ContactAttack()
+    {
+        return 0;
+    }
+    public void Attack()
+    {
+
+    }
 
     public override void Trace()
     {
@@ -39,14 +47,13 @@ public class AttackFly : Fly
     {
         base.Knockback(damageDir);
     }
+    public override void ReturnPool()
+    {
+        base.ReturnPool();
+    }
 
     public override IEnumerator HitFlash()
     {
         return base.HitFlash();
-    }
-
-    protected override void OnCollisionEnter2D(Collision2D collision)
-    {
-        base.OnCollisionEnter2D(collision);
     }
 }
