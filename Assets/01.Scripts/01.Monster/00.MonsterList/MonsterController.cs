@@ -32,13 +32,13 @@ public enum MonsterCurrentState
 // IsaacController / MonsterController 추상화는 제일 마지막 리펙토링에 시도
 abstract public class MonsterController : MonoBehaviour, IReturnPool
 {
-	#region variable
-	public StateMachine<MonsterController> stateMachine;
+    #region variable
+    public StateMachine<MonsterController> stateMachine;
     [SerializeField] protected Transform target;
 
     protected Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
-    [SerializeField]protected MonsterInfo mData;
+    [SerializeField] protected MonsterInfo mData;
     protected MonsterAnimController animController;
     public MonsterAnimController AnimController { get { return animController; } }
     protected SpriteRenderer sr;
@@ -104,7 +104,11 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         // ReturnPool에서 사망 이펙트 추가
     }
 
-    public abstract void ReturnPool();
+    public void ReturnPool()
+    {
+        ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
+    }
+
     public void StartAnimTime(float time, Action OnComplete)
     {
         Debug.Log("StartAnimTime에 진입");
@@ -117,10 +121,11 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         OnComplete?.Invoke();
     }
 
+
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject == target.gameObject
-            && collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac") &&
+            collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
         {
             isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
         }

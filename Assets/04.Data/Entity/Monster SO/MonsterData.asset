@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917092349bcd99246832f09375208528, type: 3}
+  m_Name: MonsterData
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterStatData
+  monsterList:
+  - monsterID: 0
+    name: Fly
+    totalHp: 0
+    baseHp: 3
+    damage: 0
+    contactDamage: 0
+    stageHp: 0
+    speed: 1
+    traceRange: 5
+    attackRange: 0
+    appearAnimTime: 0.25
+    dieAnimTime: 0.22
+    moveType: 1
+  - monsterID: 1
+    name: AttackFly
+    totalHp: 0
+    baseHp: 5
+    damage: 0
+    contactDamage: 1
+    stageHp: 0
+    speed: 1.2
+    traceRange: 5
+    attackRange: 0
+    appearAnimTime: 0.25
+    dieAnimTime: 0.22
+    moveType: 1
+  - monsterID: 2
+    name: Moter
+    totalHp: 0
+    baseHp: 10
+    damage: 0
+    contactDamage: 0
+    stageHp: 0
+    speed: 0
+    traceRange: 0
+    attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
+    moveType: 1
+  - monsterID: 3
+    name: Pooter
+    totalHp: 0
+    baseHp: 8
+    damage: 0
+    contactDamage: 0
+    stageHp: 0
+    speed: 0
+    traceRange: 0
+    attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
+    moveType: 1
+  - monsterID: 4
+    name: BoomFly
+    totalHp: 0
+    baseHp: 8
+    damage: 0
+    contactDamage: 0
+    stageHp: 3
+    speed: 0
+    traceRange: 0
+    attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
+    moveType: 1
+  - monsterID: 5
+    name: RedBoomFly
+    totalHp: 0
+    baseHp: 8
+    damage: 0
+    contactDamage: 0
+    stageHp: 3
+    speed: 0
+    traceRange: 0
+    attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
+    moveType: 1
+  - monsterID: 6
+    name: Sucker
+    totalHp: 0
+    baseHp: 10
+    damage: 0
+    contactDamage: 0
+    stageHp: 0
+    speed: 0
+    traceRange: 0
+    attackRange: 0
+    appearAnimTime: 0
+    dieAnimTime: 0
+    moveType: 1

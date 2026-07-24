@@ -12,8 +12,4 @@ public class UIManager : Singleton<UIManager>
     {
         
     }
-    protected override void Initialize()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
 }

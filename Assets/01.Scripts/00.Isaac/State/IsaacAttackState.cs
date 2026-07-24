@@ -19,7 +19,7 @@ public class IsaacAttackState : IsaacState
     public override void Exit()
     {
         Debug.Log("IsaacAttackState 퇴장");
-        animController.SetFalseAttackAnim();
+        animController.SetBoolAllAnim(IsaacCurrentState.Attack);
         animController.SetAnimTrigger(IsaacAnimState.Attack, false);
     }
 
