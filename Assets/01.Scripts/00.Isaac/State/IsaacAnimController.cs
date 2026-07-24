@@ -1,14 +1,10 @@
-﻿using System;
+﻿using NUnit.Framework.Constraints;
 using System.Collections.Generic;
 using UnityEngine;
 
 public enum IsaacAnimState
 {
-    Up, Down, LeftRight, Attack, AttackUp, AttackDown, AttackLeftRight, Die, Hit, PickUp, FallDown, Appear
-}
-public enum IsaacObject
-{
-    Extra, Base, Head
+    Idle, Up, Down, LeftRight, Attack, AttackUp, AttackDown, AttackLeftRight, Die, Hit, PickUp, FallDown, Appear
 }
 public class IsaacAnimController : MonoBehaviour
 {
@@ -20,9 +16,37 @@ public class IsaacAnimController : MonoBehaviour
     private IsaacAnimHashData isaacAnimData = new IsaacAnimHashData();
     private Animator animator;
 
-    private int isAttackHash;
-
     public Dictionary<IsaacAnimState, int> animDic;
+    Dictionary<IsaacCurrentState, List<IsaacAnimState>> stateDic = new();
+
+    private void Init()
+    {
+        stateDic[IsaacCurrentState.Idle] = new List<IsaacAnimState>()
+        {
+            IsaacAnimState.Idle
+        };
+
+        stateDic[IsaacCurrentState.Move] = new List<IsaacAnimState>() 
+        {
+            IsaacAnimState.Up, IsaacAnimState.Down, IsaacAnimState.LeftRight 
+        };
+
+        
+        stateDic[IsaacCurrentState.Attack] = new List<IsaacAnimState>()
+        {
+            IsaacAnimState.AttackUp, IsaacAnimState.AttackDown, IsaacAnimState.AttackLeftRight }
+        ;
+        
+        stateDic[IsaacCurrentState.Extra] = new List<IsaacAnimState>()
+        { 
+            IsaacAnimState.Die,
+            IsaacAnimState.Hit,
+            IsaacAnimState.PickUp,
+            IsaacAnimState.FallDown,
+            IsaacAnimState.Appear,
+        };
+
+    }
 
     private void Awake()
     {
@@ -30,6 +54,7 @@ public class IsaacAnimController : MonoBehaviour
         isaacAnimData.Initialize();
 
         animDic = isaacAnimData.isaacAnimHashData;
+        Init();
     }
 
 
@@ -92,11 +117,12 @@ public class IsaacAnimController : MonoBehaviour
         }
     }
 
-    public void SetFalseAttackAnim()
+    public void SetBoolAllAnim(IsaacCurrentState state)
     {
-        animator.SetBool(animDic[IsaacAnimState.AttackUp], false);
-        animator.SetBool(animDic[IsaacAnimState.AttackDown], false);
-        animator.SetBool(animDic[IsaacAnimState.AttackLeftRight], false);
+        foreach(var key in stateDic[state])
+        {
+            animator.SetBool(animDic[key], false);
+        }
     }
 
     public void FallDownAnim()

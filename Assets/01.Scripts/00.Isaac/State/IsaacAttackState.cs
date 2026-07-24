@@ -19,14 +19,13 @@ public class IsaacAttackState : IsaacState
     public override void Exit()
     {
         Debug.Log("IsaacAttackState 퇴장");
-        animController.SetFalseAttackAnim();
+        animController.SetBoolAllAnim(IsaacCurrentState.Attack);
         animController.SetAnimTrigger(IsaacAnimState.Attack, false);
     }
 
     public override void Update()
     {
         attackDir = controller.Input.AttackDirection;
-        //attackDir = controller.Input.IsaacActions.Attack.ReadValue<Vector2>();
         moveDir = controller.Input.IsaacActions.Move.ReadValue<Vector2>();
 
         animController.BaseMoveAnim(moveDir);

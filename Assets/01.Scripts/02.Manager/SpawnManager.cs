@@ -1,26 +1,42 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
+
+public enum EntityType
+{
+    Monster, Item, Obstacle
+}
 
 public class SpawnManager : Singleton<SpawnManager>
 {
-    [SerializeField] GameObject Player;
-    public MonsterData monsterStatData;
+    private Dictionary<EntityType, EntityFactory> factoryMap;
+    private BulletFactory bulletFactory;
+    private SpawnInfo cloneInfo;
 
-    public RoomLayoutData roomLayoutData;
-
-    private void Start()
+    protected override void Initialize()
     {
-        foreach(var spawnInfo in roomLayoutData.spawnList)
+        factoryMap = new Dictionary<EntityType, EntityFactory>()
         {
-            MonsterInfo mStat = monsterStatData.monsterList.Find(x => x.monsterID == spawnInfo.monsterID);
-            var monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
-            monster.transform.position = spawnInfo.position;
+            { EntityType.Monster, new MonsterFactory() },
+            { EntityType.Item, new ItemFactory() },
+            { EntityType.Obstacle, new ObstacleFactory() }
+        };
+        bulletFactory = new BulletFactory();
+    }
 
-            if(monster != null)
+    public void SpawnAll(RoomEntityData data)
+    {
+        foreach (var k in data.spawnInfos)
+        {
+            cloneInfo = k.Clone();
+            if (factoryMap.ContainsKey(k.entityType))
             {
-                MonsterController mController = monster.GetComponent<MonsterController>();
-                mController.InitData(mStat, Player.transform);
-                mController.Appear();
+                factoryMap[k.entityType].OnSpawnEntity(cloneInfo);
             }
         }
     }
+    public GameObject SpawnBullet(TearType type)
+    {
+        return bulletFactory.OnSpawnBullet(type);
+    }
+        
 }

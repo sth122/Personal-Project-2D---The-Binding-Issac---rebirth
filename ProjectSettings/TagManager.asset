@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Isaac Head
+  - Isaac Body
+  - Isaac
+  - HitBox
   layers:
   - Default
   - TransparentFX
@@ -12,14 +16,14 @@ TagManager:
   - Water
   - UI
   - Isaac
+  - Isaac Collider
   - Isaac Bullet
   - Monster
+  - Monster Collider
   - Monster Bullet
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Wall
+  - PickUp
+  - Obstacle
   - 
   - 
   - 
