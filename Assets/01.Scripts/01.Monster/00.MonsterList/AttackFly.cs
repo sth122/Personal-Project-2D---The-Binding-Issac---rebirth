@@ -44,4 +44,9 @@ public class AttackFly : Fly
     {
         return base.HitFlash();
     }
+
+    protected override void OnCollisionEnter2D(Collision2D collision)
+    {
+        base.OnCollisionEnter2D(collision);
+    }
 }

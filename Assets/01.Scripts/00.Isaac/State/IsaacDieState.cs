@@ -2,6 +2,8 @@
 
 public class IsaacDieState : IsaacState
 {
+    private Collider2D[] col;
+
     public IsaacDieState(IsaacController controller, IsaacAnimController animController, Rigidbody2D rb, IsaacInfo isaacInfo) : base(controller, animController, rb, isaacInfo)
     {
         this.controller = controller;
@@ -16,7 +18,11 @@ public class IsaacDieState : IsaacState
         animController.SetAnimTrigger(IsaacAnimState.Die, true);
         // 게임 시작할 때 다시 true 변경 필요
         rb.bodyType = RigidbodyType2D.Kinematic;
-        controller.GetComponent<CompositeCollider2D>().enabled = false;
+        col = controller.GetComponentsInChildren<Collider2D>();
+        foreach(var c in col)
+        {
+            c.enabled = false;
+        }
         // Die 애니메이션 종료 후 UI 출력
         IsaacManager.Instance.IsaacDie();
     }

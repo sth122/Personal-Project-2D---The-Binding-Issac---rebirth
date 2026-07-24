@@ -124,7 +124,9 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac") && 
+        Debug.LogError($"{collision.gameObject.name} 충돌");
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac") &&
             collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
         {
             isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);

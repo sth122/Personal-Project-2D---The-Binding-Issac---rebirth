@@ -50,6 +50,7 @@ public class IsaacManager : Singleton<IsaacManager>
     {
         if (isDie) return;
 
+        Debug.Log("데미지");
         currentIsaacInfo.hp -= damage;
         if (currentIsaacInfo.hp <= 0)
         {

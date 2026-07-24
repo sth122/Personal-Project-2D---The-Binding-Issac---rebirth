@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.IO.LowLevel.Unsafe;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public enum IsaacCurrentState
@@ -85,12 +83,13 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
 
     public void TakeDamage(float damage, Vector2 damageDir) 
     {
+        Debug.Log("데미지");
         if (damage == 0 || isKnockback)
             return;
 
         IsaacManager.Instance.TakeDamage(damage, () =>
         {
-            // 안죽는 이유 찾아봐
+            Debug.Log("데미지");
             Dead();
             return;
         });
