@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
-using UnityEngine;
-
 
 public enum EntityType
 {
-    Monster, Item
+    Monster, Item, Object
 }
+
 public class EntitySpawnManager : Singleton<EntitySpawnManager>
 {
     private Dictionary<EntityType, EntityFactory> factoryMap;

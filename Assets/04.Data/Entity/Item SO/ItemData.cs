@@ -8,6 +8,11 @@ public enum ItemType
     PickUp, Passive, Active, Accessories
 }
 
+public enum PickUpType
+{
+    Coin, Key, Bomb,
+}
+
 [Serializable]
 public class ItemInfo
 {

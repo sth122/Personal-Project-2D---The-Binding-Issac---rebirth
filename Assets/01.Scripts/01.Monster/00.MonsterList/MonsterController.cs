@@ -104,7 +104,11 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         // ReturnPool에서 사망 이펙트 추가
     }
 
-    public abstract void ReturnPool();
+    public void ReturnPool()
+    {
+        ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
+    }
+
     public void StartAnimTime(float time, Action OnComplete)
     {
         Debug.Log("StartAnimTime에 진입");

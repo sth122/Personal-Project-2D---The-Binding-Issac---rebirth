@@ -1,18 +1,27 @@
 ﻿using UnityEngine;
 
-public class Key : MonoBehaviour, IReturnPool
+public class Key : Item
 {
-    public void ReturnPool()
+    protected PickUpType type;
+    protected int count;
+    private void Start()
     {
-        ObjectPoolManager.Instance.ReturnObject("Key", this.gameObject);
+        itemName = "Key";
+        count = 1;
+        type = PickUpType.Key;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected override void ItemEffect()
+    {
+        IsaacManager.Instance.GetPickUpItem(type, count, () => ReturnPool());
+    }
+
+
+    protected override void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))
         {
-            IsaacManager.Instance.GetItem();
-            ReturnPool();
+            IsaacManager.Instance.GetItem(() => ItemEffect());
         }
     }
 }

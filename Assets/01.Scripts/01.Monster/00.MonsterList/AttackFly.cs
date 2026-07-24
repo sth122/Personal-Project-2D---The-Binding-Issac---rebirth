@@ -39,10 +39,6 @@ public class AttackFly : Fly
     {
         base.Knockback(damageDir);
     }
-    public override void ReturnPool()
-    {
-        base.ReturnPool();
-    }
 
     public override IEnumerator HitFlash()
     {

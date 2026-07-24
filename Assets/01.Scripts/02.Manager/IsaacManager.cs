@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
 /// 매니저에서 해야하는 일
-/// 1. 스탯 연산
-/// 2. 피해 연산
+/// 1. 스탯 연산 + 피해 연산 + 아이템
+/// 
 /// 3. 아이템 사용
 /// </summary>
 public class IsaacManager : Singleton<IsaacManager>
@@ -14,6 +15,7 @@ public class IsaacManager : Singleton<IsaacManager>
     public IsaacData isaacData;
     private bool isDie;
     private float maxHP;
+    private Dictionary<PickUpType, int> pickUpDic = new();
 
     protected override void Awake()
     {
@@ -29,6 +31,12 @@ public class IsaacManager : Singleton<IsaacManager>
         // 메인 메뉴에서 캐릭터 선택 시 초기화 하는 방향으로 추후 수정
         currentIsaacInfo = DataManager.Instance.IsaacData.isaacList[0].Clone();
         maxHP = currentIsaacInfo.hp;
+
+        // 원래 캐릭터 별로 초기 소유 값이 다르지만 빠른 진행을 위해 1,1,1로 통일
+        foreach(PickUpType type in Enum.GetValues(typeof(PickUpType)))
+        {
+            pickUpDic[type] = 1;
+        }
     }
 
     public IsaacInfo GameStart()
@@ -76,14 +84,16 @@ public class IsaacManager : Singleton<IsaacManager>
     }
     #endregion
 
-    public void HPRecovery(float effect)
+    #region HPRecovery
+    public void HPRecovery(float effect, Action OnRecovery)
     {
         Debug.Log($"HP {effect} 회복");
 
         currentIsaacInfo.hp += effect;
-        if(currentIsaacInfo.hp >= maxHP)
+        if (currentIsaacInfo.hp >= maxHP)
         {
             currentIsaacInfo.hp = maxHP;
+            OnRecovery?.Invoke();
         }
 
         Debug.Log($"{currentIsaacInfo.hp}");
@@ -102,4 +112,22 @@ public class IsaacManager : Singleton<IsaacManager>
             Debug.Log("체력 만땅");
         }
     }
+    #endregion
+
+    #region Item PickUp Method
+    public void GetPickUpItem(PickUpType type,int count, Action OnGetPickUpItem)
+    {
+        // 최대 소유 개수 99개
+        if (pickUpDic[type] >= 99)
+        {
+            return;
+        }
+        else
+        {
+            pickUpDic[type] += count;
+            Debug.Log($"{type} {pickUpDic[type]}");
+            OnGetPickUpItem?.Invoke();
+        }
+    }
+    #endregion
 }
