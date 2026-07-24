@@ -452,6 +452,11 @@ MonoBehaviour:
         Prefab: {fileID: 3336249713886614393, guid: cc0d61596098412499ccac942d6431a1, type: 3}
         InitSpawnCount: 1
         parentTrans: {fileID: 0}
+    - Key: MonsterTears
+      Value:
+        Prefab: {fileID: 6764509078990599330, guid: 0fc34abe308e462498bb2de28f9bb207, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
     - Key: Fly
       Value:
         Prefab: {fileID: 1173310952266024841, guid: 8f6acecc504f40541820073f5f88dd83, type: 3}
@@ -670,62 +675,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.81992, y: -3.96615, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1917220603
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1917220605}
-  - component: {fileID: 1917220604}
-  m_Layer: 0
-  m_Name: IsaacManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1917220604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1917220603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f73ff8d0622425f4fa276e9f2f4668d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::IsaacManager
-  Player: {fileID: 5902640056624608455}
-  currentIsaacInfo:
-    isaacID: 0
-    isaacName: 
-    hp: 0
-    damage: 0
-    tearsDelay: 0
-    range: 0
-    shootSpeed: 0
-    speed: 0
-    luck: 0
-  isaacData: {fileID: 11400000, guid: c1d9aae8bc36c084c94ebf87272cc4f8, type: 2}
---- !u!4 &1917220605
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1917220603}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1005,6 +954,7 @@ GameObject:
   - component: {fileID: 7836052229199469847}
   - component: {fileID: 7836052229199469846}
   - component: {fileID: 7836052229199469848}
+  - component: {fileID: 7836052229199469849}
   m_Layer: 6
   m_Name: Isaac
   m_TagString: Isaac
@@ -1109,6 +1059,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7836052229199469849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5902640056624608455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f73ff8d0622425f4fa276e9f2f4668d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IsaacManager
+  Player: {fileID: 5902640056624608455}
+  currentIsaacInfo:
+    isaacID: 0
+    isaacName: 
+    hp: 0
+    damage: 0
+    tearsDelay: 0
+    range: 0
+    shootSpeed: 0
+    speed: 0
+    luck: 0
+  isaacData: {fileID: 0}
 --- !u!1 &8666223880700724238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,7 +1116,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Eyes
   damage: 0
   isaac: {fileID: 5902640056624608455}
-  tearBullet: {fileID: 3336249713886614393, guid: 66bc48a57878c504e8c09d5601864d29, type: 3}
   fire: {fileID: 9073105941699939911}
   originFirePos: {x: 0, y: 0, z: 0}
 --- !u!58 &8666223880700724240
@@ -1301,7 +1274,6 @@ SceneRoots:
   - {fileID: 995296175}
   - {fileID: 86424288}
   - {fileID: 331657108}
-  - {fileID: 1917220605}
   - {fileID: 672733412}
   - {fileID: 525932129}
   - {fileID: 1491700941}

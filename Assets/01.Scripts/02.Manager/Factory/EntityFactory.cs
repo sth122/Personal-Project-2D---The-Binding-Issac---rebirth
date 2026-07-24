@@ -1,12 +1,13 @@
-﻿using NUnit.Framework.Interfaces;
-using UnityEngine;
+﻿using UnityEngine;
 
 abstract public class EntityFactory
 {
     public abstract void OnSpawnEntity(SpawnInfo info);
 }
 
-
+/// <summary>
+/// 
+/// </summary>
 public class MonsterFactory : EntityFactory
 {
     private MonsterData monsterData;
@@ -32,6 +33,9 @@ public class MonsterFactory : EntityFactory
     }
 }
 
+/// <summary>
+/// 
+/// </summary>
 public class ItemFactory : EntityFactory
 {
     private ItemData itemData;
@@ -40,6 +44,10 @@ public class ItemFactory : EntityFactory
         itemData = DataManager.Instance.ItemData;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="info"></param>
     public override void OnSpawnEntity(SpawnInfo info)
     {
         ItemInfo itemInfo = itemData.itemListDic[info.id];
@@ -60,6 +68,10 @@ public class ObstacleFactory : EntityFactory
         obstacleData = DataManager.Instance.ObstacleData;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="info"></param>
     public override void OnSpawnEntity(SpawnInfo info)
     {
         ObstacleInfo obstacleInfo = obstacleData.obstacleList[info.id];

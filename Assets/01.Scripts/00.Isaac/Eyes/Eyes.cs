@@ -2,16 +2,18 @@
 
 public class Eyes : IsaacWeapon
 {
-    [SerializeField] GameObject tearBullet;
     [SerializeField] Transform fire;
     [SerializeField] Vector3 originFirePos;
     private string bulletName;
+    private int tearScale;
+    private TearType type;
 
     protected override void Start()
     {
         base.Start();
-        bulletName = tearBullet.name;
         originFirePos = fire.localPosition;
+        type = TearType.BasicTears;
+        tearScale = 0;
     }
 
     protected override void Update()
@@ -25,7 +27,7 @@ public class Eyes : IsaacWeapon
         {
             CheckDirection();
 
-            var tearBullet = ObjectPoolManager.Instance.GetObject(bulletName);
+            GameObject tearBullet = SpawnManager.Instance.SpawnBullet(type);
             if (tearBullet != null)
             {
                 IsaacBullet bullet = tearBullet.GetComponent<IsaacBullet>();
@@ -35,13 +37,21 @@ public class Eyes : IsaacWeapon
                 bullet.transform.rotation = fire.rotation;
                 canAttack = false;
             }
+            else
+            {
+                Debug.Log("Bullet null error");
+            }
         }
     }
 
     /// <summary>
     /// 나중에 눈물 변경 로직 추가 ( BloodTear / 혈사(구현할진 모름) )
     /// </summary>
-    private void SetTears() { }
+    private void SetTears(TearType type, int tearScale)
+    {
+        this.type = type;
+        this.tearScale = tearScale;
+    }
 
     /// <summary>
     /// Updates the fire object's local position based on the current head direction input.
@@ -65,14 +75,3 @@ public class Eyes : IsaacWeapon
         }
     }
 }
-
-/*
- 
-                5                           if T > T_max
-
-                16 - 6 x sqrt(T x 1.3 + 1)  if T ≥ 0 and  T ≤ T_max
-Tear Delay = 
-                16 - 6 x sqrt(T x 1.3 + 1) - 6 x T  if T < 0 and  T > -0.77
-
-                16 - 6 x T                  if T ≤ -0.77
- */

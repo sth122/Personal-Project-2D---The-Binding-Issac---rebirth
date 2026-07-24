@@ -101,6 +101,10 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         stateMachine.ChangeState(iStateDic[IsaacCurrentState.Die]);
     }
 
+    /// <summary>
+    /// 넉백 메서드
+    /// </summary>
+    /// <param name="damageDir"></param>
     public void Knockback(Vector2 damageDir) 
     {
         Debug.Log("아이작 넉백 발생");
@@ -109,6 +113,10 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
         StartCoroutine(HitFlash());
     }
+    /// <summary>
+    /// 피격 시 이펙트 + 넉백 시간 계산
+    /// </summary>
+    /// <returns></returns>
     public IEnumerator HitFlash() 
     {
         animController.SetAnimTrigger(IsaacAnimState.Hit, true);

@@ -86,7 +86,7 @@ public class RoomManager : Singleton<RoomManager>
             // 참조 복사 해결해야함
             RoomEntityData roomData = roomLayoutData.RoomDic[currentRoomType][idx].Clone();
             roomData.SetLocalToWroldRoomPostionn(currentRoom.transform.position);
-            EntitySpawnManager.Instance.SpawnAll(roomData);
+            SpawnManager.Instance.SpawnAll(roomData);
         }
     }
 }
