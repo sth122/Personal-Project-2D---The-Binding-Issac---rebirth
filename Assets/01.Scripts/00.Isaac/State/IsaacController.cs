@@ -87,7 +87,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         if (damage == 0 || isKnockback)
             return;
 
-        IsaacManager.Instance.TakeDamage(damage, () =>
+        IsaacManager.Instance.DecreaseHP(damage, () =>
         {
             Debug.Log("데미지");
             Dead();

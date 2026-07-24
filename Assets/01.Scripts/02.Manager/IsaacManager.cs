@@ -46,7 +46,7 @@ public class IsaacManager : Singleton<IsaacManager>
     }
 
 
-    public void TakeDamage(float damage, Action OnDie)
+    public void DecreaseHP(float damage, Action OnDie)
     {
         if (isDie) return;
 
