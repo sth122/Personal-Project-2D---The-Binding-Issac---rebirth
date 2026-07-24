@@ -11,8 +11,8 @@ public class Eyes : IsaacWeapon
     protected override void Start()
     {
         base.Start();
-        originFirePos = fire.localPosition;
         type = TearType.BasicTears;
+        originFirePos = fire.localPosition;
         tearScale = 0;
     }
 
@@ -54,17 +54,18 @@ public class Eyes : IsaacWeapon
     }
 
     /// <summary>
-    /// Updates the fire object's local position based on the current head direction input.
+    /// 눈물 발사 지점
+    /// 현재는 하드 코딩 -> 아이템 획득에 따른 눈물 포지션 변경 예정
     /// </summary>
     private void CheckDirection()
     {
         switch (Input.CurrentHeadDirection)
         {
             case AttackInputDirection.Left:
-                fire.localPosition = new Vector3(-originFirePos.x, -originFirePos.y * posDir, 0f);
+                fire.localPosition = new Vector3(-originFirePos.x, originFirePos.y + (-0.05f) * posDir, 0f);
                 break;
             case AttackInputDirection.Right:
-                fire.localPosition = new Vector3(originFirePos.x, -originFirePos.y * posDir, 0f);
+                fire.localPosition = new Vector3(originFirePos.x, originFirePos.y + (-0.05f) * posDir, 0f);
                 break;
             case AttackInputDirection.Up:
                 fire.localPosition = new Vector3(originFirePos.x * posDir, originFirePos.x, 0f);
