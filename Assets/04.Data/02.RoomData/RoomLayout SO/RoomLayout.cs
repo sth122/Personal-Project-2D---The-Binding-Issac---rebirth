@@ -27,12 +27,18 @@ public class RoomLayoutData : ScriptableObject
         ....
      */
 
+    public List<RoomEntityData> startRoom = new();
     public List<RoomEntityData> normalRoom = new();
+    public List<RoomEntityData> bossRoom = new();
+    public List<RoomEntityData> treasureRoom = new();
     public Dictionary<RoomType, List<RoomEntityData>> RoomDic = new();
 
     public void Init()
     {
+        RoomDic[RoomType.Start] = startRoom;
         RoomDic[RoomType.Normal] = normalRoom;
+        RoomDic[RoomType.Boss] = bossRoom;
+        RoomDic[RoomType.Treasure] = treasureRoom;
     }
 }
 
