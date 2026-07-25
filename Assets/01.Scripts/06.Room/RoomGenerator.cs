@@ -63,6 +63,8 @@ public class RoomGenerator : MonoBehaviour
         Debug.Log($"끝 방 개수 {endRoomList.Count}");
         
         AssignBossRoom();
+
+        AssignTreasureRoom();
     }
 
     /// <summary>
@@ -235,7 +237,25 @@ public class RoomGenerator : MonoBehaviour
                 boss = room.Key;
             }
         }
-
+        Debug.Log($"보스 방 생성 [{boss.x}, {boss.y}]");
+        endRoomList.Remove(boss);
         roomMap[boss] = RoomType.Boss;
+    }
+    private void AssignTreasureRoom()
+    {
+        Vector2Int treasure = Vector2Int.zero;
+        int maxDistance = -1;
+
+        foreach (var room in endRoomList)
+        {
+            if (room.Value > maxDistance)
+            {
+                maxDistance = room.Value;
+                treasure = room.Key;
+            }
+        }
+        Debug.Log($"보물 방 생성 [{treasure.x}, {treasure.y}]");
+        endRoomList.Remove(treasure);
+        roomMap[treasure] = RoomType.Treasure;
     }
 }
