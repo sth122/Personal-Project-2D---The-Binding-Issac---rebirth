@@ -1,12 +1,6 @@
 ﻿using System;
 using UnityEngine;
 
-public enum RoomType
-{
-    Start, Normal, Boss, Treasure, Shop, Secret, Devil, Angel
-}
-
-
 public class RoomManager : Singleton<RoomManager>
 {
     [SerializeField] public GameObject Player;
