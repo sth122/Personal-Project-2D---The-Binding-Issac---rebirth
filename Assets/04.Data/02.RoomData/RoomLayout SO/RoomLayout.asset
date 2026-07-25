@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cd8f46301a232d49b1b1ad2b4cb2a61, type: 3}
   m_Name: RoomLayout
   m_EditorClassIdentifier: Assembly-CSharp::RoomLayoutData
+  startRoom:
+  - spawnInfos:
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
   normalRoom:
   - spawnInfos:
     - entityType: 0
@@ -66,3 +71,13 @@ MonoBehaviour:
     - entityType: 2
       id: 0
       position: {x: 3, y: 2, z: 0}
+  bossRoom:
+  - spawnInfos:
+    - entityType: 1
+      id: 1
+      position: {x: 0, y: 0, z: 0}
+  treasureRoom:
+  - spawnInfos:
+    - entityType: 1
+      id: 0
+      position: {x: 0, y: 0, z: 0}
