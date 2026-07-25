@@ -22,7 +22,7 @@ public class MonsterTraceState : MonsterState
         controller.AnimController.AnimationStop(nowState);
     }
 
-    public override void Update()
+    public override void FixedUpdate()
     {
         if (controller is ITraceable traceMonster)
         {

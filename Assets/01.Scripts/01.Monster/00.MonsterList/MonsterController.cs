@@ -23,6 +23,7 @@ public interface IReturnPool
     public void ReturnPool();
 }
 
+// 나중에 IsaacCurrentState랑 통합 예정
 public enum MonsterCurrentState
 {
     Idle, Move, Trace, Attack, Die
@@ -36,7 +37,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     protected Rigidbody2D rb;
     public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
-    [SerializeField]protected MonsterInfo mData;
+    [SerializeField] protected MonsterInfo mData;
     protected MonsterAnimController animController;
     public MonsterAnimController AnimController { get { return animController; } }
     protected SpriteRenderer sr;
@@ -99,7 +100,10 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         // ReturnPool에서 사망 이펙트 추가
     }
 
-    public abstract void ReturnPool();
+    public void ReturnPool()
+    {
+        ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
+    }
     public void StartAnimTime(float time, Action OnComplete)
     {
         Debug.Log("StartAnimTime에 진입");
@@ -114,8 +118,8 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject == target.gameObject
-            && collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac") &&
+            collision.gameObject.TryGetComponent<ITakeDamageable>(out ITakeDamageable isaac))
         {
             isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
         }
