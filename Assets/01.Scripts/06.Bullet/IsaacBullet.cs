@@ -38,12 +38,6 @@ abstract public class IsaacBullet : MonoBehaviour, IReturnPool
         StartCoroutine(GravityDelay());
     }
 
-
-    protected virtual void Start()
-    {
-
-    }
-
     protected virtual void FixedUpdate()
     {
         timer += Time.fixedDeltaTime;

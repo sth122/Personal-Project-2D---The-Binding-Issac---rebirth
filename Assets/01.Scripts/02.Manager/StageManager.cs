@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections;
 using UnityEngine;
 
 public class StageManager : Singleton<StageManager>
 {
     public int stageCnt;
 
-    protected override void Initialize()
+    private void Start()
     {
         stageCnt = 1;
     }
@@ -33,6 +32,4 @@ public class StageManager : Singleton<StageManager>
 
         // anyKey 입력 시 skip
     }
-
-
 }

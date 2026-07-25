@@ -89,11 +89,6 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
         Knockback(damageDir);
     }
 
-    public override void ReturnPool()
-    {
-        ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
-    }
-
     public virtual void Knockback(Vector2 damageDir)
     {
         Debug.Log("넉백 발생");

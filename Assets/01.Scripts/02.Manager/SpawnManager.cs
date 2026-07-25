@@ -6,10 +6,11 @@ public enum EntityType
     Monster, Item, Obstacle
 }
 
+
 public class SpawnManager : Singleton<SpawnManager>
 {
     private Dictionary<EntityType, EntityFactory> factoryMap;
-    private TearsFactory bulletFactory = new TearsFactory();
+    private BulletFactory bulletFactory;
     private SpawnInfo cloneInfo;
 
     protected override void Initialize()
@@ -20,6 +21,7 @@ public class SpawnManager : Singleton<SpawnManager>
             { EntityType.Item, new ItemFactory() },
             { EntityType.Obstacle, new ObstacleFactory() }
         };
+        bulletFactory = new BulletFactory();
     }
 
     public void SpawnAll(RoomEntityData data)

@@ -6,11 +6,11 @@ public enum TearType
     BasicTears, BloodTears, MonsterTears
 }
 
-public class TearsFactory
+public class BulletFactory
 {
     private Dictionary<TearType, string> tears = new Dictionary<TearType, string>();
 
-    public TearsFactory()
+    public BulletFactory()
     {
         foreach (TearType type in Enum.GetValues(typeof(TearType)))
         {

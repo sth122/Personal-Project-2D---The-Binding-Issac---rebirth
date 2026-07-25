@@ -20,6 +20,7 @@ public class MonsterInfo
     public float speed;
     public float appearAnimTime;
     public float dieAnimTime;
+    public EntityType type = EntityType.Monster;
     public MoveType moveType;
 
     //private float totalHp;

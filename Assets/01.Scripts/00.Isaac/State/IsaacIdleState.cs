@@ -13,6 +13,7 @@ public class IsaacIdleState : IsaacState
     public override void Enter()
     {
         nowState = IsaacCurrentState.Idle;
+        rb.linearVelocity = Vector2.zero;
     }
 
     public override void Update()
@@ -34,10 +35,5 @@ public class IsaacIdleState : IsaacState
             controller.stateMachine.ChangeState(controller.iStateDic[IsaacCurrentState.Move]);
             return;
         }
-    }
-
-    public override void FixedUpdate()
-    {
-
     }
 }

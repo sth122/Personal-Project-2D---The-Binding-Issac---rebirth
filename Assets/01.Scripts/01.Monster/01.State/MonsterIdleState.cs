@@ -2,7 +2,6 @@
 
 public class MonsterIdleState : MonsterState
 {
-
     public MonsterIdleState(MonsterController controller, MonsterInfo mData) 
         : base(controller, mData)
     {
@@ -31,10 +30,5 @@ public class MonsterIdleState : MonsterState
         {
             controller.stateMachine.ChangeState(controller.mStateDic[MonsterCurrentState.Move]);
         }
-    }
-
-    public override void FixedUpdate()
-    {
-
     }
 }
