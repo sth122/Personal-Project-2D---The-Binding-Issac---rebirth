@@ -297,9 +297,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 331657107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4569820fedd3ff64c8e49a7c22cc235f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1887ad86542bac744a5ac69637953664, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
+  m_EditorClassIdentifier: Assembly-CSharp::RoomManager
+  Player: {fileID: 5902640056624608455}
+  roomLayoutData: {fileID: 11400000, guid: 9633d778b40e4f14db5afee6c4774ec8, type: 2}
+  room: {fileID: 4474320625537954766, guid: 79a099c3940060143ad4f7ae49619212, type: 3}
 --- !u!1 &525932127
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,26 +312,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 525932129}
-  - component: {fileID: 525932128}
+  - component: {fileID: 525932130}
   m_Layer: 0
-  m_Name: EntitySpawnManager
+  m_Name: SpawnManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &525932128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525932127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7cc9696fe63a784a8d5f5c141474532, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EntitySpawnManager
 --- !u!4 &525932129
 Transform:
   m_ObjectHideFlags: 0
@@ -344,6 +335,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &525932130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525932127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4569820fedd3ff64c8e49a7c22cc235f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
 --- !u!1 &672733410
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,7 +497,7 @@ MonoBehaviour:
         parentTrans: {fileID: 0}
     - Key: Room
       Value:
-        Prefab: {fileID: 6099687769297397422, guid: 1bad061b47d17cc4daa71786ab439592, type: 3}
+        Prefab: {fileID: 4474320625537954766, guid: 79a099c3940060143ad4f7ae49619212, type: 3}
         InitSpawnCount: 1
         parentTrans: {fileID: 0}
     - Key: BasicTears
@@ -509,7 +512,7 @@ MonoBehaviour:
         parentTrans: {fileID: 0}
     - Key: MonsterTears
       Value:
-        Prefab: {fileID: 6764509078990599330, guid: 0fc34abe308e462498bb2de28f9bb207, type: 3}
+        Prefab: {fileID: 3336249713886614393, guid: a7e6849272b6aca47a1c6fe1310af1f7, type: 3}
         InitSpawnCount: 1
         parentTrans: {fileID: 0}
     - Key: Fly
@@ -719,7 +722,7 @@ MonoBehaviour:
   <MonsterData>k__BackingField: {fileID: 11400000, guid: 88444366d0d91d14a911781d00b12809, type: 2}
   <IsaacData>k__BackingField: {fileID: 11400000, guid: c1d9aae8bc36c084c94ebf87272cc4f8, type: 2}
   <ItemData>k__BackingField: {fileID: 11400000, guid: 40c9c809deb9f5042a905ad5e644d3e7, type: 2}
-  <ObstacleData>k__BackingField: {fileID: 11400000, guid: 4b0bfe3175bbece429f205cf8bb65491, type: 2}
+  <ObstacleData>k__BackingField: {fileID: 11400000, guid: 10b4dee17da0daf4a89715a42d94b790, type: 2}
 --- !u!4 &1491700941
 Transform:
   m_ObjectHideFlags: 0
