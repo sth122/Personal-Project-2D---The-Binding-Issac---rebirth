@@ -15,7 +15,7 @@ public class RoomManager : Singleton<RoomManager>
 
     private RoomType currentRoomType;
 
-    private Room currentRoom = new Room();
+    private Room currentRoom;
     private Room[,] roomArray = new Room[5, 5];    // 방 배열을 저장
 
     protected override void Awake()
@@ -27,6 +27,8 @@ public class RoomManager : Singleton<RoomManager>
     
     private void Start()
     {
+        //currentRoom = new Room();
+
         // 초기 테스트  타입
         // 방 생성할 시 타입 정하게 해야함
         currentRoomType = RoomType.Normal;
