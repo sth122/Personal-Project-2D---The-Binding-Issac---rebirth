@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 public enum RoomType
 {
@@ -67,6 +66,7 @@ public class RoomGenerator : MonoBehaviour
         AssignTreasureRoom();
     }
 
+    #region NormalRoom Generator
     /// <summary>
     /// 맵 초기화
     /// </summary>
@@ -95,30 +95,33 @@ public class RoomGenerator : MonoBehaviour
     /// </summary>
     private void GenerateRooms()
     {
-
-        Vector2Int currentRoom = roomStack.Peek();
-        bool isCreate = false;
-
-        List<Vector2Int> shuffleDirs = GetRandomDirection();
-
-        foreach (Vector2Int dir in shuffleDirs)
+        // Stack
+        while (roomStack.Count > 0)
         {
-            Vector2Int nextRoom = currentRoom + dir;
+            Vector2Int currentRoom = roomStack.Peek();
+            bool isCreate = false;
 
-            if (!TryCreateRoom(nextRoom))
-                continue;
+            List<Vector2Int> shuffleDirs = GetRandomDirection();
 
-            CreateRoom(nextRoom);
-            Debug.Log($"방 생성 [{nextRoom.x}, {nextRoom.y}]");
-            roomStack.Push(nextRoom);
-            isCreate = true;
-            break;
-        }
+            foreach (Vector2Int dir in shuffleDirs)
+            {
+                Vector2Int nextRoom = currentRoom + dir;
 
-        if (!isCreate)
-        {
-            Debug.Log($"끝 방 생성 [{currentRoom.x}, {currentRoom.y}]");
-            roomStack.Pop();
+                if (!TryCreateRoom(nextRoom))
+                    continue;
+
+                CreateRoom(nextRoom);
+                Debug.Log($"방 생성 [{nextRoom.x}, {nextRoom.y}]");
+                roomStack.Push(nextRoom);
+                isCreate = true;
+                break;
+            }
+
+            if (!isCreate)
+            {
+                // 다음 방 생성 실패 시 Pop
+                roomStack.Pop();
+            }
         }
     }
 
@@ -202,7 +205,10 @@ public class RoomGenerator : MonoBehaviour
         }
         return cnt;
     }
+    #endregion
 
+
+    #region SpecialRoom Generator
     private void FindEndRoom()
     {
         // 혹시 모를 다시 한 번 더 초기화
@@ -217,15 +223,21 @@ public class RoomGenerator : MonoBehaviour
 
             if (adjacentRoom == 1)
             {
-                int distance = Mathf.Abs(room.Key.x - 5) +
-                               Mathf.Abs(room.Key.y - 5);
+                int center = gridSize / 5;
+                int distance = Mathf.Abs(room.Key.x - center) +
+                               Mathf.Abs(room.Key.y - center);
                 endRoomList.Add(room.Key, distance);
             }
         }
     }
-
     private void AssignBossRoom()
     {
+        if (endRoomList.Count == 0)
+        {
+            Debug.LogWarning("보스 방 부족");
+            return;
+        }
+
         Vector2Int boss = Vector2Int.zero;
         int maxDistance = -1;
 
@@ -243,6 +255,12 @@ public class RoomGenerator : MonoBehaviour
     }
     private void AssignTreasureRoom()
     {
+        if (endRoomList.Count == 0)
+        {
+            Debug.LogWarning("endRoom 부족");
+            return;
+        }
+
         Vector2Int treasure = Vector2Int.zero;
         int maxDistance = -1;
 
@@ -258,4 +276,5 @@ public class RoomGenerator : MonoBehaviour
         endRoomList.Remove(treasure);
         roomMap[treasure] = RoomType.Treasure;
     }
+    #endregion
 }

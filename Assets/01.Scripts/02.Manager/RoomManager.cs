@@ -10,7 +10,6 @@ public class RoomManager : Singleton<RoomManager>
     private RoomType currentRoomType;
 
     private Room currentRoom;
-    private Room[,] roomArray = new Room[5, 5];    // 방 배열을 저장
 
     protected override void Awake()
     {
