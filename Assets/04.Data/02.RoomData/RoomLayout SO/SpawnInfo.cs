@@ -21,7 +21,7 @@ public class SpawnInfo
 
     public SpawnInfo Clone() { return new SpawnInfo(entityType, id, position); }
 
-    public void SetSpawnPostion(Vector3 currentRoomPos)
+    public void SetSpawnPosition(Vector3 currentRoomPos)
     {
         if (currentRoomPos == null)
             Debug.LogError("currentRoomPos null");

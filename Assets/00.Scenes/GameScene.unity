@@ -301,8 +301,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoomManager
   Player: {fileID: 5902640056624608455}
-  roomLayoutData: {fileID: 11400000, guid: 9633d778b40e4f14db5afee6c4774ec8, type: 2}
-  room: {fileID: 4474320625537954766, guid: 79a099c3940060143ad4f7ae49619212, type: 3}
 --- !u!1 &525932127
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +478,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPoolManager
   prefabDic:
     _serializedList:
+    - Key: StartRoom
+      Value:
+        Prefab: {fileID: 4474320625537954766, guid: 8702c0b7fae6cdf4f9696a52ef3cd349, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
+    - Key: NormalRoom
+      Value:
+        Prefab: {fileID: 4474320625537954766, guid: 79a099c3940060143ad4f7ae49619212, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
+    - Key: BossRoom
+      Value:
+        Prefab: {fileID: 4474320625537954766, guid: 1349cc4c658de70488b1b97246e7f1c9, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
+    - Key: TreasureRoom
+      Value:
+        Prefab: {fileID: 4474320625537954766, guid: 7854c7cc81d1b4a41a88ca3a795a03e2, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
     - Key: Stone
       Value:
         Prefab: {fileID: 1119654995249359107, guid: 4862b7aa3eaf9c24baf440ac280d21c8, type: 3}
@@ -723,6 +741,7 @@ MonoBehaviour:
   <IsaacData>k__BackingField: {fileID: 11400000, guid: c1d9aae8bc36c084c94ebf87272cc4f8, type: 2}
   <ItemData>k__BackingField: {fileID: 11400000, guid: 40c9c809deb9f5042a905ad5e644d3e7, type: 2}
   <ObstacleData>k__BackingField: {fileID: 11400000, guid: 10b4dee17da0daf4a89715a42d94b790, type: 2}
+  <RoomLayoutData>k__BackingField: {fileID: 11400000, guid: 9633d778b40e4f14db5afee6c4774ec8, type: 2}
 --- !u!4 &1491700941
 Transform:
   m_ObjectHideFlags: 0
@@ -1010,7 +1029,7 @@ Transform:
   m_GameObject: {fileID: 5902640056624608455}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.919, y: 4.937, z: 0}
+  m_LocalPosition: {x: 8.5, y: 5.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

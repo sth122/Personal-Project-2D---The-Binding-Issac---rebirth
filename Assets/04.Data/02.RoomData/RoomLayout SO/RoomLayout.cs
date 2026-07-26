@@ -27,12 +27,20 @@ public class RoomLayoutData : ScriptableObject
         ....
      */
 
+    public List<RoomEntityData> startRoom = new();
     public List<RoomEntityData> normalRoom = new();
+    public List<RoomEntityData> bossRoom = new();
+    public List<RoomEntityData> treasureRoom = new();
+
+    // 나중에는   public Dictionary<StageType, Dictionary<RoomType, List<RoomEntityData>>> StageDic = new();
     public Dictionary<RoomType, List<RoomEntityData>> RoomDic = new();
 
     public void Init()
     {
-        RoomDic[RoomType.Normal] = normalRoom;
+        RoomDic[RoomType.StartRoom] = startRoom;
+        RoomDic[RoomType.NormalRoom] = normalRoom;
+        RoomDic[RoomType.BossRoom] = bossRoom;
+        RoomDic[RoomType.TreasureRoom] = treasureRoom;
     }
 }
 
@@ -55,14 +63,14 @@ public class RoomEntityData
         this.spawnInfos = spawnInfos;
     }
 
-    public void SetLocalToWroldRoomPostionn(Vector3 roomPos)
+    public void SetLocalToWroldRoomPostion(Vector3 roomPos)
     {
         if (roomPos == null)
             Debug.LogError("currentRoomPos null");
 
         foreach (var spawnInfo in spawnInfos)
         {
-            spawnInfo.SetSpawnPostion(roomPos);
+            spawnInfo.SetSpawnPosition(roomPos);
         }
     }
 }
