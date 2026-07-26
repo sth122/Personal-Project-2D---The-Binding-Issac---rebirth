@@ -8,6 +8,7 @@ public class StageManager : Singleton<StageManager>
     private void Start()
     {
         stageCnt = 1;
+        RoomManager.Instance.StartRoomsSpawn();
     }
     public void StageClear(Action OnGoToNextStage)
     {

@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
 
 public class Room : MonoBehaviour
 {
@@ -46,5 +45,17 @@ public class Room : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Isaac"))
+        {
+            OnPlayerEnterRoom();
+        }
+    }
+
+    private void OnPlayerEnterRoom()
+    {
+        RoomManager.Instance.SetCurrentRoom(this);
+    }
 
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 public enum RoomType
 {
@@ -34,7 +35,7 @@ public class RoomGenerator
     /// <summary>
     /// Map 11 x 11 Grid 생성
     /// </summary>
-    public void GenerateMapGrid()
+    public IEnumerator GenerateMapGrid()
     {
         // 최대 방의 개수 = (1 or 2) + 5 + stagelevel * 2
         maxRoomsCount = Random.Range(1, 3) + 5 + StageManager.Instance.stageCnt * 2;
@@ -52,6 +53,10 @@ public class RoomGenerator
             if(roomsGenerated >= maxRoomsCount)
             {
                 success = true;
+            }
+            else
+            {
+                yield return null;
             }
         }
 
