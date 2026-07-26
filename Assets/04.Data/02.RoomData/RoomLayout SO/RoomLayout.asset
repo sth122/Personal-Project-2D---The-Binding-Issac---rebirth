@@ -13,10 +13,7 @@ MonoBehaviour:
   m_Name: RoomLayout
   m_EditorClassIdentifier: Assembly-CSharp::RoomLayoutData
   startRoom:
-  - spawnInfos:
-    - entityType: 0
-      id: 0
-      position: {x: 0, y: 0, z: 0}
+  - spawnInfos: []
   normalRoom:
   - spawnInfos:
     - entityType: 0

@@ -97,6 +97,7 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         mData.speed = 0;
         AnimController.AnimationStart(MonsterCurrentState.Die);
         StartAnimTime(mData.dieAnimTime, () => ReturnPool());
+        RoomManager.Instance.currentRoom.OnMonsterDied();
         // ReturnPool에서 사망 이펙트 추가
     }
 

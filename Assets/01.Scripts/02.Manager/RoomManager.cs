@@ -7,15 +7,11 @@ public class RoomManager : Singleton<RoomManager>
     [SerializeField] public GameObject Player;
     private RoomGenerator roomGenerator;
     private List<GameObject> roomList = new List<GameObject>();
-    private Room currentRoom;
+    public Room currentRoom;
     
     protected override void Awake()
     {
         base.Awake();
-    }
-    
-    private void Start()
-    {
         roomGenerator = new RoomGenerator();
     }
 
@@ -30,10 +26,12 @@ public class RoomManager : Singleton<RoomManager>
         yield return StartCoroutine(roomGenerator.GenerateMapGrid());
         // 초기 테스트  타입
         // 방 생성할 시 타입 정하게 해야함
-        
+
+        Debug.Log("방 소환 시작");
+
         foreach (var room in roomGenerator.roomMap)
         {
-            roomList.Add(SpawnManager.Instance.SpawnRoom(room.Key, room.Value));
+            roomList.Add(SpawnManager.Instance.SpawnRoom(room.Key.coordinate, room.Value));
         }
     }
 
