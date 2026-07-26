@@ -71,7 +71,6 @@ public class RoomManager : Singleton<RoomManager>
         // 1.Normal 방의 개수 확인
         // 2.Normal 방
 
-
         int roomCount = roomLayoutData.RoomDic[currentRoomType].Count;
 
         if (roomCount > 0)

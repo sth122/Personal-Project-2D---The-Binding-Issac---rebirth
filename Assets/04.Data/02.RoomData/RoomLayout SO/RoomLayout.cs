@@ -31,6 +31,8 @@ public class RoomLayoutData : ScriptableObject
     public List<RoomEntityData> normalRoom = new();
     public List<RoomEntityData> bossRoom = new();
     public List<RoomEntityData> treasureRoom = new();
+
+    // 나중에는   public Dictionary<StageType, Dictionary<RoomType, List<RoomEntityData>>> StageDic = new();
     public Dictionary<RoomType, List<RoomEntityData>> RoomDic = new();
 
     public void Init()
@@ -68,7 +70,7 @@ public class RoomEntityData
 
         foreach (var spawnInfo in spawnInfos)
         {
-            spawnInfo.SetSpawnPostion(roomPos);
+            spawnInfo.SetSpawnPosition(roomPos);
         }
     }
 }

@@ -1,17 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 public enum RoomType
 {
     Start, Normal, Boss, Treasure, Shop, Secret, Devil, Angel
 }
 
-public class RoomGenerator : MonoBehaviour
+public class RoomGenerator : Singleton<RoomGenerator>
 {
     #region variable
     private Stack<Vector2Int> roomStack;
     private Dictionary<Vector2Int, int> endRoomList;
-    private Dictionary<Vector2Int, RoomType> roomMap;
+    public Dictionary<Vector2Int, RoomType> roomMap;
 
     private int gridSize = 11;
     private int maxRoomsCount;
