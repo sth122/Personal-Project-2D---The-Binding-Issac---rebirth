@@ -37,10 +37,10 @@ public class RoomLayoutData : ScriptableObject
 
     public void Init()
     {
-        RoomDic[RoomType.Start] = startRoom;
-        RoomDic[RoomType.Normal] = normalRoom;
-        RoomDic[RoomType.Boss] = bossRoom;
-        RoomDic[RoomType.Treasure] = treasureRoom;
+        RoomDic[RoomType.StartRoom] = startRoom;
+        RoomDic[RoomType.NormalRoom] = normalRoom;
+        RoomDic[RoomType.BossRoom] = bossRoom;
+        RoomDic[RoomType.TreasureRoom] = treasureRoom;
     }
 }
 
@@ -63,7 +63,7 @@ public class RoomEntityData
         this.spawnInfos = spawnInfos;
     }
 
-    public void SetLocalToWroldRoomPostionn(Vector3 roomPos)
+    public void SetLocalToWroldRoomPostion(Vector3 roomPos)
     {
         if (roomPos == null)
             Debug.LogError("currentRoomPos null");

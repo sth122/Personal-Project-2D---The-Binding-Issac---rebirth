@@ -1,85 +1,30 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class RoomManager : Singleton<RoomManager>
 {
     [SerializeField] public GameObject Player;
-    public RoomLayoutData roomLayoutData;
-    [SerializeField] GameObject room;
-
-    private RoomType currentRoomType;
-
-    private Room currentRoom;
-
+    private RoomGenerator roomGenerator;
+    
     protected override void Awake()
     {
         base.Awake();
-        roomLayoutData.Init();
     }
-
     
     private void Start()
     {
-        //currentRoom = new Room();
-
+        // 1스테이지 맵 생성
+        roomGenerator = new RoomGenerator();
+        roomGenerator.GenerateMapGrid();
         // 초기 테스트  타입
         // 방 생성할 시 타입 정하게 해야함
-        currentRoomType = RoomType.Normal;
-        Init(() =>
-        {
-            SetFirstRoom();
-            SetRoomType();
-        });
+        SpawnAllRooms();
     }
 
-    /// <summary>
-    /// 제일 처음 생성되는 정중앙 Room 
-    /// </summary>
-    private void SetFirstRoom()
+    private void SpawnAllRooms()
     {
-        GameObject centerRoom = ObjectPoolManager.Instance.GetObject("Room");
-        if (centerRoom != null)
+        foreach(var room in roomGenerator.roomMap)
         {
-            Debug.Log("Room 생성");
-            currentRoom = centerRoom.GetComponent<Room>();
-            currentRoom.transform.position = Vector3.zero;
-        }
-        else
-        {
-            Debug.LogError("centerRoom null");
-        }
-        CameraRoomRock.Instance.SetCameraPosition(centerRoom.transform);
-    }
-
-    public void Init(Action OnAction)
-    {
-        OnAction?.Invoke();
-    }
-
-    public void GetRoomType(RoomType type)
-    {
-        this.currentRoomType = type;
-    }
-
-    // Room Script에서 소환하거나 StageManager에서 
-    // 나중에 entityInfo 추상클래스로 만들어서 통합
-
-
-    public void SetRoomType()
-    {
-        // 만약 노멀 방을 설정하려고 할 때
-        // 1.Normal 방의 개수 확인
-        // 2.Normal 방
-
-        int roomCount = roomLayoutData.RoomDic[currentRoomType].Count;
-
-        if (roomCount > 0)
-        {
-            int idx = UnityEngine.Random.Range(0, roomCount);
-            // 참조 복사 해결해야함
-            RoomEntityData roomData = roomLayoutData.RoomDic[currentRoomType][idx].Clone();
-            roomData.SetLocalToWroldRoomPostionn(currentRoom.transform.position);
-            SpawnManager.Instance.SpawnAll(roomData);
+            SpawnManager.Instance.SpawnRoom(room.Key, room.Value);
         }
     }
 }

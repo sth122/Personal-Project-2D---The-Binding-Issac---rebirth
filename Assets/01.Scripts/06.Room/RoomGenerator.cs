@@ -2,10 +2,10 @@
 using UnityEngine;
 public enum RoomType
 {
-    Start, Normal, Boss, Treasure, Shop, Secret, Devil, Angel
+    StartRoom, NormalRoom, BossRoom, TreasureRoom, ShopRoom, SecretRoom, DevilRoom, AngelRoom
 }
 
-public class RoomGenerator : Singleton<RoomGenerator>
+public class RoomGenerator
 {
     #region variable
     private Stack<Vector2Int> roomStack;
@@ -24,8 +24,7 @@ public class RoomGenerator : Singleton<RoomGenerator>
         Vector2Int.up, Vector2Int.down, Vector2Int.left, Vector2Int.right
     };
 
-
-    void Start()
+    public RoomGenerator()
     {
         roomStack = new Stack<Vector2Int>();
         endRoomList = new Dictionary<Vector2Int, int>();
@@ -81,7 +80,7 @@ public class RoomGenerator : Singleton<RoomGenerator>
         Vector2Int start = new Vector2Int(gridSize / 2, gridSize / 2);
 
         map[start.x, start.y] = 1;
-        roomMap[start] = RoomType.Start;
+        roomMap[start] = RoomType.StartRoom;
 
         roomStack.Push(start);
         roomsGenerated = 1;
@@ -150,7 +149,7 @@ public class RoomGenerator : Singleton<RoomGenerator>
     {
         map[roomPos.x, roomPos.y] = 1;
 
-        roomMap[roomPos] = RoomType.Normal;
+        roomMap[roomPos] = RoomType.NormalRoom;
 
         roomsGenerated++;
     }
@@ -215,7 +214,7 @@ public class RoomGenerator : Singleton<RoomGenerator>
 
         foreach (var room in roomMap)
         {
-            if (room.Value != RoomType.Normal)
+            if (room.Value != RoomType.NormalRoom)
                 continue;
 
             int adjacentRoom = CheckAdjacentRoom(room.Key);
@@ -250,7 +249,7 @@ public class RoomGenerator : Singleton<RoomGenerator>
         }
         Debug.Log($"보스 방 생성 [{boss.x}, {boss.y}]");
         endRoomList.Remove(boss);
-        roomMap[boss] = RoomType.Boss;
+        roomMap[boss] = RoomType.BossRoom;
     }
     private void AssignTreasureRoom()
     {
@@ -273,7 +272,7 @@ public class RoomGenerator : Singleton<RoomGenerator>
         }
         Debug.Log($"보물 방 생성 [{treasure.x}, {treasure.y}]");
         endRoomList.Remove(treasure);
-        roomMap[treasure] = RoomType.Treasure;
+        roomMap[treasure] = RoomType.TreasureRoom;
     }
     #endregion
 }

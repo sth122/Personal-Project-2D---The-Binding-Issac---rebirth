@@ -11,6 +11,7 @@ public class SpawnManager : Singleton<SpawnManager>
 {
     private Dictionary<EntityType, EntityFactory> factoryMap;
     private BulletFactory bulletFactory;
+    private RoomFactory roomFactory;
     private SpawnInfo cloneInfo;
 
     protected override void Initialize()
@@ -22,6 +23,7 @@ public class SpawnManager : Singleton<SpawnManager>
             { EntityType.Obstacle, new ObstacleFactory() }
         };
         bulletFactory = new BulletFactory();
+        roomFactory = new RoomFactory();
     }
 
     public void SpawnAll(RoomEntityData data)
@@ -39,5 +41,10 @@ public class SpawnManager : Singleton<SpawnManager>
     public GameObject SpawnBullet(TearType type)
     {
         return bulletFactory.OnSpawnBullet(type);
+    }
+
+    public GameObject SpawnRoom(Vector2Int coordinate, RoomType type)
+    {
+        return roomFactory.OnSpawnRoom(coordinate, type);
     }
 }
