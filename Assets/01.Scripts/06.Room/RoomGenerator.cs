@@ -6,6 +6,7 @@ public enum RoomType
     StartRoom, NormalRoom, BossRoom, TreasureRoom, ShopRoom, SecretRoom, DevilRoom, AngelRoom
 }
 
+
 public struct RoomDepth
 {
     public Vector2Int coordinate;
