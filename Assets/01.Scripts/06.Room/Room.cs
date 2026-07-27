@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Room : MonoBehaviour
 {
+    #region varialbe
     private bool isClear;
     private bool isRetry = false;
     private bool isDespawning = false;
@@ -11,7 +12,8 @@ public class Room : MonoBehaviour
     private List<GameObject> entityList;
     private int aliveMonsterCnt;
     private RoomType roomType;
-
+    public Vector2[] doorPos;
+    #endregion
 
     private void Awake()
     {
@@ -21,31 +23,10 @@ public class Room : MonoBehaviour
         roomLayoutData.Init();
     }
 
-    private void Start()
-    {
-    }
-
-    private void OnDisable()
-    {
-    }
-
     public Vector3 ReturnPos()
     {
         return new Vector3(transform.position.x + 8.5f, transform.position.y + 5.5f, 0f);
     }
-
-
-
-    // 1. 방을 생성 후에 바로 entity 소환
-    // 2. entityList 저장
-    // 3. 생성 다 된 후에 enitity set false
-    // 4. Player가 enter 후 모든 entity set true
-    // 5. 방 클리어 시 몬스터 list 제거
-    // 5-1. 방을 도중에 나갈 시 몬스터 list는 초기화
-    //      entity 
-    //
-    //
-
 
     /// <summary>
     /// 현재 방 타입 지정

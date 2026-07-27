@@ -6,18 +6,24 @@ public class RoomManager : Singleton<RoomManager>
 {
     [SerializeField] public GameObject Player;
     private RoomGenerator roomGenerator;
-    private List<GameObject> roomList = new List<GameObject>();
+    private Dictionary<Vector2Int, Room> spawnRoomMap;
     public Room currentRoom;
-    
+
+    private Vector2Int[] directions = new Vector2Int[]
+    {
+        Vector2Int.up, Vector2Int.down, Vector2Int.left, Vector2Int.right
+    };
+
     protected override void Awake()
     {
         base.Awake();
         roomGenerator = new RoomGenerator();
+        spawnRoomMap = new Dictionary<Vector2Int, Room>();
     }
 
     public void StartRoomsSpawn()
     {
-        roomList.Clear();
+        spawnRoomMap.Clear();
         StartCoroutine(SpawnAllRooms());
     }
 
@@ -28,11 +34,16 @@ public class RoomManager : Singleton<RoomManager>
         // 방 생성할 시 타입 정하게 해야함
 
         Debug.Log("방 소환 시작");
-
-        foreach (var room in roomGenerator.roomMap)
+        foreach(var room in roomGenerator.roomMap)
         {
-            roomList.Add(SpawnManager.Instance.SpawnRoom(room.Key.coordinate, room.Value));
+            GameObject roomObj = SpawnManager.Instance.SpawnRoom(room.Key.coordinate, room.Value);
+            if(roomObj != null && roomObj.TryGetComponent<Room>(out var roomComp))
+            {
+                spawnRoomMap[room.Key.coordinate] = roomComp;
+            }
         }
+
+        DoorInstallInTheRoom();
     }
 
 
@@ -45,7 +56,25 @@ public class RoomManager : Singleton<RoomManager>
         }
         currentRoom = room;
         CameraRoomRock.Instance.SetCameraPosition(room.transform);
-        Debug.Log($"현재 Grid 위치 : [{currentRoom.transform.position.x} , {currentRoom.transform.position.y}]");
     }
     
+    private void DoorInstallInTheRoom()
+    {
+        List<Vector2Int> doorCoordinate = new List<Vector2Int>();
+        
+        foreach(var vec2 in spawnRoomMap)
+        {
+            foreach(Vector2Int v in directions)
+            {
+                Vector2Int checkPos = vec2.Key + v;
+                if(spawnRoomMap.ContainsKey(checkPos))
+                {
+                    doorCoordinate.Add(checkPos);
+                }
+            }
+
+            doorCoordinate.Clear();
+        }
+    }
+
 }
