@@ -35,10 +35,17 @@ public class RoomManager : Singleton<RoomManager>
         }
     }
 
-    public void SetCurrentRoom(Room room)
+
+
+    public void ChangeRoom(Room room)
     {
+        if(currentRoom != null)
+        {
+            currentRoom.OnPlayerExitRoom();
+        }
         currentRoom = room;
         CameraRoomRock.Instance.SetCameraPosition(room.transform);
         Debug.Log($"현재 Grid 위치 : [{currentRoom.transform.position.x} , {currentRoom.transform.position.y}]");
     }
+    
 }

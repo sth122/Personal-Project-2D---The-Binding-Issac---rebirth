@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public enum EntityType
@@ -26,14 +27,36 @@ public class SpawnManager : Singleton<SpawnManager>
         roomFactory = new RoomFactory();
     }
 
-    public void SpawnAll(RoomEntityData data)
+    public List<GameObject> SpawnAll(RoomEntityData data, Func<SpawnInfo, bool> isSpawn)
     {
+        List<GameObject> list = new List<GameObject>();
         foreach (var k in data.spawnInfos)
         {
+            if (!isSpawn(k))
+                continue;
+
             cloneInfo = k.Clone();
             if (factoryMap.ContainsKey(k.entityType))
             {
-                factoryMap[k.entityType].OnSpawnEntity(cloneInfo);
+                list.Add(factoryMap[k.entityType].OnSpawnEntity(cloneInfo));
+            }
+
+        }
+        return list;
+    }
+
+    public void DeSpawn(List<GameObject> obj, Func<GameObject, bool> isObj)
+    {
+        List<GameObject> copy = new List<GameObject>(obj);
+
+        foreach(var k in copy)
+        {
+            if(!isObj(k))
+                continue;
+
+            if(k.TryGetComponent<IReturnPool>(out var r))
+            {
+                r.ReturnPool();
             }
         }
     }

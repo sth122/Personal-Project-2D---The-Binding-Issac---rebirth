@@ -1,16 +1,22 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private Animator animator;
+
+
+    private void Awake()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnCloseDoor()
     {
-        
+        animator.SetBool("isEnter", true);
     }
+    public void OnOpneDoor()
+    {
+        animator.SetBool("isClear", true);
+    }
+
 }

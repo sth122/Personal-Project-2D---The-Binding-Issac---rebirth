@@ -1,24 +1,51 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class Room : MonoBehaviour
 {
     private bool isClear;
+    private bool isRetry = false;
+    private bool isDespawning = false;
     private RoomLayoutData roomLayoutData;
     private RoomEntityData roomEntity;
+    private List<GameObject> entityList;
     private int aliveMonsterCnt;
     private RoomType roomType;
 
+
     private void Awake()
     {
+        entityList = new List<GameObject>();
+
         roomLayoutData = DataManager.Instance.RoomLayoutData;
         roomLayoutData.Init();
     }
 
-    public void Init()
+    private void Start()
     {
-        isClear = false;
-        
     }
+
+    private void OnDisable()
+    {
+    }
+
+    public Vector3 ReturnPos()
+    {
+        return new Vector3(transform.position.x + 8.5f, transform.position.y + 5.5f, 0f);
+    }
+
+
+
+    // 1. 방을 생성 후에 바로 entity 소환
+    // 2. entityList 저장
+    // 3. 생성 다 된 후에 enitity set false
+    // 4. Player가 enter 후 모든 entity set true
+    // 5. 방 클리어 시 몬스터 list 제거
+    // 5-1. 방을 도중에 나갈 시 몬스터 list는 초기화
+    //      entity 
+    //
+    //
+
 
     /// <summary>
     /// 현재 방 타입 지정
@@ -30,9 +57,8 @@ public class Room : MonoBehaviour
         roomType = type;
 
         int roomCount = roomLayoutData.RoomDic[roomType].Count;
-        aliveMonsterCnt = 0;
 
-        if(roomCount > 0 )
+        if (roomCount > 0)
         {
             int idx = Random.Range(0, roomCount);
 
@@ -40,69 +66,117 @@ public class Room : MonoBehaviour
             roomEntity.SetLocalToWroldRoomPostion(transform.position);
         }
 
-        if(roomType == RoomType.StartRoom)
+        if (roomType == RoomType.StartRoom)
         {
-            RoomManager.Instance.SetCurrentRoom(this);
+            RoomManager.Instance.ChangeRoom(this);
+            IsaacManager.Instance.Player.transform.position = ReturnPos();
         }
+        SetEntites();
     }
 
     /// <summary>
     /// 현재 방에 지정된 방 Entity를 소환하는 메서드
     /// -> Isaac이 방에 입장 시 호출
     /// </summary>
-    private void SpawnEntites()
+    private void SetEntites()
     {
-        if(roomEntity != null)
+        aliveMonsterCnt = 0;
+        if (roomEntity != null)
         {
-            SpawnManager.Instance.SpawnAll(roomEntity);
-            foreach(var mon in roomEntity.spawnInfos)
-            {
-                if(mon.entityType == EntityType.Monster)
-                {
-                    aliveMonsterCnt++;
-                    continue;
-                }
-            }
+            entityList =  SpawnManager.Instance.SpawnAll(roomEntity, (info) => true);
+            CountMonsterEntity();
         }
         else
         {
             Debug.LogError("roomEntity null Error");
         }
+
+        OnActiveEntity(false);
+    }
+
+    private void CountMonsterEntity()
+    {
+        foreach (var mon in roomEntity.spawnInfos)
+        {
+            if (mon.entityType == EntityType.Monster)
+            {
+                aliveMonsterCnt += 1;
+                continue;
+            }
+        }
+        isClear = CheckMonster();
+    }
+
+    private void OnActiveEntity(bool isBoolean)
+    {
+        foreach (var entity in entityList)
+        {
+            entity.SetActive(isBoolean);
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))
         {
+            RoomManager.Instance.ChangeRoom(this);
             OnPlayerEnterRoom();
         }
     }
 
     private void OnPlayerEnterRoom()
     {
-        RoomManager.Instance.SetCurrentRoom(this);
-        if(!isClear && roomEntity != null)
+        if (!isClear && roomEntity != null && isRetry)
         {
-            SpawnEntites();
+            entityList.AddRange(SpawnManager.Instance.SpawnAll(roomEntity, (info) => info.entityType == EntityType.Monster));
+            aliveMonsterCnt = 0;
+            CountMonsterEntity();
         }
+
+        OnActiveEntity(true);
+    }
+
+
+    public void OnPlayerExitRoom()
+    {
+        if (!isClear)
+        {
+            isDespawning = true;
+
+            SpawnManager.Instance.DeSpawn(entityList, (obj) => obj.layer == LayerMask.NameToLayer("Monster"));
+            isRetry = true;
+
+            isDespawning = false;
+        }
+        OnActiveEntity(false);
     }
 
     /// <summary>
     /// 해당 방 Monster Entity가  사망 시 cnt 지정
     /// -> 현재는 싱글톤 참조로  하고 있지만 이벤트 형식으로 변경해야함
     /// </summary>
-    public void OnMonsterDied()
+    public void OnObjectReturn(GameObject obj)
     {
-        aliveMonsterCnt--;
+        entityList.Remove(obj);
 
-        if(aliveMonsterCnt <= 0)
+        if (isDespawning)
+            return;
+
+        if (obj.TryGetComponent<MonsterController>(out var mon) && !isClear)
         {
-            isClear = true;
-            // 방 클리어 시 monster entity 삭제
-            roomEntity.spawnInfos.RemoveAll(info => info.entityType == EntityType.Monster);
+            aliveMonsterCnt--;
+        }
+
+        isClear = CheckMonster();
+        if (isClear)
+        {
             Debug.Log("방 클리어. 몬스터 제거");
         }
     }
 
-
+    private bool CheckMonster()
+    {
+        return aliveMonsterCnt <= 0 ? true : false;
+    }
 }

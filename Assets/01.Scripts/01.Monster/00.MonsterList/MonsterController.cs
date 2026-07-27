@@ -60,12 +60,17 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
 
     protected virtual void OnEnable()
     {
-
+        if(mData != null)
+        {
+            Appear();
+        }
     }
+
 
     protected virtual void OnDisable()
     {
         rb.linearVelocity = Vector2.zero;
+
     }
 
     protected virtual void Update()
@@ -84,11 +89,12 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         mData.SetTotalHp();
         OnDataLodead();
         this.target = target;
+        Appear();
     }
 
     protected virtual void OnDataLodead() { }
 
-    public virtual void Appear()
+    protected virtual void Appear()
     {
         StartAnimTime(mData.appearAnimTime, () => { stateMachine.ChangeState(mStateDic[MonsterCurrentState.Idle]); });
     }
@@ -97,12 +103,12 @@ abstract public class MonsterController : MonoBehaviour, IReturnPool
         mData.speed = 0;
         AnimController.AnimationStart(MonsterCurrentState.Die);
         StartAnimTime(mData.dieAnimTime, () => ReturnPool());
-        RoomManager.Instance.currentRoom.OnMonsterDied();
         // ReturnPool에서 사망 이펙트 추가
     }
 
     public void ReturnPool()
     {
+        RoomManager.Instance.currentRoom.OnObjectReturn(this.gameObject);
         ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);
     }
     public void StartAnimTime(float time, Action OnComplete)
