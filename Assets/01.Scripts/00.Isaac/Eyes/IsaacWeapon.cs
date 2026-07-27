@@ -34,10 +34,7 @@ abstract public class IsaacWeapon : MonoBehaviour
         StartCoroutine(AttackDelay());
     }
 
-    protected virtual void Update()
-    {
-
-    }
+    protected virtual void Update() { }
 
     protected abstract void Attack();
 
