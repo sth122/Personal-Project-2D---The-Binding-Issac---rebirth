@@ -15,7 +15,7 @@ abstract public class Door : MonoBehaviour
     protected Room currentRoom;
     protected Room nextRoom;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         d_Name = doorType.ToString();
         animator = GetComponent<Animator>();
@@ -33,7 +33,7 @@ abstract public class Door : MonoBehaviour
     public void SetTransform(DoorPos pos)
     {
         dir = pos.direction;
-        transform.position = pos.postion;
+        transform.position = currentRoom.transform.position + pos.postion;
         transform.rotation = pos.rotation;
     }
     public void SetRoom(Room currentRoom, Room nextRoom)
@@ -41,6 +41,7 @@ abstract public class Door : MonoBehaviour
         this.currentRoom = currentRoom;
         this.nextRoom  = nextRoom;
     }
+
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))

@@ -2,15 +2,14 @@
 
 public class BossDoor : Door
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected override void Awake()
     {
-        
+        doorType = DoorType.BossDoor;
+        base.Awake();
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        base.OnTriggerEnter2D(collision);
     }
 }

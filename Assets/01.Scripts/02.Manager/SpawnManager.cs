@@ -16,8 +16,10 @@ public class SpawnManager : Singleton<SpawnManager>
     private DoorFactory doorFactory;
     private SpawnInfo cloneInfo;
 
-    protected override void Initialize()
+    protected override void Awake()
     {
+        base.Awake();
+
         factoryMap = new Dictionary<EntityType, EntityFactory>()
         {
             { EntityType.Monster, new MonsterFactory() },
