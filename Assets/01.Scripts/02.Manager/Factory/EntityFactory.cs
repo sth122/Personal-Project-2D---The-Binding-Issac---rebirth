@@ -15,7 +15,7 @@ public class MonsterFactory : EntityFactory
     public MonsterFactory()
     {
         monsterData = DataManager.Instance.MonsterData;
-        player = RoomManager.Instance.Player;
+        player = RoomManager.Instance.isaac;
     }
 
     public override GameObject OnSpawnEntity(SpawnInfo info)

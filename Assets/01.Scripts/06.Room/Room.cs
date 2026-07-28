@@ -41,12 +41,7 @@ public class Room : MonoBehaviour
 
     public Vector3 TelePort(DirectionsEnum dir)
     {
-        return doorData.teleportPosDic[dir].position;
-    }
-
-    public Vector3 ReturnPos()
-    {
-        return new Vector3(transform.position.x + 8.5f, transform.position.y + 5.5f, 0f);
+        return transform.position + doorData.teleportPosDic[dir].position;
     }
 
     /// <summary>
@@ -73,8 +68,7 @@ public class Room : MonoBehaviour
 
         if (roomType == RoomType.StartRoom)
         {
-            //RoomManager.Instance.ChangeRoom(this, null);
-            IsaacManager.Instance.Player.transform.position = ReturnPos();
+            RoomManager.Instance.ChangeRoom(this, DirectionsEnum.Center);
         }
         SetEntites();
     }

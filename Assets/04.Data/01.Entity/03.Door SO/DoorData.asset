@@ -31,10 +31,12 @@ MonoBehaviour:
     postion: {x: 15, y: 5.5, z: 0}
   teleportPos:
   - direction: 0
-    position: {x: 8.5, y: 2, z: 0}
+    position: {x: 8.5, y: 2.5, z: 0}
   - direction: 1
-    position: {x: 8.5, y: 9, z: 0}
+    position: {x: 8.5, y: 8, z: 0}
   - direction: 2
-    position: {x: 15, y: 5.5, z: 0}
+    position: {x: 14.5, y: 5.5, z: 0}
   - direction: 3
-    position: {x: 2, y: 5.5, z: 0}
+    position: {x: 2.5, y: 5.5, z: 0}
+  - direction: 4
+    position: {x: 8.5, y: 5.5, z: 0}

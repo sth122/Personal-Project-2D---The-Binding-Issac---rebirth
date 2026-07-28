@@ -46,7 +46,7 @@ abstract public class Door : MonoBehaviour
     {
         if(collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))
         {
-            RoomManager.Instance.ChangeRoom(nextRoom, collision.gameObject, dir);
+            RoomManager.Instance.ChangeRoom(nextRoom, dir);
         }
     }
 }
