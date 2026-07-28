@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 abstract public class Monster : MonoBehaviour, IReturnPool
@@ -9,7 +8,6 @@ abstract public class Monster : MonoBehaviour, IReturnPool
     [SerializeField] protected Transform target;
 
     protected Rigidbody2D rb;
-    //public Rigidbody2D RB { get { return rb; } private set { rb = value; } }
 
     [SerializeField] protected MonsterInfo mData;
 
