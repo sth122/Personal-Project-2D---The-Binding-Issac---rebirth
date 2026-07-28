@@ -10,14 +10,16 @@ public class Room : MonoBehaviour
     private RoomLayoutData roomLayoutData;
     private RoomEntityData roomEntity;
     private List<GameObject> entityList;
+    private GameObject[] Doors;
     private int aliveMonsterCnt;
-    private RoomType roomType;
-    public Vector2[] doorPos;
+    public RoomType roomType;
+    public Dictionary<DirectionsEnum, RoomType> doorCoordinate;
     #endregion
 
     private void Awake()
     {
         entityList = new List<GameObject>();
+        doorCoordinate = new Dictionary<DirectionsEnum, RoomType>();
 
         roomLayoutData = DataManager.Instance.RoomLayoutData;
         roomLayoutData.Init();
@@ -159,5 +161,13 @@ public class Room : MonoBehaviour
     private bool CheckMonster()
     {
         return aliveMonsterCnt <= 0 ? true : false;
+    }
+
+    public void DoorInstall()
+    {
+        foreach(var dir in doorCoordinate)
+        {
+
+        }
     }
 }
