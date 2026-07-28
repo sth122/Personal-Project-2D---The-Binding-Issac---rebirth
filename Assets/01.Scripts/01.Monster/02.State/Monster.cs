@@ -5,6 +5,8 @@ using UnityEngine;
 abstract public class Monster : MonoBehaviour, IReturnPool
 {
     #region variable
+    protected EntityType type = EntityType.Monster;
+
     [SerializeField] protected Transform target;
 
     protected Rigidbody2D rb;
@@ -23,6 +25,7 @@ abstract public class Monster : MonoBehaviour, IReturnPool
         animController = GetComponent<MonsterAnimController>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+
     }
 
     protected virtual void OnEnable()
@@ -78,4 +81,6 @@ abstract public class Monster : MonoBehaviour, IReturnPool
             isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
         }
     }
+
+
 }

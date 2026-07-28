@@ -7,6 +7,7 @@ public enum MoveType
     Walk, Fly, Jump, Fix
 }
 
+
 [Serializable]
 public class MonsterInfo
 {

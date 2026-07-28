@@ -300,7 +300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1887ad86542bac744a5ac69637953664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoomManager
-  isaac: {fileID: 5902640056624608455}
   currentRoom: {fileID: 0}
 --- !u!1 &525932127
 GameObject:
@@ -419,7 +418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f73ff8d0622425f4fa276e9f2f4668d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IsaacManager
-  Player: {fileID: 5902640056624608455}
+  isaac: {fileID: 5902640056624608455}
   currentIsaacInfo:
     isaacID: 0
     isaacName: 

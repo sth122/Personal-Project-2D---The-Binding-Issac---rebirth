@@ -5,7 +5,7 @@ public class DoorFactory
 {
     private Dictionary<RoomType, string> doors = new Dictionary<RoomType, string>();
     private DoorData doorData;
-    private bool isInit = false;
+    //private bool isInit = false;
 
 
     public DoorFactory()
@@ -14,24 +14,19 @@ public class DoorFactory
         doors[RoomType.NormalRoom] = DoorType.NormalDoor.ToString();
         doors[RoomType.BossRoom] = DoorType.BossDoor.ToString();
         doors[RoomType.TreasureRoom] = DoorType.TreasureDoor.ToString();
-    }
-
-    private void InitData()
-    {
-        if (isInit)
-            return;
-
         doorData = DataManager.Instance.DoorData;
         doorData.Init();
-
-        isInit = true;
     }
+
 
     // 방향과 문 타입을 지정
     public GameObject OnSpawnDoor(DirectionsEnum vec, Room currentRoom, Room nextRoom)
     {
-        if (!isInit)
-            InitData();
+        if(nextRoom  == null)
+        {
+            Debug.Log("다음 방 없음");
+            return null;
+        }
 
         if (doors.ContainsKey(nextRoom.roomType))
         {

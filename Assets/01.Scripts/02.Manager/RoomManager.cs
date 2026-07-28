@@ -9,7 +9,6 @@ public enum DirectionsEnum
 
 public class RoomManager : Singleton<RoomManager>
 {
-    [SerializeField] public GameObject isaac;
     private RoomGenerator roomGenerator;
     private Dictionary<Vector2Int, Room> spawnRoomMap;
     private List<Room> roomsList;
@@ -71,7 +70,7 @@ public class RoomManager : Singleton<RoomManager>
         }
         currentRoom = nextRoom;
         CameraRoomRock.Instance.SetCameraPosition(nextRoom.transform);
-        isaac.transform.position = nextRoom.TelePort(dir);
+        IsaacManager.Instance.isaac.transform.position = nextRoom.TelePort(dir);
     }
 
     private void ConnectRoom()

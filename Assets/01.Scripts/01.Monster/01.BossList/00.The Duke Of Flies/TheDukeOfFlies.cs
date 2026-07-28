@@ -1,16 +1,22 @@
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class TheDukeOfFlies : MonoBehaviour
+public interface IPatternable
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Pattern();
+}
+
+public class TheDukeOfFlies : MonsterController, IPatternable
+{
+    #region variable
+
+
+    #endregion
+    protected override void Awake()
     {
-        
+        base.Awake();
+        mStateDic[MonsterCurrentState.Pattern] = new TheDukeOfFliesPatterState(this, mData);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public void Pattern() { }
 }

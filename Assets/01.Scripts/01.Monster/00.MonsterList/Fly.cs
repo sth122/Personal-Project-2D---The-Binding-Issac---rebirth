@@ -1,13 +1,9 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Fly : MonsterController, ITraceable, ITakeDamageable
+public class Fly : MonsterController, ITraceable
 {
     protected float traceRange;
-    private WaitForSeconds takeDamageEffectWait;
-    protected float knockbackForce;
-    private readonly Color hitRed = new Color(5f, 0, 0, 1f);
-    protected bool isKnockback;
 
     protected override void Awake()
     {
@@ -15,7 +11,6 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
         mStateDic[MonsterCurrentState.Trace] = new MonsterTraceState(this, mData);
 
         //isKnockback = false;
-        takeDamageEffectWait = new WaitForSeconds(0.12f);
         knockbackForce = 2f;
     }
 
@@ -75,34 +70,4 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
         rb.linearVelocity = GetDirection() * mData.speed;
     }
     #endregion
-
-    public virtual void TakeDamage(float damage, Vector2 damageDir)
-    {
-        mData.totalHp -= damage;
-        if (mData.totalHp <= 0)
-        {
-            mData.totalHp = 0;
-            Dead();
-            return;
-        }
-        Knockback(damageDir);
-    }
-
-    public virtual void Knockback(Vector2 damageDir)
-    {
-        Debug.Log("넉백 발생");
-        isKnockback = true;
-        rb.linearVelocity = Vector2.zero;
-        rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
-        StartCoroutine(HitFlash());
-    }
-
-    public virtual IEnumerator HitFlash()
-    {
-        sr.color = hitRed;
-        yield return takeDamageEffectWait;
-        isKnockback = false;
-        sr.color = Color.white;
-        rb.linearVelocity = Vector2.zero;
-    }
 }

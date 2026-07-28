@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class Room : MonoBehaviour
 {
@@ -16,6 +18,9 @@ public class Room : MonoBehaviour
     public RoomType roomType;
     public Dictionary<DirectionsEnum, Room> connectRoom;
     private DoorData doorData;
+
+    public Tilemap wallTilemap;
+    public TileBase wall;
     #endregion
 
     private void Awake()
@@ -26,7 +31,7 @@ public class Room : MonoBehaviour
         connectRoom = new Dictionary<DirectionsEnum, Room>();
     }
 
-    private  void Init()
+    private void Init()
     {
         if (isInit) return;
 
@@ -60,7 +65,7 @@ public class Room : MonoBehaviour
 
         if (roomCount > 0)
         {
-            int idx = Random.Range(0, roomCount);
+            int idx = UnityEngine.Random.Range(0, roomCount);
 
             roomEntity = roomLayoutData.RoomDic[roomType][idx].Clone();
             roomEntity.SetLocalToWroldRoomPostion(transform.position);
@@ -171,6 +176,7 @@ public class Room : MonoBehaviour
         if (isClear)
         {
             Debug.Log("방 클리어. 몬스터 제거");
+
         }
     }
 
@@ -181,9 +187,36 @@ public class Room : MonoBehaviour
 
     public void DoorInstall()
     {
-        foreach (var a in connectRoom)
+        foreach (DirectionsEnum dir in Enum.GetValues(typeof(DirectionsEnum)))
         {
-            doors.Add(SpawnManager.Instance.SpawnDoor(a.Key, this, a.Value));
+            if (connectRoom.TryGetValue(dir, out Room nextRoom))
+            {
+                doors.Add(SpawnManager.Instance.SpawnDoor(dir, this, nextRoom));
+                SetWallTilemap(dir, null);
+            }
+        }
+    }
+
+    private void SetWallTilemap(DirectionsEnum dir, TileBase tile)
+    {
+        if (dir == DirectionsEnum.Center || wallTilemap == null)
+            return;
+
+        Vector3 doorPos = transform.position + doorData.doorPosDic[dir].postion;
+        Vector3Int wallPos = wallTilemap.WorldToCell(doorPos);
+
+        wallTilemap.SetTile(wallPos, tile);
+
+        switch (dir)
+        {
+            case DirectionsEnum.Down:
+                wallTilemap.SetTile(wallPos + new Vector3Int(0, -1, 0), null);
+                break;
+            case DirectionsEnum.Left:
+                wallTilemap.SetTile(wallPos + new Vector3Int(-1, 0, 0), null);
+                break;
+            default:
+                break;
         }
     }
 }
