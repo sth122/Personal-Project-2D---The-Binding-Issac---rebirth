@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
-using System;
 using System.Collections;
 
-public class Boss : AttackFly
+public interface ISpawnable
 {
-    protected float attackRange;
+    public void SubEntitySpawn();
+}
+
+
+public class BossFly : AttackFly, ISpawnable
+{
 
     protected override void Awake()
     {
@@ -49,5 +53,10 @@ public class Boss : AttackFly
     protected override void OnCollisionEnter2D(Collision2D collision)
     {
         base.OnCollisionEnter2D(collision);
+    }
+
+    public void SubEntitySpawn()
+    {
+
     }
 }
