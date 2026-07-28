@@ -71,11 +71,12 @@ public class Room : MonoBehaviour
             roomEntity.SetLocalToWroldRoomPostion(transform.position);
         }
 
+        SetEntites();
+
         if (roomType == RoomType.StartRoom)
         {
             RoomManager.Instance.ChangeRoom(this, DirectionsEnum.Center);
         }
-        SetEntites();
     }
 
     /// <summary>
@@ -124,7 +125,6 @@ public class Room : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))
         {
-            //RoomManager.Instance.ChangeRoom(this);
             OnPlayerEnterRoom();
         }
     }
@@ -136,13 +136,9 @@ public class Room : MonoBehaviour
             entityList.AddRange(SpawnManager.Instance.SpawnAll(roomEntity, (info) => info.entityType == EntityType.Monster));
             aliveMonsterCnt = 0;
             CountMonsterEntity();
-
-            DoorStateUpdate();
         }
-
         OnActiveEntity(true);
     }
-
 
     public void OnPlayerExitRoom()
     {
@@ -198,7 +194,6 @@ public class Room : MonoBehaviour
                 SetWallTilemap(dir, null);
             }
         }
-        DoorStateUpdate();
     }
 
     private void SetWallTilemap(DirectionsEnum dir, TileBase tile)
@@ -224,11 +219,11 @@ public class Room : MonoBehaviour
         }
     }
 
-    private void DoorStateUpdate()
+    public void DoorStateUpdate()
     {
         if(doors == null)
         {
-            Debug.LogError("doors null error");
+            Debug.LogError("DoorStateUpdate doors null error");
         }
 
         foreach (var doorObj in doors)
@@ -238,7 +233,5 @@ public class Room : MonoBehaviour
                 door.SetDoorState(isClear);
             }
         }
-
     }
-
 }

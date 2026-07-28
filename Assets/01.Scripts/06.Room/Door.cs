@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public enum DoorType
 {
@@ -41,20 +42,31 @@ abstract public class Door : MonoBehaviour
     public void SetRoom(Room currentRoom, Room nextRoom)
     {
         this.currentRoom = currentRoom;
-        this.nextRoom  = nextRoom;
+        this.nextRoom = nextRoom;
     }
 
     public void SetDoorState(bool isClear)
     {
         if(wallCollider != null)
         {
+            teleportCol.enabled = isClear;
             wallCollider.enabled = !isClear;
+        }
+
+        if(isClear)
+        {
+            OnOpneDoor();
+        }
+        else
+        {
+            OnCloseDoor();
         }
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac") ||
+            collision.gameObject.layer == LayerMask.NameToLayer("Isaac Collider"))
         {
             RoomManager.Instance.ChangeRoom(nextRoom, dir);
         }

@@ -30,6 +30,11 @@ public class RoomManager : Singleton<RoomManager>
         spawnRoomMap = new Dictionary<Vector2Int, Room>();
     }
 
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+    }
+
     public void StartRoomsSpawn()
     {
         spawnRoomMap.Clear();
@@ -69,6 +74,7 @@ public class RoomManager : Singleton<RoomManager>
             currentRoom.OnPlayerExitRoom();
         }
         currentRoom = nextRoom;
+        currentRoom.DoorStateUpdate();
         CameraRoomRock.Instance.SetCameraPosition(nextRoom.transform);
         IsaacManager.Instance.isaac.transform.position = nextRoom.TelePort(dir);
     }
