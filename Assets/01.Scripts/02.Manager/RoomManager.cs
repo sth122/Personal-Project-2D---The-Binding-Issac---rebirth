@@ -23,12 +23,6 @@ public class RoomManager : Singleton<RoomManager>
         {DirectionsEnum.Right, Vector2Int.right},
     };
 
-
-    private Vector2Int[] directions = new Vector2Int[]
-    {
-        Vector2Int.up, Vector2Int.down, Vector2Int.left, Vector2Int.right
-    };
-
     protected override void Awake()
     {
         base.Awake();
@@ -49,6 +43,13 @@ public class RoomManager : Singleton<RoomManager>
         // 초기 테스트  타입
         // 방 생성할 시 타입 정하게 해야함
 
+        yield return StartCoroutine(SpawnRoom());
+
+        ConnectRoom();
+    }
+
+    private IEnumerator SpawnRoom()
+    {
         Debug.Log("방 소환 시작");
         foreach (var room in roomGenerator.roomMap)
         {
@@ -58,9 +59,8 @@ public class RoomManager : Singleton<RoomManager>
                 roomsList.Add(roomComp);
                 spawnRoomMap[room.Key.coordinate] = roomComp;
             }
+            yield return null;
         }
-
-        ConnectRoom();
     }
 
     public void ChangeRoom(Room nextRoom, GameObject isaac, DirectionsEnum dir)
@@ -90,4 +90,6 @@ public class RoomManager : Singleton<RoomManager>
             vec2.Value.DoorInstall();
         }
     }
+
+
 }

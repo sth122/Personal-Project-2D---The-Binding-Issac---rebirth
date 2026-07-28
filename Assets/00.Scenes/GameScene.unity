@@ -479,6 +479,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPoolManager
   prefabDic:
     _serializedList:
+    - Key: NormalDoor
+      Value:
+        Prefab: {fileID: 5501508958281141762, guid: 4be42f87fd146394ea8197c5f7527afc, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
+    - Key: BossDoor
+      Value:
+        Prefab: {fileID: 5501508958281141762, guid: dfe46d1d8fea40e4b929e09a41d64a4c, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
+    - Key: TreasureDoor
+      Value:
+        Prefab: {fileID: 5501508958281141762, guid: a87642d08eccbc24595dcf9ee220e4f5, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
     - Key: StartRoom
       Value:
         Prefab: {fileID: 4474320625537954766, guid: 8702c0b7fae6cdf4f9696a52ef3cd349, type: 3}

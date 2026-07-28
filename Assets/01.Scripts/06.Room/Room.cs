@@ -7,6 +7,7 @@ public class Room : MonoBehaviour
     private bool isClear;
     private bool isRetry = false;
     private bool isDespawning = false;
+    private bool isInit = false;
     private RoomLayoutData roomLayoutData;
     private RoomEntityData roomEntity;
     private List<GameObject> entityList;
@@ -19,14 +20,25 @@ public class Room : MonoBehaviour
 
     private void Awake()
     {
-        doorData = DataManager.Instance.DoorData;
-        doorData.Init();
+        doors = new List<GameObject>();
+
         entityList = new List<GameObject>();
         connectRoom = new Dictionary<DirectionsEnum, Room>();
-
-        roomLayoutData = DataManager.Instance.RoomLayoutData;
-        roomLayoutData.Init();
     }
+
+    private  void Init()
+    {
+        if (isInit) return;
+
+        doorData = DataManager.Instance.DoorData;
+        roomLayoutData = DataManager.Instance.RoomLayoutData;
+
+        doorData.Init();
+        roomLayoutData.Init();
+
+        isInit = true;
+    }
+
     public Vector3 TelePort(DirectionsEnum dir)
     {
         return doorData.teleportPosDic[dir].position;
@@ -44,6 +56,9 @@ public class Room : MonoBehaviour
     /// <param name="type"></param>
     public void SetRoom(RoomType type)
     {
+        if (!isInit)
+            Init();
+
         roomType = type;
 
         int roomCount = roomLayoutData.RoomDic[roomType].Count;

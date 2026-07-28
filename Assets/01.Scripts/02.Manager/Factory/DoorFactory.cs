@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using System;
 
 public class DoorFactory
 {
     private Dictionary<RoomType, string> doors = new Dictionary<RoomType, string>();
     public DoorData doorData;
+    public RoomType roomType;
 
     public DoorFactory()
     {
@@ -21,7 +21,10 @@ public class DoorFactory
     {
         if (doors.ContainsKey(nextRoom.roomType))
         {
-            GameObject doorObj = ObjectPoolManager.Instance.GetObject(doors[nextRoom.roomType]);
+            roomType = nextRoom.roomType;
+            if (roomType == RoomType.StartRoom)
+                roomType = RoomType.NormalRoom;
+            GameObject doorObj = ObjectPoolManager.Instance.GetObject(doors[roomType]);
             if (doorObj != null)
             {
                 Door door = doorObj.GetComponent<Door>();
