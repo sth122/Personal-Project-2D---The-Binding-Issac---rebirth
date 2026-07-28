@@ -104,9 +104,9 @@ GameObject:
   - component: {fileID: 2539025297409984290}
   - component: {fileID: 4164951520183612018}
   - component: {fileID: 6392365650664813150}
-  - component: {fileID: 4606534880048968832}
+  - component: {fileID: 5085976481705468513}
   m_Layer: 0
-  m_Name: DoorFrame
+  m_Name: TreasureDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,7 +210,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4606534880048968832
+--- !u!114 &5085976481705468513
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,9 +219,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5501508958281141762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a058405f21532a448aad96390c8dfaf, type: 3}
+  m_Script: {fileID: 11500000, guid: c54ca28f90cc73a4d8fc546431127b6d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Door
+  m_EditorClassIdentifier: Assembly-CSharp::TreasureDoor
 --- !u!1 &7622983338187617658
 GameObject:
   m_ObjectHideFlags: 0

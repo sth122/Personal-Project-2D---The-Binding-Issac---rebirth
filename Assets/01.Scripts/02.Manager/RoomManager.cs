@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum DirectionsEnum
 {
-    Up, Down, Left, Right
+    Up, Down, Left, Right, Center
 }
 
 public class RoomManager : Singleton<RoomManager>
@@ -60,20 +60,22 @@ public class RoomManager : Singleton<RoomManager>
             }
         }
 
-        DoorInstallInTheRoom();
+        ConnectRoom();
     }
 
-    public void ChangeRoom(Room room)
+    public void ChangeRoom(Room nextRoom, GameObject isaac, DirectionsEnum dir)
     {
         if (currentRoom != null)
         {
             currentRoom.OnPlayerExitRoom();
         }
-        currentRoom = room;
-        CameraRoomRock.Instance.SetCameraPosition(room.transform);
+        currentRoom = nextRoom;
+        CameraRoomRock.Instance.SetCameraPosition(nextRoom.transform);
+        isaac.transform.position = nextRoom.TelePort(dir);
+
     }
 
-    private void DoorInstallInTheRoom()
+    private void ConnectRoom()
     {
         foreach (var vec2 in spawnRoomMap)
         {
@@ -82,11 +84,10 @@ public class RoomManager : Singleton<RoomManager>
                 Vector2Int checkPos = vec2.Key + dir.Value;
                 if (spawnRoomMap.ContainsKey(checkPos))
                 {
-                    vec2.Value.doorCoordinate[dir.Key] = spawnRoomMap[checkPos].roomType;
+                    vec2.Value.connectRoom[dir.Key] = spawnRoomMap[checkPos];
                 }
             }
             vec2.Value.DoorInstall();
         }
     }
-
 }

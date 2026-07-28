@@ -12,6 +12,8 @@ abstract public class Door : MonoBehaviour
     protected DirectionsEnum dir;
     protected RoomType roomType;
     protected DoorType doorType;
+    protected Room currentRoom;
+    protected Room nextRoom;
 
     private void Awake()
     {
@@ -28,19 +30,22 @@ abstract public class Door : MonoBehaviour
         animator.SetBool("isClear", true);
     }
 
-    public void SetRotation()
+    public void SetTransform(DoorPos pos)
     {
-        switch(this.dir)
+        dir = pos.direction;
+        transform.position = pos.postion;
+        transform.rotation = pos.rotation;
+    }
+    public void SetRoom(Room currentRoom, Room nextRoom)
+    {
+        this.currentRoom = currentRoom;
+        this.nextRoom  = nextRoom;
+    }
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))
         {
-            case DirectionsEnum.Up:
-                
-                break;
-            case DirectionsEnum.Down:
-                break;
-            case DirectionsEnum.Left:
-                break;
-            case DirectionsEnum.Right:
-                break;
+            RoomManager.Instance.ChangeRoom(nextRoom, collision.gameObject, dir);
         }
     }
 }

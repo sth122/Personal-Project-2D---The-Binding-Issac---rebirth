@@ -10,19 +10,26 @@ public class Room : MonoBehaviour
     private RoomLayoutData roomLayoutData;
     private RoomEntityData roomEntity;
     private List<GameObject> entityList;
-    private GameObject[] Doors;
+    private List<GameObject> doors;
     private int aliveMonsterCnt;
     public RoomType roomType;
-    public Dictionary<DirectionsEnum, RoomType> doorCoordinate;
+    public Dictionary<DirectionsEnum, Room> connectRoom;
+    private DoorData doorData;
     #endregion
 
     private void Awake()
     {
+        doorData = DataManager.Instance.DoorData;
+        doorData.Init();
         entityList = new List<GameObject>();
-        doorCoordinate = new Dictionary<DirectionsEnum, RoomType>();
+        connectRoom = new Dictionary<DirectionsEnum, Room>();
 
         roomLayoutData = DataManager.Instance.RoomLayoutData;
         roomLayoutData.Init();
+    }
+    public Vector3 TelePort(DirectionsEnum dir)
+    {
+        return doorData.teleportPosDic[dir].position;
     }
 
     public Vector3 ReturnPos()
@@ -51,7 +58,7 @@ public class Room : MonoBehaviour
 
         if (roomType == RoomType.StartRoom)
         {
-            RoomManager.Instance.ChangeRoom(this);
+            //RoomManager.Instance.ChangeRoom(this, null);
             IsaacManager.Instance.Player.transform.position = ReturnPos();
         }
         SetEntites();
@@ -66,7 +73,7 @@ public class Room : MonoBehaviour
         aliveMonsterCnt = 0;
         if (roomEntity != null)
         {
-            entityList =  SpawnManager.Instance.SpawnAll(roomEntity, (info) => true);
+            entityList = SpawnManager.Instance.SpawnAll(roomEntity, (info) => true);
             CountMonsterEntity();
         }
         else
@@ -103,7 +110,7 @@ public class Room : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Isaac"))
         {
-            RoomManager.Instance.ChangeRoom(this);
+            //RoomManager.Instance.ChangeRoom(this);
             OnPlayerEnterRoom();
         }
     }
@@ -165,9 +172,9 @@ public class Room : MonoBehaviour
 
     public void DoorInstall()
     {
-        foreach(var dir in doorCoordinate)
+        foreach (var a in connectRoom)
         {
-
+            doors.Add(SpawnManager.Instance.SpawnDoor(a.Key, this, a.Value));
         }
     }
 }

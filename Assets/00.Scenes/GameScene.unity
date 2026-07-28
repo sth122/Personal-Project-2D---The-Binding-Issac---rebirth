@@ -738,6 +738,7 @@ MonoBehaviour:
   <ItemData>k__BackingField: {fileID: 11400000, guid: 40c9c809deb9f5042a905ad5e644d3e7, type: 2}
   <ObstacleData>k__BackingField: {fileID: 11400000, guid: 10b4dee17da0daf4a89715a42d94b790, type: 2}
   <RoomLayoutData>k__BackingField: {fileID: 11400000, guid: 9633d778b40e4f14db5afee6c4774ec8, type: 2}
+  <DoorData>k__BackingField: {fileID: 11400000, guid: edb2c35a2c260a345b755dd349029c3d, type: 2}
 --- !u!4 &1491700941
 Transform:
   m_ObjectHideFlags: 0
@@ -1025,7 +1026,7 @@ Transform:
   m_GameObject: {fileID: 5902640056624608455}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.5, y: 5.5, z: 0}
+  m_LocalPosition: {x: 2.491, y: 5.083, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

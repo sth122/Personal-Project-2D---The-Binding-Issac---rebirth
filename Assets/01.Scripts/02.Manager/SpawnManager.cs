@@ -13,6 +13,7 @@ public class SpawnManager : Singleton<SpawnManager>
     private Dictionary<EntityType, EntityFactory> factoryMap;
     private BulletFactory bulletFactory;
     private RoomFactory roomFactory;
+    private DoorFactory doorFactory;
     private SpawnInfo cloneInfo;
 
     protected override void Initialize()
@@ -25,6 +26,7 @@ public class SpawnManager : Singleton<SpawnManager>
         };
         bulletFactory = new BulletFactory();
         roomFactory = new RoomFactory();
+        doorFactory = new DoorFactory();
     }
 
     public List<GameObject> SpawnAll(RoomEntityData data, Func<SpawnInfo, bool> isSpawn)
@@ -69,5 +71,10 @@ public class SpawnManager : Singleton<SpawnManager>
     public GameObject SpawnRoom(Vector2Int coordinate, RoomType type)
     {
         return roomFactory.OnSpawnRoom(coordinate, type);
+    }
+
+    public GameObject SpawnDoor(DirectionsEnum vec, Room currentRoom, Room nextRoom)
+    {
+        return doorFactory.OnSpawnDoor(vec, currentRoom, nextRoom);
     }
 }
