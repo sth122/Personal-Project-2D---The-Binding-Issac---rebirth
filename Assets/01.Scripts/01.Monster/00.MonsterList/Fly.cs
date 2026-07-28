@@ -10,7 +10,6 @@ public class Fly : MonsterController, ITraceable
         base.Awake();
         mStateDic[MonsterCurrentState.Trace] = new MonsterTraceState(this, mData);
 
-        //isKnockback = false;
         knockbackForce = 2f;
     }
 

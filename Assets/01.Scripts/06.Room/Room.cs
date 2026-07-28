@@ -136,6 +136,8 @@ public class Room : MonoBehaviour
             entityList.AddRange(SpawnManager.Instance.SpawnAll(roomEntity, (info) => info.entityType == EntityType.Monster));
             aliveMonsterCnt = 0;
             CountMonsterEntity();
+
+            DoorStateUpdate();
         }
 
         OnActiveEntity(true);
@@ -177,6 +179,7 @@ public class Room : MonoBehaviour
         {
             Debug.Log("방 클리어. 몬스터 제거");
 
+            DoorStateUpdate();
         }
     }
 
@@ -195,6 +198,7 @@ public class Room : MonoBehaviour
                 SetWallTilemap(dir, null);
             }
         }
+        DoorStateUpdate();
     }
 
     private void SetWallTilemap(DirectionsEnum dir, TileBase tile)
@@ -219,4 +223,22 @@ public class Room : MonoBehaviour
                 break;
         }
     }
+
+    private void DoorStateUpdate()
+    {
+        if(doors == null)
+        {
+            Debug.LogError("doors null error");
+        }
+
+        foreach (var doorObj in doors)
+        {
+            if(doorObj.TryGetComponent<Door>(out Door door))
+            {
+                door.SetDoorState(isClear);
+            }
+        }
+
+    }
+
 }

@@ -15,6 +15,9 @@ abstract public class Door : MonoBehaviour
     protected Room currentRoom;
     protected Room nextRoom;
 
+    public BoxCollider2D teleportCol;
+    public BoxCollider2D wallCollider;
+
     protected virtual void Awake()
     {
         d_Name = doorType.ToString();
@@ -29,7 +32,6 @@ abstract public class Door : MonoBehaviour
     {
         animator.SetBool("isClear", true);
     }
-
     public void SetTransform(DoorPos pos)
     {
         dir = pos.direction;
@@ -40,6 +42,14 @@ abstract public class Door : MonoBehaviour
     {
         this.currentRoom = currentRoom;
         this.nextRoom  = nextRoom;
+    }
+
+    public void SetDoorState(bool isClear)
+    {
+        if(wallCollider != null)
+        {
+            wallCollider.enabled = !isClear;
+        }
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)

@@ -223,6 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7071407a7f8982f4aade06b2a5c0d4ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NormalDoor
+  teleportCol: {fileID: 6975836818077653899}
+  wallCollider: {fileID: 8987488771891224084}
 --- !u!61 &6975836818077653899
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -279,6 +281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2389862411388401620}
   - component: {fileID: 3861298818758532952}
+  - component: {fileID: 8987488771891224084}
   m_Layer: 16
   m_Name: Empty
   m_TagString: Untagged
@@ -360,6 +363,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &8987488771891224084
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7622983338187617658}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.045}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.78125, y: 0.71875}
+    newSize: {x: 0.84375, y: 0.78125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 0.01}
+  m_EdgeRadius: 0
 --- !u!1 &8000972076666135212
 GameObject:
   m_ObjectHideFlags: 0
