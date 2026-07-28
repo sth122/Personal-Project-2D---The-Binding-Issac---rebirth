@@ -72,7 +72,7 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
     }
     private void Move()
     {
-        RB.linearVelocity = GetDirection() * mData.speed;
+        rb.linearVelocity = GetDirection() * mData.speed;
     }
     #endregion
 
