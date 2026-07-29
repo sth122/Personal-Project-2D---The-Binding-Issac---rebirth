@@ -6,13 +6,14 @@ abstract public class BossController : MonsterController, IPatternable
     #region variable
     private bool isPattern;
     private BossPattern pattern;
-    private WaitForSeconds patternWait;
+    protected WaitForSeconds patternWait;
+    protected float patternDelayTime;
     #endregion
     protected override void Awake()
     {
         base.Awake();
-        patternWait = new WaitForSeconds(8f);
-        isPattern = false;
+        patternDelayTime = 5f;
+        patternWait = new WaitForSeconds(patternDelayTime);
     }
 
     protected override void OnEnable()
@@ -25,6 +26,8 @@ abstract public class BossController : MonsterController, IPatternable
         base.OnDisable();
         StopCoroutine(BossPatternCoroutine());
     }
+
+
 
     public void IPattern()
     {
@@ -50,12 +53,13 @@ abstract public class BossController : MonsterController, IPatternable
         switch (pattern)
         {
             case BossPattern.FirstPattern:
+                AttackFirstPattern();
                 break;
             case BossPattern.SecondPattern:
-
+                AttackSecondPattern();
                 break;
             case BossPattern.ThirdPattern:
-
+                AttackThirdPattern();
                 break;
             default:
                 break;
@@ -65,5 +69,6 @@ abstract public class BossController : MonsterController, IPatternable
     protected abstract void AttackSecondPattern();
 
     protected abstract void AttackThirdPattern();
+    protected abstract void Movement();
 
 }

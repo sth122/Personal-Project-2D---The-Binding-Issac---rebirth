@@ -14,15 +14,18 @@ public enum BossPattern
 public class TheDukeOfFlies : BossController
 {
     #region variable
-    private BossPattern pattern;
-    private WaitForSeconds patternWait;
     #endregion
     protected override void Awake()
     {
         base.Awake();
-        mStateDic[MonsterCurrentState.Pattern] = new TheDukeOfFliesPatterState(this, mData);
+        mStateDic[MonsterCurrentState.Pattern] = new TheDukeOfFliesState(this, mData);
         patternWait = new WaitForSeconds(8f);
     }
+    protected override void Appear()
+    {
+        StartAnimTime(mData.appearAnimTime, () => { stateMachine.ChangeState(mStateDic[MonsterCurrentState.Pattern]); });
+    }
+
     protected override void AttackFirstPattern()
     {
 
@@ -32,9 +35,12 @@ public class TheDukeOfFlies : BossController
 
 
     }
-
     protected override void AttackThirdPattern()
     {
 
+    }
+    protected override void Movement()
+    {
+        
     }
 }
