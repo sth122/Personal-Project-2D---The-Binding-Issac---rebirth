@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class MonsterMoveState : MonsterState
 {
-    //bool isPattern = false;
     public MonsterMoveState(MonsterController controller, MonsterInfo mData) : base(controller, mData)
     {
         this.controller = controller;

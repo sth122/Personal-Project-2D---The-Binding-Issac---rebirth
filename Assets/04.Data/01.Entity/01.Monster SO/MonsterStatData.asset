@@ -21,7 +21,7 @@ MonoBehaviour:
     contactDamage: 0
     stageHp: 0
     speed: 1
-    appearAnimTime: 0.25
+    appearAnimTime: 0.41
     dieAnimTime: 0.22
     type: 0
     moveType: 1
@@ -33,19 +33,19 @@ MonoBehaviour:
     contactDamage: 1
     stageHp: 0
     speed: 1.2
-    appearAnimTime: 0.25
+    appearAnimTime: 0.41
     dieAnimTime: 0.22
     type: 0
     moveType: 1
   - monsterID: 2
-    name: TheDukeofFlies
+    name: TheDukeOfFlies
     totalHp: 0
     baseHp: 110
     damage: 0
-    contactDamage: 0
+    contactDamage: 2
     stageHp: 0
-    speed: 0
-    appearAnimTime: 0
+    speed: 1
+    appearAnimTime: 0.6
     dieAnimTime: 0
     type: 0
     moveType: 1

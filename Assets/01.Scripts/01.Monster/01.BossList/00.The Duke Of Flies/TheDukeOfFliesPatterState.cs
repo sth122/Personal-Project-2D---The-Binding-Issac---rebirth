@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class TheDukeOfFliesPatterState : MonsterState
+public class TheDukeOfFliesPatterState : PatternState
 {
     public TheDukeOfFliesPatterState(MonsterController controller, MonsterInfo mData) : base(controller, mData)
     {

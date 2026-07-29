@@ -24,7 +24,7 @@ abstract public class Monster : MonoBehaviour, IReturnPool
     {
         animController = GetComponent<MonsterAnimController>();
         rb = GetComponent<Rigidbody2D>();
-        sr = GetComponentInChildren<SpriteRenderer>();
+        sr = GetComponent<SpriteRenderer>();
 
     }
 
