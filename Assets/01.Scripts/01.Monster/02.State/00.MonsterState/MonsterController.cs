@@ -25,7 +25,7 @@ public interface IReturnPool
 // 나중에 IsaacCurrentState랑 통합 예정
 public enum MonsterCurrentState
 {
-    Idle, Move, Trace, Attack, Die, Pattern
+    FirstPattern, SecondPattern, ThirdPattern, Idle, Move, Trace, Attack, Die, Pattern, 
 }
 
 abstract public class MonsterController : Monster, ITakeDamageable

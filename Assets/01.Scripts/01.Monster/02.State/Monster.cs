@@ -30,6 +30,7 @@ abstract public class Monster : MonoBehaviour, IReturnPool
 
     protected virtual void OnEnable()
     {
+        rb.linearVelocity = Vector3.zero;
         if (mData != null)
         {
             Appear();
@@ -81,6 +82,4 @@ abstract public class Monster : MonoBehaviour, IReturnPool
             isaac.TakeDamage(mData.contactDamage, rb.linearVelocity);
         }
     }
-
-
 }

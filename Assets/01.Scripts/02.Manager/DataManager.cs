@@ -14,4 +14,5 @@ public class DataManager : Singleton<DataManager>
     [field : SerializeField] public ObstacleData ObstacleData { get; private set; }
     [field: SerializeField] public RoomLayoutData RoomLayoutData { get; private set; }
     [field : SerializeField] public DoorData DoorData { get; private set; }
+    [field : SerializeField] public DukePatternData DukePatternData { get; private set; }
 }
