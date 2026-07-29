@@ -39,7 +39,6 @@ abstract public class MonsterController : Monster, ITakeDamageable
     protected bool isKnockback;
     protected float knockbackForce;
     #endregion
-
     protected override void Awake()
     {
         base.Awake();
@@ -62,6 +61,7 @@ abstract public class MonsterController : Monster, ITakeDamageable
 
     protected override void OnDisable()
     {
+        StopAllCoroutines();
         rb.linearVelocity = Vector2.zero;
 
     }

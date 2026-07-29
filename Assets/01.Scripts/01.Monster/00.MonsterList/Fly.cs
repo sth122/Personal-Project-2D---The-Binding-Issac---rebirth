@@ -16,6 +16,7 @@ public class Fly : MonsterController, ITraceable
     protected override void OnEnable()
     {
         base.OnEnable();
+        StartCoroutine(Movement());
     }
     protected override void OnDisable()
     {
@@ -68,5 +69,24 @@ public class Fly : MonsterController, ITraceable
     {
         rb.linearVelocity = GetDirection() * mData.speed;
     }
+
+    IEnumerator Movement()
+    {
+        Vector3 originPos = transform.position;
+        while (true)
+        {
+            if(target != null)
+            {
+                originPos = Vector3.MoveTowards(originPos, target.position, mData.speed * Time.deltaTime);
+            }
+
+            float x = Random.Range(-0.1f, 0.1f);
+            float y = Random.Range(-0.1f, 0.1f);
+
+            transform.position = originPos + new Vector3(x, y, 0);
+            yield return null;
+        }
+    }
+
     #endregion
 }
