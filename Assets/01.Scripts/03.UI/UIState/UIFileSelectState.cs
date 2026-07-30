@@ -36,7 +36,7 @@ public class UIFileSelectState : MainMenuState
         }
         else if (dir.x < -0.5f)
         {
-            controller.currentFileIdx = (controller.currentFileIdx - 1 + controller.gameMenuItemsCount) % controller.gameMenuItemsCount;
+            controller.currentFileIdx = (controller.currentFileIdx - 1 + controller.fileSlotsCount) % controller.fileSlotsCount;
             controller.UpdateFileSlotUI();
         }
     }

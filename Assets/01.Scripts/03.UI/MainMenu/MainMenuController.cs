@@ -1,37 +1,33 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public enum UICurrentState
 {
-    Title, FileSelect, GameMenu
+    Title, FileSelect, GameMenu, CharacterSelect,
 }
 
 public class MainMenuController : MonoBehaviour
 {
+    #region variable
     [Header("Scroll Settings")]
     public RectTransform menuContainer;
+    [SerializeField] private FileSlotUI[] fileSlots;
+    [SerializeField] private RectTransform cursorIcon;
+    [SerializeField] private RectTransform[] gameMenuItems;
+    public int fileSlotsCount;
+    public int currentFileIdx = 0;
+    public int gameMenuItemsCount;
+    public int currentGameMenuIdx = 0;
+
     public float smoothTime = 0.2f;
     public float pageHeight;
     public float targetPositionY = 0f;
     private float currentVelocity = 1f;
+    #endregion
 
-
-    [SerializeField] private FileSlotUI[] fileSlots;
-    public int fileSlotsCount;
-    [SerializeField] public int currentFileIdx = 0;
 
     [SerializeField] private UICurrentState state;
-
     private IsaacInputActions inputAction;
-
-    [SerializeField] private RectTransform cursorIcon;
-    [SerializeField] private RectTransform[] gameMenuItems;
-    public int gameMenuItemsCount;
-    public int currentGameMenuIdx = 0;
-
     public StateMachine<MainMenuController> stateMachine;
     public Dictionary<UICurrentState, MainMenuState> uiStateDic = new Dictionary<UICurrentState, MainMenuState>();
 
@@ -41,7 +37,7 @@ public class MainMenuController : MonoBehaviour
 
         inputAction = new IsaacInputActions();
         inputAction.UI.Submit.performed += _ => (stateMachine.CurrentState as MainMenuState)?.OnSubmit();
-        inputAction.UI.Cancel.performed += _ => (stateMachine.CurrentState as MainMenuState)?.OnCancel();  
+        inputAction.UI.Cancel.performed += _ => (stateMachine.CurrentState as MainMenuState)?.OnCancel();
         inputAction.UI.Direction1.performed += dir => (stateMachine.CurrentState as MainMenuState)?.OnNavigate(dir.ReadValue<Vector2>());
 
         stateMachine = new StateMachine<MainMenuController>(this);
@@ -49,6 +45,7 @@ public class MainMenuController : MonoBehaviour
         uiStateDic[UICurrentState.Title] = new UITitleState(this);
         uiStateDic[UICurrentState.FileSelect] = new UIFileSelectState(this);
         uiStateDic[UICurrentState.GameMenu] = new UIGameMenuState(this);
+        uiStateDic[UICurrentState.CharacterSelect] = new(this);
     }
 
     private void Start()
@@ -126,9 +123,17 @@ public class MainMenuController : MonoBehaviour
         targetPos.y = gameMenuItems[currentGameMenuIdx].anchoredPosition.y;
         cursorIcon.anchoredPosition = targetPos;
     }
+
     public void ExecuteGameMenuAction()
     {
-        if (currentGameMenuIdx == 0) { }
+        if (currentGameMenuIdx == 0)
+        {
+            ChangeUIState(UICurrentState.CharacterSelect);
+        }
+        else if (currentGameMenuIdx == 1)
+        {
+
+        }
     }
 
 
