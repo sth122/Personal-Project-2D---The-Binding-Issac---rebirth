@@ -1,5 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem.XR;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public enum UICurrentState
 {
@@ -14,6 +18,9 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private FileSlotUI[] fileSlots;
     [SerializeField] private RectTransform cursorIcon;
     [SerializeField] private RectTransform[] gameMenuItems;
+    [SerializeField] private Image fadeImage;
+    [SerializeField] private Image iconImage;
+    [SerializeField]private float fadeDuration = 1.5f;
     public int fileSlotsCount;
     public int currentFileIdx = 0;
     public int gameMenuItemsCount;
@@ -40,12 +47,13 @@ public class MainMenuController : MonoBehaviour
         inputAction.UI.Cancel.performed += _ => (stateMachine.CurrentState as MainMenuState)?.OnCancel();
         inputAction.UI.Direction1.performed += dir => (stateMachine.CurrentState as MainMenuState)?.OnNavigate(dir.ReadValue<Vector2>());
 
+
         stateMachine = new StateMachine<MainMenuController>(this);
 
         uiStateDic[UICurrentState.Title] = new UITitleState(this);
         uiStateDic[UICurrentState.FileSelect] = new UIFileSelectState(this);
         uiStateDic[UICurrentState.GameMenu] = new UIGameMenuState(this);
-        uiStateDic[UICurrentState.CharacterSelect] = new(this);
+        uiStateDic[UICurrentState.CharacterSelect] = new UICharacterSelectState(this);
     }
 
     private void Start()
@@ -92,8 +100,8 @@ public class MainMenuController : MonoBehaviour
         state = nextState;
 
         stateMachine.ChangeState(uiStateDic[nextState]);
+        SoundManager.Instance.PlayPageTurn();
     }
-
 
     public void UpdateFileSlotUI()
     {
@@ -105,6 +113,18 @@ public class MainMenuController : MonoBehaviour
         for (int i = 0; i < fileSlots.Length; i++)
         {
             fileSlots[i].SetFocus(i == currentFileIdx);
+        }
+    }
+
+    public void ExecuteGameMenuAction()
+    {
+        if (currentGameMenuIdx == 0)
+        {
+            ChangeUIState(UICurrentState.CharacterSelect);
+        }
+        else if (currentGameMenuIdx == 1)
+        {
+            Debug.Log("설정 미구현");
         }
     }
 
@@ -124,17 +144,40 @@ public class MainMenuController : MonoBehaviour
         cursorIcon.anchoredPosition = targetPos;
     }
 
-    public void ExecuteGameMenuAction()
+    public void StartGameTransition()
     {
-        if (currentGameMenuIdx == 0)
-        {
-            ChangeUIState(UICurrentState.CharacterSelect);
-        }
-        else if (currentGameMenuIdx == 1)
-        {
+        // 입력 중복 방지
+        inputAction.Disable();
 
-        }
+        StartCoroutine(FadeAndLoadScene("GameScene"));
     }
 
+    private IEnumerator FadeAndLoadScene(string sceneName)
+    {
+        SoundManager.Instance.PlayLoadSceneBGM();
+
+        if(fadeImage != null)
+        {
+            fadeImage.gameObject.SetActive(true);
+
+            float time = 0f;
+            Color color = fadeImage.color;
+
+            while(time < fadeDuration)
+            {
+                time += Time.deltaTime;
+                color.a = Mathf.Clamp01(time / fadeDuration);
+                fadeImage.color = color;
+                yield return null;
+            }
+        }
+        else
+        {
+            Debug.LogError("fadeImage null");
+            yield return null;
+        }
+
+        SceneManager.LoadScene(sceneName);
+    }
 
 }

@@ -15,7 +15,7 @@ public class UICharacterSelectState : MainMenuState
 
     public override void OnSubmit()
     {
-        SceneManager.LoadScene("GameScene");
+        controller.StartGameTransition();
     }
     public override void OnCancel()
     {

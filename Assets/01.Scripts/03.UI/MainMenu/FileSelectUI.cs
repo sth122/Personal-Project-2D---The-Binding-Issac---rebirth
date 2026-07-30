@@ -8,10 +8,6 @@ public class FileSelectUI : MonoBehaviour
 
     private SaveData currentSaveData;
 
-    private void Start()
-    {
-    }
-
     public void OnClickFile()
 
     {
