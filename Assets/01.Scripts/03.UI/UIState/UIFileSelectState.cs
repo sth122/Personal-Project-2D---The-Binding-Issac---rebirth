@@ -19,12 +19,12 @@ public class UIFileSelectState : MainMenuState
 
     public override void OnSubmit()
     {
-        controller.stateMachine.ChangeState(controller.uiStateDic[UICurrentState.GameMenu]);
+        controller.ChangeUIState(UICurrentState.GameMenu);
     }
 
     public override void OnCancel()
     {
-        controller.stateMachine.ChangeState(controller.uiStateDic[UICurrentState.Title]);
+        controller.ChangeUIState(UICurrentState.Title);
     }
 
     public override void OnNavigate(Vector2 dir)

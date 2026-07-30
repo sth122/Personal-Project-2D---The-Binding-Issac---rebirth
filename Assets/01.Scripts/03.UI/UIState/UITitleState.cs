@@ -13,7 +13,7 @@ public class UITitleState : MainMenuState
 
     public override void OnSubmit()
     {
-        controller.stateMachine.ChangeState(controller.uiStateDic[UICurrentState.FileSelect]);
+        controller.ChangeUIState(UICurrentState.FileSelect);
     }
 
     public override void OnCancel()

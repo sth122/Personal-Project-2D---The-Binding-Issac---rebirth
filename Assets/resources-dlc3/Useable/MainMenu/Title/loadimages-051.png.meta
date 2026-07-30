@@ -147,12 +147,12 @@ TextureImporter:
       name: loadimages-051_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 75
-        width: 17
-        height: 17
+        x: 0
+        y: 0
+        width: 82
+        height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,143 +165,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: loadimages-051_1
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 76
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 988667f43ca6075e0800000000000000
-      internalID: -1913912454548133751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: loadimages-051_2
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 73
-        width: 22
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9886ed1b11ddda650800000000000000
-      internalID: 6245891326301071497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: loadimages-051_3
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 40
-        width: 44
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08357beeac3465680800000000000000
-      internalID: -8766745085762645120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: loadimages-051_4
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 45
-        width: 28
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fee963c6d85c585f0800000000000000
-      internalID: -754980151318110481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: loadimages-051_5
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 16
-        width: 24
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91e160c36c06ea420800000000000000
-      internalID: 2643156435839884825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: loadimages-051_6
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 7
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6198878369bad2d30800000000000000
-      internalID: 4408368271946451222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0d15377d9ba72044189cf23f107ad56f
     internalID: 0
     vertices: []
     indices: 
@@ -309,15 +177,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":82.0,"y":104.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       loadimages-051_0: 3096347644402958665
-      loadimages-051_1: -1913912454548133751
-      loadimages-051_2: 6245891326301071497
-      loadimages-051_3: -8766745085762645120
-      loadimages-051_4: -754980151318110481
-      loadimages-051_5: 2643156435839884825
-      loadimages-051_6: 4408368271946451222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -38,6 +38,7 @@ public class UIGameMenuState : MainMenuState
             controller.currentGameMenuIdx = (controller.currentGameMenuIdx + 1) % controller.gameMenuItemsCount;
             controller.UpdateCursorPosition();
         }
+        SoundManager.Instance.PlayScrollSFX();
     }
 
 }
