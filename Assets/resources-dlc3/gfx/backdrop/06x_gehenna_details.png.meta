@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: dd7020f66ba507440b858c5b9d4ce1ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4877028942720483600
+    second: 06x_gehenna_details_0
+  - first:
+      213: -8072391823813948786
+    second: 06x_gehenna_details_1
+  - first:
+      213: 8503244637853248882
+    second: 06x_gehenna_details_2
+  - first:
+      213: 3803658071651665825
+    second: 06x_gehenna_details_3
+  - first:
+      213: 8719860630125189690
+    second: 06x_gehenna_details_4
+  - first:
+      213: -4284833692739388221
+    second: 06x_gehenna_details_5
+  - first:
+      213: 3763827391045865057
+    second: 06x_gehenna_details_6
+  - first:
+      213: -3331316668177221711
+    second: 06x_gehenna_details_7
+  - first:
+      213: -4176597735850954640
+    second: 06x_gehenna_details_8
+  - first:
+      213: 7111486769914081988
+    second: 06x_gehenna_details_9
+  - first:
+      213: -6096858773981462772
+    second: 06x_gehenna_details_10
+  - first:
+      213: 1389141436216763432
+    second: 06x_gehenna_details_11
+  - first:
+      213: -5938406984068663796
+    second: 06x_gehenna_details_12
+  - first:
+      213: 7855270277566366146
+    second: 06x_gehenna_details_13
+  - first:
+      213: -2717369152930345239
+    second: 06x_gehenna_details_14
+  - first:
+      213: -3468084907174594926
+    second: 06x_gehenna_details_15
+  - first:
+      213: -675530104440948192
+    second: 06x_gehenna_details_16
+  - first:
+      213: 6400637438327344524
+    second: 06x_gehenna_details_17
+  - first:
+      213: 3246263587739847996
+    second: 06x_gehenna_details_18
+  - first:
+      213: 5030280242070325758
+    second: 06x_gehenna_details_19
+  - first:
+      213: -2806061735832156932
+    second: 06x_gehenna_details_20
+  - first:
+      213: -3431997523407727787
+    second: 06x_gehenna_details_21
+  - first:
+      213: -754646787195493903
+    second: 06x_gehenna_details_22
+  - first:
+      213: -2851446591768811563
+    second: 06x_gehenna_details_23
+  - first:
+      213: 9100931611467533691
+    second: 06x_gehenna_details_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 06x_gehenna_details_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 65
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011472adbffaea340800000000000000
+      internalID: 4877028942720483600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 229
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a4dc5d76a19ff80800000000000000
+      internalID: -8072391823813948786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 219
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dec7d22f7910670800000000000000
+      internalID: 8503244637853248882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 225
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a748df0dde49c430800000000000000
+      internalID: 3803658071651665825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 225
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a96851b0b230970800000000000000
+      internalID: 8719860630125189690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 229
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccb4ae55763984c0800000000000000
+      internalID: -4284833692739388221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 223
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e8c2f021dcb3430800000000000000
+      internalID: 3763827391045865057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 226
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b775fee329c4c1d0800000000000000
+      internalID: -3331316668177221711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 220
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07037e0ec7eb906c0800000000000000
+      internalID: -4176597735850954640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 220
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c27e99f98311b260800000000000000
+      internalID: 7111486769914081988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 233
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f7c136f3b936ba0800000000000000
+      internalID: -6096858773981462772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 220
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824e978b6c8374310800000000000000
+      internalID: 1389141436216763432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_12
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 220
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0673ee9f4a869da0800000000000000
+      internalID: -5938406984068663796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_13
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 203
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1070dc2b6830d60800000000000000
+      internalID: 7855270277566366146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee8bf31727f94ad0800000000000000
+      internalID: -2717369152930345239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 167
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296f6f0d623eedfc0800000000000000
+      internalID: -3468084907174594926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 167
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02af6b9f2f800a6f0800000000000000
+      internalID: -675530104440948192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_17
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 173
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d419f86d1a3d850800000000000000
+      internalID: 6400637438327344524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 170
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dc48a988b0d0d20800000000000000
+      internalID: 3246263587739847996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 177
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef984458a352fc540800000000000000
+      internalID: 5030280242070325758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_20
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 171
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf488e9e7bdde09d0800000000000000
+      internalID: -2806061735832156932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_21
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 178
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553134b9f681f50d0800000000000000
+      internalID: -3431997523407727787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 85
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1a25eceb4f685f0800000000000000
+      internalID: -754646787195493903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 87
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d72f91be60ad68d0800000000000000
+      internalID: -2851446591768811563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 06x_gehenna_details_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 131
+        width: 54
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d45a2f4110d4e70800000000000000
+      internalID: 9100931611467533691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      06x_gehenna_details_0: 4877028942720483600
+      06x_gehenna_details_1: -8072391823813948786
+      06x_gehenna_details_10: -6096858773981462772
+      06x_gehenna_details_11: 1389141436216763432
+      06x_gehenna_details_12: -5938406984068663796
+      06x_gehenna_details_13: 7855270277566366146
+      06x_gehenna_details_14: -2717369152930345239
+      06x_gehenna_details_15: -3468084907174594926
+      06x_gehenna_details_16: -675530104440948192
+      06x_gehenna_details_17: 6400637438327344524
+      06x_gehenna_details_18: 3246263587739847996
+      06x_gehenna_details_19: 5030280242070325758
+      06x_gehenna_details_2: 8503244637853248882
+      06x_gehenna_details_20: -2806061735832156932
+      06x_gehenna_details_21: -3431997523407727787
+      06x_gehenna_details_22: -754646787195493903
+      06x_gehenna_details_23: -2851446591768811563
+      06x_gehenna_details_24: 9100931611467533691
+      06x_gehenna_details_3: 3803658071651665825
+      06x_gehenna_details_4: 8719860630125189690
+      06x_gehenna_details_5: -4284833692739388221
+      06x_gehenna_details_6: 3763827391045865057
+      06x_gehenna_details_7: -3331316668177221711
+      06x_gehenna_details_8: -4176597735850954640
+      06x_gehenna_details_9: 7111486769914081988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

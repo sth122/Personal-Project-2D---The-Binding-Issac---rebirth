@@ -1,12 +1,13 @@
-﻿using NUnit.Framework.Interfaces;
-using UnityEngine;
+﻿using UnityEngine;
 
 abstract public class EntityFactory
 {
-    public abstract void OnSpawnEntity(SpawnInfo info);
+    public abstract GameObject OnSpawnEntity(SpawnInfo info);
 }
 
-
+/// <summary>
+/// 
+/// </summary>
 public class MonsterFactory : EntityFactory
 {
     private MonsterData monsterData;
@@ -14,10 +15,10 @@ public class MonsterFactory : EntityFactory
     public MonsterFactory()
     {
         monsterData = DataManager.Instance.MonsterData;
-        player = RoomManager.Instance.Player;
+        player = IsaacManager.Instance.isaac;
     }
 
-    public override void OnSpawnEntity(SpawnInfo info)
+    public override GameObject OnSpawnEntity(SpawnInfo info)
     {
         MonsterInfo mStat = monsterData.monsterList[info.id];
         GameObject monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
@@ -27,11 +28,15 @@ public class MonsterFactory : EntityFactory
         {
             MonsterController mController = monster.GetComponent<MonsterController>();
             mController.InitData(mStat, player.transform);
-            mController.Appear();
         }
+
+        return monster;
     }
 }
 
+/// <summary>
+/// 
+/// </summary>
 public class ItemFactory : EntityFactory
 {
     private ItemData itemData;
@@ -40,15 +45,20 @@ public class ItemFactory : EntityFactory
         itemData = DataManager.Instance.ItemData;
     }
 
-    public override void OnSpawnEntity(SpawnInfo info)
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="info"></param>
+    public override GameObject OnSpawnEntity(SpawnInfo info)
     {
         ItemInfo itemInfo = itemData.itemListDic[info.id];
         GameObject item = ObjectPoolManager.Instance.GetObject(itemInfo.Clone().name);
         item.transform.position = info.position;
-        if(item == null)
+        if (item == null)
         {
             Debug.Log($"{info.id} not found");
         }
+        return item;
     }
 }
 
@@ -60,7 +70,11 @@ public class ObstacleFactory : EntityFactory
         obstacleData = DataManager.Instance.ObstacleData;
     }
 
-    public override void OnSpawnEntity(SpawnInfo info)
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="info"></param>
+    public override GameObject OnSpawnEntity(SpawnInfo info)
     {
         ObstacleInfo obstacleInfo = obstacleData.obstacleList[info.id];
         GameObject obstacle = ObjectPoolManager.Instance.GetObject(obstacleInfo.Clone().name);
@@ -69,5 +83,7 @@ public class ObstacleFactory : EntityFactory
         {
             Debug.Log($"{info.id} not found");
         }
+
+        return obstacle;
     }
 }

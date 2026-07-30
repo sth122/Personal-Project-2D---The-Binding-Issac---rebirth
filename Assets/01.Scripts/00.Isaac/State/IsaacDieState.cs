@@ -19,7 +19,7 @@ public class IsaacDieState : IsaacState
         // 게임 시작할 때 다시 true 변경 필요
         rb.bodyType = RigidbodyType2D.Kinematic;
         col = controller.GetComponentsInChildren<Collider2D>();
-        foreach(var c in col)
+        foreach (var c in col)
         {
             c.enabled = false;
         }
@@ -30,10 +30,5 @@ public class IsaacDieState : IsaacState
     public override void FixedUpdate()
     {
         rb.linearVelocity = Vector3.zero;
-    }
-
-    public override void Exit()
-    {
-
     }
 }

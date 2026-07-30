@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 public class CameraRoomRock : Singleton<CameraRoomRock>
 {
-
     #region Variable
     Vector3 transRoomPos;
     Camera mainCamera;
@@ -13,27 +12,26 @@ public class CameraRoomRock : Singleton<CameraRoomRock>
     {
         base.Awake();
 
+        halfWidth = 8.5f;
+        halfHeight = 5.5f;
+
         mainCamera = Camera.main;
 
         mainCamera.aspect = 17f / 11f;
     }
-    protected override void Initialize()
+
+    private void Start()
     {
-        halfHeight = 8.5f;
-        halfWidth = 5.5f;
-
-        transform.position = new Vector3(halfHeight, halfWidth, -10f);
+        mainCamera.transform.position = new Vector3(halfWidth, halfHeight, -10f);
     }
-
 
     private void LateUpdate()
     {
-        transform.position = Vector3.Lerp(transform.position, transRoomPos, 2f * Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, transRoomPos, 1f);
     }
 
     public void SetCameraPosition(Transform target)
     {
-        transRoomPos = new Vector3(target.position.x + halfHeight, target.position.y + halfWidth, transform.position.z);
-
+        transRoomPos = new Vector3(target.position.x + halfWidth, target.position.y + halfHeight, -10f);
     }
 }

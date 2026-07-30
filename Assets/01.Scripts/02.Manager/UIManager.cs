@@ -2,14 +2,6 @@
 
 public class UIManager : Singleton<UIManager>
 {
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

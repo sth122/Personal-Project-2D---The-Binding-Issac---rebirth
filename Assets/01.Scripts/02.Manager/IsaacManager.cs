@@ -10,7 +10,7 @@ using UnityEngine;
 /// </summary>
 public class IsaacManager : Singleton<IsaacManager>
 {
-    [SerializeField] public GameObject Player;
+    [SerializeField] public GameObject isaac;
     [SerializeField] IsaacInfo currentIsaacInfo;
     public IsaacData isaacData;
     private bool isDie;
@@ -20,12 +20,9 @@ public class IsaacManager : Singleton<IsaacManager>
     protected override void Awake()
     {
         base.Awake();
-    }
-
-    private void Start()
-    {
         Init();
     }
+
     public void Init()
     {
         // 메인 메뉴에서 캐릭터 선택 시 초기화 하는 방향으로 추후 수정
@@ -33,7 +30,7 @@ public class IsaacManager : Singleton<IsaacManager>
         maxHP = currentIsaacInfo.hp;
 
         // 원래 캐릭터 별로 초기 소유 값이 다르지만 빠른 진행을 위해 1,1,1로 통일
-        foreach(PickUpType type in Enum.GetValues(typeof(PickUpType)))
+        foreach (PickUpType type in Enum.GetValues(typeof(PickUpType)))
         {
             pickUpDic[type] = 1;
         }
@@ -79,7 +76,7 @@ public class IsaacManager : Singleton<IsaacManager>
     }
 
     #region Item Method
-    public void GetItem(Action OnGetItem) 
+    public void GetItem(Action OnGetItem)
     {
         OnGetItem?.Invoke();
     }
@@ -114,7 +111,7 @@ public class IsaacManager : Singleton<IsaacManager>
     #endregion
 
     #region Item PickUp Method
-    public void GetPickUpItem(PickUpType type,int count, Action OnGetPickUpItem)
+    public void GetPickUpItem(PickUpType type, int count, Action OnGetPickUpItem)
     {
         // 최대 소유 개수 99개
         if (pickUpDic[type] >= 99)

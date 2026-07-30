@@ -1,10 +1,14 @@
-﻿using NUnit.Framework.Constraints;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public enum IsaacAnimState
 {
     Idle, Up, Down, LeftRight, Attack, AttackUp, AttackDown, AttackLeftRight, Die, Hit, PickUp, FallDown, Appear
+}
+public enum IsaacObject
+{
+    Extra, Base, Head
 }
 public class IsaacAnimController : MonoBehaviour
 {
@@ -16,7 +20,9 @@ public class IsaacAnimController : MonoBehaviour
     private IsaacAnimHashData isaacAnimData = new IsaacAnimHashData();
     private Animator animator;
 
+
     public Dictionary<IsaacAnimState, int> animDic;
+
     Dictionary<IsaacCurrentState, List<IsaacAnimState>> stateDic = new();
 
     private void Init()
@@ -26,19 +32,19 @@ public class IsaacAnimController : MonoBehaviour
             IsaacAnimState.Idle
         };
 
-        stateDic[IsaacCurrentState.Move] = new List<IsaacAnimState>() 
+        stateDic[IsaacCurrentState.Move] = new List<IsaacAnimState>()
         {
-            IsaacAnimState.Up, IsaacAnimState.Down, IsaacAnimState.LeftRight 
+            IsaacAnimState.Up, IsaacAnimState.Down, IsaacAnimState.LeftRight
         };
 
-        
+
         stateDic[IsaacCurrentState.Attack] = new List<IsaacAnimState>()
         {
             IsaacAnimState.AttackUp, IsaacAnimState.AttackDown, IsaacAnimState.AttackLeftRight }
         ;
-        
+
         stateDic[IsaacCurrentState.Extra] = new List<IsaacAnimState>()
-        { 
+        {
             IsaacAnimState.Die,
             IsaacAnimState.Hit,
             IsaacAnimState.PickUp,
@@ -47,6 +53,7 @@ public class IsaacAnimController : MonoBehaviour
         };
 
     }
+
 
     private void Awake()
     {
@@ -102,7 +109,6 @@ public class IsaacAnimController : MonoBehaviour
         {
             headSprite.flipX = dir.x < 0;
         }
-        //animator.SetTrigger(isAttackHash);
     }
 
     public void SetAnimTrigger(IsaacAnimState state ,bool isBoolean)
@@ -119,7 +125,7 @@ public class IsaacAnimController : MonoBehaviour
 
     public void SetBoolAllAnim(IsaacCurrentState state)
     {
-        foreach(var key in stateDic[state])
+        foreach (var key in stateDic[state])
         {
             animator.SetBool(animDic[key], false);
         }

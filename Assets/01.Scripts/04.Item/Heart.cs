@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
-
 public class Heart : Item, IReturnPool
 {
     protected float recoveryHpEffect;
-
     protected void Start()
     {
         itemName = "Heart";

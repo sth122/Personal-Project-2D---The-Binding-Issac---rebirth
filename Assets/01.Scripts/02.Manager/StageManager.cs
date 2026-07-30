@@ -1,5 +1,4 @@
 ﻿using System;
-using UnityEngine;
 
 public class StageManager : Singleton<StageManager>
 {
@@ -8,8 +7,8 @@ public class StageManager : Singleton<StageManager>
     private void Start()
     {
         stageCnt = 1;
+        RoomManager.Instance.StartRoomsSpawn();
     }
-
     public void StageClear(Action OnGoToNextStage)
     {
         // FallDown 애니메이션 실행
@@ -23,7 +22,7 @@ public class StageManager : Singleton<StageManager>
         // Appear 애니메이션 실행
 
         // tirgger 둘 다 false
-
+        
         stageCnt++;
     }
 
@@ -33,6 +32,4 @@ public class StageManager : Singleton<StageManager>
 
         // anyKey 입력 시 skip
     }
-
-
 }

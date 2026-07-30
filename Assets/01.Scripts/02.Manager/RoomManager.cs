@@ -1,91 +1,97 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 
-public enum RoomType
+public enum DirectionsEnum
 {
-    Start, Normal, Boss, Treasure, Shop, Secret, Devil, Angel
+    Up, Down, Left, Right, Center
 }
-
 
 public class RoomManager : Singleton<RoomManager>
 {
-    [SerializeField] public GameObject Player;
-    public RoomLayoutData roomLayoutData;
-    [SerializeField] GameObject room;
+    private RoomGenerator roomGenerator;
+    private Dictionary<Vector2Int, Room> spawnRoomMap;
+    private List<Room> roomsList;
+    public Room currentRoom;
 
-    private RoomType currentRoomType;
-
-    private Room currentRoom = new Room();
-    private Room[,] roomArray = new Room[5, 5];    // 방 배열을 저장
+    private Dictionary<DirectionsEnum, Vector2Int> dirs = new Dictionary<DirectionsEnum, Vector2Int>()
+    {
+        {DirectionsEnum.Up, Vector2Int.up},
+        {DirectionsEnum.Down, Vector2Int.down},
+        {DirectionsEnum.Left, Vector2Int.left},
+        {DirectionsEnum.Right, Vector2Int.right},
+    };
 
     protected override void Awake()
     {
         base.Awake();
-        roomLayoutData.Init();
+        roomGenerator = new RoomGenerator();
+        roomsList = new List<Room>();
+        spawnRoomMap = new Dictionary<Vector2Int, Room>();
     }
 
-    
-    private void Start()
+    private void OnDisable()
     {
+        StopAllCoroutines();
+    }
+
+    public void StartRoomsSpawn()
+    {
+        spawnRoomMap.Clear();
+        StartCoroutine(SpawnAllRooms());
+    }
+
+    private IEnumerator SpawnAllRooms()
+    {
+        yield return StartCoroutine(roomGenerator.GenerateMapGrid());
         // 초기 테스트  타입
         // 방 생성할 시 타입 정하게 해야함
-        currentRoomType = RoomType.Normal;
-        Init(() =>
-        {
-            SetFirstRoom();
-            SetRoomType();
-        });
+
+        yield return StartCoroutine(SpawnRoom());
+
+        ConnectRoom();
     }
 
-    /// <summary>
-    /// 제일 처음 생성되는 정중앙 Room 
-    /// </summary>
-    private void SetFirstRoom()
+    private IEnumerator SpawnRoom()
     {
-        GameObject centerRoom = ObjectPoolManager.Instance.GetObject("Room");
-        if (centerRoom != null)
+        Debug.Log("방 소환 시작");
+        foreach (var room in roomGenerator.roomMap)
         {
-            Debug.Log("Room 생성");
-            currentRoom = centerRoom.GetComponent<Room>();
-            currentRoom.transform.position = Vector3.zero;
+            GameObject roomObj = SpawnManager.Instance.SpawnRoom(room.Key.coordinate, room.Value);
+            if (roomObj != null && roomObj.TryGetComponent<Room>(out var roomComp))
+            {
+                roomsList.Add(roomComp);
+                spawnRoomMap[room.Key.coordinate] = roomComp;
+            }
+            yield return null;
         }
-        else
+    }
+
+    public void ChangeRoom(Room nextRoom, DirectionsEnum dir)
+    {
+        if (currentRoom != null)
         {
-            Debug.LogError("centerRoom null");
+            currentRoom.OnPlayerExitRoom();
         }
-        CameraRoomRock.Instance.SetCameraPosition(centerRoom.transform);
+        currentRoom = nextRoom;
+        currentRoom.DoorStateUpdate();
+        CameraRoomRock.Instance.SetCameraPosition(nextRoom.transform);
+        IsaacManager.Instance.isaac.transform.position = nextRoom.TelePort(dir);
     }
 
-    public void Init(Action OnAction)
+    private void ConnectRoom()
     {
-        OnAction?.Invoke();
-    }
-
-    public void GetRoomType(RoomType type)
-    {
-        this.currentRoomType = type;
-    }
-
-    // Room Script에서 소환하거나 StageManager에서 
-    // 나중에 entityInfo 추상클래스로 만들어서 통합
-
-
-    public void SetRoomType()
-    {
-        // 만약 노멀 방을 설정하려고 할 때
-        // 1.Normal 방의 개수 확인
-        // 2.Normal 방
-
-
-        int roomCount = roomLayoutData.RoomDic[currentRoomType].Count;
-
-        if (roomCount > 0)
+        foreach (var vec2 in spawnRoomMap)
         {
-            int idx = UnityEngine.Random.Range(0, roomCount);
-            // 참조 복사 해결해야함
-            RoomEntityData roomData = roomLayoutData.RoomDic[currentRoomType][idx].Clone();
-            roomData.SetLocalToWroldRoomPostionn(currentRoom.transform.position);
-            SpawnManager.Instance.SpawnAll(roomData);
+            foreach (var dir in dirs)
+            {
+                Vector2Int checkPos = vec2.Key + dir.Value;
+                if (spawnRoomMap.ContainsKey(checkPos))
+                {
+                    vec2.Value.connectRoom[dir.Key] = spawnRoomMap[checkPos];
+                }
+            }
+            vec2.Value.DoorInstall();
         }
     }
 }

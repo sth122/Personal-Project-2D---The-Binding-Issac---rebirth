@@ -52,10 +52,11 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
 
         if (activatedPool.TryGetValue(poolObjectName, out var objectPool))
         {
+            Debug.Log($"{objectPool} TryGetValue");
             if (objectPool.Count == 0)
             {
                 effect = Instantiate(prefabDic[poolObjectName].Prefab, prefabDic[poolObjectName].parentTrans);
-                Debug.Log($"{prefabDic[poolObjectName].Prefab.name} Count ) TryGetValue");
+                Debug.Log($"{prefabDic[poolObjectName].Prefab.name} Count  TryGetValue");
             }
             else
             {
@@ -66,7 +67,7 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
         else
         {
             // 예외 처리 넣어야함
-            // 풀을 만들든 에러 문구 뜨든
+            // 풀을 만들든 에러 문구 뜨든sa
             Debug.LogError($"{poolObjectName} pool 실패");
         }
         effect.SetActive(true);

@@ -14,7 +14,6 @@ public interface IPickUpAnimable
 {
     public void PickUpAnima();
 }
-
 abstract public class Item : MonoBehaviour, IReturnPool
 {
 

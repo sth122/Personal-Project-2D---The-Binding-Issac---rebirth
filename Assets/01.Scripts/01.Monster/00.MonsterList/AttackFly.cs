@@ -1,10 +1,7 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 public class AttackFly : Fly
 {
-    protected float attackRange;
-
     protected override void Awake()
     {
         base.Awake();
