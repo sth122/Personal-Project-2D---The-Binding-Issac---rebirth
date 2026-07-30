@@ -1,43 +1,71 @@
 ﻿using System;
 using System.Collections;
-using Unity.VisualScripting;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UI;
+
+public enum UICurrentState
+{
+    Title, FileSelect, GameMenu
+}
 
 public class MainMenuController : MonoBehaviour
 {
     [Header("Scroll Settings")]
     public RectTransform menuContainer;
-    public float smoothTime = 1f;
-    public float pageHeight = 1000f;
-    private float targetPositionY = 0f;
-    private bool isAtTilte = true;
-    private bool isAtFileSelect = false;
+    public float smoothTime = 0.2f;
+    [SerializeField] private float pageHeight;
+    [SerializeField] private float targetPositionY = 0f;
+    private float currentVelocity = 1f;
+
+
+    [SerializeField] private FileSlotUI[] fileSlots;
+    [SerializeField] private int currentFileIdx = 0;
+
+    [SerializeField] private UICurrentState state;
 
     private IsaacInputActions inputAction;
 
-    private float currentVelocity = 1f;
+    [SerializeField] private RectTransform cursorIcon;
+    [SerializeField] private RectTransform[] gameMenuItems;
+    private int currentGameMenuIdx = 0;
+
+    public StateMachine<MainMenuController> stateMachine;
+    public Dictionary<UICurrentState, UIState> uiStateDic = new Dictionary<UICurrentState, UIState>();
 
     private void Awake()
     {
+        state = UICurrentState.Title;
         inputAction = new IsaacInputActions();
         inputAction.UI.Submit.performed += _ => OnSubmitPressed();
         inputAction.UI.Cancel.performed += _ => OnCancelPressed();
+        inputAction.UI.Direction1.performed += dir => OnNavigate(dir.ReadValue<Vector2>());
+
+        stateMachine = new StateMachine<MainMenuController>(this);
+
+        uiStateDic[UICurrentState.Title] = new UITitleState(this);
+        uiStateDic[UICurrentState.FileSelect] = new UIFileSelectState(this);
+        uiStateDic[UICurrentState.GameMenu] = new UIGameMenuState(this);
     }
 
     private void OnEnable()
     {
         inputAction.Enable();
+        stateMachine.ChangeState(uiStateDic[UICurrentState.Title]);
     }
     private void OnDisable()
     {
         inputAction.Disable();
     }
 
+
     private void Update()
     {
-        HandleScrolling();
+        stateMachine.Update();
+    }
+
+    private void FixedUpdate()
+    {
+        stateMachine.FixedUpdate();
     }
 
     private void HandleScrolling()
@@ -66,28 +94,78 @@ public class MainMenuController : MonoBehaviour
     {
         if (targetPositionY == 0f)
         {
-            isAtTilte = true;
-            isAtFileSelect = false;
+            state = UICurrentState.Title;
         }
         else if (targetPositionY == pageHeight)
         {
-            isAtTilte = false;
-            isAtFileSelect = true;
+            state = UICurrentState.FileSelect;
         }
     }
 
     private void OnSubmitPressed()
     {
-        StartCoroutine(CheckRoutine(CheckTitle, GotoNextPage));
+        if (state == UICurrentState.Title)
+        {
+            StartCoroutine(CheckRoutine(CheckTitle, GotoNextPage));
+
+            currentFileIdx = 0;
+            UpdateFileSlotUI();
+        }
+        else if (state == UICurrentState.FileSelect)
+        {
+        }
     }
     private void OnCancelPressed()
     {
         StartCoroutine(CheckRoutine(CheckTitle,
             () =>
             {
-                if (isAtTilte) QuitGame();
+                if (state == UICurrentState.Title) QuitGame();
                 else GoToPreviousPage();
             }));
+    }
+
+    private void OnNavigate(Vector2 dir)
+    {
+        if (state == UICurrentState.Title) return;
+
+        if (state == UICurrentState.FileSelect)
+        {
+            if (dir.x >= 0.5f)
+            {
+                currentFileIdx = (currentFileIdx + 1) % fileSlots.Length;
+                UpdateFileSlotUI();
+            }
+            else if (dir.x < -0.5f)
+            {
+                currentFileIdx = (currentFileIdx - 1 + fileSlots.Length) % fileSlots.Length;
+                UpdateFileSlotUI();
+            }
+        }
+        else if(state == UICurrentState.GameMenu)
+        {
+            if (dir.y > 0.5f) // 위로 이동 (인덱스 감소)
+            {
+                currentGameMenuIdx = (currentGameMenuIdx - 1 + gameMenuItems.Length) % gameMenuItems.Length;
+            }
+            else if (dir.y < -0.5f) // 아래로 이동 (인덱스 증가)
+            {
+                currentGameMenuIdx = (currentGameMenuIdx + 1) % gameMenuItems.Length;
+            }
+        }
+    }
+
+    private void UpdateFileSlotUI()
+    {
+        if (fileSlots == null)
+        {
+            Debug.Log("fileSlots null");
+        }
+
+        for (int i = 0; i < fileSlots.Length; i++)
+        {
+            fileSlots[i].SetFocus(i == currentFileIdx);
+        }
     }
 
     private IEnumerator CheckRoutine(Action onCheck, Action onNext)
@@ -102,5 +180,8 @@ public class MainMenuController : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false;
         Debug.LogError("게임 종료");
     }
+
+
+
 
 }

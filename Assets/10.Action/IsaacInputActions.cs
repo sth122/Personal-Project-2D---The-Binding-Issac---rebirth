@@ -334,6 +334,15 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Direction1"",
+                    ""type"": ""Value"",
+                    ""id"": ""330acc49-a31e-4234-902a-58ce5693b0f6"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -424,6 +433,61 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""Direction"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""f8d2f35c-0246-4899-b50a-1f32edc13fe6"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Direction1"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""f7d3b695-0c8b-4cc5-bcbd-90b05728a64f"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Direction1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""ca00de94-d0b1-42ef-ae1a-044852af4182"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Direction1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""18348cea-3c6c-46e6-9e15-d2f8caa2f58d"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Direction1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""10342634-f73e-4996-9a23-b4d9e453589e"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Direction1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -443,6 +507,7 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
         m_UI_Submit = m_UI.FindAction("Submit", throwIfNotFound: true);
         m_UI_Cancel = m_UI.FindAction("Cancel", throwIfNotFound: true);
         m_UI_Direction = m_UI.FindAction("Direction", throwIfNotFound: true);
+        m_UI_Direction1 = m_UI.FindAction("Direction1", throwIfNotFound: true);
     }
 
     ~@IsaacInputActions()
@@ -678,6 +743,7 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
     private readonly InputAction m_UI_Submit;
     private readonly InputAction m_UI_Cancel;
     private readonly InputAction m_UI_Direction;
+    private readonly InputAction m_UI_Direction1;
     /// <summary>
     /// Provides access to input actions defined in input action map "UI".
     /// </summary>
@@ -701,6 +767,10 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "UI/Direction".
         /// </summary>
         public InputAction @Direction => m_Wrapper.m_UI_Direction;
+        /// <summary>
+        /// Provides access to the underlying input action "UI/Direction1".
+        /// </summary>
+        public InputAction @Direction1 => m_Wrapper.m_UI_Direction1;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -736,6 +806,9 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
             @Direction.started += instance.OnDirection;
             @Direction.performed += instance.OnDirection;
             @Direction.canceled += instance.OnDirection;
+            @Direction1.started += instance.OnDirection1;
+            @Direction1.performed += instance.OnDirection1;
+            @Direction1.canceled += instance.OnDirection1;
         }
 
         /// <summary>
@@ -756,6 +829,9 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
             @Direction.started -= instance.OnDirection;
             @Direction.performed -= instance.OnDirection;
             @Direction.canceled -= instance.OnDirection;
+            @Direction1.started -= instance.OnDirection1;
+            @Direction1.performed -= instance.OnDirection1;
+            @Direction1.canceled -= instance.OnDirection1;
         }
 
         /// <summary>
@@ -867,5 +943,12 @@ public partial class @IsaacInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnDirection(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Direction1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnDirection1(InputAction.CallbackContext context);
     }
 }
