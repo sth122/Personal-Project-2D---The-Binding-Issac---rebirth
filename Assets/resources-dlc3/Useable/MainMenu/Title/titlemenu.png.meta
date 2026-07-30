@@ -1,10 +1,34 @@
 fileFormatVersion: 2
-guid: 2000ec364b8956645a27a6f0bc76d380
+guid: 6a36238aeb3e9e54ea4891efc46426ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6941707499219049193
-    second: emptyscreen_0
+      213: 7621122671610727377
+    second: titlemenu_0
+  - first:
+      213: -3503730807875684985
+    second: titlemenu_1
+  - first:
+      213: 5880108099159921040
+    second: titlemenu_2
+  - first:
+      213: -4805714708601021549
+    second: titlemenu_3
+  - first:
+      213: -2150099512254434096
+    second: titlemenu_4
+  - first:
+      213: 1008313802764735990
+    second: titlemenu_5
+  - first:
+      213: 668187352466202138
+    second: titlemenu_6
+  - first:
+      213: -1234333221578677853
+    second: titlemenu_7
+  - first:
+      213: -7341456503917083296
+    second: titlemenu_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,23 +150,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: emptyscreen_0
+      name: titlemenu_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 269
         width: 480
-        height: 270
+        height: 271
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eadd991136e55060800000000000000
-      internalID: 6941707499219049193
+      spriteID: 1db880ff0baa3c960800000000000000
+      internalID: 7621122671610727377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlemenu_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 9
+        width: 137
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7853affc46f306fc0800000000000000
+      internalID: -3503730807875684985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: titlemenu_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 9
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091135b79275a9150800000000000000
+      internalID: 5880108099159921040
       vertices: []
       indices: 
       edges: []
@@ -151,7 +219,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8853ef9a46cec0f4a83b9b814ce8bb3d
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +229,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      emptyscreen_0: 6941707499219049193
+      titlemenu_0: 7621122671610727377
+      titlemenu_1: -3503730807875684985
+      titlemenu_2: 5880108099159921040
+      titlemenu_3: -4805714708601021549
+      titlemenu_4: -2150099512254434096
+      titlemenu_5: 1008313802764735990
+      titlemenu_6: 668187352466202138
+      titlemenu_7: -1234333221578677853
+      titlemenu_8: -7341456503917083296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
