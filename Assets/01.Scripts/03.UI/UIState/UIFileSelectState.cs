@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 
-public class UIFileSelectState : UIState
+public class UIFileSelectState : MainMenuState
 {
     public UIFileSelectState(MainMenuController controller) : base(controller)
     {
@@ -9,20 +10,34 @@ public class UIFileSelectState : UIState
 
     public override void Enter()
     {
-        state = UICurrentState.FileSelect;
+        controller.targetPositionY = controller.pageHeight;
+
+        controller.currentFileIdx = 0;
+        controller.UpdateFileSlotUI();
     }
 
-    public override void Exit()
-    {
 
+    public override void OnSubmit()
+    {
+        controller.stateMachine.ChangeState(controller.uiStateDic[UICurrentState.GameMenu]);
     }
 
-    public override void Update()
+    public override void OnCancel()
     {
-
+        controller.stateMachine.ChangeState(controller.uiStateDic[UICurrentState.Title]);
     }
-    public override void FixedUpdate()
-    {
 
+    public override void OnNavigate(Vector2 dir)
+    {
+        if (dir.x >= 0.5f)
+        {
+            controller.currentFileIdx = (controller.currentFileIdx + 1) % controller.fileSlotsCount;
+            controller.UpdateFileSlotUI();
+        }
+        else if (dir.x < -0.5f)
+        {
+            controller.currentFileIdx = (controller.currentFileIdx - 1 + controller.gameMenuItemsCount) % controller.gameMenuItemsCount;
+            controller.UpdateFileSlotUI();
+        }
     }
 }

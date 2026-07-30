@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public enum UICurrentState
@@ -13,13 +14,14 @@ public class MainMenuController : MonoBehaviour
     [Header("Scroll Settings")]
     public RectTransform menuContainer;
     public float smoothTime = 0.2f;
-    [SerializeField] private float pageHeight;
-    [SerializeField] private float targetPositionY = 0f;
+    public float pageHeight;
+    public float targetPositionY = 0f;
     private float currentVelocity = 1f;
 
 
     [SerializeField] private FileSlotUI[] fileSlots;
-    [SerializeField] private int currentFileIdx = 0;
+    public int fileSlotsCount;
+    [SerializeField] public int currentFileIdx = 0;
 
     [SerializeField] private UICurrentState state;
 
@@ -27,24 +29,32 @@ public class MainMenuController : MonoBehaviour
 
     [SerializeField] private RectTransform cursorIcon;
     [SerializeField] private RectTransform[] gameMenuItems;
-    private int currentGameMenuIdx = 0;
+    public int gameMenuItemsCount;
+    public int currentGameMenuIdx = 0;
 
     public StateMachine<MainMenuController> stateMachine;
-    public Dictionary<UICurrentState, UIState> uiStateDic = new Dictionary<UICurrentState, UIState>();
+    public Dictionary<UICurrentState, MainMenuState> uiStateDic = new Dictionary<UICurrentState, MainMenuState>();
 
     private void Awake()
     {
         state = UICurrentState.Title;
+
         inputAction = new IsaacInputActions();
-        inputAction.UI.Submit.performed += _ => OnSubmitPressed();
-        inputAction.UI.Cancel.performed += _ => OnCancelPressed();
-        inputAction.UI.Direction1.performed += dir => OnNavigate(dir.ReadValue<Vector2>());
+        inputAction.UI.Submit.performed += _ => (stateMachine.CurrentState as MainMenuState)?.OnSubmit();
+        inputAction.UI.Cancel.performed += _ => (stateMachine.CurrentState as MainMenuState)?.OnCancel();  
+        inputAction.UI.Direction1.performed += dir => (stateMachine.CurrentState as MainMenuState)?.OnNavigate(dir.ReadValue<Vector2>());
 
         stateMachine = new StateMachine<MainMenuController>(this);
 
         uiStateDic[UICurrentState.Title] = new UITitleState(this);
         uiStateDic[UICurrentState.FileSelect] = new UIFileSelectState(this);
         uiStateDic[UICurrentState.GameMenu] = new UIGameMenuState(this);
+    }
+
+    private void Start()
+    {
+        fileSlotsCount = fileSlots.Length;
+        gameMenuItemsCount = gameMenuItems.Length;
     }
 
     private void OnEnable()
@@ -60,6 +70,7 @@ public class MainMenuController : MonoBehaviour
 
     private void Update()
     {
+        HandleScrolling();
         stateMachine.Update();
     }
 
@@ -78,84 +89,16 @@ public class MainMenuController : MonoBehaviour
         }
     }
 
-    public void GotoNextPage()
+
+    public void ChangeUIState(UICurrentState nextState)
     {
-        targetPositionY += pageHeight;
-        CheckTitle();
+        state = nextState;
+
+        stateMachine.ChangeState(uiStateDic[nextState]);
     }
 
-    public void GoToPreviousPage()
-    {
-        targetPositionY -= pageHeight;
-        CheckTitle();
-    }
 
-    private void CheckTitle()
-    {
-        if (targetPositionY == 0f)
-        {
-            state = UICurrentState.Title;
-        }
-        else if (targetPositionY == pageHeight)
-        {
-            state = UICurrentState.FileSelect;
-        }
-    }
-
-    private void OnSubmitPressed()
-    {
-        if (state == UICurrentState.Title)
-        {
-            StartCoroutine(CheckRoutine(CheckTitle, GotoNextPage));
-
-            currentFileIdx = 0;
-            UpdateFileSlotUI();
-        }
-        else if (state == UICurrentState.FileSelect)
-        {
-        }
-    }
-    private void OnCancelPressed()
-    {
-        StartCoroutine(CheckRoutine(CheckTitle,
-            () =>
-            {
-                if (state == UICurrentState.Title) QuitGame();
-                else GoToPreviousPage();
-            }));
-    }
-
-    private void OnNavigate(Vector2 dir)
-    {
-        if (state == UICurrentState.Title) return;
-
-        if (state == UICurrentState.FileSelect)
-        {
-            if (dir.x >= 0.5f)
-            {
-                currentFileIdx = (currentFileIdx + 1) % fileSlots.Length;
-                UpdateFileSlotUI();
-            }
-            else if (dir.x < -0.5f)
-            {
-                currentFileIdx = (currentFileIdx - 1 + fileSlots.Length) % fileSlots.Length;
-                UpdateFileSlotUI();
-            }
-        }
-        else if(state == UICurrentState.GameMenu)
-        {
-            if (dir.y > 0.5f) // 위로 이동 (인덱스 감소)
-            {
-                currentGameMenuIdx = (currentGameMenuIdx - 1 + gameMenuItems.Length) % gameMenuItems.Length;
-            }
-            else if (dir.y < -0.5f) // 아래로 이동 (인덱스 증가)
-            {
-                currentGameMenuIdx = (currentGameMenuIdx + 1) % gameMenuItems.Length;
-            }
-        }
-    }
-
-    private void UpdateFileSlotUI()
+    public void UpdateFileSlotUI()
     {
         if (fileSlots == null)
         {
@@ -168,20 +111,25 @@ public class MainMenuController : MonoBehaviour
         }
     }
 
-    private IEnumerator CheckRoutine(Action onCheck, Action onNext)
-    {
-        onCheck?.Invoke();
-        yield return null;
-        onNext?.Invoke();
-    }
-    private void QuitGame()
+    public void QuitGame()
     {
         Application.Quit();
         UnityEditor.EditorApplication.isPlaying = false;
         Debug.LogError("게임 종료");
     }
 
+    public void UpdateCursorPosition()
+    {
+        if (cursorIcon == null || gameMenuItems.Length == 0) return;
 
+        Vector2 targetPos = cursorIcon.anchoredPosition;
+        targetPos.y = gameMenuItems[currentGameMenuIdx].anchoredPosition.y;
+        cursorIcon.anchoredPosition = targetPos;
+    }
+    public void ExecuteGameMenuAction()
+    {
+        if (currentGameMenuIdx == 0) { }
+    }
 
 
 }
