@@ -110,7 +110,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         Debug.Log("아이작 넉백 발생");
         isKnockback = true;
         rb.linearVelocity = Vector2.zero;
-        rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
+        rb.AddForce(damageDir.normalized * knockbackForce / 2, ForceMode2D.Impulse);
         StartCoroutine(HitFlash());
     }
 

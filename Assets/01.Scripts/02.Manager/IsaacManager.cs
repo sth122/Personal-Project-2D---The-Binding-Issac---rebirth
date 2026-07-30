@@ -10,7 +10,7 @@ using UnityEngine;
 /// </summary>
 public class IsaacManager : Singleton<IsaacManager>
 {
-    [SerializeField] public GameObject Player;
+    [SerializeField] public GameObject isaac;
     [SerializeField] IsaacInfo currentIsaacInfo;
     public IsaacData isaacData;
     private bool isDie;
@@ -20,12 +20,9 @@ public class IsaacManager : Singleton<IsaacManager>
     protected override void Awake()
     {
         base.Awake();
-    }
-
-    private void Start()
-    {
         Init();
     }
+
     public void Init()
     {
         // 메인 메뉴에서 캐릭터 선택 시 초기화 하는 방향으로 추후 수정

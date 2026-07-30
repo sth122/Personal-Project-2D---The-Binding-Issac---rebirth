@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public enum EntityType
@@ -12,10 +13,13 @@ public class SpawnManager : Singleton<SpawnManager>
     private Dictionary<EntityType, EntityFactory> factoryMap;
     private BulletFactory bulletFactory;
     private RoomFactory roomFactory;
+    private DoorFactory doorFactory;
     private SpawnInfo cloneInfo;
 
-    protected override void Initialize()
+    protected override void Awake()
     {
+        base.Awake();
+
         factoryMap = new Dictionary<EntityType, EntityFactory>()
         {
             { EntityType.Monster, new MonsterFactory() },
@@ -24,16 +28,38 @@ public class SpawnManager : Singleton<SpawnManager>
         };
         bulletFactory = new BulletFactory();
         roomFactory = new RoomFactory();
+        doorFactory = new DoorFactory();
     }
 
-    public void SpawnAll(RoomEntityData data)
+    public List<GameObject> SpawnAll(RoomEntityData data, Func<SpawnInfo, bool> isSpawn)
     {
+        List<GameObject> list = new List<GameObject>();
         foreach (var k in data.spawnInfos)
         {
+            if (!isSpawn(k))
+                continue;
+
             cloneInfo = k.Clone();
             if (factoryMap.ContainsKey(k.entityType))
             {
-                factoryMap[k.entityType].OnSpawnEntity(cloneInfo);
+                list.Add(factoryMap[k.entityType].OnSpawnEntity(cloneInfo));
+            }
+        }
+        return list;
+    }
+
+    public void DeSpawn(List<GameObject> obj, Func<GameObject, bool> isObj)
+    {
+        List<GameObject> copy = new List<GameObject>(obj);
+
+        foreach(var k in copy)
+        {
+            if(!isObj(k))
+                continue;
+
+            if(k.TryGetComponent<IReturnPool>(out var r))
+            {
+                r.ReturnPool();
             }
         }
     }
@@ -46,5 +72,10 @@ public class SpawnManager : Singleton<SpawnManager>
     public GameObject SpawnRoom(Vector2Int coordinate, RoomType type)
     {
         return roomFactory.OnSpawnRoom(coordinate, type);
+    }
+
+    public GameObject SpawnDoor(DirectionsEnum vec, Room currentRoom, Room nextRoom)
+    {
+        return doorFactory.OnSpawnDoor(vec, currentRoom, nextRoom);
     }
 }

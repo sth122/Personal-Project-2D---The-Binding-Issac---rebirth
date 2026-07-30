@@ -244,7 +244,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 0.9803922, b: 0.9803922, a: 1}
@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1887ad86542bac744a5ac69637953664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoomManager
-  Player: {fileID: 5902640056624608455}
+  currentRoom: {fileID: 0}
 --- !u!1 &525932127
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,50 +345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4569820fedd3ff64c8e49a7c22cc235f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
---- !u!1 &672733410
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 672733412}
-  - component: {fileID: 672733411}
-  m_Layer: 0
-  m_Name: UIManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &672733411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672733410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b25bdcea0d5f78545b72806d6bc870a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIManager
---- !u!4 &672733412
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672733410}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &995196723
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f73ff8d0622425f4fa276e9f2f4668d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IsaacManager
-  Player: {fileID: 5902640056624608455}
+  isaac: {fileID: 5902640056624608455}
   currentIsaacInfo:
     isaacID: 0
     isaacName: 
@@ -478,6 +434,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPoolManager
   prefabDic:
     _serializedList:
+    - Key: NormalDoor
+      Value:
+        Prefab: {fileID: 5501508958281141762, guid: 4be42f87fd146394ea8197c5f7527afc, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
+    - Key: BossDoor
+      Value:
+        Prefab: {fileID: 5501508958281141762, guid: dfe46d1d8fea40e4b929e09a41d64a4c, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
+    - Key: TreasureDoor
+      Value:
+        Prefab: {fileID: 5501508958281141762, guid: a87642d08eccbc24595dcf9ee220e4f5, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
     - Key: StartRoom
       Value:
         Prefab: {fileID: 4474320625537954766, guid: 8702c0b7fae6cdf4f9696a52ef3cd349, type: 3}
@@ -513,11 +484,6 @@ MonoBehaviour:
         Prefab: {fileID: 6677796923577428721, guid: 294cc9febd9df2e47b06f35805e89d3b, type: 3}
         InitSpawnCount: 1
         parentTrans: {fileID: 0}
-    - Key: Room
-      Value:
-        Prefab: {fileID: 4474320625537954766, guid: 79a099c3940060143ad4f7ae49619212, type: 3}
-        InitSpawnCount: 1
-        parentTrans: {fileID: 0}
     - Key: BasicTears
       Value:
         Prefab: {fileID: 3336249713886614393, guid: 66bc48a57878c504e8c09d5601864d29, type: 3}
@@ -541,6 +507,11 @@ MonoBehaviour:
     - Key: AttackFly
       Value:
         Prefab: {fileID: 6698871671576295998, guid: 0a7a675370d079947bea475e545b7768, type: 3}
+        InitSpawnCount: 1
+        parentTrans: {fileID: 0}
+    - Key: TheDukeOfFlies
+      Value:
+        Prefab: {fileID: 3687590550967654484, guid: 7d478accac5f2d34fb1934030a3a3cfc, type: 3}
         InitSpawnCount: 1
         parentTrans: {fileID: 0}
 --- !u!4 &995296175
@@ -742,6 +713,8 @@ MonoBehaviour:
   <ItemData>k__BackingField: {fileID: 11400000, guid: 40c9c809deb9f5042a905ad5e644d3e7, type: 2}
   <ObstacleData>k__BackingField: {fileID: 11400000, guid: 10b4dee17da0daf4a89715a42d94b790, type: 2}
   <RoomLayoutData>k__BackingField: {fileID: 11400000, guid: 9633d778b40e4f14db5afee6c4774ec8, type: 2}
+  <DoorData>k__BackingField: {fileID: 11400000, guid: edb2c35a2c260a345b755dd349029c3d, type: 2}
+  <DukePatternData>k__BackingField: {fileID: 11400000, guid: 7290f0a76cd0b8f4392cdca3bae8cef4, type: 2}
 --- !u!4 &1491700941
 Transform:
   m_ObjectHideFlags: 0
@@ -952,7 +925,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 11
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7323592270488712144, guid: 6dfac73e204a2204e84a69d87ab3a754, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1029,7 +1002,7 @@ Transform:
   m_GameObject: {fileID: 5902640056624608455}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.5, y: 5.5, z: 0}
+  m_LocalPosition: {x: 8.17, y: 9.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1249,7 +1222,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 11
   m_MaskInteraction: 0
   m_Sprite: {fileID: 9144529346860793187, guid: 6dfac73e204a2204e84a69d87ab3a754, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1322,7 +1295,6 @@ SceneRoots:
   - {fileID: 995296175}
   - {fileID: 86424288}
   - {fileID: 331657108}
-  - {fileID: 672733412}
   - {fileID: 525932129}
   - {fileID: 995196725}
   - {fileID: 1491700941}

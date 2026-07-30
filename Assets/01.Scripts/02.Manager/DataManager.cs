@@ -2,12 +2,17 @@
 
 public class DataManager : Singleton<DataManager>
 {
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+
     
     [field : SerializeField] public MonsterData MonsterData {  get; private set; }
     [field : SerializeField] public IsaacData IsaacData { get; private set; }
     [field : SerializeField] public ItemData ItemData { get; private set; }
     [field : SerializeField] public ObstacleData ObstacleData { get; private set; }
-
     [field: SerializeField] public RoomLayoutData RoomLayoutData { get; private set; }
-
+    [field : SerializeField] public DoorData DoorData { get; private set; }
+    [field : SerializeField] public DukePatternData DukePatternData { get; private set; }
 }
