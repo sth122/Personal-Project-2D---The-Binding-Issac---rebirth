@@ -2,7 +2,7 @@
 
 abstract public class EntityFactory
 {
-    public abstract void OnSpawnEntity(SpawnInfo info);
+    public abstract GameObject OnSpawnEntity(SpawnInfo info);
 }
 
 /// <summary>
@@ -15,10 +15,10 @@ public class MonsterFactory : EntityFactory
     public MonsterFactory()
     {
         monsterData = DataManager.Instance.MonsterData;
-        player = RoomManager.Instance.Player;
+        player = IsaacManager.Instance.isaac;
     }
 
-    public override void OnSpawnEntity(SpawnInfo info)
+    public override GameObject OnSpawnEntity(SpawnInfo info)
     {
         MonsterInfo mStat = monsterData.monsterList[info.id];
         GameObject monster = ObjectPoolManager.Instance.GetObject(mStat.Clone().name);
@@ -28,8 +28,9 @@ public class MonsterFactory : EntityFactory
         {
             MonsterController mController = monster.GetComponent<MonsterController>();
             mController.InitData(mStat, player.transform);
-            mController.Appear();
         }
+
+        return monster;
     }
 }
 
@@ -48,7 +49,7 @@ public class ItemFactory : EntityFactory
     /// 
     /// </summary>
     /// <param name="info"></param>
-    public override void OnSpawnEntity(SpawnInfo info)
+    public override GameObject OnSpawnEntity(SpawnInfo info)
     {
         ItemInfo itemInfo = itemData.itemListDic[info.id];
         GameObject item = ObjectPoolManager.Instance.GetObject(itemInfo.Clone().name);
@@ -57,6 +58,7 @@ public class ItemFactory : EntityFactory
         {
             Debug.Log($"{info.id} not found");
         }
+        return item;
     }
 }
 
@@ -72,7 +74,7 @@ public class ObstacleFactory : EntityFactory
     /// 
     /// </summary>
     /// <param name="info"></param>
-    public override void OnSpawnEntity(SpawnInfo info)
+    public override GameObject OnSpawnEntity(SpawnInfo info)
     {
         ObstacleInfo obstacleInfo = obstacleData.obstacleList[info.id];
         GameObject obstacle = ObjectPoolManager.Instance.GetObject(obstacleInfo.Clone().name);
@@ -81,5 +83,7 @@ public class ObstacleFactory : EntityFactory
         {
             Debug.Log($"{info.id} not found");
         }
+
+        return obstacle;
     }
 }

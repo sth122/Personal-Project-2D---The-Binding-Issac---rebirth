@@ -1,28 +1,21 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
-public class Fly : MonsterController, ITraceable, ITakeDamageable
+public class Fly : MonsterController, ITraceable
 {
     protected float traceRange;
-    private WaitForSeconds takeDamageEffectWait;
-    protected float knockbackForce;
-    private readonly Color hitRed = new Color(5f, 0, 0, 1f);
-    protected bool isKnockback;
 
     protected override void Awake()
     {
         base.Awake();
+        knockbackForce = 5f;
         mStateDic[MonsterCurrentState.Trace] = new MonsterTraceState(this, mData);
-
-        //isKnockback = false;
-        takeDamageEffectWait = new WaitForSeconds(0.12f);
-        knockbackForce = 2f;
     }
 
     protected override void OnEnable()
     {
         base.OnEnable();
+        StartCoroutine(Movement());
     }
     protected override void OnDisable()
     {
@@ -71,39 +64,31 @@ public class Fly : MonsterController, ITraceable, ITakeDamageable
     {
         return (target.position - transform.position).normalized;
     }
-    private void Move()
+    protected virtual void Move()
     {
-        RB.linearVelocity = GetDirection() * mData.speed;
+        rb.linearVelocity = GetDirection() * mData.speed;
+    }
+
+    IEnumerator Movement()
+    {
+        Vector3 originPos = transform.position;
+        while (true)
+        {
+            if(target != null)
+            {
+                originPos = Vector3.MoveTowards(originPos, target.position, mData.speed * Time.deltaTime);
+            }
+
+            float x = Random.Range(-0.1f, 0.1f);
+            float y = Random.Range(-0.1f, 0.1f);
+
+            transform.position = originPos + new Vector3(x, y, 0);
+            yield return null;
+        }
+    }
+    public virtual void StopMovement()
+    {
+        StopCoroutine(Movement());
     }
     #endregion
-
-    public virtual void TakeDamage(float damage, Vector2 damageDir)
-    {
-        mData.totalHp -= damage;
-        if (mData.totalHp <= 0)
-        {
-            mData.totalHp = 0;
-            Dead();
-            return;
-        }
-        Knockback(damageDir);
-    }
-
-    public virtual void Knockback(Vector2 damageDir)
-    {
-        Debug.Log("넉백 발생");
-        isKnockback = true;
-        rb.linearVelocity = Vector2.zero;
-        rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
-        StartCoroutine(HitFlash());
-    }
-
-    public virtual IEnumerator HitFlash()
-    {
-        sr.color = hitRed;
-        yield return takeDamageEffectWait;
-        isKnockback = false;
-        sr.color = Color.white;
-        rb.linearVelocity = Vector2.zero;
-    }
 }

@@ -56,11 +56,23 @@ abstract public class IsaacBullet : MonoBehaviour, IReturnPool
     {
         // 부딪힐 시 ReturnPool
         // 눈물 터지는 파티클
-        if(collision.TryGetComponent<ITakeDamageable>(out ITakeDamageable takeDamage))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Monster"))
         {
-            takeDamage.TakeDamage(damage, this.dir);
+            if (collision.gameObject.transform.parent.TryGetComponent<ITakeDamageable>(out var monTakeDamage))
+            {
+                monTakeDamage.TakeDamage(damage, dir);
+            }
+            else if (collision.TryGetComponent<ITakeDamageable>(out var takeDamage))
+            {
+                takeDamage.TakeDamage(damage, dir);
+            }
+            ReturnPool();
         }
-        ReturnPool();
+        else if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        {
+            ReturnPool();
+        }
+        
     }
 
     /// <summary>

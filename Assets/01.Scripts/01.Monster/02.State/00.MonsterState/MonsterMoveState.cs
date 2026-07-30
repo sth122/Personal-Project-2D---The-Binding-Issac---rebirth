@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class MonsterMoveState : MonsterState
 {
-    
     public MonsterMoveState(MonsterController controller, MonsterInfo mData) : base(controller, mData)
     {
         this.controller = controller;
@@ -25,7 +24,10 @@ public class MonsterMoveState : MonsterState
     // Move만 따로 하는 애들 있을 경우 구현
     public override void Update()
     {
-
+        if(controller.TryGetComponent<IPatternable>(out var pattern))
+        {
+            controller.stateMachine.ChangeState(controller.mStateDic[MonsterCurrentState.Pattern]);
+        }
     }
 
     public override void FixedUpdate()

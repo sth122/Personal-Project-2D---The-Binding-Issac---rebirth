@@ -6,7 +6,6 @@ public enum RoomType
     StartRoom, NormalRoom, BossRoom, TreasureRoom, ShopRoom, SecretRoom, DevilRoom, AngelRoom
 }
 
-
 public struct RoomDepth
 {
     public Vector2Int coordinate;
@@ -93,11 +92,6 @@ public class RoomGenerator
 
         yield return new WaitWhile(() => !subSuccess);
 
-        Debug.LogWarning($"방 생성 완료 {roomMap.Count}");
-
-
-        Debug.Log($"끝 방 개수 {endRoomList.Count}");
-
         AssignBossRoom();
 
         AssignTreasureRoom();
@@ -125,9 +119,6 @@ public class RoomGenerator
 
         roomStack.Push(start);
         roomsGenerated = 1;
-
-
-        Debug.Log($"시작 지점 생성 [{start.coordinate.x}, {start.coordinate.y}]");
     }
 
     /// <summary>
@@ -150,7 +141,6 @@ public class RoomGenerator
                     continue;
 
                 CreateRoom(nextRoom, currentRoom.depth + 1);
-                Debug.Log($"방 생성 [{nextRoom.x}, {nextRoom.y}]");
                 isCreate = true;
                 break;
             }
@@ -293,8 +283,6 @@ public class RoomGenerator
                 boss = room.Key;
             }
         }
-
-        Debug.Log($"보스 방 생성 [{boss.coordinate.x}, {boss.coordinate.y}]");
         
         endRoomList.Remove(boss);
         roomMap[boss] = RoomType.BossRoom;
@@ -322,7 +310,6 @@ public class RoomGenerator
                 treasure = room.Key;
             }
         }
-        Debug.Log($"보물 방 생성 [{treasure.coordinate.x}, {treasure.coordinate.y}]");
         endRoomList.Remove(treasure);
         roomMap[treasure] = RoomType.TreasureRoom;
     }
