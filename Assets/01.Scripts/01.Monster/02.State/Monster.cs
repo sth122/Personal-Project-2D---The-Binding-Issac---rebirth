@@ -17,6 +17,7 @@ abstract public class Monster : MonoBehaviour, IReturnPool
     public MonsterAnimController AnimController { get { return animController; } }
 
     protected SpriteRenderer sr;
+    protected SpriteRenderer[] srArray;
     private WaitForSeconds wait;
     #endregion
 

@@ -4,6 +4,7 @@ public class TheDukeOfFliesState : PatternState
 {
     private TheDukeOfFlies duke;
 
+
     public TheDukeOfFliesState(MonsterController controller, MonsterInfo mData) : base(controller, mData)
     {
         this.controller = controller;
@@ -17,17 +18,16 @@ public class TheDukeOfFliesState : PatternState
 
     public override void Enter()
     {
-        duke.AnimController.AnimationStart(MonsterCurrentState.Move);
+        nowState = MonsterCurrentState.Move;
+        controller.AnimController.AnimationStart(nowState);
         duke.IPattern();
     }
 
     public override void FixedUpdate()
     {
-        if (duke.isPattern)
-            return;
-
-        duke.Movement();
+        if(!duke.isPattern)
+        {
+            duke.Movement();
+        }
     }
-
-
 }

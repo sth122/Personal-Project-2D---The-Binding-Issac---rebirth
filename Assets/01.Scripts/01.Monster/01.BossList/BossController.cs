@@ -5,13 +5,14 @@ abstract public class BossController : MonsterController, IPatternable
 {
     #region variable
     public bool isPattern;
-    private MonsterCurrentState nowPattern;
+    protected MonsterCurrentState nowPattern;
     protected WaitForSeconds patternWait;
     protected float patternDelayTime;
     #endregion
     protected override void Awake()
     {
         base.Awake();
+
         patternDelayTime = 3f;
         patternWait = new WaitForSeconds(patternDelayTime);
     }
@@ -25,28 +26,43 @@ abstract public class BossController : MonsterController, IPatternable
         base.OnDisable();
         StopCoroutine(BossPatternCoroutine());
     }
+    protected override void Update()
+    {
+        base.Update();
+    }
+    protected override void FixedUpdate()
+    {
+        base.FixedUpdate();
+    }
+
 
     public void IPattern()
     {
         StartCoroutine(BossPatternCoroutine());
     }
 
-    IEnumerator BossPatternCoroutine()
+    public override void Dead()
+    {
+        base.Dead();
+    }
+
+    public override IEnumerator HitFlash()
+    {
+        return base.HitFlash();
+    }
+
+    public IEnumerator BossPatternCoroutine()
     {
         while (true)
         {
+            isPattern = false;
             yield return patternWait;
 
-            int idx = Random.Range(0, 3);
-            nowPattern = (MonsterCurrentState)idx;
+            ExcutePattern();
 
-            ExcutePattern(idx, nowPattern);
             yield return new WaitUntil(() => !isPattern);
         }
     }
 
-    protected abstract void ExcutePattern(int idx, MonsterCurrentState pattern);
-
-    public virtual void Movement() { }
-
+    protected abstract void ExcutePattern();
 }

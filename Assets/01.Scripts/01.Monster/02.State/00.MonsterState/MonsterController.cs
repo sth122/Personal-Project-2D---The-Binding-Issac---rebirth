@@ -25,7 +25,7 @@ public interface IReturnPool
 // 나중에 IsaacCurrentState랑 통합 예정
 public enum MonsterCurrentState
 {
-    FirstPattern, SecondPattern, ThirdPattern, Idle, Move, Trace, Attack, Die, Pattern, 
+    FirstPattern, SecondPattern, ThirdPattern, Idle, Move, Trace, Attack, Die, Pattern, Stop
 }
 
 abstract public class MonsterController : Monster, ITakeDamageable
@@ -34,10 +34,10 @@ abstract public class MonsterController : Monster, ITakeDamageable
 	public StateMachine<MonsterController> stateMachine;
     public Dictionary<MonsterCurrentState, MonsterState> mStateDic = new Dictionary<MonsterCurrentState, MonsterState>();
 
-    private WaitForSeconds takeDamageEffectWait;
-    private readonly Color hitRed = new Color(5f, 0, 0, 1f);
+    protected WaitForSeconds takeDamageEffectWait;
+    protected readonly Color hitRed = new Color(5f, 0, 0, 1f);
     protected bool isKnockback;
-    protected float knockbackForce;
+    [SerializeField] protected float knockbackForce;
     #endregion
     protected override void Awake()
     {
@@ -46,13 +46,16 @@ abstract public class MonsterController : Monster, ITakeDamageable
 
         mStateDic[MonsterCurrentState.Idle] = new MonsterIdleState(this, mData);
         mStateDic[MonsterCurrentState.Move] = new MonsterMoveState(this, mData);
+        mStateDic[MonsterCurrentState.Stop] = new MonsterStopState(this, mData);
 
         takeDamageEffectWait = new WaitForSeconds(0.12f);
     }
 
     protected override void OnEnable()
     {
-        if(mData != null)
+        stateMachine.ChangeState(mStateDic[MonsterCurrentState.Stop]);
+        rb.linearVelocity = Vector2.zero;
+        if (mData != null)
         {
             Appear();
         }
@@ -62,8 +65,6 @@ abstract public class MonsterController : Monster, ITakeDamageable
     protected override void OnDisable()
     {
         StopAllCoroutines();
-        rb.linearVelocity = Vector2.zero;
-
     }
 
     protected virtual void Update()
@@ -105,7 +106,7 @@ abstract public class MonsterController : Monster, ITakeDamageable
         Debug.Log("넉백 발생");
         isKnockback = true;
         rb.linearVelocity = Vector2.zero;
-        rb.AddForce(damageDir.normalized * knockbackForce, ForceMode2D.Impulse);
+        rb.AddForce(damageDir.normalized * knockbackForce / 2, ForceMode2D.Impulse);
         StartCoroutine(HitFlash());
     }
 

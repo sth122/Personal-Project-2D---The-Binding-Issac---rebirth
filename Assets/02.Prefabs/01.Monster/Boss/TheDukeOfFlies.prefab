@@ -310,6 +310,7 @@ MonoBehaviour:
     dieAnimTime: 0
     type: 0
     moveType: 0
+  knockbackForce: 0
   isPattern: 0
 --- !u!95 &5613406256833516555
 Animator:
@@ -324,7 +325,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 423c8ffd6d6618748959f73bd6fa455f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0

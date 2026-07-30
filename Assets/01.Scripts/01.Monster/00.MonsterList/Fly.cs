@@ -8,9 +8,8 @@ public class Fly : MonsterController, ITraceable
     protected override void Awake()
     {
         base.Awake();
+        knockbackForce = 5f;
         mStateDic[MonsterCurrentState.Trace] = new MonsterTraceState(this, mData);
-
-        knockbackForce = 2f;
     }
 
     protected override void OnEnable()
@@ -65,7 +64,7 @@ public class Fly : MonsterController, ITraceable
     {
         return (target.position - transform.position).normalized;
     }
-    private void Move()
+    protected virtual void Move()
     {
         rb.linearVelocity = GetDirection() * mData.speed;
     }
@@ -87,6 +86,9 @@ public class Fly : MonsterController, ITraceable
             yield return null;
         }
     }
-
+    public virtual void StopMovement()
+    {
+        StopCoroutine(Movement());
+    }
     #endregion
 }

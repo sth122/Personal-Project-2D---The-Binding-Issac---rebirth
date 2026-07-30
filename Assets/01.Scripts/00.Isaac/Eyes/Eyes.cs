@@ -7,7 +7,7 @@ public class Eyes : IsaacWeapon
     private string bulletName;
     private float tearScale;
     private TearType type;
-
+    private Vector2 dir;
 
     protected override void Start()
     {
@@ -26,6 +26,7 @@ public class Eyes : IsaacWeapon
     {
         if (Input.AttackDirection != Vector2.zero && canAttack)
         {
+            dir = Input.AttackDirection;
             CheckDirection();
 
             GameObject tearBullet = SpawnManager.Instance.SpawnBullet(type);
@@ -33,7 +34,7 @@ public class Eyes : IsaacWeapon
             {
                 IsaacBullet bullet = tearBullet.GetComponent<IsaacBullet>();
 
-                bullet.SetDirection(Input.AttackDirection);
+                bullet.SetDirection(dir);
                 bullet.transform.position = fire.position;
                 bullet.transform.rotation = fire.rotation;
                 canAttack = false;

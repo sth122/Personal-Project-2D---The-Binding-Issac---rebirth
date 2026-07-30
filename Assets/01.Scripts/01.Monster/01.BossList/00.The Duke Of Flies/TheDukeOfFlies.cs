@@ -14,12 +14,14 @@ public class TheDukeOfFlies : BossController
     protected override void Awake()
     {
         base.Awake();
-
         dukePattern = DataManager.Instance.DukePatternData;
+        srArray = GetComponentsInChildren<SpriteRenderer>();
+        patternWait = new WaitForSeconds(4f);
+        knockbackForce = 5f;
 
         mStateDic[MonsterCurrentState.Pattern] = new TheDukeOfFliesState(this, mData);
-        patternWait = new WaitForSeconds(8f);
     }
+
     protected override void OnEnable()
     {
         base.OnEnable();
@@ -27,6 +29,7 @@ public class TheDukeOfFlies : BossController
     protected override void OnDisable()
     {
         base.OnDisable();
+        StopAllCoroutines();
     }
 
     protected override void Update()
@@ -39,23 +42,63 @@ public class TheDukeOfFlies : BossController
         base.FixedUpdate();
     }
 
-    protected override void Appear()
-    {
-        StartAnimTime(mData.appearAnimTime, () => { stateMachine.ChangeState(mStateDic[MonsterCurrentState.Pattern]); });
-    }
-    public override void Movement()
-    {
-        Debug.Log("움직이는 중");
-    }
-
     public override void Dead()
     {
         base.Dead();
     }
-    protected override void ExcutePattern(int idx, MonsterCurrentState pattern)
+    protected override void Appear()
     {
-        Debug.Log($"{pattern.ToString()} 실행");
-        animController.AnimationStart(pattern);
-        StartAnimTime(dukePattern.patternList[idx].patternTime, () => animController.AnimationStop(pattern));
+        StartAnimTime(mData.appearAnimTime, () => { stateMachine.ChangeState(mStateDic[MonsterCurrentState.Pattern]); });
     }
+
+    private Vector2 GetDirection()
+    {
+        return (target.position - transform.position).normalized;
+    }
+
+    public void Movement()
+    {
+        if (isKnockback)
+            return;
+
+        rb.linearVelocity = GetDirection() * mData.speed;
+    }
+
+    protected override void ExcutePattern()
+    {
+        isPattern = true;
+        int idx = Random.Range(0, 3);
+        nowPattern = (MonsterCurrentState)idx;
+
+        Debug.Log($"{nowPattern.ToString()} 실행");
+        animController.AnimationStart(nowPattern);
+        StartAnimTime(dukePattern.patternList[idx].patternTime,
+            () =>
+            {
+                animController.AnimationStop(nowPattern);
+                isPattern = false;
+            });
+    }
+
+    public override IEnumerator HitFlash()
+    {
+        foreach (var sr in srArray)
+        {
+            sr.color = hitRed;
+        }
+        yield return takeDamageEffectWait;
+        isKnockback = false;
+        foreach (var sr in srArray)
+        {
+            sr.color = Color.white;
+        }
+        rb.linearVelocity = Vector2.zero;
+    }
+
+    public override void Knockback(Vector2 damageDir)
+    {
+        base.Knockback(damageDir);
+    }
+
+
 }

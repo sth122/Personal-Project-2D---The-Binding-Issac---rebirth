@@ -44,7 +44,6 @@ public class SpawnManager : Singleton<SpawnManager>
             {
                 list.Add(factoryMap[k.entityType].OnSpawnEntity(cloneInfo));
             }
-
         }
         return list;
     }
