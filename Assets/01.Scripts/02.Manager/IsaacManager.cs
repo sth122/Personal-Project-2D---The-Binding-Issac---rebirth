@@ -34,6 +34,8 @@ public class IsaacManager : Singleton<IsaacManager>
         {
             pickUpDic[type] = 1;
         }
+
+        HealthUIManager.Instance.UpdateHealthUI(currentIsaacInfo.hp, maxHP);
     }
 
     public IsaacInfo GameStart()
@@ -55,6 +57,7 @@ public class IsaacManager : Singleton<IsaacManager>
             isDie = true;
             OnDie?.Invoke();
         }
+        HealthUIManager.Instance.UpdateHealthUI(currentIsaacInfo.hp, maxHP);
     }
 
     /// <summary>
@@ -73,7 +76,7 @@ public class IsaacManager : Singleton<IsaacManager>
     }
     public void GoToNextStage()
     {
-        isaac.GetComponent<IsaacController>().GoToNextStage();
+        isaac.GetComponent<IsaacController>().EnterEscapeDoor();
     }
 
     #region Item Method
@@ -95,7 +98,9 @@ public class IsaacManager : Singleton<IsaacManager>
         }
         OnRecovery?.Invoke();
         Debug.Log($"{currentIsaacInfo.hp}");
+
         // UI 관련 호출
+        HealthUIManager.Instance.UpdateHealthUI(currentIsaacInfo.hp, maxHP);
     }
 
     public void HPCheck(Action OnRecovery)

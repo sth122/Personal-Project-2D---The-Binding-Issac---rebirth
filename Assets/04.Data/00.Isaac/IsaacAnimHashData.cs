@@ -21,7 +21,7 @@ public class IsaacAnimHashData
         isaacAnimHashData[IsaacAnimState.Die] = Animator.StringToHash("isDie");
         isaacAnimHashData[IsaacAnimState.Hit] = Animator.StringToHash("isHit");
         isaacAnimHashData[IsaacAnimState.PickUp] = Animator.StringToHash("isPickUp");
-        isaacAnimHashData[IsaacAnimState.FallDown] = Animator.StringToHash("isFallDownn");
+        isaacAnimHashData[IsaacAnimState.FallDown] = Animator.StringToHash("isFallDown");
         isaacAnimHashData[IsaacAnimState.Appear] = Animator.StringToHash("isAppear");
     }
 }

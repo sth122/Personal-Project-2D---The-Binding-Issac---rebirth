@@ -247,6 +247,10 @@ public class Room : MonoBehaviour
     public void SetEscapeDoor(bool isClear)
     {
         escapeDoor.SetActive(isClear);
+        if(isClear)
+        {
+            OpenEscapeDoor();
+        }
     }
 
     public void EnterBossRoom()
@@ -254,5 +258,10 @@ public class Room : MonoBehaviour
         if (!isClear)
             BossRoomManager.Instance.ShowBossIntro();
         else return;
+    }
+
+    private void OpenEscapeDoor()
+    {
+        escapeDoor.GetComponent<EscapeDoor>().OnOpneDoor();
     }
 }

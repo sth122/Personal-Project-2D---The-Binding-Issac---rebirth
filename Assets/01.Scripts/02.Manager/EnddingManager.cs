@@ -2,7 +2,7 @@
 using UnityEngine.InputSystem;
 using UnityEngine.Video;
 
-public class IntroManager : MonoBehaviour
+public class EnddingManager : Singleton<EnddingManager>
 {
     [SerializeField] private VideoPlayer videoPlayer;
 
@@ -10,19 +10,26 @@ public class IntroManager : MonoBehaviour
 
     private bool isTranstioning = false;
 
-    private void Start()
+    protected override void Awake()
     {
-        if (videoPlayer != null) 
+        isDDOL = false;
+        base.Awake();
+    }
+
+    public void StartEnddingCredit()
+    {
+        if (videoPlayer != null)
         {
             videoPlayer.loopPointReached += EndVideoEvent;
         }
     }
+
     private void Update()
     {
         if (isTranstioning)
             return;
 
-        if(Keyboard.current != null && Keyboard.current.anyKey.wasPressedThisFrame)
+        if (Keyboard.current != null && Keyboard.current.anyKey.wasPressedThisFrame)
         {
             SkipIntro();
         }

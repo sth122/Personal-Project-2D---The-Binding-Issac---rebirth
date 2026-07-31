@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using UnityEngine;
 
 public class StageManager : Singleton<StageManager>
 {
@@ -29,6 +31,15 @@ public class StageManager : Singleton<StageManager>
         // tirgger 둘 다 false
 
         stageCnt++;
+
+        StartCoroutine(Ending());
+    }
+
+    private IEnumerator Ending()
+    {
+        yield return new WaitForSeconds(2f);
+
+        IsaacSceneManager.Instance.LoadSceneWhiteFade("EnddingScene");
     }
 
     public void ShowFallDownCredit()

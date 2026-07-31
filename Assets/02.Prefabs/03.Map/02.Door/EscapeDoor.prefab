@@ -104,7 +104,7 @@ Animator:
   m_GameObject: {fileID: 5612422293231869627}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b391c18e43038914eb30cc3bfbe55793, type: 2}
+  m_Controller: {fileID: 9100000, guid: b508b92009d075c4a9f766dd7f4b024a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -174,3 +174,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad1420857b1ed140a4eb8a065140c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  teleportCol: {fileID: 0}
+  wallCollider: {fileID: 0}
