@@ -18,6 +18,7 @@ public class SpawnManager : Singleton<SpawnManager>
 
     protected override void Awake()
     {
+        isDDOL = false;
         base.Awake();
 
         factoryMap = new Dictionary<EntityType, EntityFactory>()

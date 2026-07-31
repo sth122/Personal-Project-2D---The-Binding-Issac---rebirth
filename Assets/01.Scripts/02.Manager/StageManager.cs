@@ -32,6 +32,7 @@ public class StageManager : Singleton<StageManager>
 
         stageCnt++;
 
+        SoundManager.Instance.PlayStop();
         StartCoroutine(Ending());
     }
 

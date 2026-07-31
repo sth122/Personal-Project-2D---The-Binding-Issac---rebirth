@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class IsaacSceneManager : Singleton<IsaacSceneManager>
@@ -14,6 +15,7 @@ public class IsaacSceneManager : Singleton<IsaacSceneManager>
     {
         if (isTransitioning) 
             return;
+
         StartCoroutine(TranstionRoutine(sceneName, Color.white, duration));
     }
     public void LoadSceneBlakcFade(string sceneName, float duration = 3f)

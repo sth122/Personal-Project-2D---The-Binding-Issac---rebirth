@@ -35,12 +35,11 @@ public class SoundManager : Singleton<SoundManager>
     {
         base.Awake();
     }
-
-    private void Start()
+    public void PlayStop()
     {
-        PlayIntroTitleBGM();
+        bgmSource.Stop();
+        sfxSource.Stop();
     }
-
 
     #region BGM
     public void PlayIntroTitleBGM()

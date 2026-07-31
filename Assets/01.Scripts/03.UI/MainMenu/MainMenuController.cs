@@ -61,6 +61,7 @@ public class MainMenuController : MonoBehaviour
     private void OnEnable()
     {
         inputAction.Enable();
+        SoundManager.Instance.PlayIntroTitleBGM();
         stateMachine.ChangeState(uiStateDic[UICurrentState.Title]);
     }
     private void OnDisable()
@@ -128,7 +129,6 @@ public class MainMenuController : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-        UnityEditor.EditorApplication.isPlaying = false;
         Debug.LogError("게임 종료");
     }
 

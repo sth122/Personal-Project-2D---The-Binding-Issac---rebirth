@@ -24,7 +24,7 @@ public class CreditManager : MonoBehaviour
 
         if(Keyboard.current != null && Keyboard.current.anyKey.wasPressedThisFrame)
         {
-            SkipIntro();
+            SkipCredit();
         }
     }
     private void EndVideoEvent(VideoPlayer videoPlayer)
@@ -34,7 +34,7 @@ public class CreditManager : MonoBehaviour
             IsaacSceneManager.Instance.LoadSceneWhiteFade(nextSceneName);
         }
     }
-    private void SkipIntro()
+    private void SkipCredit()
     {
         isTranstioning = true;
         IsaacSceneManager.Instance.LoadSceneWhiteFade(nextSceneName);
