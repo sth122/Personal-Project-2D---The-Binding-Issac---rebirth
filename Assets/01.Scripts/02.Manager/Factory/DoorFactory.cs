@@ -14,6 +14,7 @@ public class DoorFactory
         doors[RoomType.NormalRoom] = DoorType.NormalDoor.ToString();
         doors[RoomType.BossRoom] = DoorType.BossDoor.ToString();
         doors[RoomType.TreasureRoom] = DoorType.TreasureDoor.ToString();
+        doors[RoomType.EscapeRoom] = DoorType.EscapeDoor.ToString();
         doorData = DataManager.Instance.DoorData;
         doorData.Init();
     }
@@ -26,6 +27,11 @@ public class DoorFactory
         {
             Debug.Log("다음 방 없음");
             return null;
+        }
+
+        if(nextRoom == currentRoom)
+        {
+            return SelectRoomType(vec, RoomType.EscapeRoom, currentRoom, nextRoom);
         }
 
         if (doors.ContainsKey(nextRoom.roomType))

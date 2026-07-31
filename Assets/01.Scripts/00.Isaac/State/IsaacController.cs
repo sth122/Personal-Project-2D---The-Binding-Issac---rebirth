@@ -81,7 +81,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
         OnComplete?.Invoke();
     }
 
-    public void TakeDamage(float damage, Vector2 damageDir) 
+    public void TakeDamage(float damage, Vector2 damageDir)
     {
         Debug.Log("데미지");
         if (damage == 0 || isKnockback)
@@ -105,7 +105,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     /// 넉백 메서드
     /// </summary>
     /// <param name="damageDir"></param>
-    public void Knockback(Vector2 damageDir) 
+    public void Knockback(Vector2 damageDir)
     {
         Debug.Log("아이작 넉백 발생");
         isKnockback = true;
@@ -118,7 +118,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     /// 피격 시 이펙트 + 넉백 시간 계산
     /// </summary>
     /// <returns></returns>
-    public IEnumerator HitFlash() 
+    public IEnumerator HitFlash()
     {
         animController.SetAnimTrigger(IsaacAnimState.Hit, true);
         yield return knockbakcWait;
@@ -128,20 +128,17 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     }
 
     // 미완성 상태
-    private void GoToNextStage()
+    public void EnterEscapeDoor()
     {
+        Input.enabled = false;
+        rb.linearVelocity = Vector2.zero;
+
         // 스테이지 클리어 순서
         // 지하로 내려가는 오브젝트 충돌 시 -> FallDown 애님 시작
         // 종료 후 StageManager에 클리어 소식 전달 후 내려간 UI 출력
         // timesacle = 0
         // UI 종료 후 Appear 애님 시작
         // 종료 후 timesale = 1 / Idle 상태에서 시작
-        StageManager.Instance.StageClear( 
-            () => 
-            { 
-                animController.SetAnimTrigger(IsaacAnimState.FallDown, true);
-                animController.SetAnimTrigger(IsaacAnimState.Appear, true);
-            });
-        animController.FallDownAnim();
+        StageManager.Instance.StageClear(() => { animController.FallDownAnim(); });
     }
 }

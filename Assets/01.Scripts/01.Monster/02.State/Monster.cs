@@ -57,7 +57,7 @@ abstract public class Monster : MonoBehaviour, IReturnPool
 
     public abstract void Dead();
 
-    public void ReturnPool()
+    public virtual void ReturnPool()
     {
         RoomManager.Instance.currentRoom.OnObjectReturn(this.gameObject);
         ObjectPoolManager.Instance.ReturnObject(mData.name, this.gameObject);

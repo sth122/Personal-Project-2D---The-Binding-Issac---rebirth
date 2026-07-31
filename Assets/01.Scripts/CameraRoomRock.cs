@@ -10,6 +10,7 @@ public class CameraRoomRock : Singleton<CameraRoomRock>
 
     protected override void Awake()
     {
+        isDDOL = false;
         base.Awake();
 
         halfWidth = 8.5f;

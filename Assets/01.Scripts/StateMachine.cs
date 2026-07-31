@@ -15,6 +15,7 @@ public interface IState
 public class StateMachine<T>
 {
     protected IState currentState;
+    public IState CurrentState => currentState;
     public T obj;
 
     public StateMachine(T owner)

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public enum DoorType
 {
-    NormalDoor, BossDoor, TreasureDoor, ShopDoor, SecretDoor
+    NormalDoor, BossDoor, TreasureDoor, ShopDoor, SecretDoor, EscapeDoor
 }
 
 abstract public class Door : MonoBehaviour
@@ -33,13 +33,13 @@ abstract public class Door : MonoBehaviour
     {
         animator.SetBool("isClear", true);
     }
-    public void SetTransform(DoorPos pos)
+    public virtual void SetTransform(DoorPos pos)
     {
         dir = pos.direction;
         transform.position = currentRoom.transform.position + pos.postion;
         transform.rotation = pos.rotation;
     }
-    public void SetRoom(Room currentRoom, Room nextRoom)
+    public virtual void SetRoom(Room currentRoom, Room nextRoom)
     {
         this.currentRoom = currentRoom;
         this.nextRoom = nextRoom;

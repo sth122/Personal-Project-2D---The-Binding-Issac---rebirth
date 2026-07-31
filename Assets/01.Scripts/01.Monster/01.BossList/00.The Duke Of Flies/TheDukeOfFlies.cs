@@ -46,10 +46,6 @@ public class TheDukeOfFlies : BossController
     {
         base.Dead();
     }
-    protected override void Appear()
-    {
-        StartAnimTime(mData.appearAnimTime, () => { stateMachine.ChangeState(mStateDic[MonsterCurrentState.Pattern]); });
-    }
 
     private Vector2 GetDirection()
     {
