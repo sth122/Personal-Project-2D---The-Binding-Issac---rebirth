@@ -18,7 +18,7 @@ public class IsaacSceneManager : Singleton<IsaacSceneManager>
 
         StartCoroutine(TranstionRoutine(sceneName, Color.white, duration));
     }
-    public void LoadSceneBlakcFade(string sceneName, float duration = 3f)
+    public void LoadSceneBlakcFade(string sceneName, float duration = 2f)
     {
         if (isTransitioning)
             return;

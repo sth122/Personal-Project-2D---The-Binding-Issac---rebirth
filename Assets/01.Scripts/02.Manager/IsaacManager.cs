@@ -35,14 +35,16 @@ public class IsaacManager : Singleton<IsaacManager>
             pickUpDic[type] = 1;
         }
 
+        isDie = false;
         HealthUIManager.Instance.UpdateHealthUI(currentIsaacInfo.hp, maxHP);
     }
 
-    public IsaacInfo GameStart()
+    public IsaacInfo IsaacStat()
     {
-        isDie = false;
         return currentIsaacInfo;
     }
+
+
     public void DecreaseHP(float damage, Action OnDie)
     {
         if (isDie) return;
