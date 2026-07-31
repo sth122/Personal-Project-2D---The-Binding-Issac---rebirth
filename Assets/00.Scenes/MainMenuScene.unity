@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 39352448}
   - component: {fileID: 39352447}
   m_Layer: 5
-  m_Name: FadeImage
+  m_Name: FadeInBlack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3410,7 +3410,7 @@ MonoBehaviour:
   gameMenuItems:
   - {fileID: 692820437}
   - {fileID: 260615238}
-  fadeImage: {fileID: 39352447}
+  iconImage: {fileID: 483959183}
   fadeDuration: 1.5
   fileSlotsCount: 0
   currentFileIdx: 0
@@ -3492,9 +3492,17 @@ MonoBehaviour:
   sfxSource: {fileID: 2055813768}
   introBGM: {fileID: 8300000, guid: f8b4d4aff7628ed4382f62b25827f410, type: 3}
   titleBGM: {fileID: 8300000, guid: 1fc57a60aae79334e9a0736de02287e9, type: 3}
-  loadSceneBGM: {fileID: 8300000, guid: 543399a05fd7281498556b123f0cf43e, type: 3}
+  loadGameSceneBGM: {fileID: 8300000, guid: 543399a05fd7281498556b123f0cf43e, type: 3}
   pageTurnSFX: {fileID: 8300000, guid: ffef70060ea80674c91ad5bec826af50, type: 3}
   scrollSFX: {fileID: 8300000, guid: 9cac2fa609e1b72489d01448257039b8, type: 3}
+  isaacHit:
+  - {fileID: 8300000, guid: 33b9b6e54d0381844862aab4654d5774, type: 3}
+  - {fileID: 8300000, guid: 4f20f938de36bcc46bcf49f91631569b, type: 3}
+  - {fileID: 8300000, guid: 32ae560d5360c174b8fc19eb7dd5d83a, type: 3}
+  isaacDie:
+  - {fileID: 8300000, guid: 8cf1d9a81342fde4da02bb6fc6a7006d, type: 3}
+  - {fileID: 8300000, guid: a1a6a06ddbe57e14f8111155ba5623a0, type: 3}
+  - {fileID: 8300000, guid: 372c1c3e644c720459c7b34c53287f43, type: 3}
 --- !u!4 &2055813767
 Transform:
   m_ObjectHideFlags: 0
@@ -3941,6 +3949,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b25bdcea0d5f78545b72806d6bc870a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  globalFadeCanvas: {fileID: 0}
+  globalFadeImage: {fileID: 0}
+  iconImage: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

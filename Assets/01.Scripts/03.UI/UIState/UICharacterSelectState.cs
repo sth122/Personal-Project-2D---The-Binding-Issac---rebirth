@@ -15,7 +15,8 @@ public class UICharacterSelectState : MainMenuState
 
     public override void OnSubmit()
     {
-        controller.StartGameTransition();
+        SoundManager.Instance.PlayLoadGameSceneBGM();
+        IsaacSceneManager.Instance.LoadSceneBlakcFade("GameScene");
     }
     public override void OnCancel()
     {

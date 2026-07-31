@@ -1,0 +1,34 @@
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+public class IsaacSceneManager : Singleton<IsaacSceneManager>
+{
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+
+    public void LoadSceneWhiteFade(string sceneName, float duration = 1f)
+    {
+        StartCoroutine(TranstionRoutine(sceneName, Color.white, duration));
+    }
+    public void LoadSceneBlakcFade(string sceneName, float duration = 2f)
+    {
+        StartCoroutine(TranstionRoutine(sceneName, Color.black, duration));
+    }
+
+    private IEnumerator TranstionRoutine(string sceneName, Color fadeColor, float fadeDuration)
+    {
+        // 신 넘어가는 Fade In 연출
+        yield return StartCoroutine(UIManager.Instance.FadeOutRoutuine(fadeColor, fadeDuration));
+        
+        // 신 이동
+        SceneManager.LoadScene(sceneName);
+
+        yield return new WaitForSeconds(0.1f);
+
+        // 신 넘어가는 Fade Out 연출
+        yield return StartCoroutine(UIManager.Instance.FadeInRoutine(fadeDuration));
+
+    }
+}
