@@ -1,0 +1,885 @@
+fileFormatVersion: 2
+guid: b9d4486617d60304cb861bb131662699
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7010781582906540005
+    second: door_10_bossroomdoor_0
+  - first:
+      213: -6592319055235439049
+    second: door_10_bossroomdoor_1
+  - first:
+      213: -6795836027869059757
+    second: door_10_bossroomdoor_2
+  - first:
+      213: -5941571384387765837
+    second: door_10_bossroomdoor_3
+  - first:
+      213: -8423820931449812642
+    second: door_10_bossroomdoor_4
+  - first:
+      213: 3012316437200240562
+    second: door_10_bossroomdoor_5
+  - first:
+      213: 2032784608493230904
+    second: door_10_bossroomdoor_6
+  - first:
+      213: -8761604461867756350
+    second: door_10_bossroomdoor_7
+  - first:
+      213: 980498523399650855
+    second: door_10_bossroomdoor_8
+  - first:
+      213: 6412771788704947597
+    second: door_10_bossroomdoor_9
+  - first:
+      213: 2075398898792724006
+    second: door_10_bossroomdoor_10
+  - first:
+      213: 799678340133993540
+    second: door_10_bossroomdoor_11
+  - first:
+      213: 3107311078917074191
+    second: door_10_bossroomdoor_12
+  - first:
+      213: 5982088226172073520
+    second: door_10_bossroomdoor_13
+  - first:
+      213: 3134865643660092974
+    second: door_10_bossroomdoor_14
+  - first:
+      213: 7521869670636015814
+    second: door_10_bossroomdoor_15
+  - first:
+      213: -475959710818412404
+    second: door_10_bossroomdoor_16
+  - first:
+      213: -8602035454122630115
+    second: door_10_bossroomdoor_17
+  - first:
+      213: 4444708306732607628
+    second: door_10_bossroomdoor_18
+  - first:
+      213: 4813639329186507737
+    second: door_10_bossroomdoor_19
+  - first:
+      213: 1165708656395505986
+    second: door_10_bossroomdoor_20
+  - first:
+      213: 6469860941240219906
+    second: door_10_bossroomdoor_21
+  - first:
+      213: -4543101075120133653
+    second: door_10_bossroomdoor_22
+  - first:
+      213: 6311624064765011114
+    second: door_10_bossroomdoor_23
+  - first:
+      213: -1418561104276082771
+    second: door_10_bossroomdoor_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 197
+        width: 63
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1041098b43b4be90800000000000000
+      internalID: -7010781582906540005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_100
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 201
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73627a23fb06384a0800000000000000
+      internalID: -6592319055235439049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 223
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3552017732750b1a0800000000000000
+      internalID: -6795836027869059757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 207
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9f0f14e4c4b8da0800000000000000
+      internalID: -5941571384387765837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 223
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e590f618e73981b80800000000000000
+      internalID: -8423820931449812642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 212
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bff366f6d5edc920800000000000000
+      internalID: 3012316437200240562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 223
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bde1ec4d6e53c10800000000000000
+      internalID: 2032784608493230904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 216
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c415e3b927886680800000000000000
+      internalID: -8761604461867756350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_8
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 223
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ef70e463e6b9d00800000000000000
+      internalID: 980498523399650855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 194
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d976b27fdbef850800000000000000
+      internalID: 6412771788704947597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 153
+        width: 15
+        height: 23
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626f6c17d4c4dcc10800000000000000
+      internalID: 2075398898792724006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 153
+        width: 17
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cb246a637091b00800000000000000
+      internalID: 799678340133993540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 175
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dec7986f26f1b20800000000000000
+      internalID: 3107311078917074191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 159
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03678081c85a40350800000000000000
+      internalID: 5982088226172073520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 175
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26afe491b7418b20800000000000000
+      internalID: 3134865643660092974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 164
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c05b05ec9c036860800000000000000
+      internalID: 7521869670636015814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 175
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88554d2a2d0569f0800000000000000
+      internalID: -475959710818412404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 168
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1464bb745e6f9880800000000000000
+      internalID: -8602035454122630115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 175
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c886609e7a6cead30800000000000000
+      internalID: 4444708306732607628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 146
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbe205577b7dc240800000000000000
+      internalID: 4813639329186507737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2415d08c8dd6d2010800000000000000
+      internalID: 1165708656395505986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 104
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2093ccc4f3099c950800000000000000
+      internalID: 6469860941240219906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_22
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 104
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9e4ce74a9a3f0c0800000000000000
+      internalID: -4543101075120133653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_23
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 127
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4202085a4679750800000000000000
+      internalID: 6311624064765011114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf20770132405ce0800000000000000
+      internalID: -1418561104276082771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbf3de0983fa45438360692a7a2baeb
+      internalID: -208821792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 63
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123e7723e8b7cc749a2fe6b02b9d3353
+      internalID: -1365118940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 47
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1637f77cbf212a449f4ba4ae7a4af55
+      internalID: 79215733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_10_bossroomdoor_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 64
+        height: 38
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b881cbe3b8f88f24f83ddbb433af236b
+      internalID: -1316550452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0a30a8ce9339c65458b1f881e06aaf62
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      door_10_bossroomdoor_0: -7010781582906540005
+      door_10_bossroomdoor_10: 2075398898792724006
+      door_10_bossroomdoor_100: -6592319055235439049
+      door_10_bossroomdoor_11: 799678340133993540
+      door_10_bossroomdoor_12: 3107311078917074191
+      door_10_bossroomdoor_13: 5982088226172073520
+      door_10_bossroomdoor_14: 3134865643660092974
+      door_10_bossroomdoor_15: 7521869670636015814
+      door_10_bossroomdoor_16: -475959710818412404
+      door_10_bossroomdoor_17: -8602035454122630115
+      door_10_bossroomdoor_18: 4444708306732607628
+      door_10_bossroomdoor_19: 4813639329186507737
+      door_10_bossroomdoor_2: -6795836027869059757
+      door_10_bossroomdoor_20: 1165708656395505986
+      door_10_bossroomdoor_21: 6469860941240219906
+      door_10_bossroomdoor_22: -4543101075120133653
+      door_10_bossroomdoor_23: 6311624064765011114
+      door_10_bossroomdoor_24: -208821792
+      door_10_bossroomdoor_25: -1365118940
+      door_10_bossroomdoor_26: -1418561104276082771
+      door_10_bossroomdoor_27: 79215733
+      door_10_bossroomdoor_28: -1316550452
+      door_10_bossroomdoor_3: -5941571384387765837
+      door_10_bossroomdoor_4: -8423820931449812642
+      door_10_bossroomdoor_5: 3012316437200240562
+      door_10_bossroomdoor_6: 2032784608493230904
+      door_10_bossroomdoor_7: -8761604461867756350
+      door_10_bossroomdoor_8: 980498523399650855
+      door_10_bossroomdoor_9: 6412771788704947597
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

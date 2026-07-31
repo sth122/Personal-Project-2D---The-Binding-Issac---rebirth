@@ -1,7 +1,4 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class UICharacterSelectState : MainMenuState
+﻿public class UICharacterSelectState : MainMenuState
 {
     public UICharacterSelectState(MainMenuController controller) : base(controller)
     {
@@ -15,7 +12,6 @@ public class UICharacterSelectState : MainMenuState
 
     public override void OnSubmit()
     {
-        SoundManager.Instance.PlayLoadGameSceneBGM();
         IsaacSceneManager.Instance.LoadSceneBlakcFade("GameScene");
     }
     public override void OnCancel()

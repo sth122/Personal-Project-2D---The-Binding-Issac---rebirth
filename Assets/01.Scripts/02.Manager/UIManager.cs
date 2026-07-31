@@ -45,7 +45,7 @@ public class UIManager : Singleton<UIManager>
             globalFadeImage.color = color;
             yield return null;
         }
-
+             
         globalFadeImage.raycastTarget = false;
         globalFadeCanvas.gameObject.SetActive(false);
     }

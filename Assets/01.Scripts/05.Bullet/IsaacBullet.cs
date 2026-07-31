@@ -90,7 +90,10 @@ abstract public class IsaacBullet : MonoBehaviour, IReturnPool
     {
         this.dir = dir;
     }
-    public abstract void ReturnPool();
+    public virtual void ReturnPool()
+    {
+        SoundManager.Instance.PlayTearBlockSFX();
+    }
 
     IEnumerator GravityDelay()
     {

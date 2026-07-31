@@ -3,6 +3,7 @@
 public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T _instance;
+    protected bool isDDOL = true;
 
     public static T Instance
     {
@@ -15,7 +16,6 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
                 {
                     GameObject obj = new GameObject(typeof(T).Name);
                     _instance = obj.AddComponent<T>();
-                    DontDestroyOnLoad(obj);
                 }
             }
             return _instance;
@@ -26,8 +26,20 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {
         if (_instance == null)
         {
-            _instance = this as T;
-            DontDestroyOnLoad(gameObject);
+            if (isDDOL)
+            {
+                _instance = this as T;
+
+                if (transform.parent == null)
+                {
+                    DontDestroyOnLoad(gameObject);
+                }
+                else
+                {
+                    transform.SetParent(null);
+                    DontDestroyOnLoad(gameObject);
+                }
+            }
             Initialize();
         }
         else if (_instance != this)

@@ -97,7 +97,7 @@ public class MainMenuController : MonoBehaviour
         state = nextState;
 
         stateMachine.ChangeState(uiStateDic[nextState]);
-        SoundManager.Instance.PlayPageTurn();
+        SoundManager.Instance.PlayPageTurnSFX();
     }
 
     public void UpdateFileSlotUI()

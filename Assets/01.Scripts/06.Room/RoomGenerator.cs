@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public enum RoomType
 {
-    StartRoom, NormalRoom, BossRoom, TreasureRoom, ShopRoom, SecretRoom, DevilRoom, AngelRoom
+    StartRoom, NormalRoom, BossRoom, TreasureRoom, ShopRoom, SecretRoom, DevilRoom, AngelRoom, EscapeRoom
 }
 
 public struct RoomDepth

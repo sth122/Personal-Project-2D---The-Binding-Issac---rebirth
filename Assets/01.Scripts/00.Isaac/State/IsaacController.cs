@@ -128,7 +128,7 @@ public class IsaacController : MonoBehaviour, ITakeDamageable
     }
 
     // 미완성 상태
-    private void GoToNextStage()
+    public void GoToNextStage()
     {
         // 스테이지 클리어 순서
         // 지하로 내려가는 오브젝트 충돌 시 -> FallDown 애님 시작

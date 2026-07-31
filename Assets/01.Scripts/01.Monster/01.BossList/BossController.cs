@@ -65,4 +65,10 @@ abstract public class BossController : MonsterController, IPatternable
     }
 
     protected abstract void ExcutePattern();
+
+    public override void ReturnPool()
+    {
+        base.ReturnPool();
+        StageManager.Instance.BossClear();
+    }
 }

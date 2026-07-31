@@ -24,6 +24,7 @@ public class RoomManager : Singleton<RoomManager>
 
     protected override void Awake()
     {
+        isDDOL = false;
         base.Awake();
         roomGenerator = new RoomGenerator();
         roomsList = new List<Room>();
@@ -77,6 +78,11 @@ public class RoomManager : Singleton<RoomManager>
         currentRoom.DoorStateUpdate();
         CameraRoomRock.Instance.SetCameraPosition(nextRoom.transform);
         IsaacManager.Instance.isaac.transform.position = nextRoom.TelePort(dir);
+
+        if(currentRoom.roomType == RoomType.BossRoom)
+        {
+            currentRoom.EnterBossRoom();
+        }
     }
 
     private void ConnectRoom()
@@ -92,6 +98,14 @@ public class RoomManager : Singleton<RoomManager>
                 }
             }
             vec2.Value.DoorInstall();
+        }
+    }
+
+    public void SetEscapeRoom()
+    {
+        if(currentRoom.roomType == RoomType.BossRoom)
+        {
+            currentRoom.SetEscapeDoor(true);
         }
     }
 }

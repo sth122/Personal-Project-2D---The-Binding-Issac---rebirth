@@ -43,6 +43,7 @@ public class Eyes : IsaacWeapon
             {
                 Debug.Log("Bullet null error");
             }
+            SoundManager.Instance.PlayTearFireSFX();
         }
     }
 

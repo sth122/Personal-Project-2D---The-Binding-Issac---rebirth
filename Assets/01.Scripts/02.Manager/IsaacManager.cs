@@ -41,13 +41,11 @@ public class IsaacManager : Singleton<IsaacManager>
         isDie = false;
         return currentIsaacInfo;
     }
-
-
     public void DecreaseHP(float damage, Action OnDie)
     {
         if (isDie) return;
 
-        SoundManager.Instance.PlayIsaacHit();
+        SoundManager.Instance.PlayIsaacHitSFX();
 
         Debug.Log("데미지");
         currentIsaacInfo.hp -= damage;
@@ -70,12 +68,12 @@ public class IsaacManager : Singleton<IsaacManager>
 
     public void IsaacDie()
     {
-        SoundManager.Instance.PlayIsaacDie();
+        SoundManager.Instance.PlayIsaacDieSFX();
         // UIManager에서 연결
     }
-    private void SetDamage()
+    public void GoToNextStage()
     {
-        // 아이템 계산 적용
+        isaac.GetComponent<IsaacController>().GoToNextStage();
     }
 
     #region Item Method

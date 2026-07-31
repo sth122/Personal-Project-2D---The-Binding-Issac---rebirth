@@ -18,6 +18,7 @@ public class Room : MonoBehaviour
     public RoomType roomType;
     public Dictionary<DirectionsEnum, Room> connectRoom;
     private DoorData doorData;
+    private GameObject escapeDoor;
 
     public Tilemap wallTilemap;
     public TileBase wall;
@@ -147,6 +148,7 @@ public class Room : MonoBehaviour
             isDespawning = true;
 
             SpawnManager.Instance.DeSpawn(entityList, (obj) => obj.layer == LayerMask.NameToLayer("Monster"));
+            entityList.RemoveAll((obj) => obj.layer == LayerMask.NameToLayer("Monster"));
             isRetry = true;
 
             isDespawning = false;
@@ -194,6 +196,13 @@ public class Room : MonoBehaviour
                 SetWallTilemap(dir, null);
             }
         }
+        if (roomType == RoomType.BossRoom)
+        {
+            escapeDoor = SpawnManager.Instance.SpawnDoor(DirectionsEnum.Center, this, this);
+            if (escapeDoor == null)
+                Debug.LogError("Escape door 문제");
+            escapeDoor.SetActive(false);
+        }
     }
 
     private void SetWallTilemap(DirectionsEnum dir, TileBase tile)
@@ -221,17 +230,29 @@ public class Room : MonoBehaviour
 
     public void DoorStateUpdate()
     {
-        if(doors == null)
+        if (doors == null)
         {
             Debug.LogError("DoorStateUpdate doors null error");
         }
 
         foreach (var doorObj in doors)
         {
-            if(doorObj.TryGetComponent<Door>(out Door door))
+            if (doorObj.TryGetComponent<Door>(out Door door))
             {
                 door.SetDoorState(isClear);
             }
         }
+    }
+
+    public void SetEscapeDoor(bool isClear)
+    {
+        escapeDoor.SetActive(isClear);
+    }
+
+    public void EnterBossRoom()
+    {
+        if (!isClear)
+            BossRoomManager.Instance.ShowBossIntro();
+        else return;
     }
 }
