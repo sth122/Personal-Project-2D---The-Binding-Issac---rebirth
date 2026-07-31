@@ -47,6 +47,8 @@ public class IsaacManager : Singleton<IsaacManager>
     {
         if (isDie) return;
 
+        SoundManager.Instance.PlayIsaacHit();
+
         Debug.Log("데미지");
         currentIsaacInfo.hp -= damage;
         if (currentIsaacInfo.hp <= 0)
@@ -68,6 +70,7 @@ public class IsaacManager : Singleton<IsaacManager>
 
     public void IsaacDie()
     {
+        SoundManager.Instance.PlayIsaacDie();
         // UIManager에서 연결
     }
     private void SetDamage()

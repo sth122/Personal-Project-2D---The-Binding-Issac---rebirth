@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem.XR;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public enum UICurrentState
@@ -18,9 +15,8 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private FileSlotUI[] fileSlots;
     [SerializeField] private RectTransform cursorIcon;
     [SerializeField] private RectTransform[] gameMenuItems;
-    [SerializeField] private Image fadeImage;
     [SerializeField] private Image iconImage;
-    [SerializeField]private float fadeDuration = 1.5f;
+    [SerializeField] private float fadeDuration;
     public int fileSlotsCount;
     public int currentFileIdx = 0;
     public int gameMenuItemsCount;
@@ -70,6 +66,7 @@ public class MainMenuController : MonoBehaviour
     private void OnDisable()
     {
         inputAction.Disable();
+        StopAllCoroutines();
     }
 
 
@@ -143,41 +140,4 @@ public class MainMenuController : MonoBehaviour
         targetPos.y = gameMenuItems[currentGameMenuIdx].anchoredPosition.y;
         cursorIcon.anchoredPosition = targetPos;
     }
-
-    public void StartGameTransition()
-    {
-        // 입력 중복 방지
-        inputAction.Disable();
-
-        StartCoroutine(FadeAndLoadScene("GameScene"));
-    }
-
-    private IEnumerator FadeAndLoadScene(string sceneName)
-    {
-        SoundManager.Instance.PlayLoadSceneBGM();
-
-        if(fadeImage != null)
-        {
-            fadeImage.gameObject.SetActive(true);
-
-            float time = 0f;
-            Color color = fadeImage.color;
-
-            while(time < fadeDuration)
-            {
-                time += Time.deltaTime;
-                color.a = Mathf.Clamp01(time / fadeDuration);
-                fadeImage.color = color;
-                yield return null;
-            }
-        }
-        else
-        {
-            Debug.LogError("fadeImage null");
-            yield return null;
-        }
-
-        SceneManager.LoadScene(sceneName);
-    }
-
 }

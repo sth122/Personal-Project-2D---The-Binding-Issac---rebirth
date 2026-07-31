@@ -1,4 +1,5 @@
-using System.Collections;
+﻿using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 
@@ -8,13 +9,20 @@ public class SoundManager : Singleton<SoundManager>
 
     [SerializeField] private AudioSource sfxSource;
 
-    [SerializeField] private AudioClip introBGM;    
+    #region mainMenu
+    [SerializeField] private AudioClip introBGM;
     [SerializeField] private AudioClip titleBGM;
-    [SerializeField] private AudioClip loadSceneBGM;
-
+    [SerializeField] private AudioClip loadGameSceneBGM;
     [SerializeField] private AudioClip pageTurnSFX;
-
     [SerializeField] private AudioClip scrollSFX;
+    #endregion
+
+    #region inGame
+    [SerializeField] private AudioClip[] isaacHit;
+    [SerializeField] private AudioClip[] isaacDie;
+
+    private Coroutine currentBGMCoroutine;
+    #endregion
     protected override void Awake()
     {
         base.Awake();
@@ -29,7 +37,7 @@ public class SoundManager : Singleton<SoundManager>
     {
         if (introBGM != null && titleBGM != null)
         {
-            StartCoroutine(IntroToTitleBGM());
+            currentBGMCoroutine = StartCoroutine(IntroToTitleBGM());
         }
         else
         {
@@ -39,19 +47,32 @@ public class SoundManager : Singleton<SoundManager>
     }
     private IEnumerator IntroToTitleBGM()
     {
-        bgmSource.clip = introBGM;
-        bgmSource.loop = false;
-        bgmSource.Play();
+        PlayBgm(introBGM, false);
 
         yield return new WaitForSeconds(introBGM.length - 1.22f);
 
-        bgmSource.clip = titleBGM;
-        bgmSource.loop = true;
-        bgmSource.Play();
+        PlayBgm(titleBGM, true);
+
+        currentBGMCoroutine = null;
+    }
+    private void StopCurrentBGMCoroutine()
+    {
+        if (currentBGMCoroutine != null)
+        {
+            StopCoroutine(currentBGMCoroutine);
+            currentBGMCoroutine = null;
+        }
     }
 
     private void PlayBgm(AudioClip clip, bool isLoop)
     {
+        StopCurrentBGMCoroutine();
+
+        if (clip == null)
+        {
+            Debug.LogError("PlayBgm clip null error");
+            return;
+        }
         bgmSource.clip = clip;
         bgmSource.loop = isLoop;
         bgmSource.Play();
@@ -66,20 +87,26 @@ public class SoundManager : Singleton<SoundManager>
         sfxSource.PlayOneShot(clip);
     }
 
-    public void PlayLoadSceneBGM()
+    public void PlayLoadGameSceneBGM() => PlayBgm(loadGameSceneBGM, false);
+
+    public void PlayPageTurn() => PlaySFX(pageTurnSFX);
+
+    public void PlayScrollSFX() => PlaySFX(scrollSFX);
+
+    public void PlayIsaacHit()
     {
-        PlayBgm(loadSceneBGM, false);
+        int cnt = isaacHit.Length;
+        int idx = Random.Range(0, cnt);
+        PlaySFX(isaacHit[idx]);
+    }
+    public void PlayIsaacDie()
+    {
+        int cnt = isaacDie.Length;
+        int idx = Random.Range(0, cnt);
+
+        PlaySFX(isaacDie[idx]);
     }
 
-    public void PlayPageTurn()
-    {
-        PlaySFX(pageTurnSFX);
-    }
-
-    public void PlayScrollSFX()
-    {
-        PlaySFX(scrollSFX);
-    }
 
 }
 
