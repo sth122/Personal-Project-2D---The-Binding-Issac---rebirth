@@ -42,7 +42,7 @@ abstract public class BossController : MonsterController, IPatternable
             BossHealthManager.Instance.ShowBossHealthBar(mData.totalHp);
         });
     }
-    public void IPattern()
+    public virtual void IPattern()
     {
         StartCoroutine(BossPatternCoroutine());
     }
