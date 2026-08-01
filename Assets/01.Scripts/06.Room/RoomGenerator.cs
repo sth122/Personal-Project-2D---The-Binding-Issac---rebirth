@@ -126,8 +126,7 @@ public class RoomGenerator
     /// </summary>
     private void GenerateRooms()
     {
-        // Stack
-        while (roomStack.Count > 0 && roomsGenerated < roomCount)
+        while (roomStack.Count > 0 && roomsGenerated < roomCount)   // Stack
         {
             RoomDepth currentRoom = roomStack.Peek();
             bool isCreate = false;
@@ -147,8 +146,7 @@ public class RoomGenerator
 
             if (!isCreate)
             {
-                // 다음 방 생성 실패 시 Pop
-                roomStack.Pop();
+                roomStack.Pop(); // 다음 방 생성 실패 시 Pop
             }
         }
     }
