@@ -8,6 +8,11 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private Image globalFadeImage;
     [SerializeField] private Image iconImage;
 
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+
     public IEnumerator FadeOutRoutuine(Color targetColor, float fadeDuration)
     {
         globalFadeCanvas.gameObject.SetActive(true);
@@ -45,7 +50,7 @@ public class UIManager : Singleton<UIManager>
             globalFadeImage.color = color;
             yield return null;
         }
-
+             
         globalFadeImage.raycastTarget = false;
         globalFadeCanvas.gameObject.SetActive(false);
     }

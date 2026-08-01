@@ -20,6 +20,7 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
 
     protected override void Awake()
     {
+        isDDOL = false;
         base.Awake();
     }
 

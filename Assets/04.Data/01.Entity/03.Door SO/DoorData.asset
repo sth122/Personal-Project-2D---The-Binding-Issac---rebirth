@@ -16,6 +16,7 @@ MonoBehaviour:
   - doorType: 0
   - doorType: 1
   - doorType: 2
+  - doorType: 5
   doorPos:
   - direction: 0
     rotation: {x: 0, y: 0, z: 0, w: 0}
@@ -29,6 +30,9 @@ MonoBehaviour:
   - direction: 3
     rotation: {x: 0, y: 0, z: 0.70710677, w: -0.70710677}
     postion: {x: 15, y: 5.5, z: 0}
+  - direction: 4
+    rotation: {x: 0, y: 0, z: 0.70710677, w: -0.70710677}
+    postion: {x: 8.5, y: 5.5, z: 0}
   teleportPos:
   - direction: 0
     position: {x: 8.5, y: 2.5, z: 0}

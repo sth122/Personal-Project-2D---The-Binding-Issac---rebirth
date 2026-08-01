@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Linq;
 using UnityEngine;
 
 
@@ -10,7 +9,6 @@ public class SoundManager : Singleton<SoundManager>
     [SerializeField] private AudioSource sfxSource;
 
     #region mainMenu
-    [SerializeField] private AudioClip introBGM;
     [SerializeField] private AudioClip titleBGM;
     [SerializeField] private AudioClip loadGameSceneBGM;
     [SerializeField] private AudioClip pageTurnSFX;
@@ -18,26 +16,37 @@ public class SoundManager : Singleton<SoundManager>
     #endregion
 
     #region inGame
-    [SerializeField] private AudioClip[] isaacHit;
-    [SerializeField] private AudioClip[] isaacDie;
+    [SerializeField] private AudioClip stageBGM;
+    [SerializeField] private AudioClip bossRoomBGM;
+    [SerializeField] private AudioClip bossClearBGM;
 
+
+    [SerializeField] private AudioClip enterTheBossRoomSFX;
+    [SerializeField] private AudioClip[] isaacHitSFX;
+    [SerializeField] private AudioClip[] isaacDieSFX;
+    [SerializeField] private AudioClip tearFireSFX;
+    [SerializeField] private AudioClip tearBlockSFX;
+
+
+    [SerializeField] private AudioClip bossDieSFX;
     private Coroutine currentBGMCoroutine;
     #endregion
     protected override void Awake()
     {
         base.Awake();
     }
-
-    private void Start()
+    public void PlayStop()
     {
-        PlayIntroTitleBGM();
+        bgmSource.Stop();
+        sfxSource.Stop();
     }
 
+    #region BGM
     public void PlayIntroTitleBGM()
     {
-        if (introBGM != null && titleBGM != null)
+        if (titleBGM != null)
         {
-            currentBGMCoroutine = StartCoroutine(IntroToTitleBGM());
+            PlayBgm(titleBGM, true);
         }
         else
         {
@@ -45,16 +54,18 @@ public class SoundManager : Singleton<SoundManager>
             return;
         }
     }
-    private IEnumerator IntroToTitleBGM()
+
+    private IEnumerator CoroutineBGM(AudioClip firstClip, AudioClip nextClip)
     {
-        PlayBgm(introBGM, false);
+        PlayBgm(firstClip, false);
 
-        yield return new WaitForSeconds(introBGM.length - 1.22f);
+        yield return new WaitForSeconds(firstClip.length);
 
-        PlayBgm(titleBGM, true);
+        PlayBgm(nextClip, true);
 
         currentBGMCoroutine = null;
     }
+
     private void StopCurrentBGMCoroutine()
     {
         if (currentBGMCoroutine != null)
@@ -77,6 +88,12 @@ public class SoundManager : Singleton<SoundManager>
         bgmSource.loop = isLoop;
         bgmSource.Play();
     }
+    public void PlayLoadGameSceneBGM() => currentBGMCoroutine = StartCoroutine(CoroutineBGM(loadGameSceneBGM, stageBGM));
+
+    public void PlayBossRoomBGM() => PlayBgm(bossRoomBGM, true);
+    #endregion
+
+    #region SFX
     private void PlaySFX(AudioClip clip)
     {
         if (clip == null)
@@ -87,26 +104,35 @@ public class SoundManager : Singleton<SoundManager>
         sfxSource.PlayOneShot(clip);
     }
 
-    public void PlayLoadGameSceneBGM() => PlayBgm(loadGameSceneBGM, false);
-
-    public void PlayPageTurn() => PlaySFX(pageTurnSFX);
+    public void PlayPageTurnSFX() => PlaySFX(pageTurnSFX);
 
     public void PlayScrollSFX() => PlaySFX(scrollSFX);
-
-    public void PlayIsaacHit()
+    public void PlayTearFireSFX() => PlaySFX(tearFireSFX);
+    public void PlayTearBlockSFX() => PlaySFX(tearBlockSFX);
+    public void PlayEnterTheBossRoomSFX()
     {
-        int cnt = isaacHit.Length;
-        int idx = Random.Range(0, cnt);
-        PlaySFX(isaacHit[idx]);
+        bgmSource.Stop();
+        PlaySFX(enterTheBossRoomSFX);
     }
-    public void PlayIsaacDie()
+    public void PlayIsaacHitSFX()
     {
-        int cnt = isaacDie.Length;
+        int cnt = isaacHitSFX.Length;
+        int idx = Random.Range(0, cnt);
+        PlaySFX(isaacHitSFX[idx]);
+    }
+    public void PlayIsaacDieSFX()
+    {
+        int cnt = isaacDieSFX.Length;
         int idx = Random.Range(0, cnt);
 
-        PlaySFX(isaacDie[idx]);
+        PlaySFX(isaacDieSFX[idx]);
     }
+    #endregion
 
-
+    public void PlayStageClearBGM()
+    {
+        PlaySFX(bossDieSFX);
+        PlayBgm(bossClearBGM, false);
+    }
 }
 

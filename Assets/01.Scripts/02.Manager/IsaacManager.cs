@@ -34,6 +34,8 @@ public class IsaacManager : Singleton<IsaacManager>
         {
             pickUpDic[type] = 1;
         }
+
+        HealthUIManager.Instance.UpdateHealthUI(currentIsaacInfo.hp, maxHP);
     }
 
     public IsaacInfo GameStart()
@@ -41,13 +43,11 @@ public class IsaacManager : Singleton<IsaacManager>
         isDie = false;
         return currentIsaacInfo;
     }
-
-
     public void DecreaseHP(float damage, Action OnDie)
     {
         if (isDie) return;
 
-        SoundManager.Instance.PlayIsaacHit();
+        SoundManager.Instance.PlayIsaacHitSFX();
 
         Debug.Log("데미지");
         currentIsaacInfo.hp -= damage;
@@ -57,6 +57,7 @@ public class IsaacManager : Singleton<IsaacManager>
             isDie = true;
             OnDie?.Invoke();
         }
+        HealthUIManager.Instance.UpdateHealthUI(currentIsaacInfo.hp, maxHP);
     }
 
     /// <summary>
@@ -70,12 +71,12 @@ public class IsaacManager : Singleton<IsaacManager>
 
     public void IsaacDie()
     {
-        SoundManager.Instance.PlayIsaacDie();
+        SoundManager.Instance.PlayIsaacDieSFX();
         // UIManager에서 연결
     }
-    private void SetDamage()
+    public void GoToNextStage()
     {
-        // 아이템 계산 적용
+        isaac.GetComponent<IsaacController>().EnterEscapeDoor();
     }
 
     #region Item Method
@@ -97,7 +98,9 @@ public class IsaacManager : Singleton<IsaacManager>
         }
         OnRecovery?.Invoke();
         Debug.Log($"{currentIsaacInfo.hp}");
+
         // UI 관련 호출
+        HealthUIManager.Instance.UpdateHealthUI(currentIsaacInfo.hp, maxHP);
     }
 
     public void HPCheck(Action OnRecovery)

@@ -35,8 +35,14 @@ abstract public class BossController : MonsterController, IPatternable
         base.FixedUpdate();
     }
 
-
-    public void IPattern()
+    protected override void Appear()
+    {
+        StartAnimTime(mData.appearAnimTime, () => { 
+            stateMachine.ChangeState(mStateDic[MonsterCurrentState.Pattern]);
+            BossHealthManager.Instance.ShowBossHealthBar(mData.totalHp);
+        });
+    }
+    public virtual void IPattern()
     {
         StartCoroutine(BossPatternCoroutine());
     }
@@ -44,6 +50,7 @@ abstract public class BossController : MonsterController, IPatternable
     public override void Dead()
     {
         base.Dead();
+        BossHealthManager.Instance.HideBossHealthBar();
     }
 
     public override IEnumerator HitFlash()
@@ -65,4 +72,16 @@ abstract public class BossController : MonsterController, IPatternable
     }
 
     protected abstract void ExcutePattern();
+
+    public override void ReturnPool()
+    {
+        base.ReturnPool();
+        StageManager.Instance.BossClear();
+    }
+
+    public override void TakeDamage(float damage, Vector2 damageDir)
+    {
+        base.TakeDamage(damage, damageDir);
+        BossHealthManager.Instance.UpdateBossHealth(mData.totalHp);
+    }
 }

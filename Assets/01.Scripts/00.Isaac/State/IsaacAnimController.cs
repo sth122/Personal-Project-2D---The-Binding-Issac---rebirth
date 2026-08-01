@@ -134,6 +134,5 @@ public class IsaacAnimController : MonoBehaviour
     public void FallDownAnim()
     {
         SetAnimTrigger(IsaacAnimState.FallDown, true);
-        SetAnimTrigger(IsaacAnimState.Appear, true);
     }
 }
