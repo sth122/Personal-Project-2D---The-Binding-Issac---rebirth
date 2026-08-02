@@ -26,9 +26,16 @@ public class RoomManager : Singleton<RoomManager>
     {
         isDDOL = false;
         base.Awake();
+
         roomGenerator = new RoomGenerator();
         roomsList = new List<Room>();
         spawnRoomMap = new Dictionary<Vector2Int, Room>();
+    }
+
+
+    protected override void Initialize()
+    {
+        base.Initialize();
     }
 
     private void OnDisable()
