@@ -12,6 +12,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cd8f46301a232d49b1b1ad2b4cb2a61, type: 3}
   m_Name: RoomLayout
   m_EditorClassIdentifier: Assembly-CSharp::RoomLayoutData
+  Rooms:
+  - spawnInfos:
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
+  - spawnInfos:
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
+  - spawnInfos:
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
+  Rooms2:
+  - spawnInfos:
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
+  - spawnInfos:
+    - entityType: 0
+      id: 0
+      position: {x: 0, y: 0, z: 0}
   startRoom:
   - spawnInfos: []
   normalRoom:

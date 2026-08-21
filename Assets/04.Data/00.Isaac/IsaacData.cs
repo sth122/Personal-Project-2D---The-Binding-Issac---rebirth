@@ -18,8 +18,6 @@ public class IsaacInfo
     public float shootSpeed;    // 투사체 속도
     public float speed; // 이동 속도
     public float luck;
-    public float deamonProbability;
-    public float angelProbability;
 
     public IsaacInfo(int isaacID, string isaacName, float hp, float damage, float tearsDelay, float range, float shootSpeed, float speed, float luck)
     {
