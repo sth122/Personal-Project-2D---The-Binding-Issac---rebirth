@@ -68,7 +68,7 @@ abstract public class IsaacBullet : MonoBehaviour, IReturnPool
             }
             ReturnPool();
         }
-        else if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        else if (collision.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
         {
             ReturnPool();
         }

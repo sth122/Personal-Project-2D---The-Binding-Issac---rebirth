@@ -27,7 +27,11 @@ public class RoomLayoutData : ScriptableObject
         ....
      */
 
+    public List<RoomList> Rooms = new();
+    public List<RoomList2> Rooms2 = new();
+
     public List<RoomEntityData> startRoom = new();
+
     public List<RoomEntityData> normalRoom = new();
     public List<RoomEntityData> bossRoom = new();
     public List<RoomEntityData> treasureRoom = new();
@@ -45,9 +49,23 @@ public class RoomLayoutData : ScriptableObject
 }
 
 [Serializable]
+public class RoomList2
+{
+    public List<SpawnInfo> spawnInfos;
+}
+
+[Serializable]
+public struct RoomList
+{
+    public RoomType roomType;
+    public List<SpawnInfo> spawnInfos;
+}
+
+[Serializable]
 public class RoomEntityData
 {
     public List<SpawnInfo> spawnInfos;
+
     public RoomEntityData Clone()
     {
         List<SpawnInfo> cloneInfos = new();

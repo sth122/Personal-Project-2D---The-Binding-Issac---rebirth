@@ -40,7 +40,19 @@ public class IsaacInput : MonoBehaviour
 
     private void OnEnable()
     {
-        InputActions.Enable();
+        IsaacActions.Disable();
+
+        IsaacActions.LeftAttack.performed -= OnLeftPressed;
+        IsaacActions.LeftAttack.canceled -= OnLeftReleased;
+
+        IsaacActions.RigthAttack.performed -= OnRightPressed;
+        IsaacActions.RigthAttack.canceled -= OnRightReleased;
+
+        IsaacActions.UpAttack.performed -= OnUpPressed;
+        IsaacActions.UpAttack.canceled -= OnUpReleased;
+
+        IsaacActions.DownAttack.performed -= OnDownPressed;
+        IsaacActions.DownAttack.canceled -= OnDownReleased;
 
         IsaacActions.LeftAttack.performed += OnLeftPressed;
         IsaacActions.LeftAttack.canceled += OnLeftReleased;
@@ -53,10 +65,12 @@ public class IsaacInput : MonoBehaviour
 
         IsaacActions.DownAttack.performed += OnDownPressed;
         IsaacActions.DownAttack.canceled += OnDownReleased;
+
+        IsaacActions.Enable();
     }
     private void OnDisable()
     {
-        InputActions.Disable();
+        IsaacActions.Disable();
 
         IsaacActions.LeftAttack.performed -= OnLeftPressed;
         IsaacActions.LeftAttack.canceled -= OnLeftReleased;

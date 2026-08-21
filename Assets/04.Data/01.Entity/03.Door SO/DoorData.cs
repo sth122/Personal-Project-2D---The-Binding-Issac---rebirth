@@ -6,11 +6,6 @@ using UnityEngine;
 public struct DoorInfo
 {
     public DoorType doorType;
-
-    public DoorInfo(DoorType doorType)
-    {
-        this.doorType = doorType;
-    }
 }
 
 [Serializable]
